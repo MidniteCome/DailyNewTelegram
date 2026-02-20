@@ -1,7 +1,8 @@
 import fs from "node:fs/promises";
+import { execSync } from "node:child_process";
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
-const CHAT_ID = process.env.TG_CHAT_ID;
+const CHAT_ID = process.env.TG_CHAT_ID; // e.g. "@your_channel"
 const TZ = "Europe/London";
 
 if (!BOT_TOKEN || !CHAT_ID) {
@@ -9,20 +10,22 @@ if (!BOT_TOKEN || !CHAT_ID) {
 }
 
 const cfg = JSON.parse(await fs.readFile("sources.json", "utf8"));
+const SENT_FILE = ".last_sent.json";
 
 function londonYmd(date = new Date()) {
   const fmt = new Intl.DateTimeFormat("en-CA", {
     timeZone: TZ,
     year: "numeric",
     month: "2-digit",
-    day: "2-digit"
+    day: "2-digit",
   });
-  return fmt.format(date);
+  return fmt.format(date); // YYYY-MM-DD
 }
 
-function isYesterdayInLondon(pubDate) {
-  const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000);
-  return londonYmd(pubDate) === londonYmd(yesterday);
+function yesterdayYmdLondon() {
+  const now = new Date();
+  // 用“现在时间 - 24h”取昨天日期，再按伦敦时区格式化（日报够用且稳定）
+  return londonYmd(new Date(now.getTime() - 24 * 60 * 60 * 1000));
 }
 
 function escapeHtml(s) {
@@ -39,11 +42,12 @@ async function fetchText(url) {
   return await res.text();
 }
 
+// Minimal RSS/Atom parser: title/link/pubDate
 function parseFeed(xml, feedUrl) {
   const items = [];
   const isAtom = xml.includes("<feed") && xml.includes("</feed>");
   if (isAtom) {
-    const entries = xml.split("<entry").slice(1).map(s => "<entry" + s);
+    const entries = xml.split("<entry").slice(1).map((s) => "<entry" + s);
     for (const e of entries) {
       const title = (e.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "").trim();
       const link =
@@ -60,7 +64,7 @@ function parseFeed(xml, feedUrl) {
       }
     }
   } else {
-    const entries = xml.split("<item").slice(1).map(s => "<item" + s);
+    const entries = xml.split("<item").slice(1).map((s) => "<item" + s);
     for (const e of entries) {
       const title = (e.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "").trim();
       const link = (e.match(/<link[^>]*>([\s\S]*?)<\/link>/i)?.[1] ?? "").trim();
@@ -75,22 +79,6 @@ function parseFeed(xml, feedUrl) {
     }
   }
   return items;
-}
-
-async function sendTelegram(htmlText) {
-  const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "content-type": "application/json" },
-    body: JSON.stringify({
-      chat_id: CHAT_ID,
-      text: htmlText,
-      parse_mode: "HTML",
-      disable_web_page_preview: true
-    })
-  });
-  const json = await res.json();
-  if (!json.ok) throw new Error(`Telegram send failed: ${JSON.stringify(json)}`);
 }
 
 function chunkByLimit(text, limit = 3800) {
@@ -108,9 +96,68 @@ function chunkByLimit(text, limit = 3800) {
   return chunks;
 }
 
+async function sendTelegram(htmlText) {
+  const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
+  const res = await fetch(url, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      chat_id: CHAT_ID,
+      text: htmlText,
+      parse_mode: "HTML",
+      disable_web_page_preview: true,
+    }),
+  });
+  const json = await res.json();
+  if (!json.ok) throw new Error(`Telegram send failed: ${JSON.stringify(json)}`);
+}
+
+async function readLastSent() {
+  try {
+    const raw = await fs.readFile(SENT_FILE, "utf8");
+    const obj = JSON.parse(raw);
+    return obj?.lastSent ?? null;
+  } catch {
+    return null;
+  }
+}
+
+async function writeLastSent(dateYmd) {
+  await fs.writeFile(SENT_FILE, JSON.stringify({ lastSent: dateYmd }, null, 2) + "\n", "utf8");
+}
+
+function gitCommitIfChanged(dateYmd) {
+  // 如果仓库是只读/没有改动，就别报错
+  try {
+    execSync("git status --porcelain", { stdio: "pipe" });
+    const diff = execSync("git status --porcelain").toString().trim();
+    if (!diff) return;
+
+    execSync('git config user.name "github-actions[bot]"');
+    execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
+
+    execSync(`git add ${SENT_FILE}`);
+    execSync(`git commit -m "Mark sent: ${dateYmd}"`);
+    execSync("git push");
+  } catch (e) {
+    console.error("Git commit/push skipped or failed:", e?.message ?? e);
+  }
+}
+
+function isYesterdayLondon(dateObj, yYmd) {
+  const pubYmd = londonYmd(dateObj);
+  return pubYmd === yYmd;
+}
+
 async function main() {
-  const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000);
-  const yYmd = londonYmd(yesterday);
+  const yYmd = yesterdayYmdLondon();
+
+  // 发送锁：如果昨天已经发过了，直接退出
+  const lastSent = await readLastSent();
+  if (lastSent === yYmd) {
+    console.log(`Already sent for ${yYmd}, exit.`);
+    return;
+  }
 
   const all = [];
   for (const feed of cfg.feeds) {
@@ -124,9 +171,9 @@ async function main() {
   }
 
   const seen = new Set();
-  const yesterdayItems = all
-    .filter(it => isYesterdayInLondon(it.pubDate))
-    .filter(it => {
+  const items = all
+    .filter((it) => isYesterdayLondon(it.pubDate, yYmd))
+    .filter((it) => {
       const key = it.link;
       if (seen.has(key)) return false;
       seen.add(key);
@@ -136,23 +183,27 @@ async function main() {
 
   const header = `<b>Daily News · ${yYmd}</b>\n<i>Window: ${yYmd} 00:00–23:59 (${TZ})</i>\n`;
 
-  if (yesterdayItems.length === 0) {
-    await sendTelegram(`${header}\nNo items found for yesterday.`);
-    return;
-  }
+  const body =
+    items.length === 0
+      ? "No items found for yesterday."
+      : items
+          .map((it, idx) => {
+            const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
+            return `${idx + 1}) <a href="${it.link}">${t}</a>`;
+          })
+          .join("\n");
 
-  const lines = yesterdayItems.map((it, idx) => {
-    const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
-    return `${idx + 1}) <a href="${it.link}">${t}</a>`;
-  });
-
-  const full = `${header}\n${lines.join("\n")}`;
+  const full = `${header}\n${body}`;
   for (const chunk of chunkByLimit(full)) {
     await sendTelegram(chunk);
   }
+
+  // 标记已发送并回写到 repo（防止重复推送）
+  await writeLastSent(yYmd);
+  gitCommitIfChanged(yYmd);
 }
 
-main().catch(err => {
+main().catch((err) => {
   console.error(err);
   process.exit(1);
 });
