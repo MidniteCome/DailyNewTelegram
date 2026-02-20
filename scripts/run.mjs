@@ -173,50 +173,54 @@ async function main() {
     return;
   }
 
-  const layers = cfg.layers
-    ? Object.entries(cfg.layers)
-    : [
-        [
-          "legacy",
-          {
-            enabled: true,
-            maxItemsPerFeed: cfg.maxItemsPerFeed ?? 20,
-            feeds: cfg.feeds ?? [],
-          },
-        ],
-      ];
+  const layers = cfg.layers ?? {
+    layer1_hard_signals: {
+      enabled: true,
+      maxItemsPerFeed: cfg.maxItemsPerFeed ?? 20,
+      feeds: cfg.feeds ?? [],
+    },
+    layer3_deep_reads: {
+      enabled: false,
+      maxItemsPerFeed: 20,
+      feeds: [],
+    },
+  };
 
-  const enabledLayers = layers.filter(([, layer]) => layer?.enabled);
-
-  const all = [];
-  for (const [layerKey, layerCfg] of enabledLayers) {
+  async function ingestLayer(layerKey, layerCfg) {
+    if (!layerCfg?.enabled) return [];
+    const items = [];
     for (const feed of layerCfg.feeds ?? []) {
       try {
         const xml = await fetchText(feed);
         const parsed = parseFeed(xml, feed).slice(0, layerCfg.maxItemsPerFeed ?? 20);
-        all.push(...parsed.map((it) => ({ ...it, layerKey })));
+        items.push(...parsed.map((it) => ({ ...it, layerKey })));
       } catch (e) {
         console.error(`Feed failed [${layerKey}]: ${feed}`, e.message);
       }
     }
+    return items;
   }
+
+  const layer1All = await ingestLayer("layer1_hard_signals", layers.layer1_hard_signals);
+  const layer3All = await ingestLayer("layer3_deep_reads", layers.layer3_deep_reads);
 
   const maxPerSection = cfg.output?.maxPerSection ?? 8;
   const maxTotal = cfg.output?.maxTotal ?? 30;
   const requireAiTechKeywords = cfg.output?.requireAiTechKeywords ?? false;
   const aiTechKeywords = cfg.output?.aiTechKeywords ?? [];
+  const deepReadsMax = 3;
 
-  const seen = new Set();
-  const filtered = all
+  const seenLayer1 = new Set();
+  const layer1Filtered = layer1All
     .filter((it) => isYesterdayLondon(it.pubDate, yYmd))
     .filter((it) => {
       const key = it.link;
-      if (seen.has(key)) return false;
-      seen.add(key);
+      if (seenLayer1.has(key)) return false;
+      seenLayer1.add(key);
       return true;
     });
 
-  const classified = filtered.map((it) => ({
+  const classified = layer1Filtered.map((it) => ({
     ...it,
     cls: classifyItem(it),
   }));
@@ -240,6 +244,19 @@ async function main() {
     totalCount += 1;
     return true;
   });
+
+  const seenLayer3 = new Set();
+  const deepReads = layer3All
+    .filter((it) => isYesterdayLondon(it.pubDate, yYmd))
+    .filter((it) => {
+      const key = it.link;
+      if (seenLayer3.has(key)) return false;
+      seenLayer3.add(key);
+      return true;
+    })
+    .filter((it) => titleHasAnyKeyword(it.title, aiTechKeywords))
+    .sort((a, b) => b.pubDate - a.pubDate)
+    .slice(0, deepReadsMax);
 
   const header = `<b>Daily News · ${yYmd}</b>\n<i>Window: ${yYmd} 00:00–23:59 (${TZ})</i>\n`;
   const regionOrder = ["EU", "US", "CNHK", "SG"];
@@ -284,6 +301,16 @@ async function main() {
     renderSection("IPO (AI/Tech): EU / US / CN+HK / SG", ipoByRegion, false),
     "",
     renderSection("M&A / Financing (AI/Tech): EU / US / CN+HK / SG", maFinByRegion, true),
+    "",
+    "<b>AI/Tech Deep Reads (BestBlogs)</b>",
+    ...(
+      deepReads.length === 0
+        ? ["No items."]
+        : deepReads.map((it) => {
+            const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
+            return `• <a href="${it.link}">${t}</a>`;
+          })
+    ),
   ].join("\n");
 
   const full = `${header}\n${body}`;

@@ -22,9 +22,12 @@
       "feeds": []
     },
     "layer3_deep_reads": {
-      "enabled": false,
+      "enabled": true,
       "maxItemsPerFeed": 20,
-      "feeds": []
+      "feeds": [
+        "https://www.bestblogs.dev/en/feeds/rss?category=ai&type=article",
+        "https://www.bestblogs.dev/en/feeds/rss?category=ai&minScore=90"
+      ]
     }
   },
   "output": {
