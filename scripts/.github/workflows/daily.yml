@@ -2,6 +2,11 @@ name: daily-telegram-news
 
 on:
   schedule:
+    # 08:30 Europe/London 需要换算到 UTC：
+    # - 冬令时：08:30 London = 08:30 UTC
+    # - 夏令时：08:30 London = 07:30 UTC
+    # 为了全年稳定，建议每天跑两次：07:30 和 08:30 UTC，脚本会按“昨天”生成，同一天最多多发一次风险
+    # 所以我们加一个“防重复”机制更好（见下方可选升级）。先给你最稳不漏的。
     - cron: "30 7 * * *"
     - cron: "30 8 * * *"
   workflow_dispatch:
