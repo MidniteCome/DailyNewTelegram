@@ -4,6 +4,9 @@ import { execSync } from "node:child_process";
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const CHAT_ID = process.env.TG_CHAT_ID; // e.g. "@your_channel"
 const TZ = "Europe/London";
+const HTTP_USER_AGENT =
+  process.env.HTTP_USER_AGENT ??
+  "DailyNewTelegram/1.0 (https://github.com/williamchoi/DailyNewTelegram; contact: maintainer@example.com)";
 
 if (!BOT_TOKEN || !CHAT_ID) {
   throw new Error("Missing BOT_TOKEN or TG_CHAT_ID env vars.");
@@ -37,7 +40,12 @@ function escapeHtml(s) {
 }
 
 async function fetchText(url) {
-  const res = await fetch(url, { headers: { "user-agent": "daily-telegram-news/1.0" } });
+  const res = await fetch(url, {
+    headers: {
+      "user-agent": HTTP_USER_AGENT,
+      accept: "application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
+    },
+  });
   if (!res.ok) throw new Error(`Fetch failed ${res.status} for ${url}`);
   return await res.text();
 }
@@ -149,6 +157,14 @@ function isYesterdayLondon(dateObj, yYmd) {
   return pubYmd === yYmd;
 }
 
+function formatLayerName(key) {
+  return key
+    .replace(/^layer\d+_/, "")
+    .split("_")
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
 async function main() {
   const yYmd = yesterdayYmdLondon();
 
@@ -159,39 +175,80 @@ async function main() {
     return;
   }
 
+  const layers = cfg.layers
+    ? Object.entries(cfg.layers)
+    : [
+        [
+          "legacy",
+          {
+            enabled: true,
+            maxItemsPerFeed: cfg.maxItemsPerFeed ?? 20,
+            feeds: cfg.feeds ?? [],
+          },
+        ],
+      ];
+
+  const enabledLayers = layers.filter(([, layer]) => layer?.enabled);
+
   const all = [];
-  for (const feed of cfg.feeds) {
-    try {
-      const xml = await fetchText(feed);
-      const parsed = parseFeed(xml, feed).slice(0, cfg.maxItemsPerFeed ?? 20);
-      all.push(...parsed);
-    } catch (e) {
-      console.error(`Feed failed: ${feed}`, e.message);
+  for (const [layerKey, layerCfg] of enabledLayers) {
+    for (const feed of layerCfg.feeds ?? []) {
+      try {
+        const xml = await fetchText(feed);
+        const parsed = parseFeed(xml, feed).slice(0, layerCfg.maxItemsPerFeed ?? 20);
+        all.push(...parsed.map((it) => ({ ...it, layerKey })));
+      } catch (e) {
+        console.error(`Feed failed [${layerKey}]: ${feed}`, e.message);
+      }
     }
   }
 
+  const maxPerSection = cfg.output?.maxPerSection ?? 8;
+  const maxTotal = cfg.output?.maxTotal ?? 30;
+
   const seen = new Set();
-  const items = all
+  const filtered = all
     .filter((it) => isYesterdayLondon(it.pubDate, yYmd))
     .filter((it) => {
       const key = it.link;
       if (seen.has(key)) return false;
       seen.add(key);
       return true;
-    })
-    .sort((a, b) => b.pubDate - a.pubDate);
+    });
+
+  const sectionCounts = new Map();
+  let totalCount = 0;
+  const items = filtered.sort((a, b) => b.pubDate - a.pubDate).filter((it) => {
+    if (sectionCounts.get(it.layerKey) >= maxPerSection) return false;
+    if (totalCount >= maxTotal) return false;
+    sectionCounts.set(it.layerKey, (sectionCounts.get(it.layerKey) ?? 0) + 1);
+    totalCount += 1;
+    return true;
+  });
 
   const header = `<b>Daily News · ${yYmd}</b>\n<i>Window: ${yYmd} 00:00–23:59 (${TZ})</i>\n`;
 
-  const body =
-    items.length === 0
-      ? "No items found for yesterday."
-      : items
-          .map((it, idx) => {
-            const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
-            return `${idx + 1}) <a href="${it.link}">${t}</a>`;
-          })
-          .join("\n");
+  let body = "No items found for yesterday.";
+  if (items.length > 0) {
+    let idx = 1;
+    const grouped = new Map();
+    for (const it of items) {
+      if (!grouped.has(it.layerKey)) grouped.set(it.layerKey, []);
+      grouped.get(it.layerKey).push(it);
+    }
+
+    body = [...grouped.entries()]
+      .map(([layerKey, layerItems]) => {
+        const sectionHeader =
+          layerKey === "legacy" ? null : `<b>${escapeHtml(formatLayerName(layerKey))}</b>`;
+        const rows = layerItems.map((it) => {
+          const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
+          return `${idx++}) <a href="${it.link}">${t}</a>`;
+        });
+        return [sectionHeader, ...rows].filter(Boolean).join("\n");
+      })
+      .join("\n\n");
+  }
 
   const full = `${header}\n${body}`;
   for (const chunk of chunkByLimit(full)) {

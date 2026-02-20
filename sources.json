@@ -1,8 +1,34 @@
 {
-  "feeds": [
-    "https://feeds.bbci.co.uk/news/rss.xml",
-    "https://www.theverge.com/rss/index.xml",
-    "https://www.zhihu.com/rss"
-  ],
-  "maxItemsPerFeed": 20
+  "layers": {
+    "layer1_hard_signals": {
+      "enabled": true,
+      "maxItemsPerFeed": 30,
+      "feeds": [
+        "https://www.prnewswire.com/rss/news-releases-list.rss",
+        "https://www.prnewswire.com/rss/financial-services-latest-news/financial-services-latest-news-list.rss",
+        "https://www.globenewswire.com/RssFeed",
+        "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies",
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-k&company=&dateb=&owner=include&start=0&count=100&output=atom",
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=s-1&company=&dateb=&owner=include&start=0&count=100&output=atom"
+      ],
+      "todo": [
+        "Business Wire RSS endpoint requires stable active channel IDs; add when a persistent non-deactivated feed URL is confirmed.",
+        "HKEX/LSE/SGX RSS endpoints not added yet due unstable/discontinued discovery URLs; add once stable feed URLs are verified."
+      ]
+    },
+    "layer2_market_news": {
+      "enabled": false,
+      "maxItemsPerFeed": 20,
+      "feeds": []
+    },
+    "layer3_deep_reads": {
+      "enabled": false,
+      "maxItemsPerFeed": 20,
+      "feeds": []
+    }
+  },
+  "output": {
+    "maxPerSection": 8,
+    "maxTotal": 30
+  }
 }
