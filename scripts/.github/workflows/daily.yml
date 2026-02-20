@@ -1,0 +1,21 @@
+name: daily-telegram-news
+
+on:
+  schedule:
+    - cron: "30 7 * * *"
+    - cron: "30 8 * * *"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci || npm i
+      - run: npm run run
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
