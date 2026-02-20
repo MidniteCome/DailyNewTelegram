@@ -1,5 +1,6 @@
 import fs from "node:fs/promises";
 import { execSync } from "node:child_process";
+import { classifyItem } from "./classify.mjs";
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const CHAT_ID = process.env.TG_CHAT_ID; // e.g. "@your_channel"
@@ -157,12 +158,9 @@ function isYesterdayLondon(dateObj, yYmd) {
   return pubYmd === yYmd;
 }
 
-function formatLayerName(key) {
-  return key
-    .replace(/^layer\d+_/, "")
-    .split("_")
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
-    .join(" ");
+function titleHasAnyKeyword(title, keywords) {
+  const t = String(title ?? "").toLowerCase();
+  return keywords.some((kw) => t.includes(String(kw).toLowerCase()));
 }
 
 async function main() {
@@ -205,6 +203,8 @@ async function main() {
 
   const maxPerSection = cfg.output?.maxPerSection ?? 8;
   const maxTotal = cfg.output?.maxTotal ?? 30;
+  const requireAiTechKeywords = cfg.output?.requireAiTechKeywords ?? false;
+  const aiTechKeywords = cfg.output?.aiTechKeywords ?? [];
 
   const seen = new Set();
   const filtered = all
@@ -216,39 +216,75 @@ async function main() {
       return true;
     });
 
+  const classified = filtered.map((it) => ({
+    ...it,
+    cls: classifyItem(it),
+  }));
+
+  const phase1Items = classified
+    .filter((it) => it.cls.topic !== "OTHER")
+    .filter((it) => {
+      if (!requireAiTechKeywords) return true;
+      return titleHasAnyKeyword(it.title, aiTechKeywords);
+    });
+
+  const sorted = phase1Items.sort((a, b) => b.pubDate - a.pubDate);
+
   const sectionCounts = new Map();
   let totalCount = 0;
-  const items = filtered.sort((a, b) => b.pubDate - a.pubDate).filter((it) => {
-    if (sectionCounts.get(it.layerKey) >= maxPerSection) return false;
+  const items = sorted.filter((it) => {
+    const sectionKey = it.cls.topic === "IPO" ? "IPO" : "MA_FINANCING";
+    if (sectionCounts.get(sectionKey) >= maxPerSection) return false;
     if (totalCount >= maxTotal) return false;
-    sectionCounts.set(it.layerKey, (sectionCounts.get(it.layerKey) ?? 0) + 1);
+    sectionCounts.set(sectionKey, (sectionCounts.get(sectionKey) ?? 0) + 1);
     totalCount += 1;
     return true;
   });
 
   const header = `<b>Daily News · ${yYmd}</b>\n<i>Window: ${yYmd} 00:00–23:59 (${TZ})</i>\n`;
+  const regionOrder = ["EU", "US", "CNHK", "SG"];
+  const regionLabel = {
+    EU: "EU",
+    US: "US",
+    CNHK: "CN+HK",
+    SG: "SG",
+  };
 
-  let body = "No items found for yesterday.";
-  if (items.length > 0) {
-    let idx = 1;
-    const grouped = new Map();
-    for (const it of items) {
-      if (!grouped.has(it.layerKey)) grouped.set(it.layerKey, []);
-      grouped.get(it.layerKey).push(it);
+  const ipoByRegion = new Map(regionOrder.map((r) => [r, []]));
+  const maFinByRegion = new Map(regionOrder.map((r) => [r, []]));
+
+  for (const it of items) {
+    if (!regionOrder.includes(it.cls.region)) continue;
+    if (it.cls.topic === "IPO") {
+      ipoByRegion.get(it.cls.region).push(it);
+    } else {
+      maFinByRegion.get(it.cls.region).push(it);
     }
-
-    body = [...grouped.entries()]
-      .map(([layerKey, layerItems]) => {
-        const sectionHeader =
-          layerKey === "legacy" ? null : `<b>${escapeHtml(formatLayerName(layerKey))}</b>`;
-        const rows = layerItems.map((it) => {
-          const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
-          return `${idx++}) <a href="${it.link}">${t}</a>`;
-        });
-        return [sectionHeader, ...rows].filter(Boolean).join("\n");
-      })
-      .join("\n\n");
   }
+
+  function renderSection(title, grouped, includeTopicTag) {
+    const parts = [`<b>${escapeHtml(title)}</b>`];
+    for (const region of regionOrder) {
+      parts.push(`<u>${regionLabel[region]}</u>`);
+      const rows = grouped.get(region) ?? [];
+      if (rows.length === 0) {
+        parts.push("No items.");
+        continue;
+      }
+      for (const it of rows) {
+        const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
+        const topicTag = includeTopicTag ? `[${it.cls.topic}] ` : "";
+        parts.push(`• ${escapeHtml(topicTag)}<a href="${it.link}">${t}</a>`);
+      }
+    }
+    return parts.join("\n");
+  }
+
+  const body = [
+    renderSection("IPO (AI/Tech): EU / US / CN+HK / SG", ipoByRegion, false),
+    "",
+    renderSection("M&A / Financing (AI/Tech): EU / US / CN+HK / SG", maFinByRegion, true),
+  ].join("\n");
 
   const full = `${header}\n${body}`;
   for (const chunk of chunkByLimit(full)) {

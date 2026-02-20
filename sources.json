@@ -29,6 +29,20 @@
   },
   "output": {
     "maxPerSection": 8,
-    "maxTotal": 30
+    "maxTotal": 30,
+    "requireAiTechKeywords": true,
+    "aiTechKeywords": [
+      "AI",
+      "artificial intelligence",
+      "LLM",
+      "model",
+      "chip",
+      "semiconductor",
+      "cloud",
+      "data",
+      "SaaS",
+      "robot",
+      "automation"
+    ]
   }
 }
