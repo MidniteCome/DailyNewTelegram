@@ -1,0 +1,8 @@
+{
+  "name": "daily-telegram-news",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run": "node scripts/run.mjs"
+  }
+}
