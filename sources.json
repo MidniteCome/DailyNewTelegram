@@ -1,7 +1,8 @@
 {
   "feeds": [
     "https://feeds.bbci.co.uk/news/rss.xml",
-    "https://www.theverge.com/rss/index.xml"
+    "https://www.theverge.com/rss/index.xml",
+    "https://www.zhihu.com/rss"
   ],
   "maxItemsPerFeed": 20
 }
