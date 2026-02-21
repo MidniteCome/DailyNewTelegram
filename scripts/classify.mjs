@@ -11,6 +11,25 @@ const TOPIC_RULES = {
     strong: ["raises", "funding", "series", "round", "financing", "investment", "strategic investment"],
     weak: [],
   },
+  MACRO: {
+    strong: [
+      "fed",
+      "fomc",
+      "cpi",
+      "inflation",
+      "jobs",
+      "payrolls",
+      "nfp",
+      "treasury",
+      "yields",
+      "rates",
+      "recession",
+      "risk-on",
+      "risk-off",
+      "geopolitics",
+    ],
+    weak: [],
+  },
 };
 
 const REGION_RULES = {
@@ -20,7 +39,7 @@ const REGION_RULES = {
   US: ["nasdaq", "nyse", "sec", "s-1", "f-1"],
 };
 
-const TOPIC_PRIORITY = ["IPO", "MA", "FINANCING"];
+const TOPIC_PRIORITY = ["IPO", "MA", "FINANCING", "MACRO"];
 const REGION_PRIORITY = ["CNHK", "SG", "EU", "US"];
 
 function containsKeyword(text, keyword) {
@@ -29,6 +48,7 @@ function containsKeyword(text, keyword) {
 
 export function classifyItem({ title = "", link = "", pubDate = "", feedUrl = "" }) {
   const haystack = `${title} ${link} ${feedUrl} ${pubDate}`.toLowerCase();
+  const titleOnly = String(title ?? "").toLowerCase();
   const reasons = [];
 
   const topicScores = new Map();
@@ -36,15 +56,16 @@ export function classifyItem({ title = "", link = "", pubDate = "", feedUrl = ""
     const rules = TOPIC_RULES[topic];
     let score = 0;
 
+    const topicText = topic === "MACRO" ? titleOnly : haystack;
     for (const kw of rules.strong) {
-      if (containsKeyword(haystack, kw)) {
+      if (containsKeyword(topicText, kw)) {
         score += 2;
         reasons.push(`topic:${topic}:strong:${kw}`);
       }
     }
 
     for (const kw of rules.weak) {
-      if (containsKeyword(haystack, kw)) {
+      if (containsKeyword(topicText, kw)) {
         score += 1;
         reasons.push(`topic:${topic}:weak:${kw}`);
       }
@@ -92,4 +113,3 @@ export function classifyItem({ title = "", link = "", pubDate = "", feedUrl = ""
     reasons,
   };
 }
-

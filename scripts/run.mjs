@@ -184,6 +184,11 @@ async function main() {
       maxItemsPerFeed: 20,
       feeds: [],
     },
+    layer2_market_news: {
+      enabled: false,
+      maxItemsPerFeed: 20,
+      feeds: [],
+    },
   };
 
   async function ingestLayer(layerKey, layerCfg) {
@@ -202,6 +207,7 @@ async function main() {
   }
 
   const layer1All = await ingestLayer("layer1_hard_signals", layers.layer1_hard_signals);
+  const layer2All = await ingestLayer("layer2_market_news", layers.layer2_market_news);
   const layer3All = await ingestLayer("layer3_deep_reads", layers.layer3_deep_reads);
 
   const maxPerSection = cfg.output?.maxPerSection ?? 8;
@@ -226,7 +232,7 @@ async function main() {
   }));
 
   const phase1Items = classified
-    .filter((it) => it.cls.topic !== "OTHER")
+    .filter((it) => ["IPO", "MA", "FINANCING"].includes(it.cls.topic))
     .filter((it) => {
       if (!requireAiTechKeywords) return true;
       return titleHasAnyKeyword(it.title, aiTechKeywords);
@@ -257,6 +263,20 @@ async function main() {
     .filter((it) => titleHasAnyKeyword(it.title, aiTechKeywords))
     .sort((a, b) => b.pubDate - a.pubDate)
     .slice(0, deepReadsMax);
+
+  const seenLayer2 = new Set();
+  const macroItems = layer2All
+    .filter((it) => isYesterdayLondon(it.pubDate, yYmd))
+    .filter((it) => {
+      const key = it.link;
+      if (seenLayer2.has(key)) return false;
+      seenLayer2.add(key);
+      return true;
+    })
+    .map((it) => ({ ...it, cls: classifyItem(it) }))
+    .filter((it) => it.cls.topic === "MACRO")
+    .sort((a, b) => b.pubDate - a.pubDate)
+    .slice(0, maxPerSection);
 
   const header = `<b>Daily News · ${yYmd}</b>\n<i>Window: ${yYmd} 00:00–23:59 (${TZ})</i>\n`;
   const regionOrder = ["EU", "US", "CNHK", "SG"];
@@ -301,6 +321,16 @@ async function main() {
     renderSection("IPO (AI/Tech): EU / US / CN+HK / SG", ipoByRegion, false),
     "",
     renderSection("M&A / Financing (AI/Tech): EU / US / CN+HK / SG", maFinByRegion, true),
+    ...(macroItems.length > 0
+      ? [
+          "",
+          "<b>US Macro (markets): Fed / CPI / jobs / yields / geopolitics / risk-on-off</b>",
+          ...macroItems.map((it) => {
+            const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
+            return `• <a href="${it.link}">${t}</a>`;
+          }),
+        ]
+      : []),
     "",
     "<b>AI/Tech Deep Reads (BestBlogs)</b>",
     ...(

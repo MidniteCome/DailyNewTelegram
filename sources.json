@@ -17,9 +17,15 @@
       ]
     },
     "layer2_market_news": {
-      "enabled": false,
+      "enabled": true,
       "maxItemsPerFeed": 20,
-      "feeds": []
+      "feeds": [
+        "https://www.federalreserve.gov/feeds/press_monetary.xml",
+        "https://www.federalreserve.gov/feeds/press_all.xml",
+        "https://www.federalreserve.gov/feeds/speeches.xml",
+        "https://feeds.marketwatch.com/marketwatch/topstories/",
+        "https://www.stlouisfed.org/on-the-economy/rss"
+      ]
     },
     "layer3_deep_reads": {
       "enabled": true,
