@@ -1,6 +1,6 @@
 import fs from "node:fs/promises";
 import { execSync } from "node:child_process";
-import { classifyItem } from "./classify.mjs";
+import { classifyItem, classifyStockItem } from "./classify.mjs";
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const CHAT_ID = process.env.TG_CHAT_ID; // e.g. "@your_channel"
@@ -214,6 +214,9 @@ async function main() {
   const maxTotal = cfg.output?.maxTotal ?? 30;
   const requireAiTechKeywords = cfg.output?.requireAiTechKeywords ?? false;
   const aiTechKeywords = cfg.output?.aiTechKeywords ?? [];
+  const stocksEnabled = cfg.stocks?.enabled ?? false;
+  const stockTickers = cfg.stocks?.tickers ?? [];
+  const stockMaxItems = cfg.stocks?.maxItems ?? 8;
   const deepReadsMax = 3;
 
   const seenLayer1 = new Set();
@@ -265,18 +268,51 @@ async function main() {
     .slice(0, deepReadsMax);
 
   const seenLayer2 = new Set();
-  const macroItems = layer2All
+  const layer2Filtered = layer2All
     .filter((it) => isYesterdayLondon(it.pubDate, yYmd))
     .filter((it) => {
       const key = it.link;
       if (seenLayer2.has(key)) return false;
       seenLayer2.add(key);
       return true;
-    })
+    });
+
+  const macroItems = layer2Filtered
     .map((it) => ({ ...it, cls: classifyItem(it) }))
     .filter((it) => it.cls.topic === "MACRO")
     .sort((a, b) => b.pubDate - a.pubDate)
     .slice(0, maxPerSection);
+
+  const stockBuckets = {
+    earnings: [],
+    priceAction: [],
+    filings: [],
+  };
+  if (stocksEnabled) {
+    const stockCandidates = layer2Filtered
+      .map((it) => ({ ...it, stk: classifyStockItem(it, stockTickers) }))
+      .filter((it) => it.stk.tickers.length > 0)
+      .sort((a, b) => b.pubDate - a.pubDate);
+
+    let stockCount = 0;
+    for (const it of stockCandidates) {
+      if (stockCount >= stockMaxItems) break;
+      if (it.stk.hasEarnings) {
+        stockBuckets.earnings.push(it);
+        stockCount += 1;
+        continue;
+      }
+      if (it.stk.hasPriceAction) {
+        stockBuckets.priceAction.push(it);
+        stockCount += 1;
+        continue;
+      }
+      if (it.stk.hasFilings) {
+        stockBuckets.filings.push(it);
+        stockCount += 1;
+      }
+    }
+  }
 
   const header = `<b>Daily News · ${yYmd}</b>\n<i>Window: ${yYmd} 00:00–23:59 (${TZ})</i>\n`;
   const regionOrder = ["EU", "US", "CNHK", "SG"];
@@ -329,6 +365,45 @@ async function main() {
             const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
             return `• <a href="${it.link}">${t}</a>`;
           }),
+        ]
+      : []),
+    ...(stocksEnabled
+      ? [
+          "",
+          "<b>US Stocks (events): earnings / price action / filings</b>",
+          ...(stockBuckets.earnings.length === 0 &&
+          stockBuckets.priceAction.length === 0 &&
+          stockBuckets.filings.length === 0
+            ? ["No notable stock events yesterday."]
+            : [
+                ...(stockBuckets.earnings.length > 0
+                  ? [
+                      "<u>Earnings</u>",
+                      ...stockBuckets.earnings.map((it) => {
+                        const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
+                        return `• <a href="${it.link}">${t}</a>`;
+                      }),
+                    ]
+                  : []),
+                ...(stockBuckets.priceAction.length > 0
+                  ? [
+                      "<u>Price Action</u>",
+                      ...stockBuckets.priceAction.map((it) => {
+                        const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
+                        return `• <a href="${it.link}">${t}</a>`;
+                      }),
+                    ]
+                  : []),
+                ...(stockBuckets.filings.length > 0
+                  ? [
+                      "<u>Filings</u>",
+                      ...stockBuckets.filings.map((it) => {
+                        const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
+                        return `• <a href="${it.link}">${t}</a>`;
+                      }),
+                    ]
+                  : []),
+              ]),
         ]
       : []),
     "",

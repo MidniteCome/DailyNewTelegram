@@ -53,5 +53,21 @@
       "robot",
       "automation"
     ]
+  },
+  "stocks": {
+    "enabled": true,
+    "tickers": [
+      "NVDA",
+      "TSLA",
+      "AAPL",
+      "MSFT",
+      "AMZN",
+      "GOOGL",
+      "META",
+      "AMD",
+      "NFLX",
+      "AVGO"
+    ],
+    "maxItems": 8
   }
 }

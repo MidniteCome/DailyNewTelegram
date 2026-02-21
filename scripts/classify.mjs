@@ -32,6 +32,12 @@ const TOPIC_RULES = {
   },
 };
 
+const STOCK_EVENT_KEYWORDS = {
+  earnings: ["earnings", "results", "guidance", "quarter"],
+  priceAction: ["shares", "stock", "jumps", "surges", "plunges", "slumps", "premarket", "after-hours"],
+  filings: ["8-k", "10-q", "10-k", "s-1", "f-1", "424b"],
+};
+
 const REGION_RULES = {
   CNHK: ["hkex", "hong kong", ".hk", "h-share", "a-share", "shanghai", "shenzhen"],
   SG: ["sgx", "singapore"],
@@ -44,6 +50,10 @@ const REGION_PRIORITY = ["CNHK", "SG", "EU", "US"];
 
 function containsKeyword(text, keyword) {
   return text.includes(keyword);
+}
+
+function hasAnyKeyword(text, keywords) {
+  return keywords.some((kw) => containsKeyword(text, kw));
 }
 
 export function classifyItem({ title = "", link = "", pubDate = "", feedUrl = "" }) {
@@ -110,6 +120,45 @@ export function classifyItem({ title = "", link = "", pubDate = "", feedUrl = ""
     topic,
     region,
     score: topicScore + regionScore,
+    reasons,
+  };
+}
+
+export function classifyStockItem({ title = "", link = "" }, tickers = []) {
+  const titleOnly = String(title ?? "");
+  const textLower = `${title} ${link}`.toLowerCase();
+  const tickerSet = new Set((tickers ?? []).map((t) => String(t).toUpperCase()));
+  const foundTickers = new Set();
+  const reasons = [];
+
+  const patterns = [/\$([A-Z]{1,5})\b/g, /\(([A-Z]{1,5})\)/g, /\b([A-Z]{1,5}):/g];
+  for (const re of patterns) {
+    for (const m of titleOnly.matchAll(re)) {
+      const tk = m[1]?.toUpperCase();
+      if (!tk || !tickerSet.has(tk)) continue;
+      foundTickers.add(tk);
+      reasons.push(`ticker:${tk}`);
+    }
+  }
+
+  const hasEarnings = hasAnyKeyword(textLower, STOCK_EVENT_KEYWORDS.earnings);
+  const hasPriceAction = hasAnyKeyword(textLower, STOCK_EVENT_KEYWORDS.priceAction);
+  const hasFilings = hasAnyKeyword(textLower, STOCK_EVENT_KEYWORDS.filings);
+
+  if (hasEarnings) reasons.push("event:earnings");
+  if (hasPriceAction) reasons.push("event:price_action");
+  if (hasFilings) reasons.push("event:filings");
+
+  return {
+    tickers: [...foundTickers],
+    hasEarnings,
+    hasPriceAction,
+    hasFilings,
+    score:
+      foundTickers.size * 2 +
+      (hasEarnings ? 1 : 0) +
+      (hasPriceAction ? 1 : 0) +
+      (hasFilings ? 1 : 0),
     reasons,
   };
 }
