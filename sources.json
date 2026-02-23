@@ -1,64 +1,173 @@
 {
   "sources": [
     {
-      "name": "Reuters Top News",
-      "url": "https://feeds.reuters.com/reuters/topNews",
+      "name": "SEC S-1 Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=&type=S-1&owner=include&count=100&action=getcurrent&output=atom",
       "weight": 3,
-      "tags": ["global", "finance"]
+      "tags": ["finance", "ipo"]
     },
     {
-      "name": "BBC World",
-      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-      "weight": 2,
-      "tags": ["global"]
+      "name": "SEC F-1 Filings",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&CIK=&type=F-1&company=&dateb=&owner=include&start=0&count=100&output=atom",
+      "weight": 3,
+      "tags": ["finance", "ipo"]
     },
     {
-      "name": "The Guardian World",
-      "url": "https://www.theguardian.com/world/rss",
-      "weight": 2,
-      "tags": ["global"]
+      "name": "SEC 424B4 Prospectus",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&CIK=&type=424B4&company=&dateb=&owner=include&start=0&count=100&output=atom",
+      "weight": 3,
+      "tags": ["finance", "ipo"]
     },
     {
-      "name": "Al Jazeera",
-      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "name": "Semiconductor News",
+      "url": "https://rsshub.app/semiconductors/latest-news",
+      "weight": 3,
+      "tags": ["finance", "tech", "semiconductor"]
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
       "weight": 2,
-      "tags": ["global"]
+      "tags": ["tech", "startup"]
+    },
+    {
+      "name": "DeepMind Blog",
+      "url": "https://rsshub.app/deepmind/blog",
+      "weight": 2,
+      "tags": ["ai", "research"]
     },
     {
       "name": "Hacker News",
       "url": "https://hnrss.org/frontpage",
       "weight": 2,
-      "tags": ["tech"]
+      "tags": ["tech", "community"]
     },
     {
-      "name": "BestBlogs AI",
-      "url": "https://www.bestblogs.dev/en/feeds/rss?category=ai&minScore=90",
+      "name": "V2EX 技术",
+      "url": "https://www.v2ex.com/feed/tab/tech.xml",
+      "weight": 1,
+      "tags": ["tech", "community", "zh"]
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
       "weight": 2,
-      "tags": ["ai", "tech"]
+      "tags": ["ai", "llm", "dev"]
+    },
+    {
+      "name": "Paul Graham Essays",
+      "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+      "weight": 2,
+      "tags": ["startup", "tech", "essay"]
+    },
+    {
+      "name": "Gwern",
+      "url": "https://gwern.net/feed",
+      "weight": 2,
+      "tags": ["ai", "research", "essay"]
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "url": "https://www.dwarkeshpatel.com/feed",
+      "weight": 2,
+      "tags": ["ai", "interview", "essay"]
+    },
+    {
+      "name": "Gary Marcus",
+      "url": "https://garymarcus.substack.com/feed",
+      "weight": 1,
+      "tags": ["ai", "criticism"]
+    },
+    {
+      "name": "geohot Blog",
+      "url": "https://geohot.github.io/blog/feed.xml",
+      "weight": 1,
+      "tags": ["ai", "systems", "hacking"]
+    },
+    {
+      "name": "matklad",
+      "url": "https://matklad.github.io/feed.xml",
+      "weight": 1,
+      "tags": ["systems", "rust", "dev"]
+    },
+    {
+      "name": "Construction Physics",
+      "url": "https://www.construction-physics.com/feed",
+      "weight": 2,
+      "tags": ["tech", "industry", "deep-read"]
+    },
+    {
+      "name": "Eli Bendersky",
+      "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
+      "weight": 1,
+      "tags": ["cs", "systems", "dev"]
+    },
+    {
+      "name": "Daring Fireball",
+      "url": "https://daringfireball.net/feeds/main",
+      "weight": 1,
+      "tags": ["tech", "apple"]
+    },
+    {
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "weight": 2,
+      "tags": ["security", "tech"]
+    },
+    {
+      "name": "Steve Blank",
+      "url": "https://steveblank.com/feed/",
+      "weight": 1,
+      "tags": ["startup", "strategy"]
+    },
+    {
+      "name": "dynomight",
+      "url": "https://dynomight.net/feed.xml",
+      "weight": 1,
+      "tags": ["science", "tech", "essay"]
+    },
+    {
+      "name": "Where's Your Ed At",
+      "url": "https://www.wheresyoured.at/rss/",
+      "weight": 1,
+      "tags": ["tech", "criticism"]
+    },
+    {
+      "name": "Sean Goedecke",
+      "url": "https://www.seangoedecke.com/rss.xml",
+      "weight": 1,
+      "tags": ["software", "dev"]
     }
   ],
 
   "scoring": {
     "topN": 5,
     "recencyHalfLifeHours": 12,
-    "maxPerSource": 3,
-    "maxItemsPerFeed": 30,
+    "maxPerSource": 2,
+    "maxItemsPerFeed": 20,
     "keywords": [
-      { "keyword": "AI",                  "score": 8 },
+      { "keyword": "AI",                      "score": 8 },
       { "keyword": "artificial intelligence", "score": 8 },
-      { "keyword": "LLM",                 "score": 8 },
-      { "keyword": "model",               "score": 3 },
-      { "keyword": "Fed",                 "score": 7 },
-      { "keyword": "rate",                "score": 5 },
-      { "keyword": "inflation",           "score": 6 },
-      { "keyword": "chip",                "score": 5 },
-      { "keyword": "semiconductor",       "score": 6 },
-      { "keyword": "acquisition",         "score": 5 },
-      { "keyword": "merger",              "score": 5 },
-      { "keyword": "IPO",                 "score": 6 },
-      { "keyword": "funding",             "score": 4 },
-      { "keyword": "tariff",              "score": 6 },
-      { "keyword": "geopolitics",         "score": 5 }
+      { "keyword": "LLM",                     "score": 9 },
+      { "keyword": "GPT",                     "score": 7 },
+      { "keyword": "model",                   "score": 3 },
+      { "keyword": "agent",                   "score": 5 },
+      { "keyword": "inference",               "score": 5 },
+      { "keyword": "chip",                    "score": 7 },
+      { "keyword": "semiconductor",           "score": 8 },
+      { "keyword": "NVIDIA",                  "score": 6 },
+      { "keyword": "TSMC",                    "score": 7 },
+      { "keyword": "IPO",                     "score": 9 },
+      { "keyword": "S-1",                     "score": 8 },
+      { "keyword": "Fed",                     "score": 7 },
+      { "keyword": "rate",                    "score": 5 },
+      { "keyword": "inflation",               "score": 6 },
+      { "keyword": "tariff",                  "score": 6 },
+      { "keyword": "acquisition",             "score": 6 },
+      { "keyword": "funding",                 "score": 5 },
+      { "keyword": "vulnerability",           "score": 5 },
+      { "keyword": "breach",                  "score": 5 },
+      { "keyword": "analysis",                "score": 3 }
     ]
   }
 }

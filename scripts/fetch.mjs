@@ -21,10 +21,16 @@ async function fetchXml(url) {
   return res.text();
 }
 
-/** 简单去除 HTML 标签，截断到指定长度 */
+/** 去除 HTML 标签、解码 HTML 实体，截断到指定长度 */
 function stripHtml(text = "", maxLen = 300) {
   return text
-    .replace(/<[^>]+>/g, " ")
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">")   // 先解码编码过的标签
+    .replace(/<[^>]+>/g, " ")                        // 再删除所有 HTML 标签
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'").replace(/&apos;/g, "'")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
     .replace(/\s+/g, " ")
     .trim()
     .slice(0, maxLen);
