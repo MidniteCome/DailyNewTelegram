@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "30 7 * * *"   # 07:30 UTC 每天运行
   workflow_dispatch:        # 支持手动触发
+    inputs:
+      force:
+        description: "强制重新运行（跳过今日重复检查）"
+        type: boolean
+        default: false
 
 # 需要写权限才能 commit 回 docs/ 和 .last_sent.json
 permissions:
@@ -25,7 +30,7 @@ jobs:
         run: npm ci || npm i
 
       - name: Run bot
-        run: node scripts/run.mjs
+        run: node scripts/run.mjs ${{ github.event.inputs.force == 'true' && '--force' || '' }}
         env:
           BOT_TOKEN:    ${{ secrets.BOT_TOKEN }}
           TG_CHAT_ID:   ${{ secrets.TG_CHAT_ID }}
