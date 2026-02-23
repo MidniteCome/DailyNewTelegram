@@ -26,19 +26,28 @@ function todayUtc() {
   return new Date().toISOString().slice(0, 10);
 }
 
-async function readLastSent() {
+const SEEN_LINKS_CAP = 2000; // 最多保留最近 2000 条历史 URL
+
+async function readState() {
   try {
     const raw = await fs.readFile(".last_sent.json", "utf8");
-    return JSON.parse(raw)?.lastSent ?? null;
+    const obj = JSON.parse(raw);
+    return {
+      lastSent:  obj.lastSent  ?? null,
+      seenLinks: new Set(Array.isArray(obj.seenLinks) ? obj.seenLinks : []),
+    };
   } catch {
-    return null;
+    return { lastSent: null, seenLinks: new Set() };
   }
 }
 
-async function writeLastSent(dateYmd) {
+async function writeState(dateYmd, seenLinks) {
+  // 超出上限时，丢弃最旧的（Set 迭代顺序即插入顺序）
+  let arr = [...seenLinks];
+  if (arr.length > SEEN_LINKS_CAP) arr = arr.slice(arr.length - SEEN_LINKS_CAP);
   await fs.writeFile(
     ".last_sent.json",
-    JSON.stringify({ lastSent: dateYmd }, null, 2) + "\n",
+    JSON.stringify({ lastSent: dateYmd, seenLinks: arr }, null, 2) + "\n",
     "utf8"
   );
 }
@@ -78,29 +87,37 @@ async function main() {
   const siteUrl = process.env.SITE_URL ?? null;
   const force = process.argv.includes("--force");
 
+  // 读取历史状态（上次运行日期 + 已见过的文章 URL）
+  const state = await readState();
+
   // 防重复：同一天最多发一次（--force 可跳过）
-  const lastSent = await readLastSent();
-  if (lastSent === today && !force) {
+  if (state.lastSent === today && !force) {
     console.log(`今天 (${today}) 已发送过，退出。`);
     console.log(`如需强制重新运行，请加 --force 参数：`);
     console.log(`  ./run-local.sh --force`);
     return;
   }
-  if (force) console.log("⚡ --force 模式，跳过重复检查\n");
+  if (force) console.log("⚡ --force 模式，跳过今日重复检查\n");
 
   // ── Step 1: 抓取 ──────────────────────────────────────────────────────────
   console.log(`📡 抓取 ${sources.length} 个 RSS 源…`);
   const articles = await fetchAllFeeds(sources, scoring.maxItemsPerFeed ?? 30);
-  console.log(`   共抓取 ${articles.length} 篇文章\n`);
+  console.log(`   共抓取 ${articles.length} 篇文章`);
 
-  if (articles.length === 0) {
-    console.log("没有抓到任何文章，退出。");
+  // 跨日去重：过滤掉历史已见过的文章
+  const freshArticles = articles.filter(a => !state.seenLinks.has(a.link));
+  const dupCount = articles.length - freshArticles.length;
+  if (dupCount > 0) console.log(`   ⏭  过滤历史重复 ${dupCount} 篇，剩余 ${freshArticles.length} 篇`);
+  console.log();
+
+  if (freshArticles.length === 0) {
+    console.log("没有新文章（全为历史重复），退出。");
     return;
   }
 
   // ── Step 2: 打分排序 ──────────────────────────────────────────────────────
   console.log("📊 打分与排序…");
-  const ranked = rankArticles(articles, sources, scoring);
+  const ranked = rankArticles(freshArticles, sources, scoring);
   console.log(`   排序完成，共 ${ranked.length} 篇\n`);
 
   const topArticles = ranked.slice(0, topN);
@@ -124,8 +141,10 @@ async function main() {
   await generateSite(ranked, today, topN);
   console.log();
 
-  // ── Step 6: 标记已发送 + git push ─────────────────────────────────────────
-  await writeLastSent(today);
+  // ── Step 6: 更新历史状态 + git push ──────────────────────────────────────
+  // 把本次所有新文章 URL 加入历史，防止未来重复
+  for (const a of ranked) state.seenLinks.add(a.link);
+  await writeState(today, state.seenLinks);
   gitCommitAndPush(today);
 
   console.log("\n✅ 全部完成！\n");
