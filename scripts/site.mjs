@@ -2,9 +2,9 @@
  * site.mjs — 静态网站生成模块
  *
  * 输出：
- *   docs/data/YYYY-MM-DD.json   每日文章归档
- *   docs/data/dates.json        所有已存档日期列表（供前端读取）
- *   docs/index.html             单页应用（仅首次或模板变化时覆盖）
+ *   docs/data/YYYY-MM-DD.json   每日文章归档（含 meta.topN）
+ *   docs/data/dates.json        所有已存档日期列表
+ *   docs/index.html             单页应用
  */
 
 import fs from "node:fs/promises";
@@ -13,45 +13,42 @@ import path from "node:path";
 const DOCS_DIR = "docs";
 const DATA_DIR = path.join(DOCS_DIR, "data");
 
-// ─── 写入每日数据 ─────────────────────────────────────────────────────────────
-
-export async function generateSite(rankedArticles, dateYmd) {
+export async function generateSite(rankedArticles, dateYmd, topN = 5) {
   await fs.mkdir(DATA_DIR, { recursive: true });
 
-  // 1. 写当日 JSON 归档
+  // 1. 写当日 JSON 归档（含 meta 字段，供前端知道 topN 分界线）
   const jsonPath = path.join(DATA_DIR, `${dateYmd}.json`);
-  const jsonData = rankedArticles.map((a, i) => ({
-    rank: i + 1,
-    title: a.title,
-    link: a.link,
-    source: a.sourceName,
-    summary: a.summary?.slice(0, 300) ?? "",
-    llmComment: a.llmComment ?? null,
-    pubDate: a.pubDate.toISOString(),
-    score: Math.round(a.score),
-  }));
-  await fs.writeFile(jsonPath, JSON.stringify(jsonData, null, 2) + "\n", "utf8");
-  console.log(`  ✓ 归档 JSON: ${jsonPath}  (${rankedArticles.length} 条)`);
+  const payload = {
+    meta: { date: dateYmd, topN, total: rankedArticles.length },
+    articles: rankedArticles.map((a, i) => ({
+      rank:       i + 1,
+      title:      a.title,
+      link:       a.link,
+      source:     a.sourceName,
+      summary:    a.summary?.slice(0, 300) ?? "",
+      llmComment: a.llmComment ?? null,
+      pubDate:    a.pubDate.toISOString(),
+      score:      Math.round(a.score),
+    })),
+  };
+  await fs.writeFile(jsonPath, JSON.stringify(payload, null, 2) + "\n", "utf8");
+  console.log(`  ✓ 归档 JSON: ${jsonPath}  (${rankedArticles.length} 条, top${topN})`);
 
-  // 2. 更新 dates.json（在列表头部插入最新日期）
+  // 2. 更新 dates.json
   const datesPath = path.join(DATA_DIR, "dates.json");
   let dates = [];
-  try {
-    dates = JSON.parse(await fs.readFile(datesPath, "utf8"));
-  } catch { /* 首次运行，文件不存在 */ }
-  if (!dates.includes(dateYmd)) {
-    dates.unshift(dateYmd);          // 最新日期排最前
-    dates.sort((a, b) => b.localeCompare(a));
-  }
+  try { dates = JSON.parse(await fs.readFile(datesPath, "utf8")); } catch { /* 首次 */ }
+  if (!dates.includes(dateYmd)) dates.unshift(dateYmd);
+  dates.sort((a, b) => b.localeCompare(a));
   await fs.writeFile(datesPath, JSON.stringify(dates, null, 2) + "\n", "utf8");
-  console.log(`  ✓ dates.json 更新（共 ${dates.length} 天）`);
+  console.log(`  ✓ dates.json (共 ${dates.length} 天)`);
 
-  // 3. 写/覆盖 index.html（SPA，每次都更新确保模板最新）
+  // 3. 写 index.html
   await fs.writeFile(path.join(DOCS_DIR, "index.html"), buildSpaHtml(), "utf8");
   console.log(`  ✓ index.html 已更新`);
 }
 
-// ─── 单页应用 HTML ────────────────────────────────────────────────────────────
+// ─── SPA HTML ─────────────────────────────────────────────────────────────────
 
 function buildSpaHtml() {
   return `<!DOCTYPE html>
@@ -64,26 +61,27 @@ function buildSpaHtml() {
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:        #0f1117;
-      --surface:   #1a1d2e;
-      --border:    #2d3148;
-      --border-hi: #6366f1;
-      --text:      #e2e8f0;
-      --muted:     #64748b;
-      --accent:    #a78bfa;
-      --link:      #818cf8;
-      --tag-bg:    #1e293b;
-      --tag-text:  #7dd3fc;
-      --score:     #facc15;
-      --ai-bg:     #1e1b4b;
-      --ai-border: #4338ca;
-      --ai-text:   #c7d2fe;
+      --bg:         #0f1117;
+      --surface:    #1a1d2e;
+      --surface2:   #141726;
+      --border:     #2d3148;
+      --border-hi:  #6366f1;
+      --text:       #e2e8f0;
+      --muted:      #64748b;
+      --accent:     #a78bfa;
+      --link:       #818cf8;
+      --score:      #facc15;
+      --ai-bg:      #1e1b4b;
+      --ai-border:  #4338ca;
+      --ai-text:    #c7d2fe;
+      --top-glow:   rgba(99,102,241,0.08);
     }
 
     body {
       background: var(--bg);
       color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                   "Microsoft YaHei", sans-serif;
       font-size: 15px;
       line-height: 1.65;
       min-height: 100vh;
@@ -93,15 +91,17 @@ function buildSpaHtml() {
     header {
       background: var(--surface);
       border-bottom: 1px solid var(--border);
-      padding: 1.2rem 1.5rem;
+      padding: 1.1rem 1.5rem;
       display: flex;
       align-items: center;
       gap: 1.2rem;
       flex-wrap: wrap;
+      position: sticky;
+      top: 0;
+      z-index: 10;
     }
-    header h1 { font-size: 1.3rem; color: var(--accent); white-space: nowrap; }
+    header h1 { font-size: 1.25rem; color: var(--accent); white-space: nowrap; }
 
-    /* 日期选择器 */
     #date-select-wrap { display: flex; align-items: center; gap: 0.6rem; }
     #date-select-wrap label { color: var(--muted); font-size: 0.85rem; }
     #date-select {
@@ -112,34 +112,45 @@ function buildSpaHtml() {
       padding: 0.3rem 0.7rem;
       font-size: 0.9rem;
       cursor: pointer;
-      outline: none;
     }
-    #date-select:focus { border-color: var(--border-hi); }
+    #date-select:focus { outline: none; border-color: var(--border-hi); }
 
-    /* 统计栏 */
-    #stats {
-      margin-left: auto;
-      color: var(--muted);
-      font-size: 0.82rem;
-      white-space: nowrap;
-    }
+    #stats { margin-left: auto; color: var(--muted); font-size: 0.82rem; white-space: nowrap; }
 
-    /* ── 主内容 ── */
-    main {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
+    /* ── 主体 ── */
+    main { max-width: 820px; margin: 0 auto; padding: 2rem 1rem 4rem; }
 
-    /* 加载 / 空状态 */
     #state-msg {
       text-align: center;
       color: var(--muted);
-      padding: 4rem 0;
+      padding: 5rem 0;
       font-size: 0.95rem;
     }
 
-    /* ── 文章卡片 ── */
+    /* ── Section 标题 ── */
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+    .section-title.top { color: var(--accent); }
+    .section-title.top::after { background: var(--border-hi); opacity: 0.4; }
+
+    #section-rest { margin-top: 2.5rem; }
+
+    /* ── 卡片 ── */
     .card {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -150,6 +161,13 @@ function buildSpaHtml() {
     }
     .card:hover { border-color: var(--border-hi); }
 
+    /* Top 卡片：额外光晕 */
+    .card.is-top {
+      background: linear-gradient(135deg, var(--surface) 0%, var(--surface2) 100%);
+      border-color: #3730a3;
+      box-shadow: 0 0 0 1px rgba(99,102,241,0.12), inset 0 0 40px var(--top-glow);
+    }
+
     .card-meta {
       display: flex;
       flex-wrap: wrap;
@@ -159,9 +177,9 @@ function buildSpaHtml() {
       color: var(--muted);
       margin-bottom: 0.5rem;
     }
-    .rank   { background: #312e81; color: #a5b4fc; padding: 1px 8px; border-radius: 4px; font-weight: 600; }
+    .rank   { background: #312e81; color: #a5b4fc; padding: 1px 8px; border-radius: 4px; font-weight: 700; }
     .source { color: var(--link); font-weight: 500; }
-    .score  { margin-left: auto; color: var(--score); font-size: 0.78rem; }
+    .score  { margin-left: auto; color: var(--score); font-size: 0.77rem; }
 
     .card-title { font-size: 1rem; font-weight: 600; margin-bottom: 0.4rem; line-height: 1.45; }
     .card-title a { color: var(--text); text-decoration: none; }
@@ -169,21 +187,23 @@ function buildSpaHtml() {
 
     .card-summary { color: #94a3b8; font-size: 0.88rem; margin-top: 0.3rem; }
 
-    /* AI 点评块 */
     .ai-comment {
-      margin-top: 0.7rem;
-      padding: 0.6rem 0.9rem;
+      margin-top: 0.75rem;
+      padding: 0.65rem 0.95rem;
       background: var(--ai-bg);
       border-left: 3px solid var(--ai-border);
       border-radius: 0 6px 6px 0;
       color: var(--ai-text);
       font-size: 0.88rem;
-      line-height: 1.55;
+      line-height: 1.6;
     }
-    .ai-comment::before {
-      content: "🤖 AI 点评  ";
-      font-weight: 600;
+    .ai-label {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
       color: #818cf8;
+      margin-bottom: 0.3rem;
+      letter-spacing: 0.03em;
     }
 
     /* ── 页脚 ── */
@@ -196,9 +216,9 @@ function buildSpaHtml() {
     footer a { color: #6366f1; text-decoration: none; }
 
     @media (max-width: 520px) {
-      header { padding: 1rem; gap: 0.8rem; }
-      #stats { margin-left: 0; }
-      .card  { padding: 0.9rem; }
+      header  { padding: 0.9rem 1rem; }
+      #stats  { margin-left: 0; }
+      .card   { padding: 0.9rem 1rem; }
     }
   </style>
 </head>
@@ -207,7 +227,7 @@ function buildSpaHtml() {
 <header>
   <h1>📰 每日资讯</h1>
   <div id="date-select-wrap">
-    <label for="date-select">选择日期</label>
+    <label for="date-select">日期</label>
     <select id="date-select"><option>加载中…</option></select>
   </div>
   <div id="stats"></div>
@@ -223,10 +243,10 @@ function buildSpaHtml() {
 </footer>
 
 <script>
-const sel   = document.getElementById('date-select');
-const list  = document.getElementById('article-list');
+const sel  = document.getElementById('date-select');
+const list = document.getElementById('article-list');
 const stats = document.getElementById('stats');
-const msg   = document.getElementById('state-msg');
+const msg  = document.getElementById('state-msg');
 
 function esc(s) {
   return String(s ?? '')
@@ -244,7 +264,29 @@ function timeStr(iso) {
   } catch { return iso?.slice(0,16) ?? ''; }
 }
 
-function renderArticles(articles) {
+function cardHtml(a, isTop) {
+  return \`
+    <article class="card\${isTop ? ' is-top' : ''}">
+      <div class="card-meta">
+        <span class="rank">#\${a.rank}</span>
+        <span class="source">\${esc(a.source)}</span>
+        <span class="time">\${timeStr(a.pubDate)}</span>
+        <span class="score">⭐ \${a.score}</span>
+      </div>
+      <h2 class="card-title">
+        <a href="\${esc(a.link)}" target="_blank" rel="noopener">\${esc(a.title)}</a>
+      </h2>
+      \${a.summary ? \`<p class="card-summary">\${esc(a.summary)}\${a.summary.length >= 300 ? '…' : ''}</p>\` : ''}
+      \${a.llmComment ? \`
+        <div class="ai-comment">
+          <span class="ai-label">🤖 AI 点评</span><br>
+          \${esc(a.llmComment)}
+        </div>\` : ''}
+    </article>\`;
+}
+
+function renderArticles(data) {
+  const { meta, articles } = data;
   if (!articles?.length) {
     msg.textContent = '当日暂无文章数据';
     msg.style.display = '';
@@ -252,24 +294,26 @@ function renderArticles(articles) {
     stats.textContent = '';
     return;
   }
-  msg.style.display = 'none';
-  stats.textContent = \`共 \${articles.length} 篇\`;
 
-  list.innerHTML = articles.map(a => \`
-    <article class="card">
-      <div class="card-meta">
-        <span class="rank">#\${a.rank}</span>
-        <span class="source">\${esc(a.source)}</span>
-        <span class="time">\${timeStr(a.pubDate)}</span>
-        <span class="score" title="综合得分">⭐ \${a.score}</span>
-      </div>
-      <h2 class="card-title">
-        <a href="\${esc(a.link)}" target="_blank" rel="noopener">\${esc(a.title)}</a>
-      </h2>
-      \${a.summary ? \`<p class="card-summary">\${esc(a.summary)}\${a.summary.length >= 300 ? '…' : ''}</p>\` : ''}
-      \${a.llmComment ? \`<div class="ai-comment">\${esc(a.llmComment)}</div>\` : ''}
-    </article>
-  \`).join('');
+  msg.style.display = 'none';
+  const topN  = meta?.topN ?? 5;
+  const total = articles.length;
+  stats.textContent = \`共 \${total} 篇 · Top \${Math.min(topN, total)} 精选\`;
+
+  const topArticles  = articles.filter(a => a.rank <= topN);
+  const restArticles = articles.filter(a => a.rank > topN);
+
+  let html = \`<div class="section-title top">✦ 今日精选 Top \${topArticles.length}</div>\`;
+  html += topArticles.map(a => cardHtml(a, true)).join('');
+
+  if (restArticles.length > 0) {
+    html += \`<div id="section-rest">
+      <div class="section-title">全部文章 · \${restArticles.length} 篇</div>
+      \${restArticles.map(a => cardHtml(a, false)).join('')}
+    </div>\`;
+  }
+
+  list.innerHTML = html;
 }
 
 async function loadDate(dateYmd) {
@@ -279,9 +323,8 @@ async function loadDate(dateYmd) {
   stats.textContent = '';
   try {
     const r = await fetch(\`data/\${dateYmd}.json?t=\${Date.now()}\`);
-    if (!r.ok) throw new Error('not found');
-    const data = await r.json();
-    renderArticles(data);
+    if (!r.ok) throw new Error();
+    renderArticles(await r.json());
   } catch {
     msg.textContent = \`\${dateYmd} 暂无数据\`;
   }
@@ -292,18 +335,11 @@ async function init() {
     const r = await fetch(\`data/dates.json?t=\${Date.now()}\`);
     if (!r.ok) throw new Error();
     const dates = await r.json();
+    if (!dates.length) { msg.textContent = '暂无历史数据'; return; }
 
-    if (!dates.length) {
-      msg.textContent = '暂无历史数据';
-      return;
-    }
-
-    sel.innerHTML = dates.map(d =>
-      \`<option value="\${d}">\${d}</option>\`
-    ).join('');
-
+    sel.innerHTML = dates.map(d => \`<option value="\${d}">\${d}</option>\`).join('');
     sel.addEventListener('change', () => loadDate(sel.value));
-    loadDate(dates[0]);   // 默认显示最新一天
+    loadDate(dates[0]);
   } catch {
     msg.textContent = '无法加载日期列表，请稍后刷新';
   }

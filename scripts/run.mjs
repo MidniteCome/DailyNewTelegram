@@ -121,7 +121,7 @@ async function main() {
 
   // ── Step 5: 生成网站 ──────────────────────────────────────────────────────
   console.log("🌐 生成静态网站…");
-  await generateSite(ranked, today);
+  await generateSite(ranked, today, topN);
   console.log();
 
   // ── Step 6: 标记已发送 + git push ─────────────────────────────────────────
