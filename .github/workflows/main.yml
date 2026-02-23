@@ -36,5 +36,4 @@ jobs:
           TG_CHAT_ID:   ${{ secrets.TG_CHAT_ID }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           USE_LLM:      "true"
-          # 网站 URL（填写后 Telegram 消息末尾会附上链接）
-          # SITE_URL: https://你的用户名.github.io/DailyNewTelegram/
+          SITE_URL: "https://midnitecome.github.io/DailyNewTelegram/"
