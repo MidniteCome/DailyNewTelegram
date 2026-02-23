@@ -11,10 +11,11 @@
       "link": "https://uk.finance.yahoo.com/news/gold-prices-oil-pound-commodities-dollar-interest-rates-federal-reserve-uk-inflation-093233998.html",
       "source": "Yahoo Finance",
       "summary": "Gold price below $5,000 as investors wait on Fed guidance for clues Yahoo Finance UK • 5 days ago GBP=X ^IXIC",
-      "llmComment": "近期黄金价格跌至4960美元/盎司下方，投资者正等待美联储的指导以寻找市场方向。这一价格表现略低于此前市场预期的5000美元关口，显示出市场对美联储未来政策路径存在不确定性。后续需关注本周五公布的美国就业数据和下周三的美联储利率决议，这些都将影响黄金及其他风险资产的表现。",
+      "llmComment": "美联储即将召开会议，投资者正关注其政策指引以判断未来利率走向。黄金价格跌破5000美元/盎司，反映出市场对经济前景的担忧和避险情绪的减弱。此前市场普遍预期金价会保持在较高水平，此次下跌超出预期。后续需重点关注美联储会议结果及美国通胀数据的变化。",
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 65,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "金价跌破5000美元，投资者等待美联储指引"
     },
     {
       "rank": 2,
@@ -22,10 +23,11 @@
       "link": "https://uk.finance.yahoo.com/news/ftse-100-live-stock-markets-wall-street-uk-retail-sales-budget-surplus-084326165.html",
       "source": "Yahoo Finance",
       "summary": "FTSE 100 and US markets gain as Supreme Court strikes down Trump’s blanket tariffs Yahoo Finance UK • 3 days ago ^FTSE BBRYF",
-      "llmComment": "英国富时100指数和美国股市上涨，原因是美国最高法院废除了特朗普时期的普遍性关税。这一决定减少了贸易不确定性，对风险资产构成短期利好。市场此前预期可能会有更多关于关税政策的明确结果，但此次裁决比预期更为彻底，因此超出部分投资者的预期。接下来需关注全球贸易关系的发展以及相关经济数据的表现。",
+      "llmComment": "英国富时100指数和美国股市上涨，因为最高法院废除了特朗普时期的全面关税。这一决策短期内可能缓解了贸易紧张局势对市场的负面影响，增强了风险资产的吸引力。市场此前预期可能会看到更多负面反应，因此此次结果超出了部分投资者的预期。后续需关注全球主要经济体之间的贸易关系变化及相关谈判进展。",
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 64,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "英国富时100指数和美股上涨，最高法院废除特朗普全面关税"
     },
     {
       "rank": 3,
@@ -33,10 +35,11 @@
       "link": "https://www.cnbc.com/2026/02/23/amazon-louisiana-ai-data-centers.html",
       "source": "CNBC Technology",
       "summary": "The project comes as Amazon has committed up to $200 billion this year on AI investments, which include data centers, chips and networking equipment.",
-      "llmComment": "亚马逊计划在路易斯安那州投资120亿美元建设AI数据中心，这是其今年200亿美元AI投资的一部分。亚马逊通过构建强大的AI基础设施来增强其服务竞争力和创新能力。市场机会在于进一步巩固其在云计算和AI领域的领导地位；但同时也要警惕微软等竞争对手的强劲挑战。此项目值得关注，尤其是其对当地经济的影响以及如何具体应用这些AI数据中心。",
+      "llmComment": "亚马逊计划在路易斯安那州投资120亿美元建设AI数据中心，这是其今年200亿美元AI投资的一部分。亚马逊通过构建强大的AI基础设施来增强自身竞争优势，但这也意味着它将在与微软、谷歌等科技巨头的激烈竞争中投入更多资源。鉴于AI技术对未来发展的重要性，这一项目值得持续关注。",
       "pubDate": "2026-02-23T19:30:01.000Z",
       "score": 64,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "亚马逊在路易斯安那投资120亿美元建AI数据中心"
     },
     {
       "rank": 4,
@@ -44,10 +47,11 @@
       "link": "https://www.cnbc.com/2026/02/23/5-things-to-know-before-the-stock-market-opens.html",
       "source": "CNBC Technology",
       "summary": "Here are five key things investors need to know to start the trading day.",
-      "llmComment": "这篇Morning Squawk的摘要并未直接涉及OpenAI的技术突破或具体业务进展，而是提到了关税、航班取消和OpenAI支出调整等非技术性信息。通常情况下，投资者更关心的是OpenAI在人工智能领域的最新技术进展及其对产业链的影响。\n\n从现有信息来看，尚待观察OpenAI的具体技术突破与现有方案有何实质差异，以及这些突破如何影响芯片供应商、云服务提供商和其他应用层企业。此外，目前也未披露此路线面临的主要风险或挑战是什么。",
+      "llmComment": "这篇Morning Squawk主要关注的是关税问题、航班取消以及OpenAI的支出调整等，但并未直接提及具体的AI或技术研究进展。根据新闻背景，我们可以推测，若OpenAI在AI模型训练上取得新的核心技术突破，这将与现有方案在计算效率和成本上有实质差异，对芯片供应商、云厂商及应用层公司都有潜在影响。不过，目前尚待观察该技术是否已成熟并商业化，以及其长期风险和挑战。",
       "pubDate": "2026-02-23T13:35:01.000Z",
       "score": 61,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "关税、航班取消、OpenAI开支重置及其他早间财经新闻"
     },
     {
       "rank": 5,
@@ -55,10 +59,11 @@
       "link": "https://news.crunchbase.com/venture/interesting-startup-deals-ai-robotics-energy-generation/",
       "source": "Crunchbase News",
       "summary": "A host of interesting, under-the-radar recently funded startups caught our attention in the past month: one that’s developing nuclear-waste generated electricity on the moon, and another that aims to use AI to extract business intelligence from enterprise contracts. Let’s take a closer look.",
-      "llmComment": "这家公司在月球上开发由核废料产生的电力，展示了在极端环境下获取清洁能源的创新尝试。然而，这一项目面临巨大的技术挑战和高昂的成本，竞争威胁尚待观察。此外，值得关注的是企业合同智能提取服务的发展动态，这可能为中小企业提供重要的商业洞察，但也需警惕数据安全与隐私保护的风险。",
+      "llmComment": "这家公司在月球上开发由核废料产生的电力，展示了其在能源创新领域的独特视角。虽然这一市场机会巨大，但面临的技术挑战和高昂成本也是不容忽视的竞争威胁。此外，项目进展如何以及能否实现商业化尚待观察，值得持续关注。",
       "pubDate": "2026-02-23T12:00:35.000Z",
       "score": 59,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "五项你可能错过的初创公司交易：植物基染料、鞋盒拣选机器人及月球发电技术"
     },
     {
       "rank": 6,
@@ -69,7 +74,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T17:53:28.000Z",
       "score": 55,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "Guide Labs推出一种可解释的LLM"
     },
     {
       "rank": 7,
@@ -80,7 +86,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T19:57:27.000Z",
       "score": 54,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "Anthropic指控中国AI实验室开采Claude，美国就AI芯片出口展开辩论"
     },
     {
       "rank": 8,
@@ -91,7 +98,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T17:05:00.000Z",
       "score": 52,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "人形机器人的幕后工作被隐藏"
     },
     {
       "rank": 9,
@@ -101,8 +109,9 @@
       "summary": "Ladybird adopts Rust, with help from AI Really interesting case-study from Andreas Kling on advanced, sophisticated use of coding agents for ambitious coding projects with critical code. After a few years hoping Swift's platform support outside of the Apple ecosystem would mature they switched track",
       "llmComment": null,
       "pubDate": "2026-02-23T18:52:53.000Z",
-      "score": 52,
-      "category": "🤖 AI & 研究"
+      "score": 51,
+      "category": "🤖 AI & 研究",
+      "titleZh": "Ladybird采用Rust语言，借助AI助力"
     },
     {
       "rank": 10,
@@ -113,7 +122,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T19:16:37.000Z",
       "score": 51,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "本周最大融资轮：世界实验室引领又一轮AI密集型投资"
     },
     {
       "rank": 11,
@@ -124,7 +134,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T15:38:00.000Z",
       "score": 50,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "AI能从训练数据生成近乎原版的小说"
     },
     {
       "rank": 12,
@@ -135,29 +146,32 @@
       "llmComment": null,
       "pubDate": "2026-02-21T01:30:21.000Z",
       "score": 49,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "引用Thibault Sottiaux的观点"
     },
     {
       "rank": 13,
       "title": "AI-powered reverse-engineering of Rosetta 2 (for Linux VM)",
       "link": "https://github.com/Inokinoki/attesor",
       "source": "Hacker News",
-      "summary": "Article URL: https://github.com/Inokinoki/attesor Comments URL: https://news.ycombinator.com/item?id=47129415 Points: 24 # Comments: 10",
+      "summary": "Article URL: https://github.com/Inokinoki/attesor Comments URL: https://news.ycombinator.com/item?id=47129415 Points: 28 # Comments: 10",
       "llmComment": null,
       "pubDate": "2026-02-23T21:47:29.000Z",
       "score": 48,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "基于AI的Rosetta 2逆向工程（适用于Linux VM）"
     },
     {
       "rank": 14,
       "title": "FreeBSD doesn't have Wi-Fi driver for my old MacBook. AI build one for me",
       "link": "https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/",
       "source": "Hacker News",
-      "summary": "Article URL: https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/ Comments URL: https://news.ycombinator.com/item?id=47129361 Points: 44 # Comments: 7",
+      "summary": "Article URL: https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/ Comments URL: https://news.ycombinator.com/item?id=47129361 Points: 82 # Comments: 28",
       "llmComment": null,
       "pubDate": "2026-02-23T21:44:28.000Z",
       "score": 48,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "FreeBSD为我的旧MacBook构建Wi-Fi驱动程序"
     },
     {
       "rank": 15,
@@ -167,8 +181,9 @@
       "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Want to lose weight? Get shredded? Stay mentally sharp? A wellness influencer might tell you to take peptides, the latest",
       "llmComment": null,
       "pubDate": "2026-02-23T18:52:40.000Z",
-      "score": 47,
-      "category": "🤖 AI & 研究"
+      "score": 46,
+      "category": "🤖 AI & 研究",
+      "titleZh": "肽类无处不在，你需要了解这些"
     },
     {
       "rank": 16,
@@ -179,7 +194,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T17:45:29.000Z",
       "score": 46,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "新任微软游戏主管对不良AI零容忍"
     },
     {
       "rank": 17,
@@ -190,7 +206,8 @@
       "llmComment": null,
       "pubDate": "2025-12-31T23:59:06.000Z",
       "score": 41,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Jensen Groks Groq"
     },
     {
       "rank": 18,
@@ -201,7 +218,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T17:14:44.000Z",
       "score": 36,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Cursor连接信创数据库及所有JDBC数据库"
     },
     {
       "rank": 19,
@@ -212,7 +230,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T14:39:25.000Z",
       "score": 35,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "生成式AI被揭穿为骗局"
     },
     {
       "rank": 20,
@@ -223,7 +242,8 @@
       "llmComment": null,
       "pubDate": "2020-06-06T18:44:15.000Z",
       "score": 35,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "5月Gwern.net通讯"
     },
     {
       "rank": 21,
@@ -234,7 +254,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T12:10:45.000Z",
       "score": 34,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Ladybird浏览器开发者利用AI将JS编译器改写为Rust版本"
     },
     {
       "rank": 22,
@@ -245,7 +266,8 @@
       "llmComment": null,
       "pubDate": "2025-11-24T14:12:03.000Z",
       "score": 33,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "Google DeepMind支持美国能源部推进Genesis计划：加速创新与科学发现的国家级使命"
     },
     {
       "rank": 23,
@@ -256,7 +278,8 @@
       "llmComment": null,
       "pubDate": "2025-12-02T21:39:14.000Z",
       "score": 33,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "关于AI进展的思考（2025年12月）"
     },
     {
       "rank": 24,
@@ -267,7 +290,8 @@
       "llmComment": null,
       "pubDate": "2025-12-16T10:14:24.000Z",
       "score": 31,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "Gemma Scope 2：帮助AI安全社区深入理解复杂语言模型行为"
     },
     {
       "rank": 25,
@@ -278,7 +302,8 @@
       "llmComment": null,
       "pubDate": "2021-06-11T14:16:22.000Z",
       "score": 31,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2021年5月Gwern.net通讯"
     },
     {
       "rank": 26,
@@ -289,7 +314,8 @@
       "llmComment": null,
       "pubDate": "2026-02-19T13:01:06.000Z",
       "score": 31,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "未来会是“一切皆AWS”吗？"
     },
     {
       "rank": 27,
@@ -300,7 +326,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T21:41:00.000Z",
       "score": 30,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "NetNewsWire 7 for Mac"
     },
     {
       "rank": 28,
@@ -311,7 +338,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T21:40:48.000Z",
       "score": 30,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Trader Joe's黑巧克力花生糖"
     },
     {
       "rank": 29,
@@ -322,7 +350,8 @@
       "llmComment": null,
       "pubDate": "2025-09-26T14:48:59.000Z",
       "score": 29,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "理查德·塞顿——RL之父认为LLM行不通"
     },
     {
       "rank": 30,
@@ -333,7 +362,8 @@
       "llmComment": null,
       "pubDate": "2026-02-12T08:37:32.000Z",
       "score": 28,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "AMD复兴的起源与局限"
     },
     {
       "rank": 31,
@@ -344,7 +374,8 @@
       "llmComment": null,
       "pubDate": "2026-01-29T13:00:33.000Z",
       "score": 28,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "技术 vs. 商品"
     },
     {
       "rank": 32,
@@ -355,7 +386,8 @@
       "llmComment": null,
       "pubDate": "2026-01-08T23:23:43.000Z",
       "score": 28,
-      "category": "🛡️ 安全"
+      "category": "🛡️ 安全",
+      "titleZh": "谁从Aisuru和Kimwolf木马中获利？"
     },
     {
       "rank": 33,
@@ -366,7 +398,8 @@
       "llmComment": null,
       "pubDate": "2026-02-05T03:35:00.000Z",
       "score": 27,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "在LLM帮助下重写pycparser"
     },
     {
       "rank": 34,
@@ -377,7 +410,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T18:26:41.000Z",
       "score": 26,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "特别报道：恨者的Anthropic指南"
     },
     {
       "rank": 35,
@@ -388,7 +422,8 @@
       "llmComment": null,
       "pubDate": "2026-02-14T17:16:35.000Z",
       "score": 25,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "我们急需联邦法律禁止AI冒充人类"
     },
     {
       "rank": 36,
@@ -399,7 +434,8 @@
       "llmComment": null,
       "pubDate": "2026-01-26T16:11:38.000Z",
       "score": 25,
-      "category": "🛡️ 安全"
+      "category": "🛡️ 安全",
+      "titleZh": "谁运营Badbox 2.0木马？"
     },
     {
       "rank": 37,
@@ -410,7 +446,8 @@
       "llmComment": null,
       "pubDate": "2026-02-17T00:00:00.000Z",
       "score": 25,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "LLM生成的技能有效，但要事后生成"
     },
     {
       "rank": 38,
@@ -421,7 +458,8 @@
       "llmComment": null,
       "pubDate": "2026-02-15T00:00:00.000Z",
       "score": 24,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "两种快速LLM推理技巧"
     },
     {
       "rank": 39,
@@ -432,7 +470,8 @@
       "llmComment": null,
       "pubDate": "2025-12-22T17:33:52.000Z",
       "score": 24,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "特别报道：2026年AI泡沫破灭"
     },
     {
       "rank": 40,
@@ -443,7 +482,8 @@
       "llmComment": null,
       "pubDate": "2025-07-01T13:00:38.000Z",
       "score": 23,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "投资者为何不关心你的业务"
     },
     {
       "rank": 41,
@@ -454,7 +494,8 @@
       "llmComment": null,
       "pubDate": "2025-06-10T13:00:25.000Z",
       "score": 23,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "使用AI教授国家安全政策"
     },
     {
       "rank": 42,
@@ -465,7 +506,8 @@
       "llmComment": null,
       "pubDate": "2026-01-01T07:11:00.000Z",
       "score": 21,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "2025年10月至12月阅读摘要"
     },
     {
       "rank": 43,
@@ -476,7 +518,8 @@
       "llmComment": null,
       "pubDate": "2026-02-18T16:00:00.000Z",
       "score": 20,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "AI是艺术的最佳助力"
     },
     {
       "rank": 44,
@@ -487,7 +530,8 @@
       "llmComment": null,
       "pubDate": "2026-02-14T16:00:00.000Z",
       "score": 18,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "tiny corp的产品——训练盒"
     },
     {
       "rank": 45,
@@ -498,7 +542,8 @@
       "llmComment": null,
       "pubDate": "2025-10-09T00:00:00.000Z",
       "score": 18,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "解释性帖子会消失吗？"
     },
     {
       "rank": 46,
@@ -509,7 +554,8 @@
       "llmComment": null,
       "pubDate": "2025-10-02T00:00:00.000Z",
       "score": 18,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "别再过度复杂化AI风险论点"
     },
     {
       "rank": 47,
@@ -520,7 +566,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T14:05:56.000Z",
       "score": 18,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "OpenAI与企业咨询巨头签订多年合同"
     },
     {
       "rank": 48,
@@ -531,7 +578,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T19:43:45.000Z",
       "score": 18,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "Anthropic CEO将与国防部长讨论AI军事应用"
     },
     {
       "rank": 49,
@@ -542,7 +590,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T13:30:01.000Z",
       "score": 18,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "Google spinout Aalyria估值13亿美元，投资者涌入太空通信领域"
     },
     {
       "rank": 50,
@@ -553,7 +602,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "热门股票：Nestlé、Carvana、DoorDash、Rio Tinto和Airbus"
     },
     {
       "rank": 51,
@@ -564,7 +614,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "可能更易受AI冲击的股市板块"
     },
     {
       "rank": 52,
@@ -575,7 +626,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "超市质量排行榜：优质平价 pancake 材料"
     },
     {
       "rank": 53,
@@ -586,7 +638,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:06:06.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "Uber收购停车应用SpotHero，拓展业务范围"
     },
     {
       "rank": 54,
@@ -597,7 +650,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T21:22:17.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "IBM成最新AI受害者，股价暴跌13%"
     },
     {
       "rank": 55,
@@ -608,7 +662,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T21:07:10.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "网络安全股连续两日下跌，因Anthropic工具加剧AI冲击担忧"
     },
     {
       "rank": 56,
@@ -619,7 +674,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T20:13:26.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "由于AI威胁担忧，网络安全股继续抛售，我们为何不撤资"
     },
     {
       "rank": 57,
@@ -630,7 +686,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "随Fed会议纪要发布华尔街上涨，FTSE创纪录高位"
     },
     {
       "rank": 58,
@@ -641,7 +698,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "热门股票：Nvidia、Palo Alto Networks、BAE Systems和Glencore"
     },
     {
       "rank": 59,
@@ -652,7 +710,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "英国通胀降至2025年3月以来最低"
     },
     {
       "rank": 60,
@@ -663,7 +722,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "热门股票：Nvidia、AMD、Antofagasta、Debenhams和IHG"
     },
     {
       "rank": 61,
@@ -674,7 +734,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T15:55:45.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "印度AI峰会：混乱、迷茫与200亿美元梦想"
     },
     {
       "rank": 62,
@@ -685,7 +746,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T15:21:22.000Z",
       "score": 17,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "萨姆·奥尔特曼辩驳AI能耗：水资源担忧不实，人类同样耗能"
     },
     {
       "rank": 63,
@@ -696,7 +758,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T13:41:10.000Z",
       "score": 16,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "美国推出和平 corps 后援“科技 corps”，助力输出AI抗衡中国"
     },
     {
       "rank": 64,
@@ -707,7 +770,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T18:11:08.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "OpenAI请顾问推动企业业务"
     },
     {
       "rank": 65,
@@ -718,7 +782,8 @@
       "llmComment": null,
       "pubDate": "2026-02-21T00:00:00.000Z",
       "score": 15,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "代码注释整理指南"
     },
     {
       "rank": 66,
@@ -729,7 +794,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T14:44:03.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "AI代理或摧毁经济"
     },
     {
       "rank": 67,
@@ -740,7 +806,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "英国录得史上最大预算盈余，为雷VES春季预测注入动力"
     },
     {
       "rank": 68,
@@ -751,7 +818,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "我欲将TM莱文恢复往日辉煌"
     },
     {
       "rank": 69,
@@ -762,7 +830,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "吴尔华粉丝必爱的9处野外住宅"
     },
     {
       "rank": 70,
@@ -773,7 +842,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "了解英国沙盒计划对加密投资者的意义"
     },
     {
       "rank": 71,
@@ -784,7 +854,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "全国降低按揭成本，专家预春季价格战"
     },
     {
       "rank": 72,
@@ -795,7 +866,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "比特币下跌因美伊紧张局势扰动风险资产"
     },
     {
       "rank": 73,
@@ -806,7 +878,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "黄金价格上涨至5000美元以上，避险需求推动"
     },
     {
       "rank": 74,
@@ -817,7 +890,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "伦敦证交所和华尔街股市回调消化沃尔玛财报与就业数据"
     },
     {
       "rank": 75,
@@ -828,7 +902,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "截至一月平均每月按揭付款减少119英镑"
     },
     {
       "rank": 76,
@@ -839,7 +914,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "英国房价去年十二月上涨2.4%"
     },
     {
       "rank": 77,
@@ -850,7 +926,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "本周最佳信用卡优惠"
     },
     {
       "rank": 78,
@@ -861,7 +938,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T22:21:50.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "特斯拉起诉加州DMV推翻有关FSD虚假广告裁决"
     },
     {
       "rank": 79,
@@ -872,7 +950,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T19:18:42.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "谷歌云AI在模型能力三大前沿领先"
     },
     {
       "rank": 80,
@@ -883,7 +962,8 @@
       "llmComment": null,
       "pubDate": "2026-02-19T12:00:20.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "Crunchbase数据：AI热潮大幅改变2025年与2021年最热公司融资格局"
     },
     {
       "rank": 81,
@@ -894,7 +974,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T18:37:26.000Z",
       "score": 15,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "特朗普要求Netflix解雇苏珊·赖斯，因司法部调查华纳交易"
     },
     {
       "rank": 82,
@@ -905,18 +986,20 @@
       "llmComment": null,
       "pubDate": "2026-02-23T21:46:41.000Z",
       "score": 14,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "由于OpenAI投资商大多也支持Anthropic，投资者忠诚度几乎消失"
     },
     {
       "rank": 83,
       "title": "Flock cameras gifted by Horowitz Foundation, avoiding public oversight",
       "link": "https://thenevadaindependent.com/article/vegas-police-are-big-users-of-license-plate-readers-public-has-little-input-because-its-a-gift",
       "source": "Hacker News",
-      "summary": "Article URL: https://thenevadaindependent.com/article/vegas-police-are-big-users-of-license-plate-readers-public-has-little-input-because-its-a-gift Comments URL: https://news.ycombinator.com/item?id=47128960 Points: 164 # Comments: 51",
+      "summary": "Article URL: https://thenevadaindependent.com/article/vegas-police-are-big-users-of-license-plate-readers-public-has-little-input-because-its-a-gift Comments URL: https://news.ycombinator.com/item?id=47128960 Points: 179 # Comments: 67",
       "llmComment": null,
       "pubDate": "2026-02-23T21:15:20.000Z",
       "score": 14,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "洛赫兹基金会赠送群鸟摄像头，避开公众监督"
     },
     {
       "rank": 84,
@@ -927,7 +1010,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T20:45:34.000Z",
       "score": 14,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Show HN：Babyshark——让Wireshark更简单（PCAP终端UI）"
     },
     {
       "rank": 85,
@@ -938,7 +1022,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T20:35:06.000Z",
       "score": 14,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "前苹果团队推出Acme Weather，革新天气预报"
     },
     {
       "rank": 86,
@@ -949,10 +1034,23 @@
       "llmComment": null,
       "pubDate": "2026-02-20T12:00:03.000Z",
       "score": 14,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "AI种子趋势：更多多媒体、后端自动化、代理安全及是的，机器人"
     },
     {
       "rank": 87,
+      "title": "HackEurope 2026: A short rant on AI and hackathons",
+      "link": "https://duti.dev/blog/2026/spr/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://duti.dev/blog/2026/spr/ Comments URL: https://news.ycombinator.com/item?id=47127954 Points: 5 # Comments: 1",
+      "llmComment": null,
+      "pubDate": "2026-02-23T20:03:51.000Z",
+      "score": 14,
+      "category": "💻 科技产品",
+      "titleZh": "2026 HackEurope短评：AI与黑客松"
+    },
+    {
+      "rank": 88,
       "title": "Finland's IQM to become one of Europe's first listed quantum companies at $1.8 billion valuation",
       "link": "https://www.cnbc.com/2026/02/23/finlands-iqm-listing-quantum-computing.html",
       "source": "CNBC Technology",
@@ -960,10 +1058,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T12:07:23.000Z",
       "score": 14,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "IQM芬兰将成为欧洲首批量子上市企业之一，估值18亿美元"
     },
     {
-      "rank": 88,
+      "rank": 89,
       "title": "Particle’s AI news app listens to podcasts for interesting clips so you you don’t have to",
       "link": "https://techcrunch.com/2026/02/23/particles-ai-news-app-listens-to-podcasts-for-interesting-clips-so-you-you-dont-have-to/",
       "source": "TechCrunch",
@@ -971,10 +1070,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T16:55:40.000Z",
       "score": 14,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "Particle推出AI新闻应用，自动监听播客精彩片段"
     },
     {
-      "rank": 89,
+      "rank": 90,
       "title": "Spotify rolls out AI-powered Prompted Playlists to the UK and other markets",
       "link": "https://techcrunch.com/2026/02/23/spotify-ai-prompted-playlists-uk-markets/",
       "source": "TechCrunch",
@@ -982,10 +1082,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T16:50:36.000Z",
       "score": 14,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "斑马音乐在英国及其他市场推出AI驱动的提示播放列表"
     },
     {
-      "rank": 90,
+      "rank": 91,
       "title": "VPN flaws allowed Chinese hackers to compromise dozens of Ivanti customers, says report",
       "link": "https://techcrunch.com/2026/02/23/vpn-flaws-allowed-chinese-hackers-to-compromise-dozens-of-ivanti-customers-says-report/",
       "source": "TechCrunch",
@@ -993,10 +1094,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T16:06:54.000Z",
       "score": 14,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "报告称VPN漏洞使中方黑客攻击多家Ivanti客户"
     },
     {
-      "rank": 91,
+      "rank": 92,
       "title": "Quoting Paul Ford",
       "link": "https://simonwillison.net/2026/Feb/23/paul-ford/#atom-everything",
       "source": "Simon Willison",
@@ -1004,21 +1106,23 @@
       "llmComment": null,
       "pubDate": "2026-02-23T16:00:32.000Z",
       "score": 14,
-      "category": "🤖 AI & 研究"
-    },
-    {
-      "rank": 92,
-      "title": "ASML unveils EUV light source advance that could yield 50% more chips by 2030",
-      "link": "https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/ Comments URL: https://news.ycombinator.com/item?id=47125349 Points: 188 # Comments: 48",
-      "llmComment": null,
-      "pubDate": "2026-02-23T17:18:41.000Z",
-      "score": 13,
-      "category": "💻 科技产品"
+      "category": "🤖 AI & 研究",
+      "titleZh": "引用Paul Ford"
     },
     {
       "rank": 93,
+      "title": "ASML unveils EUV light source advance that could yield 50% more chips by 2030",
+      "link": "https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/ Comments URL: https://news.ycombinator.com/item?id=47125349 Points: 192 # Comments: 49",
+      "llmComment": null,
+      "pubDate": "2026-02-23T17:18:41.000Z",
+      "score": 13,
+      "category": "💻 科技产品",
+      "titleZh": "ASML推出EUV光源技术，或使2030年产量增50%"
+    },
+    {
+      "rank": 94,
       "title": "Defense Secretary summons Anthropic’s Amodei over military use of Claude",
       "link": "https://techcrunch.com/2026/02/23/defense-secretary-summons-anthropics-amodei-over-military-use-of-claude/",
       "source": "TechCrunch",
@@ -1026,10 +1130,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T14:19:10.000Z",
       "score": 13,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "国防部长召见Anthropic首席Amodei讨论Claude军用"
     },
     {
-      "rank": 94,
+      "rank": 95,
       "title": "Red/green TDD",
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
       "source": "Simon Willison",
@@ -1037,10 +1142,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T07:12:28.000Z",
       "score": 13,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "红绿TDD"
     },
     {
-      "rank": 95,
+      "rank": 96,
       "title": "Digital Savings Startup Vestwell Lands $385M, Doubles Valuation",
       "link": "https://news.crunchbase.com/fintech/digital-savings-startup-vestwell-seriese-doubles-valuation/",
       "source": "Crunchbase News",
@@ -1048,10 +1154,11 @@
       "llmComment": null,
       "pubDate": "2026-02-18T13:00:17.000Z",
       "score": 13,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "数字储蓄初创Vestwell获3.85亿美元融资，估值翻倍"
     },
     {
-      "rank": 96,
+      "rank": 97,
       "title": "Reply guy",
       "link": "https://simonwillison.net/2026/Feb/23/reply-guy/#atom-everything",
       "source": "Simon Willison",
@@ -1059,10 +1166,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T13:11:57.000Z",
       "score": 13,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "回复者"
     },
     {
-      "rank": 97,
+      "rank": 98,
       "title": "The Download: Chicago’s surveillance network, and building better bras",
       "link": "https://www.technologyreview.com/2026/02/23/1133495/the-download-chicagos-surveillance-network-and-building-better-bras/",
       "source": "MIT Technology Review",
@@ -1070,10 +1178,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T13:10:00.000Z",
       "score": 13,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "今日下载：芝加哥监控网络与更好内衣的开发"
     },
     {
-      "rank": 98,
+      "rank": 99,
       "title": "Quoting Summer Yue",
       "link": "https://simonwillison.net/2026/Feb/23/summer-yue/#atom-everything",
       "source": "Simon Willison",
@@ -1081,10 +1190,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T13:01:13.000Z",
       "score": 13,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "引用Summer Yue"
     },
     {
-      "rank": 99,
+      "rank": 100,
       "title": "How I think about Codex",
       "link": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
       "source": "Simon Willison",
@@ -1092,10 +1202,11 @@
       "llmComment": null,
       "pubDate": "2026-02-22T15:53:43.000Z",
       "score": 13,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "我对Codex的看法"
     },
     {
-      "rank": 100,
+      "rank": 101,
       "title": "Tech giants commit billions to Indian AI as New Delhi pushes for superpower status",
       "link": "https://www.cnbc.com/2026/02/21/india-ai-summit-tech-giants-billion-dollar-investments.html",
       "source": "CNBC Technology",
@@ -1103,10 +1214,11 @@
       "llmComment": null,
       "pubDate": "2026-02-21T07:30:35.000Z",
       "score": 13,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "技术巨头投入数十亿助力印度AI发展，新德里力图成为超级大国"
     },
     {
-      "rank": 101,
+      "rank": 102,
       "title": "Finnish quantum unicorn IQM set to go public",
       "link": "https://techcrunch.com/2026/02/23/finnish-quantum-unicorn-iqm-set-to-go-public/",
       "source": "TechCrunch",
@@ -1114,10 +1226,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T16:41:22.000Z",
       "score": 13,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "芬兰量子独角兽IQM即将上市"
     },
     {
-      "rank": 102,
+      "rank": 103,
       "title": "Inside Chicago’s surveillance panopticon",
       "link": "https://www.technologyreview.com/2026/02/23/1132740/inside-chicago-surveillance-panopticon/",
       "source": "MIT Technology Review",
@@ -1125,10 +1238,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T10:00:00.000Z",
       "score": 13,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "调查芝加哥监控全景"
     },
     {
-      "rank": 103,
+      "rank": 104,
       "title": "The Second Great Error Model Convergence",
       "link": "https://matklad.github.io/2025/12/29/second-error-model-convergence.html",
       "source": "matklad",
@@ -1136,10 +1250,11 @@
       "llmComment": null,
       "pubDate": "2025-12-29T00:00:00.000Z",
       "score": 13,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "第二次重大错误模型收敛"
     },
     {
-      "rank": 104,
+      "rank": 105,
       "title": "Microsoft Xbox chief Phil Spencer retires, replaced by AI executive Asha Sharma",
       "link": "https://www.cnbc.com/2026/02/20/microsoft-gaming-chief-phil-spencer-retires-asha-sharma-replacing.html",
       "source": "CNBC Technology",
@@ -1147,10 +1262,11 @@
       "llmComment": null,
       "pubDate": "2026-02-21T00:16:18.000Z",
       "score": 13,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "微软Xbox负责人Phil Spencer退休，由AI高管Asha Sharma接任"
     },
     {
-      "rank": 105,
+      "rank": 106,
       "title": "Writing about Agentic Engineering Patterns",
       "link": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/#atom-everything",
       "source": "Simon Willison",
@@ -1158,10 +1274,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T17:43:02.000Z",
       "score": 13,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "关于Agentic工程模式的写作"
     },
     {
-      "rank": 106,
+      "rank": 107,
       "title": "Wispr Flow launches an Android app for AI-powered dictation",
       "link": "https://techcrunch.com/2026/02/23/wispr-flow-launches-an-android-app-for-ai-powered-dictation/",
       "source": "TechCrunch",
@@ -1169,10 +1286,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T08:01:00.000Z",
       "score": 13,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "Wispr Flow推出Android应用实现AI语音输入"
     },
     {
-      "rank": 107,
+      "rank": 108,
       "title": "OpenAI resets spending expectations, tells investors compute target is around $600 billion by 2030",
       "link": "https://www.cnbc.com/2026/02/20/openai-resets-spend-expectations-targets-around-600-billion-by-2030.html",
       "source": "CNBC Technology",
@@ -1180,10 +1298,11 @@
       "llmComment": null,
       "pubDate": "2026-02-20T22:35:29.000Z",
       "score": 13,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "OpenAI调整支出预期，告知投资者2030年计算目标约600亿美元"
     },
     {
-      "rank": 108,
+      "rank": 109,
       "title": "Writing code is cheap now",
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/#atom-everything",
       "source": "Simon Willison",
@@ -1191,10 +1310,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T16:20:42.000Z",
       "score": 13,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "代码编写成本降低"
     },
     {
-      "rank": 109,
+      "rank": 110,
       "title": "5 days left to lock in the lowest TechCrunch Disrupt 2026 ticket rates",
       "link": "https://techcrunch.com/2026/02/23/5-days-left-to-lock-in-the-lowest-techcrunch-disrupt-2026-ticket-rates/",
       "source": "TechCrunch",
@@ -1202,10 +1322,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T15:00:00.000Z",
       "score": 13,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "剩下5天锁定TechCrunch Disrupt 2026最低票价"
     },
     {
-      "rank": 110,
+      "rank": 111,
       "title": "ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
       "link": "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything",
       "source": "Simon Willison",
@@ -1213,10 +1334,11 @@
       "llmComment": null,
       "pubDate": "2026-02-20T17:12:55.000Z",
       "score": 12,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "ggml.ai加入Hugging Face确保本地AI长期发展"
     },
     {
-      "rank": 111,
+      "rank": 112,
       "title": "Exclusive: Ownwell Lands $30M To Help Homeowners Lower Their Property Tax Bills",
       "link": "https://news.crunchbase.com/venture/ownwell-raise-lower-homeowner-property-tax/",
       "source": "Crunchbase News",
@@ -1224,10 +1346,11 @@
       "llmComment": null,
       "pubDate": "2026-02-19T15:00:32.000Z",
       "score": 12,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "独家：Ownwell获3000万美元帮助房主降低税单"
     },
     {
-      "rank": 112,
+      "rank": 113,
       "title": "Innovation Is A Game Of Two Halves",
       "link": "https://news.crunchbase.com/venture/public-private-market-innovation-gray-odin/",
       "source": "Crunchbase News",
@@ -1235,10 +1358,11 @@
       "llmComment": null,
       "pubDate": "2026-02-19T12:00:31.000Z",
       "score": 12,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "创新是两半的游戏"
     },
     {
-      "rank": 113,
+      "rank": 114,
       "title": "Can the creator economy stay afloat in a flood of AI slop?",
       "link": "https://techcrunch.com/2026/02/22/can-the-creator-economy-stay-afloat-in-a-flood-of-ai-slop/",
       "source": "TechCrunch",
@@ -1246,10 +1370,11 @@
       "llmComment": null,
       "pubDate": "2026-02-22T22:15:58.000Z",
       "score": 12,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "AI烂作泛滥，创作者经济能否生存？"
     },
     {
-      "rank": 114,
+      "rank": 115,
       "title": "The Crunchbase Tech Layoffs Tracker",
       "link": "https://news.crunchbase.com/startups/tech-layoffs/",
       "source": "Crunchbase News",
@@ -1257,21 +1382,23 @@
       "llmComment": null,
       "pubDate": "2026-02-18T18:53:30.000Z",
       "score": 12,
-      "category": "💰 金融 & 创投"
-    },
-    {
-      "rank": 115,
-      "title": "Stop Killing Games update says EU petition advances",
-      "link": "https://videocardz.com/newz/stop-killing-games-update-says-eu-petition-advances",
-      "source": "Hacker News",
-      "summary": "Article URL: https://videocardz.com/newz/stop-killing-games-update-says-eu-petition-advances Comments URL: https://news.ycombinator.com/item?id=47128799 Points: 46 # Comments: 9",
-      "llmComment": null,
-      "pubDate": "2026-02-23T21:04:19.000Z",
-      "score": 12,
-      "category": "💻 科技产品"
+      "category": "💰 金融 & 创投",
+      "titleZh": "Crunchbase科技裁员追踪"
     },
     {
       "rank": 116,
+      "title": "Stop Killing Games update says EU petition advances",
+      "link": "https://videocardz.com/newz/stop-killing-games-update-says-eu-petition-advances",
+      "source": "Hacker News",
+      "summary": "Article URL: https://videocardz.com/newz/stop-killing-games-update-says-eu-petition-advances Comments URL: https://news.ycombinator.com/item?id=47128799 Points: 52 # Comments: 14",
+      "llmComment": null,
+      "pubDate": "2026-02-23T21:04:19.000Z",
+      "score": 12,
+      "category": "💻 科技产品",
+      "titleZh": "停止游戏杀戮更新：欧盟请愿进展顺利"
+    },
+    {
+      "rank": 117,
       "title": "SIM (YC X25) Is Hiring the Best Engineers in San Francisco",
       "link": "https://www.ycombinator.com/companies/sim/jobs/Rj8TVRM-software-engineer-platform",
       "source": "Hacker News",
@@ -1279,32 +1406,35 @@
       "llmComment": null,
       "pubDate": "2026-02-23T21:00:28.000Z",
       "score": 12,
-      "category": "💻 科技产品"
-    },
-    {
-      "rank": 117,
-      "title": "The challenges of porting Shufflepuck Cafe to the 8 bits Apple II",
-      "link": "https://www.colino.net/wordpress/archives/2026/02/23/the-challenges-of-porting-shufflepuck-cafe-to-the-8-bits-apple-ii/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.colino.net/wordpress/archives/2026/02/23/the-challenges-of-porting-shufflepuck-cafe-to-the-8-bits-apple-ii/ Comments URL: https://news.ycombinator.com/item?id=47128631 Points: 13 # Comments: 3",
-      "llmComment": null,
-      "pubDate": "2026-02-23T20:53:36.000Z",
-      "score": 12,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "SIM（YC X25）在旧金山招聘顶尖工程师"
     },
     {
       "rank": 118,
-      "title": "UNIX99, a UNIX-like OS for the TI-99/4A",
-      "link": "https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/",
+      "title": "The challenges of porting Shufflepuck Cafe to the 8 bits Apple II",
+      "link": "https://www.colino.net/wordpress/archives/2026/02/23/the-challenges-of-porting-shufflepuck-cafe-to-the-8-bits-apple-ii/",
       "source": "Hacker News",
-      "summary": "Article URL: https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/ Comments URL: https://news.ycombinator.com/item?id=47127986 Points: 107 # Comments: 33",
+      "summary": "Article URL: https://www.colino.net/wordpress/archives/2026/02/23/the-challenges-of-porting-shufflepuck-cafe-to-the-8-bits-apple-ii/ Comments URL: https://news.ycombinator.com/item?id=47128631 Points: 16 # Comments: 6",
       "llmComment": null,
-      "pubDate": "2026-02-23T20:05:15.000Z",
+      "pubDate": "2026-02-23T20:53:36.000Z",
       "score": 12,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "将Shufflepuck Cafe移植到Apple II的挑战"
     },
     {
       "rank": 119,
+      "title": "UNIX99, a UNIX-like OS for the TI-99/4A",
+      "link": "https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/",
+      "source": "Hacker News",
+      "summary": "Article URL: https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/ Comments URL: https://news.ycombinator.com/item?id=47127986 Points: 114 # Comments: 35",
+      "llmComment": null,
+      "pubDate": "2026-02-23T20:05:15.000Z",
+      "score": 12,
+      "category": "💻 科技产品",
+      "titleZh": "UNIX99，为TI-99/4A设计的类UNIX操作系统"
+    },
+    {
+      "rank": 120,
       "title": "Uber’s new autonomous vehicle division is about survival and opportunity",
       "link": "https://techcrunch.com/2026/02/23/uber-autonomous-solutions-av-robotaxi/",
       "source": "TechCrunch",
@@ -1312,32 +1442,35 @@
       "llmComment": null,
       "pubDate": "2026-02-23T19:54:22.000Z",
       "score": 12,
-      "category": "💰 金融 & 创投"
-    },
-    {
-      "rank": 120,
-      "title": "Binance fired employees who found $1.7B in crypto was sent to Iran",
-      "link": "https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html Comments URL: https://news.ycombinator.com/item?id=47127396 Points: 277 # Comments: 125",
-      "llmComment": null,
-      "pubDate": "2026-02-23T19:23:30.000Z",
-      "score": 12,
-      "category": "💻 科技产品"
+      "category": "💰 金融 & 创投",
+      "titleZh": "Uber新自动驾驶部门关注生存与机遇"
     },
     {
       "rank": 121,
-      "title": "A lithium-ion breakthrough that could boost range and lower costs",
-      "link": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/forget-solid-state-batteries-researchers-have-made-a-lithium-ion-breakthrough-that-could-boost-range-and-drastically-lower-costs",
+      "title": "Binance fired employees who found $1.7B in crypto was sent to Iran",
+      "link": "https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html",
       "source": "Hacker News",
-      "summary": "Article URL: https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/forget-solid-state-batteries-researchers-have-made-a-lithium-ion-breakthrough-that-could-boost-range-and-drastically-lower-costs Comments URL: https://news.ycombinator.com/item?id=47127133 Points: 41 # Comments: 13",
+      "summary": "Article URL: https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html Comments URL: https://news.ycombinator.com/item?id=47127396 Points: 289 # Comments: 133",
       "llmComment": null,
-      "pubDate": "2026-02-23T19:07:41.000Z",
+      "pubDate": "2026-02-23T19:23:30.000Z",
       "score": 12,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "贝因美解雇发现17亿美元加密货币被发送到伊朗的员工"
     },
     {
       "rank": 122,
+      "title": "A lithium-ion breakthrough that could boost range and lower costs",
+      "link": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/forget-solid-state-batteries-researchers-have-made-a-lithium-ion-breakthrough-that-could-boost-range-and-drastically-lower-costs",
+      "source": "Hacker News",
+      "summary": "Article URL: https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/forget-solid-state-batteries-researchers-have-made-a-lithium-ion-breakthrough-that-could-boost-range-and-drastically-lower-costs Comments URL: https://news.ycombinator.com/item?id=47127133 Points: 44 # Comments: 17",
+      "llmComment": null,
+      "pubDate": "2026-02-23T19:07:41.000Z",
+      "score": 12,
+      "category": "💻 科技产品",
+      "titleZh": "锂离子电池突破或提升续航降低成本"
+    },
+    {
+      "rank": 123,
       "title": "Americans are destroying Flock surveillance cameras",
       "link": "https://techcrunch.com/2026/02/23/americans-are-destroying-flock-surveillance-cameras/",
       "source": "TechCrunch",
@@ -1345,10 +1478,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T18:49:49.000Z",
       "score": 12,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "美国人破坏Flock监控摄像头"
     },
     {
-      "rank": 123,
+      "rank": 124,
       "title": "Hadrius (YC W23) Is Hiring Designers Who Code",
       "link": "https://www.ycombinator.com/companies/hadrius/jobs/ObynDF9-senior-product-designer",
       "source": "Hacker News",
@@ -1356,10 +1490,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T17:00:43.000Z",
       "score": 11,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Hadrius (YC W23) 招聘会编程设计师"
     },
     {
-      "rank": 124,
+      "rank": 125,
       "title": "The 2026 Mazda CX-5, driven: It got bigger; plus, radical tech upgrade",
       "link": "https://arstechnica.com/cars/2026/02/the-2026-mazda-cx-5-driven-it-got-bigger-plus-radical-tech-upgrade/",
       "source": "Ars Technica",
@@ -1367,21 +1502,23 @@
       "llmComment": null,
       "pubDate": "2026-02-23T17:00:02.000Z",
       "score": 11,
-      "category": "🤖 AI & 研究"
-    },
-    {
-      "rank": 125,
-      "title": "A simple web we own",
-      "link": "https://rsdoiel.github.io/blog/2026/02/21/a_simple_web_we_own.html",
-      "source": "Hacker News",
-      "summary": "Article URL: https://rsdoiel.github.io/blog/2026/02/21/a_simple_web_we_own.html Comments URL: https://news.ycombinator.com/item?id=47124149 Points: 151 # Comments: 99",
-      "llmComment": null,
-      "pubDate": "2026-02-23T16:01:18.000Z",
-      "score": 11,
-      "category": "💻 科技产品"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2026款马自达CX-5试驾：车身变大；另，重大技术升级"
     },
     {
       "rank": 126,
+      "title": "A simple web we own",
+      "link": "https://rsdoiel.github.io/blog/2026/02/21/a_simple_web_we_own.html",
+      "source": "Hacker News",
+      "summary": "Article URL: https://rsdoiel.github.io/blog/2026/02/21/a_simple_web_we_own.html Comments URL: https://news.ycombinator.com/item?id=47124149 Points: 155 # Comments: 101",
+      "llmComment": null,
+      "pubDate": "2026-02-23T16:01:18.000Z",
+      "score": 11,
+      "category": "💻 科技产品",
+      "titleZh": "我们拥有的简单网络"
+    },
+    {
+      "rank": 127,
       "title": "Show HN: Sowbot – open-hardware agricultural robot (ROS2, RTK GPS)",
       "link": "https://sowbot.co.uk/",
       "source": "Hacker News",
@@ -1389,10 +1526,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T15:48:33.000Z",
       "score": 11,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "展示HN：Sowbot – 开放硬件农业机器人（ROS2, RTK GPS）"
     },
     {
-      "rank": 127,
+      "rank": 128,
       "title": "Show HN: PgDog – Scale Postgres without changing the app",
       "link": "https://github.com/pgdogdev/pgdog",
       "source": "Hacker News",
@@ -1400,10 +1538,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T15:33:24.000Z",
       "score": 11,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "展示HN：PgDog – 不改变应用即可扩展Postgres"
     },
     {
-      "rank": 128,
+      "rank": 129,
       "title": "Here are 3 forces that drove the stock market during Wall Street’s comeback week",
       "link": "https://www.cnbc.com/2026/02/21/3-forces-that-drove-the-stock-market-during-wall-streets-comeback-week.html",
       "source": "CNBC Technology",
@@ -1411,32 +1550,35 @@
       "llmComment": null,
       "pubDate": "2026-02-21T17:46:51.000Z",
       "score": 11,
-      "category": "💰 金融 & 创投"
-    },
-    {
-      "rank": 129,
-      "title": "The peculiar case of Japanese web design (2022)",
-      "link": "https://sabrinas.space",
-      "source": "Hacker News",
-      "summary": "Article URL: https://sabrinas.space Comments URL: https://news.ycombinator.com/item?id=47122789 Points: 202 # Comments: 92",
-      "llmComment": null,
-      "pubDate": "2026-02-23T14:28:39.000Z",
-      "score": 11,
-      "category": "💻 科技产品"
+      "category": "💰 金融 & 创投",
+      "titleZh": "墙街回春周股市三大推手"
     },
     {
       "rank": 130,
-      "title": "The Age Verification Trap: Verifying age undermines everyone's data protection",
-      "link": "https://spectrum.ieee.org/age-verification",
+      "title": "The peculiar case of Japanese web design (2022)",
+      "link": "https://sabrinas.space",
       "source": "Hacker News",
-      "summary": "Article URL: https://spectrum.ieee.org/age-verification Comments URL: https://news.ycombinator.com/item?id=47122715 Points: 1056 # Comments: 837",
+      "summary": "Article URL: https://sabrinas.space Comments URL: https://news.ycombinator.com/item?id=47122789 Points: 204 # Comments: 92",
       "llmComment": null,
-      "pubDate": "2026-02-23T14:22:39.000Z",
+      "pubDate": "2026-02-23T14:28:39.000Z",
       "score": 11,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "日本网页设计的独特案例（2022）"
     },
     {
       "rank": 131,
+      "title": "The Age Verification Trap: Verifying age undermines everyone's data protection",
+      "link": "https://spectrum.ieee.org/age-verification",
+      "source": "Hacker News",
+      "summary": "Article URL: https://spectrum.ieee.org/age-verification Comments URL: https://news.ycombinator.com/item?id=47122715 Points: 1070 # Comments: 846",
+      "llmComment": null,
+      "pubDate": "2026-02-23T14:22:39.000Z",
+      "score": 11,
+      "category": "💻 科技产品",
+      "titleZh": "年龄验证陷阱：年龄验证削弱了所有人数据保护"
+    },
+    {
+      "rank": 132,
       "title": "Review: Knight of the Seven Kingdoms brings back that Westeros magic",
       "link": "https://arstechnica.com/culture/2026/02/review-knight-of-the-seven-kingdoms-brings-back-that-westeros-magic/",
       "source": "Ars Technica",
@@ -1444,21 +1586,23 @@
       "llmComment": null,
       "pubDate": "2026-02-23T13:51:36.000Z",
       "score": 11,
-      "category": "🤖 AI & 研究"
-    },
-    {
-      "rank": 132,
-      "title": "femtolisp: A lightweight, robust, scheme-like Lisp implementation",
-      "link": "https://github.com/JeffBezanson/femtolisp",
-      "source": "Hacker News",
-      "summary": "Article URL: https://github.com/JeffBezanson/femtolisp Comments URL: https://news.ycombinator.com/item?id=47121539 Points: 102 # Comments: 14",
-      "llmComment": null,
-      "pubDate": "2026-02-23T12:38:54.000Z",
-      "score": 11,
-      "category": "💻 科技产品"
+      "category": "🤖 AI & 研究",
+      "titleZh": "评测：七王国之骑士带回了维斯特洛的魔法"
     },
     {
       "rank": 133,
+      "title": "femtolisp: A lightweight, robust, scheme-like Lisp implementation",
+      "link": "https://github.com/JeffBezanson/femtolisp",
+      "source": "Hacker News",
+      "summary": "Article URL: https://github.com/JeffBezanson/femtolisp Comments URL: https://news.ycombinator.com/item?id=47121539 Points: 103 # Comments: 14",
+      "llmComment": null,
+      "pubDate": "2026-02-23T12:38:54.000Z",
+      "score": 11,
+      "category": "💻 科技产品",
+      "titleZh": "femtolisp：轻量级、坚固且类似Scheme的Lisp实现"
+    },
+    {
+      "rank": 134,
       "title": "The first cars bold enough to drive themselves",
       "link": "https://arstechnica.com/features/2026/02/the-first-cars-bold-enough-to-drive-themselves/",
       "source": "Ars Technica",
@@ -1466,10 +1610,11 @@
       "llmComment": null,
       "pubDate": "2026-02-23T12:00:45.000Z",
       "score": 11,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "足够大胆可自动驾驶的第一批汽车"
     },
     {
-      "rank": 134,
+      "rank": 135,
       "title": "NASA says it needs to haul the Artemis II rocket back to the hangar for repairs",
       "link": "https://arstechnica.com/space/2026/02/nasa-says-it-needs-to-haul-the-artemis-ii-rocket-back-to-the-hangar-for-repairs/",
       "source": "Ars Technica",
@@ -1477,18 +1622,8 @@
       "llmComment": null,
       "pubDate": "2026-02-21T23:54:38.000Z",
       "score": 11,
-      "category": "🤖 AI & 研究"
-    },
-    {
-      "rank": 135,
-      "title": "Ladybird adopts Rust",
-      "link": "https://ladybird.org/posts/adopting-rust/",
-      "source": "Hacker News",
-      "summary": "Article URL: https://ladybird.org/posts/adopting-rust/ Comments URL: https://news.ycombinator.com/item?id=47120899 Points: 974 # Comments: 535",
-      "llmComment": null,
-      "pubDate": "2026-02-23T11:29:22.000Z",
-      "score": 11,
-      "category": "💻 科技产品"
+      "category": "🤖 AI & 研究",
+      "titleZh": "美国宇航局需将阿耳忒弥斯二号火箭送回机库维修"
     },
     {
       "rank": 136,
@@ -1499,7 +1634,8 @@
       "llmComment": null,
       "pubDate": "2026-02-17T12:00:57.000Z",
       "score": 11,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "只有2州去年获得美国风险投资份额增加"
     },
     {
       "rank": 137,
@@ -1510,7 +1646,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T21:38:12.000Z",
       "score": 10,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "全国家长教师协会与Meta断绝关系"
     },
     {
       "rank": 138,
@@ -1521,7 +1658,8 @@
       "llmComment": null,
       "pubDate": "2026-02-22T14:51:14.000Z",
       "score": 10,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "ai-agent进程占用18GB内存，你知道这是什么吗？"
     },
     {
       "rank": 139,
@@ -1532,7 +1670,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T10:34:59.000Z",
       "score": 10,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "AI为何识别不出麻将少牌问题？"
     },
     {
       "rank": 140,
@@ -1543,7 +1682,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T07:13:19.000Z",
       "score": 10,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "引用Thariq Shihipar的话"
     },
     {
       "rank": 141,
@@ -1554,7 +1694,8 @@
       "llmComment": null,
       "pubDate": "2026-02-19T04:48:47.000Z",
       "score": 10,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "SWE-bench二月2026排行榜更新"
     },
     {
       "rank": 142,
@@ -1565,7 +1706,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T22:00:59.000Z",
       "score": 10,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "FCC要求广播站提供“亲美”节目，如每日宣誓效忠"
     },
     {
       "rank": 143,
@@ -1576,7 +1718,8 @@
       "llmComment": null,
       "pubDate": "2026-02-22T23:58:43.000Z",
       "score": 10,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "Claude C编译器揭示软件未来趋势"
     },
     {
       "rank": 144,
@@ -1587,7 +1730,8 @@
       "llmComment": null,
       "pubDate": "2026-02-22T23:54:39.000Z",
       "score": 10,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "伦敦证券交易所：树莓派控股公司"
     },
     {
       "rank": 145,
@@ -1598,7 +1742,8 @@
       "llmComment": null,
       "pubDate": "2026-02-22T23:08:08.000Z",
       "score": 10,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "苹果可能以新方式宣布新产品"
     },
     {
       "rank": 146,
@@ -1609,7 +1754,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T18:46:07.000Z",
       "score": 10,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "独家电子书：2025年AI热潮的修正"
     },
     {
       "rank": 147,
@@ -1620,7 +1766,8 @@
       "llmComment": null,
       "pubDate": "2026-02-22T21:08:50.000Z",
       "score": 10,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "布尔·古里说，现在最不利于职业生涯的是安于现状"
     },
     {
       "rank": 148,
@@ -1631,7 +1778,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T13:10:00.000Z",
       "score": 10,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "下载：微软在线现实检查及麻疹病例令人担忧的增长"
     },
     {
       "rank": 149,
@@ -1642,7 +1790,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T11:00:00.000Z",
       "score": 10,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "未来职位：乳房生物力学工程师"
     },
     {
       "rank": 150,
@@ -1653,7 +1802,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T04:14:45.000Z",
       "score": 10,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "如果代码不再开源AI编程岂不是要完？"
     },
     {
       "rank": 151,
@@ -1664,7 +1814,8 @@
       "llmComment": null,
       "pubDate": "2026-02-18T12:00:33.000Z",
       "score": 9,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "生物科技创业公司并购带来大额退出"
     },
     {
       "rank": 152,
@@ -1675,7 +1826,8 @@
       "llmComment": null,
       "pubDate": "2026-02-22T18:00:00.000Z",
       "score": 9,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "Quantonation的双倍规模第二基金显示量子仍有人信"
     },
     {
       "rank": 153,
@@ -1686,7 +1838,8 @@
       "llmComment": null,
       "pubDate": "2026-02-19T16:00:00.000Z",
       "score": 9,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "微软新计划在线证明哪些是真实内容哪些是AI生成"
     },
     {
       "rank": 154,
@@ -1697,7 +1850,8 @@
       "llmComment": null,
       "pubDate": "2026-02-22T11:20:03.000Z",
       "score": 9,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "研究揭示火箭发射对大气污染情况"
     },
     {
       "rank": 155,
@@ -1708,7 +1862,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T21:28:14.000Z",
       "score": 9,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "棱治糖果发明人孙子上市：现在味道差极了"
     },
     {
       "rank": 156,
@@ -1719,7 +1874,8 @@
       "llmComment": null,
       "pubDate": "2026-02-17T13:42:20.000Z",
       "score": 9,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "通过AI驱动的科学与教育加速印度发现"
     },
     {
       "rank": 157,
@@ -1730,7 +1886,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T11:00:00.000Z",
       "score": 9,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "社区服务"
     },
     {
       "rank": 158,
@@ -1741,7 +1898,8 @@
       "llmComment": null,
       "pubDate": "2026-02-19T23:48:35.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "恢复丢失代码"
     },
     {
       "rank": 159,
@@ -1752,7 +1910,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T17:40:16.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "我仍怀念Claude3.5情诗"
     },
     {
       "rank": 160,
@@ -1763,7 +1922,8 @@
       "llmComment": null,
       "pubDate": "2026-02-05T16:45:08.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "埃隆·马斯克：“36个月内，最便宜的AI部署地点将是太空”"
     },
     {
       "rank": 161,
@@ -1774,7 +1934,8 @@
       "llmComment": null,
       "pubDate": "2026-01-29T17:01:05.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "项目Genie：探索无限互动世界实验"
     },
     {
       "rank": 162,
@@ -1785,7 +1946,8 @@
       "llmComment": null,
       "pubDate": "2026-01-17T13:02:36.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "最近阅读清单（2026年1月17日）"
     },
     {
       "rank": 163,
@@ -1796,7 +1958,8 @@
       "llmComment": null,
       "pubDate": "2026-01-16T10:39:00.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "D4RT：教AI四维观察世界"
     },
     {
       "rank": 164,
@@ -1807,7 +1970,8 @@
       "llmComment": null,
       "pubDate": "2026-01-15T16:02:50.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "招聘猎头帮助寻找嘉宾"
     },
     {
       "rank": 165,
@@ -1818,7 +1982,8 @@
       "llmComment": null,
       "pubDate": "2026-01-15T13:03:28.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "真空管的意外长寿"
     },
     {
       "rank": 166,
@@ -1829,7 +1994,8 @@
       "llmComment": null,
       "pubDate": "2026-01-10T20:30:07.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "我最近在读（2026年1月10日）"
     },
     {
       "rank": 167,
@@ -1840,7 +2006,8 @@
       "llmComment": null,
       "pubDate": "2025-12-30T17:07:17.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "亚当·马尔博斯通：AI缺失大脑基本原理"
     },
     {
       "rank": 168,
@@ -1851,7 +2018,8 @@
       "llmComment": null,
       "pubDate": "2025-12-23T20:24:48.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "音频版博客：关于AI进展的思考（2025年12月）"
     },
     {
       "rank": 169,
@@ -1862,7 +2030,8 @@
       "llmComment": null,
       "pubDate": "2025-12-19T17:41:19.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "萨拉·佩恩：为何苏联失去冷战"
     },
     {
       "rank": 170,
@@ -1873,7 +2042,8 @@
       "llmComment": null,
       "pubDate": "2025-12-11T00:06:40.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "加强与英国AI安全研究所合作"
     },
     {
       "rank": 171,
@@ -1884,7 +2054,8 @@
       "llmComment": null,
       "pubDate": "2025-12-10T14:59:21.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "与英国政府深化AI时代繁荣与安全合作"
     },
     {
       "rank": 172,
@@ -1895,7 +2066,8 @@
       "llmComment": null,
       "pubDate": "2025-11-06T22:00:20.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "高通Hexagon AI加速器"
     },
     {
       "rank": 173,
@@ -1906,7 +2078,8 @@
       "llmComment": null,
       "pubDate": "2025-10-18T22:30:52.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Nexperia的悠久历史、复杂现状和不确定未来"
     },
     {
       "rank": 174,
@@ -1917,7 +2090,8 @@
       "llmComment": null,
       "pubDate": "2025-09-20T22:00:35.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Arm首席架构师谈Arm架构史"
     },
     {
       "rank": 175,
@@ -1928,7 +2102,8 @@
       "llmComment": null,
       "pubDate": "2025-06-05T00:01:39.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "简化终结：英特尔放弃X86S"
     },
     {
       "rank": 176,
@@ -1939,7 +2114,8 @@
       "llmComment": null,
       "pubDate": "2025-11-20T15:13:19.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "如何将AI图像验证带到Gemini应用中"
     },
     {
       "rank": 177,
@@ -1950,7 +2126,8 @@
       "llmComment": null,
       "pubDate": "2021-06-03T15:45:24.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2021年4月通讯"
     },
     {
       "rank": 178,
@@ -1961,7 +2138,8 @@
       "llmComment": null,
       "pubDate": "2021-03-13T15:18:44.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2021年2月Gwern.net通讯"
     },
     {
       "rank": 179,
@@ -1972,7 +2150,8 @@
       "llmComment": null,
       "pubDate": "2021-02-04T20:23:01.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2021年1月Gwern.net通讯"
     },
     {
       "rank": 180,
@@ -1983,7 +2162,8 @@
       "llmComment": null,
       "pubDate": "2021-01-10T17:31:06.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "12月通讯"
     },
     {
       "rank": 181,
@@ -1994,7 +2174,8 @@
       "llmComment": null,
       "pubDate": "2020-11-01T21:42:39.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2020年10月新闻"
     },
     {
       "rank": 182,
@@ -2005,7 +2186,8 @@
       "llmComment": null,
       "pubDate": "2020-10-26T13:40:32.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2020年9月新闻"
     },
     {
       "rank": 183,
@@ -2016,7 +2198,8 @@
       "llmComment": null,
       "pubDate": "2020-08-20T20:09:50.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2020年7月gwern.net通讯"
     },
     {
       "rank": 184,
@@ -2027,7 +2210,8 @@
       "llmComment": null,
       "pubDate": "2020-07-02T14:34:53.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2020年6月gwern.net通讯"
     },
     {
       "rank": 185,
@@ -2038,7 +2222,8 @@
       "llmComment": null,
       "pubDate": "2025-11-12T17:03:08.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "萨蒂亚·纳德拉：微软如何为AGI做准备"
     },
     {
       "rank": 186,
@@ -2049,7 +2234,8 @@
       "llmComment": null,
       "pubDate": "2025-10-31T15:01:37.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "莎拉·佩恩：俄罗斯如何破坏中国的崛起"
     },
     {
       "rank": 187,
@@ -2060,7 +2246,8 @@
       "llmComment": null,
       "pubDate": "2025-10-22T17:58:39.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "关于AI建设的思考"
     },
     {
       "rank": 188,
@@ -2071,7 +2258,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T22:10:04.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "Taalas以每秒17000个标记的速度提供Llama 3.1 8B"
     },
     {
       "rank": 189,
@@ -2082,7 +2270,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T15:29:58.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "有人在用猴狐浏览器吗？"
     },
     {
       "rank": 190,
@@ -2093,7 +2282,8 @@
       "llmComment": null,
       "pubDate": "2025-10-15T02:00:49.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "老化现象"
     },
     {
       "rank": 191,
@@ -2104,7 +2294,8 @@
       "llmComment": null,
       "pubDate": "2026-02-21T13:37:44.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "阅读清单21/26"
     },
     {
       "rank": 192,
@@ -2115,7 +2306,8 @@
       "llmComment": null,
       "pubDate": "2026-02-21T13:00:01.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "恐龙蛋壳可揭示其他化石的年代"
     },
     {
       "rank": 193,
@@ -2126,7 +2318,8 @@
       "llmComment": null,
       "pubDate": "2026-02-21T12:00:56.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "我们是否在不了解基因检测的情况下跳入商业领域？"
     },
     {
       "rank": 194,
@@ -2137,7 +2330,8 @@
       "llmComment": null,
       "pubDate": "2026-02-21T11:31:35.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "主要政府研究机构似乎在挤兑外国科学家"
     },
     {
       "rank": 195,
@@ -2148,7 +2342,8 @@
       "llmComment": null,
       "pubDate": "2026-01-13T23:33:22.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "高通收购Ventana RISC-V"
     },
     {
       "rank": 196,
@@ -2159,7 +2354,8 @@
       "llmComment": null,
       "pubDate": "2026-01-08T13:01:23.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "为什么电视变得如此便宜？"
     },
     {
       "rank": 197,
@@ -2170,7 +2366,8 @@
       "llmComment": null,
       "pubDate": "2026-02-19T17:58:37.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "Gemini 3.1 Pro"
     },
     {
       "rank": 198,
@@ -2181,7 +2378,8 @@
       "llmComment": null,
       "pubDate": "2026-02-19T16:06:14.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "Gemini 3.1 Pro：更智能的模型，应对复杂任务"
     },
     {
       "rank": 199,
@@ -2192,7 +2390,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T08:55:18.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "我疑惑为何在GitHub上部分项目提供的APK文件不直接提供签名后的Universal APK打包，而是提供多个分支？"
     },
     {
       "rank": 200,
@@ -2203,7 +2402,8 @@
       "llmComment": null,
       "pubDate": "2026-02-21T00:37:45.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "安德烈·卡帕西讨论“Claws”"
     },
     {
       "rank": 201,
@@ -2214,7 +2414,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T23:55:43.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "燃料测试后，对3月Artemis II登月的乐观情绪增长"
     },
     {
       "rank": 202,
@@ -2225,7 +2426,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T23:47:10.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "我的博客新增TILs、发布、博物馆、工具和研究内容"
     },
     {
       "rank": 203,
@@ -2236,7 +2438,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T23:28:21.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "微软游戏主管菲尔·斯宾塞离职，任职38年"
     },
     {
       "rank": 204,
@@ -2247,7 +2450,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T23:14:09.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "MAHA妈妈们威胁要扭转局势，RFK Jr.反对农药"
     },
     {
       "rank": 205,
@@ -2258,7 +2462,8 @@
       "llmComment": null,
       "pubDate": "2026-01-20T18:19:13.000Z",
       "score": 8,
-      "category": "🛡️ 安全"
+      "category": "🛡️ 安全",
+      "titleZh": "吉姆沃尔夫木马潜伏在企业及政府网络中"
     },
     {
       "rank": 206,
@@ -2269,7 +2474,8 @@
       "llmComment": null,
       "pubDate": "2026-01-13T17:00:18.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "Veo 3.1视频成分：更多一致性和控制力"
     },
     {
       "rank": 207,
@@ -2280,7 +2486,8 @@
       "llmComment": null,
       "pubDate": "2026-01-02T14:20:10.000Z",
       "score": 8,
-      "category": "🛡️ 安全"
+      "category": "🛡️ 安全",
+      "titleZh": "吉姆沃尔夫木马正窥视你的本地网络"
     },
     {
       "rank": 208,
@@ -2291,7 +2498,8 @@
       "llmComment": null,
       "pubDate": "2025-12-29T20:23:26.000Z",
       "score": 8,
-      "category": "🛡️ 安全"
+      "category": "🛡️ 安全",
+      "titleZh": "恭喜KrebsOnSecurity.com成立16周年！"
     },
     {
       "rank": 209,
@@ -2302,7 +2510,8 @@
       "llmComment": null,
       "pubDate": "2025-12-24T13:02:40.000Z",
       "score": 8,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "学习曲线有多准确？"
     },
     {
       "rank": 210,
@@ -2313,7 +2522,8 @@
       "llmComment": null,
       "pubDate": "2025-11-25T16:00:12.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "AlphaFold：五年影响回顾"
     },
     {
       "rank": 211,
@@ -2324,7 +2534,8 @@
       "llmComment": null,
       "pubDate": "2025-12-01T18:35:34.000Z",
       "score": 8,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2025年播客策略文档"
     },
     {
       "rank": 212,
@@ -2335,7 +2546,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T22:41:02.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "英国Discord年龄验证引发愤怒"
     },
     {
       "rank": 213,
@@ -2346,7 +2558,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T21:49:22.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "Meta元宇宙服务放弃VR"
     },
     {
       "rank": 214,
@@ -2357,7 +2570,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T07:17:12.000Z",
       "score": 7,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "自建家用NAS，有成熟方案吗？"
     },
     {
       "rank": 215,
@@ -2368,7 +2582,8 @@
       "llmComment": null,
       "pubDate": "2026-02-18T16:01:38.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "Gemini能创作音乐了"
     },
     {
       "rank": 216,
@@ -2379,7 +2594,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T20:00:30.000Z",
       "score": 7,
-      "category": "🛡️ 安全"
+      "category": "🛡️ 安全",
+      "titleZh": "“Starkiller”钓鱼服务代理真实登录页面"
     },
     {
       "rank": 217,
@@ -2390,7 +2606,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T19:44:39.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "RFK Jr.重组：NIH主任接管CDC"
     },
     {
       "rank": 218,
@@ -2401,7 +2618,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T06:46:02.000Z",
       "score": 7,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "替代Manus的方案？"
     },
     {
       "rank": 219,
@@ -2412,21 +2630,11 @@
       "llmComment": null,
       "pubDate": "2026-02-20T18:35:43.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "维基解封Archive.today，移除695000链接"
     },
     {
       "rank": 220,
-      "title": "旧版 Google App Engine (GAE) 还能有办法导出数据么？",
-      "link": "https://www.v2ex.com/t/1193547#reply4",
-      "source": "V2EX 技术",
-      "summary": "但在新版 Google 控制台找不到老 gae 入口了，也找不到数据库在哪里。请教是彻底被删了么？还是有其他隐藏入口？ ]]>",
-      "llmComment": null,
-      "pubDate": "2026-02-23T06:11:47.000Z",
-      "score": 7,
-      "category": "💻 科技产品"
-    },
-    {
-      "rank": 221,
       "title": "Why Final Fantasy is now targeting PC as its \"lead platform\"",
       "link": "https://arstechnica.com/gaming/2026/02/why-final-fantasy-is-now-targeting-pc-as-its-lead-platform/",
       "source": "Ars Technica",
@@ -2434,7 +2642,20 @@
       "llmComment": null,
       "pubDate": "2026-02-20T17:26:59.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "为何Final Fantasy瞄准PC为主平台"
+    },
+    {
+      "rank": 221,
+      "title": "旧版 Google App Engine (GAE) 还能有办法导出数据么？",
+      "link": "https://www.v2ex.com/t/1193547#reply4",
+      "source": "V2EX 技术",
+      "summary": "但在新版 Google 控制台找不到老 gae 入口了，也找不到数据库在哪里。请教是彻底被删了么？还是有其他隐藏入口？ ]]>",
+      "llmComment": null,
+      "pubDate": "2026-02-23T06:11:47.000Z",
+      "score": 7,
+      "category": "💻 科技产品",
+      "titleZh": "如何导出旧版Google App Engine数据？"
     },
     {
       "rank": 222,
@@ -2445,7 +2666,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T17:03:06.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "来自中国的“一千万年前”头骨更古老且非丹尼索瓦人"
     },
     {
       "rank": 223,
@@ -2456,7 +2678,8 @@
       "llmComment": null,
       "pubDate": "2025-11-24T16:37:51.000Z",
       "score": 7,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "高级：恨徒指南之NVIDIA"
     },
     {
       "rank": 224,
@@ -2467,7 +2690,8 @@
       "llmComment": null,
       "pubDate": "2026-02-20T10:00:00.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "麻疹病例上升，其他可预防感染可能接踵而至"
     },
     {
       "rank": 225,
@@ -2478,7 +2702,8 @@
       "llmComment": null,
       "pubDate": "2026-02-21T02:49:14.000Z",
       "score": 7,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "这推理速度也太快了！chatjimmy.ai比查数据库还快？"
     },
     {
       "rank": 226,
@@ -2489,7 +2714,8 @@
       "llmComment": null,
       "pubDate": "2026-02-11T21:04:07.000Z",
       "score": 7,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Apple Creator Studio使用限制"
     },
     {
       "rank": 227,
@@ -2500,7 +2726,8 @@
       "llmComment": null,
       "pubDate": "2026-02-04T20:31:13.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "Sam Altman与NVIDIA崛起终结日"
     },
     {
       "rank": 228,
@@ -2511,7 +2738,8 @@
       "llmComment": null,
       "pubDate": "2026-02-04T01:40:24.000Z",
       "score": 7,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "OpenAI的Codex"
     },
     {
       "rank": 229,
@@ -2522,7 +2750,8 @@
       "llmComment": null,
       "pubDate": "2026-02-04T01:34:54.000Z",
       "score": 7,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Xcode 26.3解锁主动编码的力量"
     },
     {
       "rank": 230,
@@ -2533,7 +2762,8 @@
       "llmComment": null,
       "pubDate": "2025-12-12T17:50:50.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "升级Gemini音频模型，打造强大语音体验"
     },
     {
       "rank": 231,
@@ -2544,7 +2774,8 @@
       "llmComment": null,
       "pubDate": "2025-12-09T11:29:03.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "FACTS基准套件：系统评估大语言模型的事实性"
     },
     {
       "rank": 232,
@@ -2555,7 +2786,8 @@
       "llmComment": null,
       "pubDate": "2025-11-25T17:04:02.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "谷歌研究者伊利亚·苏斯克维尔：从规模时代转向研究时代"
     },
     {
       "rank": 233,
@@ -2566,7 +2798,8 @@
       "llmComment": null,
       "pubDate": "2025-11-14T18:10:53.000Z",
       "score": 7,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "高级：恨徒指南之AI泡沫续集"
     },
     {
       "rank": 234,
@@ -2577,7 +2810,8 @@
       "llmComment": null,
       "pubDate": "2025-11-12T16:30:09.000Z",
       "score": 7,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "独家：OpenAI的推理支出及与微软收入分成"
     },
     {
       "rank": 235,
@@ -2588,7 +2822,8 @@
       "llmComment": null,
       "pubDate": "2025-12-05T00:00:00.000Z",
       "score": 7,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "AI检测工具无法证明文本为AI生成"
     },
     {
       "rank": 236,
@@ -2599,7 +2834,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T00:00:00.000Z",
       "score": 7,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "内幕失忆症"
     },
     {
       "rank": 237,
@@ -2610,7 +2846,8 @@
       "llmComment": null,
       "pubDate": "2026-02-23T00:00:00.000Z",
       "score": 7,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "持续学习为何如此困难？"
     },
     {
       "rank": 238,
@@ -2621,7 +2858,8 @@
       "llmComment": null,
       "pubDate": "2026-02-22T23:44:52.000Z",
       "score": 7,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "nothing能用支付宝指纹支付吗？"
     },
     {
       "rank": 239,
@@ -2632,7 +2870,8 @@
       "llmComment": null,
       "pubDate": "2026-02-19T05:44:29.000Z",
       "score": 7,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "尝试博客和通讯赞助实验"
     },
     {
       "rank": 240,
@@ -2643,7 +2882,8 @@
       "llmComment": null,
       "pubDate": "2026-02-22T20:58:55.000Z",
       "score": 7,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Sentry"
     },
     {
       "rank": 241,
@@ -2654,7 +2894,8 @@
       "llmComment": null,
       "pubDate": "2026-02-22T14:32:37.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "SwanLake：基于DuckDB + DuckLake的Arrow Flight SQL数据湖服务"
     },
     {
       "rank": 242,
@@ -2665,7 +2906,8 @@
       "llmComment": null,
       "pubDate": "2026-02-14T13:01:32.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "02/14/26阅读清单"
     },
     {
       "rank": 243,
@@ -2676,7 +2918,8 @@
       "llmComment": null,
       "pubDate": "2026-02-13T16:46:36.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "达里奥·阿莫代：“我们接近指数增长的终点”"
     },
     {
       "rank": 244,
@@ -2687,7 +2930,8 @@
       "llmComment": null,
       "pubDate": "2026-02-12T16:15:09.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "吉米尼3深度思考：推进科学、研究与工程"
     },
     {
       "rank": 245,
@@ -2698,7 +2942,8 @@
       "llmComment": null,
       "pubDate": "2026-02-12T13:03:20.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "美国建筑业生产率趋势"
     },
     {
       "rank": 246,
@@ -2709,7 +2954,8 @@
       "llmComment": null,
       "pubDate": "2026-02-11T16:08:11.000Z",
       "score": 6,
-      "category": "🛡️ 安全"
+      "category": "🛡️ 安全",
+      "titleZh": "柯米沃尔木马淹没匿名网络I2P"
     },
     {
       "rank": 247,
@@ -2720,7 +2966,8 @@
       "llmComment": null,
       "pubDate": "2026-02-10T21:49:53.000Z",
       "score": 6,
-      "category": "🛡️ 安全"
+      "category": "🛡️ 安全",
+      "titleZh": "2026年2月补丁星期二"
     },
     {
       "rank": 248,
@@ -2731,7 +2978,8 @@
       "llmComment": null,
       "pubDate": "2026-02-09T16:12:06.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "吉米尼深度思考加速数学与科学发现"
     },
     {
       "rank": 249,
@@ -2742,7 +2990,8 @@
       "llmComment": null,
       "pubDate": "2026-02-06T13:03:43.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "2026年2月6日阅读清单"
     },
     {
       "rank": 250,
@@ -2753,7 +3002,8 @@
       "llmComment": null,
       "pubDate": "2026-02-05T18:26:47.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "空间GPU笔记"
     },
     {
       "rank": 251,
@@ -2764,7 +3014,8 @@
       "llmComment": null,
       "pubDate": "2026-02-02T16:15:16.000Z",
       "score": 6,
-      "category": "🛡️ 安全"
+      "category": "🛡️ 安全",
+      "titleZh": "请勿喂食散落的Lapsus ShinyHunters"
     },
     {
       "rank": 252,
@@ -2775,7 +3026,8 @@
       "llmComment": null,
       "pubDate": "2026-01-31T13:02:52.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "2026年1月31日阅读清单"
     },
     {
       "rank": 253,
@@ -2786,7 +3038,8 @@
       "llmComment": null,
       "pubDate": "2026-01-24T23:30:23.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "英特尔拉拉贝遗产"
     },
     {
       "rank": 254,
@@ -2797,7 +3050,8 @@
       "llmComment": null,
       "pubDate": "2026-01-24T13:00:24.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "2026年1月24日阅读清单"
     },
     {
       "rank": 255,
@@ -2808,7 +3062,8 @@
       "llmComment": null,
       "pubDate": "2026-01-22T13:02:46.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "商品是否会随着时间变便宜？"
     },
     {
       "rank": 256,
@@ -2819,7 +3074,8 @@
       "llmComment": null,
       "pubDate": "2026-01-22T09:42:13.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "爆料：塞里·达米斯·哈萨比斯认为ChatGPT是一条死胡同，我们必须转向世界模型"
     },
     {
       "rank": 257,
@@ -2830,7 +3086,8 @@
       "llmComment": null,
       "pubDate": "2026-01-14T00:47:38.000Z",
       "score": 6,
-      "category": "🛡️ 安全"
+      "category": "🛡️ 安全",
+      "titleZh": "2026年1月补丁星期二"
     },
     {
       "rank": 258,
@@ -2841,7 +3098,8 @@
       "llmComment": null,
       "pubDate": "2026-01-10T13:00:43.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "2026年1月10日阅读清单"
     },
     {
       "rank": 259,
@@ -2852,7 +3110,8 @@
       "llmComment": null,
       "pubDate": "2026-01-03T13:02:46.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "2026年1月3日阅读清单"
     },
     {
       "rank": 260,
@@ -2863,7 +3122,8 @@
       "llmComment": null,
       "pubDate": "2026-01-01T13:03:05.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "美国家居建设商是否应效仿瑞典？"
     },
     {
       "rank": 261,
@@ -2874,7 +3134,8 @@
       "llmComment": null,
       "pubDate": "2025-12-23T17:01:02.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "谷歌年度回顾：2025年八大研究突破领域"
     },
     {
       "rank": 262,
@@ -2885,7 +3146,8 @@
       "llmComment": null,
       "pubDate": "2025-12-20T13:01:26.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "2025年12月20日阅读清单"
     },
     {
       "rank": 263,
@@ -2896,7 +3158,8 @@
       "llmComment": null,
       "pubDate": "2025-12-18T13:02:53.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "贝尔实验室首次获得诺贝尔奖的故事"
     },
     {
       "rank": 264,
@@ -2907,7 +3170,8 @@
       "llmComment": null,
       "pubDate": "2025-12-17T11:58:17.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "吉米尼3闪电情报：为速度而生的前沿智能"
     },
     {
       "rank": 265,
@@ -2918,7 +3182,8 @@
       "llmComment": null,
       "pubDate": "2025-12-13T23:30:30.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "TPU热潮"
     },
     {
       "rank": 266,
@@ -2929,7 +3194,8 @@
       "llmComment": null,
       "pubDate": "2025-12-13T13:02:51.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "2025年12月13日阅读清单"
     },
     {
       "rank": 267,
@@ -2940,7 +3206,8 @@
       "llmComment": null,
       "pubDate": "2025-12-11T13:03:08.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "建筑业生产率停滞是全球问题"
     },
     {
       "rank": 268,
@@ -2951,7 +3218,8 @@
       "llmComment": null,
       "pubDate": "2025-09-13T22:30:28.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "PC从未真正成为“IBM”"
     },
     {
       "rank": 269,
@@ -2962,7 +3230,8 @@
       "llmComment": null,
       "pubDate": "2025-09-09T00:01:01.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "IBM有多大？"
     },
     {
       "rank": 270,
@@ -2973,7 +3242,8 @@
       "llmComment": null,
       "pubDate": "2025-08-27T09:54:30.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "英特尔在澳洲"
     },
     {
       "rank": 271,
@@ -2984,7 +3254,8 @@
       "llmComment": null,
       "pubDate": "2025-08-06T08:54:48.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "源代码控制"
     },
     {
       "rank": 272,
@@ -2995,7 +3266,8 @@
       "llmComment": null,
       "pubDate": "2025-07-26T13:07:24.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "图灵奖历史"
     },
     {
       "rank": 273,
@@ -3006,7 +3278,8 @@
       "llmComment": null,
       "pubDate": "2025-07-19T09:35:49.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "MIPS架构"
     },
     {
       "rank": 274,
@@ -3017,7 +3290,8 @@
       "llmComment": null,
       "pubDate": "2025-06-18T08:18:41.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "黄氏定律"
     },
     {
       "rank": 275,
@@ -3028,7 +3302,8 @@
       "llmComment": null,
       "pubDate": "2025-05-27T00:00:42.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "苹果在中国"
     },
     {
       "rank": 276,
@@ -3039,7 +3314,8 @@
       "llmComment": null,
       "pubDate": "2025-05-19T23:30:30.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "个人电脑起源：Datapoint 2200"
     },
     {
       "rank": 277,
@@ -3050,7 +3326,8 @@
       "llmComment": null,
       "pubDate": "2025-05-15T07:53:33.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Markdown与Substack - 熊的流程"
     },
     {
       "rank": 278,
@@ -3061,7 +3338,8 @@
       "llmComment": null,
       "pubDate": "2025-12-04T16:23:24.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "培育适应暖化气候的作物"
     },
     {
       "rank": 279,
@@ -3072,7 +3350,8 @@
       "llmComment": null,
       "pubDate": "2025-11-25T15:52:51.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "揭示心脏病关键蛋白"
     },
     {
       "rank": 280,
@@ -3083,7 +3362,8 @@
       "llmComment": null,
       "pubDate": "2021-04-06T15:31:01.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2021年3月Gwern.net通讯"
     },
     {
       "rank": 281,
@@ -3094,7 +3374,8 @@
       "llmComment": null,
       "pubDate": "2020-12-04T00:40:13.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "11月通讯"
     },
     {
       "rank": 282,
@@ -3105,7 +3386,8 @@
       "llmComment": null,
       "pubDate": "2020-09-01T23:18:28.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2020年8月Gwern.net通讯"
     },
     {
       "rank": 283,
@@ -3116,7 +3398,8 @@
       "llmComment": null,
       "pubDate": "2020-05-01T00:00:00.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "2020年4月Gwern.net通讯"
     },
     {
       "rank": 284,
@@ -3127,7 +3410,8 @@
       "llmComment": null,
       "pubDate": "2025-11-17T16:54:09.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "强化学习的信息效率更低"
     },
     {
       "rank": 285,
@@ -3138,7 +3422,8 @@
       "llmComment": null,
       "pubDate": "2025-10-17T16:54:33.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "安德烈·卡帕西 - AGI 还需十年"
     },
     {
       "rank": 286,
@@ -3149,7 +3434,8 @@
       "llmComment": null,
       "pubDate": "2025-10-10T15:29:40.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "尼克·莱恩 - 生命化学必然性"
     },
     {
       "rank": 287,
@@ -3160,7 +3446,8 @@
       "llmComment": null,
       "pubDate": "2025-10-04T17:45:00.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "关于萨顿采访的一些想法"
     },
     {
       "rank": 288,
@@ -3171,7 +3458,8 @@
       "llmComment": null,
       "pubDate": "2025-10-01T14:03:06.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "《生命之谜》一书评"
     },
     {
       "rank": 289,
@@ -3182,7 +3470,8 @@
       "llmComment": null,
       "pubDate": "2026-02-22T10:24:33.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "求推荐人体工学鼠标"
     },
     {
       "rank": 290,
@@ -3193,7 +3482,8 @@
       "llmComment": null,
       "pubDate": "2026-02-18T14:00:39.000Z",
       "score": 6,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "只是你以为他们在为你工作"
     },
     {
       "rank": 291,
@@ -3204,7 +3494,8 @@
       "llmComment": null,
       "pubDate": "2026-02-18T00:08:45.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "苹果3月4日在纽约、伦敦和上海举办特别体验活动"
     },
     {
       "rank": 292,
@@ -3215,7 +3506,8 @@
       "llmComment": null,
       "pubDate": "2026-02-10T21:31:52.000Z",
       "score": 6,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "LLM推理依然存在严重缺陷"
     },
     {
       "rank": 293,
@@ -3226,7 +3518,8 @@
       "llmComment": null,
       "pubDate": "2026-02-22T04:40:08.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "有没有工具提醒claude5小时时间到了？"
     },
     {
       "rank": 294,
@@ -3237,32 +3530,11 @@
       "llmComment": null,
       "pubDate": "2026-02-22T03:32:55.000Z",
       "score": 6,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "Claude Code镜像站大家用什么？如何防止注水？"
     },
     {
       "rank": 295,
-      "title": "IMAX and Apple Collaborate to Screen F1 Races Live in Theaters",
-      "link": "https://www.motorsport.com/f1/news/f1-to-screen-live-in-imax-theatres-in-2026-as-apple-tv-unveils-new-us-viewing-experience/10798974/",
-      "source": "Daring Fireball",
-      "summary": "Lydia Mee, reporting for Motorsport: IMAX has announced that a select number of races will be shown live in IMAX locations across the United States in 2026. The new fan viewing experience is part of a collaboration with Apple TV, which has taken over the broadcasting rights for the championship in t",
-      "llmComment": null,
-      "pubDate": "2026-02-19T23:29:06.000Z",
-      "score": 5,
-      "category": "💻 科技产品"
-    },
-    {
-      "rank": 296,
-      "title": "红米手机刷了国际版，内网也能推送",
-      "link": "https://www.v2ex.com/t/1193433#reply31",
-      "source": "V2EX 技术",
-      "summary": "",
-      "llmComment": null,
-      "pubDate": "2026-02-22T00:27:32.000Z",
-      "score": 5,
-      "category": "💻 科技产品"
-    },
-    {
-      "rank": 297,
       "title": "Premium: The AI Data Center Financial Crisis",
       "link": "https://www.wheresyoured.at/data-center-crisis/",
       "source": "Where's Your Ed At",
@@ -3270,7 +3542,32 @@
       "llmComment": null,
       "pubDate": "2026-02-13T19:08:34.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "高级：AI数据中心财务危机"
+    },
+    {
+      "rank": 296,
+      "title": "IMAX and Apple Collaborate to Screen F1 Races Live in Theaters",
+      "link": "https://www.motorsport.com/f1/news/f1-to-screen-live-in-imax-theatres-in-2026-as-apple-tv-unveils-new-us-viewing-experience/10798974/",
+      "source": "Daring Fireball",
+      "summary": "Lydia Mee, reporting for Motorsport: IMAX has announced that a select number of races will be shown live in IMAX locations across the United States in 2026. The new fan viewing experience is part of a collaboration with Apple TV, which has taken over the broadcasting rights for the championship in t",
+      "llmComment": null,
+      "pubDate": "2026-02-19T23:29:06.000Z",
+      "score": 5,
+      "category": "💻 科技产品",
+      "titleZh": "IMAX与苹果合作在影院直播F1赛事"
+    },
+    {
+      "rank": 297,
+      "title": "红米手机刷了国际版，内网也能推送",
+      "link": "https://www.v2ex.com/t/1193433#reply31",
+      "source": "V2EX 技术",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-22T00:27:32.000Z",
+      "score": 5,
+      "category": "💻 科技产品",
+      "titleZh": "红米刷国际版后也能推送内网"
     },
     {
       "rank": 298,
@@ -3281,7 +3578,8 @@
       "llmComment": null,
       "pubDate": "2026-02-13T10:09:12.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "AI编程后我更累了"
     },
     {
       "rank": 299,
@@ -3292,7 +3590,8 @@
       "llmComment": null,
       "pubDate": "2026-02-13T00:38:32.000Z",
       "score": 5,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "开放AI可能垮台"
     },
     {
       "rank": 300,
@@ -3303,7 +3602,8 @@
       "llmComment": null,
       "pubDate": "2026-02-12T17:24:34.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "格尔曼：新Siri可能再次推迟"
     },
     {
       "rank": 301,
@@ -3314,7 +3614,8 @@
       "llmComment": null,
       "pubDate": "2026-02-10T16:51:06.000Z",
       "score": 5,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "关于AI与银行业的一些令人不安的事实，可能产生深远影响"
     },
     {
       "rank": 302,
@@ -3325,7 +3626,8 @@
       "llmComment": null,
       "pubDate": "2026-02-08T21:20:33.000Z",
       "score": 5,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "超级碗对决：Anthropic vs OpenAI"
     },
     {
       "rank": 303,
@@ -3336,7 +3638,8 @@
       "llmComment": null,
       "pubDate": "2026-02-05T15:11:22.000Z",
       "score": 5,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "大规模AI崩盘即将来临？[不适合工作]"
     },
     {
       "rank": 304,
@@ -3347,7 +3650,8 @@
       "llmComment": null,
       "pubDate": "2026-02-05T00:00:00.000Z",
       "score": 5,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "抓住主要问题"
     },
     {
       "rank": 305,
@@ -3358,7 +3662,8 @@
       "llmComment": null,
       "pubDate": "2026-02-03T19:58:00.000Z",
       "score": 5,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "四种关于SpaceX与xAI合并的理论"
     },
     {
       "rank": 306,
@@ -3369,7 +3674,8 @@
       "llmComment": null,
       "pubDate": "2026-02-02T15:46:55.000Z",
       "score": 5,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "《纽约时报》八大视角看AI未来走向"
     },
     {
       "rank": 307,
@@ -3380,7 +3686,8 @@
       "llmComment": null,
       "pubDate": "2026-02-01T19:12:18.000Z",
       "score": 5,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "OpenClaw（又名Moltbot）无处不在，危机四伏"
     },
     {
       "rank": 308,
@@ -3391,7 +3698,8 @@
       "llmComment": null,
       "pubDate": "2026-01-31T00:00:00.000Z",
       "score": 5,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "AI如何影响技能形成？"
     },
     {
       "rank": 309,
@@ -3402,7 +3710,8 @@
       "llmComment": null,
       "pubDate": "2026-01-30T19:57:01.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "苹果Q1财年创纪录营收和利润"
     },
     {
       "rank": 310,
@@ -3413,7 +3722,8 @@
       "llmComment": null,
       "pubDate": "2026-01-23T17:57:18.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "付费：AI泡沫是一枚定时炸弹"
     },
     {
       "rank": 311,
@@ -3424,7 +3734,8 @@
       "llmComment": null,
       "pubDate": "2026-01-23T10:20:02.000Z",
       "score": 5,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "AI机器人蜂群威胁民主"
     },
     {
       "rank": 312,
@@ -3435,7 +3746,8 @@
       "llmComment": null,
       "pubDate": "2026-01-21T08:23:22.000Z",
       "score": 5,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "《大空头》遇上AI的马库斯"
     },
     {
       "rank": 313,
@@ -3446,7 +3758,8 @@
       "llmComment": null,
       "pubDate": "2026-01-17T00:00:00.000Z",
       "score": 5,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "加密骗子招募开源AI开发者"
     },
     {
       "rank": 314,
@@ -3457,7 +3770,8 @@
       "llmComment": null,
       "pubDate": "2025-12-31T18:00:53.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "回顾2025"
     },
     {
       "rank": 315,
@@ -3468,7 +3782,8 @@
       "llmComment": null,
       "pubDate": "2025-12-15T17:22:14.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "付费：AI版破除迷信"
     },
     {
       "rank": 316,
@@ -3479,7 +3794,8 @@
       "llmComment": null,
       "pubDate": "2024-10-22T13:00:16.000Z",
       "score": 5,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "量子计算——最新进展"
     },
     {
       "rank": 317,
@@ -3490,7 +3806,8 @@
       "llmComment": null,
       "pubDate": "2025-08-21T00:00:00.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "我可能低估了AI的说服力"
     },
     {
       "rank": 318,
@@ -3501,7 +3818,8 @@
       "llmComment": null,
       "pubDate": "2025-08-14T00:00:00.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "没有基本市场的Futarchy缺陷"
     },
     {
       "rank": 319,
@@ -3512,7 +3830,8 @@
       "llmComment": null,
       "pubDate": "2025-08-07T00:00:00.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "遗传谜题"
     },
     {
       "rank": 320,
@@ -3523,7 +3842,8 @@
       "llmComment": null,
       "pubDate": "2025-12-05T16:36:44.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "付费：AI泡沫如何破灭"
     },
     {
       "rank": 321,
@@ -3534,7 +3854,8 @@
       "llmComment": null,
       "pubDate": "2026-02-21T09:55:36.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "写代码已成为一种玩笑般的技能，类似驾驶技术"
     },
     {
       "rank": 322,
@@ -3545,7 +3866,8 @@
       "llmComment": null,
       "pubDate": "2026-02-17T18:49:55.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "★ 苹果发布iOS 26采用率，与前几年大致相当"
     },
     {
       "rank": 323,
@@ -3556,7 +3878,8 @@
       "llmComment": null,
       "pubDate": "2026-02-17T16:05:48.000Z",
       "score": 5,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "AGI到来的传言被大大夸大了"
     },
     {
       "rank": 324,
@@ -3567,7 +3890,8 @@
       "llmComment": null,
       "pubDate": "2026-02-03T14:00:08.000Z",
       "score": 5,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "国防部错误地加速了不该加速的事物"
     },
     {
       "rank": 325,
@@ -3578,7 +3902,8 @@
       "llmComment": null,
       "pubDate": "2025-12-08T17:02:17.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "NVIDIA不是安然——那它是什么？"
     },
     {
       "rank": 326,
@@ -3589,7 +3914,8 @@
       "llmComment": null,
       "pubDate": "2026-01-17T22:37:00.000Z",
       "score": 5,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "将Scheme编译为WebAssembly"
     },
     {
       "rank": 327,
@@ -3600,7 +3926,8 @@
       "llmComment": null,
       "pubDate": "2026-01-16T17:15:37.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "付费：这比互联网泡沫更糟糕"
     },
     {
       "rank": 328,
@@ -3611,7 +3938,8 @@
       "llmComment": null,
       "pubDate": "2025-10-30T13:00:42.000Z",
       "score": 5,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "只用了20年，《战略管理学会》现在认为精益创业是一种策略了"
     },
     {
       "rank": 329,
@@ -3622,7 +3950,8 @@
       "llmComment": null,
       "pubDate": "2025-11-27T00:00:00.000Z",
       "score": 5,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "感恩的被低估理由V"
     },
     {
       "rank": 330,
@@ -3633,7 +3962,8 @@
       "llmComment": null,
       "pubDate": "2026-02-19T04:41:38.000Z",
       "score": 4,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "苹果三月四日媒体活动“体验”上可能还有一个点子：Vision Pro上的沉浸式F1赛事？"
     },
     {
       "rank": 331,
@@ -3644,7 +3974,8 @@
       "llmComment": null,
       "pubDate": "2026-02-18T21:15:10.000Z",
       "score": 4,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "保罗·福特：“AI颠覆已至，乐趣无穷”"
     },
     {
       "rank": 332,
@@ -3655,7 +3986,8 @@
       "llmComment": null,
       "pubDate": "2026-02-17T17:20:01.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "如何强制重启iPhone"
     },
     {
       "rank": 333,
@@ -3666,7 +3998,8 @@
       "llmComment": null,
       "pubDate": "2026-02-16T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "检测工厂"
     },
     {
       "rank": 334,
@@ -3677,7 +4010,8 @@
       "llmComment": null,
       "pubDate": "2026-02-15T23:39:14.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "WorkOS管道"
     },
     {
       "rank": 335,
@@ -3688,7 +4022,8 @@
       "llmComment": null,
       "pubDate": "2026-02-15T23:37:04.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "约翰娜·斯特恩离开《华尔街日报》"
     },
     {
       "rank": 336,
@@ -3699,7 +4034,8 @@
       "llmComment": null,
       "pubDate": "2026-02-15T16:00:00.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "房屋成本"
     },
     {
       "rank": 337,
@@ -3710,7 +4046,8 @@
       "llmComment": null,
       "pubDate": "2026-02-14T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "优化text-wrap：简洁明了"
     },
     {
       "rank": 338,
@@ -3721,7 +4058,8 @@
       "llmComment": null,
       "pubDate": "2026-02-13T21:50:15.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "讽刺、带报应的讽刺与恐怖"
     },
     {
       "rank": 339,
@@ -3732,7 +4070,8 @@
       "llmComment": null,
       "pubDate": "2026-02-12T21:45:05.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "承诺廉价易得"
     },
     {
       "rank": 340,
@@ -3743,7 +4082,8 @@
       "llmComment": null,
       "pubDate": "2026-02-12T17:13:31.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "MacOS 26.3 Finder列视图更多怪异行为"
     },
     {
       "rank": 341,
@@ -3754,7 +4094,8 @@
       "llmComment": null,
       "pubDate": "2026-02-12T16:00:00.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "我早说过如此"
     },
     {
       "rank": 342,
@@ -3765,7 +4106,8 @@
       "llmComment": null,
       "pubDate": "2026-02-11T20:56:58.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "关于那篇几乎有5000万浏览量的马特·舒默帖子"
     },
     {
       "rank": 343,
@@ -3776,7 +4118,8 @@
       "llmComment": null,
       "pubDate": "2026-02-11T17:19:02.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "美国的实至名归的污名化"
     },
     {
       "rank": 344,
@@ -3787,7 +4130,8 @@
       "llmComment": null,
       "pubDate": "2026-02-11T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "编程格言"
     },
     {
       "rank": 345,
@@ -3798,7 +4142,8 @@
       "llmComment": null,
       "pubDate": "2026-02-11T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "论失误"
     },
     {
       "rank": 346,
@@ -3809,7 +4154,8 @@
       "llmComment": null,
       "pubDate": "2026-02-10T14:00:42.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "修史新说——外星人、秘密与阴谋论"
     },
     {
       "rank": 347,
@@ -3820,7 +4166,8 @@
       "llmComment": null,
       "pubDate": "2026-02-08T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "大型科技公司不需要英雄"
     },
     {
       "rank": 348,
@@ -3831,7 +4178,8 @@
       "llmComment": null,
       "pubDate": "2026-02-06T17:34:14.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "高级版：微软讨厌者的指南"
     },
     {
       "rank": 349,
@@ -3842,7 +4190,8 @@
       "llmComment": null,
       "pubDate": "2026-02-06T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "一站式CI服务"
     },
     {
       "rank": 350,
@@ -3853,7 +4202,8 @@
       "llmComment": null,
       "pubDate": "2026-02-05T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "人类寿命的遗传性约为50%"
     },
     {
       "rank": 351,
@@ -3864,7 +4214,8 @@
       "llmComment": null,
       "pubDate": "2026-01-30T17:23:06.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "高级版：Oracle讨厌者的指南"
     },
     {
       "rank": 352,
@@ -3875,7 +4226,8 @@
       "llmComment": null,
       "pubDate": "2026-01-27T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "make.ts"
     },
     {
       "rank": 353,
@@ -3886,7 +4238,8 @@
       "llmComment": null,
       "pubDate": "2026-01-26T16:00:00.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "多样性的意义"
     },
     {
       "rank": 354,
@@ -3897,7 +4250,8 @@
       "llmComment": null,
       "pubDate": "2026-01-26T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "你必须知道如何驾驶汽车"
     },
     {
       "rank": 355,
@@ -3908,7 +4262,8 @@
       "llmComment": null,
       "pubDate": "2026-01-25T16:00:00.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "我何时能拥有泽塔浮操作系统？"
     },
     {
       "rank": 356,
@@ -3919,7 +4274,8 @@
       "llmComment": null,
       "pubDate": "2026-01-24T16:00:00.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "汽车所有权之战即将来临"
     },
     {
       "rank": 357,
@@ -3930,7 +4286,8 @@
       "llmComment": null,
       "pubDate": "2026-01-24T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "工程师估算工作量的方法"
     },
     {
       "rank": 358,
@@ -3941,7 +4298,8 @@
       "llmComment": null,
       "pubDate": "2026-01-23T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "认真考虑严格单调时间"
     },
     {
       "rank": 359,
@@ -3952,7 +4310,8 @@
       "llmComment": null,
       "pubDate": "2026-01-22T14:36:39.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "突发新闻：扬·勒库恩转向非神经符号方法研究团队"
     },
     {
       "rank": 360,
@@ -3963,7 +4322,8 @@
       "llmComment": null,
       "pubDate": "2026-01-22T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "为何阅读小说？"
     },
     {
       "rank": 361,
@@ -3974,7 +4334,8 @@
       "llmComment": null,
       "pubDate": "2026-01-20T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "激振编码 #2"
     },
     {
       "rank": 362,
@@ -3985,7 +4346,8 @@
       "llmComment": null,
       "pubDate": "2026-01-20T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "我沉迷于有用感"
     },
     {
       "rank": 363,
@@ -3996,7 +4358,8 @@
       "llmComment": null,
       "pubDate": "2026-01-17T16:00:00.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "如何停止参与？"
     },
     {
       "rank": 364,
@@ -4007,7 +4370,8 @@
       "llmComment": null,
       "pubDate": "2026-01-16T16:00:00.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "你有三分钟逃离永久底层阶级"
     },
     {
       "rank": 365,
@@ -4018,7 +4382,8 @@
       "llmComment": null,
       "pubDate": "2026-01-14T16:00:00.000Z",
       "score": 3,
-      "category": "🤖 AI & 研究"
+      "category": "🤖 AI & 研究",
+      "titleZh": "Anthropic 正犯大错"
     },
     {
       "rank": 366,
@@ -4029,7 +4394,8 @@
       "llmComment": null,
       "pubDate": "2026-01-05T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "独裁者手册与技术能力的政治"
     },
     {
       "rank": 367,
@@ -4040,7 +4406,8 @@
       "llmComment": null,
       "pubDate": "2026-01-03T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "博客2025年表现优异"
     },
     {
       "rank": 368,
@@ -4051,7 +4418,8 @@
       "llmComment": null,
       "pubDate": "2026-01-02T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "Grok 让Twitter上的集体性骚扰变得容易"
     },
     {
       "rank": 369,
@@ -4062,7 +4430,8 @@
       "llmComment": null,
       "pubDate": "2025-12-30T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "内存安全性是..."
     },
     {
       "rank": 370,
@@ -4073,7 +4442,8 @@
       "llmComment": null,
       "pubDate": "2025-12-29T16:57:06.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "臭名昭著的金融危机"
     },
     {
       "rank": 371,
@@ -4084,7 +4454,8 @@
       "llmComment": null,
       "pubDate": "2025-12-28T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "软件工程师应保持一点怀疑态度"
     },
     {
       "rank": 372,
@@ -4095,7 +4466,8 @@
       "llmComment": null,
       "pubDate": "2025-12-27T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "你无法设计你不参与的软件"
     },
     {
       "rank": 373,
@@ -4106,7 +4478,8 @@
       "llmComment": null,
       "pubDate": "2025-12-24T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "没人知道大型软件产品如何运作"
     },
     {
       "rank": 374,
@@ -4117,7 +4490,8 @@
       "llmComment": null,
       "pubDate": "2025-12-18T02:11:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "插件案例研究：mdBook 预处理器"
     },
     {
       "rank": 375,
@@ -4128,7 +4502,8 @@
       "llmComment": null,
       "pubDate": "2025-12-18T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "如果先做数据而非之前则更好"
     },
     {
       "rank": 376,
@@ -4139,7 +4514,8 @@
       "llmComment": null,
       "pubDate": "2025-12-16T14:00:35.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "国防部目录"
     },
     {
       "rank": 377,
@@ -4150,7 +4526,8 @@
       "llmComment": null,
       "pubDate": "2025-12-10T04:40:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "重访《让我们构建一个编译器》"
     },
     {
       "rank": 378,
@@ -4161,7 +4538,8 @@
       "llmComment": null,
       "pubDate": "2025-11-11T14:00:12.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "国防部刚射杀了会计师，选择了速度"
     },
     {
       "rank": 379,
@@ -4172,7 +4550,8 @@
       "llmComment": null,
       "pubDate": "2025-10-15T13:00:11.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "如何向国防部销售——2025年PEO目录——现在多了500个名字"
     },
     {
       "rank": 380,
@@ -4183,7 +4562,8 @@
       "llmComment": null,
       "pubDate": "2025-10-13T13:00:56.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "没有科学就没有创业：我们即将关闭的创新引擎"
     },
     {
       "rank": 381,
@@ -4194,7 +4574,8 @@
       "llmComment": null,
       "pubDate": "2025-09-17T13:00:43.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "乱成一团时怎么办——危机中的创始人"
     },
     {
       "rank": 382,
@@ -4205,7 +4586,8 @@
       "llmComment": null,
       "pubDate": "2025-09-10T13:00:06.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "如何向国防部销售——2025年PEO目录"
     },
     {
       "rank": 383,
@@ -4216,7 +4598,8 @@
       "llmComment": null,
       "pubDate": "2025-07-08T13:00:00.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "盲目于颠覆——错失未来的CEO们"
     },
     {
       "rank": 384,
@@ -4227,7 +4610,8 @@
       "llmComment": null,
       "pubDate": "2025-06-24T13:00:26.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "斯坦福精益启动计划2025"
     },
     {
       "rank": 385,
@@ -4238,7 +4622,8 @@
       "llmComment": null,
       "pubDate": "2025-06-17T13:00:04.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "斯坦福防御黑客2025——经验教训分享"
     },
     {
       "rank": 386,
@@ -4249,7 +4634,8 @@
       "llmComment": null,
       "pubDate": "2025-05-13T13:00:50.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "美国如何放弃成为科学超级大国"
     },
     {
       "rank": 387,
@@ -4260,7 +4646,8 @@
       "llmComment": null,
       "pubDate": "2025-04-15T13:00:52.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "美国是如何成为科学超级大国的"
     },
     {
       "rank": 388,
@@ -4271,7 +4658,8 @@
       "llmComment": null,
       "pubDate": "2024-10-08T14:25:00.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "间谍如何威胁创新——以及我们能做些什么"
     },
     {
       "rank": 389,
@@ -4282,7 +4670,8 @@
       "llmComment": null,
       "pubDate": "2024-10-05T18:44:35.000Z",
       "score": 3,
-      "category": "💰 金融 & 创投"
+      "category": "💰 金融 & 创投",
+      "titleZh": "产品市场契合听起来是这样的：这。"
     },
     {
       "rank": 390,
@@ -4293,7 +4682,8 @@
       "llmComment": null,
       "pubDate": "2025-12-04T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "鸡为什么过马路，各实体的说法"
     },
     {
       "rank": 391,
@@ -4304,7 +4694,8 @@
       "llmComment": null,
       "pubDate": "2025-11-20T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "损坏产品，获利颇丰"
     },
     {
       "rank": 392,
@@ -4315,7 +4706,8 @@
       "llmComment": null,
       "pubDate": "2025-10-30T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "恋爱：神秘的事实星座"
     },
     {
       "rank": 393,
@@ -4326,7 +4718,8 @@
       "llmComment": null,
       "pubDate": "2025-10-23T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "指向机器、人口金字塔、邮政丑闻、模式物种和马尿"
     },
     {
       "rank": 394,
@@ -4337,7 +4730,8 @@
       "llmComment": null,
       "pubDate": "2025-09-25T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "鞋子、阿尔杰农、泛大陆和海民"
     },
     {
       "rank": 395,
@@ -4348,7 +4742,8 @@
       "llmComment": null,
       "pubDate": "2025-09-11T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "待定的Ketchup致信"
     },
     {
       "rank": 396,
@@ -4359,7 +4754,8 @@
       "llmComment": null,
       "pubDate": "2025-08-28T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "尝试喜欢某些事物"
     },
     {
       "rank": 397,
@@ -4370,7 +4766,8 @@
       "llmComment": null,
       "pubDate": "2025-07-17T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "不用射激光入眼的新颜色"
     },
     {
       "rank": 398,
@@ -4381,7 +4778,8 @@
       "llmComment": null,
       "pubDate": "2025-07-10T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "九周未加工食品自我实验"
     },
     {
       "rank": 399,
@@ -4392,7 +4790,8 @@
       "llmComment": null,
       "pubDate": "2025-07-08T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "七月链接"
     },
     {
       "rank": 400,
@@ -4403,7 +4802,8 @@
       "llmComment": null,
       "pubDate": "2025-07-03T00:00:00.000Z",
       "score": 3,
-      "category": "💻 科技产品"
+      "category": "💻 科技产品",
+      "titleZh": "防蓝光眼镜能改善睡眠吗？"
     },
     {
       "rank": 401,
@@ -4414,7 +4814,8 @@
       "llmComment": null,
       "pubDate": "2025-11-29T00:00:00.000Z",
       "score": 3,
-      "category": "🔧 开发 & 系统"
+      "category": "🔧 开发 & 系统",
+      "titleZh": "大公司里优秀的工程师如何写出糟糕的代码"
     }
   ]
 }
