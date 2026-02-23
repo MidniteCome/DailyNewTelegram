@@ -1,7 +1,7 @@
 /**
  * score.mjs — 文章打分与排序模块
  *
- * 总分 = 新鲜度分(0-40) + 来源权重分(0-30) + 关键词匹配分(0-30)
+ * 总分 = 新鲜度分(0-20) + 来源权重分(0-30) + 关键词匹配分(0-30)
  * 同一来源超过 maxPerSource 条时，多余条目乘以多样性惩罚系数 0.3
  */
 
@@ -13,11 +13,12 @@
  * @returns {number}
  */
 function calcScore(article, source, scoring) {
-  const { recencyHalfLifeHours = 12, keywords = [] } = scoring;
+  const { recencyHalfLifeHours = 36, keywords = [] } = scoring;
 
-  // ── 1. 新鲜度分（指数衰减，最高 40 分）
+  // ── 1. 新鲜度分（指数衰减，最高 20 分，半衰期 36h）
+  // 好内容不怕晚：质量（来源+关键词，最高 60 分）权重高于时效（最高 20 分）
   const ageHours = (Date.now() - article.pubDate.getTime()) / 3_600_000;
-  const recencyScore = 40 * Math.pow(0.5, ageHours / recencyHalfLifeHours);
+  const recencyScore = 20 * Math.pow(0.5, ageHours / recencyHalfLifeHours);
 
   // ── 2. 来源权重分（weight 1-3 对应 10/20/30 分）
   const sourceScore = (source?.weight ?? 1) * 10;

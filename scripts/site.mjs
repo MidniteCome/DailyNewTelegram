@@ -61,164 +61,208 @@ function buildSpaHtml() {
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:         #0f1117;
-      --surface:    #1a1d2e;
-      --surface2:   #141726;
-      --border:     #2d3148;
-      --border-hi:  #6366f1;
-      --text:       #e2e8f0;
-      --muted:      #64748b;
-      --accent:     #a78bfa;
-      --link:       #818cf8;
-      --score:      #facc15;
-      --ai-bg:      #1e1b4b;
-      --ai-border:  #4338ca;
-      --ai-text:    #c7d2fe;
-      --top-glow:   rgba(99,102,241,0.08);
+      --bg:        #0f1117;
+      --surface:   #1a1d2e;
+      --surface2:  #141726;
+      --border:    #2d3148;
+      --border-hi: #6366f1;
+      --text:      #e2e8f0;
+      --muted:     #64748b;
+      --accent:    #a78bfa;
+      --link:      #818cf8;
+      --score:     #facc15;
+      --ai-bg:     #1e1b4b;
+      --ai-border: #4338ca;
+      --ai-text:   #c7d2fe;
+      --header-h:  54px;
+      --divider-h: 36px;
     }
 
-    body {
+    html, body {
+      height: 100%;
+      overflow: hidden;   /* 禁止 body 滚动，让两个面板各自滚动 */
       background: var(--bg);
       color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
-                   "Microsoft YaHei", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   "PingFang SC", "Microsoft YaHei", sans-serif;
       font-size: 15px;
       line-height: 1.65;
-      min-height: 100vh;
     }
 
-    /* ── 顶栏 ── */
+    /* ── 顶栏（固定高度）── */
     header {
+      height: var(--header-h);
       background: var(--surface);
       border-bottom: 1px solid var(--border);
-      padding: 1.1rem 1.5rem;
+      padding: 0 1.5rem;
       display: flex;
       align-items: center;
       gap: 1.2rem;
-      flex-wrap: wrap;
-      position: sticky;
-      top: 0;
-      z-index: 10;
+      flex-shrink: 0;
+      z-index: 20;
     }
-    header h1 { font-size: 1.25rem; color: var(--accent); white-space: nowrap; }
+    header h1 { font-size: 1.15rem; color: var(--accent); white-space: nowrap; }
 
-    #date-select-wrap { display: flex; align-items: center; gap: 0.6rem; }
-    #date-select-wrap label { color: var(--muted); font-size: 0.85rem; }
+    #date-select-wrap { display: flex; align-items: center; gap: 0.5rem; }
+    #date-select-wrap label { color: var(--muted); font-size: 0.82rem; }
     #date-select {
       background: var(--bg);
       color: var(--text);
       border: 1px solid var(--border);
       border-radius: 6px;
-      padding: 0.3rem 0.7rem;
-      font-size: 0.9rem;
+      padding: 0.25rem 0.6rem;
+      font-size: 0.88rem;
       cursor: pointer;
     }
     #date-select:focus { outline: none; border-color: var(--border-hi); }
+    #stats { margin-left: auto; color: var(--muted); font-size: 0.8rem; white-space: nowrap; }
 
-    #stats { margin-left: auto; color: var(--muted); font-size: 0.82rem; white-space: nowrap; }
-
-    /* ── 主体 ── */
-    main { max-width: 820px; margin: 0 auto; padding: 2rem 1rem 4rem; }
-
-    #state-msg {
-      text-align: center;
-      color: var(--muted);
-      padding: 5rem 0;
-      font-size: 0.95rem;
+    /* ── 主体：上下两栏，各占一半视口 ── */
+    .split-layout {
+      display: flex;
+      flex-direction: column;
+      height: calc(100vh - var(--header-h));
     }
 
-    /* ── Section 标题 ── */
-    .section-title {
+    /* 上半部分：Top 5 精选 */
+    .panel-top {
+      flex: 1;
+      min-height: 0;          /* flex 子元素必须设这个才能正确收缩 */
+      overflow-y: auto;
+      background: var(--bg);
+      border-bottom: 2px solid var(--border-hi);
+    }
+
+    /* 中间分隔条 */
+    .divider {
+      flex-shrink: 0;
+      height: var(--divider-h);
+      background: var(--surface2);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
       display: flex;
       align-items: center;
+      padding: 0 1.5rem;
       gap: 0.6rem;
-      font-size: 0.78rem;
+      font-size: 0.75rem;
       font-weight: 700;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.07em;
       text-transform: uppercase;
       color: var(--muted);
-      margin-bottom: 1rem;
+      user-select: none;
     }
-    .section-title::after {
+    .divider::after {
       content: '';
       flex: 1;
       height: 1px;
       background: var(--border);
     }
-    .section-title.top { color: var(--accent); }
-    .section-title.top::after { background: var(--border-hi); opacity: 0.4; }
 
-    #section-rest { margin-top: 2.5rem; }
+    /* 下半部分：其余文章 */
+    .panel-rest {
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      background: var(--bg);
+    }
+
+    /* 面板内容区内边距 */
+    .panel-inner {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 1rem 1rem 2rem;
+    }
+
+    /* 面板标题 */
+    .panel-label {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.73rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 0.9rem;
+      padding-top: 0.2rem;
+    }
+    .panel-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border-hi);
+      opacity: 0.35;
+    }
+
+    /* 状态提示（加载中/无数据）*/
+    .state-msg {
+      text-align: center;
+      color: var(--muted);
+      padding: 3rem 0;
+      font-size: 0.9rem;
+    }
 
     /* ── 卡片 ── */
     .card {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 10px;
-      padding: 1.1rem 1.3rem;
-      margin-bottom: 1rem;
+      padding: 1rem 1.2rem;
+      margin-bottom: 0.8rem;
       transition: border-color 0.15s;
     }
     .card:hover { border-color: var(--border-hi); }
-
-    /* Top 卡片：额外光晕 */
     .card.is-top {
       background: linear-gradient(135deg, var(--surface) 0%, var(--surface2) 100%);
       border-color: #3730a3;
-      box-shadow: 0 0 0 1px rgba(99,102,241,0.12), inset 0 0 40px var(--top-glow);
+      box-shadow: 0 0 0 1px rgba(99,102,241,0.1),
+                  inset 0 0 40px rgba(99,102,241,0.05);
     }
 
     .card-meta {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
+      gap: 0.45rem;
       align-items: center;
-      font-size: 0.78rem;
+      font-size: 0.76rem;
       color: var(--muted);
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.45rem;
     }
-    .rank   { background: #312e81; color: #a5b4fc; padding: 1px 8px; border-radius: 4px; font-weight: 700; }
+    .rank   { background: #312e81; color: #a5b4fc; padding: 1px 7px; border-radius: 4px; font-weight: 700; }
     .source { color: var(--link); font-weight: 500; }
-    .score  { margin-left: auto; color: var(--score); font-size: 0.77rem; }
+    .score  { margin-left: auto; color: var(--score); font-size: 0.75rem; }
 
-    .card-title { font-size: 1rem; font-weight: 600; margin-bottom: 0.4rem; line-height: 1.45; }
+    .card-title { font-size: 0.97rem; font-weight: 600; line-height: 1.45; margin-bottom: 0.35rem; }
     .card-title a { color: var(--text); text-decoration: none; }
     .card-title a:hover { color: var(--accent); }
 
-    .card-summary { color: #94a3b8; font-size: 0.88rem; margin-top: 0.3rem; }
+    .card-summary { color: #94a3b8; font-size: 0.86rem; }
 
     .ai-comment {
-      margin-top: 0.75rem;
-      padding: 0.65rem 0.95rem;
+      margin-top: 0.7rem;
+      padding: 0.6rem 0.9rem;
       background: var(--ai-bg);
       border-left: 3px solid var(--ai-border);
       border-radius: 0 6px 6px 0;
       color: var(--ai-text);
-      font-size: 0.88rem;
+      font-size: 0.86rem;
       line-height: 1.6;
     }
     .ai-label {
-      display: inline-block;
-      font-size: 0.75rem;
+      display: block;
+      font-size: 0.72rem;
       font-weight: 700;
       color: #818cf8;
-      margin-bottom: 0.3rem;
-      letter-spacing: 0.03em;
+      margin-bottom: 0.25rem;
+      letter-spacing: 0.04em;
     }
 
-    /* ── 页脚 ── */
-    footer {
-      text-align: center;
-      padding: 2.5rem 1rem;
-      color: #334155;
-      font-size: 0.8rem;
-    }
-    footer a { color: #6366f1; text-decoration: none; }
-
-    @media (max-width: 520px) {
-      header  { padding: 0.9rem 1rem; }
-      #stats  { margin-left: 0; }
-      .card   { padding: 0.9rem 1rem; }
+    /* ── 响应式：小屏改为上下各 50% 自然滚动 ── */
+    @media (max-width: 600px) {
+      html, body { overflow: auto; height: auto; }
+      .split-layout { height: auto; flex-direction: column; }
+      .panel-top, .panel-rest { flex: none; height: auto; overflow: visible; }
+      .divider { position: sticky; top: 0; z-index: 10; }
     }
   </style>
 </head>
@@ -233,20 +277,33 @@ function buildSpaHtml() {
   <div id="stats"></div>
 </header>
 
-<main>
-  <div id="state-msg">正在加载…</div>
-  <div id="article-list"></div>
-</main>
+<div class="split-layout">
+  <!-- 上半：Top N 精选 -->
+  <div class="panel-top" id="panel-top">
+    <div class="panel-inner">
+      <div class="panel-label" id="top-label">✦ 今日精选</div>
+      <div id="list-top"><div class="state-msg">正在加载…</div></div>
+    </div>
+  </div>
 
-<footer>
-  <p>数据每日自动更新 · <a href="https://github.com/MidniteCome/DailyNewTelegram" target="_blank">GitHub</a></p>
-</footer>
+  <!-- 分隔条 -->
+  <div class="divider" id="divider-label">全部文章</div>
+
+  <!-- 下半：其余文章 -->
+  <div class="panel-rest" id="panel-rest">
+    <div class="panel-inner">
+      <div id="list-rest"></div>
+    </div>
+  </div>
+</div>
 
 <script>
-const sel  = document.getElementById('date-select');
-const list = document.getElementById('article-list');
-const stats = document.getElementById('stats');
-const msg  = document.getElementById('state-msg');
+const sel        = document.getElementById('date-select');
+const stats      = document.getElementById('stats');
+const listTop    = document.getElementById('list-top');
+const listRest   = document.getElementById('list-rest');
+const topLabel   = document.getElementById('top-label');
+const divLabel   = document.getElementById('divider-label');
 
 function esc(s) {
   return String(s ?? '')
@@ -265,68 +322,58 @@ function timeStr(iso) {
 }
 
 function cardHtml(a, isTop) {
-  return \`
-    <article class="card\${isTop ? ' is-top' : ''}">
-      <div class="card-meta">
-        <span class="rank">#\${a.rank}</span>
-        <span class="source">\${esc(a.source)}</span>
-        <span class="time">\${timeStr(a.pubDate)}</span>
-        <span class="score">⭐ \${a.score}</span>
-      </div>
-      <h2 class="card-title">
-        <a href="\${esc(a.link)}" target="_blank" rel="noopener">\${esc(a.title)}</a>
-      </h2>
-      \${a.summary ? \`<p class="card-summary">\${esc(a.summary)}\${a.summary.length >= 300 ? '…' : ''}</p>\` : ''}
-      \${a.llmComment ? \`
-        <div class="ai-comment">
-          <span class="ai-label">🤖 AI 点评</span><br>
-          \${esc(a.llmComment)}
-        </div>\` : ''}
-    </article>\`;
+  return \`<article class="card\${isTop ? ' is-top' : ''}">
+    <div class="card-meta">
+      <span class="rank">#\${a.rank}</span>
+      <span class="source">\${esc(a.source)}</span>
+      <span class="time">\${timeStr(a.pubDate)}</span>
+      <span class="score">⭐ \${a.score}</span>
+    </div>
+    <h2 class="card-title">
+      <a href="\${esc(a.link)}" target="_blank" rel="noopener">\${esc(a.title)}</a>
+    </h2>
+    \${a.summary ? \`<p class="card-summary">\${esc(a.summary)}\${a.summary.length>=300?'…':''}</p>\` : ''}
+    \${a.llmComment ? \`<div class="ai-comment"><span class="ai-label">🤖 AI 点评</span>\${esc(a.llmComment)}</div>\` : ''}
+  </article>\`;
 }
 
 function renderArticles(data) {
   const { meta, articles } = data;
   if (!articles?.length) {
-    msg.textContent = '当日暂无文章数据';
-    msg.style.display = '';
-    list.innerHTML = '';
-    stats.textContent = '';
+    listTop.innerHTML  = '<div class="state-msg">当日暂无数据</div>';
+    listRest.innerHTML = '';
+    stats.textContent  = '';
     return;
   }
 
-  msg.style.display = 'none';
-  const topN  = meta?.topN ?? 5;
-  const total = articles.length;
-  stats.textContent = \`共 \${total} 篇 · Top \${Math.min(topN, total)} 精选\`;
+  const topN = meta?.topN ?? 5;
+  const top  = articles.filter(a => a.rank <= topN);
+  const rest = articles.filter(a => a.rank >  topN);
 
-  const topArticles  = articles.filter(a => a.rank <= topN);
-  const restArticles = articles.filter(a => a.rank > topN);
+  topLabel.textContent = \`✦ 今日精选  Top \${top.length}\`;
+  divLabel.textContent = \`全部文章 · \${rest.length} 篇\`;
+  stats.textContent    = \`共 \${articles.length} 篇\`;
 
-  let html = \`<div class="section-title top">✦ 今日精选 Top \${topArticles.length}</div>\`;
-  html += topArticles.map(a => cardHtml(a, true)).join('');
+  listTop.innerHTML  = top.map(a  => cardHtml(a, true)).join('');
+  listRest.innerHTML = rest.length
+    ? rest.map(a => cardHtml(a, false)).join('')
+    : '<div class="state-msg" style="padding:1.5rem 0">暂无更多文章</div>';
 
-  if (restArticles.length > 0) {
-    html += \`<div id="section-rest">
-      <div class="section-title">全部文章 · \${restArticles.length} 篇</div>
-      \${restArticles.map(a => cardHtml(a, false)).join('')}
-    </div>\`;
-  }
-
-  list.innerHTML = html;
+  // 每次切换日期后两个面板回滚到顶部
+  document.getElementById('panel-top').scrollTop  = 0;
+  document.getElementById('panel-rest').scrollTop = 0;
 }
 
 async function loadDate(dateYmd) {
-  msg.textContent = '加载中…';
-  msg.style.display = '';
-  list.innerHTML = '';
-  stats.textContent = '';
+  listTop.innerHTML  = '<div class="state-msg">加载中…</div>';
+  listRest.innerHTML = '';
+  stats.textContent  = '';
   try {
     const r = await fetch(\`data/\${dateYmd}.json?t=\${Date.now()}\`);
     if (!r.ok) throw new Error();
     renderArticles(await r.json());
   } catch {
-    msg.textContent = \`\${dateYmd} 暂无数据\`;
+    listTop.innerHTML = \`<div class="state-msg">\${dateYmd} 暂无数据</div>\`;
   }
 }
 
@@ -335,13 +382,12 @@ async function init() {
     const r = await fetch(\`data/dates.json?t=\${Date.now()}\`);
     if (!r.ok) throw new Error();
     const dates = await r.json();
-    if (!dates.length) { msg.textContent = '暂无历史数据'; return; }
-
+    if (!dates.length) { listTop.innerHTML = '<div class="state-msg">暂无历史数据</div>'; return; }
     sel.innerHTML = dates.map(d => \`<option value="\${d}">\${d}</option>\`).join('');
     sel.addEventListener('change', () => loadDate(sel.value));
     loadDate(dates[0]);
   } catch {
-    msg.textContent = '无法加载日期列表，请稍后刷新';
+    listTop.innerHTML = '<div class="state-msg">无法加载日期列表，请稍后刷新</div>';
   }
 }
 

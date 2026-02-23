@@ -136,7 +136,7 @@
 
   "scoring": {
     "topN": 5,
-    "recencyHalfLifeHours": 12,
+    "recencyHalfLifeHours": 36,
     "maxPerSource": 2,
     "maxItemsPerFeed": 20,
     "keywords": [
