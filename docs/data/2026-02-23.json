@@ -5,7 +5,7 @@
     "link": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
     "source": "TechCrunch",
     "summary": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude’s AI capabilities, as U.S. officials debate export controls aimed at slowing China’s AI progress.",
-    "llmComment": "Anthropic指控DeepSeek、Moonshot和MiniMax使用24,000个虚假账号窃取Claude的AI能力，这可能引发芯片供应商对技术出口至中国的谨慎。此事件凸显了中国在AI领域的进步及其潜在挑战，但具体技术细节尚待观察。美国官员正在考虑出口管制措施以减缓中国AI发展，但这可能会加剧中美之间的技术竞争和技术封锁风险。",
+    "llmComment": "Anthropic指控DeepSeek、Moonshot和MiniMax使用了24,000个虚假账户来提取Claude的AI能力，这一事件发生在美国官员正在讨论对AI芯片出口实施更严格管控之际。这可能加剧中美在AI技术上的竞争，并影响相关产业链，尤其是芯片供应商和云服务提供商。目前尚待观察的是，这种指控是否会对这些中国实验室的未来研发产生实质性影响以及如何应对。",
     "pubDate": "2026-02-23T19:57:27.000Z",
     "score": 74
   },
@@ -15,9 +15,9 @@
     "link": "https://techcrunch.com/2026/02/23/guide-labs-debuts-a-new-kind-of-interpretable-llm/",
     "source": "TechCrunch",
     "summary": "The company open-sourced an 8 billion parameter LLM, Steerling-8B, trained with a new architecture designed to make its actions easily interpretable.",
-    "llmComment": "核心技术突破在于Steerling-8B采用了新的架构，旨在使其行为易于解释。这与现有模型相比，在透明度方面实现了实质性的差异。对产业链的影响包括芯片厂商可能需要优化产品以支持新架构；云厂商需评估其技术可行性并调整服务；应用层开发者有望开发更可信的应用。目前尚待观察该架构在实际场景中的表现和推广难度。",
+    "llmComment": "Guide Labs 发布了一款新的可解释型大型语言模型（LLM）Steerling-8B，其核心在于采用一种新架构，旨在使模型的行为更具可解释性。这与现有模型相比，在于提高了透明度和理解能力，有助于解决用户对AI决策过程的担忧。该技术可能重塑云厂商提供的服务，并推动应用层开发者更深入地探索可解释型AI的应用场景。然而，Steerling-8B 的实际效果及市场接受度尚待验证，特别是在大规模部署时能否保持性能与解释性的平衡仍需观察。",
     "pubDate": "2026-02-23T17:53:28.000Z",
-    "score": 72
+    "score": 71
   },
   {
     "rank": 3,
@@ -25,7 +25,7 @@
     "link": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
     "source": "Simon Willison",
     "summary": "Ladybird adopts Rust, with help from AI Really interesting case-study from Andreas Kling on advanced, sophisticated use of coding agents for ambitious coding projects with critical code. After a few years hoping Swift's platform support outside of the Apple ecosystem would mature they switched track",
-    "llmComment": "1. Ladybird采用Rust并借助AI技术，与现有方案如Swift相比，在关键代码的高级和复杂应用上实现了实质性的差异。\n2. 对于芯片、云厂商及应用层而言，这将促进更安全高效的编程实践；对竞品则构成潜在威胁，需关注其快速跟进能力。\n3. 当前存在未验证的风险包括Rust在大规模项目中的可靠性和性能表现，以及AI辅助开发的实际效果和成本效益。",
+    "llmComment": "Ladybird是一家致力于开发复杂软件项目的公司，此前一直在等待Swift在苹果生态系统外成熟。如今，该公司转向使用Rust编程语言，并借助AI技术进行辅助开发。与Swift相比，Rust提供了更强的内存安全性和并发控制能力，这将显著提升Ladybird在构建关键代码时的效率和稳定性。\n\n这一转变对整个软件产业链都有潜在影响：芯片厂商需关注Rust对处理器性能的新需求；云服务商可能需要优化其基础设施以更好地支持Rust应用；应用开发者则将迎来更可靠的底层技术。然而，Rust的学习曲线较为陡峭，Ladybird及其他采用该语言的公司仍面临人才短缺的风险。",
     "pubDate": "2026-02-23T18:52:53.000Z",
     "score": 70
   },
@@ -34,23 +34,33 @@
     "title": "Show HN: AI Timeline – 171 LLMs from Transformer (2017) to GPT-5.3 (2026)",
     "link": "https://llm-timeline.com/",
     "source": "Hacker News",
-    "summary": "Interactive timeline of every major Large Language Model. Filterable by open/closed source, searchable, 54 organizations tracked. Comments URL: https://news.ycombinator.com/item?id=47119871 Points: 90 # Comments: 43",
-    "llmComment": "该工具展示了从2017年Transformer到2026年GPT-5.3的171个主要大语言模型的时间线，突出了技术演进路径。这与现有方案相比，提供了更全面的技术对比和趋势分析。对产业链的影响包括促进芯片性能提升、云服务商竞争加剧以及应用层创新加速；但具体风险尚待验证，如模型可解释性不足及长期稳定性问题。",
+    "summary": "Interactive timeline of every major Large Language Model. Filterable by open/closed source, searchable, 54 organizations tracked. Comments URL: https://news.ycombinator.com/item?id=47119871 Points: 93 # Comments: 43",
+    "llmComment": "这款名为AI Timeline的工具展示了自2017年Transformer架构以来，共171个大型语言模型（LLM）的发展历程，直到预测中的GPT-5.3（2026年）。与现有模型相比，该工具通过互动时间线提供了更直观、可筛选的信息，有助于跟踪不同组织的开放源代码和闭源项目。然而，其价值仍需验证，尤其是在准确性和更新频率方面存在不确定性。",
     "pubDate": "2026-02-23T09:07:44.000Z",
     "score": 68
   },
   {
     "rank": 5,
+    "title": "5 Interesting Startup Deals You May Have Missed: Plant-Based Clothing Dyes, A Shoebox-Picking Robot, And Power Generated On The Moon",
+    "link": "https://news.crunchbase.com/venture/interesting-startup-deals-ai-robotics-energy-generation/",
+    "source": "Crunchbase News",
+    "summary": "A host of interesting, under-the-radar recently funded startups caught our attention in the past month: one that’s developing nuclear-waste generated electricity on the moon, and another that aims to use AI to extract business intelligence from enterprise contracts. Let’s take a closer look.",
+    "llmComment": "这家公司在月球上利用核废料发电，展示了在极端环境下获取清洁能源的创新思路。然而，这一技术仍面临高昂的成本和安全挑战。此外，通过AI解析企业合同以提取商业情报的服务也颇具潜力，但市场竞争激烈，需关注其算法准确性和数据隐私问题。这些项目值得持续跟踪，观察其实验进展和技术突破。",
+    "pubDate": "2026-02-23T12:00:35.000Z",
+    "score": 68
+  },
+  {
+    "rank": 6,
     "title": "Show HN: Shibuya – A High-Performance WAF in Rust with eBPF and ML Engine",
     "link": "https://ghostklan.com/shibuya.html",
     "source": "Hacker News",
     "summary": "Hi HN, I’ve been working on Shibuya, a next-generation Web Application Firewall (WAF) built from the ground up in Rust. I wanted to build a WAF that didn't just rely on legacy regex signatures but could understand intent and perform at line-rate using modern kernel features. What makes Shibuya diffe",
-    "llmComment": "① 核心差异化在于Shibuya采用Rust语言开发，并结合eBPF和机器学习引擎，实现高性能的同时具备意图识别能力。\n② 潜在市场机会在于提供更智能、高效的Web应用安全防护；竞争威胁则来自传统WAF厂商的快速响应与技术创新。\n③ 值得持续追踪Shibuya在实际应用中的性能表现及用户反馈。",
+    "llmComment": null,
     "pubDate": "2026-02-23T18:36:31.000Z",
     "score": 61
   },
   {
-    "rank": 6,
+    "rank": 7,
     "title": "Writing about Agentic Engineering Patterns",
     "link": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/#atom-everything",
     "source": "Simon Willison",
@@ -60,17 +70,17 @@
     "score": 59
   },
   {
-    "rank": 7,
+    "rank": 8,
     "title": "Cursor 连接信创数据库, 连接所有 JDBC 数据库",
     "link": "https://www.v2ex.com/t/1193607#reply0",
     "source": "V2EX 技术",
     "summary": "Cursor 写, Cursor 用. 随便你想连什么数据库, 开源免费. 就简单几个功能, 连上数据库之后, 全靠 Cursor 的能力了. 功能: JDBC 连接各种数据库, Druid 连接池, AI 连续发送 SQL 查询嗖嗖的. 危险关键词多种方式匹配, 放心让 AI 随便搞, 发现问题马上弹出人工 Review 窗口, 方言识别, 语法高亮. 所有执行过的命令生成审计日志, AI 到底干过啥, 心里有数. 数据库在 vpn, ztb, k8s 里面的. 麻烦你自己映射一下本地端口, 总之你本地 Java 代码能连上, 我的工具就能连上. 使用场景: Debug 数据和存储过程问题,",
     "llmComment": null,
     "pubDate": "2026-02-23T17:14:44.000Z",
-    "score": 52
+    "score": 51
   },
   {
-    "rank": 8,
+    "rank": 9,
     "title": "Turns out Generative AI was a scam",
     "link": "https://garymarcus.substack.com/p/turns-out-generative-ai-was-a-scam",
     "source": "Gary Marcus",
@@ -80,7 +90,17 @@
     "score": 47
   },
   {
-    "rank": 9,
+    "rank": 10,
+    "title": "The Week’s 10 Biggest Funding Rounds: World Labs Leads Another AI-Heavy Lineup",
+    "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-cloud-energy-ai-world-labs/",
+    "source": "Crunchbase News",
+    "summary": "This week’s largest U.S. funding rounds once again featured an AI-heavy cohort, along with sizable financings around fintech and energy tech. By far the largest deal was a $1 billion financing for World Labs, developer of AI models that interact with the 3D world.",
+    "llmComment": null,
+    "pubDate": "2026-02-20T19:16:37.000Z",
+    "score": 47
+  },
+  {
+    "rank": 11,
     "title": "我还在怀念 claude 3.5 sonnet",
     "link": "https://www.v2ex.com/t/1193610#reply0",
     "source": "V2EX 技术",
@@ -90,7 +110,7 @@
     "score": 44
   },
   {
-    "rank": 10,
+    "rank": 12,
     "title": "Jensen Groks Groq",
     "link": "https://thechipletter.substack.com/p/jensen-groks-groq",
     "source": "The Chip Letter",
@@ -100,7 +120,7 @@
     "score": 41
   },
   {
-    "rank": 11,
+    "rank": 13,
     "title": "May Gwern.net Newsletter",
     "link": "https://gwern.substack.com/p/may-gwernnet-newsletter",
     "source": "Gwern",
@@ -110,7 +130,7 @@
     "score": 35
   },
   {
-    "rank": 12,
+    "rank": 14,
     "title": "Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery",
     "link": "https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/",
     "source": "Google DeepMind Blog",
@@ -120,7 +140,7 @@
     "score": 33
   },
   {
-    "rank": 13,
+    "rank": 15,
     "title": "Thoughts on AI progress (Dec 2025)",
     "link": "https://www.dwarkesh.com/p/thoughts-on-ai-progress-dec-2025",
     "source": "Dwarkesh Patel",
@@ -130,7 +150,7 @@
     "score": 33
   },
   {
-    "rank": 14,
+    "rank": 16,
     "title": "Gemma Scope 2: helping the AI safety community deepen understanding of complex language model behavior",
     "link": "https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/",
     "source": "Google DeepMind Blog",
@@ -140,7 +160,7 @@
     "score": 31
   },
   {
-    "rank": 15,
+    "rank": 17,
     "title": "May 2021 Gwern.net Newsletter",
     "link": "https://gwern.substack.com/p/may-2021-gwernnet-newsletter",
     "source": "Gwern",
@@ -150,7 +170,7 @@
     "score": 31
   },
   {
-    "rank": 16,
+    "rank": 18,
     "title": "Richard Sutton – Father of RL thinks LLMs are a dead end",
     "link": "https://www.dwarkesh.com/p/richard-sutton",
     "source": "Dwarkesh Patel",
@@ -160,7 +180,7 @@
     "score": 29
   },
   {
-    "rank": 17,
+    "rank": 19,
     "title": "Is the Future “AWS for Everything”?",
     "link": "https://www.construction-physics.com/p/is-the-future-aws-for-everything",
     "source": "Construction Physics",
@@ -170,7 +190,7 @@
     "score": 28
   },
   {
-    "rank": 18,
+    "rank": 20,
     "title": "The Origins and Limitations of AMD's Historic Revival",
     "link": "https://thechipletter.substack.com/p/the-origins-and-limitations-of-amds",
     "source": "The Chip Letter",
@@ -180,7 +200,7 @@
     "score": 28
   },
   {
-    "rank": 19,
+    "rank": 21,
     "title": "On Technologies vs. Commodities",
     "link": "https://www.construction-physics.com/p/on-technologies-vs-commodities",
     "source": "Construction Physics",
@@ -190,7 +210,7 @@
     "score": 28
   },
   {
-    "rank": 20,
+    "rank": 22,
     "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
     "link": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
     "source": "Krebs on Security",
@@ -200,7 +220,7 @@
     "score": 28
   },
   {
-    "rank": 21,
+    "rank": 23,
     "title": "Rewriting pycparser with the help of an LLM",
     "link": "https://eli.thegreenplace.net/2026/rewriting-pycparser-with-the-help-of-an-llm/",
     "source": "Eli Bendersky",
@@ -210,7 +230,7 @@
     "score": 27
   },
   {
-    "rank": 22,
+    "rank": 24,
     "title": "We URGENTLY need a federal law forbidding AI from impersonating humans",
     "link": "https://garymarcus.substack.com/p/we-urgently-need-a-federal-law-forbidding",
     "source": "Gary Marcus",
@@ -220,7 +240,7 @@
     "score": 25
   },
   {
-    "rank": 23,
+    "rank": 25,
     "title": "Who Operates the Badbox 2.0 Botnet?",
     "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
     "source": "Krebs on Security",
@@ -230,7 +250,7 @@
     "score": 25
   },
   {
-    "rank": 24,
+    "rank": 26,
     "title": "LLM-generated skills work, if you generate them afterwards",
     "link": "https://seangoedecke.com/generate-skills-afterwards/",
     "source": "Sean Goedecke",
@@ -240,7 +260,7 @@
     "score": 24
   },
   {
-    "rank": 25,
+    "rank": 27,
     "title": "Two different tricks for fast LLM inference",
     "link": "https://seangoedecke.com/fast-llm-inference/",
     "source": "Sean Goedecke",
@@ -250,7 +270,7 @@
     "score": 24
   },
   {
-    "rank": 26,
+    "rank": 28,
     "title": "Premium - How The AI Bubble Bursts In 2026",
     "link": "https://www.wheresyoured.at/premium-how-the-ai-bubble-bursts-in-2026/",
     "source": "Where's Your Ed At",
@@ -260,7 +280,7 @@
     "score": 24
   },
   {
-    "rank": 27,
+    "rank": 29,
     "title": "Premium: The Hater's Guide To NVIDIA",
     "link": "https://www.wheresyoured.at/the-haters-guide-to-nvidia/",
     "source": "Where's Your Ed At",
@@ -270,7 +290,7 @@
     "score": 24
   },
   {
-    "rank": 28,
+    "rank": 30,
     "title": "Apple Creator Studio Usage Restrictions",
     "link": "https://arstechnica.com/gadgets/2026/01/seven-things-to-know-about-how-apples-creator-studio-subscriptions-work/",
     "source": "Daring Fireball",
@@ -280,7 +300,7 @@
     "score": 23
   },
   {
-    "rank": 29,
+    "rank": 31,
     "title": "OpenAI’s Codex",
     "link": "https://simonwillison.net/2026/Feb/2/introducing-the-codex-app/",
     "source": "Daring Fireball",
@@ -290,7 +310,7 @@
     "score": 23
   },
   {
-    "rank": 30,
+    "rank": 32,
     "title": "Why Investors Don’t Care About Your Business",
     "link": "https://steveblank.com/2025/07/01/why-investors-dont-care-about-your-business/",
     "source": "Steve Blank",
@@ -300,7 +320,7 @@
     "score": 23
   },
   {
-    "rank": 31,
+    "rank": 33,
     "title": "Teaching National Security Policy with AI",
     "link": "https://steveblank.com/2025/06/10/teaching-national-security-policy-with-ai/",
     "source": "Steve Blank",
@@ -310,7 +330,7 @@
     "score": 23
   },
   {
-    "rank": 32,
+    "rank": 34,
     "title": "Summary of reading: October - December 2025",
     "link": "https://eli.thegreenplace.net/2025/summary-of-reading-october-december-2025/",
     "source": "Eli Bendersky",
@@ -320,7 +340,7 @@
     "score": 21
   },
   {
-    "rank": 33,
+    "rank": 35,
     "title": "Google’s Cloud AI lead on the three frontiers of model capability",
     "link": "https://techcrunch.com/2026/02/23/googles-cloud-ai-lead-on-the-three-frontiers-of-model-capability/",
     "source": "TechCrunch",
@@ -330,17 +350,17 @@
     "score": 21
   },
   {
-    "rank": 34,
+    "rank": 36,
     "title": "OpenAI calls in the consultants for its enterprise push",
     "link": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/",
     "source": "TechCrunch",
     "summary": "OpenAI is partnering with four consulting giants in an effort to see more adoption of its OpenAI Frontier AI agent platform.",
     "llmComment": null,
     "pubDate": "2026-02-23T18:11:08.000Z",
-    "score": 21
+    "score": 20
   },
   {
-    "rank": 35,
+    "rank": 37,
     "title": "How AI agents could destroy the economy",
     "link": "https://techcrunch.com/2026/02/23/how-ai-agents-could-destroy-the-economy/",
     "source": "TechCrunch",
@@ -350,7 +370,7 @@
     "score": 19
   },
   {
-    "rank": 36,
+    "rank": 38,
     "title": "Particle’s AI news app listens to podcasts for interesting clips so you you don’t have to",
     "link": "https://techcrunch.com/2026/02/23/particles-ai-news-app-listens-to-podcasts-for-interesting-clips-so-you-you-dont-have-to/",
     "source": "TechCrunch",
@@ -360,7 +380,7 @@
     "score": 18
   },
   {
-    "rank": 37,
+    "rank": 39,
     "title": "Spotify rolls out AI-powered Prompted Playlists to the UK and other markets",
     "link": "https://techcrunch.com/2026/02/23/spotify-ai-prompted-playlists-uk-markets/",
     "source": "TechCrunch",
@@ -370,17 +390,17 @@
     "score": 18
   },
   {
-    "rank": 38,
+    "rank": 40,
     "title": "ASML unveils EUV light source advance that could yield 50% more chips by 2030",
     "link": "https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/",
     "source": "Hacker News",
-    "summary": "Article URL: https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/ Comments URL: https://news.ycombinator.com/item?id=47125349 Points: 82 # Comments: 16",
+    "summary": "Article URL: https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/ Comments URL: https://news.ycombinator.com/item?id=47125349 Points: 94 # Comments: 18",
     "llmComment": null,
     "pubDate": "2026-02-23T17:18:41.000Z",
     "score": 18
   },
   {
-    "rank": 39,
+    "rank": 41,
     "title": "AI is the Best Thing to Happen to Art",
     "link": "https://geohot.github.io//blog/jekyll/update/2026/02/19/ai-art.html",
     "source": "geohot Blog",
@@ -390,7 +410,7 @@
     "score": 18
   },
   {
-    "rank": 40,
+    "rank": 42,
     "title": "tiny corp’s product – a training box",
     "link": "https://geohot.github.io//blog/jekyll/update/2026/02/15/tiny-corp-product.html",
     "source": "geohot Blog",
@@ -400,7 +420,7 @@
     "score": 18
   },
   {
-    "rank": 41,
+    "rank": 43,
     "title": "Will the explainer post go extinct?",
     "link": "https://dynomight.net/explainers/",
     "source": "dynomight",
@@ -410,7 +430,7 @@
     "score": 18
   },
   {
-    "rank": 42,
+    "rank": 44,
     "title": "Y’all are over-complicating these AI-risk arguments",
     "link": "https://dynomight.net/ai-risk/",
     "source": "dynomight",
@@ -420,7 +440,7 @@
     "score": 18
   },
   {
-    "rank": 43,
+    "rank": 45,
     "title": "VPN flaws allowed Chinese hackers to compromise dozens of Ivanti customers, says report",
     "link": "https://techcrunch.com/2026/02/23/vpn-flaws-allowed-chinese-hackers-to-compromise-dozens-of-ivanti-customers-says-report/",
     "source": "TechCrunch",
@@ -430,7 +450,7 @@
     "score": 18
   },
   {
-    "rank": 44,
+    "rank": 46,
     "title": "Quoting Paul Ford",
     "link": "https://simonwillison.net/2026/Feb/23/paul-ford/#atom-everything",
     "source": "Simon Willison",
@@ -440,7 +460,7 @@
     "score": 18
   },
   {
-    "rank": 45,
+    "rank": 47,
     "title": "Uber’s new autonomous vehicle division is about survival and opportunity",
     "link": "https://techcrunch.com/2026/02/23/uber-autonomous-solutions-av-robotaxi/",
     "source": "TechCrunch",
@@ -450,47 +470,47 @@
     "score": 18
   },
   {
-    "rank": 46,
+    "rank": 48,
     "title": "Finnish quantum unicorn IQM set to go public",
     "link": "https://techcrunch.com/2026/02/23/finnish-quantum-unicorn-iqm-set-to-go-public/",
     "source": "TechCrunch",
     "summary": "Finnish unicorn IQM plans to go public via a special purpose acquisition company (SPAC) valuing the company at approximately $1.8 billion — joining the growing cohort of quantum computing companies listed on U.S. stock markets.",
     "llmComment": null,
     "pubDate": "2026-02-23T16:41:22.000Z",
-    "score": 18
+    "score": 17
   },
   {
-    "rank": 47,
+    "rank": 49,
     "title": "India's VIP culture is out of control",
     "link": "https://www.economist.com/asia/2026/02/22/indias-vip-culture-is-out-of-control",
     "source": "Hacker News",
-    "summary": "https://archive.is/iI6rY Comments URL: https://news.ycombinator.com/item?id=47127421 Points: 20 # Comments: 8",
+    "summary": "https://archive.is/iI6rY Comments URL: https://news.ycombinator.com/item?id=47127421 Points: 24 # Comments: 9",
     "llmComment": null,
     "pubDate": "2026-02-23T19:24:54.000Z",
     "score": 17
   },
   {
-    "rank": 48,
+    "rank": 50,
     "title": "Binance fired employees who found $1.7B in crypto was sent to Iran",
     "link": "https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html",
     "source": "Hacker News",
-    "summary": "Article URL: https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html Comments URL: https://news.ycombinator.com/item?id=47127396 Points: 69 # Comments: 39",
+    "summary": "Article URL: https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html Comments URL: https://news.ycombinator.com/item?id=47127396 Points: 89 # Comments: 52",
     "llmComment": null,
     "pubDate": "2026-02-23T19:23:30.000Z",
     "score": 17
   },
   {
-    "rank": 49,
+    "rank": 51,
     "title": "A lithium-ion breakthrough that could boost range and lower costs",
     "link": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/forget-solid-state-batteries-researchers-have-made-a-lithium-ion-breakthrough-that-could-boost-range-and-drastically-lower-costs",
     "source": "Hacker News",
-    "summary": "Article URL: https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/forget-solid-state-batteries-researchers-have-made-a-lithium-ion-breakthrough-that-could-boost-range-and-drastically-lower-costs Comments URL: https://news.ycombinator.com/item?id=47127133 Points: 10 # Comments: 0",
+    "summary": "Article URL: https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/forget-solid-state-batteries-researchers-have-made-a-lithium-ion-breakthrough-that-could-boost-range-and-drastically-lower-costs Comments URL: https://news.ycombinator.com/item?id=47127133 Points: 16 # Comments: 0",
     "llmComment": null,
     "pubDate": "2026-02-23T19:07:41.000Z",
     "score": 17
   },
   {
-    "rank": 50,
+    "rank": 52,
     "title": "Writing code is cheap now",
     "link": "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/#atom-everything",
     "source": "Simon Willison",
@@ -500,7 +520,7 @@
     "score": 17
   },
   {
-    "rank": 51,
+    "rank": 53,
     "title": "Americans are destroying Flock surveillance cameras",
     "link": "https://techcrunch.com/2026/02/23/americans-are-destroying-flock-surveillance-cameras/",
     "source": "TechCrunch",
@@ -510,7 +530,7 @@
     "score": 17
   },
   {
-    "rank": 52,
+    "rank": 54,
     "title": "Defense Secretary summons Anthropic’s Amodei over military use of Claude",
     "link": "https://techcrunch.com/2026/02/23/defense-secretary-summons-anthropics-amodei-over-military-use-of-claude/",
     "source": "TechCrunch",
@@ -520,7 +540,7 @@
     "score": 17
   },
   {
-    "rank": 53,
+    "rank": 55,
     "title": "Reply guy",
     "link": "https://simonwillison.net/2026/Feb/23/reply-guy/#atom-everything",
     "source": "Simon Willison",
@@ -530,7 +550,7 @@
     "score": 16
   },
   {
-    "rank": 54,
+    "rank": 56,
     "title": "5 days left to lock in the lowest TechCrunch Disrupt 2026 ticket rates",
     "link": "https://techcrunch.com/2026/02/23/5-days-left-to-lock-in-the-lowest-techcrunch-disrupt-2026-ticket-rates/",
     "source": "TechCrunch",
@@ -540,7 +560,7 @@
     "score": 16
   },
   {
-    "rank": 55,
+    "rank": 57,
     "title": "Quoting Summer Yue",
     "link": "https://simonwillison.net/2026/Feb/23/summer-yue/#atom-everything",
     "source": "Simon Willison",
@@ -550,27 +570,27 @@
     "score": 16
   },
   {
-    "rank": 56,
+    "rank": 58,
     "title": "What it means that Ubuntu is using Rust",
     "link": "https://smallcultfollowing.com/babysteps/blog/2026/02/23/ubuntu-rustnation/",
     "source": "Hacker News",
-    "summary": "Article URL: https://smallcultfollowing.com/babysteps/blog/2026/02/23/ubuntu-rustnation/ Comments URL: https://news.ycombinator.com/item?id=47125286 Points: 67 # Comments: 87",
+    "summary": "Article URL: https://smallcultfollowing.com/babysteps/blog/2026/02/23/ubuntu-rustnation/ Comments URL: https://news.ycombinator.com/item?id=47125286 Points: 72 # Comments: 89",
     "llmComment": null,
     "pubDate": "2026-02-23T17:15:14.000Z",
     "score": 16
   },
   {
-    "rank": 57,
+    "rank": 59,
     "title": "Decided to fly to the US to buy some hard drives",
     "link": "https://old.reddit.com/r/DataHoarder/comments/1rb9ot4/decided_to_fly_to_the_us_to_buy_some_hard_drives",
     "source": "Hacker News",
-    "summary": "Article URL: https://old.reddit.com/r/DataHoarder/comments/1rb9ot4/decided_to_fly_to_the_us_to_buy_some_hard_drives Comments URL: https://news.ycombinator.com/item?id=47125046 Points: 43 # Comments: 24",
+    "summary": "Article URL: https://old.reddit.com/r/DataHoarder/comments/1rb9ot4/decided_to_fly_to_the_us_to_buy_some_hard_drives Comments URL: https://news.ycombinator.com/item?id=47125046 Points: 51 # Comments: 28",
     "llmComment": null,
     "pubDate": "2026-02-23T17:01:39.000Z",
     "score": 16
   },
   {
-    "rank": 58,
+    "rank": 60,
     "title": "Hadrius (YC W23) Is Hiring Designers Who Code",
     "link": "https://www.ycombinator.com/companies/hadrius/jobs/ObynDF9-senior-product-designer",
     "source": "Hacker News",
@@ -580,17 +600,17 @@
     "score": 16
   },
   {
-    "rank": 59,
+    "rank": 61,
     "title": "A simple web we own",
     "link": "https://rsdoiel.github.io/blog/2026/02/21/a_simple_web_we_own.html",
     "source": "Hacker News",
-    "summary": "Article URL: https://rsdoiel.github.io/blog/2026/02/21/a_simple_web_we_own.html Comments URL: https://news.ycombinator.com/item?id=47124149 Points: 119 # Comments: 75",
+    "summary": "Article URL: https://rsdoiel.github.io/blog/2026/02/21/a_simple_web_we_own.html Comments URL: https://news.ycombinator.com/item?id=47124149 Points: 123 # Comments: 78",
     "llmComment": null,
     "pubDate": "2026-02-23T16:01:18.000Z",
     "score": 15
   },
   {
-    "rank": 60,
+    "rank": 62,
     "title": "Show HN: Sowbot – open-hardware agricultural robot (ROS2, RTK GPS)",
     "link": "https://sowbot.co.uk/",
     "source": "Hacker News",
@@ -600,7 +620,7 @@
     "score": 15
   },
   {
-    "rank": 61,
+    "rank": 63,
     "title": "Show HN: PgDog – Scale Postgres without changing the app",
     "link": "https://github.com/pgdogdev/pgdog",
     "source": "Hacker News",
@@ -610,7 +630,7 @@
     "score": 15
   },
   {
-    "rank": 62,
+    "rank": 64,
     "title": "Red/green TDD",
     "link": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
     "source": "Simon Willison",
@@ -620,37 +640,37 @@
     "score": 15
   },
   {
-    "rank": 63,
+    "rank": 65,
     "title": "The peculiar case of Japanese web design (2022)",
     "link": "https://sabrinas.space",
     "source": "Hacker News",
-    "summary": "Article URL: https://sabrinas.space Comments URL: https://news.ycombinator.com/item?id=47122789 Points: 182 # Comments: 77",
+    "summary": "Article URL: https://sabrinas.space Comments URL: https://news.ycombinator.com/item?id=47122789 Points: 185 # Comments: 79",
     "llmComment": null,
     "pubDate": "2026-02-23T14:28:39.000Z",
-    "score": 15
+    "score": 14
   },
   {
-    "rank": 64,
+    "rank": 66,
     "title": "The Age Verification Trap: Verifying age undermines everyone's data protection",
     "link": "https://spectrum.ieee.org/age-verification",
     "source": "Hacker News",
-    "summary": "Article URL: https://spectrum.ieee.org/age-verification Comments URL: https://news.ycombinator.com/item?id=47122715 Points: 843 # Comments: 700",
+    "summary": "Article URL: https://spectrum.ieee.org/age-verification Comments URL: https://news.ycombinator.com/item?id=47122715 Points: 879 # Comments: 719",
     "llmComment": null,
     "pubDate": "2026-02-23T14:22:39.000Z",
-    "score": 15
+    "score": 14
   },
   {
-    "rank": 65,
+    "rank": 67,
     "title": "SETI@home: Data Acquisition and Front-End Processing (2025)",
     "link": "https://iopscience.iop.org/article/10.3847/1538-3881/ade5a7",
     "source": "Hacker News",
-    "summary": "Article URL: https://iopscience.iop.org/article/10.3847/1538-3881/ade5a7 Comments URL: https://news.ycombinator.com/item?id=47120201 Points: 70 # Comments: 14",
+    "summary": "Article URL: https://iopscience.iop.org/article/10.3847/1538-3881/ade5a7 Comments URL: https://news.ycombinator.com/item?id=47120201 Points: 71 # Comments: 16",
     "llmComment": null,
     "pubDate": "2026-02-23T09:58:33.000Z",
     "score": 14
   },
   {
-    "rank": 66,
+    "rank": 68,
     "title": "Wispr Flow launches an Android app for AI-powered dictation",
     "link": "https://techcrunch.com/2026/02/23/wispr-flow-launches-an-android-app-for-ai-powered-dictation/",
     "source": "TechCrunch",
@@ -660,17 +680,27 @@
     "score": 14
   },
   {
-    "rank": 67,
+    "rank": 69,
+    "title": "Crunchbase Data: The AI Boom Has Drastically Changed Who’s Funding The Hottest Companies In 2025 Vs. 2021",
+    "link": "https://news.crunchbase.com/venture/data-2025-vs-2021-funding-hottest-companies-ai/",
+    "source": "Crunchbase News",
+    "summary": "The investors backing the hottest companies in today's highly competitive venture capital market have changed drastically since the 2021 funding peak, Crunchbase data shows. Here's more on what our analysis indicates.",
+    "llmComment": null,
+    "pubDate": "2026-02-19T12:00:20.000Z",
+    "score": 14
+  },
+  {
+    "rank": 70,
     "title": "femtolisp: A lightweight, robust, scheme-like Lisp implementation",
     "link": "https://github.com/JeffBezanson/femtolisp",
     "source": "Hacker News",
-    "summary": "Article URL: https://github.com/JeffBezanson/femtolisp Comments URL: https://news.ycombinator.com/item?id=47121539 Points: 87 # Comments: 13",
+    "summary": "Article URL: https://github.com/JeffBezanson/femtolisp Comments URL: https://news.ycombinator.com/item?id=47121539 Points: 89 # Comments: 14",
     "llmComment": null,
     "pubDate": "2026-02-23T12:38:54.000Z",
     "score": 14
   },
   {
-    "rank": 68,
+    "rank": 71,
     "title": "Quoting Thibault Sottiaux",
     "link": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
     "source": "Simon Willison",
@@ -680,17 +710,27 @@
     "score": 13
   },
   {
-    "rank": 69,
+    "rank": 72,
     "title": "Ladybird adopts Rust",
     "link": "https://ladybird.org/posts/adopting-rust/",
     "source": "Hacker News",
-    "summary": "Article URL: https://ladybird.org/posts/adopting-rust/ Comments URL: https://news.ycombinator.com/item?id=47120899 Points: 855 # Comments: 454",
+    "summary": "Article URL: https://ladybird.org/posts/adopting-rust/ Comments URL: https://news.ycombinator.com/item?id=47120899 Points: 869 # Comments: 456",
     "llmComment": null,
     "pubDate": "2026-02-23T11:29:22.000Z",
     "score": 13
   },
   {
-    "rank": 70,
+    "rank": 73,
+    "title": "AI Seed Trends: More Multimedia, Backend Automation, Agentic Security, And Yes, Robots",
+    "link": "https://news.crunchbase.com/venture/data-ai-seed-trends-multimedia-automation-cybersecurity-robots/",
+    "source": "Crunchbase News",
+    "summary": "Investors poured over $9 billion into global AI-focused seed rounds over the past six months, per Crunchbase data. Areas they favored include cybersecurity, multimedia AI, robotics and desk work automation.",
+    "llmComment": null,
+    "pubDate": "2026-02-20T12:00:03.000Z",
+    "score": 13
+  },
+  {
+    "rank": 74,
     "title": "The Second Great Error Model Convergence",
     "link": "https://matklad.github.io/2025/12/29/second-error-model-convergence.html",
     "source": "matklad",
@@ -700,7 +740,17 @@
     "score": 13
   },
   {
-    "rank": 71,
+    "rank": 75,
+    "title": "Digital Savings Startup Vestwell Lands $385M, Doubles Valuation",
+    "link": "https://news.crunchbase.com/fintech/digital-savings-startup-vestwell-seriese-doubles-valuation/",
+    "source": "Crunchbase News",
+    "summary": "New York-based Vestwell, a digital savings platform, has raised $385 million in a Series E funding round co-led by Blue Owl Capital and Sixth Street Growth.",
+    "llmComment": null,
+    "pubDate": "2026-02-18T13:00:17.000Z",
+    "score": 13
+  },
+  {
+    "rank": 76,
     "title": "Ladybird 浏览器开发者使用 AI 将 JS 编译器用 Rust 改写了一遍",
     "link": "https://www.v2ex.com/t/1193584#reply4",
     "source": "V2EX 技术",
@@ -710,17 +760,7 @@
     "score": 13
   },
   {
-    "rank": 72,
-    "title": "这个麻将少牌问题， AI 怎么识别不出来？",
-    "link": "https://www.v2ex.com/t/1193577#reply5",
-    "source": "V2EX 技术",
-    "summary": "试了好几个模型都不行。结论是少个北风。 ]]>",
-    "llmComment": null,
-    "pubDate": "2026-02-23T10:34:59.000Z",
-    "score": 12
-  },
-  {
-    "rank": 73,
+    "rank": 77,
     "title": "How I think about Codex",
     "link": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
     "source": "Simon Willison",
@@ -730,7 +770,17 @@
     "score": 12
   },
   {
-    "rank": 74,
+    "rank": 78,
+    "title": "这个麻将少牌问题， AI 怎么识别不出来？",
+    "link": "https://www.v2ex.com/t/1193577#reply5",
+    "source": "V2EX 技术",
+    "summary": "试了好几个模型都不行。结论是少个北风。 ]]>",
+    "llmComment": null,
+    "pubDate": "2026-02-23T10:34:59.000Z",
+    "score": 12
+  },
+  {
+    "rank": 79,
     "title": "有在用猴狐浏览器的么",
     "link": "https://www.v2ex.com/t/1193603#reply0",
     "source": "V2EX 技术",
@@ -740,27 +790,27 @@
     "score": 12
   },
   {
-    "rank": 75,
+    "rank": 80,
     "title": "Elsevier shuts down its finance journal citation cartel",
     "link": "https://www.chrisbrunet.com/p/elsevier-shuts-down-its-finance-journal",
     "source": "Hacker News",
-    "summary": "Article URL: https://www.chrisbrunet.com/p/elsevier-shuts-down-its-finance-journal Comments URL: https://news.ycombinator.com/item?id=47119530 Points: 448 # Comments: 91",
+    "summary": "Article URL: https://www.chrisbrunet.com/p/elsevier-shuts-down-its-finance-journal Comments URL: https://news.ycombinator.com/item?id=47119530 Points: 450 # Comments: 91",
     "llmComment": null,
     "pubDate": "2026-02-23T08:22:34.000Z",
     "score": 12
   },
   {
-    "rank": 76,
+    "rank": 81,
     "title": "Magical Mushroom – Europe's first industrial-scale mycelium packaging producer",
     "link": "https://magicalmushroom.com/index",
     "source": "Hacker News",
-    "summary": "Article URL: https://magicalmushroom.com/index Comments URL: https://news.ycombinator.com/item?id=47119274 Points: 276 # Comments: 97",
+    "summary": "Article URL: https://magicalmushroom.com/index Comments URL: https://news.ycombinator.com/item?id=47119274 Points: 280 # Comments: 100",
     "llmComment": null,
     "pubDate": "2026-02-23T07:43:47.000Z",
     "score": 12
   },
   {
-    "rank": 77,
+    "rank": 82,
     "title": "Can the creator economy stay afloat in a flood of AI slop?",
     "link": "https://techcrunch.com/2026/02/22/can-the-creator-economy-stay-afloat-in-a-flood-of-ai-slop/",
     "source": "TechCrunch",
@@ -770,7 +820,37 @@
     "score": 12
   },
   {
-    "rank": 78,
+    "rank": 83,
+    "title": "Exclusive: Ownwell Lands $30M To Help Homeowners Lower Their Property Tax Bills",
+    "link": "https://news.crunchbase.com/venture/ownwell-raise-lower-homeowner-property-tax/",
+    "source": "Crunchbase News",
+    "summary": "Ownwell, an AI-powered startup that appeals property taxes on behalf of homeowners, has secured $50 million in financing, including $30 million in equity and $20 million in debt, the company tells Crunchbase News exclusively.",
+    "llmComment": null,
+    "pubDate": "2026-02-19T15:00:32.000Z",
+    "score": 11
+  },
+  {
+    "rank": 84,
+    "title": "Innovation Is A Game Of Two Halves",
+    "link": "https://news.crunchbase.com/venture/public-private-market-innovation-gray-odin/",
+    "source": "Crunchbase News",
+    "summary": "Historically, many of the most transformative companies went public early and built the majority of their value under the discipline and funding of public investors, writes guest author Dan Gray, who contrasts that move with the modern “private-for-longer” model which has delayed accountability, inf",
+    "llmComment": null,
+    "pubDate": "2026-02-19T12:00:31.000Z",
+    "score": 11
+  },
+  {
+    "rank": 85,
+    "title": "The Crunchbase Tech Layoffs Tracker",
+    "link": "https://news.crunchbase.com/startups/tech-layoffs/",
+    "source": "Crunchbase News",
+    "summary": "Over 127,000 workers at U.S.-based tech companies were laid off in mass job cuts in 2025, per a Crunchbase News tally, and the layoffs have continued into 2026. See the latest companies to cut roles.",
+    "llmComment": null,
+    "pubDate": "2026-02-18T18:53:30.000Z",
+    "score": 11
+  },
+  {
+    "rank": 86,
     "title": "ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
     "link": "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything",
     "source": "Simon Willison",
@@ -780,7 +860,7 @@
     "score": 11
   },
   {
-    "rank": 79,
+    "rank": 87,
     "title": "Wrapping Code Comments",
     "link": "https://matklad.github.io/2026/02/21/wrapping-code-comments.html",
     "source": "matklad",
@@ -790,7 +870,17 @@
     "score": 11
   },
   {
-    "rank": 80,
+    "rank": 88,
+    "title": "Only 2 States Saw Their Share Of US Venture Funding Rise Last Year",
+    "link": "https://news.crunchbase.com/venture/states-us-funding-share-rose-fell-2025/",
+    "source": "Crunchbase News",
+    "summary": "Overall, there were six states that captured 2% or more of U.S. venture funding last year, per Crunchbase data. That’s a small group, but it’s not too atypical, as a few hubs reliably attract virtually all the capital. We share what we found.",
+    "llmComment": null,
+    "pubDate": "2026-02-17T12:00:57.000Z",
+    "score": 11
+  },
+  {
+    "rank": 89,
     "title": "代码如果不开源了 ai 编程是不是得吃屎了",
     "link": "https://www.v2ex.com/t/1193535#reply9",
     "source": "V2EX 技术",
@@ -800,17 +890,7 @@
     "score": 10
   },
   {
-    "rank": 81,
-    "title": "目前最好用的 YouTube 下载工具是啥",
-    "link": "https://www.v2ex.com/t/1193575#reply6",
-    "source": "V2EX 技术",
-    "summary": "大概要求: 1. 可以自动更新, 比如 yt-dlp 之类工具 2. 可以一键下载列表 3. 自带登录获取 cookie 功能, 很多软件需要使用一些插件软件等拿到 cookie 再配置, 比较麻烦 4. 自动配置使用合适格式下载, 我一般要 1080p 就够了, 如果没有就 720p, 自动选择灵活点 ]]>",
-    "llmComment": null,
-    "pubDate": "2026-02-23T10:16:24.000Z",
-    "score": 10
-  },
-  {
-    "rank": 82,
+    "rank": 90,
     "title": "The Claude C Compiler: What It Reveals About the Future of Software",
     "link": "https://simonwillison.net/2026/Feb/22/ccc/#atom-everything",
     "source": "Simon Willison",
@@ -820,7 +900,17 @@
     "score": 10
   },
   {
-    "rank": 83,
+    "rank": 91,
+    "title": "目前最好用的 YouTube 下载工具是啥",
+    "link": "https://www.v2ex.com/t/1193575#reply6",
+    "source": "V2EX 技术",
+    "summary": "大概要求: 1. 可以自动更新, 比如 yt-dlp 之类工具 2. 可以一键下载列表 3. 自带登录获取 cookie 功能, 很多软件需要使用一些插件软件等拿到 cookie 再配置, 比较麻烦 4. 自动配置使用合适格式下载, 我一般要 1080p 就够了, 如果没有就 720p, 自动选择灵活点 ]]>",
+    "llmComment": null,
+    "pubDate": "2026-02-23T10:16:24.000Z",
+    "score": 10
+  },
+  {
+    "rank": 92,
     "title": "London Stock Exchange: Raspberry Pi Holdings plc",
     "link": "https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/#atom-everything",
     "source": "Simon Willison",
@@ -830,7 +920,7 @@
     "score": 10
   },
   {
-    "rank": 84,
+    "rank": 93,
     "title": "Apple might take a new approach to announcing its next products",
     "link": "https://techcrunch.com/2026/02/22/apple-might-take-a-new-approach-to-announcing-its-next-products/",
     "source": "TechCrunch",
@@ -840,7 +930,7 @@
     "score": 10
   },
   {
-    "rank": 85,
+    "rank": 94,
     "title": "SWE-bench February 2026 leaderboard update",
     "link": "https://simonwillison.net/2026/Feb/19/swe-bench/#atom-everything",
     "source": "Simon Willison",
@@ -850,7 +940,7 @@
     "score": 9
   },
   {
-    "rank": 86,
+    "rank": 95,
     "title": "我比较疑惑，为何在 Github 上部分项目所提供的 APK 文件不直接提供签名后的 Universal APK 打包，而是提供若干分支？",
     "link": "https://www.v2ex.com/t/1193566#reply16",
     "source": "V2EX 技术",
@@ -860,7 +950,7 @@
     "score": 9
   },
   {
-    "rank": 87,
+    "rank": 96,
     "title": "Bill Gurley says that right now, the worst thing you can do for your career is play it safe",
     "link": "https://techcrunch.com/2026/02/22/bill-gurley-says-that-right-now-the-worst-thing-you-can-do-for-your-career-is-play-it-safe/",
     "source": "TechCrunch",
@@ -870,17 +960,7 @@
     "score": 9
   },
   {
-    "rank": 88,
-    "title": "有人知道 trae 这是要干什么吗？ ai-agent 进程占用内存 18GB",
-    "link": "https://www.v2ex.com/t/1193503#reply5",
-    "source": "V2EX 技术",
-    "summary": "看 ai-chat 这个目录感觉是个关键信息 ]]>",
-    "llmComment": null,
-    "pubDate": "2026-02-22T14:51:14.000Z",
-    "score": 9
-  },
-  {
-    "rank": 89,
+    "rank": 97,
     "title": "Quoting Thariq Shihipar",
     "link": "https://simonwillison.net/2026/Feb/20/thariq-shihipar/#atom-everything",
     "source": "Simon Willison",
@@ -890,7 +970,27 @@
     "score": 9
   },
   {
-    "rank": 90,
+    "rank": 98,
+    "title": "有人知道 trae 这是要干什么吗？ ai-agent 进程占用内存 18GB",
+    "link": "https://www.v2ex.com/t/1193503#reply5",
+    "source": "V2EX 技术",
+    "summary": "看 ai-chat 这个目录感觉是个关键信息 ]]>",
+    "llmComment": null,
+    "pubDate": "2026-02-22T14:51:14.000Z",
+    "score": 9
+  },
+  {
+    "rank": 99,
+    "title": "Biotech Startup M&A Is Reliably Delivering Some Big Exits",
+    "link": "https://news.crunchbase.com/health-wellness-biotech/startup-ma-ipo-delivering-exits/",
+    "source": "Crunchbase News",
+    "summary": "Over the past two calendar years, acquirers have agreed to pay more than $38 billion to purchase venture-backed companies in Crunchbase biotech industry categories. So far, 2026 is off to a brisk start as well.",
+    "llmComment": null,
+    "pubDate": "2026-02-18T12:00:33.000Z",
+    "score": 9
+  },
+  {
+    "rank": 100,
     "title": "Quantonation’s double-sized second fund shows quantum still has believers",
     "link": "https://techcrunch.com/2026/02/22/quantonations-double-sized-second-fund-shows-quantum-still-has-believers/",
     "source": "TechCrunch",
@@ -900,7 +1000,7 @@
     "score": 9
   },
   {
-    "rank": 91,
+    "rank": 101,
     "title": "Trump says Netflix will face ‘consequences’ if it doesn’t fire board member Susan Rice",
     "link": "https://techcrunch.com/2026/02/22/trump-says-netflix-will-face-consequences-if-it-doesnt-fire-board-member-susan-rice/",
     "source": "TechCrunch",
@@ -910,7 +1010,7 @@
     "score": 9
   },
   {
-    "rank": 92,
+    "rank": 102,
     "title": "TechCrunch Mobility: Waymo makes its defense",
     "link": "https://techcrunch.com/2026/02/22/techcrunch-mobility-waymo-makes-its-defense/",
     "source": "TechCrunch",
@@ -920,7 +1020,7 @@
     "score": 8
   },
   {
-    "rank": 93,
+    "rank": 103,
     "title": "目前 Manus 的替代品?",
     "link": "https://www.v2ex.com/t/1193552#reply20",
     "source": "V2EX 技术",
@@ -930,7 +1030,7 @@
     "score": 8
   },
   {
-    "rank": 94,
+    "rank": 104,
     "title": "Accelerating discovery in India through AI-powered science and education",
     "link": "https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/",
     "source": "Google DeepMind Blog",
@@ -940,7 +1040,7 @@
     "score": 8
   },
   {
-    "rank": 95,
+    "rank": 105,
     "title": "Elon Musk — \"In 36 months, the cheapest place to put AI will be space”",
     "link": "https://www.dwarkesh.com/p/elon-musk",
     "source": "Dwarkesh Patel",
@@ -950,7 +1050,7 @@
     "score": 8
   },
   {
-    "rank": 96,
+    "rank": 106,
     "title": "Project Genie: Experimenting with infinite, interactive worlds",
     "link": "https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/",
     "source": "Google DeepMind Blog",
@@ -960,7 +1060,7 @@
     "score": 8
   },
   {
-    "rank": 97,
+    "rank": 107,
     "title": "Qualcomm's Hexagon AI Accelerators",
     "link": "https://thechipletter.substack.com/p/qualcomms-hexagon-ai-accelerators",
     "source": "The Chip Letter",
@@ -970,7 +1070,7 @@
     "score": 8
   },
   {
-    "rank": 98,
+    "rank": 108,
     "title": "Nexperia's Long History, Tangled Present and Uncertain Future",
     "link": "https://thechipletter.substack.com/p/the-tangled-past-present-and-future",
     "source": "The Chip Letter",
@@ -980,7 +1080,7 @@
     "score": 8
   },
   {
-    "rank": 99,
+    "rank": 109,
     "title": "Arm's Chief Architect on the History of the Arm Architecture",
     "link": "https://thechipletter.substack.com/p/arms-chief-architect-on-the-history",
     "source": "The Chip Letter",
@@ -990,7 +1090,7 @@
     "score": 8
   },
   {
-    "rank": 100,
+    "rank": 110,
     "title": "The End of Simplification: Intel Abandons X86S",
     "link": "https://thechipletter.substack.com/p/the-end-of-simplification-intel-abandons",
     "source": "The Chip Letter",
@@ -1000,7 +1100,7 @@
     "score": 8
   },
   {
-    "rank": 101,
+    "rank": 111,
     "title": "D4RT: Teaching AI to see the world in four dimensions",
     "link": "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/",
     "source": "Google DeepMind Blog",
@@ -1010,7 +1110,7 @@
     "score": 8
   },
   {
-    "rank": 102,
+    "rank": 112,
     "title": "Deepening our partnership with the UK AI Security Institute",
     "link": "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/",
     "source": "Google DeepMind Blog",
@@ -1020,7 +1120,7 @@
     "score": 8
   },
   {
-    "rank": 103,
+    "rank": 113,
     "title": "Strengthening our partnership with the UK government to support prosperity and security in the AI era",
     "link": "https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/",
     "source": "Google DeepMind Blog",
@@ -1030,7 +1130,7 @@
     "score": 8
   },
   {
-    "rank": 104,
+    "rank": 114,
     "title": "How we’re bringing AI image verification to the Gemini app",
     "link": "https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/",
     "source": "Google DeepMind Blog",
@@ -1040,7 +1140,7 @@
     "score": 8
   },
   {
-    "rank": 105,
+    "rank": 115,
     "title": "April 2021 newsletter",
     "link": "https://gwern.substack.com/p/april-2021-newsletter",
     "source": "Gwern",
@@ -1050,7 +1150,7 @@
     "score": 8
   },
   {
-    "rank": 106,
+    "rank": 116,
     "title": "February 2021 Gwern.net Newsletter",
     "link": "https://gwern.substack.com/p/february-2021-gwernnet-newsletter",
     "source": "Gwern",
@@ -1060,7 +1160,7 @@
     "score": 8
   },
   {
-    "rank": 107,
+    "rank": 117,
     "title": "Jan 2021 Gwern.net Newsletter",
     "link": "https://gwern.substack.com/p/jan-2021-gwernnet-newsletter",
     "source": "Gwern",
@@ -1070,7 +1170,7 @@
     "score": 8
   },
   {
-    "rank": 108,
+    "rank": 118,
     "title": "December newsletter",
     "link": "https://gwern.substack.com/p/december-newsletter",
     "source": "Gwern",
@@ -1080,7 +1180,7 @@
     "score": 8
   },
   {
-    "rank": 109,
+    "rank": 119,
     "title": "October 2020 news",
     "link": "https://gwern.substack.com/p/october-2020-news",
     "source": "Gwern",
@@ -1090,7 +1190,7 @@
     "score": 8
   },
   {
-    "rank": 110,
+    "rank": 120,
     "title": "September 2020 News",
     "link": "https://gwern.substack.com/p/september-2020-news",
     "source": "Gwern",
@@ -1100,7 +1200,7 @@
     "score": 8
   },
   {
-    "rank": 111,
+    "rank": 121,
     "title": "July 2020 gwern.net newsletter",
     "link": "https://gwern.substack.com/p/july-2020-gwernnet-newsletter",
     "source": "Gwern",
@@ -1110,7 +1210,7 @@
     "score": 8
   },
   {
-    "rank": 112,
+    "rank": 122,
     "title": "June gwern.net newsletter",
     "link": "https://gwern.substack.com/p/june-gwernnet-newsletter",
     "source": "Gwern",
@@ -1120,7 +1220,7 @@
     "score": 8
   },
   {
-    "rank": 113,
+    "rank": 123,
     "title": "Hiring scouts to help me find guests",
     "link": "https://www.dwarkesh.com/p/hiring-scouts-to-help-me-find-guests",
     "source": "Dwarkesh Patel",
@@ -1130,7 +1230,7 @@
     "score": 8
   },
   {
-    "rank": 114,
+    "rank": 124,
     "title": "What I've been reading recently - Jan 10, 2026",
     "link": "https://www.dwarkesh.com/p/notes-jan-10-2026",
     "source": "Dwarkesh Patel",
@@ -1140,7 +1240,7 @@
     "score": 8
   },
   {
-    "rank": 115,
+    "rank": 125,
     "title": "Adam Marblestone — AI is missing something fundamental about the brain",
     "link": "https://www.dwarkesh.com/p/adam-marblestone",
     "source": "Dwarkesh Patel",
@@ -1150,7 +1250,7 @@
     "score": 8
   },
   {
-    "rank": 116,
+    "rank": 126,
     "title": "An audio version of my blog post, Thoughts on AI progress (Dec 2025)",
     "link": "https://www.dwarkesh.com/p/thoughts-on-ai-progress-dec-2025-video",
     "source": "Dwarkesh Patel",
@@ -1160,7 +1260,7 @@
     "score": 8
   },
   {
-    "rank": 117,
+    "rank": 127,
     "title": "Sarah Paine — Why Russia Lost the Cold War",
     "link": "https://www.dwarkesh.com/p/sarah-paine-cold-war",
     "source": "Dwarkesh Patel",
@@ -1170,7 +1270,7 @@
     "score": 8
   },
   {
-    "rank": 118,
+    "rank": 128,
     "title": "Satya Nadella — How Microsoft is preparing for AGI",
     "link": "https://www.dwarkesh.com/p/satya-nadella-2",
     "source": "Dwarkesh Patel",
@@ -1180,7 +1280,7 @@
     "score": 8
   },
   {
-    "rank": 119,
+    "rank": 129,
     "title": "Sarah Paine — How Russia sabotaged China's rise",
     "link": "https://www.dwarkesh.com/p/sarah-paine-russo-chinese",
     "source": "Dwarkesh Patel",
@@ -1190,7 +1290,7 @@
     "score": 8
   },
   {
-    "rank": 120,
+    "rank": 130,
     "title": "Thoughts on the AI buildout",
     "link": "https://www.dwarkesh.com/p/thoughts-on-the-ai-buildout",
     "source": "Dwarkesh Patel",
@@ -1200,7 +1300,7 @@
     "score": 8
   },
   {
-    "rank": 121,
+    "rank": 131,
     "title": "Reading List 01/17/2026",
     "link": "https://www.construction-physics.com/p/reading-list-01172026",
     "source": "Construction Physics",
@@ -1210,7 +1310,7 @@
     "score": 8
   },
   {
-    "rank": 122,
+    "rank": 132,
     "title": "The Surprisingly Long Life of the Vacuum Tube",
     "link": "https://www.construction-physics.com/p/the-surprisingly-long-life-of-the",
     "source": "Construction Physics",
@@ -1220,7 +1320,7 @@
     "score": 8
   },
   {
-    "rank": 123,
+    "rank": 133,
     "title": "旧版 Google App Engine (GAE) 还能有办法导出数据么？",
     "link": "https://www.v2ex.com/t/1193547#reply4",
     "source": "V2EX 技术",
@@ -1230,7 +1330,7 @@
     "score": 8
   },
   {
-    "rank": 124,
+    "rank": 134,
     "title": "Obsolescence",
     "link": "https://thechipletter.substack.com/p/obsolescence",
     "source": "The Chip Letter",
@@ -1240,7 +1340,7 @@
     "score": 8
   },
   {
-    "rank": 125,
+    "rank": 135,
     "title": "Qualcomm's Ventana RISC-V Acquisition",
     "link": "https://thechipletter.substack.com/p/qualcomms-risc-ventana-fusion",
     "source": "The Chip Letter",
@@ -1250,7 +1350,7 @@
     "score": 8
   },
   {
-    "rank": 126,
+    "rank": 136,
     "title": "How Did TVs Get So Cheap?",
     "link": "https://www.construction-physics.com/p/how-did-tvs-get-so-cheap",
     "source": "Construction Physics",
@@ -1260,7 +1360,7 @@
     "score": 8
   },
   {
-    "rank": 127,
+    "rank": 137,
     "title": "Recovering lost code",
     "link": "https://simonwillison.net/2026/Feb/19/recovering-lost-code/#atom-everything",
     "source": "Simon Willison",
@@ -1270,7 +1370,7 @@
     "score": 8
   },
   {
-    "rank": 128,
+    "rank": 138,
     "title": "Veo 3.1 Ingredients to Video: More consistency, creativity and control",
     "link": "https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control/",
     "source": "Google DeepMind Blog",
@@ -1280,7 +1380,7 @@
     "score": 8
   },
   {
-    "rank": 129,
+    "rank": 139,
     "title": "AlphaFold: Five years of impact",
     "link": "https://deepmind.google/blog/alphafold-five-years-of-impact/",
     "source": "Google DeepMind Blog",
@@ -1290,7 +1390,7 @@
     "score": 8
   },
   {
-    "rank": 130,
+    "rank": 140,
     "title": "Podcast Strategy Doc (December 2025)",
     "link": "https://www.dwarkesh.com/p/dec-strategy-doc",
     "source": "Dwarkesh Patel",
@@ -1300,7 +1400,7 @@
     "score": 8
   },
   {
-    "rank": 131,
+    "rank": 141,
     "title": "How Accurate Are Learning Curves?",
     "link": "https://www.construction-physics.com/p/how-accurate-are-learning-curves",
     "source": "Construction Physics",
@@ -1310,7 +1410,7 @@
     "score": 8
   },
   {
-    "rank": 132,
+    "rank": 142,
     "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
     "link": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
     "source": "Krebs on Security",
@@ -1320,7 +1420,7 @@
     "score": 8
   },
   {
-    "rank": 133,
+    "rank": 143,
     "title": "The Kimwolf Botnet is Stalking Your Local Network",
     "link": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
     "source": "Krebs on Security",
@@ -1330,7 +1430,7 @@
     "score": 8
   },
   {
-    "rank": 134,
+    "rank": 144,
     "title": "Happy 16th Birthday, KrebsOnSecurity.com!",
     "link": "https://krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com/",
     "source": "Krebs on Security",
@@ -1340,7 +1440,7 @@
     "score": 8
   },
   {
-    "rank": 135,
+    "rank": 145,
     "title": "Taalas serves Llama 3.1 8B at 17,000 tokens/second",
     "link": "https://simonwillison.net/2026/Feb/20/taalas/#atom-everything",
     "source": "Simon Willison",
@@ -1350,7 +1450,7 @@
     "score": 7
   },
   {
-    "rank": 136,
+    "rank": 146,
     "title": "Gemini 3.1 Pro",
     "link": "https://simonwillison.net/2026/Feb/19/gemini-31-pro/#atom-everything",
     "source": "Simon Willison",
@@ -1360,7 +1460,7 @@
     "score": 7
   },
   {
-    "rank": 137,
+    "rank": 147,
     "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
     "link": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
     "source": "Google DeepMind Blog",
@@ -1370,7 +1470,7 @@
     "score": 7
   },
   {
-    "rank": 138,
+    "rank": 148,
     "title": "A new way to express yourself: Gemini can now create music",
     "link": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
     "source": "Google DeepMind Blog",
@@ -1380,7 +1480,7 @@
     "score": 7
   },
   {
-    "rank": 139,
+    "rank": 149,
     "title": "Sam Altman and the day Nvidia’s meteoric rise came to an end",
     "link": "https://garymarcus.substack.com/p/sam-altman-and-the-day-nvidias-meteoric",
     "source": "Gary Marcus",
@@ -1390,7 +1490,7 @@
     "score": 7
   },
   {
-    "rank": 140,
+    "rank": 150,
     "title": "Xcode 26.3 ‘Unlocks the Power of Agentic Coding’",
     "link": "https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/",
     "source": "Daring Fireball",
@@ -1400,7 +1500,7 @@
     "score": 7
   },
   {
-    "rank": 141,
+    "rank": 151,
     "title": "Improved Gemini audio models for powerful voice experiences",
     "link": "https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/",
     "source": "Google DeepMind Blog",
@@ -1410,7 +1510,7 @@
     "score": 7
   },
   {
-    "rank": 142,
+    "rank": 152,
     "title": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
     "link": "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/",
     "source": "Google DeepMind Blog",
@@ -1420,7 +1520,7 @@
     "score": 7
   },
   {
-    "rank": 143,
+    "rank": 153,
     "title": "Ilya Sutskever — We're moving from the age of scaling to the age of research",
     "link": "https://www.dwarkesh.com/p/ilya-sutskever-2",
     "source": "Dwarkesh Patel",
@@ -1430,7 +1530,7 @@
     "score": 7
   },
   {
-    "rank": 144,
+    "rank": 154,
     "title": "Premium: The Hater's Guide To The AI Bubble Vol. 2",
     "link": "https://www.wheresyoured.at/premium-the-haters-guide-to-the-ai-bubble-vol-2/",
     "source": "Where's Your Ed At",
@@ -1440,7 +1540,7 @@
     "score": 7
   },
   {
-    "rank": 145,
+    "rank": 155,
     "title": "Exclusive: Here's How Much OpenAI Spends On Inference and Its Revenue Share With Microsoft",
     "link": "https://www.wheresyoured.at/oai_docs/",
     "source": "Where's Your Ed At",
@@ -1450,7 +1550,7 @@
     "score": 7
   },
   {
-    "rank": 146,
+    "rank": 156,
     "title": "AI detection tools cannot prove that text is AI-generated",
     "link": "https://seangoedecke.com/ai-detection/",
     "source": "Sean Goedecke",
@@ -1460,7 +1560,7 @@
     "score": 7
   },
   {
-    "rank": 147,
+    "rank": 157,
     "title": "Insider amnesia",
     "link": "https://seangoedecke.com/insider-amnesia/",
     "source": "Sean Goedecke",
@@ -1470,7 +1570,7 @@
     "score": 7
   },
   {
-    "rank": 148,
+    "rank": 158,
     "title": "我想问下 nothing 可以支付宝指纹吗？",
     "link": "https://www.v2ex.com/t/1193514#reply16",
     "source": "V2EX 技术",
@@ -1480,7 +1580,7 @@
     "score": 7
   },
   {
-    "rank": 149,
+    "rank": 159,
     "title": "Reading List 02/21/26",
     "link": "https://www.construction-physics.com/p/reading-list-022126",
     "source": "Construction Physics",
@@ -1490,7 +1590,7 @@
     "score": 7
   },
   {
-    "rank": 150,
+    "rank": 160,
     "title": "Premium: The Hater's Guide to Anthropic",
     "link": "https://www.wheresyoured.at/premium-the-haters-guide-to-anthropic/",
     "source": "Where's Your Ed At",
@@ -1500,7 +1600,7 @@
     "score": 6
   },
   {
-    "rank": 151,
+    "rank": 161,
     "title": "Andrej Karpathy talks about \"Claws\"",
     "link": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
     "source": "Simon Willison",
@@ -1510,7 +1610,7 @@
     "score": 6
   },
   {
-    "rank": 152,
+    "rank": 162,
     "title": "Adding TILs, releases, museums, tools and research to my blog",
     "link": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
     "source": "Simon Willison",
@@ -1520,7 +1620,7 @@
     "score": 6
   },
   {
-    "rank": 153,
+    "rank": 163,
     "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
     "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
     "source": "Krebs on Security",
@@ -1530,7 +1630,7 @@
     "score": 6
   },
   {
-    "rank": 154,
+    "rank": 164,
     "title": "Sentry",
     "link": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;utm_medium=paid-display&amp;utm_campaign=general-fy27q1-evergreen&amp;utm_content=static-ad-mobilerss-trysentry",
     "source": "Daring Fireball",
@@ -1540,7 +1640,7 @@
     "score": 6
   },
   {
-    "rank": 155,
+    "rank": 165,
     "title": "Experimenting with sponsorship for my blog and newsletter",
     "link": "https://simonwillison.net/2026/Feb/19/sponsorship/#atom-everything",
     "source": "Simon Willison",
@@ -1550,7 +1650,7 @@
     "score": 6
   },
   {
-    "rank": 156,
+    "rank": 166,
     "title": "Reading list 02/14/26",
     "link": "https://www.construction-physics.com/p/reading-list-021426",
     "source": "Construction Physics",
@@ -1560,7 +1660,7 @@
     "score": 6
   },
   {
-    "rank": 157,
+    "rank": 167,
     "title": "Dario Amodei — \"We are near the end of the exponential\"",
     "link": "https://www.dwarkesh.com/p/dario-amodei-2",
     "source": "Dwarkesh Patel",
@@ -1570,7 +1670,7 @@
     "score": 6
   },
   {
-    "rank": 158,
+    "rank": 168,
     "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
     "link": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
     "source": "Google DeepMind Blog",
@@ -1580,7 +1680,7 @@
     "score": 6
   },
   {
-    "rank": 159,
+    "rank": 169,
     "title": "Trends in US Construction Productivity",
     "link": "https://www.construction-physics.com/p/trends-in-us-construction-productivity",
     "source": "Construction Physics",
@@ -1590,7 +1690,7 @@
     "score": 6
   },
   {
-    "rank": 160,
+    "rank": 170,
     "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
     "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
     "source": "Krebs on Security",
@@ -1600,7 +1700,7 @@
     "score": 6
   },
   {
-    "rank": 161,
+    "rank": 171,
     "title": "Patch Tuesday, February 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
     "source": "Krebs on Security",
@@ -1610,7 +1710,7 @@
     "score": 6
   },
   {
-    "rank": 162,
+    "rank": 172,
     "title": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
     "link": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/",
     "source": "Google DeepMind Blog",
@@ -1620,7 +1720,7 @@
     "score": 6
   },
   {
-    "rank": 163,
+    "rank": 173,
     "title": "Reading List 02/06/2026",
     "link": "https://www.construction-physics.com/p/reading-list-02062026",
     "source": "Construction Physics",
@@ -1630,7 +1730,7 @@
     "score": 6
   },
   {
-    "rank": 164,
+    "rank": 174,
     "title": "Notes on Space GPUs",
     "link": "https://www.dwarkesh.com/p/notes-on-space-gpus",
     "source": "Dwarkesh Patel",
@@ -1640,7 +1740,7 @@
     "score": 6
   },
   {
-    "rank": 165,
+    "rank": 175,
     "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
     "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
     "source": "Krebs on Security",
@@ -1650,7 +1750,7 @@
     "score": 6
   },
   {
-    "rank": 166,
+    "rank": 176,
     "title": "Reading List for 01/31/2026",
     "link": "https://www.construction-physics.com/p/reading-list-for-01312026",
     "source": "Construction Physics",
@@ -1660,7 +1760,7 @@
     "score": 6
   },
   {
-    "rank": 167,
+    "rank": 177,
     "title": "Intel's Larabee Legacy",
     "link": "https://thechipletter.substack.com/p/larabees-long-shadow",
     "source": "The Chip Letter",
@@ -1670,7 +1770,7 @@
     "score": 6
   },
   {
-    "rank": 168,
+    "rank": 178,
     "title": "TPU Mania",
     "link": "https://thechipletter.substack.com/p/tpu-mania",
     "source": "The Chip Letter",
@@ -1680,7 +1780,7 @@
     "score": 6
   },
   {
-    "rank": 169,
+    "rank": 179,
     "title": "The PC was never a true 'IBMer'",
     "link": "https://thechipletter.substack.com/p/the-pc-was-never-a-true-ibmer",
     "source": "The Chip Letter",
@@ -1690,7 +1790,7 @@
     "score": 6
   },
   {
-    "rank": 170,
+    "rank": 180,
     "title": "How Big was IBM?",
     "link": "https://thechipletter.substack.com/p/how-big-was-ibm",
     "source": "The Chip Letter",
@@ -1700,7 +1800,7 @@
     "score": 6
   },
   {
-    "rank": 171,
+    "rank": 181,
     "title": "Intel in Oz",
     "link": "https://thechipletter.substack.com/p/intel-in-oz",
     "source": "The Chip Letter",
@@ -1710,7 +1810,7 @@
     "score": 6
   },
   {
-    "rank": 172,
+    "rank": 182,
     "title": "Source Control",
     "link": "https://thechipletter.substack.com/p/source-control",
     "source": "The Chip Letter",
@@ -1720,7 +1820,7 @@
     "score": 6
   },
   {
-    "rank": 173,
+    "rank": 183,
     "title": "Turing Award Histories",
     "link": "https://thechipletter.substack.com/p/turing-award-histories",
     "source": "The Chip Letter",
@@ -1730,7 +1830,7 @@
     "score": 6
   },
   {
-    "rank": 174,
+    "rank": 184,
     "title": "MIPS",
     "link": "https://thechipletter.substack.com/p/mips",
     "source": "The Chip Letter",
@@ -1740,7 +1840,7 @@
     "score": 6
   },
   {
-    "rank": 175,
+    "rank": 185,
     "title": "Huang's Law",
     "link": "https://thechipletter.substack.com/p/huangs-law",
     "source": "The Chip Letter",
@@ -1750,7 +1850,7 @@
     "score": 6
   },
   {
-    "rank": 176,
+    "rank": 186,
     "title": "Apple In China",
     "link": "https://thechipletter.substack.com/p/apple-in-china",
     "source": "The Chip Letter",
@@ -1760,7 +1860,7 @@
     "score": 6
   },
   {
-    "rank": 177,
+    "rank": 187,
     "title": "Personal Computer Origins: The Datapoint 2200",
     "link": "https://thechipletter.substack.com/p/personal-computer-origins-the-datapoint",
     "source": "The Chip Letter",
@@ -1770,7 +1870,7 @@
     "score": 6
   },
   {
-    "rank": 178,
+    "rank": 188,
     "title": "Markdown and Substack - A Bear Workflow",
     "link": "https://thechipletter.substack.com/p/markdown-and-substack-a-bear-workflow",
     "source": "The Chip Letter",
@@ -1780,7 +1880,7 @@
     "score": 6
   },
   {
-    "rank": 179,
+    "rank": 189,
     "title": "Google's year in review: 8 areas with research breakthroughs in 2025",
     "link": "https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025/",
     "source": "Google DeepMind Blog",
@@ -1790,7 +1890,7 @@
     "score": 6
   },
   {
-    "rank": 180,
+    "rank": 190,
     "title": "Gemini 3 Flash: frontier intelligence built for speed",
     "link": "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/",
     "source": "Google DeepMind Blog",
@@ -1800,7 +1900,7 @@
     "score": 6
   },
   {
-    "rank": 181,
+    "rank": 191,
     "title": "Engineering more resilient crops for a warming climate",
     "link": "https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate/",
     "source": "Google DeepMind Blog",
@@ -1810,7 +1910,7 @@
     "score": 6
   },
   {
-    "rank": 182,
+    "rank": 192,
     "title": "Revealing a key protein behind heart disease",
     "link": "https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease/",
     "source": "Google DeepMind Blog",
@@ -1820,7 +1920,7 @@
     "score": 6
   },
   {
-    "rank": 183,
+    "rank": 193,
     "title": "March 2021 Gwern.net Newsletter",
     "link": "https://gwern.substack.com/p/march-2021-gwernnet-newsletter",
     "source": "Gwern",
@@ -1830,7 +1930,7 @@
     "score": 6
   },
   {
-    "rank": 184,
+    "rank": 194,
     "title": "November newsletter",
     "link": "https://gwern.substack.com/p/november-newsletter",
     "source": "Gwern",
@@ -1840,7 +1940,7 @@
     "score": 6
   },
   {
-    "rank": 185,
+    "rank": 195,
     "title": "August 2020 gwern.net newsletter",
     "link": "https://gwern.substack.com/p/august-2020-gwernnet-newsletter",
     "source": "Gwern",
@@ -1850,7 +1950,7 @@
     "score": 6
   },
   {
-    "rank": 186,
+    "rank": 196,
     "title": "April 2020 gwern.net newsletter",
     "link": "https://gwern.substack.com/p/april-2020-gwern-net-newsletter",
     "source": "Gwern",
@@ -1860,7 +1960,7 @@
     "score": 6
   },
   {
-    "rank": 187,
+    "rank": 197,
     "title": "RL is even more information inefficient than you thought",
     "link": "https://www.dwarkesh.com/p/bits-per-sample",
     "source": "Dwarkesh Patel",
@@ -1870,7 +1970,7 @@
     "score": 6
   },
   {
-    "rank": 188,
+    "rank": 198,
     "title": "Andrej Karpathy — AGI is still a decade away",
     "link": "https://www.dwarkesh.com/p/andrej-karpathy",
     "source": "Dwarkesh Patel",
@@ -1880,7 +1980,7 @@
     "score": 6
   },
   {
-    "rank": 189,
+    "rank": 199,
     "title": "Nick Lane – Life as we know it is chemically inevitable",
     "link": "https://www.dwarkesh.com/p/nick-lane",
     "source": "Dwarkesh Patel",
@@ -1890,7 +1990,7 @@
     "score": 6
   },
   {
-    "rank": 190,
+    "rank": 200,
     "title": "Some thoughts on the Sutton interview",
     "link": "https://www.dwarkesh.com/p/thoughts-on-sutton",
     "source": "Dwarkesh Patel",
@@ -1900,7 +2000,7 @@
     "score": 6
   },
   {
-    "rank": 191,
+    "rank": 201,
     "title": "On The Vital Question by Nick Lane",
     "link": "https://www.dwarkesh.com/p/the-vital-question",
     "source": "Dwarkesh Patel",
@@ -1910,7 +2010,7 @@
     "score": 6
   },
   {
-    "rank": 192,
+    "rank": 202,
     "title": "Breaking: Sir Demis Hassabis becomes the latest to say that ChatGPT is a dead-end and that we must turn our focus to world models",
     "link": "https://garymarcus.substack.com/p/breaking-sir-demis-hassabis-becomes",
     "source": "Gary Marcus",
@@ -1920,7 +2020,7 @@
     "score": 6
   },
   {
-    "rank": 193,
+    "rank": 203,
     "title": "Reading List 01/24/26",
     "link": "https://www.construction-physics.com/p/reading-list-012426",
     "source": "Construction Physics",
@@ -1930,7 +2030,7 @@
     "score": 6
   },
   {
-    "rank": 194,
+    "rank": 204,
     "title": "Do Commodities Get Cheaper Over Time?",
     "link": "https://www.construction-physics.com/p/do-commodities-get-cheaper-over-time",
     "source": "Construction Physics",
@@ -1940,7 +2040,7 @@
     "score": 6
   },
   {
-    "rank": 195,
+    "rank": 205,
     "title": "Reading List 1/10/2026",
     "link": "https://www.construction-physics.com/p/reading-list-1102026",
     "source": "Construction Physics",
@@ -1950,7 +2050,7 @@
     "score": 6
   },
   {
-    "rank": 196,
+    "rank": 206,
     "title": "Reading List 01/03/2026",
     "link": "https://www.construction-physics.com/p/reading-list-01032026",
     "source": "Construction Physics",
@@ -1960,7 +2060,7 @@
     "score": 6
   },
   {
-    "rank": 197,
+    "rank": 207,
     "title": "Should US homebuilders emulate Sweden?",
     "link": "https://www.construction-physics.com/p/should-us-homebuilders-emulate-sweden",
     "source": "Construction Physics",
@@ -1970,7 +2070,7 @@
     "score": 6
   },
   {
-    "rank": 198,
+    "rank": 208,
     "title": "Reading List 12/20/25",
     "link": "https://www.construction-physics.com/p/reading-list-122025",
     "source": "Construction Physics",
@@ -1980,7 +2080,7 @@
     "score": 6
   },
   {
-    "rank": 199,
+    "rank": 209,
     "title": "How Bell Labs Won Its First Nobel Prize",
     "link": "https://www.construction-physics.com/p/how-bell-labs-won-its-first-nobel",
     "source": "Construction Physics",
@@ -1990,7 +2090,7 @@
     "score": 6
   },
   {
-    "rank": 200,
+    "rank": 210,
     "title": "Reading List 12/13/2025",
     "link": "https://www.construction-physics.com/p/reading-list-12132025",
     "source": "Construction Physics",
@@ -2000,7 +2100,7 @@
     "score": 6
   },
   {
-    "rank": 201,
+    "rank": 211,
     "title": "Stagnant Construction Productivity Is a Worldwide Problem",
     "link": "https://www.construction-physics.com/p/stagnant-construction-productivity",
     "source": "Construction Physics",
@@ -2010,7 +2110,7 @@
     "score": 6
   },
   {
-    "rank": 202,
+    "rank": 212,
     "title": "Patch Tuesday, January 2026 Edition",
     "link": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
     "source": "Krebs on Security",
@@ -2020,7 +2120,7 @@
     "score": 6
   },
   {
-    "rank": 203,
+    "rank": 213,
     "title": "BREAKING: LLM “reasoning” continues to be deeply flawed",
     "link": "https://garymarcus.substack.com/p/breaking-llm-reasoning-continues",
     "source": "Gary Marcus",
@@ -2030,7 +2130,7 @@
     "score": 6
   },
   {
-    "rank": 204,
+    "rank": 214,
     "title": "这个推理速度也太快了吧！ chatjimmy.ai 比查 db 都快啊！",
     "link": "https://www.v2ex.com/t/1193358#reply57",
     "source": "V2EX 技术",
@@ -2040,7 +2140,7 @@
     "score": 6
   },
   {
-    "rank": 205,
+    "rank": 215,
     "title": "You Only Think They Work For You",
     "link": "https://steveblank.com/2026/02/18/you-only-think-they-work-for-you/",
     "source": "Steve Blank",
@@ -2050,7 +2150,7 @@
     "score": 5
   },
   {
-    "rank": 206,
+    "rank": 216,
     "title": "Apple Invites Media to Special ‘Experience’ in New York, London, and Shanghai on March 4",
     "link": "https://www.macrumors.com/2026/02/16/apple-announces-special-event-in-new-york/",
     "source": "Daring Fireball",
@@ -2060,7 +2160,7 @@
     "score": 5
   },
   {
-    "rank": 207,
+    "rank": 217,
     "title": "Premium: The AI Data Center Financial Crisis",
     "link": "https://www.wheresyoured.at/data-center-crisis/",
     "source": "Where's Your Ed At",
@@ -2070,7 +2170,7 @@
     "score": 5
   },
   {
-    "rank": 208,
+    "rank": 218,
     "title": "AI 编程后，我更累了",
     "link": "https://www.v2ex.com/t/1192730#reply95",
     "source": "V2EX 技术",
@@ -2080,7 +2180,7 @@
     "score": 5
   },
   {
-    "rank": 209,
+    "rank": 219,
     "title": "Breaking: OpenAI is probably toast",
     "link": "https://garymarcus.substack.com/p/breaking-openai-is-probably-toast",
     "source": "Gary Marcus",
@@ -2090,7 +2190,7 @@
     "score": 5
   },
   {
-    "rank": 210,
+    "rank": 220,
     "title": "Gurman: New Siri Might Be Delayed Again",
     "link": "https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27",
     "source": "Daring Fireball",
@@ -2100,7 +2200,7 @@
     "score": 5
   },
   {
-    "rank": 211,
+    "rank": 221,
     "title": "Some disconcerting facts about AI and banking that may have profound consequences",
     "link": "https://garymarcus.substack.com/p/some-disconcerting-facts-about-ai",
     "source": "Gary Marcus",
@@ -2110,7 +2210,7 @@
     "score": 5
   },
   {
-    "rank": 212,
+    "rank": 222,
     "title": "Super Bowl Matchup: Anthropic vs OpenAI",
     "link": "https://garymarcus.substack.com/p/super-bowl-matchup-anthropic-vs-openai",
     "source": "Gary Marcus",
@@ -2120,7 +2220,7 @@
     "score": 5
   },
   {
-    "rank": 213,
+    "rank": 223,
     "title": "Is the Great AI meltdown imminent? [NSFW]",
     "link": "https://garymarcus.substack.com/p/is-the-great-ai-meltdown-imminent",
     "source": "Gary Marcus",
@@ -2130,7 +2230,7 @@
     "score": 5
   },
   {
-    "rank": 214,
+    "rank": 224,
     "title": "Getting the main thing right",
     "link": "https://seangoedecke.com/getting-the-main-thing-right/",
     "source": "Sean Goedecke",
@@ -2140,7 +2240,7 @@
     "score": 5
   },
   {
-    "rank": 215,
+    "rank": 225,
     "title": "Four theories about the SpaceX - xAI merger",
     "link": "https://garymarcus.substack.com/p/four-theories-about-the-spacex-xai",
     "source": "Gary Marcus",
@@ -2150,7 +2250,7 @@
     "score": 5
   },
   {
-    "rank": 216,
+    "rank": 226,
     "title": "Where is AI headed? 8 perspectives at The New York Times",
     "link": "https://garymarcus.substack.com/p/where-is-ai-headed-8-perspectives",
     "source": "Gary Marcus",
@@ -2160,7 +2260,7 @@
     "score": 5
   },
   {
-    "rank": 217,
+    "rank": 227,
     "title": "OpenClaw (a.k.a. Moltbot) is everywhere all at once, and a disaster waiting to happen",
     "link": "https://garymarcus.substack.com/p/openclaw-aka-moltbot-is-everywhere",
     "source": "Gary Marcus",
@@ -2170,7 +2270,7 @@
     "score": 5
   },
   {
-    "rank": 218,
+    "rank": 228,
     "title": "How does AI impact skill formation?",
     "link": "https://seangoedecke.com/how-does-ai-impact-skill-formation/",
     "source": "Sean Goedecke",
@@ -2180,7 +2280,7 @@
     "score": 5
   },
   {
-    "rank": 219,
+    "rank": 229,
     "title": "Apple Reports Record-Breaking Revenue and Profit for Q1 FY26",
     "link": "https://www.apple.com/newsroom/2026/01/apple-reports-first-quarter-results/",
     "source": "Daring Fireball",
@@ -2190,7 +2290,7 @@
     "score": 5
   },
   {
-    "rank": 220,
+    "rank": 230,
     "title": "Lego Group and Crocs Enter Multi-Year Global Partnership",
     "link": "https://www.lego.com/en-us/aboutus/news/2026/january/the-lego-group-and-crocs-enter-multi-year-global-partnership?locale=en-us",
     "source": "Daring Fireball",
@@ -2200,7 +2300,7 @@
     "score": 5
   },
   {
-    "rank": 221,
+    "rank": 231,
     "title": "AI bot swarms threaten to undermine democracy",
     "link": "https://garymarcus.substack.com/p/ai-bot-swarms-threaten-to-undermine",
     "source": "Gary Marcus",
@@ -2210,7 +2310,7 @@
     "score": 5
   },
   {
-    "rank": 222,
+    "rank": 232,
     "title": "The Big Short meets Marcus on AI",
     "link": "https://garymarcus.substack.com/p/the-big-short-meets-marcus-on-ai",
     "source": "Gary Marcus",
@@ -2220,7 +2320,7 @@
     "score": 5
   },
   {
-    "rank": 223,
+    "rank": 233,
     "title": "Quantum Computing – An Update",
     "link": "https://steveblank.com/2024/10/22/quantum-computing-an-update/",
     "source": "Steve Blank",
@@ -2230,7 +2330,7 @@
     "score": 5
   },
   {
-    "rank": 224,
+    "rank": 234,
     "title": "I guess I was wrong about AI persuasion",
     "link": "https://dynomight.net/persuasion/",
     "source": "dynomight",
@@ -2240,7 +2340,7 @@
     "score": 5
   },
   {
-    "rank": 225,
+    "rank": 235,
     "title": "Futarchy’s fundamental flaw — the market — the blog post",
     "link": "https://dynomight.net/futarchy-market/",
     "source": "dynomight",
@@ -2250,7 +2350,7 @@
     "score": 5
   },
   {
-    "rank": 226,
+    "rank": 236,
     "title": "Heritability puzzlers",
     "link": "https://dynomight.net/heritable/",
     "source": "dynomight",
@@ -2260,7 +2360,7 @@
     "score": 5
   },
   {
-    "rank": 227,
+    "rank": 237,
     "title": "Premium: The AI Bubble Is A Time Bomb",
     "link": "https://www.wheresyoured.at/premium-timebomb/",
     "source": "Where's Your Ed At",
@@ -2270,7 +2370,7 @@
     "score": 5
   },
   {
-    "rank": 228,
+    "rank": 238,
     "title": "2025, A Retrospective",
     "link": "https://www.wheresyoured.at/2025-a-retrospective/",
     "source": "Where's Your Ed At",
@@ -2280,7 +2380,7 @@
     "score": 5
   },
   {
-    "rank": 229,
+    "rank": 239,
     "title": "Premium: Mythbusters - AI Edition",
     "link": "https://www.wheresyoured.at/ai-mythbusters/",
     "source": "Where's Your Ed At",
@@ -2290,7 +2390,7 @@
     "score": 5
   },
   {
-    "rank": 230,
+    "rank": 240,
     "title": "Premium: The Ways The AI Bubble Might Burst",
     "link": "https://www.wheresyoured.at/premium-the-ways-the-ai-bubble-might-burst/",
     "source": "Where's Your Ed At",
@@ -2300,7 +2400,7 @@
     "score": 5
   },
   {
-    "rank": 231,
+    "rank": 241,
     "title": "Crypto grifters are recruiting open-source AI developers",
     "link": "https://seangoedecke.com/gas-and-ralph/",
     "source": "Sean Goedecke",
@@ -2310,7 +2410,7 @@
     "score": 5
   },
   {
-    "rank": 232,
+    "rank": 242,
     "title": "SwanLake：一个基于 DuckDB + DuckLake 的 Arrow Flight SQL 数据湖服务",
     "link": "https://www.v2ex.com/t/1193499#reply0",
     "source": "V2EX 技术",
@@ -2320,7 +2420,7 @@
     "score": 5
   },
   {
-    "rank": 233,
+    "rank": 243,
     "title": "Making the Wrong Things Go Faster at The Department of War",
     "link": "https://steveblank.com/2026/02/03/making-the-wrong-things-go-faster-at-the-department-of-war/",
     "source": "Steve Blank",
@@ -2330,7 +2430,7 @@
     "score": 5
   },
   {
-    "rank": 234,
+    "rank": 244,
     "title": "NVIDIA Isn't Enron - So What Is It?",
     "link": "https://www.wheresyoured.at/nvidia-isnt-enron-so-what-is-it/",
     "source": "Where's Your Ed At",
@@ -2340,7 +2440,7 @@
     "score": 5
   },
   {
-    "rank": 235,
+    "rank": 245,
     "title": "求推荐大手人体工学鼠标",
     "link": "https://www.v2ex.com/t/1193480#reply30",
     "source": "V2EX 技术",
@@ -2350,7 +2450,7 @@
     "score": 5
   },
   {
-    "rank": 236,
+    "rank": 246,
     "title": "IMAX and Apple Collaborate to Screen F1 Races Live in Theaters",
     "link": "https://www.motorsport.com/f1/news/f1-to-screen-live-in-imax-theatres-in-2026-as-apple-tv-unveils-new-us-viewing-experience/10798974/",
     "source": "Daring Fireball",
@@ -2360,7 +2460,7 @@
     "score": 5
   },
   {
-    "rank": 237,
+    "rank": 247,
     "title": "★ Apple Releases iOS 26 Adoption Rates, and They’re Pretty Much in Line With the Last Few Years",
     "link": "https://daringfireball.net/2026/02/apple_releases_ios_26_adoption_rates",
     "source": "Daring Fireball",
@@ -2370,7 +2470,7 @@
     "score": 5
   },
   {
-    "rank": 238,
+    "rank": 248,
     "title": "Rumors of AGI’s arrival have been greatly exaggerated",
     "link": "https://garymarcus.substack.com/p/rumors-of-agis-arrival-have-been",
     "source": "Gary Marcus",
@@ -2380,7 +2480,7 @@
     "score": 5
   },
   {
-    "rank": 239,
+    "rank": 249,
     "title": "Let’s Keep an Eye on Apple’s Own iOS Adoption Numbers",
     "link": "https://developer.apple.com/support/app-store/",
     "source": "Daring Fireball",
@@ -2390,7 +2490,7 @@
     "score": 5
   },
   {
-    "rank": 240,
+    "rank": 250,
     "title": "Compiling Scheme to WebAssembly",
     "link": "https://eli.thegreenplace.net/2026/compiling-scheme-to-webassembly/",
     "source": "Eli Bendersky",
@@ -2400,7 +2500,7 @@
     "score": 5
   },
   {
-    "rank": 241,
+    "rank": 251,
     "title": "It only took 20 years, but the Strategic Management Society now Believes the Lean Startup is a Strategy",
     "link": "https://steveblank.com/2025/10/30/it-only-took-20-years-but-the-strategic-management-society-now-believes-the-lean-startup-is-a-strategy-i-got-an-award-for-it/",
     "source": "Steve Blank",
@@ -2410,7 +2510,7 @@
     "score": 5
   },
   {
-    "rank": 242,
+    "rank": 252,
     "title": "Underrated reasons to be thankful V",
     "link": "https://dynomight.net/thanks-5/",
     "source": "dynomight",
@@ -2420,7 +2520,7 @@
     "score": 5
   },
   {
-    "rank": 243,
+    "rank": 253,
     "title": "Premium: This Is Worse Than The Dot Com Bubble",
     "link": "https://www.wheresyoured.at/dot-com-bubble/",
     "source": "Where's Your Ed At",
@@ -2430,7 +2530,7 @@
     "score": 5
   },
   {
-    "rank": 244,
+    "rank": 254,
     "title": "有没有什么工具提醒我 claude 的 5h 时间到了，时间重置了",
     "link": "https://www.v2ex.com/t/1193456#reply10",
     "source": "V2EX 技术",
@@ -2440,7 +2540,7 @@
     "score": 4
   },
   {
-    "rank": 245,
+    "rank": 255,
     "title": "Claude Code 镜像站大家用的什么？如何确保镜像站不用其它模型注水？",
     "link": "https://www.v2ex.com/t/1193446#reply34",
     "source": "V2EX 技术",
@@ -2450,7 +2550,7 @@
     "score": 4
   },
   {
-    "rank": 246,
+    "rank": 256,
     "title": "红米手机刷了国际版，内网也能推送",
     "link": "https://www.v2ex.com/t/1193433#reply31",
     "source": "V2EX 技术",
@@ -2460,7 +2560,7 @@
     "score": 4
   },
   {
-    "rank": 247,
+    "rank": 257,
     "title": "写代码不再是一种严肃意义的技能，类似于驾驶技术了",
     "link": "https://www.v2ex.com/t/1193393#reply88",
     "source": "V2EX 技术",
@@ -2470,7 +2570,7 @@
     "score": 3
   },
   {
-    "rank": 248,
+    "rank": 258,
     "title": "One More Spitball Idea for Apple’s March 4 Media Event ‘Experience’: Immersive F1 on Vision Pro?",
     "link": "https://www.formula1.com/en/latest/article/official-grand-prix-start-times-for-2026-f1-season-confirmed.2UgPfArqH76tzlOYh21jSG",
     "source": "Daring Fireball",
@@ -2480,7 +2580,7 @@
     "score": 3
   },
   {
-    "rank": 249,
+    "rank": 259,
     "title": "Paul Ford: ‘The A.I. Disruption Has Arrived, and It Sure Is Fun’",
     "link": "https://www.nytimes.com/2026/02/18/opinion/ai-software.html?unlocked_article_code=1.NFA.djaw.TBlAp8kE_N-i",
     "source": "Daring Fireball",
@@ -2490,7 +2590,7 @@
     "score": 3
   },
   {
-    "rank": 250,
+    "rank": 260,
     "title": "How to Force Restart an iPhone",
     "link": "https://support.apple.com/guide/iphone/force-restart-iphone-iph8903c3ee6/ios",
     "source": "Daring Fireball",
@@ -2500,7 +2600,7 @@
     "score": 3
   },
   {
-    "rank": 251,
+    "rank": 261,
     "title": "Diagnostics Factory",
     "link": "https://matklad.github.io/2026/02/16/diagnostics-factory.html",
     "source": "matklad",
@@ -2510,7 +2610,7 @@
     "score": 3
   },
   {
-    "rank": 252,
+    "rank": 262,
     "title": "WorkOS Pipes",
     "link": "https://workos.com/docs/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026&amp;utm_content=no_rebuild",
     "source": "Daring Fireball",
@@ -2520,7 +2620,7 @@
     "score": 3
   },
   {
-    "rank": 253,
+    "rank": 263,
     "title": "Joanna Stern Signs Off From The Wall Street Journal",
     "link": "https://www.wsj.com/tech/personal-tech/12-years-consumer-tech-phones-ev-ai-74107804?st=YtTDdM&amp;reflink=desktopwebshare_permalink",
     "source": "Daring Fireball",
@@ -2530,7 +2630,7 @@
     "score": 3
   },
   {
-    "rank": 254,
+    "rank": 264,
     "title": "Cost of Housing",
     "link": "https://geohot.github.io//blog/jekyll/update/2026/02/16/cost-of-housing.html",
     "source": "geohot Blog",
@@ -2540,7 +2640,7 @@
     "score": 3
   },
   {
-    "rank": 255,
+    "rank": 265,
     "title": "Justifying text-wrap: pretty",
     "link": "https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html",
     "source": "matklad",
@@ -2550,7 +2650,7 @@
     "score": 3
   },
   {
-    "rank": 256,
+    "rank": 266,
     "title": "Irony, Irony laced with Karma, and Terror",
     "link": "https://garymarcus.substack.com/p/irony-irony-laced-with-karma-and",
     "source": "Gary Marcus",
@@ -2560,7 +2660,7 @@
     "score": 3
   },
   {
-    "rank": 257,
+    "rank": 267,
     "title": "Promises are cheap",
     "link": "https://garymarcus.substack.com/p/promises-are-cheap",
     "source": "Gary Marcus",
@@ -2570,7 +2670,7 @@
     "score": 3
   },
   {
-    "rank": 258,
+    "rank": 268,
     "title": "More MacOS 26.3 Finder Column View Silliness",
     "link": "https://lapcatsoftware.com/articles/2026/2/4.html",
     "source": "Daring Fireball",
@@ -2580,7 +2680,7 @@
     "score": 3
   },
   {
-    "rank": 259,
+    "rank": 269,
     "title": "I Told You So",
     "link": "https://geohot.github.io//blog/jekyll/update/2026/02/13/i-told-you-so.html",
     "source": "geohot Blog",
@@ -2590,7 +2690,7 @@
     "score": 3
   },
   {
-    "rank": 260,
+    "rank": 270,
     "title": "About that Matt Shumer post that has nearly 50 million views",
     "link": "https://garymarcus.substack.com/p/about-that-matt-shumer-post-that",
     "source": "Gary Marcus",
@@ -2600,7 +2700,7 @@
     "score": 3
   },
   {
-    "rank": 261,
+    "rank": 271,
     "title": "The literal enshittification of The United States",
     "link": "https://garymarcus.substack.com/p/the-literal-enshittification-of-the",
     "source": "Gary Marcus",
@@ -2610,7 +2710,7 @@
     "score": 3
   },
   {
-    "rank": 262,
+    "rank": 272,
     "title": "Programming Aphorisms",
     "link": "https://matklad.github.io/2026/02/11/programming-aphorisms.html",
     "source": "matklad",
@@ -2620,7 +2720,7 @@
     "score": 3
   },
   {
-    "rank": 263,
+    "rank": 273,
     "title": "On screwing up",
     "link": "https://seangoedecke.com/screwing-up/",
     "source": "Sean Goedecke",
@@ -2630,7 +2730,7 @@
     "score": 3
   },
   {
-    "rank": 264,
+    "rank": 274,
     "title": "Revisionist History – Aliens, Secrets and Conspiracies",
     "link": "https://steveblank.com/2026/02/10/revisionist-history-aliens-secrets-and-conspiracies/",
     "source": "Steve Blank",
@@ -2640,7 +2740,7 @@
     "score": 3
   },
   {
-    "rank": 265,
+    "rank": 275,
     "title": "Large tech companies don't need heroes",
     "link": "https://seangoedecke.com/heroism/",
     "source": "Sean Goedecke",
@@ -2650,7 +2750,7 @@
     "score": 3
   },
   {
-    "rank": 266,
+    "rank": 276,
     "title": "Premium: The Hater's Guide To Microsoft",
     "link": "https://www.wheresyoured.at/premium-the-haters-guide-to-microsoft/",
     "source": "Where's Your Ed At",
@@ -2660,7 +2760,7 @@
     "score": 3
   },
   {
-    "rank": 267,
+    "rank": 277,
     "title": "CI In a Box",
     "link": "https://matklad.github.io/2026/02/06/ci-in-a-box.html",
     "source": "matklad",
@@ -2670,7 +2770,7 @@
     "score": 3
   },
   {
-    "rank": 268,
+    "rank": 278,
     "title": "Heritability of human life span is about 50% when heritability is redefined to be something different",
     "link": "https://dynomight.net/lifespan/",
     "source": "dynomight",
@@ -2680,7 +2780,7 @@
     "score": 3
   },
   {
-    "rank": 269,
+    "rank": 279,
     "title": "Premium: The Hater's Guide to Oracle",
     "link": "https://www.wheresyoured.at/haters-guide-oracle/",
     "source": "Where's Your Ed At",
@@ -2690,7 +2790,7 @@
     "score": 3
   },
   {
-    "rank": 270,
+    "rank": 280,
     "title": "‘Backseat Software’",
     "link": "https://blog.mikeswanson.com/backseat-software/",
     "source": "Daring Fireball",
@@ -2700,7 +2800,7 @@
     "score": 3
   },
   {
-    "rank": 271,
+    "rank": 281,
     "title": "Breaking: Yann LeCun, longtime critic of neurosymbolic approaches, changes teams",
     "link": "https://garymarcus.substack.com/p/further-breaking-news-further-vindicating",
     "source": "Gary Marcus",
@@ -2710,7 +2810,7 @@
     "score": 3
   },
   {
-    "rank": 272,
+    "rank": 282,
     "title": "The Importance of Diversity",
     "link": "https://geohot.github.io//blog/jekyll/update/2026/01/27/the-importance-of-diversity.html",
     "source": "geohot Blog",
@@ -2720,7 +2820,7 @@
     "score": 3
   },
   {
-    "rank": 273,
+    "rank": 283,
     "title": "Will I ever own a zettaflop?",
     "link": "https://geohot.github.io//blog/jekyll/update/2026/01/26/own-a-zettaflop.html",
     "source": "geohot Blog",
@@ -2730,7 +2830,7 @@
     "score": 3
   },
   {
-    "rank": 274,
+    "rank": 284,
     "title": "The Coming War on Car Ownership",
     "link": "https://geohot.github.io//blog/jekyll/update/2026/01/25/war-on-car-ownership.html",
     "source": "geohot Blog",
@@ -2740,7 +2840,7 @@
     "score": 3
   },
   {
-    "rank": 275,
+    "rank": 285,
     "title": "how do I stop participating?",
     "link": "https://geohot.github.io//blog/jekyll/update/2026/01/18/how-do-i-stop.html",
     "source": "geohot Blog",
@@ -2750,7 +2850,7 @@
     "score": 3
   },
   {
-    "rank": 276,
+    "rank": 286,
     "title": "you have three minutes to escape the perpetual underclass",
     "link": "https://geohot.github.io//blog/jekyll/update/2026/01/17/three-minutes.html",
     "source": "geohot Blog",
@@ -2760,7 +2860,7 @@
     "score": 3
   },
   {
-    "rank": 277,
+    "rank": 287,
     "title": "Anthropic is making a huge mistake",
     "link": "https://geohot.github.io//blog/jekyll/update/2026/01/15/anthropic-huge-mistake.html",
     "source": "geohot Blog",
@@ -2770,7 +2870,7 @@
     "score": 3
   },
   {
-    "rank": 278,
+    "rank": 288,
     "title": "make.ts",
     "link": "https://matklad.github.io/2026/01/27/make-ts.html",
     "source": "matklad",
@@ -2780,7 +2880,7 @@
     "score": 3
   },
   {
-    "rank": 279,
+    "rank": 289,
     "title": "Considering Strictly Monotonic Time",
     "link": "https://matklad.github.io/2026/01/23/strictly-monotonic-time.html",
     "source": "matklad",
@@ -2790,7 +2890,7 @@
     "score": 3
   },
   {
-    "rank": 280,
+    "rank": 290,
     "title": "Vibecoding #2",
     "link": "https://matklad.github.io/2026/01/20/vibecoding-2.html",
     "source": "matklad",
@@ -2800,7 +2900,7 @@
     "score": 3
   },
   {
-    "rank": 281,
+    "rank": 291,
     "title": "Memory Safety Is ...",
     "link": "https://matklad.github.io/2025/12/30/memory-safety-is.html",
     "source": "matklad",
@@ -2810,7 +2910,7 @@
     "score": 3
   },
   {
-    "rank": 282,
+    "rank": 292,
     "title": "Plugins case study: mdBook preprocessors",
     "link": "https://eli.thegreenplace.net/2025/plugins-case-study-mdbook-preprocessors/",
     "source": "Eli Bendersky",
@@ -2820,7 +2920,7 @@
     "score": 3
   },
   {
-    "rank": 283,
+    "rank": 293,
     "title": "Revisiting \"Let's Build a Compiler\"",
     "link": "https://eli.thegreenplace.net/2025/revisiting-lets-build-a-compiler/",
     "source": "Eli Bendersky",
@@ -2830,7 +2930,7 @@
     "score": 3
   },
   {
-    "rank": 284,
+    "rank": 294,
     "title": "The Department of War Directory",
     "link": "https://steveblank.com/2025/12/16/the-department-of-war-directory/",
     "source": "Steve Blank",
@@ -2840,7 +2940,7 @@
     "score": 3
   },
   {
-    "rank": 285,
+    "rank": 295,
     "title": "The Department of War Just Shot the Accountants and Opted for Speed",
     "link": "https://steveblank.com/2025/11/11/the-department-of-war-just-shot-the-accountants-and-opted-for-speed/",
     "source": "Steve Blank",
@@ -2850,7 +2950,7 @@
     "score": 3
   },
   {
-    "rank": 286,
+    "rank": 296,
     "title": "How to Sell to the Dept of War – The 2025 PEO Directory – Now with 500 more names",
     "link": "https://steveblank.com/2025/10/15/how-to-sell-to-the-dept-of-war-the-2025-peo-directory-now-with-500-more-names/",
     "source": "Steve Blank",
@@ -2860,7 +2960,7 @@
     "score": 3
   },
   {
-    "rank": 287,
+    "rank": 297,
     "title": "No Science, No Startups: The Innovation Engine We’re Switching Off",
     "link": "https://steveblank.com/2025/10/13/no-science-no-startups-the-unseen-engine-were-switching-off/",
     "source": "Steve Blank",
@@ -2870,7 +2970,7 @@
     "score": 3
   },
   {
-    "rank": 288,
+    "rank": 298,
     "title": "When Sh!t Hits the Fan – Founders in a Crisis",
     "link": "https://steveblank.com/2025/09/17/when-sht-hits-the-fan-founders-in-a-crisis/",
     "source": "Steve Blank",
@@ -2880,7 +2980,7 @@
     "score": 3
   },
   {
-    "rank": 289,
+    "rank": 299,
     "title": "How To Sell to the Dept of War – The 2025 PEO Directory",
     "link": "https://steveblank.com/2025/09/10/how-to-sell-to-the-dept-of-defense-the-2025-peo-directory/",
     "source": "Steve Blank",
@@ -2890,7 +2990,7 @@
     "score": 3
   },
   {
-    "rank": 290,
+    "rank": 300,
     "title": "Blind to Disruption – The CEOs Who Missed the Future",
     "link": "https://steveblank.com/2025/07/08/blind-to-disruption-the-ceos-who-missed-the-future/",
     "source": "Steve Blank",
@@ -2900,7 +3000,7 @@
     "score": 3
   },
   {
-    "rank": 291,
+    "rank": 301,
     "title": "Lean Launchpad at Stanford – 2025",
     "link": "https://steveblank.com/2025/06/24/lean-launchpad-at-stanford-2025/",
     "source": "Steve Blank",
@@ -2910,7 +3010,7 @@
     "score": 3
   },
   {
-    "rank": 292,
+    "rank": 302,
     "title": "Hacking for Defense @ Stanford 2025 – Lessons Learned Presentations",
     "link": "https://steveblank.com/2025/06/17/hacking-for-defense-stanford-2025-lessons-learned-presentations/",
     "source": "Steve Blank",
@@ -2920,7 +3020,7 @@
     "score": 3
   },
   {
-    "rank": 293,
+    "rank": 303,
     "title": "How the United States Gave Up Being a Science Superpower",
     "link": "https://steveblank.com/2025/05/13/how-the-united-states-became-a-science-superpower-and-how-quickly-it-could-crumble/",
     "source": "Steve Blank",
@@ -2930,7 +3030,7 @@
     "score": 3
   },
   {
-    "rank": 294,
+    "rank": 304,
     "title": "How the U.S. Became A Science Superpower",
     "link": "https://steveblank.com/2025/04/15/how-the-u-s-became-a-science-superpower/",
     "source": "Steve Blank",
@@ -2940,7 +3040,7 @@
     "score": 3
   },
   {
-    "rank": 295,
+    "rank": 305,
     "title": "How Saboteurs Threaten Innovation–and What to Do About It",
     "link": "https://steveblank.com/2024/10/08/how-saboteurs-threaten-innovation-and-what-to-do-about-it/",
     "source": "Steve Blank",
@@ -2950,7 +3050,7 @@
     "score": 3
   },
   {
-    "rank": 296,
+    "rank": 306,
     "title": "What Does Product Market Fit Sound Like? This.",
     "link": "https://steveblank.com/2024/10/05/what-does-product-market-fit-sound-like-this/",
     "source": "Steve Blank",
@@ -2960,7 +3060,7 @@
     "score": 3
   },
   {
-    "rank": 297,
+    "rank": 307,
     "title": "Why read novels?",
     "link": "https://dynomight.net/novels/",
     "source": "dynomight",
@@ -2970,7 +3070,7 @@
     "score": 3
   },
   {
-    "rank": 298,
+    "rank": 308,
     "title": "Good if make prior after data instead of before",
     "link": "https://dynomight.net/prior/",
     "source": "dynomight",
@@ -2980,7 +3080,7 @@
     "score": 3
   },
   {
-    "rank": 299,
+    "rank": 309,
     "title": "Why the chicken crossed the road, according to various entities",
     "link": "https://dynomight.net/chicken/",
     "source": "dynomight",
@@ -2990,7 +3090,7 @@
     "score": 3
   },
   {
-    "rank": 300,
+    "rank": 310,
     "title": "Make product worse, get money",
     "link": "https://dynomight.net/worse/",
     "source": "dynomight",
@@ -3000,7 +3100,7 @@
     "score": 3
   },
   {
-    "rank": 301,
+    "rank": 311,
     "title": "Dating: A mysterious constellation of facts",
     "link": "https://dynomight.net/dating/",
     "source": "dynomight",
@@ -3010,7 +3110,7 @@
     "score": 3
   },
   {
-    "rank": 302,
+    "rank": 312,
     "title": "Pointing machines, population pyramids, post office scandal, type species, and horse urine",
     "link": "https://dynomight.net/shorts-6/",
     "source": "dynomight",
@@ -3020,7 +3120,7 @@
     "score": 3
   },
   {
-    "rank": 303,
+    "rank": 313,
     "title": "Shoes, Algernon, Pangea, and Sea Peoples",
     "link": "https://dynomight.net/shorts-5/",
     "source": "dynomight",
@@ -3030,7 +3130,7 @@
     "score": 3
   },
   {
-    "rank": 304,
+    "rank": 314,
     "title": "Dear PendingKetchup",
     "link": "https://dynomight.net/ketchup/",
     "source": "dynomight",
@@ -3040,7 +3140,7 @@
     "score": 3
   },
   {
-    "rank": 305,
+    "rank": 315,
     "title": "You can try to like stuff",
     "link": "https://dynomight.net/liking/",
     "source": "dynomight",
@@ -3050,7 +3150,7 @@
     "score": 3
   },
   {
-    "rank": 306,
+    "rank": 316,
     "title": "New colors without shooting lasers into your eyes",
     "link": "https://dynomight.net/colors/",
     "source": "dynomight",
@@ -3060,7 +3160,7 @@
     "score": 3
   },
   {
-    "rank": 307,
+    "rank": 317,
     "title": "My 9-week unprocessed food self-experiment",
     "link": "https://dynomight.net/unprocessed-food/",
     "source": "dynomight",
@@ -3070,7 +3170,7 @@
     "score": 3
   },
   {
-    "rank": 308,
+    "rank": 318,
     "title": "Links for July",
     "link": "https://dynomight.net/links-3/",
     "source": "dynomight",
@@ -3080,7 +3180,7 @@
     "score": 3
   },
   {
-    "rank": 309,
+    "rank": 319,
     "title": "Do blue-blocking glasses improve sleep?",
     "link": "https://dynomight.net/blue-light/",
     "source": "dynomight",
@@ -3090,7 +3190,7 @@
     "score": 3
   },
   {
-    "rank": 310,
+    "rank": 320,
     "title": "The Enshittifinancial Crisis",
     "link": "https://www.wheresyoured.at/the-enshittifinancial-crisis/",
     "source": "Where's Your Ed At",
@@ -3100,7 +3200,7 @@
     "score": 3
   },
   {
-    "rank": 311,
+    "rank": 321,
     "title": "You have to know how to drive the car",
     "link": "https://seangoedecke.com/knowing-how-to-drive-the-car/",
     "source": "Sean Goedecke",
@@ -3110,7 +3210,7 @@
     "score": 3
   },
   {
-    "rank": 312,
+    "rank": 322,
     "title": "How I estimate work as a staff software engineer",
     "link": "https://seangoedecke.com/how-i-estimate-work/",
     "source": "Sean Goedecke",
@@ -3120,7 +3220,7 @@
     "score": 3
   },
   {
-    "rank": 313,
+    "rank": 323,
     "title": "I'm addicted to being useful",
     "link": "https://seangoedecke.com/addicted-to-being-useful/",
     "source": "Sean Goedecke",
@@ -3130,7 +3230,7 @@
     "score": 3
   },
   {
-    "rank": 314,
+    "rank": 324,
     "title": "The Dictator's Handbook and the politics of technical competence",
     "link": "https://seangoedecke.com/the-dictators-handbook/",
     "source": "Sean Goedecke",
@@ -3140,7 +3240,7 @@
     "score": 3
   },
   {
-    "rank": 315,
+    "rank": 325,
     "title": "2025 was an excellent year for this blog",
     "link": "https://seangoedecke.com/2025-wrapup/",
     "source": "Sean Goedecke",
@@ -3150,7 +3250,7 @@
     "score": 3
   },
   {
-    "rank": 316,
+    "rank": 326,
     "title": "Grok is enabling mass sexual harassment on Twitter",
     "link": "https://seangoedecke.com/grok-deepfakes/",
     "source": "Sean Goedecke",
@@ -3160,7 +3260,7 @@
     "score": 3
   },
   {
-    "rank": 317,
+    "rank": 327,
     "title": "Software engineers should be a little bit cynical",
     "link": "https://seangoedecke.com/a-little-bit-cynical/",
     "source": "Sean Goedecke",
@@ -3170,7 +3270,7 @@
     "score": 3
   },
   {
-    "rank": 318,
+    "rank": 328,
     "title": "You can't design software you don't work on",
     "link": "https://seangoedecke.com/you-cant-design-software-you-dont-work-on/",
     "source": "Sean Goedecke",
@@ -3180,7 +3280,7 @@
     "score": 3
   },
   {
-    "rank": 319,
+    "rank": 329,
     "title": "Nobody knows how large software products work",
     "link": "https://seangoedecke.com/nobody-knows-how-software-products-work/",
     "source": "Sean Goedecke",
@@ -3190,7 +3290,7 @@
     "score": 3
   },
   {
-    "rank": 320,
+    "rank": 330,
     "title": "How good engineers write bad code at big companies",
     "link": "https://seangoedecke.com/bad-code-at-big-companies/",
     "source": "Sean Goedecke",
@@ -3200,7 +3300,7 @@
     "score": 3
   },
   {
-    "rank": 321,
+    "rank": 331,
     "title": "Becoming unblockable",
     "link": "https://seangoedecke.com/unblockable/",
     "source": "Sean Goedecke",
