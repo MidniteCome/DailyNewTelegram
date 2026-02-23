@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-02-23",
     "topN": 5,
-    "total": 351
+    "total": 401
   },
   "articles": [
     {
@@ -11,7 +11,7 @@
       "link": "https://uk.finance.yahoo.com/news/gold-prices-oil-pound-commodities-dollar-interest-rates-federal-reserve-uk-inflation-093233998.html",
       "source": "Yahoo Finance",
       "summary": "Gold price below $5,000 as investors wait on Fed guidance for clues Yahoo Finance UK • 5 days ago GBP=X ^IXIC",
-      "llmComment": "美联储即将发布利率决策，投资者正密切关注金价走势以寻找线索。目前黄金价格已跌破每盎司5000美元，反映出市场对经济前景的谨慎态度。此前市场普遍预期美联储将维持当前利率不变，但此次会议结果可能超出预期，带来较大波动。后续需重点关注美联储声明及未来货币政策路径的指引。",
+      "llmComment": "近期黄金价格跌至4960美元/盎司下方，投资者正等待美联储的指导以寻找市场方向。这一价格表现略低于此前市场预期的5000美元关口，显示出市场对美联储未来政策路径存在不确定性。后续需关注本周五公布的美国就业数据和下周三的美联储利率决议，这些都将影响黄金及其他风险资产的表现。",
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 65,
       "category": "💰 金融 & 创投"
@@ -22,46 +22,79 @@
       "link": "https://uk.finance.yahoo.com/news/ftse-100-live-stock-markets-wall-street-uk-retail-sales-budget-surplus-084326165.html",
       "source": "Yahoo Finance",
       "summary": "FTSE 100 and US markets gain as Supreme Court strikes down Trump’s blanket tariffs Yahoo Finance UK • 3 days ago ^FTSE BBRYF",
-      "llmComment": "英国富时100指数和美国股市上涨，原因是最高法院废除了特朗普时期的全面关税。这一裁决消除了贸易不确定性的部分影响，短期内有利于风险资产。市场此前预期该决定可能会推迟实施，因此此次结果超出了预期。未来需关注相关企业财报以及全球贸易关系的进一步发展。",
+      "llmComment": "英国富时100指数和美国股市上涨，原因是美国最高法院废除了特朗普时期的普遍性关税。这一决定减少了贸易不确定性，对风险资产构成短期利好。市场此前预期可能会有更多关于关税政策的明确结果，但此次裁决比预期更为彻底，因此超出部分投资者的预期。接下来需关注全球贸易关系的发展以及相关经济数据的表现。",
       "pubDate": "2026-02-23T22:44:12.000Z",
       "score": 64,
       "category": "💰 金融 & 创投"
     },
     {
       "rank": 3,
+      "title": "Amazon to spend $12 billion in Louisiana on AI data centers",
+      "link": "https://www.cnbc.com/2026/02/23/amazon-louisiana-ai-data-centers.html",
+      "source": "CNBC Technology",
+      "summary": "The project comes as Amazon has committed up to $200 billion this year on AI investments, which include data centers, chips and networking equipment.",
+      "llmComment": "亚马逊计划在路易斯安那州投资120亿美元建设AI数据中心，这是其今年200亿美元AI投资的一部分。亚马逊通过构建强大的AI基础设施来增强其服务竞争力和创新能力。市场机会在于进一步巩固其在云计算和AI领域的领导地位；但同时也要警惕微软等竞争对手的强劲挑战。此项目值得关注，尤其是其对当地经济的影响以及如何具体应用这些AI数据中心。",
+      "pubDate": "2026-02-23T19:30:01.000Z",
+      "score": 64,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 4,
+      "title": "Tariffs, flight cancellations, OpenAI's spending reset and more in Morning Squawk",
+      "link": "https://www.cnbc.com/2026/02/23/5-things-to-know-before-the-stock-market-opens.html",
+      "source": "CNBC Technology",
+      "summary": "Here are five key things investors need to know to start the trading day.",
+      "llmComment": "这篇Morning Squawk的摘要并未直接涉及OpenAI的技术突破或具体业务进展，而是提到了关税、航班取消和OpenAI支出调整等非技术性信息。通常情况下，投资者更关心的是OpenAI在人工智能领域的最新技术进展及其对产业链的影响。\n\n从现有信息来看，尚待观察OpenAI的具体技术突破与现有方案有何实质差异，以及这些突破如何影响芯片供应商、云服务提供商和其他应用层企业。此外，目前也未披露此路线面临的主要风险或挑战是什么。",
+      "pubDate": "2026-02-23T13:35:01.000Z",
+      "score": 61,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 5,
       "title": "5 Interesting Startup Deals You May Have Missed: Plant-Based Clothing Dyes, A Shoebox-Picking Robot, And Power Generated On The Moon",
       "link": "https://news.crunchbase.com/venture/interesting-startup-deals-ai-robotics-energy-generation/",
       "source": "Crunchbase News",
       "summary": "A host of interesting, under-the-radar recently funded startups caught our attention in the past month: one that’s developing nuclear-waste generated electricity on the moon, and another that aims to use AI to extract business intelligence from enterprise contracts. Let’s take a closer look.",
-      "llmComment": "这家公司在月球上开发由核废料产生的电力，展示了利用太空资源的创新潜力。与此同时，另一家公司则运用AI技术从企业合同中提取商业智能，体现了数据挖掘和自动化分析的市场需求。这些项目虽然前景诱人，但也面临技术实现难度大、资金需求高以及政策法规限制等风险，值得持续关注其进展与挑战。",
+      "llmComment": "这家公司在月球上开发由核废料产生的电力，展示了在极端环境下获取清洁能源的创新尝试。然而，这一项目面临巨大的技术挑战和高昂的成本，竞争威胁尚待观察。此外，值得关注的是企业合同智能提取服务的发展动态，这可能为中小企业提供重要的商业洞察，但也需警惕数据安全与隐私保护的风险。",
       "pubDate": "2026-02-23T12:00:35.000Z",
       "score": 59,
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 4,
+      "rank": 6,
       "title": "Guide Labs debuts a new kind of interpretable LLM",
       "link": "https://techcrunch.com/2026/02/23/guide-labs-debuts-a-new-kind-of-interpretable-llm/",
       "source": "TechCrunch",
       "summary": "The company open sourced an 8-billion-parameter LLM, Steerling-8B, trained with a new architecture designed to make its actions easily interpretable.",
-      "llmComment": "Guide Labs发布了Steerling-8B，一个具有80亿参数的可解释性语言模型。与现有技术不同，Steerling-8B采用了一种新的架构设计，旨在使其行为更加易于理解。这一突破可能会影响整个AI产业链：芯片厂商需要优化硬件以支持这种新型架构；云厂商可能需要调整服务以更好地支持这类模型；应用开发者则能更轻松地理解和利用模型的决策过程。然而，Steerling-8B的实际效果和长期稳定性尚待验证，这是当前面临的主要风险之一。",
+      "llmComment": null,
       "pubDate": "2026-02-23T17:53:28.000Z",
       "score": 55,
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "Anthropic accuses Chinese AI labs of mining Claude as US debates AI chip exports",
       "link": "https://techcrunch.com/2026/02/23/anthropic-accuses-chinese-ai-labs-of-mining-claude-as-us-debates-ai-chip-exports/",
       "source": "TechCrunch",
       "summary": "Anthropic accuses DeepSeek, Moonshot, and MiniMax of using 24,000 fake accounts to distill Claude’s AI capabilities, as U.S. officials debate export controls aimed at slowing China’s AI progress.",
-      "llmComment": "Anthropic指控DeepSeek、Moonshot和MiniMax等中国AI实验室使用了24,000个虚假账户来窃取Claude的AI能力。这一事件的核心在于，这些机构可能通过非正当手段获取竞争对手的技术优势，这与现有合法合作和公平竞争的方式存在实质差异。\n\n此次事件对整个产业链的影响尚待观察，但可能会加剧中美在AI技术出口管制方面的紧张关系，并影响芯片供应商、云服务商以及应用层企业的业务布局。同时，这也可能促使更多企业加强自身技术保护措施，提高安全标准。\n\n目前尚未明确指出该指控的真实性及这些机构的具体风险所在，因此仍需进一步验证其技术和法律层面的合规性。",
+      "llmComment": null,
       "pubDate": "2026-02-23T19:57:27.000Z",
       "score": 54,
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 6,
+      "rank": 8,
+      "title": "The human work behind humanoid robots is being hidden",
+      "link": "https://www.technologyreview.com/2026/02/23/1133508/the-human-work-behind-humanoid-robots-is-being-hidden/",
+      "source": "MIT Technology Review",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. In January, Nvidia’s Jensen Huang, the head of the world’s most valuable company, proclaimed that we are entering the era of physical AI, when artificial intellig",
+      "llmComment": null,
+      "pubDate": "2026-02-23T17:05:00.000Z",
+      "score": 52,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 9,
       "title": "Ladybird adopts Rust, with help from AI",
       "link": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
       "source": "Simon Willison",
@@ -72,7 +105,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 7,
+      "rank": 10,
       "title": "The Week’s 10 Biggest Funding Rounds: World Labs Leads Another AI-Heavy Lineup",
       "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-cloud-energy-ai-world-labs/",
       "source": "Crunchbase News",
@@ -83,7 +116,18 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 8,
+      "rank": 11,
+      "title": "AIs can generate near-verbatim copies of novels from training data",
+      "link": "https://arstechnica.com/ai/2026/02/ais-can-generate-near-verbatim-copies-of-novels-from-training-data/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-23T15:38:00.000Z",
+      "score": 50,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 12,
       "title": "Quoting Thibault Sottiaux",
       "link": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
       "source": "Simon Willison",
@@ -94,7 +138,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 9,
+      "rank": 13,
       "title": "AI-powered reverse-engineering of Rosetta 2 (for Linux VM)",
       "link": "https://github.com/Inokinoki/attesor",
       "source": "Hacker News",
@@ -105,7 +149,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 10,
+      "rank": 14,
       "title": "FreeBSD doesn't have Wi-Fi driver for my old MacBook. AI build one for me",
       "link": "https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/",
       "source": "Hacker News",
@@ -116,7 +160,29 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 11,
+      "rank": 15,
+      "title": "Peptides are everywhere. Here’s what you need to know.",
+      "link": "https://www.technologyreview.com/2026/02/23/1133522/peptides-are-everywhere-heres-what-you-need-to-know/",
+      "source": "MIT Technology Review",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Want to lose weight? Get shredded? Stay mentally sharp? A wellness influencer might tell you to take peptides, the latest",
+      "llmComment": null,
+      "pubDate": "2026-02-23T18:52:40.000Z",
+      "score": 47,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 16,
+      "title": "New Microsoft gaming chief has \"no tolerance for bad AI\"",
+      "link": "https://arstechnica.com/gaming/2026/02/new-microsoft-gaming-chief-has-no-tolerance-for-bad-ai/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-23T17:45:29.000Z",
+      "score": 46,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 17,
       "title": "Jensen Groks Groq",
       "link": "https://thechipletter.substack.com/p/jensen-groks-groq",
       "source": "The Chip Letter",
@@ -127,7 +193,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 12,
+      "rank": 18,
       "title": "Cursor 连接信创数据库, 连接所有 JDBC 数据库",
       "link": "https://www.v2ex.com/t/1193607#reply0",
       "source": "V2EX 技术",
@@ -138,7 +204,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 13,
+      "rank": 19,
       "title": "Turns out Generative AI was a scam",
       "link": "https://garymarcus.substack.com/p/turns-out-generative-ai-was-a-scam",
       "source": "Gary Marcus",
@@ -149,7 +215,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 14,
+      "rank": 20,
       "title": "May Gwern.net Newsletter",
       "link": "https://gwern.substack.com/p/may-gwernnet-newsletter",
       "source": "Gwern",
@@ -160,7 +226,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 15,
+      "rank": 21,
       "title": "Ladybird 浏览器开发者使用 AI 将 JS 编译器用 Rust 改写了一遍",
       "link": "https://www.v2ex.com/t/1193584#reply5",
       "source": "V2EX 技术",
@@ -171,7 +237,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 16,
+      "rank": 22,
       "title": "Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery",
       "link": "https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis/",
       "source": "Google DeepMind Blog",
@@ -182,7 +248,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 17,
+      "rank": 23,
       "title": "Thoughts on AI progress (Dec 2025)",
       "link": "https://www.dwarkesh.com/p/thoughts-on-ai-progress-dec-2025",
       "source": "Dwarkesh Patel",
@@ -193,7 +259,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 18,
+      "rank": 24,
       "title": "Gemma Scope 2: helping the AI safety community deepen understanding of complex language model behavior",
       "link": "https://deepmind.google/blog/gemma-scope-2-helping-the-ai-safety-community-deepen-understanding-of-complex-language-model-behavior/",
       "source": "Google DeepMind Blog",
@@ -204,7 +270,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 19,
+      "rank": 25,
       "title": "May 2021 Gwern.net Newsletter",
       "link": "https://gwern.substack.com/p/may-2021-gwernnet-newsletter",
       "source": "Gwern",
@@ -215,7 +281,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 20,
+      "rank": 26,
       "title": "Is the Future “AWS for Everything”?",
       "link": "https://www.construction-physics.com/p/is-the-future-aws-for-everything",
       "source": "Construction Physics",
@@ -226,7 +292,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 21,
+      "rank": 27,
       "title": "NetNewsWire 7 for Mac",
       "link": "https://netnewswire.blog/2026/01/27/netnewswire-for-mac.html",
       "source": "Daring Fireball",
@@ -237,7 +303,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 22,
+      "rank": 28,
       "title": "Trader Joe’s Dark Chocolate Peanut Butter Cups",
       "link": "https://www.traderjoes.com/home/products/pdp/dark-chocolate-peanut-butter-cups-094064",
       "source": "Daring Fireball",
@@ -248,7 +314,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 23,
+      "rank": 29,
       "title": "Richard Sutton – Father of RL thinks LLMs are a dead end",
       "link": "https://www.dwarkesh.com/p/richard-sutton",
       "source": "Dwarkesh Patel",
@@ -259,7 +325,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 24,
+      "rank": 30,
       "title": "The Origins and Limitations of AMD's Historic Revival",
       "link": "https://thechipletter.substack.com/p/the-origins-and-limitations-of-amds",
       "source": "The Chip Letter",
@@ -270,7 +336,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 25,
+      "rank": 31,
       "title": "On Technologies vs. Commodities",
       "link": "https://www.construction-physics.com/p/on-technologies-vs-commodities",
       "source": "Construction Physics",
@@ -281,7 +347,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 26,
+      "rank": 32,
       "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
       "link": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
       "source": "Krebs on Security",
@@ -292,7 +358,7 @@
       "category": "🛡️ 安全"
     },
     {
-      "rank": 27,
+      "rank": 33,
       "title": "Rewriting pycparser with the help of an LLM",
       "link": "https://eli.thegreenplace.net/2026/rewriting-pycparser-with-the-help-of-an-llm/",
       "source": "Eli Bendersky",
@@ -303,7 +369,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 28,
+      "rank": 34,
       "title": "Premium: The Hater's Guide to Anthropic",
       "link": "https://www.wheresyoured.at/premium-the-haters-guide-to-anthropic/",
       "source": "Where's Your Ed At",
@@ -314,7 +380,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 29,
+      "rank": 35,
       "title": "We URGENTLY need a federal law forbidding AI from impersonating humans",
       "link": "https://garymarcus.substack.com/p/we-urgently-need-a-federal-law-forbidding",
       "source": "Gary Marcus",
@@ -325,7 +391,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 30,
+      "rank": 36,
       "title": "Who Operates the Badbox 2.0 Botnet?",
       "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
       "source": "Krebs on Security",
@@ -336,7 +402,7 @@
       "category": "🛡️ 安全"
     },
     {
-      "rank": 31,
+      "rank": 37,
       "title": "LLM-generated skills work, if you generate them afterwards",
       "link": "https://seangoedecke.com/generate-skills-afterwards/",
       "source": "Sean Goedecke",
@@ -347,7 +413,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 32,
+      "rank": 38,
       "title": "Two different tricks for fast LLM inference",
       "link": "https://seangoedecke.com/fast-llm-inference/",
       "source": "Sean Goedecke",
@@ -358,7 +424,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 33,
+      "rank": 39,
       "title": "Premium - How The AI Bubble Bursts In 2026",
       "link": "https://www.wheresyoured.at/premium-how-the-ai-bubble-bursts-in-2026/",
       "source": "Where's Your Ed At",
@@ -369,7 +435,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 34,
+      "rank": 40,
       "title": "Why Investors Don’t Care About Your Business",
       "link": "https://steveblank.com/2025/07/01/why-investors-dont-care-about-your-business/",
       "source": "Steve Blank",
@@ -380,7 +446,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 35,
+      "rank": 41,
       "title": "Teaching National Security Policy with AI",
       "link": "https://steveblank.com/2025/06/10/teaching-national-security-policy-with-ai/",
       "source": "Steve Blank",
@@ -391,7 +457,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 36,
+      "rank": 42,
       "title": "Summary of reading: October - December 2025",
       "link": "https://eli.thegreenplace.net/2025/summary-of-reading-october-december-2025/",
       "source": "Eli Bendersky",
@@ -402,7 +468,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 37,
+      "rank": 43,
       "title": "AI is the Best Thing to Happen to Art",
       "link": "https://geohot.github.io//blog/jekyll/update/2026/02/19/ai-art.html",
       "source": "geohot Blog",
@@ -413,7 +479,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 38,
+      "rank": 44,
       "title": "tiny corp’s product – a training box",
       "link": "https://geohot.github.io//blog/jekyll/update/2026/02/15/tiny-corp-product.html",
       "source": "geohot Blog",
@@ -424,7 +490,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 39,
+      "rank": 45,
       "title": "Will the explainer post go extinct?",
       "link": "https://dynomight.net/explainers/",
       "source": "dynomight",
@@ -435,7 +501,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 40,
+      "rank": 46,
       "title": "Y’all are over-complicating these AI-risk arguments",
       "link": "https://dynomight.net/ai-risk/",
       "source": "dynomight",
@@ -446,7 +512,40 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 41,
+      "rank": 47,
+      "title": "OpenAI lands multiyear deals with consulting giants in enterprise push",
+      "link": "https://www.cnbc.com/2026/02/23/open-ai-consulting-accenture-boston-capgemini-mckinsey-frontier.html",
+      "source": "CNBC Technology",
+      "summary": "The consulting firms will help OpenAI's enterprise customers get AI agents into real production workflows more quickly.",
+      "llmComment": null,
+      "pubDate": "2026-02-23T14:05:56.000Z",
+      "score": 18,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 48,
+      "title": "Anthropic CEO Dario Amodei to meet with Defense Secretary Pete Hegseth on AI DOD model use",
+      "link": "https://www.cnbc.com/2026/02/23/anthropic-ai-dario-defense-secretary-pete-hegseth.html",
+      "source": "CNBC Technology",
+      "summary": "Anthropic does not want its AI models to be used for autonomous weapons or to spy on Americans.",
+      "llmComment": null,
+      "pubDate": "2026-02-23T19:43:45.000Z",
+      "score": 18,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 49,
+      "title": "Google spinout Aalyria valued at $1.3 billion as investors pour into space-based communications",
+      "link": "https://www.cnbc.com/2026/02/23/google-spinout-aalyria-valued-at-1point3-billion-in-100-million-round.html",
+      "source": "CNBC Technology",
+      "summary": "Aalyria, which was spun out of Google in 2022, raised $100 million in a funding round led by Battery Ventures.",
+      "llmComment": null,
+      "pubDate": "2026-02-23T13:30:01.000Z",
+      "score": 18,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 50,
       "title": "Trending tickers: Nestlé, Carvana, DoorDash, Rio Tinto and Airbus",
       "link": "https://uk.finance.yahoo.com/news/nestle-carvana-doordash-rio-tinto-airbus-trending-tickers-094042886.html",
       "source": "Yahoo Finance",
@@ -457,7 +556,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 42,
+      "rank": 51,
       "title": "Stock market sectors that could be more vulnerable to AI disruption",
       "link": "https://uk.finance.yahoo.com/news/stock-market-ftse-vulnerable-ai-disruption-060048098.html",
       "source": "Yahoo Finance",
@@ -468,7 +567,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 43,
+      "rank": 52,
       "title": "Stocking up on pancake ingredients? These supermarkets score top marks for quality",
       "link": "https://uk.finance.yahoo.com/news/uk-favourite-supermarket-marks-and-spencer-which-060005374.html",
       "source": "Yahoo Finance",
@@ -479,7 +578,51 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 44,
+      "rank": 53,
+      "title": "Uber acquiring parking app SpotHero as it moves beyond ride-hailing and food delivery",
+      "link": "https://www.cnbc.com/2026/02/23/uber-acquiring-spothero.html",
+      "source": "CNBC Technology",
+      "summary": "Uber said it plans to offer a parking reservation experience powered by SpotHero for events and at venues and airports.",
+      "llmComment": null,
+      "pubDate": "2026-02-23T22:06:06.000Z",
+      "score": 17,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 54,
+      "title": "IBM is the latest AI casualty. Shares tank 13% on Anthropic programming language threat",
+      "link": "https://www.cnbc.com/2026/02/23/ibm-is-the-latest-ai-casualty-shares-are-tanking-on-anthropic-cobol-threat.html",
+      "source": "CNBC Technology",
+      "summary": "COBOL is a computer language used for business data processing and IBM is a leader in that area.",
+      "llmComment": null,
+      "pubDate": "2026-02-23T21:22:17.000Z",
+      "score": 17,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 55,
+      "title": "Cybersecurity stocks drop for a second day as new Anthropic tool fuels AI disruption fears",
+      "link": "https://www.cnbc.com/2026/02/23/cybersecurity-stocks-anthropic-ai-crowdstrike.html",
+      "source": "CNBC Technology",
+      "summary": "Cybersecurity stocks are the latest to see sell-off pressure as AI threatens to upend software companies.",
+      "llmComment": null,
+      "pubDate": "2026-02-23T21:07:10.000Z",
+      "score": 17,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 56,
+      "title": "Cybersecurity stock selling deepens on AI threat concerns. Why we're not bailing",
+      "link": "https://www.cnbc.com/2026/02/23/cybersecurity-stock-selling-deepens-on-ai-threat-concerns-why-were-not-bailing.html",
+      "source": "CNBC Technology",
+      "summary": "AI disruption fears spark sell-off in cyber, but the market is overlooking the sector's fundamentals",
+      "llmComment": null,
+      "pubDate": "2026-02-23T20:13:26.000Z",
+      "score": 17,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 57,
       "title": "Wall Street advances and FTSE hits record high ahead of Fed minutes",
       "link": "https://uk.finance.yahoo.com/news/ftse-100-live-london-uk-inflation-interest-rate-bank-of-england-090352916.html",
       "source": "Yahoo Finance",
@@ -490,7 +633,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 45,
+      "rank": 58,
       "title": "Trending tickers: Nvidia, Palo Alto Networks, BAE Systems and Glencore",
       "link": "https://uk.finance.yahoo.com/news/nvidia-palo-alto-networks-bae-systems-glencore-trending-tickers-085210125.html",
       "source": "Yahoo Finance",
@@ -501,7 +644,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 46,
+      "rank": 59,
       "title": "UK inflation falls to lowest since March 2025",
       "link": "https://uk.finance.yahoo.com/news/uk-inflation-falls-january-2026-interest-rates-bank-of-england-071821144.html",
       "source": "Yahoo Finance",
@@ -512,7 +655,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 47,
+      "rank": 60,
       "title": "Trending tickers: Nvidia, AMD, Antofagasta, Debenhams and IHG",
       "link": "https://uk.finance.yahoo.com/news/nvidia-amd-antofagasta-debenhams-ihg-trending-tickers-095554435.html",
       "source": "Yahoo Finance",
@@ -523,7 +666,40 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 48,
+      "rank": 61,
+      "title": "Chaos, confusion and $200 billion dreams: What I saw at India’s AI summit",
+      "link": "https://www.cnbc.com/2026/02/21/ai-summit-india-tech.html",
+      "source": "CNBC Technology",
+      "summary": "India hosted one of the world's biggest AI events this week, but it was marred by impossible traffic and a lack of organization.",
+      "llmComment": null,
+      "pubDate": "2026-02-23T15:55:45.000Z",
+      "score": 17,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 62,
+      "title": "Sam Altman defends AI resource usage: Water concerns 'fake,' and 'humans use energy too'",
+      "link": "https://www.cnbc.com/2026/02/23/openai-altman-defends-ai-resource-usage-water-concerns-fake-humans-use-energy-summit.html",
+      "source": "CNBC Technology",
+      "summary": "OpenAI CEO Sam Altman defended the resource use of AI on Friday, arguing that water concerns were \"fake\" and comparing it to human energy use.",
+      "llmComment": null,
+      "pubDate": "2026-02-23T15:21:22.000Z",
+      "score": 17,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 63,
+      "title": "U.S. launches Peace Corps-backed ‘Tech Corps’ to help export AI, counter China",
+      "link": "https://www.cnbc.com/2026/02/23/us-launch-peace-corps-tech-corps-india-export-ai-stack-sovereignty-counter-china.html",
+      "source": "CNBC Technology",
+      "summary": "As part of efforts to spread its global AI footprint and counter China, Washington has announced a new \"tech corps.\"",
+      "llmComment": null,
+      "pubDate": "2026-02-23T13:41:10.000Z",
+      "score": 16,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 64,
       "title": "OpenAI calls in the consultants for its enterprise push",
       "link": "https://techcrunch.com/2026/02/23/openai-calls-in-the-consultants-for-its-enterprise-push/",
       "source": "TechCrunch",
@@ -534,7 +710,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 49,
+      "rank": 65,
       "title": "Wrapping Code Comments",
       "link": "https://matklad.github.io/2026/02/21/wrapping-code-comments.html",
       "source": "matklad",
@@ -545,7 +721,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 50,
+      "rank": 66,
       "title": "How AI agents could destroy the economy",
       "link": "https://techcrunch.com/2026/02/23/how-ai-agents-could-destroy-the-economy/",
       "source": "TechCrunch",
@@ -556,7 +732,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 51,
+      "rank": 67,
       "title": "UK records largest ever budget surplus in boost for Reeves ahead of spring forecast",
       "link": "https://uk.finance.yahoo.com/news/uk-budget-surplus-borrowing-reeves-spring-forecast-074539268.html",
       "source": "Yahoo Finance",
@@ -567,7 +743,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 52,
+      "rank": 68,
       "title": "'I want to return TM Lewin to its former glories'",
       "link": "https://uk.finance.yahoo.com/news/tm-lewin-menswear-clothing-leisurewear-060046516.html",
       "source": "Yahoo Finance",
@@ -578,7 +754,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 53,
+      "rank": 69,
       "title": "9 homes in wild places that Wuthering Heights fans will adore",
       "link": "https://uk.finance.yahoo.com/news/homes-wild-places-wuthering-heights-060041333.html",
       "source": "Yahoo Finance",
@@ -589,7 +765,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 54,
+      "rank": 70,
       "title": "What crypto investors need to know about the UK's sandbox scheme",
       "link": "https://uk.finance.yahoo.com/news/sandbox-crypto-investors-bitcoin-regulation-fca-060001700.html",
       "source": "Yahoo Finance",
@@ -600,7 +776,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 55,
+      "rank": 71,
       "title": "Nationwide cuts mortgage costs as experts predict spring price war",
       "link": "https://uk.finance.yahoo.com/news/cheapest-mortgage-interest-rates-bank-england-hsbc-natwest-barclays-nationwide-inflation-122320144.html",
       "source": "Yahoo Finance",
@@ -611,7 +787,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 56,
+      "rank": 72,
       "title": "Bitcoin price falls as US-Iran tensions rattle risk assets",
       "link": "https://uk.finance.yahoo.com/news/bitcoin-price-us-iran-tensions-risk-assets-100515326.html",
       "source": "Yahoo Finance",
@@ -622,7 +798,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 57,
+      "rank": 73,
       "title": "Gold prices bounce back above $5,000 on safe haven demand",
       "link": "https://uk.finance.yahoo.com/news/gold-prices-oil-pound-commodities-dollar-us-iran-092423035.html",
       "source": "Yahoo Finance",
@@ -633,7 +809,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 58,
+      "rank": 74,
       "title": "FTSE falls and Wall Street breaks winning streak as traders digest Walmart earnings and jobs data",
       "link": "https://uk.finance.yahoo.com/news/ftse-100-live-stocks-slump-miners-british-gas-centrica-rio-tinto-090651206.html",
       "source": "Yahoo Finance",
@@ -644,7 +820,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 59,
+      "rank": 75,
       "title": "Average monthly mortgage payments fell £119 in the year to January",
       "link": "https://uk.finance.yahoo.com/news/mortgage-payments-house-prices-january-rightmove-060041135.html",
       "source": "Yahoo Finance",
@@ -655,7 +831,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 60,
+      "rank": 76,
       "title": "UK house prices rose by 2.4% in December",
       "link": "https://uk.finance.yahoo.com/news/uk-house-prices-rise-december-123547514.html",
       "source": "Yahoo Finance",
@@ -666,7 +842,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 61,
+      "rank": 77,
       "title": "Best credit card deals of the week",
       "link": "https://uk.finance.yahoo.com/news/best-credit-card-deals-093401129.html",
       "source": "Yahoo Finance",
@@ -677,7 +853,18 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 62,
+      "rank": 78,
+      "title": "Tesla sues California DMV to reverse ruling that company engaged in false advertising on FSD",
+      "link": "https://www.cnbc.com/2026/02/23/tesla-sues-california-dmv-to-reverse-false-advertising-ruling-on-fsd.html",
+      "source": "CNBC Technology",
+      "summary": "California's DMV previously ruled that Tesla falsely promoted its cars' self-driving capabilities.",
+      "llmComment": null,
+      "pubDate": "2026-02-23T22:21:50.000Z",
+      "score": 15,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 79,
       "title": "Google’s Cloud AI leads on the three frontiers of model capability",
       "link": "https://techcrunch.com/2026/02/23/googles-cloud-ai-lead-on-the-three-frontiers-of-model-capability/",
       "source": "TechCrunch",
@@ -688,7 +875,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 63,
+      "rank": 80,
       "title": "Crunchbase Data: The AI Boom Has Drastically Changed Who’s Funding The Hottest Companies In 2025 Vs. 2021",
       "link": "https://news.crunchbase.com/venture/data-2025-vs-2021-funding-hottest-companies-ai/",
       "source": "Crunchbase News",
@@ -699,7 +886,18 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 64,
+      "rank": 81,
+      "title": "Trump demands Netflix fire Susan Rice as DOJ probes Warner deal",
+      "link": "https://www.cnbc.com/2026/02/22/trump-demands-netflix-fire-susan-rice-as-doj-probes-warner-deal.html",
+      "source": "CNBC Technology",
+      "summary": "Rice argued during a podcast last week that \"it is not going to end well\" for corporations, news organizations, and law firms that \"bent the knee\" to Trump.",
+      "llmComment": null,
+      "pubDate": "2026-02-23T18:37:26.000Z",
+      "score": 15,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 82,
       "title": "With AI, investor loyalty is (almost) dead: at least a dozen OpenAI VCs now also back Anthropic",
       "link": "https://techcrunch.com/2026/02/23/with-ai-investor-loyalty-is-almost-dead-at-least-a-dozen-openai-vcs-now-also-back-anthropic/",
       "source": "TechCrunch",
@@ -710,7 +908,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 65,
+      "rank": 83,
       "title": "Flock cameras gifted by Horowitz Foundation, avoiding public oversight",
       "link": "https://thenevadaindependent.com/article/vegas-police-are-big-users-of-license-plate-readers-public-has-little-input-because-its-a-gift",
       "source": "Hacker News",
@@ -721,7 +919,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 66,
+      "rank": 84,
       "title": "Show HN: Babyshark – Wireshark made easy (terminal UI for PCAPs)",
       "link": "https://github.com/vignesh07/babyshark",
       "source": "Hacker News",
@@ -732,7 +930,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 67,
+      "rank": 85,
       "title": "Ex-Apple team launches Acme Weather, a new take on weather forecasting",
       "link": "https://techcrunch.com/2026/02/23/ex-apple-team-launches-acme-weather-a-new-take-on-weather-forecasting/",
       "source": "TechCrunch",
@@ -743,7 +941,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 68,
+      "rank": 86,
       "title": "AI Seed Trends: More Multimedia, Backend Automation, Agentic Security, And Yes, Robots",
       "link": "https://news.crunchbase.com/venture/data-ai-seed-trends-multimedia-automation-cybersecurity-robots/",
       "source": "Crunchbase News",
@@ -754,7 +952,18 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 69,
+      "rank": 87,
+      "title": "Finland's IQM to become one of Europe's first listed quantum companies at $1.8 billion valuation",
+      "link": "https://www.cnbc.com/2026/02/23/finlands-iqm-listing-quantum-computing.html",
+      "source": "CNBC Technology",
+      "summary": "The transaction will see the company hit a $1.8 billion valuation.",
+      "llmComment": null,
+      "pubDate": "2026-02-23T12:07:23.000Z",
+      "score": 14,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 88,
       "title": "Particle’s AI news app listens to podcasts for interesting clips so you you don’t have to",
       "link": "https://techcrunch.com/2026/02/23/particles-ai-news-app-listens-to-podcasts-for-interesting-clips-so-you-you-dont-have-to/",
       "source": "TechCrunch",
@@ -765,7 +974,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 70,
+      "rank": 89,
       "title": "Spotify rolls out AI-powered Prompted Playlists to the UK and other markets",
       "link": "https://techcrunch.com/2026/02/23/spotify-ai-prompted-playlists-uk-markets/",
       "source": "TechCrunch",
@@ -776,7 +985,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 71,
+      "rank": 90,
       "title": "VPN flaws allowed Chinese hackers to compromise dozens of Ivanti customers, says report",
       "link": "https://techcrunch.com/2026/02/23/vpn-flaws-allowed-chinese-hackers-to-compromise-dozens-of-ivanti-customers-says-report/",
       "source": "TechCrunch",
@@ -787,7 +996,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 72,
+      "rank": 91,
       "title": "Quoting Paul Ford",
       "link": "https://simonwillison.net/2026/Feb/23/paul-ford/#atom-everything",
       "source": "Simon Willison",
@@ -798,7 +1007,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 73,
+      "rank": 92,
       "title": "ASML unveils EUV light source advance that could yield 50% more chips by 2030",
       "link": "https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/",
       "source": "Hacker News",
@@ -809,7 +1018,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 74,
+      "rank": 93,
       "title": "Defense Secretary summons Anthropic’s Amodei over military use of Claude",
       "link": "https://techcrunch.com/2026/02/23/defense-secretary-summons-anthropics-amodei-over-military-use-of-claude/",
       "source": "TechCrunch",
@@ -820,7 +1029,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 75,
+      "rank": 94,
       "title": "Red/green TDD",
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
       "source": "Simon Willison",
@@ -831,7 +1040,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 76,
+      "rank": 95,
       "title": "Digital Savings Startup Vestwell Lands $385M, Doubles Valuation",
       "link": "https://news.crunchbase.com/fintech/digital-savings-startup-vestwell-seriese-doubles-valuation/",
       "source": "Crunchbase News",
@@ -842,7 +1051,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 77,
+      "rank": 96,
       "title": "Reply guy",
       "link": "https://simonwillison.net/2026/Feb/23/reply-guy/#atom-everything",
       "source": "Simon Willison",
@@ -853,7 +1062,18 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 78,
+      "rank": 97,
+      "title": "The Download: Chicago’s surveillance network, and building better bras",
+      "link": "https://www.technologyreview.com/2026/02/23/1133495/the-download-chicagos-surveillance-network-and-building-better-bras/",
+      "source": "MIT Technology Review",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside Chicago’s surveillance panopticon Chicago has tens of thousands of surveillance cameras—up to 45,000, by some estimates. That’s among the highest numbers p",
+      "llmComment": null,
+      "pubDate": "2026-02-23T13:10:00.000Z",
+      "score": 13,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 98,
       "title": "Quoting Summer Yue",
       "link": "https://simonwillison.net/2026/Feb/23/summer-yue/#atom-everything",
       "source": "Simon Willison",
@@ -864,7 +1084,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 79,
+      "rank": 99,
       "title": "How I think about Codex",
       "link": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
       "source": "Simon Willison",
@@ -875,7 +1095,18 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 80,
+      "rank": 100,
+      "title": "Tech giants commit billions to Indian AI as New Delhi pushes for superpower status",
+      "link": "https://www.cnbc.com/2026/02/21/india-ai-summit-tech-giants-billion-dollar-investments.html",
+      "source": "CNBC Technology",
+      "summary": "Tech and world leaders flocked to New Delhi for the India AI Impact Summit",
+      "llmComment": null,
+      "pubDate": "2026-02-21T07:30:35.000Z",
+      "score": 13,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 101,
       "title": "Finnish quantum unicorn IQM set to go public",
       "link": "https://techcrunch.com/2026/02/23/finnish-quantum-unicorn-iqm-set-to-go-public/",
       "source": "TechCrunch",
@@ -886,7 +1117,18 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 81,
+      "rank": 102,
+      "title": "Inside Chicago’s surveillance panopticon",
+      "link": "https://www.technologyreview.com/2026/02/23/1132740/inside-chicago-surveillance-panopticon/",
+      "source": "MIT Technology Review",
+      "summary": "Early on the morning of September 2, 2024, a Chicago Transit Authority Blue Line train was the scene of a random and horrific mass shooting. Four people were shot and killed on a westbound train as it approached the suburb of Forest Park. The police swiftly activated a digital dragnet—a surveillance",
+      "llmComment": null,
+      "pubDate": "2026-02-23T10:00:00.000Z",
+      "score": 13,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 103,
       "title": "The Second Great Error Model Convergence",
       "link": "https://matklad.github.io/2025/12/29/second-error-model-convergence.html",
       "source": "matklad",
@@ -897,7 +1139,18 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 82,
+      "rank": 104,
+      "title": "Microsoft Xbox chief Phil Spencer retires, replaced by AI executive Asha Sharma",
+      "link": "https://www.cnbc.com/2026/02/20/microsoft-gaming-chief-phil-spencer-retires-asha-sharma-replacing.html",
+      "source": "CNBC Technology",
+      "summary": "Phil Spencer is retiring from Microsoft after joining the software company 38 years ago, and will be replaced by Instacart's former COO.",
+      "llmComment": null,
+      "pubDate": "2026-02-21T00:16:18.000Z",
+      "score": 13,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 105,
       "title": "Writing about Agentic Engineering Patterns",
       "link": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/#atom-everything",
       "source": "Simon Willison",
@@ -908,7 +1161,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 83,
+      "rank": 106,
       "title": "Wispr Flow launches an Android app for AI-powered dictation",
       "link": "https://techcrunch.com/2026/02/23/wispr-flow-launches-an-android-app-for-ai-powered-dictation/",
       "source": "TechCrunch",
@@ -919,7 +1172,18 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 84,
+      "rank": 107,
+      "title": "OpenAI resets spending expectations, tells investors compute target is around $600 billion by 2030",
+      "link": "https://www.cnbc.com/2026/02/20/openai-resets-spend-expectations-targets-around-600-billion-by-2030.html",
+      "source": "CNBC Technology",
+      "summary": "OpenAI told investors it's targeting roughly $600 billion in total compute spend by 2030, trying to clarify its plans after touting a $1.4 trillion figure.",
+      "llmComment": null,
+      "pubDate": "2026-02-20T22:35:29.000Z",
+      "score": 13,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 108,
       "title": "Writing code is cheap now",
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/#atom-everything",
       "source": "Simon Willison",
@@ -930,7 +1194,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 85,
+      "rank": 109,
       "title": "5 days left to lock in the lowest TechCrunch Disrupt 2026 ticket rates",
       "link": "https://techcrunch.com/2026/02/23/5-days-left-to-lock-in-the-lowest-techcrunch-disrupt-2026-ticket-rates/",
       "source": "TechCrunch",
@@ -941,7 +1205,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 86,
+      "rank": 110,
       "title": "ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
       "link": "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything",
       "source": "Simon Willison",
@@ -952,7 +1216,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 87,
+      "rank": 111,
       "title": "Exclusive: Ownwell Lands $30M To Help Homeowners Lower Their Property Tax Bills",
       "link": "https://news.crunchbase.com/venture/ownwell-raise-lower-homeowner-property-tax/",
       "source": "Crunchbase News",
@@ -963,7 +1227,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 88,
+      "rank": 112,
       "title": "Innovation Is A Game Of Two Halves",
       "link": "https://news.crunchbase.com/venture/public-private-market-innovation-gray-odin/",
       "source": "Crunchbase News",
@@ -974,7 +1238,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 89,
+      "rank": 113,
       "title": "Can the creator economy stay afloat in a flood of AI slop?",
       "link": "https://techcrunch.com/2026/02/22/can-the-creator-economy-stay-afloat-in-a-flood-of-ai-slop/",
       "source": "TechCrunch",
@@ -985,7 +1249,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 90,
+      "rank": 114,
       "title": "The Crunchbase Tech Layoffs Tracker",
       "link": "https://news.crunchbase.com/startups/tech-layoffs/",
       "source": "Crunchbase News",
@@ -996,7 +1260,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 91,
+      "rank": 115,
       "title": "Stop Killing Games update says EU petition advances",
       "link": "https://videocardz.com/newz/stop-killing-games-update-says-eu-petition-advances",
       "source": "Hacker News",
@@ -1007,7 +1271,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 92,
+      "rank": 116,
       "title": "SIM (YC X25) Is Hiring the Best Engineers in San Francisco",
       "link": "https://www.ycombinator.com/companies/sim/jobs/Rj8TVRM-software-engineer-platform",
       "source": "Hacker News",
@@ -1018,7 +1282,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 93,
+      "rank": 117,
       "title": "The challenges of porting Shufflepuck Cafe to the 8 bits Apple II",
       "link": "https://www.colino.net/wordpress/archives/2026/02/23/the-challenges-of-porting-shufflepuck-cafe-to-the-8-bits-apple-ii/",
       "source": "Hacker News",
@@ -1029,7 +1293,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 94,
+      "rank": 118,
       "title": "UNIX99, a UNIX-like OS for the TI-99/4A",
       "link": "https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/",
       "source": "Hacker News",
@@ -1040,7 +1304,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 95,
+      "rank": 119,
       "title": "Uber’s new autonomous vehicle division is about survival and opportunity",
       "link": "https://techcrunch.com/2026/02/23/uber-autonomous-solutions-av-robotaxi/",
       "source": "TechCrunch",
@@ -1051,7 +1315,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 96,
+      "rank": 120,
       "title": "Binance fired employees who found $1.7B in crypto was sent to Iran",
       "link": "https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html",
       "source": "Hacker News",
@@ -1062,7 +1326,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 97,
+      "rank": 121,
       "title": "A lithium-ion breakthrough that could boost range and lower costs",
       "link": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/forget-solid-state-batteries-researchers-have-made-a-lithium-ion-breakthrough-that-could-boost-range-and-drastically-lower-costs",
       "source": "Hacker News",
@@ -1073,7 +1337,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 98,
+      "rank": 122,
       "title": "Americans are destroying Flock surveillance cameras",
       "link": "https://techcrunch.com/2026/02/23/americans-are-destroying-flock-surveillance-cameras/",
       "source": "TechCrunch",
@@ -1084,7 +1348,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 99,
+      "rank": 123,
       "title": "Hadrius (YC W23) Is Hiring Designers Who Code",
       "link": "https://www.ycombinator.com/companies/hadrius/jobs/ObynDF9-senior-product-designer",
       "source": "Hacker News",
@@ -1095,7 +1359,18 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 100,
+      "rank": 124,
+      "title": "The 2026 Mazda CX-5, driven: It got bigger; plus, radical tech upgrade",
+      "link": "https://arstechnica.com/cars/2026/02/the-2026-mazda-cx-5-driven-it-got-bigger-plus-radical-tech-upgrade/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-23T17:00:02.000Z",
+      "score": 11,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 125,
       "title": "A simple web we own",
       "link": "https://rsdoiel.github.io/blog/2026/02/21/a_simple_web_we_own.html",
       "source": "Hacker News",
@@ -1106,7 +1381,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 101,
+      "rank": 126,
       "title": "Show HN: Sowbot – open-hardware agricultural robot (ROS2, RTK GPS)",
       "link": "https://sowbot.co.uk/",
       "source": "Hacker News",
@@ -1117,7 +1392,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 102,
+      "rank": 127,
       "title": "Show HN: PgDog – Scale Postgres without changing the app",
       "link": "https://github.com/pgdogdev/pgdog",
       "source": "Hacker News",
@@ -1128,7 +1403,18 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 103,
+      "rank": 128,
+      "title": "Here are 3 forces that drove the stock market during Wall Street’s comeback week",
+      "link": "https://www.cnbc.com/2026/02/21/3-forces-that-drove-the-stock-market-during-wall-streets-comeback-week.html",
+      "source": "CNBC Technology",
+      "summary": "The stock market staged a comeback, even as Wall Street waded through a flurry of both upbeat and unsettling headlines.",
+      "llmComment": null,
+      "pubDate": "2026-02-21T17:46:51.000Z",
+      "score": 11,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 129,
       "title": "The peculiar case of Japanese web design (2022)",
       "link": "https://sabrinas.space",
       "source": "Hacker News",
@@ -1139,7 +1425,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 104,
+      "rank": 130,
       "title": "The Age Verification Trap: Verifying age undermines everyone's data protection",
       "link": "https://spectrum.ieee.org/age-verification",
       "source": "Hacker News",
@@ -1150,7 +1436,18 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 105,
+      "rank": 131,
+      "title": "Review: Knight of the Seven Kingdoms brings back that Westeros magic",
+      "link": "https://arstechnica.com/culture/2026/02/review-knight-of-the-seven-kingdoms-brings-back-that-westeros-magic/",
+      "source": "Ars Technica",
+      "summary": "GoT fans why they loved the original so much.]]>",
+      "llmComment": null,
+      "pubDate": "2026-02-23T13:51:36.000Z",
+      "score": 11,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 132,
       "title": "femtolisp: A lightweight, robust, scheme-like Lisp implementation",
       "link": "https://github.com/JeffBezanson/femtolisp",
       "source": "Hacker News",
@@ -1161,7 +1458,29 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 106,
+      "rank": 133,
+      "title": "The first cars bold enough to drive themselves",
+      "link": "https://arstechnica.com/features/2026/02/the-first-cars-bold-enough-to-drive-themselves/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-23T12:00:45.000Z",
+      "score": 11,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 134,
+      "title": "NASA says it needs to haul the Artemis II rocket back to the hangar for repairs",
+      "link": "https://arstechnica.com/space/2026/02/nasa-says-it-needs-to-haul-the-artemis-ii-rocket-back-to-the-hangar-for-repairs/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-21T23:54:38.000Z",
+      "score": 11,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 135,
       "title": "Ladybird adopts Rust",
       "link": "https://ladybird.org/posts/adopting-rust/",
       "source": "Hacker News",
@@ -1172,7 +1491,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 107,
+      "rank": 136,
       "title": "Only 2 States Saw Their Share Of US Venture Funding Rise Last Year",
       "link": "https://news.crunchbase.com/venture/states-us-funding-share-rose-fell-2025/",
       "source": "Crunchbase News",
@@ -1183,7 +1502,18 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 108,
+      "rank": 137,
+      "title": "National Parent Teacher Association breaks ties with Meta amid child-safety trials",
+      "link": "https://www.cnbc.com/2026/02/20/national-pta-meta-child-safety-trials-zuckerberg.html",
+      "source": "CNBC Technology",
+      "summary": "Child-safety advocacy coalition ParentsSOS urged the National PTA to end other Big Tech partnerships due to safety and well-being concerns.",
+      "llmComment": null,
+      "pubDate": "2026-02-20T21:38:12.000Z",
+      "score": 10,
+      "category": "💰 金融 & 创投"
+    },
+    {
+      "rank": 138,
       "title": "有人知道 trae 这是要干什么吗？ ai-agent 进程占用内存 18GB",
       "link": "https://www.v2ex.com/t/1193503#reply5",
       "source": "V2EX 技术",
@@ -1194,7 +1524,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 109,
+      "rank": 139,
       "title": "这个麻将少牌问题， AI 怎么识别不出来？",
       "link": "https://www.v2ex.com/t/1193577#reply5",
       "source": "V2EX 技术",
@@ -1205,7 +1535,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 110,
+      "rank": 140,
       "title": "Quoting Thariq Shihipar",
       "link": "https://simonwillison.net/2026/Feb/20/thariq-shihipar/#atom-everything",
       "source": "Simon Willison",
@@ -1216,7 +1546,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 111,
+      "rank": 141,
       "title": "SWE-bench February 2026 leaderboard update",
       "link": "https://simonwillison.net/2026/Feb/19/swe-bench/#atom-everything",
       "source": "Simon Willison",
@@ -1227,7 +1557,18 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 112,
+      "rank": 142,
+      "title": "FCC asks stations for \"pro-America\" programming, like daily Pledge of Allegiance",
+      "link": "https://arstechnica.com/tech-policy/2026/02/fcc-asks-stations-for-pro-america-programming-like-daily-pledge-of-allegiance/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-20T22:00:59.000Z",
+      "score": 10,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 143,
       "title": "The Claude C Compiler: What It Reveals About the Future of Software",
       "link": "https://simonwillison.net/2026/Feb/22/ccc/#atom-everything",
       "source": "Simon Willison",
@@ -1238,7 +1579,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 113,
+      "rank": 144,
       "title": "London Stock Exchange: Raspberry Pi Holdings plc",
       "link": "https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/#atom-everything",
       "source": "Simon Willison",
@@ -1249,7 +1590,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 114,
+      "rank": 145,
       "title": "Apple might take a new approach to announcing its next products",
       "link": "https://techcrunch.com/2026/02/22/apple-might-take-a-new-approach-to-announcing-its-next-products/",
       "source": "TechCrunch",
@@ -1260,7 +1601,18 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 115,
+      "rank": 146,
+      "title": "Exclusive eBook: The great Al hype correction of 2025",
+      "link": "https://www.technologyreview.com/2026/02/20/1133368/exclusive-ebook-the-great-al-hype-correction-of-2025/",
+      "source": "MIT Technology Review",
+      "summary": "2025 was a year of reckoning, including how the heads of the top AI companies made promises they couldn’t keep. In this exclusive subscriber-only eBook, you’ll learn more about why we may need to readjust our expectations. This story is part of the Hype Correction package.by Will Douglas Heaven Dece",
+      "llmComment": null,
+      "pubDate": "2026-02-20T18:46:07.000Z",
+      "score": 10,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 147,
       "title": "Bill Gurley says that right now, the worst thing you can do for your career is play it safe",
       "link": "https://techcrunch.com/2026/02/22/bill-gurley-says-that-right-now-the-worst-thing-you-can-do-for-your-career-is-play-it-safe/",
       "source": "TechCrunch",
@@ -1271,7 +1623,29 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 116,
+      "rank": 148,
+      "title": "The Download: Microsoft’s online reality check, and the worrying rise in measles cases",
+      "link": "https://www.technologyreview.com/2026/02/20/1133396/the-download-microsofts-online-reality-check-and-the-worrying-rise-in-measles-cases/",
+      "source": "MIT Technology Review",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Microsoft has a new plan to prove what’s real and what’s AI online AI-enabled deception now permeates our online lives. There are the high-profile cases you may e",
+      "llmComment": null,
+      "pubDate": "2026-02-20T13:10:00.000Z",
+      "score": 10,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 149,
+      "title": "Job titles of the future: Breast biomechanic",
+      "link": "https://www.technologyreview.com/2026/02/20/1132629/job-titles-future-breast-biomechanic/",
+      "source": "MIT Technology Review",
+      "summary": "Twenty years ago, Joanna Wakefield-Scurr was having persistent pain in her breasts. Her doctor couldn’t diagnose the cause but said a good, supportive bra could help. A professor of biomechanics, Wakefield-Scurr thought she could do a little research and find a science-backed option. Two decades lat",
+      "llmComment": null,
+      "pubDate": "2026-02-20T11:00:00.000Z",
+      "score": 10,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 150,
       "title": "代码如果不开源了 ai 编程是不是得吃屎了",
       "link": "https://www.v2ex.com/t/1193535#reply10",
       "source": "V2EX 技术",
@@ -1282,7 +1656,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 117,
+      "rank": 151,
       "title": "Biotech Startup M&A Is Reliably Delivering Some Big Exits",
       "link": "https://news.crunchbase.com/health-wellness-biotech/startup-ma-ipo-delivering-exits/",
       "source": "Crunchbase News",
@@ -1293,7 +1667,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 118,
+      "rank": 152,
       "title": "Quantonation’s double-sized second fund shows quantum still has believers",
       "link": "https://techcrunch.com/2026/02/22/quantonations-double-sized-second-fund-shows-quantum-still-has-believers/",
       "source": "TechCrunch",
@@ -1304,7 +1678,29 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 119,
+      "rank": 153,
+      "title": "Microsoft has a new plan to prove what’s real and what’s AI online",
+      "link": "https://www.technologyreview.com/2026/02/19/1133360/microsoft-has-a-new-plan-to-prove-whats-real-and-whats-ai-online/",
+      "source": "MIT Technology Review",
+      "summary": "AI-enabled deception now permeates our online lives. There are the high-profile cases you may easily spot, like when White House officials recently shared a manipulated image of a protester in Minnesota and then mocked those asking about it. Other times, it slips quietly into social media feeds and ",
+      "llmComment": null,
+      "pubDate": "2026-02-19T16:00:00.000Z",
+      "score": 9,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 154,
+      "title": "Study shows how rocket launches pollute the atmosphere",
+      "link": "https://arstechnica.com/space/2026/02/study-shows-how-rocket-launches-pollute-the-atmosphere/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-22T11:20:03.000Z",
+      "score": 9,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 155,
       "title": "Grandson of Inventor of Reese’s Peanut Butter Cups Goes Public With the Obvious: They Taste Like Shit Now",
       "link": "https://apnews.com/article/reeses-peanut-butter-cups-hershey-chocolate-1a66ec75247fd146888b7a747a740cd3",
       "source": "Daring Fireball",
@@ -1315,7 +1711,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 120,
+      "rank": 156,
       "title": "Accelerating discovery in India through AI-powered science and education",
       "link": "https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/",
       "source": "Google DeepMind Blog",
@@ -1326,7 +1722,18 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 121,
+      "rank": 157,
+      "title": "Community service",
+      "link": "https://www.technologyreview.com/2026/02/20/1132640/community-service-science-fiction-story/",
+      "source": "MIT Technology Review",
+      "summary": "The bird is a beautiful silver-gray, and as she dies twitching in the lasernet I’m grateful for two things: First, that she didn’t make a sound. Second, that this will be the very last time. They’re called corpse doves—because the darkest part of their gray plumage surrounds the lighter part, giving",
+      "llmComment": null,
+      "pubDate": "2026-02-20T11:00:00.000Z",
+      "score": 9,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 158,
       "title": "Recovering lost code",
       "link": "https://simonwillison.net/2026/Feb/19/recovering-lost-code/#atom-everything",
       "source": "Simon Willison",
@@ -1337,7 +1744,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 122,
+      "rank": 159,
       "title": "我还在怀念 claude 3.5 sonnet",
       "link": "https://www.v2ex.com/t/1193610#reply0",
       "source": "V2EX 技术",
@@ -1348,7 +1755,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 123,
+      "rank": 160,
       "title": "Elon Musk — \"In 36 months, the cheapest place to put AI will be space”",
       "link": "https://www.dwarkesh.com/p/elon-musk",
       "source": "Dwarkesh Patel",
@@ -1359,7 +1766,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 124,
+      "rank": 161,
       "title": "Project Genie: Experimenting with infinite, interactive worlds",
       "link": "https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/",
       "source": "Google DeepMind Blog",
@@ -1370,7 +1777,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 125,
+      "rank": 162,
       "title": "Reading List 01/17/2026",
       "link": "https://www.construction-physics.com/p/reading-list-01172026",
       "source": "Construction Physics",
@@ -1381,7 +1788,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 126,
+      "rank": 163,
       "title": "D4RT: Teaching AI to see the world in four dimensions",
       "link": "https://deepmind.google/blog/d4rt-teaching-ai-to-see-the-world-in-four-dimensions/",
       "source": "Google DeepMind Blog",
@@ -1392,7 +1799,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 127,
+      "rank": 164,
       "title": "Hiring scouts to help me find guests",
       "link": "https://www.dwarkesh.com/p/hiring-scouts-to-help-me-find-guests",
       "source": "Dwarkesh Patel",
@@ -1403,7 +1810,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 128,
+      "rank": 165,
       "title": "The Surprisingly Long Life of the Vacuum Tube",
       "link": "https://www.construction-physics.com/p/the-surprisingly-long-life-of-the",
       "source": "Construction Physics",
@@ -1414,7 +1821,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 129,
+      "rank": 166,
       "title": "What I've been reading recently - Jan 10, 2026",
       "link": "https://www.dwarkesh.com/p/notes-jan-10-2026",
       "source": "Dwarkesh Patel",
@@ -1425,7 +1832,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 130,
+      "rank": 167,
       "title": "Adam Marblestone — AI is missing something fundamental about the brain",
       "link": "https://www.dwarkesh.com/p/adam-marblestone",
       "source": "Dwarkesh Patel",
@@ -1436,7 +1843,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 131,
+      "rank": 168,
       "title": "An audio version of my blog post, Thoughts on AI progress (Dec 2025)",
       "link": "https://www.dwarkesh.com/p/thoughts-on-ai-progress-dec-2025-video",
       "source": "Dwarkesh Patel",
@@ -1447,7 +1854,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 132,
+      "rank": 169,
       "title": "Sarah Paine — Why Russia Lost the Cold War",
       "link": "https://www.dwarkesh.com/p/sarah-paine-cold-war",
       "source": "Dwarkesh Patel",
@@ -1458,7 +1865,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 133,
+      "rank": 170,
       "title": "Deepening our partnership with the UK AI Security Institute",
       "link": "https://deepmind.google/blog/deepening-our-partnership-with-the-uk-ai-security-institute/",
       "source": "Google DeepMind Blog",
@@ -1469,7 +1876,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 134,
+      "rank": 171,
       "title": "Strengthening our partnership with the UK government to support prosperity and security in the AI era",
       "link": "https://deepmind.google/blog/strengthening-our-partnership-with-the-uk-government-to-support-prosperity-and-security-in-the-ai-era/",
       "source": "Google DeepMind Blog",
@@ -1480,7 +1887,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 135,
+      "rank": 172,
       "title": "Qualcomm's Hexagon AI Accelerators",
       "link": "https://thechipletter.substack.com/p/qualcomms-hexagon-ai-accelerators",
       "source": "The Chip Letter",
@@ -1491,7 +1898,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 136,
+      "rank": 173,
       "title": "Nexperia's Long History, Tangled Present and Uncertain Future",
       "link": "https://thechipletter.substack.com/p/the-tangled-past-present-and-future",
       "source": "The Chip Letter",
@@ -1502,7 +1909,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 137,
+      "rank": 174,
       "title": "Arm's Chief Architect on the History of the Arm Architecture",
       "link": "https://thechipletter.substack.com/p/arms-chief-architect-on-the-history",
       "source": "The Chip Letter",
@@ -1513,7 +1920,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 138,
+      "rank": 175,
       "title": "The End of Simplification: Intel Abandons X86S",
       "link": "https://thechipletter.substack.com/p/the-end-of-simplification-intel-abandons",
       "source": "The Chip Letter",
@@ -1524,7 +1931,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 139,
+      "rank": 176,
       "title": "How we’re bringing AI image verification to the Gemini app",
       "link": "https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app/",
       "source": "Google DeepMind Blog",
@@ -1535,7 +1942,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 140,
+      "rank": 177,
       "title": "April 2021 newsletter",
       "link": "https://gwern.substack.com/p/april-2021-newsletter",
       "source": "Gwern",
@@ -1546,7 +1953,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 141,
+      "rank": 178,
       "title": "February 2021 Gwern.net Newsletter",
       "link": "https://gwern.substack.com/p/february-2021-gwernnet-newsletter",
       "source": "Gwern",
@@ -1557,7 +1964,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 142,
+      "rank": 179,
       "title": "Jan 2021 Gwern.net Newsletter",
       "link": "https://gwern.substack.com/p/jan-2021-gwernnet-newsletter",
       "source": "Gwern",
@@ -1568,7 +1975,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 143,
+      "rank": 180,
       "title": "December newsletter",
       "link": "https://gwern.substack.com/p/december-newsletter",
       "source": "Gwern",
@@ -1579,7 +1986,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 144,
+      "rank": 181,
       "title": "October 2020 news",
       "link": "https://gwern.substack.com/p/october-2020-news",
       "source": "Gwern",
@@ -1590,7 +1997,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 145,
+      "rank": 182,
       "title": "September 2020 News",
       "link": "https://gwern.substack.com/p/september-2020-news",
       "source": "Gwern",
@@ -1601,7 +2008,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 146,
+      "rank": 183,
       "title": "July 2020 gwern.net newsletter",
       "link": "https://gwern.substack.com/p/july-2020-gwernnet-newsletter",
       "source": "Gwern",
@@ -1612,7 +2019,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 147,
+      "rank": 184,
       "title": "June gwern.net newsletter",
       "link": "https://gwern.substack.com/p/june-gwernnet-newsletter",
       "source": "Gwern",
@@ -1623,7 +2030,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 148,
+      "rank": 185,
       "title": "Satya Nadella — How Microsoft is preparing for AGI",
       "link": "https://www.dwarkesh.com/p/satya-nadella-2",
       "source": "Dwarkesh Patel",
@@ -1634,7 +2041,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 149,
+      "rank": 186,
       "title": "Sarah Paine — How Russia sabotaged China's rise",
       "link": "https://www.dwarkesh.com/p/sarah-paine-russo-chinese",
       "source": "Dwarkesh Patel",
@@ -1645,7 +2052,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 150,
+      "rank": 187,
       "title": "Thoughts on the AI buildout",
       "link": "https://www.dwarkesh.com/p/thoughts-on-the-ai-buildout",
       "source": "Dwarkesh Patel",
@@ -1656,7 +2063,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 151,
+      "rank": 188,
       "title": "Taalas serves Llama 3.1 8B at 17,000 tokens/second",
       "link": "https://simonwillison.net/2026/Feb/20/taalas/#atom-everything",
       "source": "Simon Willison",
@@ -1667,7 +2074,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 152,
+      "rank": 189,
       "title": "有在用猴狐浏览器的么",
       "link": "https://www.v2ex.com/t/1193603#reply2",
       "source": "V2EX 技术",
@@ -1678,7 +2085,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 153,
+      "rank": 190,
       "title": "Obsolescence",
       "link": "https://thechipletter.substack.com/p/obsolescence",
       "source": "The Chip Letter",
@@ -1689,7 +2096,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 154,
+      "rank": 191,
       "title": "Reading List 02/21/26",
       "link": "https://www.construction-physics.com/p/reading-list-022126",
       "source": "Construction Physics",
@@ -1700,7 +2107,40 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 155,
+      "rank": 192,
+      "title": "Dinosaur eggshells can reveal the age of other fossils",
+      "link": "https://arstechnica.com/science/2026/02/dinosaur-eggshells-can-reveal-the-age-of-other-fossils/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-21T13:00:01.000Z",
+      "score": 8,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 193,
+      "title": "Have we leapt into commercial genetic testing without understanding it?",
+      "link": "https://arstechnica.com/science/2026/02/have-we-leapt-into-commercial-genetic-testing-without-understanding-it/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-21T12:00:56.000Z",
+      "score": 8,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 194,
+      "title": "Major government research lab appears to be squeezing out foreign scientists",
+      "link": "https://arstechnica.com/science/2026/02/major-government-research-lab-appears-to-be-squeezing-out-foreign-scientists/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-21T11:31:35.000Z",
+      "score": 8,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 195,
       "title": "Qualcomm's Ventana RISC-V Acquisition",
       "link": "https://thechipletter.substack.com/p/qualcomms-risc-ventana-fusion",
       "source": "The Chip Letter",
@@ -1711,7 +2151,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 156,
+      "rank": 196,
       "title": "How Did TVs Get So Cheap?",
       "link": "https://www.construction-physics.com/p/how-did-tvs-get-so-cheap",
       "source": "Construction Physics",
@@ -1722,7 +2162,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 157,
+      "rank": 197,
       "title": "Gemini 3.1 Pro",
       "link": "https://simonwillison.net/2026/Feb/19/gemini-31-pro/#atom-everything",
       "source": "Simon Willison",
@@ -1733,7 +2173,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 158,
+      "rank": 198,
       "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
       "link": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
       "source": "Google DeepMind Blog",
@@ -1744,7 +2184,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 159,
+      "rank": 199,
       "title": "我比较疑惑，为何在 Github 上部分项目所提供的 APK 文件不直接提供签名后的 Universal APK 打包，而是提供若干分支？",
       "link": "https://www.v2ex.com/t/1193566#reply16",
       "source": "V2EX 技术",
@@ -1755,7 +2195,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 160,
+      "rank": 200,
       "title": "Andrej Karpathy talks about \"Claws\"",
       "link": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
       "source": "Simon Willison",
@@ -1766,7 +2206,18 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 161,
+      "rank": 201,
+      "title": "After fueling test, optimism grows for March launch of Artemis II to the Moon",
+      "link": "https://arstechnica.com/space/2026/02/nasa-reports-no-significant-leaks-in-artemis-ii-fueling-test-eyes-march-6-launch/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-20T23:55:43.000Z",
+      "score": 8,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 202,
       "title": "Adding TILs, releases, museums, tools and research to my blog",
       "link": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
       "source": "Simon Willison",
@@ -1777,7 +2228,29 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 162,
+      "rank": 203,
+      "title": "Microsoft gaming chief Phil Spencer steps down after 38 years with company",
+      "link": "https://arstechnica.com/gaming/2026/02/microsoft-gaming-chief-phil-spencer-steps-down-after-38-years-with-company/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-20T23:28:21.000Z",
+      "score": 8,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 204,
+      "title": "MAHA moms threaten to turn this car around as RFK Jr. flips on pesticide",
+      "link": "https://arstechnica.com/health/2026/02/maha-moms-threaten-to-turn-this-car-around-as-rfk-jr-flips-on-pesticide/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-20T23:14:09.000Z",
+      "score": 8,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 205,
       "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
       "link": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
       "source": "Krebs on Security",
@@ -1788,7 +2261,7 @@
       "category": "🛡️ 安全"
     },
     {
-      "rank": 163,
+      "rank": 206,
       "title": "Veo 3.1 Ingredients to Video: More consistency, creativity and control",
       "link": "https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control/",
       "source": "Google DeepMind Blog",
@@ -1799,7 +2272,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 164,
+      "rank": 207,
       "title": "The Kimwolf Botnet is Stalking Your Local Network",
       "link": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
       "source": "Krebs on Security",
@@ -1810,7 +2283,7 @@
       "category": "🛡️ 安全"
     },
     {
-      "rank": 165,
+      "rank": 208,
       "title": "Happy 16th Birthday, KrebsOnSecurity.com!",
       "link": "https://krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com/",
       "source": "Krebs on Security",
@@ -1821,7 +2294,7 @@
       "category": "🛡️ 安全"
     },
     {
-      "rank": 166,
+      "rank": 209,
       "title": "How Accurate Are Learning Curves?",
       "link": "https://www.construction-physics.com/p/how-accurate-are-learning-curves",
       "source": "Construction Physics",
@@ -1832,7 +2305,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 167,
+      "rank": 210,
       "title": "AlphaFold: Five years of impact",
       "link": "https://deepmind.google/blog/alphafold-five-years-of-impact/",
       "source": "Google DeepMind Blog",
@@ -1843,7 +2316,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 168,
+      "rank": 211,
       "title": "Podcast Strategy Doc (December 2025)",
       "link": "https://www.dwarkesh.com/p/dec-strategy-doc",
       "source": "Dwarkesh Patel",
@@ -1854,7 +2327,29 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 169,
+      "rank": 212,
+      "title": "Fury over Discord’s age checks explodes after shady Persona test in UK",
+      "link": "https://arstechnica.com/tech-policy/2026/02/discord-and-persona-end-partnership-after-shady-uk-age-test-sparks-outcry/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-20T22:41:02.000Z",
+      "score": 7,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 213,
+      "title": "Meta's flagship metaverse service leaves VR behind",
+      "link": "https://arstechnica.com/gadgets/2026/02/metas-flagship-metaverse-service-leaves-vr-behind/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-20T21:49:22.000Z",
+      "score": 7,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 214,
       "title": "自建家用 nas,有没有成熟方案",
       "link": "https://www.v2ex.com/t/1193556#reply16",
       "source": "V2EX 技术",
@@ -1865,7 +2360,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 170,
+      "rank": 215,
       "title": "A new way to express yourself: Gemini can now create music",
       "link": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
       "source": "Google DeepMind Blog",
@@ -1876,7 +2371,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 171,
+      "rank": 216,
       "title": "‘Starkiller’ Phishing Service Proxies Real Login Pages, MFA",
       "link": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
       "source": "Krebs on Security",
@@ -1887,7 +2382,18 @@
       "category": "🛡️ 安全"
     },
     {
-      "rank": 172,
+      "rank": 217,
+      "title": "Controversial NIH director now in charge of CDC, too, in RFK Jr. shake-up",
+      "link": "https://arstechnica.com/health/2026/02/with-nih-in-chaos-its-controversial-director-is-taking-over-cdc-too/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-20T19:44:39.000Z",
+      "score": 7,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 218,
       "title": "目前 Manus 的替代品?",
       "link": "https://www.v2ex.com/t/1193552#reply20",
       "source": "V2EX 技术",
@@ -1898,7 +2404,18 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 173,
+      "rank": 219,
+      "title": "Wikipedia blacklists Archive.today, starts removing 695,000 archive links",
+      "link": "https://arstechnica.com/tech-policy/2026/02/wikipedia-bans-archive-today-after-site-executed-ddos-and-altered-web-captures/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-20T18:35:43.000Z",
+      "score": 7,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 220,
       "title": "旧版 Google App Engine (GAE) 还能有办法导出数据么？",
       "link": "https://www.v2ex.com/t/1193547#reply4",
       "source": "V2EX 技术",
@@ -1909,7 +2426,29 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 174,
+      "rank": 221,
+      "title": "Why Final Fantasy is now targeting PC as its \"lead platform\"",
+      "link": "https://arstechnica.com/gaming/2026/02/why-final-fantasy-is-now-targeting-pc-as-its-lead-platform/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-20T17:26:59.000Z",
+      "score": 7,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 222,
+      "title": "\"Million-year-old\" fossil skulls from China are far older—and not Denisovans",
+      "link": "https://arstechnica.com/science/2026/02/new-dates-on-chinese-fossils-raise-question-of-how-many-times-we-left-africa/",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-20T17:03:06.000Z",
+      "score": 7,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 223,
       "title": "Premium: The Hater's Guide To NVIDIA",
       "link": "https://www.wheresyoured.at/the-haters-guide-to-nvidia/",
       "source": "Where's Your Ed At",
@@ -1920,7 +2459,18 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 175,
+      "rank": 224,
+      "title": "Measles cases are rising. Other vaccine-preventable infections could be next.",
+      "link": "https://www.technologyreview.com/2026/02/20/1133365/measles-cases-rising-vaccine-preventable-infections-mumps-hepatitis-b/",
+      "source": "MIT Technology Review",
+      "summary": "There’s a measles outbreak happening close to where I live. Since the start of this year, 34 cases have been confirmed in Enfield, a northern borough of London. Most of those affected are children under the age of 11. One in five have needed hospital treatment. It’s another worrying development for ",
+      "llmComment": null,
+      "pubDate": "2026-02-20T10:00:00.000Z",
+      "score": 7,
+      "category": "🤖 AI & 研究"
+    },
+    {
+      "rank": 225,
       "title": "这个推理速度也太快了吧！ chatjimmy.ai 比查 db 都快啊！",
       "link": "https://www.v2ex.com/t/1193358#reply57",
       "source": "V2EX 技术",
@@ -1931,7 +2481,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 176,
+      "rank": 226,
       "title": "Apple Creator Studio Usage Restrictions",
       "link": "https://arstechnica.com/gadgets/2026/01/seven-things-to-know-about-how-apples-creator-studio-subscriptions-work/",
       "source": "Daring Fireball",
@@ -1942,7 +2492,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 177,
+      "rank": 227,
       "title": "Sam Altman and the day Nvidia’s meteoric rise came to an end",
       "link": "https://garymarcus.substack.com/p/sam-altman-and-the-day-nvidias-meteoric",
       "source": "Gary Marcus",
@@ -1953,7 +2503,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 178,
+      "rank": 228,
       "title": "OpenAI’s Codex",
       "link": "https://simonwillison.net/2026/Feb/2/introducing-the-codex-app/",
       "source": "Daring Fireball",
@@ -1964,7 +2514,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 179,
+      "rank": 229,
       "title": "Xcode 26.3 ‘Unlocks the Power of Agentic Coding’",
       "link": "https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/",
       "source": "Daring Fireball",
@@ -1975,7 +2525,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 180,
+      "rank": 230,
       "title": "Improved Gemini audio models for powerful voice experiences",
       "link": "https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences/",
       "source": "Google DeepMind Blog",
@@ -1986,7 +2536,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 181,
+      "rank": 231,
       "title": "FACTS Benchmark Suite: Systematically evaluating the factuality of large language models",
       "link": "https://deepmind.google/blog/facts-benchmark-suite-systematically-evaluating-the-factuality-of-large-language-models/",
       "source": "Google DeepMind Blog",
@@ -1997,7 +2547,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 182,
+      "rank": 232,
       "title": "Ilya Sutskever — We're moving from the age of scaling to the age of research",
       "link": "https://www.dwarkesh.com/p/ilya-sutskever-2",
       "source": "Dwarkesh Patel",
@@ -2008,7 +2558,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 183,
+      "rank": 233,
       "title": "Premium: The Hater's Guide To The AI Bubble Vol. 2",
       "link": "https://www.wheresyoured.at/premium-the-haters-guide-to-the-ai-bubble-vol-2/",
       "source": "Where's Your Ed At",
@@ -2019,7 +2569,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 184,
+      "rank": 234,
       "title": "Exclusive: Here's How Much OpenAI Spends On Inference and Its Revenue Share With Microsoft",
       "link": "https://www.wheresyoured.at/oai_docs/",
       "source": "Where's Your Ed At",
@@ -2030,7 +2580,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 185,
+      "rank": 235,
       "title": "AI detection tools cannot prove that text is AI-generated",
       "link": "https://seangoedecke.com/ai-detection/",
       "source": "Sean Goedecke",
@@ -2041,7 +2591,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 186,
+      "rank": 236,
       "title": "Insider amnesia",
       "link": "https://seangoedecke.com/insider-amnesia/",
       "source": "Sean Goedecke",
@@ -2052,7 +2602,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 187,
+      "rank": 237,
       "title": "What's so hard about continuous learning?",
       "link": "https://seangoedecke.com/continuous-learning/",
       "source": "Sean Goedecke",
@@ -2063,7 +2613,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 188,
+      "rank": 238,
       "title": "我想问下 nothing 可以支付宝指纹吗？",
       "link": "https://www.v2ex.com/t/1193514#reply16",
       "source": "V2EX 技术",
@@ -2074,7 +2624,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 189,
+      "rank": 239,
       "title": "Experimenting with sponsorship for my blog and newsletter",
       "link": "https://simonwillison.net/2026/Feb/19/sponsorship/#atom-everything",
       "source": "Simon Willison",
@@ -2085,7 +2635,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 190,
+      "rank": 240,
       "title": "Sentry",
       "link": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;utm_medium=paid-display&amp;utm_campaign=general-fy27q1-evergreen&amp;utm_content=static-ad-mobilerss-trysentry",
       "source": "Daring Fireball",
@@ -2096,7 +2646,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 191,
+      "rank": 241,
       "title": "SwanLake：一个基于 DuckDB + DuckLake 的 Arrow Flight SQL 数据湖服务",
       "link": "https://www.v2ex.com/t/1193499#reply0",
       "source": "V2EX 技术",
@@ -2107,7 +2657,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 192,
+      "rank": 242,
       "title": "Reading list 02/14/26",
       "link": "https://www.construction-physics.com/p/reading-list-021426",
       "source": "Construction Physics",
@@ -2118,7 +2668,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 193,
+      "rank": 243,
       "title": "Dario Amodei — \"We are near the end of the exponential\"",
       "link": "https://www.dwarkesh.com/p/dario-amodei-2",
       "source": "Dwarkesh Patel",
@@ -2129,7 +2679,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 194,
+      "rank": 244,
       "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
       "link": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
       "source": "Google DeepMind Blog",
@@ -2140,7 +2690,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 195,
+      "rank": 245,
       "title": "Trends in US Construction Productivity",
       "link": "https://www.construction-physics.com/p/trends-in-us-construction-productivity",
       "source": "Construction Physics",
@@ -2151,7 +2701,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 196,
+      "rank": 246,
       "title": "Kimwolf Botnet Swamps Anonymity Network I2P",
       "link": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
       "source": "Krebs on Security",
@@ -2162,7 +2712,7 @@
       "category": "🛡️ 安全"
     },
     {
-      "rank": 197,
+      "rank": 247,
       "title": "Patch Tuesday, February 2026 Edition",
       "link": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
       "source": "Krebs on Security",
@@ -2173,7 +2723,7 @@
       "category": "🛡️ 安全"
     },
     {
-      "rank": 198,
+      "rank": 248,
       "title": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
       "link": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/",
       "source": "Google DeepMind Blog",
@@ -2184,7 +2734,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 199,
+      "rank": 249,
       "title": "Reading List 02/06/2026",
       "link": "https://www.construction-physics.com/p/reading-list-02062026",
       "source": "Construction Physics",
@@ -2195,7 +2745,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 200,
+      "rank": 250,
       "title": "Notes on Space GPUs",
       "link": "https://www.dwarkesh.com/p/notes-on-space-gpus",
       "source": "Dwarkesh Patel",
@@ -2206,7 +2756,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 201,
+      "rank": 251,
       "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
       "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
       "source": "Krebs on Security",
@@ -2217,7 +2767,7 @@
       "category": "🛡️ 安全"
     },
     {
-      "rank": 202,
+      "rank": 252,
       "title": "Reading List for 01/31/2026",
       "link": "https://www.construction-physics.com/p/reading-list-for-01312026",
       "source": "Construction Physics",
@@ -2228,7 +2778,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 203,
+      "rank": 253,
       "title": "Intel's Larabee Legacy",
       "link": "https://thechipletter.substack.com/p/larabees-long-shadow",
       "source": "The Chip Letter",
@@ -2239,7 +2789,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 204,
+      "rank": 254,
       "title": "Reading List 01/24/26",
       "link": "https://www.construction-physics.com/p/reading-list-012426",
       "source": "Construction Physics",
@@ -2250,7 +2800,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 205,
+      "rank": 255,
       "title": "Do Commodities Get Cheaper Over Time?",
       "link": "https://www.construction-physics.com/p/do-commodities-get-cheaper-over-time",
       "source": "Construction Physics",
@@ -2261,7 +2811,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 206,
+      "rank": 256,
       "title": "Breaking: Sir Demis Hassabis becomes the latest to say that ChatGPT is a dead-end and that we must turn our focus to world models",
       "link": "https://garymarcus.substack.com/p/breaking-sir-demis-hassabis-becomes",
       "source": "Gary Marcus",
@@ -2272,7 +2822,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 207,
+      "rank": 257,
       "title": "Patch Tuesday, January 2026 Edition",
       "link": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
       "source": "Krebs on Security",
@@ -2283,7 +2833,7 @@
       "category": "🛡️ 安全"
     },
     {
-      "rank": 208,
+      "rank": 258,
       "title": "Reading List 1/10/2026",
       "link": "https://www.construction-physics.com/p/reading-list-1102026",
       "source": "Construction Physics",
@@ -2294,7 +2844,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 209,
+      "rank": 259,
       "title": "Reading List 01/03/2026",
       "link": "https://www.construction-physics.com/p/reading-list-01032026",
       "source": "Construction Physics",
@@ -2305,7 +2855,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 210,
+      "rank": 260,
       "title": "Should US homebuilders emulate Sweden?",
       "link": "https://www.construction-physics.com/p/should-us-homebuilders-emulate-sweden",
       "source": "Construction Physics",
@@ -2316,7 +2866,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 211,
+      "rank": 261,
       "title": "Google's year in review: 8 areas with research breakthroughs in 2025",
       "link": "https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025/",
       "source": "Google DeepMind Blog",
@@ -2327,7 +2877,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 212,
+      "rank": 262,
       "title": "Reading List 12/20/25",
       "link": "https://www.construction-physics.com/p/reading-list-122025",
       "source": "Construction Physics",
@@ -2338,7 +2888,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 213,
+      "rank": 263,
       "title": "How Bell Labs Won Its First Nobel Prize",
       "link": "https://www.construction-physics.com/p/how-bell-labs-won-its-first-nobel",
       "source": "Construction Physics",
@@ -2349,7 +2899,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 214,
+      "rank": 264,
       "title": "Gemini 3 Flash: frontier intelligence built for speed",
       "link": "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed/",
       "source": "Google DeepMind Blog",
@@ -2360,7 +2910,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 215,
+      "rank": 265,
       "title": "TPU Mania",
       "link": "https://thechipletter.substack.com/p/tpu-mania",
       "source": "The Chip Letter",
@@ -2371,7 +2921,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 216,
+      "rank": 266,
       "title": "Reading List 12/13/2025",
       "link": "https://www.construction-physics.com/p/reading-list-12132025",
       "source": "Construction Physics",
@@ -2382,7 +2932,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 217,
+      "rank": 267,
       "title": "Stagnant Construction Productivity Is a Worldwide Problem",
       "link": "https://www.construction-physics.com/p/stagnant-construction-productivity",
       "source": "Construction Physics",
@@ -2393,7 +2943,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 218,
+      "rank": 268,
       "title": "The PC was never a true 'IBMer'",
       "link": "https://thechipletter.substack.com/p/the-pc-was-never-a-true-ibmer",
       "source": "The Chip Letter",
@@ -2404,7 +2954,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 219,
+      "rank": 269,
       "title": "How Big was IBM?",
       "link": "https://thechipletter.substack.com/p/how-big-was-ibm",
       "source": "The Chip Letter",
@@ -2415,7 +2965,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 220,
+      "rank": 270,
       "title": "Intel in Oz",
       "link": "https://thechipletter.substack.com/p/intel-in-oz",
       "source": "The Chip Letter",
@@ -2426,7 +2976,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 221,
+      "rank": 271,
       "title": "Source Control",
       "link": "https://thechipletter.substack.com/p/source-control",
       "source": "The Chip Letter",
@@ -2437,7 +2987,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 222,
+      "rank": 272,
       "title": "Turing Award Histories",
       "link": "https://thechipletter.substack.com/p/turing-award-histories",
       "source": "The Chip Letter",
@@ -2448,7 +2998,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 223,
+      "rank": 273,
       "title": "MIPS",
       "link": "https://thechipletter.substack.com/p/mips",
       "source": "The Chip Letter",
@@ -2459,7 +3009,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 224,
+      "rank": 274,
       "title": "Huang's Law",
       "link": "https://thechipletter.substack.com/p/huangs-law",
       "source": "The Chip Letter",
@@ -2470,7 +3020,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 225,
+      "rank": 275,
       "title": "Apple In China",
       "link": "https://thechipletter.substack.com/p/apple-in-china",
       "source": "The Chip Letter",
@@ -2481,7 +3031,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 226,
+      "rank": 276,
       "title": "Personal Computer Origins: The Datapoint 2200",
       "link": "https://thechipletter.substack.com/p/personal-computer-origins-the-datapoint",
       "source": "The Chip Letter",
@@ -2492,7 +3042,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 227,
+      "rank": 277,
       "title": "Markdown and Substack - A Bear Workflow",
       "link": "https://thechipletter.substack.com/p/markdown-and-substack-a-bear-workflow",
       "source": "The Chip Letter",
@@ -2503,7 +3053,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 228,
+      "rank": 278,
       "title": "Engineering more resilient crops for a warming climate",
       "link": "https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate/",
       "source": "Google DeepMind Blog",
@@ -2514,7 +3064,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 229,
+      "rank": 279,
       "title": "Revealing a key protein behind heart disease",
       "link": "https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease/",
       "source": "Google DeepMind Blog",
@@ -2525,7 +3075,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 230,
+      "rank": 280,
       "title": "March 2021 Gwern.net Newsletter",
       "link": "https://gwern.substack.com/p/march-2021-gwernnet-newsletter",
       "source": "Gwern",
@@ -2536,7 +3086,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 231,
+      "rank": 281,
       "title": "November newsletter",
       "link": "https://gwern.substack.com/p/november-newsletter",
       "source": "Gwern",
@@ -2547,7 +3097,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 232,
+      "rank": 282,
       "title": "August 2020 gwern.net newsletter",
       "link": "https://gwern.substack.com/p/august-2020-gwernnet-newsletter",
       "source": "Gwern",
@@ -2558,7 +3108,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 233,
+      "rank": 283,
       "title": "April 2020 gwern.net newsletter",
       "link": "https://gwern.substack.com/p/april-2020-gwern-net-newsletter",
       "source": "Gwern",
@@ -2569,7 +3119,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 234,
+      "rank": 284,
       "title": "RL is even more information inefficient than you thought",
       "link": "https://www.dwarkesh.com/p/bits-per-sample",
       "source": "Dwarkesh Patel",
@@ -2580,7 +3130,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 235,
+      "rank": 285,
       "title": "Andrej Karpathy — AGI is still a decade away",
       "link": "https://www.dwarkesh.com/p/andrej-karpathy",
       "source": "Dwarkesh Patel",
@@ -2591,7 +3141,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 236,
+      "rank": 286,
       "title": "Nick Lane – Life as we know it is chemically inevitable",
       "link": "https://www.dwarkesh.com/p/nick-lane",
       "source": "Dwarkesh Patel",
@@ -2602,7 +3152,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 237,
+      "rank": 287,
       "title": "Some thoughts on the Sutton interview",
       "link": "https://www.dwarkesh.com/p/thoughts-on-sutton",
       "source": "Dwarkesh Patel",
@@ -2613,7 +3163,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 238,
+      "rank": 288,
       "title": "On The Vital Question by Nick Lane",
       "link": "https://www.dwarkesh.com/p/the-vital-question",
       "source": "Dwarkesh Patel",
@@ -2624,7 +3174,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 239,
+      "rank": 289,
       "title": "求推荐大手人体工学鼠标",
       "link": "https://www.v2ex.com/t/1193480#reply31",
       "source": "V2EX 技术",
@@ -2635,7 +3185,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 240,
+      "rank": 290,
       "title": "You Only Think They Work For You",
       "link": "https://steveblank.com/2026/02/18/you-only-think-they-work-for-you/",
       "source": "Steve Blank",
@@ -2646,7 +3196,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 241,
+      "rank": 291,
       "title": "Apple Invites Media to Special ‘Experience’ in New York, London, and Shanghai on March 4",
       "link": "https://www.macrumors.com/2026/02/16/apple-announces-special-event-in-new-york/",
       "source": "Daring Fireball",
@@ -2657,7 +3207,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 242,
+      "rank": 292,
       "title": "BREAKING: LLM “reasoning” continues to be deeply flawed",
       "link": "https://garymarcus.substack.com/p/breaking-llm-reasoning-continues",
       "source": "Gary Marcus",
@@ -2668,7 +3218,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 243,
+      "rank": 293,
       "title": "有没有什么工具提醒我 claude 的 5h 时间到了，时间重置了",
       "link": "https://www.v2ex.com/t/1193456#reply10",
       "source": "V2EX 技术",
@@ -2679,7 +3229,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 244,
+      "rank": 294,
       "title": "Claude Code 镜像站大家用的什么？如何确保镜像站不用其它模型注水？",
       "link": "https://www.v2ex.com/t/1193446#reply34",
       "source": "V2EX 技术",
@@ -2690,18 +3240,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 245,
-      "title": "红米手机刷了国际版，内网也能推送",
-      "link": "https://www.v2ex.com/t/1193433#reply31",
-      "source": "V2EX 技术",
-      "summary": "",
-      "llmComment": null,
-      "pubDate": "2026-02-22T00:27:32.000Z",
-      "score": 5,
-      "category": "💻 科技产品"
-    },
-    {
-      "rank": 246,
+      "rank": 295,
       "title": "IMAX and Apple Collaborate to Screen F1 Races Live in Theaters",
       "link": "https://www.motorsport.com/f1/news/f1-to-screen-live-in-imax-theatres-in-2026-as-apple-tv-unveils-new-us-viewing-experience/10798974/",
       "source": "Daring Fireball",
@@ -2712,7 +3251,18 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 247,
+      "rank": 296,
+      "title": "红米手机刷了国际版，内网也能推送",
+      "link": "https://www.v2ex.com/t/1193433#reply31",
+      "source": "V2EX 技术",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-22T00:27:32.000Z",
+      "score": 5,
+      "category": "💻 科技产品"
+    },
+    {
+      "rank": 297,
       "title": "Premium: The AI Data Center Financial Crisis",
       "link": "https://www.wheresyoured.at/data-center-crisis/",
       "source": "Where's Your Ed At",
@@ -2723,7 +3273,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 248,
+      "rank": 298,
       "title": "AI 编程后，我更累了",
       "link": "https://www.v2ex.com/t/1192730#reply95",
       "source": "V2EX 技术",
@@ -2734,7 +3284,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 249,
+      "rank": 299,
       "title": "Breaking: OpenAI is probably toast",
       "link": "https://garymarcus.substack.com/p/breaking-openai-is-probably-toast",
       "source": "Gary Marcus",
@@ -2745,7 +3295,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 250,
+      "rank": 300,
       "title": "Gurman: New Siri Might Be Delayed Again",
       "link": "https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27",
       "source": "Daring Fireball",
@@ -2756,7 +3306,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 251,
+      "rank": 301,
       "title": "Some disconcerting facts about AI and banking that may have profound consequences",
       "link": "https://garymarcus.substack.com/p/some-disconcerting-facts-about-ai",
       "source": "Gary Marcus",
@@ -2767,7 +3317,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 252,
+      "rank": 302,
       "title": "Super Bowl Matchup: Anthropic vs OpenAI",
       "link": "https://garymarcus.substack.com/p/super-bowl-matchup-anthropic-vs-openai",
       "source": "Gary Marcus",
@@ -2778,7 +3328,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 253,
+      "rank": 303,
       "title": "Is the Great AI meltdown imminent? [NSFW]",
       "link": "https://garymarcus.substack.com/p/is-the-great-ai-meltdown-imminent",
       "source": "Gary Marcus",
@@ -2789,7 +3339,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 254,
+      "rank": 304,
       "title": "Getting the main thing right",
       "link": "https://seangoedecke.com/getting-the-main-thing-right/",
       "source": "Sean Goedecke",
@@ -2800,7 +3350,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 255,
+      "rank": 305,
       "title": "Four theories about the SpaceX - xAI merger",
       "link": "https://garymarcus.substack.com/p/four-theories-about-the-spacex-xai",
       "source": "Gary Marcus",
@@ -2811,7 +3361,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 256,
+      "rank": 306,
       "title": "Where is AI headed? 8 perspectives at The New York Times",
       "link": "https://garymarcus.substack.com/p/where-is-ai-headed-8-perspectives",
       "source": "Gary Marcus",
@@ -2822,7 +3372,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 257,
+      "rank": 307,
       "title": "OpenClaw (a.k.a. Moltbot) is everywhere all at once, and a disaster waiting to happen",
       "link": "https://garymarcus.substack.com/p/openclaw-aka-moltbot-is-everywhere",
       "source": "Gary Marcus",
@@ -2833,7 +3383,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 258,
+      "rank": 308,
       "title": "How does AI impact skill formation?",
       "link": "https://seangoedecke.com/how-does-ai-impact-skill-formation/",
       "source": "Sean Goedecke",
@@ -2844,7 +3394,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 259,
+      "rank": 309,
       "title": "Apple Reports Record-Breaking Revenue and Profit for Q1 FY26",
       "link": "https://www.apple.com/newsroom/2026/01/apple-reports-first-quarter-results/",
       "source": "Daring Fireball",
@@ -2855,7 +3405,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 260,
+      "rank": 310,
       "title": "Premium: The AI Bubble Is A Time Bomb",
       "link": "https://www.wheresyoured.at/premium-timebomb/",
       "source": "Where's Your Ed At",
@@ -2866,7 +3416,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 261,
+      "rank": 311,
       "title": "AI bot swarms threaten to undermine democracy",
       "link": "https://garymarcus.substack.com/p/ai-bot-swarms-threaten-to-undermine",
       "source": "Gary Marcus",
@@ -2877,7 +3427,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 262,
+      "rank": 312,
       "title": "The Big Short meets Marcus on AI",
       "link": "https://garymarcus.substack.com/p/the-big-short-meets-marcus-on-ai",
       "source": "Gary Marcus",
@@ -2888,7 +3438,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 263,
+      "rank": 313,
       "title": "Crypto grifters are recruiting open-source AI developers",
       "link": "https://seangoedecke.com/gas-and-ralph/",
       "source": "Sean Goedecke",
@@ -2899,7 +3449,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 264,
+      "rank": 314,
       "title": "2025, A Retrospective",
       "link": "https://www.wheresyoured.at/2025-a-retrospective/",
       "source": "Where's Your Ed At",
@@ -2910,7 +3460,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 265,
+      "rank": 315,
       "title": "Premium: Mythbusters - AI Edition",
       "link": "https://www.wheresyoured.at/ai-mythbusters/",
       "source": "Where's Your Ed At",
@@ -2921,7 +3471,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 266,
+      "rank": 316,
       "title": "Quantum Computing – An Update",
       "link": "https://steveblank.com/2024/10/22/quantum-computing-an-update/",
       "source": "Steve Blank",
@@ -2932,7 +3482,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 267,
+      "rank": 317,
       "title": "I guess I was wrong about AI persuasion",
       "link": "https://dynomight.net/persuasion/",
       "source": "dynomight",
@@ -2943,7 +3493,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 268,
+      "rank": 318,
       "title": "Futarchy’s fundamental flaw — the market — the blog post",
       "link": "https://dynomight.net/futarchy-market/",
       "source": "dynomight",
@@ -2954,7 +3504,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 269,
+      "rank": 319,
       "title": "Heritability puzzlers",
       "link": "https://dynomight.net/heritable/",
       "source": "dynomight",
@@ -2965,7 +3515,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 270,
+      "rank": 320,
       "title": "Premium: The Ways The AI Bubble Might Burst",
       "link": "https://www.wheresyoured.at/premium-the-ways-the-ai-bubble-might-burst/",
       "source": "Where's Your Ed At",
@@ -2976,7 +3526,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 271,
+      "rank": 321,
       "title": "写代码不再是一种严肃意义的技能，类似于驾驶技术了",
       "link": "https://www.v2ex.com/t/1193393#reply88",
       "source": "V2EX 技术",
@@ -2987,7 +3537,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 272,
+      "rank": 322,
       "title": "★ Apple Releases iOS 26 Adoption Rates, and They’re Pretty Much in Line With the Last Few Years",
       "link": "https://daringfireball.net/2026/02/apple_releases_ios_26_adoption_rates",
       "source": "Daring Fireball",
@@ -2998,7 +3548,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 273,
+      "rank": 323,
       "title": "Rumors of AGI’s arrival have been greatly exaggerated",
       "link": "https://garymarcus.substack.com/p/rumors-of-agis-arrival-have-been",
       "source": "Gary Marcus",
@@ -3009,7 +3559,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 274,
+      "rank": 324,
       "title": "Making the Wrong Things Go Faster at The Department of War",
       "link": "https://steveblank.com/2026/02/03/making-the-wrong-things-go-faster-at-the-department-of-war/",
       "source": "Steve Blank",
@@ -3020,7 +3570,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 275,
+      "rank": 325,
       "title": "NVIDIA Isn't Enron - So What Is It?",
       "link": "https://www.wheresyoured.at/nvidia-isnt-enron-so-what-is-it/",
       "source": "Where's Your Ed At",
@@ -3031,7 +3581,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 276,
+      "rank": 326,
       "title": "Compiling Scheme to WebAssembly",
       "link": "https://eli.thegreenplace.net/2026/compiling-scheme-to-webassembly/",
       "source": "Eli Bendersky",
@@ -3042,7 +3592,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 277,
+      "rank": 327,
       "title": "Premium: This Is Worse Than The Dot Com Bubble",
       "link": "https://www.wheresyoured.at/dot-com-bubble/",
       "source": "Where's Your Ed At",
@@ -3053,7 +3603,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 278,
+      "rank": 328,
       "title": "It only took 20 years, but the Strategic Management Society now Believes the Lean Startup is a Strategy",
       "link": "https://steveblank.com/2025/10/30/it-only-took-20-years-but-the-strategic-management-society-now-believes-the-lean-startup-is-a-strategy-i-got-an-award-for-it/",
       "source": "Steve Blank",
@@ -3064,7 +3614,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 279,
+      "rank": 329,
       "title": "Underrated reasons to be thankful V",
       "link": "https://dynomight.net/thanks-5/",
       "source": "dynomight",
@@ -3075,7 +3625,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 280,
+      "rank": 330,
       "title": "One More Spitball Idea for Apple’s March 4 Media Event ‘Experience’: Immersive F1 on Vision Pro?",
       "link": "https://www.formula1.com/en/latest/article/official-grand-prix-start-times-for-2026-f1-season-confirmed.2UgPfArqH76tzlOYh21jSG",
       "source": "Daring Fireball",
@@ -3086,7 +3636,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 281,
+      "rank": 331,
       "title": "Paul Ford: ‘The A.I. Disruption Has Arrived, and It Sure Is Fun’",
       "link": "https://www.nytimes.com/2026/02/18/opinion/ai-software.html?unlocked_article_code=1.NFA.djaw.TBlAp8kE_N-i",
       "source": "Daring Fireball",
@@ -3097,7 +3647,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 282,
+      "rank": 332,
       "title": "How to Force Restart an iPhone",
       "link": "https://support.apple.com/guide/iphone/force-restart-iphone-iph8903c3ee6/ios",
       "source": "Daring Fireball",
@@ -3108,7 +3658,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 283,
+      "rank": 333,
       "title": "Diagnostics Factory",
       "link": "https://matklad.github.io/2026/02/16/diagnostics-factory.html",
       "source": "matklad",
@@ -3119,7 +3669,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 284,
+      "rank": 334,
       "title": "WorkOS Pipes",
       "link": "https://workos.com/docs/pipes?utm_source=daringfireball&amp;utm_medium=newsletter&amp;utm_campaign=q12026&amp;utm_content=no_rebuild",
       "source": "Daring Fireball",
@@ -3130,7 +3680,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 285,
+      "rank": 335,
       "title": "Joanna Stern Signs Off From The Wall Street Journal",
       "link": "https://www.wsj.com/tech/personal-tech/12-years-consumer-tech-phones-ev-ai-74107804?st=YtTDdM&amp;reflink=desktopwebshare_permalink",
       "source": "Daring Fireball",
@@ -3141,7 +3691,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 286,
+      "rank": 336,
       "title": "Cost of Housing",
       "link": "https://geohot.github.io//blog/jekyll/update/2026/02/16/cost-of-housing.html",
       "source": "geohot Blog",
@@ -3152,7 +3702,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 287,
+      "rank": 337,
       "title": "Justifying text-wrap: pretty",
       "link": "https://matklad.github.io/2026/02/14/justifying-text-wrap-pretty.html",
       "source": "matklad",
@@ -3163,7 +3713,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 288,
+      "rank": 338,
       "title": "Irony, Irony laced with Karma, and Terror",
       "link": "https://garymarcus.substack.com/p/irony-irony-laced-with-karma-and",
       "source": "Gary Marcus",
@@ -3174,7 +3724,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 289,
+      "rank": 339,
       "title": "Promises are cheap",
       "link": "https://garymarcus.substack.com/p/promises-are-cheap",
       "source": "Gary Marcus",
@@ -3185,7 +3735,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 290,
+      "rank": 340,
       "title": "More MacOS 26.3 Finder Column View Silliness",
       "link": "https://lapcatsoftware.com/articles/2026/2/4.html",
       "source": "Daring Fireball",
@@ -3196,7 +3746,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 291,
+      "rank": 341,
       "title": "I Told You So",
       "link": "https://geohot.github.io//blog/jekyll/update/2026/02/13/i-told-you-so.html",
       "source": "geohot Blog",
@@ -3207,7 +3757,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 292,
+      "rank": 342,
       "title": "About that Matt Shumer post that has nearly 50 million views",
       "link": "https://garymarcus.substack.com/p/about-that-matt-shumer-post-that",
       "source": "Gary Marcus",
@@ -3218,7 +3768,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 293,
+      "rank": 343,
       "title": "The literal enshittification of The United States",
       "link": "https://garymarcus.substack.com/p/the-literal-enshittification-of-the",
       "source": "Gary Marcus",
@@ -3229,7 +3779,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 294,
+      "rank": 344,
       "title": "Programming Aphorisms",
       "link": "https://matklad.github.io/2026/02/11/programming-aphorisms.html",
       "source": "matklad",
@@ -3240,7 +3790,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 295,
+      "rank": 345,
       "title": "On screwing up",
       "link": "https://seangoedecke.com/screwing-up/",
       "source": "Sean Goedecke",
@@ -3251,7 +3801,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 296,
+      "rank": 346,
       "title": "Revisionist History – Aliens, Secrets and Conspiracies",
       "link": "https://steveblank.com/2026/02/10/revisionist-history-aliens-secrets-and-conspiracies/",
       "source": "Steve Blank",
@@ -3262,7 +3812,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 297,
+      "rank": 347,
       "title": "Large tech companies don't need heroes",
       "link": "https://seangoedecke.com/heroism/",
       "source": "Sean Goedecke",
@@ -3273,7 +3823,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 298,
+      "rank": 348,
       "title": "Premium: The Hater's Guide To Microsoft",
       "link": "https://www.wheresyoured.at/premium-the-haters-guide-to-microsoft/",
       "source": "Where's Your Ed At",
@@ -3284,7 +3834,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 299,
+      "rank": 349,
       "title": "CI In a Box",
       "link": "https://matklad.github.io/2026/02/06/ci-in-a-box.html",
       "source": "matklad",
@@ -3295,7 +3845,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 300,
+      "rank": 350,
       "title": "Heritability of human life span is about 50% when heritability is redefined to be something different",
       "link": "https://dynomight.net/lifespan/",
       "source": "dynomight",
@@ -3306,7 +3856,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 301,
+      "rank": 351,
       "title": "Premium: The Hater's Guide to Oracle",
       "link": "https://www.wheresyoured.at/haters-guide-oracle/",
       "source": "Where's Your Ed At",
@@ -3317,7 +3867,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 302,
+      "rank": 352,
       "title": "make.ts",
       "link": "https://matklad.github.io/2026/01/27/make-ts.html",
       "source": "matklad",
@@ -3328,7 +3878,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 303,
+      "rank": 353,
       "title": "The Importance of Diversity",
       "link": "https://geohot.github.io//blog/jekyll/update/2026/01/27/the-importance-of-diversity.html",
       "source": "geohot Blog",
@@ -3339,7 +3889,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 304,
+      "rank": 354,
       "title": "You have to know how to drive the car",
       "link": "https://seangoedecke.com/knowing-how-to-drive-the-car/",
       "source": "Sean Goedecke",
@@ -3350,7 +3900,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 305,
+      "rank": 355,
       "title": "Will I ever own a zettaflop?",
       "link": "https://geohot.github.io//blog/jekyll/update/2026/01/26/own-a-zettaflop.html",
       "source": "geohot Blog",
@@ -3361,7 +3911,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 306,
+      "rank": 356,
       "title": "The Coming War on Car Ownership",
       "link": "https://geohot.github.io//blog/jekyll/update/2026/01/25/war-on-car-ownership.html",
       "source": "geohot Blog",
@@ -3372,7 +3922,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 307,
+      "rank": 357,
       "title": "How I estimate work as a staff software engineer",
       "link": "https://seangoedecke.com/how-i-estimate-work/",
       "source": "Sean Goedecke",
@@ -3383,7 +3933,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 308,
+      "rank": 358,
       "title": "Considering Strictly Monotonic Time",
       "link": "https://matklad.github.io/2026/01/23/strictly-monotonic-time.html",
       "source": "matklad",
@@ -3394,7 +3944,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 309,
+      "rank": 359,
       "title": "Breaking: Yann LeCun, longtime critic of neurosymbolic approaches, changes teams",
       "link": "https://garymarcus.substack.com/p/further-breaking-news-further-vindicating",
       "source": "Gary Marcus",
@@ -3405,7 +3955,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 310,
+      "rank": 360,
       "title": "Why read novels?",
       "link": "https://dynomight.net/novels/",
       "source": "dynomight",
@@ -3416,7 +3966,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 311,
+      "rank": 361,
       "title": "Vibecoding #2",
       "link": "https://matklad.github.io/2026/01/20/vibecoding-2.html",
       "source": "matklad",
@@ -3427,7 +3977,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 312,
+      "rank": 362,
       "title": "I'm addicted to being useful",
       "link": "https://seangoedecke.com/addicted-to-being-useful/",
       "source": "Sean Goedecke",
@@ -3438,7 +3988,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 313,
+      "rank": 363,
       "title": "how do I stop participating?",
       "link": "https://geohot.github.io//blog/jekyll/update/2026/01/18/how-do-i-stop.html",
       "source": "geohot Blog",
@@ -3449,7 +3999,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 314,
+      "rank": 364,
       "title": "you have three minutes to escape the perpetual underclass",
       "link": "https://geohot.github.io//blog/jekyll/update/2026/01/17/three-minutes.html",
       "source": "geohot Blog",
@@ -3460,7 +4010,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 315,
+      "rank": 365,
       "title": "Anthropic is making a huge mistake",
       "link": "https://geohot.github.io//blog/jekyll/update/2026/01/15/anthropic-huge-mistake.html",
       "source": "geohot Blog",
@@ -3471,7 +4021,7 @@
       "category": "🤖 AI & 研究"
     },
     {
-      "rank": 316,
+      "rank": 366,
       "title": "The Dictator's Handbook and the politics of technical competence",
       "link": "https://seangoedecke.com/the-dictators-handbook/",
       "source": "Sean Goedecke",
@@ -3482,7 +4032,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 317,
+      "rank": 367,
       "title": "2025 was an excellent year for this blog",
       "link": "https://seangoedecke.com/2025-wrapup/",
       "source": "Sean Goedecke",
@@ -3493,7 +4043,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 318,
+      "rank": 368,
       "title": "Grok is enabling mass sexual harassment on Twitter",
       "link": "https://seangoedecke.com/grok-deepfakes/",
       "source": "Sean Goedecke",
@@ -3504,7 +4054,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 319,
+      "rank": 369,
       "title": "Memory Safety Is ...",
       "link": "https://matklad.github.io/2025/12/30/memory-safety-is.html",
       "source": "matklad",
@@ -3515,7 +4065,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 320,
+      "rank": 370,
       "title": "The Enshittifinancial Crisis",
       "link": "https://www.wheresyoured.at/the-enshittifinancial-crisis/",
       "source": "Where's Your Ed At",
@@ -3526,7 +4076,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 321,
+      "rank": 371,
       "title": "Software engineers should be a little bit cynical",
       "link": "https://seangoedecke.com/a-little-bit-cynical/",
       "source": "Sean Goedecke",
@@ -3537,7 +4087,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 322,
+      "rank": 372,
       "title": "You can't design software you don't work on",
       "link": "https://seangoedecke.com/you-cant-design-software-you-dont-work-on/",
       "source": "Sean Goedecke",
@@ -3548,7 +4098,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 323,
+      "rank": 373,
       "title": "Nobody knows how large software products work",
       "link": "https://seangoedecke.com/nobody-knows-how-software-products-work/",
       "source": "Sean Goedecke",
@@ -3559,7 +4109,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 324,
+      "rank": 374,
       "title": "Plugins case study: mdBook preprocessors",
       "link": "https://eli.thegreenplace.net/2025/plugins-case-study-mdbook-preprocessors/",
       "source": "Eli Bendersky",
@@ -3570,7 +4120,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 325,
+      "rank": 375,
       "title": "Good if make prior after data instead of before",
       "link": "https://dynomight.net/prior/",
       "source": "dynomight",
@@ -3581,7 +4131,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 326,
+      "rank": 376,
       "title": "The Department of War Directory",
       "link": "https://steveblank.com/2025/12/16/the-department-of-war-directory/",
       "source": "Steve Blank",
@@ -3592,7 +4142,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 327,
+      "rank": 377,
       "title": "Revisiting \"Let's Build a Compiler\"",
       "link": "https://eli.thegreenplace.net/2025/revisiting-lets-build-a-compiler/",
       "source": "Eli Bendersky",
@@ -3603,7 +4153,7 @@
       "category": "🔧 开发 & 系统"
     },
     {
-      "rank": 328,
+      "rank": 378,
       "title": "The Department of War Just Shot the Accountants and Opted for Speed",
       "link": "https://steveblank.com/2025/11/11/the-department-of-war-just-shot-the-accountants-and-opted-for-speed/",
       "source": "Steve Blank",
@@ -3614,7 +4164,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 329,
+      "rank": 379,
       "title": "How to Sell to the Dept of War – The 2025 PEO Directory – Now with 500 more names",
       "link": "https://steveblank.com/2025/10/15/how-to-sell-to-the-dept-of-war-the-2025-peo-directory-now-with-500-more-names/",
       "source": "Steve Blank",
@@ -3625,7 +4175,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 330,
+      "rank": 380,
       "title": "No Science, No Startups: The Innovation Engine We’re Switching Off",
       "link": "https://steveblank.com/2025/10/13/no-science-no-startups-the-unseen-engine-were-switching-off/",
       "source": "Steve Blank",
@@ -3636,7 +4186,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 331,
+      "rank": 381,
       "title": "When Sh!t Hits the Fan – Founders in a Crisis",
       "link": "https://steveblank.com/2025/09/17/when-sht-hits-the-fan-founders-in-a-crisis/",
       "source": "Steve Blank",
@@ -3647,7 +4197,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 332,
+      "rank": 382,
       "title": "How To Sell to the Dept of War – The 2025 PEO Directory",
       "link": "https://steveblank.com/2025/09/10/how-to-sell-to-the-dept-of-defense-the-2025-peo-directory/",
       "source": "Steve Blank",
@@ -3658,7 +4208,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 333,
+      "rank": 383,
       "title": "Blind to Disruption – The CEOs Who Missed the Future",
       "link": "https://steveblank.com/2025/07/08/blind-to-disruption-the-ceos-who-missed-the-future/",
       "source": "Steve Blank",
@@ -3669,7 +4219,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 334,
+      "rank": 384,
       "title": "Lean Launchpad at Stanford – 2025",
       "link": "https://steveblank.com/2025/06/24/lean-launchpad-at-stanford-2025/",
       "source": "Steve Blank",
@@ -3680,7 +4230,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 335,
+      "rank": 385,
       "title": "Hacking for Defense @ Stanford 2025 – Lessons Learned Presentations",
       "link": "https://steveblank.com/2025/06/17/hacking-for-defense-stanford-2025-lessons-learned-presentations/",
       "source": "Steve Blank",
@@ -3691,7 +4241,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 336,
+      "rank": 386,
       "title": "How the United States Gave Up Being a Science Superpower",
       "link": "https://steveblank.com/2025/05/13/how-the-united-states-became-a-science-superpower-and-how-quickly-it-could-crumble/",
       "source": "Steve Blank",
@@ -3702,7 +4252,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 337,
+      "rank": 387,
       "title": "How the U.S. Became A Science Superpower",
       "link": "https://steveblank.com/2025/04/15/how-the-u-s-became-a-science-superpower/",
       "source": "Steve Blank",
@@ -3713,7 +4263,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 338,
+      "rank": 388,
       "title": "How Saboteurs Threaten Innovation–and What to Do About It",
       "link": "https://steveblank.com/2024/10/08/how-saboteurs-threaten-innovation-and-what-to-do-about-it/",
       "source": "Steve Blank",
@@ -3724,7 +4274,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 339,
+      "rank": 389,
       "title": "What Does Product Market Fit Sound Like? This.",
       "link": "https://steveblank.com/2024/10/05/what-does-product-market-fit-sound-like-this/",
       "source": "Steve Blank",
@@ -3735,7 +4285,7 @@
       "category": "💰 金融 & 创投"
     },
     {
-      "rank": 340,
+      "rank": 390,
       "title": "Why the chicken crossed the road, according to various entities",
       "link": "https://dynomight.net/chicken/",
       "source": "dynomight",
@@ -3746,7 +4296,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 341,
+      "rank": 391,
       "title": "Make product worse, get money",
       "link": "https://dynomight.net/worse/",
       "source": "dynomight",
@@ -3757,7 +4307,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 342,
+      "rank": 392,
       "title": "Dating: A mysterious constellation of facts",
       "link": "https://dynomight.net/dating/",
       "source": "dynomight",
@@ -3768,7 +4318,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 343,
+      "rank": 393,
       "title": "Pointing machines, population pyramids, post office scandal, type species, and horse urine",
       "link": "https://dynomight.net/shorts-6/",
       "source": "dynomight",
@@ -3779,7 +4329,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 344,
+      "rank": 394,
       "title": "Shoes, Algernon, Pangea, and Sea Peoples",
       "link": "https://dynomight.net/shorts-5/",
       "source": "dynomight",
@@ -3790,7 +4340,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 345,
+      "rank": 395,
       "title": "Dear PendingKetchup",
       "link": "https://dynomight.net/ketchup/",
       "source": "dynomight",
@@ -3801,7 +4351,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 346,
+      "rank": 396,
       "title": "You can try to like stuff",
       "link": "https://dynomight.net/liking/",
       "source": "dynomight",
@@ -3812,7 +4362,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 347,
+      "rank": 397,
       "title": "New colors without shooting lasers into your eyes",
       "link": "https://dynomight.net/colors/",
       "source": "dynomight",
@@ -3823,7 +4373,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 348,
+      "rank": 398,
       "title": "My 9-week unprocessed food self-experiment",
       "link": "https://dynomight.net/unprocessed-food/",
       "source": "dynomight",
@@ -3834,7 +4384,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 349,
+      "rank": 399,
       "title": "Links for July",
       "link": "https://dynomight.net/links-3/",
       "source": "dynomight",
@@ -3845,7 +4395,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 350,
+      "rank": 400,
       "title": "Do blue-blocking glasses improve sleep?",
       "link": "https://dynomight.net/blue-light/",
       "source": "dynomight",
@@ -3856,7 +4406,7 @@
       "category": "💻 科技产品"
     },
     {
-      "rank": 351,
+      "rank": 401,
       "title": "How good engineers write bad code at big companies",
       "link": "https://seangoedecke.com/bad-code-at-big-companies/",
       "source": "Sean Goedecke",
