@@ -1,434 +1,133 @@
+/**
+ * run.mjs — 主入口
+ *
+ * 流程：
+ *   1. 读取 sources.json
+ *   2. 抓取所有 RSS 源
+ *   3. 打分、排序
+ *   4. (可选) LLM 点评 Top N
+ *   5. 推送 Top N 到 Telegram
+ *   6. 生成静态网站 docs/
+ *   7. 标记已发送 (.last_sent.json)，git commit + push
+ */
+
 import fs from "node:fs/promises";
 import { execSync } from "node:child_process";
-import { classifyItem, classifyStockItem } from "./classify.mjs";
+import { fetchAllFeeds } from "./fetch.mjs";
+import { rankArticles } from "./score.mjs";
+import { pushToTelegram } from "./telegram.mjs";
+import { summarize } from "./llm.mjs";
+import { generateSite } from "./site.mjs";
 
-const BOT_TOKEN = process.env.BOT_TOKEN;
-const CHAT_ID = process.env.TG_CHAT_ID; // e.g. "@your_channel"
-const TZ = "Europe/London";
-const HTTP_USER_AGENT =
-  process.env.HTTP_USER_AGENT ??
-  "DailyNewTelegram/1.0 (https://github.com/williamchoi/DailyNewTelegram; contact: maintainer@example.com)";
+// ─── 工具函数 ─────────────────────────────────────────────────────────────────
 
-if (!BOT_TOKEN || !CHAT_ID) {
-  throw new Error("Missing BOT_TOKEN or TG_CHAT_ID env vars.");
-}
-
-const cfg = JSON.parse(await fs.readFile("sources.json", "utf8"));
-const SENT_FILE = ".last_sent.json";
-
-function londonYmd(date = new Date()) {
-  const fmt = new Intl.DateTimeFormat("en-CA", {
-    timeZone: TZ,
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  });
-  return fmt.format(date); // YYYY-MM-DD
-}
-
-function yesterdayYmdLondon() {
-  const now = new Date();
-  // 用“现在时间 - 24h”取昨天日期，再按伦敦时区格式化（日报够用且稳定）
-  return londonYmd(new Date(now.getTime() - 24 * 60 * 60 * 1000));
-}
-
-function escapeHtml(s) {
-  return s
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
-}
-
-async function fetchText(url) {
-  const res = await fetch(url, {
-    headers: {
-      "user-agent": HTTP_USER_AGENT,
-      accept: "application/rss+xml, application/atom+xml, application/xml, text/xml;q=0.9, */*;q=0.8",
-    },
-  });
-  if (!res.ok) throw new Error(`Fetch failed ${res.status} for ${url}`);
-  return await res.text();
-}
-
-// Minimal RSS/Atom parser: title/link/pubDate
-function parseFeed(xml, feedUrl) {
-  const items = [];
-  const isAtom = xml.includes("<feed") && xml.includes("</feed>");
-  if (isAtom) {
-    const entries = xml.split("<entry").slice(1).map((s) => "<entry" + s);
-    for (const e of entries) {
-      const title = (e.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "").trim();
-      const link =
-        (e.match(/<link[^>]*href="([^"]+)"[^>]*\/?>/i)?.[1] ??
-          e.match(/<link[^>]*>([\s\S]*?)<\/link>/i)?.[1] ??
-          "").trim();
-      const updated =
-        (e.match(/<published[^>]*>([\s\S]*?)<\/published>/i)?.[1] ??
-          e.match(/<updated[^>]*>([\s\S]*?)<\/updated>/i)?.[1] ??
-          "").trim();
-      const pubDate = updated ? new Date(updated) : null;
-      if (title && link && pubDate && !Number.isNaN(pubDate.getTime())) {
-        items.push({ title, link, pubDate, feedUrl });
-      }
-    }
-  } else {
-    const entries = xml.split("<item").slice(1).map((s) => "<item" + s);
-    for (const e of entries) {
-      const title = (e.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] ?? "").trim();
-      const link = (e.match(/<link[^>]*>([\s\S]*?)<\/link>/i)?.[1] ?? "").trim();
-      const pd =
-        (e.match(/<pubDate[^>]*>([\s\S]*?)<\/pubDate>/i)?.[1] ??
-          e.match(/<dc:date[^>]*>([\s\S]*?)<\/dc:date>/i)?.[1] ??
-          "").trim();
-      const pubDate = pd ? new Date(pd) : null;
-      if (title && link && pubDate && !Number.isNaN(pubDate.getTime())) {
-        items.push({ title, link, pubDate, feedUrl });
-      }
-    }
-  }
-  return items;
-}
-
-function chunkByLimit(text, limit = 3800) {
-  const chunks = [];
-  let cur = "";
-  for (const line of text.split("\n")) {
-    if ((cur + "\n" + line).length > limit) {
-      chunks.push(cur);
-      cur = line;
-    } else {
-      cur = cur ? cur + "\n" + line : line;
-    }
-  }
-  if (cur) chunks.push(cur);
-  return chunks;
-}
-
-async function sendTelegram(htmlText) {
-  const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "content-type": "application/json" },
-    body: JSON.stringify({
-      chat_id: CHAT_ID,
-      text: htmlText,
-      parse_mode: "HTML",
-      disable_web_page_preview: true,
-    }),
-  });
-  const json = await res.json();
-  if (!json.ok) throw new Error(`Telegram send failed: ${JSON.stringify(json)}`);
+/** 返回今天 UTC 日期字符串，如 "2026-02-23" */
+function todayUtc() {
+  return new Date().toISOString().slice(0, 10);
 }
 
 async function readLastSent() {
   try {
-    const raw = await fs.readFile(SENT_FILE, "utf8");
-    const obj = JSON.parse(raw);
-    return obj?.lastSent ?? null;
+    const raw = await fs.readFile(".last_sent.json", "utf8");
+    return JSON.parse(raw)?.lastSent ?? null;
   } catch {
     return null;
   }
 }
 
 async function writeLastSent(dateYmd) {
-  await fs.writeFile(SENT_FILE, JSON.stringify({ lastSent: dateYmd }, null, 2) + "\n", "utf8");
+  await fs.writeFile(
+    ".last_sent.json",
+    JSON.stringify({ lastSent: dateYmd }, null, 2) + "\n",
+    "utf8"
+  );
 }
 
-function gitCommitIfChanged(dateYmd) {
-  // 如果仓库是只读/没有改动，就别报错
+function gitCommitAndPush(dateYmd) {
   try {
-    execSync("git status --porcelain", { stdio: "pipe" });
     const diff = execSync("git status --porcelain").toString().trim();
-    if (!diff) return;
-
+    if (!diff) {
+      console.log("  (git) 无变更，跳过 commit");
+      return;
+    }
     execSync('git config user.name "github-actions[bot]"');
     execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
-
-    execSync(`git add ${SENT_FILE}`);
-    execSync(`git commit -m "Mark sent: ${dateYmd}"`);
+    execSync("git add .last_sent.json docs/");
+    execSync(`git commit -m "news: ${dateYmd}"`);
     execSync("git push");
+    console.log("  ✓ git commit + push 完成");
   } catch (e) {
-    console.error("Git commit/push skipped or failed:", e?.message ?? e);
+    console.warn("  git 操作跳过或失败:", e?.message ?? e);
   }
 }
 
-function isYesterdayLondon(dateObj, yYmd) {
-  const pubYmd = londonYmd(dateObj);
-  return pubYmd === yYmd;
-}
-
-function titleHasAnyKeyword(title, keywords) {
-  const t = String(title ?? "").toLowerCase();
-  return keywords.some((kw) => t.includes(String(kw).toLowerCase()));
-}
+// ─── 主流程 ───────────────────────────────────────────────────────────────────
 
 async function main() {
-  const yYmd = yesterdayYmdLondon();
+  console.log("\n════════════════════════════════════════");
+  console.log("  DailyNewTelegram v2  —  运行开始");
+  console.log("════════════════════════════════════════\n");
 
-  // 发送锁：如果昨天已经发过了，直接退出
+  // 读取配置
+  const cfg = JSON.parse(await fs.readFile("sources.json", "utf8"));
+  const sources = cfg.sources ?? [];
+  const scoring = cfg.scoring ?? {};
+  const topN = scoring.topN ?? 5;
+
+  const today = todayUtc();
+  const siteUrl = process.env.SITE_URL ?? null; // e.g. https://williamchoi.github.io/DailyNewTelegram/
+
+  // 防重复：同一天最多发一次
   const lastSent = await readLastSent();
-  if (lastSent === yYmd) {
-    console.log(`Already sent for ${yYmd}, exit.`);
+  if (lastSent === today) {
+    console.log(`今天 (${today}) 已发送过，退出。`);
     return;
   }
 
-  const layers = cfg.layers ?? {
-    layer1_hard_signals: {
-      enabled: true,
-      maxItemsPerFeed: cfg.maxItemsPerFeed ?? 20,
-      feeds: cfg.feeds ?? [],
-    },
-    layer3_deep_reads: {
-      enabled: false,
-      maxItemsPerFeed: 20,
-      feeds: [],
-    },
-    layer2_market_news: {
-      enabled: false,
-      maxItemsPerFeed: 20,
-      feeds: [],
-    },
-  };
+  // ── Step 1: 抓取 ──────────────────────────────────────────────────────────
+  console.log(`📡 抓取 ${sources.length} 个 RSS 源…`);
+  const articles = await fetchAllFeeds(sources, scoring.maxItemsPerFeed ?? 30);
+  console.log(`   共抓取 ${articles.length} 篇文章\n`);
 
-  async function ingestLayer(layerKey, layerCfg) {
-    if (!layerCfg?.enabled) return [];
-    const items = [];
-    for (const feed of layerCfg.feeds ?? []) {
-      try {
-        const xml = await fetchText(feed);
-        const parsed = parseFeed(xml, feed).slice(0, layerCfg.maxItemsPerFeed ?? 20);
-        items.push(...parsed.map((it) => ({ ...it, layerKey })));
-      } catch (e) {
-        console.error(`Feed failed [${layerKey}]: ${feed}`, e.message);
-      }
+  if (articles.length === 0) {
+    console.log("没有抓到任何文章，退出。");
+    return;
+  }
+
+  // ── Step 2: 打分排序 ──────────────────────────────────────────────────────
+  console.log("📊 打分与排序…");
+  const ranked = rankArticles(articles, sources, scoring);
+  console.log(`   排序完成，共 ${ranked.length} 篇\n`);
+
+  const topArticles = ranked.slice(0, topN);
+
+  // ── Step 3: LLM 点评（可选）──────────────────────────────────────────────
+  if (process.env.USE_LLM === "true") {
+    console.log("🤖 LLM 点评 Top 文章…");
+    for (const article of topArticles) {
+      article.llmComment = await summarize(article);
     }
-    return items;
+    console.log();
   }
 
-  const layer1All = await ingestLayer("layer1_hard_signals", layers.layer1_hard_signals);
-  const layer2All = await ingestLayer("layer2_market_news", layers.layer2_market_news);
-  const layer3All = await ingestLayer("layer3_deep_reads", layers.layer3_deep_reads);
+  // ── Step 4: Telegram 推送 ─────────────────────────────────────────────────
+  console.log(`📨 推送 Top ${topN} 到 Telegram…`);
+  await pushToTelegram(topArticles, today, siteUrl);
+  console.log();
 
-  const maxPerSection = cfg.output?.maxPerSection ?? 8;
-  const maxTotal = cfg.output?.maxTotal ?? 30;
-  const requireAiTechKeywords = cfg.output?.requireAiTechKeywords ?? false;
-  const aiTechKeywords = cfg.output?.aiTechKeywords ?? [];
-  const stocksEnabled = cfg.stocks?.enabled ?? false;
-  const stockTickers = cfg.stocks?.tickers ?? [];
-  const stockMaxItems = cfg.stocks?.maxItems ?? 8;
-  const deepReadsMax = 3;
+  // ── Step 5: 生成网站 ──────────────────────────────────────────────────────
+  console.log("🌐 生成静态网站…");
+  await generateSite(ranked, today);
+  console.log();
 
-  const seenLayer1 = new Set();
-  const layer1Filtered = layer1All
-    .filter((it) => isYesterdayLondon(it.pubDate, yYmd))
-    .filter((it) => {
-      const key = it.link;
-      if (seenLayer1.has(key)) return false;
-      seenLayer1.add(key);
-      return true;
-    });
+  // ── Step 6: 标记已发送 + git push ─────────────────────────────────────────
+  await writeLastSent(today);
+  gitCommitAndPush(today);
 
-  const classified = layer1Filtered.map((it) => ({
-    ...it,
-    cls: classifyItem(it),
-  }));
-
-  const phase1Items = classified
-    .filter((it) => ["IPO", "MA", "FINANCING"].includes(it.cls.topic))
-    .filter((it) => {
-      if (!requireAiTechKeywords) return true;
-      return titleHasAnyKeyword(it.title, aiTechKeywords);
-    });
-
-  const sorted = phase1Items.sort((a, b) => b.pubDate - a.pubDate);
-
-  const sectionCounts = new Map();
-  let totalCount = 0;
-  const items = sorted.filter((it) => {
-    const sectionKey = it.cls.topic === "IPO" ? "IPO" : "MA_FINANCING";
-    if (sectionCounts.get(sectionKey) >= maxPerSection) return false;
-    if (totalCount >= maxTotal) return false;
-    sectionCounts.set(sectionKey, (sectionCounts.get(sectionKey) ?? 0) + 1);
-    totalCount += 1;
-    return true;
-  });
-
-  const seenLayer3 = new Set();
-  const deepReads = layer3All
-    .filter((it) => isYesterdayLondon(it.pubDate, yYmd))
-    .filter((it) => {
-      const key = it.link;
-      if (seenLayer3.has(key)) return false;
-      seenLayer3.add(key);
-      return true;
-    })
-    .filter((it) => titleHasAnyKeyword(it.title, aiTechKeywords))
-    .sort((a, b) => b.pubDate - a.pubDate)
-    .slice(0, deepReadsMax);
-
-  const seenLayer2 = new Set();
-  const layer2Filtered = layer2All
-    .filter((it) => isYesterdayLondon(it.pubDate, yYmd))
-    .filter((it) => {
-      const key = it.link;
-      if (seenLayer2.has(key)) return false;
-      seenLayer2.add(key);
-      return true;
-    });
-
-  const macroItems = layer2Filtered
-    .map((it) => ({ ...it, cls: classifyItem(it) }))
-    .filter((it) => it.cls.topic === "MACRO")
-    .sort((a, b) => b.pubDate - a.pubDate)
-    .slice(0, maxPerSection);
-
-  const stockBuckets = {
-    earnings: [],
-    priceAction: [],
-    filings: [],
-  };
-  if (stocksEnabled) {
-    const stockCandidates = layer2Filtered
-      .map((it) => ({ ...it, stk: classifyStockItem(it, stockTickers) }))
-      .filter((it) => it.stk.tickers.length > 0)
-      .sort((a, b) => b.pubDate - a.pubDate);
-
-    let stockCount = 0;
-    for (const it of stockCandidates) {
-      if (stockCount >= stockMaxItems) break;
-      if (it.stk.hasEarnings) {
-        stockBuckets.earnings.push(it);
-        stockCount += 1;
-        continue;
-      }
-      if (it.stk.hasPriceAction) {
-        stockBuckets.priceAction.push(it);
-        stockCount += 1;
-        continue;
-      }
-      if (it.stk.hasFilings) {
-        stockBuckets.filings.push(it);
-        stockCount += 1;
-      }
-    }
-  }
-
-  const header = `<b>Daily News · ${yYmd}</b>\n<i>Window: ${yYmd} 00:00–23:59 (${TZ})</i>\n`;
-  const regionOrder = ["EU", "US", "CNHK", "SG"];
-  const regionLabel = {
-    EU: "EU",
-    US: "US",
-    CNHK: "CN+HK",
-    SG: "SG",
-  };
-
-  const ipoByRegion = new Map(regionOrder.map((r) => [r, []]));
-  const maFinByRegion = new Map(regionOrder.map((r) => [r, []]));
-
-  for (const it of items) {
-    if (!regionOrder.includes(it.cls.region)) continue;
-    if (it.cls.topic === "IPO") {
-      ipoByRegion.get(it.cls.region).push(it);
-    } else {
-      maFinByRegion.get(it.cls.region).push(it);
-    }
-  }
-
-  function renderSection(title, grouped, includeTopicTag) {
-    const parts = [`<b>${escapeHtml(title)}</b>`];
-    for (const region of regionOrder) {
-      parts.push(`<u>${regionLabel[region]}</u>`);
-      const rows = grouped.get(region) ?? [];
-      if (rows.length === 0) {
-        parts.push("No items.");
-        continue;
-      }
-      for (const it of rows) {
-        const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
-        const topicTag = includeTopicTag ? `[${it.cls.topic}] ` : "";
-        parts.push(`• ${escapeHtml(topicTag)}<a href="${it.link}">${t}</a>`);
-      }
-    }
-    return parts.join("\n");
-  }
-
-  const body = [
-    renderSection("IPO (AI/Tech): EU / US / CN+HK / SG", ipoByRegion, false),
-    "",
-    renderSection("M&A / Financing (AI/Tech): EU / US / CN+HK / SG", maFinByRegion, true),
-    ...(macroItems.length > 0
-      ? [
-          "",
-          "<b>US Macro (markets): Fed / CPI / jobs / yields / geopolitics / risk-on-off</b>",
-          ...macroItems.map((it) => {
-            const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
-            return `• <a href="${it.link}">${t}</a>`;
-          }),
-        ]
-      : []),
-    ...(stocksEnabled
-      ? [
-          "",
-          "<b>US Stocks (events): earnings / price action / filings</b>",
-          ...(stockBuckets.earnings.length === 0 &&
-          stockBuckets.priceAction.length === 0 &&
-          stockBuckets.filings.length === 0
-            ? ["No notable stock events yesterday."]
-            : [
-                ...(stockBuckets.earnings.length > 0
-                  ? [
-                      "<u>Earnings</u>",
-                      ...stockBuckets.earnings.map((it) => {
-                        const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
-                        return `• <a href="${it.link}">${t}</a>`;
-                      }),
-                    ]
-                  : []),
-                ...(stockBuckets.priceAction.length > 0
-                  ? [
-                      "<u>Price Action</u>",
-                      ...stockBuckets.priceAction.map((it) => {
-                        const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
-                        return `• <a href="${it.link}">${t}</a>`;
-                      }),
-                    ]
-                  : []),
-                ...(stockBuckets.filings.length > 0
-                  ? [
-                      "<u>Filings</u>",
-                      ...stockBuckets.filings.map((it) => {
-                        const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
-                        return `• <a href="${it.link}">${t}</a>`;
-                      }),
-                    ]
-                  : []),
-              ]),
-        ]
-      : []),
-    "",
-    "<b>AI/Tech Deep Reads (BestBlogs)</b>",
-    ...(
-      deepReads.length === 0
-        ? ["No items."]
-        : deepReads.map((it) => {
-            const t = escapeHtml(it.title.replace(/\s+/g, " ").trim());
-            return `• <a href="${it.link}">${t}</a>`;
-          })
-    ),
-  ].join("\n");
-
-  const full = `${header}\n${body}`;
-  for (const chunk of chunkByLimit(full)) {
-    await sendTelegram(chunk);
-  }
-
-  // 标记已发送并回写到 repo（防止重复推送）
-  await writeLastSent(yYmd);
-  gitCommitIfChanged(yYmd);
+  console.log("\n✅ 全部完成！\n");
 }
 
 main().catch((err) => {
-  console.error(err);
+  console.error("\n❌ 运行失败:", err);
   process.exit(1);
 });

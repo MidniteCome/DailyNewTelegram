@@ -1,73 +1,64 @@
 {
-  "layers": {
-    "layer1_hard_signals": {
-      "enabled": true,
-      "maxItemsPerFeed": 30,
-      "feeds": [
-        "https://www.prnewswire.com/rss/news-releases-list.rss",
-        "https://www.prnewswire.com/rss/financial-services-latest-news/financial-services-latest-news-list.rss",
-        "https://www.globenewswire.com/RssFeed",
-        "https://www.globenewswire.com/RssFeed/orgclass/1/feedTitle/GlobeNewswire%20-%20News%20about%20Public%20Companies",
-        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-k&company=&dateb=&owner=include&start=0&count=100&output=atom",
-        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=s-1&company=&dateb=&owner=include&start=0&count=100&output=atom"
-      ],
-      "todo": [
-        "Business Wire RSS endpoint requires stable active channel IDs; add when a persistent non-deactivated feed URL is confirmed.",
-        "HKEX/LSE/SGX RSS endpoints not added yet due unstable/discontinued discovery URLs; add once stable feed URLs are verified."
-      ]
+  "sources": [
+    {
+      "name": "Reuters Top News",
+      "url": "https://feeds.reuters.com/reuters/topNews",
+      "weight": 3,
+      "tags": ["global", "finance"]
     },
-    "layer2_market_news": {
-      "enabled": true,
-      "maxItemsPerFeed": 20,
-      "feeds": [
-        "https://www.federalreserve.gov/feeds/press_monetary.xml",
-        "https://www.federalreserve.gov/feeds/press_all.xml",
-        "https://www.federalreserve.gov/feeds/speeches.xml",
-        "https://feeds.marketwatch.com/marketwatch/topstories/",
-        "https://www.stlouisfed.org/on-the-economy/rss"
-      ]
+    {
+      "name": "BBC World",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "weight": 2,
+      "tags": ["global"]
     },
-    "layer3_deep_reads": {
-      "enabled": true,
-      "maxItemsPerFeed": 20,
-      "feeds": [
-        "https://www.bestblogs.dev/en/feeds/rss?category=ai&type=article",
-        "https://www.bestblogs.dev/en/feeds/rss?category=ai&minScore=90"
-      ]
+    {
+      "name": "The Guardian World",
+      "url": "https://www.theguardian.com/world/rss",
+      "weight": 2,
+      "tags": ["global"]
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "weight": 2,
+      "tags": ["global"]
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "weight": 2,
+      "tags": ["tech"]
+    },
+    {
+      "name": "BestBlogs AI",
+      "url": "https://www.bestblogs.dev/en/feeds/rss?category=ai&minScore=90",
+      "weight": 2,
+      "tags": ["ai", "tech"]
     }
-  },
-  "output": {
-    "maxPerSection": 8,
-    "maxTotal": 30,
-    "requireAiTechKeywords": true,
-    "aiTechKeywords": [
-      "AI",
-      "artificial intelligence",
-      "LLM",
-      "model",
-      "chip",
-      "semiconductor",
-      "cloud",
-      "data",
-      "SaaS",
-      "robot",
-      "automation"
+  ],
+
+  "scoring": {
+    "topN": 5,
+    "recencyHalfLifeHours": 12,
+    "maxPerSource": 3,
+    "maxItemsPerFeed": 30,
+    "keywords": [
+      { "keyword": "AI",                  "score": 8 },
+      { "keyword": "artificial intelligence", "score": 8 },
+      { "keyword": "LLM",                 "score": 8 },
+      { "keyword": "model",               "score": 3 },
+      { "keyword": "Fed",                 "score": 7 },
+      { "keyword": "rate",                "score": 5 },
+      { "keyword": "inflation",           "score": 6 },
+      { "keyword": "chip",                "score": 5 },
+      { "keyword": "semiconductor",       "score": 6 },
+      { "keyword": "acquisition",         "score": 5 },
+      { "keyword": "merger",              "score": 5 },
+      { "keyword": "IPO",                 "score": 6 },
+      { "keyword": "funding",             "score": 4 },
+      { "keyword": "tariff",              "score": 6 },
+      { "keyword": "geopolitics",         "score": 5 }
     ]
-  },
-  "stocks": {
-    "enabled": true,
-    "tickers": [
-      "NVDA",
-      "TSLA",
-      "AAPL",
-      "MSFT",
-      "AMZN",
-      "GOOGL",
-      "META",
-      "AMD",
-      "NFLX",
-      "AVGO"
-    ],
-    "maxItems": 8
   }
 }

@@ -2,8 +2,12 @@ name: daily-telegram-news
 
 on:
   schedule:
-    - cron: "30 7 * * *"   # 07:30 UTC（夏令时=08:30伦敦，冬令时=07:30伦敦）
-  workflow_dispatch:
+    - cron: "30 7 * * *"   # 07:30 UTC 每天运行
+  workflow_dispatch:        # 支持手动触发
+
+# 需要写权限才能 commit 回 docs/ 和 .last_sent.json
+permissions:
+  contents: write
 
 jobs:
   run:
@@ -20,8 +24,14 @@ jobs:
       - name: Install deps
         run: npm ci || npm i
 
-      - name: Run
-        run: npm run run
+      - name: Run bot
+        run: node scripts/run.mjs
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+          # 网站 URL（填写后 Telegram 消息末尾会附上链接）
+          # SITE_URL: https://你的用户名.github.io/DailyNewTelegram/
+          # LLM 点评（本地运行时可开启）
+          # USE_LLM: "false"
+          # OLLAMA_URL: "http://localhost:11434"
+          # LLM_MODEL: "qwen2.5"
