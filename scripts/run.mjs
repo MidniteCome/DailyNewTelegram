@@ -75,14 +75,18 @@ async function main() {
   const topN = scoring.topN ?? 5;
 
   const today = todayUtc();
-  const siteUrl = process.env.SITE_URL ?? null; // e.g. https://williamchoi.github.io/DailyNewTelegram/
+  const siteUrl = process.env.SITE_URL ?? null;
+  const force = process.argv.includes("--force");
 
-  // 防重复：同一天最多发一次
+  // 防重复：同一天最多发一次（--force 可跳过）
   const lastSent = await readLastSent();
-  if (lastSent === today) {
+  if (lastSent === today && !force) {
     console.log(`今天 (${today}) 已发送过，退出。`);
+    console.log(`如需强制重新运行，请加 --force 参数：`);
+    console.log(`  ./run-local.sh --force`);
     return;
   }
+  if (force) console.log("⚡ --force 模式，跳过重复检查\n");
 
   // ── Step 1: 抓取 ──────────────────────────────────────────────────────────
   console.log(`📡 抓取 ${sources.length} 个 RSS 源…`);
