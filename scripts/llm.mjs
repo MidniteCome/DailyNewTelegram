@@ -20,7 +20,8 @@ export async function summarize(article) {
   if (!USE_LLM) return null;
 
   const prompt =
-    `请用1-2句中文简明点评以下新闻的核心价值或影响：\n` +
+    `你是一位科技财经分析师，请用1-2句简洁的中文点评以下新闻的核心价值或市场影响。` +
+    `无论原文语言是什么，必须用中文回答，不要翻译原文，直接给出你的点评。\n\n` +
     `标题：${article.title}\n` +
     `摘要：${article.summary?.slice(0, 400) ?? ""}`;
 
