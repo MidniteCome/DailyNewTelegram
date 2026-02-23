@@ -7,12 +7,60 @@
  *   MACRO         → 宏观市场/美联储视角
  *   TECH          → 通用科技产品视角（兜底）
  *
- * 启用：USE_LLM=true OLLAMA_URL=http://localhost:11434 LLM_MODEL=qwen2.5:7b
+ * 后端优先级：
+ *   1. Groq  — 设置 GROQ_API_KEY 即自动启用（云端，GitHub Actions 可用）
+ *   2. Ollama — 设置 OLLAMA_URL（本地，默认 http://localhost:11434）
+ *
+ * 启用：USE_LLM=true，并设置 GROQ_API_KEY 或 OLLAMA_URL
  */
 
-const USE_LLM   = process.env.USE_LLM === "true";
+const USE_LLM    = process.env.USE_LLM === "true";
+
+// ── Groq 配置 ──
+const GROQ_API_KEY = process.env.GROQ_API_KEY ?? null;
+const GROQ_MODEL   = process.env.GROQ_MODEL ?? "llama-3.3-70b-versatile";
+const GROQ_URL     = "https://api.groq.com/openai/v1/chat/completions";
+
+// ── Ollama 配置（本地回退）──
 const OLLAMA_URL = process.env.OLLAMA_URL ?? "http://localhost:11434";
-const LLM_MODEL  = process.env.LLM_MODEL ?? "qwen2.5:7b";
+const LLM_MODEL  = process.env.LLM_MODEL  ?? "qwen2.5:7b";
+
+const USE_GROQ = !!GROQ_API_KEY;
+
+// ── 统一调用入口 ──────────────────────────────────────────────────────────────
+async function callLLM(prompt, { temperature = 0.4, timeout = 90_000 } = {}) {
+  if (USE_GROQ) {
+    const res = await fetch(GROQ_URL, {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        "authorization": `Bearer ${GROQ_API_KEY}`,
+      },
+      body: JSON.stringify({
+        model: GROQ_MODEL,
+        messages: [{ role: "user", content: prompt }],
+        temperature,
+      }),
+      signal: AbortSignal.timeout(timeout),
+    });
+    if (!res.ok) throw new Error(`Groq HTTP ${res.status}: ${await res.text()}`);
+    return (await res.json()).choices?.[0]?.message?.content?.trim() ?? null;
+  } else {
+    const res = await fetch(`${OLLAMA_URL}/api/generate`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        model: LLM_MODEL,
+        prompt,
+        stream: false,
+        options: { temperature, top_p: 0.9 },
+      }),
+      signal: AbortSignal.timeout(timeout),
+    });
+    if (!res.ok) throw new Error(`Ollama HTTP ${res.status}`);
+    return (await res.json()).response?.trim() ?? null;
+  }
+}
 
 // ─── 新闻类型检测（规则匹配，不消耗 LLM token）────────────────────────────
 
@@ -128,7 +176,8 @@ export async function translateTitles(articles) {
 
   const BATCH = 30;
   const total = articles.length;
-  console.log(`🌐 翻译标题（共 ${total} 篇，批次 ${BATCH}）…`);
+  const backend = USE_GROQ ? `Groq/${GROQ_MODEL}` : `Ollama/${LLM_MODEL}`;
+  console.log(`🌐 翻译标题（共 ${total} 篇，批次 ${BATCH}，后端: ${backend}）…`);
 
   for (let start = 0; start < total; start += BATCH) {
     const batch = articles.slice(start, start + BATCH);
@@ -145,25 +194,13 @@ ${numbered}
 输出：`;
 
     try {
-      const res = await fetch(`${OLLAMA_URL}/api/generate`, {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({
-          model: LLM_MODEL,
-          prompt,
-          stream: false,
-          options: { temperature: 0.1, top_p: 0.9 },
-        }),
-        signal: AbortSignal.timeout(120_000),
-      });
-      if (!res.ok) throw new Error(`Ollama HTTP ${res.status}`);
-      const text = (await res.json()).response?.trim() ?? "";
+      const text = await callLLM(prompt, { temperature: 0.1, timeout: 120_000 }) ?? "";
 
       // 解析 "N. 中文标题" 格式
       for (const line of text.split("\n")) {
         const m = line.match(/^(\d+)\.\s*(.+)/);
         if (!m) continue;
-        const idx = parseInt(m[1], 10) - 1; // 转为 0-based
+        const idx = parseInt(m[1], 10) - 1;
         if (idx >= 0 && idx < total) {
           articles[idx].titleZh = m[2].trim();
         }
@@ -187,26 +224,9 @@ export async function summarize(article) {
   );
 
   try {
-    const res = await fetch(`${OLLAMA_URL}/api/generate`, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
-        model: LLM_MODEL,
-        prompt,
-        stream: false,
-        options: {
-          temperature: 0.4,   // 偏保守，减少幻觉
-          top_p: 0.9,
-        },
-      }),
-      signal: AbortSignal.timeout(90_000),
-    });
-    if (!res.ok) throw new Error(`Ollama HTTP ${res.status}`);
-    const json   = await res.json();
-    const output = json.response?.trim() ?? null;
-
-    // 打印类型方便调试
-    console.log(`    [LLM/${type}] ${article.title.slice(0, 40)}…`);
+    const output = await callLLM(prompt, { temperature: 0.4 });
+    const backend = USE_GROQ ? "Groq" : "Ollama";
+    console.log(`    [${backend}/${type}] ${article.title.slice(0, 40)}…`);
     return output;
   } catch (err) {
     console.warn(`  LLM 跳过（${err.message}）`);
