@@ -104,10 +104,16 @@ async function main() {
   const articles = await fetchAllFeeds(sources, scoring.maxItemsPerFeed ?? 30);
   console.log(`   共抓取 ${articles.length} 篇文章`);
 
-  // 跨日去重：过滤掉历史已见过的文章
-  const freshArticles = articles.filter(a => !state.seenLinks.has(a.link));
-  const dupCount = articles.length - freshArticles.length;
-  if (dupCount > 0) console.log(`   ⏭  过滤历史重复 ${dupCount} 篇，剩余 ${freshArticles.length} 篇`);
+  // 跨日去重：过滤掉历史已见过的文章（--force 时跳过，方便调试）
+  let freshArticles;
+  if (force) {
+    freshArticles = articles;
+    console.log(`   ⚡ --force：跳过历史去重，使用全部 ${articles.length} 篇`);
+  } else {
+    freshArticles = articles.filter(a => !state.seenLinks.has(a.link));
+    const dupCount = articles.length - freshArticles.length;
+    if (dupCount > 0) console.log(`   ⏭  过滤历史重复 ${dupCount} 篇，剩余 ${freshArticles.length} 篇`);
+  }
   console.log();
 
   if (freshArticles.length === 0) {
