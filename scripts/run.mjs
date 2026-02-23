@@ -26,7 +26,29 @@ function todayUtc() {
   return new Date().toISOString().slice(0, 10);
 }
 
-const SEEN_LINKS_CAP = 2000; // 最多保留最近 2000 条历史 URL
+const SEEN_LINKS_CAP  = 2000; // 最多保留最近 2000 条历史 URL
+const TITLE_CACHE_CAP = 5000; // 翻译缓存上限
+const TITLE_CACHE_PATH = ".title_cache.json";
+
+async function readTitleCache() {
+  try {
+    return JSON.parse(await fs.readFile(TITLE_CACHE_PATH, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+async function writeTitleCache(cache) {
+  let entries = Object.entries(cache);
+  if (entries.length > TITLE_CACHE_CAP) {
+    entries = entries.slice(entries.length - TITLE_CACHE_CAP);
+  }
+  await fs.writeFile(
+    TITLE_CACHE_PATH,
+    JSON.stringify(Object.fromEntries(entries), null, 2) + "\n",
+    "utf8"
+  );
+}
 
 async function readState() {
   try {
@@ -61,7 +83,7 @@ function gitCommitAndPush(dateYmd) {
     }
     execSync('git config user.name "github-actions[bot]"');
     execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
-    execSync("git add .last_sent.json docs/");
+    execSync("git add .last_sent.json .title_cache.json docs/");
     execSync(`git commit -m "news: ${dateYmd}"`);
     execSync("git push");
     console.log("  ✓ git commit + push 完成");
@@ -129,10 +151,27 @@ async function main() {
   const topArticles = ranked.slice(0, topN);
 
   // ── Step 3: LLM 翻译 + 点评（可选）──────────────────────────────────────
+  // 无论是否开启 LLM，先从缓存填充已有译文
+  const titleCache = await readTitleCache();
+  let cacheHits = 0;
+  for (const a of ranked) {
+    if (titleCache[a.link]) { a.titleZh = titleCache[a.link]; cacheHits++; }
+  }
+  if (cacheHits > 0) console.log(`📖 从翻译缓存命中 ${cacheHits} 篇\n`);
+
   if (process.env.USE_LLM === "true") {
-    // 3a. 批量翻译所有文章标题为中文（一次调用）
-    await translateTitles(ranked);
-    console.log();
+    // 3a. 只翻译缓存中没有的文章
+    const needTranslate = ranked.filter(a => !a.titleZh);
+    if (needTranslate.length > 0) {
+      await translateTitles(needTranslate);
+      // 写入新译文到缓存
+      for (const a of needTranslate) {
+        if (a.titleZh) titleCache[a.link] = a.titleZh;
+      }
+      await writeTitleCache(titleCache);
+    } else {
+      console.log("📖 全部标题已有缓存，跳过翻译\n");
+    }
 
     // 3b. 对 Top N 逐篇生成深度点评
     console.log("🤖 LLM 点评 Top 文章…");
