@@ -1,28 +1,28 @@
 {
   "sources": [
     {
-      "name": "SEC S-1 Filings",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?company=&CIK=&type=S-1&owner=include&count=100&action=getcurrent&output=atom",
+      "name": "Renaissance Capital IPO",
+      "url": "https://www.renaissancecapital.com/review/IPOPipelineRSS.xml",
       "weight": 3,
       "tags": ["finance", "ipo"]
     },
     {
-      "name": "SEC F-1 Filings",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&CIK=&type=F-1&company=&dateb=&owner=include&start=0&count=100&output=atom",
+      "name": "IPO Monitor",
+      "url": "https://ipomonitor.com/rss/ipo-news.rss",
       "weight": 3,
       "tags": ["finance", "ipo"]
     },
     {
-      "name": "SEC 424B4 Prospectus",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&CIK=&type=424B4&company=&dateb=&owner=include&start=0&count=100&output=atom",
-      "weight": 3,
-      "tags": ["finance", "ipo"]
-    },
-    {
-      "name": "Semiconductor News",
-      "url": "https://rsshub.app/semiconductors/latest-news",
+      "name": "Reuters Technology",
+      "url": "https://feeds.reuters.com/reuters/technologyNews",
       "weight": 3,
       "tags": ["finance", "tech", "semiconductor"]
+    },
+    {
+      "name": "The Chip Letter",
+      "url": "https://thechipletter.substack.com/feed",
+      "weight": 2,
+      "tags": ["semiconductor", "tech"]
     },
     {
       "name": "TechCrunch",
@@ -31,8 +31,8 @@
       "tags": ["tech", "startup"]
     },
     {
-      "name": "DeepMind Blog",
-      "url": "https://rsshub.app/deepmind/blog",
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/rss.xml",
       "weight": 2,
       "tags": ["ai", "research"]
     },
