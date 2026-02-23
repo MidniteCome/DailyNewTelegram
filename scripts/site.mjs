@@ -2,7 +2,7 @@
  * site.mjs — 静态网站生成模块
  *
  * 输出：
- *   docs/data/YYYY-MM-DD.json   每日文章归档（含 meta.topN）
+ *   docs/data/YYYY-MM-DD.json   每日文章归档（含 meta.topN + category）
  *   docs/data/dates.json        所有已存档日期列表
  *   docs/index.html             单页应用
  */
@@ -16,7 +16,7 @@ const DATA_DIR = path.join(DOCS_DIR, "data");
 export async function generateSite(rankedArticles, dateYmd, topN = 5) {
   await fs.mkdir(DATA_DIR, { recursive: true });
 
-  // 1. 写当日 JSON 归档（含 meta 字段，供前端知道 topN 分界线）
+  // 1. 写当日 JSON 归档
   const jsonPath = path.join(DATA_DIR, `${dateYmd}.json`);
   const payload = {
     meta: { date: dateYmd, topN, total: rankedArticles.length },
@@ -29,6 +29,7 @@ export async function generateSite(rankedArticles, dateYmd, topN = 5) {
       llmComment: a.llmComment ?? null,
       pubDate:    a.pubDate.toISOString(),
       score:      Math.round(a.score),
+      category:   a.category ?? "📰 其他",
     })),
   };
   await fs.writeFile(jsonPath, JSON.stringify(payload, null, 2) + "\n", "utf8");
@@ -80,7 +81,7 @@ function buildSpaHtml() {
 
     html, body {
       height: 100%;
-      overflow: hidden;   /* 禁止 body 滚动，让两个面板各自滚动 */
+      overflow: hidden;
       background: var(--bg);
       color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -89,7 +90,7 @@ function buildSpaHtml() {
       line-height: 1.65;
     }
 
-    /* ── 顶栏（固定高度）── */
+    /* ── 顶栏 ── */
     header {
       height: var(--header-h);
       background: var(--surface);
@@ -124,10 +125,10 @@ function buildSpaHtml() {
       height: calc(100vh - var(--header-h));
     }
 
-    /* 上半部分：Top 5 精选 */
+    /* 上半：Top N 精选 */
     .panel-top {
       flex: 1;
-      min-height: 0;          /* flex 子元素必须设这个才能正确收缩 */
+      min-height: 0;
       overflow-y: auto;
       background: var(--bg);
       border-bottom: 2px solid var(--border-hi);
@@ -158,7 +159,7 @@ function buildSpaHtml() {
       background: var(--border);
     }
 
-    /* 下半部分：其余文章 */
+    /* 下半：分类文章 */
     .panel-rest {
       flex: 1;
       min-height: 0;
@@ -166,7 +167,7 @@ function buildSpaHtml() {
       background: var(--bg);
     }
 
-    /* 面板内容区内边距 */
+    /* 面板内容区 */
     .panel-inner {
       max-width: 780px;
       margin: 0 auto;
@@ -194,7 +195,7 @@ function buildSpaHtml() {
       opacity: 0.35;
     }
 
-    /* 状态提示（加载中/无数据）*/
+    /* 状态提示 */
     .state-msg {
       text-align: center;
       color: var(--muted);
@@ -202,7 +203,7 @@ function buildSpaHtml() {
       font-size: 0.9rem;
     }
 
-    /* ── 卡片 ── */
+    /* ── 文章卡片 ── */
     .card {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -257,7 +258,59 @@ function buildSpaHtml() {
       letter-spacing: 0.04em;
     }
 
-    /* ── 响应式：小屏改为上下各 50% 自然滚动 ── */
+    /* ── 分类折叠组 ── */
+    .cat-group {
+      margin-bottom: 0.6rem;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .cat-group[open] { border-color: #3730a3; }
+
+    .cat-header {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      padding: 0.65rem 1.1rem;
+      background: var(--surface);
+      cursor: pointer;
+      user-select: none;
+      list-style: none;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--accent);
+      transition: background 0.12s;
+    }
+    .cat-header::-webkit-details-marker { display: none; }
+    .cat-header::marker { display: none; }
+    .cat-header:hover { background: var(--surface2); }
+
+    .cat-count {
+      margin-left: auto;
+      background: var(--bg);
+      padding: 1px 9px;
+      border-radius: 12px;
+      font-size: 0.73rem;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .cat-chevron {
+      font-size: 0.65rem;
+      color: var(--muted);
+      transition: transform 0.2s ease;
+    }
+    details[open] > .cat-header .cat-chevron {
+      transform: rotate(180deg);
+    }
+
+    .cat-body {
+      padding: 0.6rem 0.6rem 0.15rem;
+      background: var(--bg);
+    }
+    .cat-body .card { margin-bottom: 0.55rem; }
+    .cat-body .card:last-child { margin-bottom: 0; }
+
+    /* ── 响应式 ── */
     @media (max-width: 600px) {
       html, body { overflow: auto; height: auto; }
       .split-layout { height: auto; flex-direction: column; }
@@ -289,7 +342,7 @@ function buildSpaHtml() {
   <!-- 分隔条 -->
   <div class="divider" id="divider-label">全部文章</div>
 
-  <!-- 下半：其余文章 -->
+  <!-- 下半：分类文章 -->
   <div class="panel-rest" id="panel-rest">
     <div class="panel-inner">
       <div id="list-rest"></div>
@@ -304,6 +357,18 @@ const listTop    = document.getElementById('list-top');
 const listRest   = document.getElementById('list-rest');
 const topLabel   = document.getElementById('top-label');
 const divLabel   = document.getElementById('divider-label');
+
+// 分类展示顺序
+const CAT_ORDER = [
+  "🤖 AI & 研究",
+  "💰 金融 & 创投",
+  "🔧 开发 & 系统",
+  "🛡️ 安全",
+  "💻 科技产品",
+  "📝 深度阅读",
+  "🌐 社区",
+  "📰 其他",
+];
 
 function esc(s) {
   return String(s ?? '')
@@ -337,6 +402,50 @@ function cardHtml(a, isTop) {
   </article>\`;
 }
 
+// 将文章按 category 分组，返回 Map
+function groupByCategory(articles) {
+  const map = new Map();
+  for (const a of articles) {
+    const cat = a.category || "📰 其他";
+    if (!map.has(cat)) map.set(cat, []);
+    map.get(cat).push(a);
+  }
+  return map;
+}
+
+// 渲染单个分类折叠组（默认展开）
+function catGroupHtml(catName, articles) {
+  const cards = articles.map(a => cardHtml(a, false)).join('');
+  return \`<details class="cat-group" open>
+    <summary class="cat-header">
+      <span class="cat-name">\${esc(catName)}</span>
+      <span class="cat-count">\${articles.length} 篇</span>
+      <span class="cat-chevron">▼</span>
+    </summary>
+    <div class="cat-body">\${cards}</div>
+  </details>\`;
+}
+
+// 渲染下半部分（按分类分组）
+function renderRestByCat(rest) {
+  if (!rest.length) {
+    return '<div class="state-msg" style="padding:1.5rem 0">暂无更多文章</div>';
+  }
+  const groups = groupByCategory(rest);
+  const html = [];
+  // 按预定顺序渲染已知分类
+  for (const cat of CAT_ORDER) {
+    if (groups.has(cat)) {
+      html.push(catGroupHtml(cat, groups.get(cat)));
+    }
+  }
+  // 兜底：未在 CAT_ORDER 中的分类
+  for (const [cat, arts] of groups) {
+    if (!CAT_ORDER.includes(cat)) html.push(catGroupHtml(cat, arts));
+  }
+  return html.join('');
+}
+
 function renderArticles(data) {
   const { meta, articles } = data;
   if (!articles?.length) {
@@ -354,12 +463,9 @@ function renderArticles(data) {
   divLabel.textContent = \`全部文章 · \${rest.length} 篇\`;
   stats.textContent    = \`共 \${articles.length} 篇\`;
 
-  listTop.innerHTML  = top.map(a  => cardHtml(a, true)).join('');
-  listRest.innerHTML = rest.length
-    ? rest.map(a => cardHtml(a, false)).join('')
-    : '<div class="state-msg" style="padding:1.5rem 0">暂无更多文章</div>';
+  listTop.innerHTML  = top.map(a => cardHtml(a, true)).join('');
+  listRest.innerHTML = renderRestByCat(rest);
 
-  // 每次切换日期后两个面板回滚到顶部
   document.getElementById('panel-top').scrollTop  = 0;
   document.getElementById('panel-rest').scrollTop = 0;
 }

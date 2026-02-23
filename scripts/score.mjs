@@ -36,12 +36,31 @@ function calcScore(article, source, scoring) {
   return recencyScore + sourceScore + kwScore;
 }
 
+// ─── 分类定义（优先级从上到下，第一个 tag 命中即归入该类）───────────────────────
+const CATEGORIES = [
+  { label: "🤖 AI & 研究",  tags: ["ai", "llm", "research"] },
+  { label: "💰 金融 & 创投", tags: ["finance", "ipo", "startup", "vc"] },
+  { label: "🔧 开发 & 系统", tags: ["dev", "systems", "rust", "cs", "software"] },
+  { label: "🛡️ 安全",       tags: ["security"] },
+  { label: "💻 科技产品",    tags: ["tech", "apple", "semiconductor"] },
+  { label: "📝 深度阅读",    tags: ["essay", "deep-read", "interview", "strategy", "science", "criticism"] },
+  { label: "🌐 社区",       tags: ["community", "zh"] },
+];
+
+function assignCategory(source) {
+  const srcTags = source?.tags ?? [];
+  for (const cat of CATEGORIES) {
+    if (cat.tags.some((t) => srcTags.includes(t))) return cat.label;
+  }
+  return "📰 其他";
+}
+
 /**
  * 对文章列表打分、去重、排序，并应用来源多样性惩罚
  * @param {Array}  articles  fetchAllFeeds 返回的原始文章数组
  * @param {Array}  sources   sources.json 中的 sources 数组（含 weight）
  * @param {object} scoring   sources.json 中的 scoring 配置块
- * @returns {Array}  带 score 字段的文章数组，按分数降序
+ * @returns {Array}  带 score、category 字段的文章数组，按分数降序
  */
 export function rankArticles(articles, sources, scoring) {
   const { maxPerSource = 3 } = scoring;
@@ -57,11 +76,12 @@ export function rankArticles(articles, sources, scoring) {
     return true;
   });
 
-  // 初步打分
+  // 初步打分 + 分类
   const scored = unique.map((article) => {
     const source = sourceMap.get(article.sourceName);
     const rawScore = calcScore(article, source, scoring);
-    return { ...article, score: rawScore };
+    const category = assignCategory(source);
+    return { ...article, score: rawScore, category };
   });
 
   // 按原始分降序排序
