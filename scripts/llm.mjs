@@ -116,6 +116,65 @@ const PROMPTS = {
 点评：`,
 };
 
+// ─── 批量标题翻译 ──────────────────────────────────────────────────────────
+
+/**
+ * 将文章列表的英文标题批量翻译为中文，结果写入 article.titleZh
+ * 每批最多 30 条，一次 LLM 调用，速度快
+ * @param {Array} articles  带 title 字段的文章数组（原地修改）
+ */
+export async function translateTitles(articles) {
+  if (!USE_LLM || !articles.length) return;
+
+  const BATCH = 30;
+  const total = articles.length;
+  console.log(`🌐 翻译标题（共 ${total} 篇，批次 ${BATCH}）…`);
+
+  for (let start = 0; start < total; start += BATCH) {
+    const batch = articles.slice(start, start + BATCH);
+    const numbered = batch
+      .map((a, i) => `${start + i + 1}. ${a.title}`)
+      .join("\n");
+
+    const prompt =
+`你是专业新闻翻译。将以下英文新闻标题逐条翻译成简洁中文（每条不超过25字）。
+规则：保留公司名、专有名词（如 IPO、Fed、TSMC、LLM）；只输出"编号. 译文"，每行一条，不加任何解释。
+
+${numbered}
+
+输出：`;
+
+    try {
+      const res = await fetch(`${OLLAMA_URL}/api/generate`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          model: LLM_MODEL,
+          prompt,
+          stream: false,
+          options: { temperature: 0.1, top_p: 0.9 },
+        }),
+        signal: AbortSignal.timeout(120_000),
+      });
+      if (!res.ok) throw new Error(`Ollama HTTP ${res.status}`);
+      const text = (await res.json()).response?.trim() ?? "";
+
+      // 解析 "N. 中文标题" 格式
+      for (const line of text.split("\n")) {
+        const m = line.match(/^(\d+)\.\s*(.+)/);
+        if (!m) continue;
+        const idx = parseInt(m[1], 10) - 1; // 转为 0-based
+        if (idx >= 0 && idx < total) {
+          articles[idx].titleZh = m[2].trim();
+        }
+      }
+      console.log(`    批次 ${start + 1}–${Math.min(start + BATCH, total)} 翻译完成`);
+    } catch (err) {
+      console.warn(`  翻译批次 ${start + 1}–${Math.min(start + BATCH, total)} 跳过（${err.message}）`);
+    }
+  }
+}
+
 // ─── 主函数 ────────────────────────────────────────────────────────────────
 
 export async function summarize(article) {

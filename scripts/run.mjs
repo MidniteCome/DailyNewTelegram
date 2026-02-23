@@ -16,7 +16,7 @@ import { execSync } from "node:child_process";
 import { fetchAllFeeds } from "./fetch.mjs";
 import { rankArticles } from "./score.mjs";
 import { pushToTelegram } from "./telegram.mjs";
-import { summarize } from "./llm.mjs";
+import { summarize, translateTitles } from "./llm.mjs";
 import { generateSite } from "./site.mjs";
 
 // ─── 工具函数 ─────────────────────────────────────────────────────────────────
@@ -122,8 +122,13 @@ async function main() {
 
   const topArticles = ranked.slice(0, topN);
 
-  // ── Step 3: LLM 点评（可选）──────────────────────────────────────────────
+  // ── Step 3: LLM 翻译 + 点评（可选）──────────────────────────────────────
   if (process.env.USE_LLM === "true") {
+    // 3a. 批量翻译所有文章标题为中文（一次调用）
+    await translateTitles(ranked);
+    console.log();
+
+    // 3b. 对 Top N 逐篇生成深度点评
     console.log("🤖 LLM 点评 Top 文章…");
     for (const article of topArticles) {
       article.llmComment = await summarize(article);

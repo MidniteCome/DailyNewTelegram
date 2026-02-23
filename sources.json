@@ -1,12 +1,6 @@
 {
   "sources": [
     {
-      "name": "AP News Business",
-      "url": "https://feeds.apnews.com/rss/business",
-      "weight": 3,
-      "tags": ["finance", "tech", "macro"]
-    },
-    {
       "name": "CNBC Technology",
       "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
       "weight": 3,

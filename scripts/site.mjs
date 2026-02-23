@@ -30,6 +30,7 @@ export async function generateSite(rankedArticles, dateYmd, topN = 5) {
       pubDate:    a.pubDate.toISOString(),
       score:      Math.round(a.score),
       category:   a.category ?? "📰 其他",
+      titleZh:    a.titleZh ?? null,
     })),
   };
   await fs.writeFile(jsonPath, JSON.stringify(payload, null, 2) + "\n", "utf8");
@@ -233,9 +234,17 @@ function buildSpaHtml() {
     .source { color: var(--link); font-weight: 500; }
     .score  { margin-left: auto; color: var(--score); font-size: 0.75rem; }
 
-    .card-title { font-size: 0.97rem; font-weight: 600; line-height: 1.45; margin-bottom: 0.35rem; }
+    .card-title { font-size: 0.97rem; font-weight: 600; line-height: 1.45; margin-bottom: 0.2rem; }
     .card-title a { color: var(--text); text-decoration: none; }
     .card-title a:hover { color: var(--accent); }
+
+    .card-title-zh {
+      font-size: 0.88rem;
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: 0.35rem;
+      opacity: 0.85;
+    }
 
     .card-summary { color: #94a3b8; font-size: 0.86rem; }
 
@@ -397,6 +406,7 @@ function cardHtml(a, isTop) {
     <h2 class="card-title">
       <a href="\${esc(a.link)}" target="_blank" rel="noopener">\${esc(a.title)}</a>
     </h2>
+    \${a.titleZh ? \`<p class="card-title-zh">\${esc(a.titleZh)}</p>\` : ''}
     \${a.summary ? \`<p class="card-summary">\${esc(a.summary)}\${a.summary.length>=300?'…':''}</p>\` : ''}
     \${a.llmComment ? \`<div class="ai-comment"><span class="ai-label">🤖 AI 点评</span>\${esc(a.llmComment)}</div>\` : ''}
   </article>\`;
