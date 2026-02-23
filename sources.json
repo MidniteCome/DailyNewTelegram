@@ -1,16 +1,40 @@
 {
   "sources": [
     {
-      "name": "Reuters Technology",
-      "url": "https://feeds.reuters.com/reuters/technologyNews",
+      "name": "AP News Business",
+      "url": "https://feeds.apnews.com/rss/business",
       "weight": 3,
-      "tags": ["finance", "tech", "semiconductor"]
+      "tags": ["finance", "tech", "macro"]
+    },
+    {
+      "name": "CNBC Technology",
+      "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+      "weight": 3,
+      "tags": ["finance", "tech", "markets"]
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "weight": 2,
+      "tags": ["tech", "semiconductor", "ai"]
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "weight": 2,
+      "tags": ["ai", "tech", "research"]
     },
     {
       "name": "Crunchbase News",
       "url": "https://news.crunchbase.com/feed/",
       "weight": 3,
       "tags": ["finance", "ipo", "startup", "vc"]
+    },
+    {
+      "name": "Yahoo Finance",
+      "url": "https://feedfry.com/rss/11f111092c9aca3cbeb66cb95d7dc0e7",
+      "weight": 3,
+      "tags": ["finance", "markets", "macro"]
     },
     {
       "name": "The Chip Letter",
