@@ -1,22 +1,16 @@
 {
   "sources": [
     {
-      "name": "Renaissance Capital IPO",
-      "url": "https://www.renaissancecapital.com/review/IPOPipelineRSS.xml",
-      "weight": 3,
-      "tags": ["finance", "ipo"]
-    },
-    {
-      "name": "IPO Monitor",
-      "url": "https://ipomonitor.com/rss/ipo-news.rss",
-      "weight": 3,
-      "tags": ["finance", "ipo"]
-    },
-    {
       "name": "Reuters Technology",
       "url": "https://feeds.reuters.com/reuters/technologyNews",
       "weight": 3,
       "tags": ["finance", "tech", "semiconductor"]
+    },
+    {
+      "name": "Crunchbase News",
+      "url": "https://news.crunchbase.com/feed/",
+      "weight": 3,
+      "tags": ["finance", "ipo", "startup", "vc"]
     },
     {
       "name": "The Chip Letter",
