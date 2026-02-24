@@ -203,26 +203,34 @@ export async function translateTitles(articles) {
       const num = start + i + 1;
       if (isTitleVague(a.title)) {
         const ctx = (a.fullText ?? a.summary ?? "")
-          .slice(0, 200).replace(/\s+/g, " ").trim();
+          .slice(0, 500).replace(/\s+/g, " ").trim();
         return ctx
-          ? `${num}. ${a.title}\n   【摘要】${ctx}`
+          ? `${num}. ${a.title}\n   [context] ${ctx}`
           : `${num}. ${a.title}`;
       }
       return `${num}. ${a.title}`;
     }).join("\n");
 
     const prompt =
-`你是专业新闻标题编辑和翻译。对以下每条标题做处理：
-• 若已清晰（含公司名、数字或专业术语）→ 仅翻译为中文，不超过25字
-• 若模糊（如 "A deal was announced"，无实质信息）→ 先根据【摘要】改写出信息量高的英文标题，再翻译
+`You are a professional news headline editor and translator.
 
-只输出结果，每行一条，不加任何解释：
-• 清晰标题格式：N. 中文翻译
-• 模糊标题格式：N. 改写后英文标题 | 中文翻译（英文不超过15词，中文不超过25字）
+For each numbered headline below, do ONE of the following:
+
+A) If the headline is already specific (contains a company name, number, or proper noun):
+   → Translate it to Chinese only (≤25 characters).
+   Output format: N. 中文翻译
+
+B) If the headline is vague (e.g. "A deal was announced", "Markets moved today", no real subject or outcome):
+   → Rewrite it in English using the [context] provided. The rewritten headline MUST include: WHO did WHAT to WHOM/WHAT (subject + verb + object). Then translate.
+   Good example: "Stripe Acquires Stablecoin Startup Bridge for $1.1B | Stripe以11亿美元收购稳定币初创公司Bridge"
+   Bad example: "A fintech deal closed today | 一笔金融科技交易今日完成"
+   Output format: N. Rewritten English Headline | 中文翻译
+
+Output ONLY the results, one per line, no explanations, no labels, no extra text.
 
 ${numbered}
 
-输出：`;
+Output:`;
 
     try {
       const text = await callLLM(prompt, { temperature: 0.1, timeout: 120_000 }) ?? "";

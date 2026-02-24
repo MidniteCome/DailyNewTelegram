@@ -1,28 +1,11 @@
 {
   "sources": [
     {
-      "name": "PR Newswire M&A",
-      "url": "https://www.prnewswire.com/rss/news-releases-list.rss?tagAtt=mergers-acquisitions",
-      "weight": 1,
-      "tags": ["ma", "finance"],
-      "halfLifeHours": 24,
-      "requireKeywords": true
-    },
-    {
-      "name": "GlobeNewswire M&A",
-      "url": "https://www.globenewswire.com/RssFeed/industry/9750-Mergers%20%26%20Acquisitions",
-      "weight": 1,
-      "tags": ["ma", "finance"],
-      "halfLifeHours": 24,
-      "requireKeywords": true
-    },
-    {
-      "name": "Business Wire Deals",
-      "url": "https://www.businesswire.com/rss/home/?rss=G22",
-      "weight": 1,
-      "tags": ["ma", "finance"],
-      "halfLifeHours": 24,
-      "requireKeywords": true
+      "name": "Stratechery",
+      "url": "https://stratechery.passport.online/feed/rss/CYTbSebmyaKYnjBgSNwoG",
+      "weight": 3,
+      "tags": ["tech", "finance", "ai"],
+      "halfLifeHours": 48
     },
     {
       "name": "CNBC Technology",

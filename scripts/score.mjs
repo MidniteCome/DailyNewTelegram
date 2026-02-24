@@ -55,9 +55,6 @@ function calcScore(article, source, scoring) {
   }
   kwScore = Math.min(kwScore, kwCap); // 全局上限
 
-  // ── 4. requireKeywords 过滤：新闻稿平台（PR Newswire 等）关键词得分为 0 时排除
-  if (source?.requireKeywords && kwScore === 0) return -1;
-
   return recencyScore + sourceScore + kwScore;
 }
 
@@ -140,8 +137,7 @@ export function rankArticles(articles, sources, scoring) {
       const rawScore = calcScore(article, source, scoring);
       const category = assignCategory(source);
       return { ...article, score: rawScore, category };
-    })
-    .filter((a) => a.score >= 0); // requireKeywords 来源无关键词匹配时 score=-1，直接排除
+    });
 
   // ── 话题热度加分 ────────────────────────────────────────────────────────────
   const hotKeywords = detectHotTopics(scored, keywords);
