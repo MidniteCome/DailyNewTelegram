@@ -14,25 +14,43 @@
  * @returns {number}
  */
 function calcScore(article, source, scoring) {
-  const { recencyHalfLifeHours = 36, keywords = [] } = scoring;
+  const {
+    recencyHalfLifeHours = 36,
+    keywords = [],
+    kwGroupCaps = {},
+    kwCap = 35,
+  } = scoring;
 
   // ── 1. 新鲜度分（指数衰减，最高 20 分，半衰期 36h）
-  // 好内容不怕晚：质量（来源+关键词，最高 60 分）权重高于时效（最高 20 分）
   const ageHours = (Date.now() - article.pubDate.getTime()) / 3_600_000;
   const recencyScore = 20 * Math.pow(0.5, ageHours / recencyHalfLifeHours);
 
   // ── 2. 来源权重分（weight 1-3 对应 10/20/30 分）
   const sourceScore = (source?.weight ?? 1) * 10;
 
-  // ── 3. 关键词匹配分（上限 30 分）
+  // ── 3. 关键词匹配分（分组上限 + 全局上限）
   const haystack = `${article.title} ${article.summary}`.toLowerCase();
-  let kwScore = 0;
-  for (const { keyword, score } of keywords) {
+  const groupAccum = new Map(); // group → raw accumulated score
+  let ungroupedScore = 0;
+
+  for (const { keyword, score, group } of keywords) {
     if (haystack.includes(keyword.toLowerCase())) {
-      kwScore += score ?? 5;
+      const pts = score ?? 5;
+      if (group) {
+        groupAccum.set(group, (groupAccum.get(group) ?? 0) + pts);
+      } else {
+        ungroupedScore += pts;
+      }
     }
   }
-  kwScore = Math.min(kwScore, 30);
+
+  // 各组分别套上限后汇总
+  let kwScore = ungroupedScore;
+  for (const [grp, raw] of groupAccum) {
+    const cap = kwGroupCaps[grp] ?? Infinity;
+    kwScore += Math.min(raw, cap);
+  }
+  kwScore = Math.min(kwScore, kwCap); // 全局上限
 
   return recencyScore + sourceScore + kwScore;
 }
@@ -66,7 +84,7 @@ function assignCategory(source) {
  */
 // ─── 话题热度检测 ──────────────────────────────────────────────────────────────
 
-const HOT_BONUS     = 15; // 热门话题额外加分
+const HOT_BONUS     = 10; // 热门话题额外加分
 const HOT_THRESHOLD = 3;  // 至少被几个不同来源报道才算热门
 
 /**
@@ -135,15 +153,16 @@ export function rankArticles(articles, sources, scoring) {
   // 按加分后的分数排序
   withHot.sort((a, b) => b.score - a.score);
 
-  // ── 多样性惩罚：每个来源超过 maxPerSource 后，分数打折 ──────────────────────
+  // ── 多样性惩罚：阶梯式折扣，超出 maxPerSource 后逐步降权 ──────────────────
+  // 第 maxPerSource+1 篇 ×0.7，第 +2 篇 ×0.5，第 +3 篇及以后 ×0.3
   const sourceCount = new Map();
   const final = withHot.map((article) => {
     const cnt = sourceCount.get(article.sourceName) ?? 0;
     sourceCount.set(article.sourceName, cnt + 1);
-    if (cnt >= maxPerSource) {
-      return { ...article, score: article.score * 0.3 };
-    }
-    return article;
+    const overflow = cnt - maxPerSource;
+    if (overflow < 0) return article;
+    const factor = overflow === 0 ? 0.7 : overflow === 1 ? 0.5 : 0.3;
+    return { ...article, score: article.score * factor };
   });
 
   // 应用惩罚后重新排序
