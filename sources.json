@@ -31,10 +31,10 @@
       "tags": ["finance", "markets", "macro"]
     },
     {
-      "name": "The Chip Letter",
-      "url": "https://thechipletter.substack.com/feed",
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/feeds/feed.rss",
       "weight": 2,
-      "tags": ["semiconductor", "tech"]
+      "tags": ["semiconductor", "tech", "research"]
     },
     {
       "name": "TechCrunch",
@@ -85,10 +85,10 @@
       "tags": ["ai", "interview", "essay"]
     },
     {
-      "name": "Gary Marcus",
-      "url": "https://garymarcus.substack.com/feed",
+      "name": "The Gradient",
+      "url": "https://thegradient.pub/rss/",
       "weight": 1,
-      "tags": ["ai", "criticism"]
+      "tags": ["ai", "research", "essay"]
     },
     {
       "name": "geohot Blog",

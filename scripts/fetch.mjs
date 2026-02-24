@@ -5,7 +5,7 @@
 
 const HTTP_USER_AGENT =
   process.env.HTTP_USER_AGENT ??
-  "DailyNewTelegram/2.0 (https://github.com/williamchoi/DailyNewTelegram)";
+  "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36";
 
 /** 获取 RSS/Atom XML 文本 */
 async function fetchXml(url) {
