@@ -3,23 +3,26 @@
     {
       "name": "PR Newswire M&A",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss?tagAtt=mergers-acquisitions",
-      "weight": 3,
+      "weight": 1,
       "tags": ["ma", "finance"],
-      "halfLifeHours": 24
+      "halfLifeHours": 24,
+      "requireKeywords": true
     },
     {
       "name": "GlobeNewswire M&A",
       "url": "https://www.globenewswire.com/RssFeed/industry/9750-Mergers%20%26%20Acquisitions",
-      "weight": 3,
+      "weight": 1,
       "tags": ["ma", "finance"],
-      "halfLifeHours": 24
+      "halfLifeHours": 24,
+      "requireKeywords": true
     },
     {
       "name": "Business Wire Deals",
       "url": "https://www.businesswire.com/rss/home/?rss=G22",
-      "weight": 2,
+      "weight": 1,
       "tags": ["ma", "finance"],
-      "halfLifeHours": 24
+      "halfLifeHours": 24,
+      "requireKeywords": true
     },
     {
       "name": "CNBC Technology",
@@ -207,7 +210,8 @@
       { "keyword": "artificial intelligence", "score": 8,  "group": "AI & Tech" },
       { "keyword": "semiconductor",           "score": 8,  "group": "AI & Tech" },
       { "keyword": "GPT",                     "score": 7,  "group": "AI & Tech" },
-      { "keyword": "agent",                   "score": 7,  "group": "AI & Tech" },
+      { "keyword": "AI agent",                 "score": 7,  "group": "AI & Tech" },
+      { "keyword": "agentic",                 "score": 7,  "group": "AI & Tech" },
       { "keyword": "data center",             "score": 7,  "group": "AI & Tech" },
       { "keyword": "inference chip",          "score": 7,  "group": "AI & Tech" },
       { "keyword": "accelerator",             "score": 7,  "group": "AI & Tech" },
