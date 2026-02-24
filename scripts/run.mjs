@@ -126,10 +126,20 @@ async function main() {
   const articles = await fetchAllFeeds(sources, scoring.maxItemsPerFeed ?? 30);
   console.log(`   共抓取 ${articles.length} 篇文章`);
 
-  // 跨日去重：始终过滤历史已见过的文章（--force 不影响此逻辑）
-  const freshArticles = articles.filter(a => !state.seenLinks.has(a.link));
+  // 跨日去重：过滤历史已见过的文章。
+  // 例外：最新发布日期（latestDate）当天的文章始终参与，确保重跑/强制跑时不会全空。
+  const latestDate = articles.length
+    ? new Date(Math.max(...articles.map(a => a.pubDate))).toISOString().slice(0, 10)
+    : today;
+
+  const freshArticles = articles.filter(a => {
+    if (!state.seenLinks.has(a.link)) return true;          // 从未见过，正常纳入
+    const pubDay = a.pubDate.toISOString().slice(0, 10);
+    return pubDay === latestDate;                            // 最新日期的文章始终参与
+  });
+
   const dupCount = articles.length - freshArticles.length;
-  if (dupCount > 0) console.log(`   ⏭  过滤历史重复 ${dupCount} 篇，剩余 ${freshArticles.length} 篇`);
+  if (dupCount > 0) console.log(`   ⏭  过滤历史重复 ${dupCount} 篇（保留最新日期 ${latestDate} 全部），剩余 ${freshArticles.length} 篇`);
   console.log();
 
   if (freshArticles.length === 0) {
