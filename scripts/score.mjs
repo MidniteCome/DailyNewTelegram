@@ -40,6 +40,7 @@ function calcScore(article, source, scoring) {
 // ─── 分类定义（优先级从上到下，第一个 tag 命中即归入该类）───────────────────────
 const CATEGORIES = [
   { label: "🤖 AI & 研究",  tags: ["ai", "llm", "research"] },
+  { label: "💼 并购 & 交易", tags: ["ma"] },
   { label: "💰 金融 & 创投", tags: ["finance", "ipo", "startup", "vc"] },
   { label: "🔧 开发 & 系统", tags: ["dev", "systems", "rust", "cs", "software"] },
   { label: "🛡️ 安全",       tags: ["security"] },

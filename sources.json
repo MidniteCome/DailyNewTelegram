@@ -1,6 +1,24 @@
 {
   "sources": [
     {
+      "name": "PR Newswire M&A",
+      "url": "https://www.prnewswire.com/rss/news-releases-list.rss?tagAtt=mergers-acquisitions",
+      "weight": 3,
+      "tags": ["ma", "finance"]
+    },
+    {
+      "name": "GlobeNewswire M&A",
+      "url": "https://www.globenewswire.com/RssFeed/industry/9750-Mergers%20%26%20Acquisitions",
+      "weight": 3,
+      "tags": ["ma", "finance"]
+    },
+    {
+      "name": "Business Wire Deals",
+      "url": "https://www.businesswire.com/rss/home/?rss=G22",
+      "weight": 2,
+      "tags": ["ma", "finance"]
+    },
+    {
       "name": "CNBC Technology",
       "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
       "weight": 3,
@@ -175,7 +193,16 @@
       { "keyword": "rate",                    "score": 5 },
       { "keyword": "inflation",               "score": 6 },
       { "keyword": "tariff",                  "score": 6 },
-      { "keyword": "acquisition",             "score": 6 },
+      { "keyword": "acquisition",             "score": 10 },
+      { "keyword": "merger",                  "score": 10 },
+      { "keyword": "M&A",                     "score": 10 },
+      { "keyword": "buyout",                  "score": 9 },
+      { "keyword": "takeover",                "score": 9 },
+      { "keyword": "LBO",                     "score": 8 },
+      { "keyword": "private equity",          "score": 7 },
+      { "keyword": "acquires",                "score": 9 },
+      { "keyword": "acquired by",             "score": 9 },
+      { "keyword": "deal",                    "score": 4 },
       { "keyword": "funding",                 "score": 5 },
       { "keyword": "vulnerability",           "score": 5 },
       { "keyword": "breach",                  "score": 5 },
