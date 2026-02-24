@@ -222,9 +222,8 @@ A) If the headline is already specific (contains a company name, number, or prop
 
 B) If the headline is vague (e.g. "A deal was announced", "Markets moved today", no real subject or outcome):
    → Rewrite it in English using the [context] provided. The rewritten headline MUST include: WHO did WHAT to WHOM/WHAT (subject + verb + object). Then translate.
-   Good example: "Stripe Acquires Stablecoin Startup Bridge for $1.1B | Stripe以11亿美元收购稳定币初创公司Bridge"
-   Bad example: "A fintech deal closed today | 一笔金融科技交易今日完成"
-   Output format: N. Rewritten English Headline | 中文翻译
+   ✓ Good: "3. Stripe Acquires Stablecoin Startup Bridge for $1.1B | Stripe以11亿美元收购稳定币初创公司Bridge"
+   ✗ Bad:  "3. A fintech deal closed today | 一笔金融科技交易今日完成"
 
 Output ONLY the results, one per line, no explanations, no labels, no extra text.
 

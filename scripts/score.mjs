@@ -157,16 +157,12 @@ export function rankArticles(articles, sources, scoring) {
   // 按加分后的分数排序
   withHot.sort((a, b) => b.score - a.score);
 
-  // ── 多样性惩罚：阶梯式折扣，超出 maxPerSource 后逐步降权 ──────────────────
-  // 第 maxPerSource+1 篇 ×0.7，第 +2 篇 ×0.5，第 +3 篇及以后 ×0.3
+  // ── 多样性控制：每个来源最多保留 maxPerSource 篇，超出直接排除 ──────────────
   const sourceCount = new Map();
-  const final = withHot.map((article) => {
+  const final = withHot.filter((article) => {
     const cnt = sourceCount.get(article.sourceName) ?? 0;
     sourceCount.set(article.sourceName, cnt + 1);
-    const overflow = cnt - maxPerSource;
-    if (overflow < 0) return article;
-    const factor = overflow === 0 ? 0.7 : overflow === 1 ? 0.5 : 0.3;
-    return { ...article, score: article.score * factor };
+    return cnt < maxPerSource;
   });
 
   // 应用惩罚后重新排序
