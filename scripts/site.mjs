@@ -30,6 +30,7 @@ export async function generateSite(rankedArticles, dateYmd, topN = 5) {
       pubDate:    a.pubDate.toISOString(),
       score:      Math.round(a.score),
       category:   a.category ?? "📰 其他",
+      titleEn:    a.titleEn ?? null,
       titleZh:    a.titleZh ?? null,
       isHot:      a.isHot ?? false,
     })),
@@ -407,7 +408,7 @@ function cardHtml(a, isTop) {
       <span class="score">⭐ \${a.score}</span>
     </div>
     <h2 class="card-title">
-      <a href="\${esc(a.link)}" target="_blank" rel="noopener">\${esc(a.title)}</a>
+      <a href="\${esc(a.link)}" target="_blank" rel="noopener">\${esc(a.titleEn ?? a.title)}</a>
     </h2>
     \${a.titleZh ? \`<p class="card-title-zh">\${esc(a.titleZh)}</p>\` : ''}
     \${a.summary ? \`<p class="card-summary">\${esc(a.summary)}\${a.summary.length>=300?'…':''}</p>\` : ''}

@@ -13,7 +13,7 @@
 
 import fs from "node:fs/promises";
 import { execSync } from "node:child_process";
-import { fetchAllFeeds } from "./fetch.mjs";
+import { fetchAllFeeds, enrichWithFullText } from "./fetch.mjs";
 import { rankArticles } from "./score.mjs";
 import { pushToTelegram } from "./telegram.mjs";
 import { summarize, translateTitles } from "./llm.mjs";
@@ -137,9 +137,14 @@ async function main() {
     return;
   }
 
+  // ── Step 1b: 全文抓取（增强关键词评分） ────────────────────────────────────
+  console.log("📄 全文抓取（增强评分）…");
+  const enrichedArticles = await enrichWithFullText(freshArticles);
+  console.log();
+
   // ── Step 2: 打分排序 ──────────────────────────────────────────────────────
   console.log("📊 打分与排序…");
-  const ranked = rankArticles(freshArticles, sources, scoring);
+  const ranked = rankArticles(enrichedArticles, sources, scoring);
   console.log(`   排序完成，共 ${ranked.length} 篇\n`);
 
   const topArticles = ranked.slice(0, topN);
@@ -149,18 +154,20 @@ async function main() {
   const titleCache = await readTitleCache();
   let cacheHits = 0;
   for (const a of ranked) {
-    if (titleCache[a.link]) { a.titleZh = titleCache[a.link]; cacheHits++; }
+    if (titleCache[a.link])          { a.titleZh = titleCache[a.link];          cacheHits++; }
+    if (titleCache[a.link + "__en"]) { a.titleEn = titleCache[a.link + "__en"];              }
   }
   if (cacheHits > 0) console.log(`📖 从翻译缓存命中 ${cacheHits} 篇\n`);
 
   if (process.env.USE_LLM === "true") {
-    // 3a. 只翻译缓存中没有的文章
+    // 3a. 只处理缓存中没有中文译文的文章
     const needTranslate = ranked.filter(a => !a.titleZh);
     if (needTranslate.length > 0) {
       await translateTitles(needTranslate);
-      // 写入新译文到缓存
+      // 写入中文译文和改写英文标题到缓存
       for (const a of needTranslate) {
-        if (a.titleZh) titleCache[a.link] = a.titleZh;
+        if (a.titleZh) titleCache[a.link]          = a.titleZh;
+        if (a.titleEn) titleCache[a.link + "__en"] = a.titleEn;
       }
       await writeTitleCache(titleCache);
     } else {

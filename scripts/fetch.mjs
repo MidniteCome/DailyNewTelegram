@@ -102,6 +102,70 @@ function parseFeed(xml, sourceName, sourceUrl) {
     : parseRss(xml, sourceName, sourceUrl);
 }
 
+// ─── 全文抓取配置 ─────────────────────────────────────────────────────────────
+const FULL_TEXT_CONCURRENCY  = 8;    // 同时发出的最大并发请求数
+const FULL_TEXT_TIMEOUT_MS   = 8_000; // 单篇超时
+const FULL_TEXT_CHARS        = 3_000; // 保留正文字符上限（足够关键词匹配）
+const FULL_TEXT_CANDIDATE_N  = 100;  // 只对最近 N 篇抓取全文（节省请求）
+
+/** 从 HTML 中提取纯文本（去除 script/style/标签）*/
+function extractFullText(html) {
+  return html
+    .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"').replace(/&nbsp;/g, " ")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, FULL_TEXT_CHARS);
+}
+
+/** 抓取单篇文章全文，失败时静默返回原对象 */
+async function fetchOneFullText(article) {
+  try {
+    const res = await fetch(article.link, {
+      headers: { "User-Agent": HTTP_USER_AGENT },
+      signal: AbortSignal.timeout(FULL_TEXT_TIMEOUT_MS),
+    });
+    if (!res.ok) return article;
+    const html = await res.text();
+    return { ...article, fullText: extractFullText(html) };
+  } catch {
+    return article; // 任何错误都 fallback，不影响主流程
+  }
+}
+
+/**
+ * 对文章列表补充全文字段，用于增强关键词评分。
+ * 只对最近 FULL_TEXT_CANDIDATE_N 篇文章抓取，其余保持不变。
+ * @param {Array} articles
+ * @returns {Promise<Array>}
+ */
+export async function enrichWithFullText(articles) {
+  // 按发布时间降序，优先抓最新文章
+  const sorted = [...articles].sort((a, b) => b.pubDate - a.pubDate);
+  const candidates = sorted.slice(0, FULL_TEXT_CANDIDATE_N);
+  const rest       = sorted.slice(FULL_TEXT_CANDIDATE_N);
+
+  process.stdout.write(`  📄 全文抓取：${candidates.length} 篇候选`);
+
+  // 分批并发，控制同时连接数
+  const enriched = [];
+  for (let i = 0; i < candidates.length; i += FULL_TEXT_CONCURRENCY) {
+    const batch   = candidates.slice(i, i + FULL_TEXT_CONCURRENCY);
+    const results = await Promise.all(batch.map(fetchOneFullText));
+    enriched.push(...results);
+    process.stdout.write(".");
+  }
+
+  const hitCount = enriched.filter(a => a.fullText).length;
+  console.log(` ✓ ${hitCount}/${enriched.length} 篇成功`);
+
+  return [...enriched, ...rest];
+}
+
 /**
  * 抓取所有配置的 RSS 源
  * @param {Array} sources  来自 sources.json 的 sources 数组

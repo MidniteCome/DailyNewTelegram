@@ -72,7 +72,7 @@ export async function pushToTelegram(topArticles, dateYmd, siteUrl = null) {
   for (let i = 0; i < topArticles.length; i++) {
     const a = topArticles[i];
     const num = i + 1;
-    const title = escHtml(a.title.replace(/\s+/g, " ").trim());
+    const title = escHtml((a.titleEn ?? a.title).replace(/\s+/g, " ").trim());
     const source = escHtml(a.sourceName);
     const time = a.pubDate.toISOString().slice(11, 16) + " UTC";
 

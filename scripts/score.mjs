@@ -21,15 +21,18 @@ function calcScore(article, source, scoring) {
     kwCap = 35,
   } = scoring;
 
-  // ── 1. 新鲜度分（指数衰减，最高 20 分，半衰期 36h）
+  // ── 1. 新鲜度分（指数衰减，最高 20 分）
+  // 半衰期优先用来源自身配置，否则用全局默认值
+  const halfLife = source?.halfLifeHours ?? recencyHalfLifeHours;
   const ageHours = (Date.now() - article.pubDate.getTime()) / 3_600_000;
-  const recencyScore = 20 * Math.pow(0.5, ageHours / recencyHalfLifeHours);
+  const recencyScore = 20 * Math.pow(0.5, ageHours / halfLife);
 
   // ── 2. 来源权重分（weight 1-3 对应 10/20/30 分）
   const sourceScore = (source?.weight ?? 1) * 10;
 
   // ── 3. 关键词匹配分（分组上限 + 全局上限）
-  const haystack = `${article.title} ${article.summary}`.toLowerCase();
+  // fullText 由 enrichWithFullText 注入，无则退化为仅 title+summary
+  const haystack = `${article.title} ${article.summary} ${article.fullText ?? ""}`.toLowerCase();
   const groupAccum = new Map(); // group → raw accumulated score
   let ungroupedScore = 0;
 

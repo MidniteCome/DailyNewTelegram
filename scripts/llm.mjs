@@ -164,12 +164,28 @@ const PROMPTS = {
 点评：`,
 };
 
-// ─── 批量标题翻译 ──────────────────────────────────────────────────────────
+// ─── 标题模糊度检测 ────────────────────────────────────────────────────────
 
 /**
- * 将文章列表的英文标题批量翻译为中文，结果写入 article.titleZh
- * 每批最多 30 条，一次 LLM 调用，速度快
- * @param {Array} articles  带 title 字段的文章数组（原地修改）
+ * 判断标题是否模糊（无公司名、数字、专有名词或缩写）。
+ * 模糊标题将在翻译时同步用全文改写为更具信息量的英文标题。
+ */
+function isTitleVague(title) {
+  const hasNumber     = /\d/.test(title);
+  const hasProperNoun = /[A-Z][a-z]{2,}/.test(title); // 首字母大写词，如 Apple、OpenAI
+  const hasAcronym    = /\b[A-Z]{2,}\b/.test(title);  // 全大写缩写，如 IPO、LLM、M&A
+  const isLong        = title.length > 65;             // 长标题通常已足够具体
+  return !hasNumber && !hasProperNoun && !hasAcronym && !isLong;
+}
+
+// ─── 批量标题翻译（含模糊标题改写）──────────────────────────────────────────
+
+/**
+ * 批量处理标题：
+ *   - 清晰标题 → 直接翻译为中文，写入 article.titleZh
+ *   - 模糊标题 → 根据全文改写英文标题写入 article.titleEn，再翻译写入 article.titleZh
+ * 每批最多 30 条，一次 LLM 调用，零额外请求
+ * @param {Array} articles  带 title / fullText? / summary? 字段的文章数组（原地修改）
  */
 export async function translateTitles(articles) {
   if (!USE_LLM || !articles.length) return;
@@ -181,13 +197,28 @@ export async function translateTitles(articles) {
 
   for (let start = 0; start < total; start += BATCH) {
     const batch = articles.slice(start, start + BATCH);
-    const numbered = batch
-      .map((a, i) => `${start + i + 1}. ${a.title}`)
-      .join("\n");
+
+    // 为模糊标题附加摘要上下文，帮助 LLM 改写
+    const numbered = batch.map((a, i) => {
+      const num = start + i + 1;
+      if (isTitleVague(a.title)) {
+        const ctx = (a.fullText ?? a.summary ?? "")
+          .slice(0, 200).replace(/\s+/g, " ").trim();
+        return ctx
+          ? `${num}. ${a.title}\n   【摘要】${ctx}`
+          : `${num}. ${a.title}`;
+      }
+      return `${num}. ${a.title}`;
+    }).join("\n");
 
     const prompt =
-`你是专业新闻翻译。将以下英文新闻标题逐条翻译成简洁中文（每条不超过25字）。
-规则：保留公司名、专有名词（如 IPO、Fed、TSMC、LLM）；只输出"编号. 译文"，每行一条，不加任何解释。
+`你是专业新闻标题编辑和翻译。对以下每条标题做处理：
+• 若已清晰（含公司名、数字或专业术语）→ 仅翻译为中文，不超过25字
+• 若模糊（如 "A deal was announced"，无实质信息）→ 先根据【摘要】改写出信息量高的英文标题，再翻译
+
+只输出结果，每行一条，不加任何解释：
+• 清晰标题格式：N. 中文翻译
+• 模糊标题格式：N. 改写后英文标题 | 中文翻译（英文不超过15词，中文不超过25字）
 
 ${numbered}
 
@@ -196,16 +227,28 @@ ${numbered}
     try {
       const text = await callLLM(prompt, { temperature: 0.1, timeout: 120_000 }) ?? "";
 
-      // 解析 "N. 中文标题" 格式
+      // 解析两种输出格式
       for (const line of text.split("\n")) {
         const m = line.match(/^(\d+)\.\s*(.+)/);
         if (!m) continue;
         const idx = parseInt(m[1], 10) - 1;
-        if (idx >= 0 && idx < total) {
-          articles[idx].titleZh = m[2].trim();
+        if (idx < 0 || idx >= total) continue;
+        const content = m[2].trim();
+        if (content.includes(" | ")) {
+          // 模糊标题：改写英文 | 中文翻译
+          const [en, zh] = content.split(" | ").map(s => s.trim());
+          articles[idx].titleEn = en;
+          articles[idx].titleZh = zh;
+        } else {
+          // 清晰标题：仅中文翻译
+          articles[idx].titleZh = content;
         }
       }
-      console.log(`    批次 ${start + 1}–${Math.min(start + BATCH, total)} 翻译完成`);
+
+      const rewriteCount = batch.slice(0, BATCH)
+        .filter((_, i) => articles[start + i]?.titleEn).length;
+      const label = rewriteCount > 0 ? `（含 ${rewriteCount} 条改写）` : "";
+      console.log(`    批次 ${start + 1}–${Math.min(start + BATCH, total)} 完成 ${label}`);
     } catch (err) {
       console.warn(`  翻译批次 ${start + 1}–${Math.min(start + BATCH, total)} 跳过（${err.message}）`);
     }

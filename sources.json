@@ -4,61 +4,71 @@
       "name": "PR Newswire M&A",
       "url": "https://www.prnewswire.com/rss/news-releases-list.rss?tagAtt=mergers-acquisitions",
       "weight": 3,
-      "tags": ["ma", "finance"]
+      "tags": ["ma", "finance"],
+      "halfLifeHours": 24
     },
     {
       "name": "GlobeNewswire M&A",
       "url": "https://www.globenewswire.com/RssFeed/industry/9750-Mergers%20%26%20Acquisitions",
       "weight": 3,
-      "tags": ["ma", "finance"]
+      "tags": ["ma", "finance"],
+      "halfLifeHours": 24
     },
     {
       "name": "Business Wire Deals",
       "url": "https://www.businesswire.com/rss/home/?rss=G22",
       "weight": 2,
-      "tags": ["ma", "finance"]
+      "tags": ["ma", "finance"],
+      "halfLifeHours": 24
     },
     {
       "name": "CNBC Technology",
       "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
       "weight": 3,
-      "tags": ["finance", "tech", "markets"]
+      "tags": ["finance", "tech", "markets"],
+      "halfLifeHours": 24
     },
     {
       "name": "Ars Technica",
       "url": "https://feeds.arstechnica.com/arstechnica/index",
       "weight": 2,
-      "tags": ["tech", "semiconductor", "ai"]
+      "tags": ["tech", "semiconductor", "ai"],
+      "halfLifeHours": 30
     },
     {
       "name": "MIT Technology Review",
       "url": "https://www.technologyreview.com/feed/",
       "weight": 2,
-      "tags": ["ai", "tech", "research"]
+      "tags": ["ai", "tech", "research"],
+      "halfLifeHours": 30
     },
     {
       "name": "Crunchbase News",
       "url": "https://news.crunchbase.com/feed/",
       "weight": 3,
-      "tags": ["finance", "ipo", "startup", "vc"]
+      "tags": ["finance", "ipo", "startup", "vc"],
+      "halfLifeHours": 24
     },
     {
       "name": "Yahoo Finance",
       "url": "https://feedfry.com/rss/11f111092c9aca3cbeb66cb95d7dc0e7",
       "weight": 3,
-      "tags": ["finance", "markets", "macro"]
+      "tags": ["finance", "markets", "macro"],
+      "halfLifeHours": 24
     },
     {
       "name": "IEEE Spectrum",
       "url": "https://spectrum.ieee.org/feeds/feed.rss",
       "weight": 2,
-      "tags": ["semiconductor", "tech", "research"]
+      "tags": ["semiconductor", "tech", "research"],
+      "halfLifeHours": 30
     },
     {
       "name": "TechCrunch",
       "url": "https://techcrunch.com/feed/",
       "weight": 2,
-      "tags": ["tech", "startup"]
+      "tags": ["tech", "startup"],
+      "halfLifeHours": 30
     },
     {
       "name": "Google DeepMind Blog",
@@ -82,49 +92,57 @@
       "name": "Simon Willison",
       "url": "https://simonwillison.net/atom/everything/",
       "weight": 2,
-      "tags": ["ai", "llm", "dev"]
+      "tags": ["ai", "llm", "dev"],
+      "halfLifeHours": 48
     },
     {
       "name": "Paul Graham Essays",
       "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
       "weight": 2,
-      "tags": ["startup", "tech", "essay"]
+      "tags": ["startup", "tech", "essay"],
+      "halfLifeHours": 48
     },
     {
       "name": "Gwern",
       "url": "https://gwern.net/feed",
       "weight": 2,
-      "tags": ["ai", "research", "essay"]
+      "tags": ["ai", "research", "essay"],
+      "halfLifeHours": 48
     },
     {
       "name": "Dwarkesh Patel",
       "url": "https://www.dwarkeshpatel.com/feed",
       "weight": 2,
-      "tags": ["ai", "interview", "essay"]
+      "tags": ["ai", "interview", "essay"],
+      "halfLifeHours": 48
     },
     {
       "name": "The Gradient",
       "url": "https://thegradient.pub/rss/",
       "weight": 1,
-      "tags": ["ai", "research", "essay"]
+      "tags": ["ai", "research", "essay"],
+      "halfLifeHours": 48
     },
     {
       "name": "geohot Blog",
       "url": "https://geohot.github.io/blog/feed.xml",
       "weight": 1,
-      "tags": ["ai", "systems", "hacking"]
+      "tags": ["ai", "systems", "hacking"],
+      "halfLifeHours": 48
     },
     {
       "name": "matklad",
       "url": "https://matklad.github.io/feed.xml",
       "weight": 1,
-      "tags": ["systems", "rust", "dev"]
+      "tags": ["systems", "rust", "dev"],
+      "halfLifeHours": 48
     },
     {
       "name": "Construction Physics",
       "url": "https://www.construction-physics.com/feed",
       "weight": 2,
-      "tags": ["tech", "industry", "deep-read"]
+      "tags": ["tech", "industry", "deep-read"],
+      "halfLifeHours": 48
     },
     {
       "name": "Eli Bendersky",
