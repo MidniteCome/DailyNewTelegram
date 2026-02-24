@@ -1,8 +1,9 @@
 /**
  * score.mjs — 文章打分与排序模块
  *
- * 总分 = 新鲜度分(0-20) + 来源权重分(0-30) + 关键词匹配分(0-30)
+ * 总分 = 新鲜度分(0-20) + 来源权重分(0-30) + 关键词匹配分(0-30) + 话题热度加分(0-15)
  * 同一来源超过 maxPerSource 条时，多余条目乘以多样性惩罚系数 0.3
+ * 话题热度：同一关键词被 hotThreshold 个以上不同来源报道时，相关文章额外加分
  */
 
 /**
@@ -62,8 +63,39 @@ function assignCategory(source) {
  * @param {object} scoring   sources.json 中的 scoring 配置块
  * @returns {Array}  带 score、category 字段的文章数组，按分数降序
  */
+// ─── 话题热度检测 ──────────────────────────────────────────────────────────────
+
+const HOT_BONUS     = 15; // 热门话题额外加分
+const HOT_THRESHOLD = 3;  // 至少被几个不同来源报道才算热门
+
+/**
+ * 统计每个关键词被多少个不同来源提到，返回热门关键词集合
+ */
+function detectHotTopics(articles, keywords) {
+  // keyword → Set<sourceName>
+  const kwSourceMap = new Map();
+
+  for (const article of articles) {
+    const haystack = `${article.title} ${article.summary}`.toLowerCase();
+    for (const { keyword } of keywords) {
+      const kw = keyword.toLowerCase();
+      if (haystack.includes(kw)) {
+        if (!kwSourceMap.has(kw)) kwSourceMap.set(kw, new Set());
+        kwSourceMap.get(kw).add(article.sourceName);
+      }
+    }
+  }
+
+  // 只保留达到阈值的关键词
+  const hotKeywords = new Set();
+  for (const [kw, sources] of kwSourceMap) {
+    if (sources.size >= HOT_THRESHOLD) hotKeywords.add(kw);
+  }
+  return hotKeywords;
+}
+
 export function rankArticles(articles, sources, scoring) {
-  const { maxPerSource = 3 } = scoring;
+  const { maxPerSource = 3, keywords = [] } = scoring;
 
   // 建立来源名 → 配置的快速查找表
   const sourceMap = new Map(sources.map((s) => [s.name, s]));
@@ -84,12 +116,27 @@ export function rankArticles(articles, sources, scoring) {
     return { ...article, score: rawScore, category };
   });
 
-  // 按原始分降序排序
-  scored.sort((a, b) => b.score - a.score);
+  // ── 话题热度加分 ────────────────────────────────────────────────────────────
+  const hotKeywords = detectHotTopics(scored, keywords);
 
-  // 多样性惩罚：每个来源超过 maxPerSource 后，分数打折
+  if (hotKeywords.size > 0) {
+    console.log(`  🔥 热门话题（被 ${HOT_THRESHOLD}+ 来源同日报道）: ${[...hotKeywords].join(" · ")}`);
+  }
+
+  const withHot = scored.map((article) => {
+    const haystack = `${article.title} ${article.summary}`.toLowerCase();
+    const isHot = [...hotKeywords].some((kw) => haystack.includes(kw));
+    return isHot
+      ? { ...article, score: article.score + HOT_BONUS, isHot: true }
+      : article;
+  });
+
+  // 按加分后的分数排序
+  withHot.sort((a, b) => b.score - a.score);
+
+  // ── 多样性惩罚：每个来源超过 maxPerSource 后，分数打折 ──────────────────────
   const sourceCount = new Map();
-  const final = scored.map((article) => {
+  const final = withHot.map((article) => {
     const cnt = sourceCount.get(article.sourceName) ?? 0;
     sourceCount.set(article.sourceName, cnt + 1);
     if (cnt >= maxPerSource) {

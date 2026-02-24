@@ -31,6 +31,7 @@ export async function generateSite(rankedArticles, dateYmd, topN = 5) {
       score:      Math.round(a.score),
       category:   a.category ?? "📰 其他",
       titleZh:    a.titleZh ?? null,
+      isHot:      a.isHot ?? false,
     })),
   };
   await fs.writeFile(jsonPath, JSON.stringify(payload, null, 2) + "\n", "utf8");
@@ -233,6 +234,7 @@ function buildSpaHtml() {
     .rank   { background: #312e81; color: #a5b4fc; padding: 1px 7px; border-radius: 4px; font-weight: 700; }
     .source { color: var(--link); font-weight: 500; }
     .score  { margin-left: auto; color: var(--score); font-size: 0.75rem; }
+    .hot-badge { background: #7c2d12; color: #fb923c; padding: 1px 7px; border-radius: 4px; font-size: 0.72rem; font-weight: 700; }
 
     .card-title { font-size: 0.97rem; font-weight: 600; line-height: 1.45; margin-bottom: 0.2rem; }
     .card-title a { color: var(--text); text-decoration: none; }
@@ -399,6 +401,7 @@ function cardHtml(a, isTop) {
   return \`<article class="card\${isTop ? ' is-top' : ''}">
     <div class="card-meta">
       <span class="rank">#\${a.rank}</span>
+      \${a.isHot ? '<span class="hot-badge">🔥 热议</span>' : ''}
       <span class="source">\${esc(a.source)}</span>
       <span class="time">\${timeStr(a.pubDate)}</span>
       <span class="score">⭐ \${a.score}</span>
