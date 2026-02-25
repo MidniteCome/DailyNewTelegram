@@ -143,7 +143,7 @@ function buildSpaHtml() {
     }
 
     html, body {
-      height: 100%; overflow: hidden;
+      min-height: 100%;
       background: var(--bg); color: var(--text);
       font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI",
                    "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
@@ -154,12 +154,13 @@ function buildSpaHtml() {
 
     /* ── Header ── */
     header {
+      position: sticky; top: 0;
       height: 48px;
       background: var(--surface);
       border-bottom: 1px solid var(--border);
       padding: 0 1rem;
       display: flex; align-items: center; gap: 0.65rem;
-      flex-shrink: 0; z-index: 20;
+      z-index: 20;
     }
     .brand {
       font-size: 0.85rem; font-weight: 700;
@@ -235,13 +236,11 @@ function buildSpaHtml() {
     #theme-toggle:hover { border-color: var(--border-hi); color: var(--text); }
 
     /* ── Layout ── */
-    .split-layout { display: flex; flex-direction: column; height: calc(100vh - 48px); }
-    .panel-top {
-      flex: 1; min-height: 0; overflow-y: auto;
-      background: var(--bg); border-bottom: 1px solid var(--border);
-    }
+    .split-layout { /* single scrollable flow */ }
+    .panel-top  { /* no fixed height / overflow */ }
     .divider {
-      flex-shrink: 0; height: 28px;
+      position: sticky; top: 48px; z-index: 15;
+      height: 28px;
       background: var(--surface);
       border-top: 1px solid var(--border);
       border-bottom: 1px solid var(--border);
@@ -252,7 +251,7 @@ function buildSpaHtml() {
       color: var(--muted); user-select: none;
     }
     .divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
-    .panel-rest { flex: 1; min-height: 0; overflow-y: auto; background: var(--bg); }
+    .panel-rest { /* no fixed height / overflow */ }
     .panel-inner { max-width: 760px; margin: 0 auto; padding: 0.9rem 1rem 2rem; }
 
     .panel-label {
@@ -416,11 +415,7 @@ function buildSpaHtml() {
 
     /* ── Responsive ── */
     @media (max-width: 640px) {
-      html, body { overflow: auto; height: auto; }
-      .split-layout { height: auto; }
-      .panel-top, .panel-rest { flex: none; height: auto; overflow: visible; }
-      .panel-top { border-bottom: none; }
-      .divider { position: sticky; top: 0; z-index: 10; }
+      .divider { top: 48px; }
       #stats { display: none; }
       .kbd-hint { display: none; }
       .search-wrap { max-width: 120px; }
@@ -771,8 +766,7 @@ function applyFilter(data) {
   listTop.innerHTML  = top.map((a, i) => cardHtml(a, i)).join('') || '<div class="state-msg">No signals for this filter</div>';
   listRest.innerHTML = renderRestByCat(rest);
 
-  document.getElementById('panel-top').scrollTop  = 0;
-  document.getElementById('panel-rest').scrollTop = 0;
+  window.scrollTo({ top: 0, behavior: 'instant' });
   kbdIdx = -1;
 }
 
