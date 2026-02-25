@@ -230,9 +230,40 @@ async function main() {
   await pushToTelegram(topArticles, today, siteUrl);
   console.log();
 
-  // ── Step 5: 生成网站 ──────────────────────────────────────────────────────
+  // ── Step 5: 生成网站（合并今日历史，支持日内多次 re-run 不丢失文章）──────
   console.log("🌐 生成静态网站…");
-  await generateSite(ranked, today, topN);
+
+  // 若当天已有存档 JSON，将其中未出现在本次 ranked 的文章一并纳入，
+  // 这样每次 re-run 都是在当日全量文章基础上重新排序，而不是覆盖旧数据。
+  let siteArticles = ranked;
+  const todayJsonPath = `docs/data/${today}.json`;
+  try {
+    const prevPayload = JSON.parse(await fs.readFile(todayJsonPath, "utf8"));
+    const prevArts = (prevPayload.articles ?? []).map(a => ({
+      title:      a.title,
+      link:       a.link,
+      sourceName: a.source,          // JSON 里存的字段名是 source
+      summary:    a.summary   ?? "",
+      llmComment: a.llmComment ?? null,
+      pubDate:    new Date(a.pubDate),
+      score:      a.score,
+      category:   a.category,
+      titleEn:    a.titleEn   ?? null,
+      titleZh:    a.titleZh   ?? null,
+      isHot:      a.isHot     ?? false,
+      paywalled:  a.paywalled ?? false,
+    }));
+    const newLinks = new Set(ranked.map(a => a.link));
+    const onlyPrev = prevArts.filter(a => !newLinks.has(a.link));
+    if (onlyPrev.length > 0) {
+      siteArticles = [...ranked, ...onlyPrev].sort((a, b) => b.score - a.score);
+      console.log(`  📦 合并今日历史 ${onlyPrev.length} 篇 → 网站共展示 ${siteArticles.length} 篇`);
+    }
+  } catch {
+    // 首次运行或文件不存在，直接使用当前 ranked
+  }
+
+  await generateSite(siteArticles, today, topN);
   console.log();
 
   // ── Step 6: 更新历史状态 + git push ──────────────────────────────────────

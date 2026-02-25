@@ -78,11 +78,78 @@ const CATEGORIES = [
   { label: "🌐 社区",           tags: ["community", "zh"] },
 ];
 
-function assignCategory(source) {
+// ─── 基于标题内容的高置信度分类模式 ───────────────────────────────────────────
+//
+// 对非"内容性格"来源（如 Reuters Google News RSS），优先用标题匹配确定真实分类，
+// 避免 Google News 返回与检索词不符的文章被错误归类。
+//
+// 设计原则：
+//   - 模式尽量高精度（宁可不命中，不要误命中）
+//   - 顺序同 CATEGORIES，保持一致的优先级
+const TITLE_PATTERNS = [
+  {
+    label: "🤖 AI & 研究",
+    re: /\bai\b|\bllm\b|gpt-?\d|gpt\s*4o?|claude\s|gemini\s|openai\b|deepmind|deepseek|anthropic|\bartificial intelligence\b|large language model/i,
+  },
+  {
+    label: "💼 并购 M&A",
+    re: /\bacquisition\b|(?:acquires|acquired)\b|\bbuys\b.{1,40}(?:for|deal)|\bmerger\b|\bmerges\b|\btakeover\b|\bbuyout\b/i,
+  },
+  {
+    label: "📈 股权融资",
+    re: /\bipo\b|\bgo(?:es|ing)\s+public\b|\bfiles?\s+(?:for\s+)?ipo\b|\bs-1\b|\bf-1\b|series\s+[a-e]\s+(?:round|funding)|\braised?\s+\$[\d,.]+\s*(?:million|billion)\b|\bfunding\s+round\b/i,
+  },
+  {
+    label: "📊 宏观市场",
+    re: /\bfed\b|federal reserve|\bcpi\b|\bppi\b|\binflation\b|\btariff(?:s)?\b|interest\s+rate|rate\s+cut|rate\s+hike|treasury\s+yield|nonfarm\s+payroll|gdp\s+(?:growth|data|fell|rose)/i,
+  },
+];
+
+// 这些来源标签代表"内容性格"（内容类型由来源本身决定），不被标题匹配覆盖
+const SOURCE_IDENTITY_TAGS = new Set([
+  "essay", "deep-read", "interview", "science", "criticism",
+  "community", "zh",
+]);
+
+// 这些标签代表"具体交易类型"，需要标题内容确认才使用；
+// 若标题无法确认，则退回到通用兜底分类（资本市场·其他）
+const SOFT_CAPITAL_TAGS = new Set(["ma", "ipo", "vc"]);
+
+/**
+ * 分配文章分类
+ *
+ * 优先级：
+ *   1. 来源含"内容性格"标签 → 直接用来源标签分类（保留 essay/community 等内容定位）
+ *   2. 标题内容匹配           → 根据文章实际内容分类（修正 Google News RSS 偏差）
+ *   3. 来源标签兜底（第一遍）  → 跳过"软"资本市场标签，避免不相关文章误入 M&A/股权融资
+ *   4. 来源标签兜底（第二遍）  → 含全部标签，最终兜底
+ */
+function assignCategory(source, article) {
   const srcTags = source?.tags ?? [];
-  for (const cat of CATEGORIES) {
-    if (cat.tags.some((t) => srcTags.includes(t))) return cat.label;
+
+  // 优先级 1：来源有"内容性格"标签时，尊重来源分类
+  if (srcTags.some(t => SOURCE_IDENTITY_TAGS.has(t))) {
+    for (const cat of CATEGORIES) {
+      if (cat.tags.some(t => srcTags.includes(t))) return cat.label;
+    }
   }
+
+  // 优先级 2：标题内容匹配
+  const titleText = article?.title ?? "";
+  for (const { label, re } of TITLE_PATTERNS) {
+    if (re.test(titleText)) return label;
+  }
+
+  // 优先级 3：来源标签兜底（跳过需要标题确认的"软"资本市场标签）
+  for (const cat of CATEGORIES) {
+    if (cat.tags.some(t => srcTags.includes(t) && !SOFT_CAPITAL_TAGS.has(t))) return cat.label;
+  }
+
+  // 优先级 4：来源标签全量兜底（含 ma/ipo/vc）
+  for (const cat of CATEGORIES) {
+    if (cat.tags.some(t => srcTags.includes(t))) return cat.label;
+  }
+
   return "📰 其他";
 }
 
@@ -143,7 +210,7 @@ export function rankArticles(articles, sources, scoring) {
     .map((article) => {
       const source = sourceMap.get(article.sourceName);
       const rawScore = calcScore(article, source, scoring);
-      const category = assignCategory(source);
+      const category = assignCategory(source, article);
       return { ...article, score: rawScore, category };
     });
 
