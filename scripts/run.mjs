@@ -50,6 +50,27 @@ async function writeTitleCache(cache) {
   );
 }
 
+// ─── Feed 健康日志 ────────────────────────────────────────────────────────────
+const FEED_HEALTH_PATH = ".feed-health.json";
+
+async function readFeedHealth() {
+  try {
+    const raw = JSON.parse(await fs.readFile(FEED_HEALTH_PATH, "utf8"));
+    // 返回 name → record 的 Map
+    return new Map((raw.feeds ?? []).map(f => [f.name, f]));
+  } catch {
+    return new Map();
+  }
+}
+
+async function writeFeedHealth(healthRecords, dateYmd) {
+  await fs.writeFile(
+    FEED_HEALTH_PATH,
+    JSON.stringify({ lastRun: dateYmd, feeds: healthRecords }, null, 2) + "\n",
+    "utf8"
+  );
+}
+
 async function readState() {
   try {
     const raw = await fs.readFile(".last_sent.json", "utf8");
@@ -83,7 +104,7 @@ function gitCommitAndPush(dateYmd) {
     }
     execSync('git config user.name "github-actions[bot]"');
     execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
-    execSync("git add .last_sent.json .title_cache.json docs/");
+    execSync("git add .last_sent.json .title_cache.json .feed-health.json docs/");
     execSync(`git commit -m "news: ${dateYmd}"`);
     execSync("git push");
     console.log("  ✓ git commit + push 完成");
@@ -123,7 +144,11 @@ async function main() {
 
   // ── Step 1: 抓取 ──────────────────────────────────────────────────────────
   console.log(`📡 抓取 ${sources.length} 个 RSS 源…`);
-  const articles = await fetchAllFeeds(sources, scoring.maxItemsPerFeed ?? 30);
+  const prevHealth = await readFeedHealth();
+  const { articles, health } = await fetchAllFeeds(sources, scoring.maxItemsPerFeed ?? 30, prevHealth);
+  await writeFeedHealth(health, today);
+  const failCount = health.filter(h => !h.ok && !h.skipped).length;
+  if (failCount > 0) console.log(`   ⚠️  ${failCount} 个源本次失败（详见 .feed-health.json）`);
   console.log(`   共抓取 ${articles.length} 篇文章`);
 
   // 跨日去重：过滤历史已见过的文章。
@@ -184,10 +209,18 @@ async function main() {
       console.log("📖 全部标题已有缓存，跳过翻译\n");
     }
 
-    // 3b. 对 Top N 逐篇生成深度点评
+    // 3b. 对 Top N 逐篇生成深度点评（后端截断 ≤400 中文字符，前端有展开按钮）
     console.log("🤖 LLM 点评 Top 文章…");
     for (const article of topArticles) {
-      article.llmComment = await summarize(article);
+      const raw = await summarize(article);
+      if (raw && raw.length > 400) {
+        // 在最后一个句号/！/？处截断，避免截断到句中
+        const cut = raw.slice(0, 400);
+        const lastPunct = Math.max(cut.lastIndexOf("。"), cut.lastIndexOf("！"), cut.lastIndexOf("？"));
+        article.llmComment = lastPunct > 200 ? cut.slice(0, lastPunct + 1) : cut;
+      } else {
+        article.llmComment = raw;
+      }
     }
     console.log();
   }

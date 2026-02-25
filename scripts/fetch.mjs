@@ -7,6 +7,32 @@ const HTTP_USER_AGENT =
   process.env.HTTP_USER_AGENT ??
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36";
 
+// ─── URL / 标题标准化 ─────────────────────────────────────────────────────────
+
+/** 去除 UTM 等追踪参数，标准化末尾斜杠，减少"同一文章不同链接"的重复计入 */
+export function normalizeUrl(url) {
+  try {
+    const u = new URL(url.trim());
+    const TRACKING = [
+      "utm_source","utm_medium","utm_campaign","utm_content","utm_term",
+      "utm_id","utm_source_platform","fbclid","gclid","_ga","_gl",
+      "ref","source","mc_cid","mc_eid",
+    ];
+    for (const p of TRACKING) u.searchParams.delete(p);
+    return u.toString().replace(/\/$/, "");
+  } catch {
+    return url.trim();
+  }
+}
+
+/** 去除 "Breaking:" / "Exclusive:" 等前缀，合并多余空白 */
+export function normalizeTitle(title) {
+  return title
+    .replace(/^(breaking|exclusive|update|alert|developing)\s*[:：]\s*/i, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 /** 获取 RSS/Atom XML 文本 */
 async function fetchXml(url) {
   const res = await fetch(url, {
@@ -58,8 +84,9 @@ function parseAtom(xml, sourceName, sourceUrl) {
         ""
     );
     const pubDate = dateStr ? new Date(dateStr) : null;
-    if (title && link.startsWith("http") && pubDate && !isNaN(pubDate)) {
-      items.push({ title, link: link.trim(), summary, pubDate, sourceName, sourceUrl });
+    const normLink = normalizeUrl(link);
+    if (title && normLink.startsWith("http") && pubDate && !isNaN(pubDate)) {
+      items.push({ title: normalizeTitle(title), link: normLink, summary, pubDate, sourceName, sourceUrl });
     }
   }
   return items;
@@ -87,8 +114,9 @@ function parseRss(xml, sourceName, sourceUrl) {
       e.match(/<description[^>]*>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/description>/i)?.[1] ?? ""
     );
     const pubDate = dateStr ? new Date(dateStr) : null;
-    if (title && link.startsWith("http") && pubDate && !isNaN(pubDate)) {
-      items.push({ title, link, summary, pubDate, sourceName, sourceUrl });
+    const normLink = normalizeUrl(link);
+    if (title && normLink.startsWith("http") && pubDate && !isNaN(pubDate)) {
+      items.push({ title: normalizeTitle(title), link: normLink, summary, pubDate, sourceName, sourceUrl });
     }
   }
   return items;
@@ -168,24 +196,37 @@ export async function enrichWithFullText(articles) {
 
 /**
  * 抓取所有配置的 RSS 源
- * @param {Array} sources  来自 sources.json 的 sources 数组
- * @param {number} maxItemsPerFeed  每个源最多抓取条数
- * @returns {Promise<Array>}  标准化文章数组
+ * @param {Array}  sources           来自 sources.json 的 sources 数组
+ * @param {number} maxItemsPerFeed   每个源最多抓取条数
+ * @param {Map}    prevHealth        上次健康记录（name → consecutiveFails），可为空 Map
+ * @returns {Promise<{ articles: Array, health: Array }>}
  */
-export async function fetchAllFeeds(sources, maxItemsPerFeed = 30) {
-  const results = [];
+export async function fetchAllFeeds(sources, maxItemsPerFeed = 30, prevHealth = new Map()) {
+  const articles = [];
+  const health   = [];
 
   for (const src of sources) {
     const { name, url } = src;
+    const prevFails = prevHealth.get(name)?.consecutiveFails ?? 0;
+
+    // 连续失败 ≥5 次自动跳过，避免无效等待
+    if (prevFails >= 5) {
+      console.warn(`  ⏭  ${name}  已跳过（连续失败 ${prevFails} 次）`);
+      health.push({ name, url, ok: false, itemCount: 0, consecutiveFails: prevFails, skipped: true });
+      continue;
+    }
+
     try {
-      const xml = await fetchXml(url);
+      const xml   = await fetchXml(url);
       const items = parseFeed(xml, name, url).slice(0, maxItemsPerFeed);
       console.log(`  ✓ ${name}  (${items.length} 条)`);
-      results.push(...items);
+      articles.push(...items);
+      health.push({ name, url, ok: true, itemCount: items.length, consecutiveFails: 0 });
     } catch (err) {
       console.warn(`  ✗ ${name}  失败: ${err.message}`);
+      health.push({ name, url, ok: false, itemCount: 0, consecutiveFails: prevFails + 1, error: err.message });
     }
   }
 
-  return results;
+  return { articles, health };
 }

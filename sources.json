@@ -176,7 +176,7 @@
 
   "scoring": {
     "topN": 5,
-    "recencyHalfLifeHours": 36,
+    "recencyHalfLifeHours": 24,
     "maxPerSource": 2,
     "maxItemsPerFeed": 20,
     "kwCap": 35,
@@ -212,6 +212,10 @@
       { "keyword": "inference",               "score": 5,  "group": "AI & Tech" },
       { "keyword": "model",                   "score": 5,  "group": "AI & Tech" },
       { "keyword": "packaging",               "score": 5,  "group": "AI & Tech" },
+      { "keyword": "training cluster",        "score": 6,  "group": "AI & Tech" },
+      { "keyword": "CUDA",                    "score": 6,  "group": "AI & Tech" },
+      { "keyword": "compute",                 "score": 5,  "group": "AI & Tech" },
+      { "keyword": "wafer",                   "score": 5,  "group": "AI & Tech" },
 
       { "keyword": "acquisition",             "score": 10, "group": "M&A" },
       { "keyword": "merger",                  "score": 10, "group": "M&A" },
@@ -227,6 +231,10 @@
       { "keyword": "minority stake",          "score": 7,  "group": "M&A" },
       { "keyword": "private equity",          "score": 7,  "group": "M&A" },
       { "keyword": "joint venture",           "score": 6,  "group": "M&A" },
+      { "keyword": "to acquire",              "score": 9,  "group": "M&A" },
+      { "keyword": "agrees to acquire",       "score": 9,  "group": "M&A" },
+      { "keyword": "all-cash deal",           "score": 7,  "group": "M&A" },
+      { "keyword": "stock-for-stock",         "score": 7,  "group": "M&A" },
       { "keyword": "deal",                    "score": 4,  "group": "M&A" },
 
       { "keyword": "IPO",                     "score": 9,  "group": "Finance" },
@@ -249,7 +257,10 @@
       { "keyword": "PPI",                     "score": 6,  "group": "Finance" },
       { "keyword": "prospectus",              "score": 6,  "group": "Finance" },
       { "keyword": "funding",                 "score": 5,  "group": "Finance" },
-      { "keyword": "rate",                    "score": 5,  "group": "Finance" },
+      { "keyword": "secondary offering",      "score": 7,  "group": "Finance" },
+      { "keyword": "convertible notes",       "score": 7,  "group": "Finance" },
+      { "keyword": "PIPE",                    "score": 7,  "group": "Finance" },
+      { "keyword": "valuation",               "score": 6,  "group": "Finance" },
 
       { "keyword": "vulnerability",           "score": 5 },
       { "keyword": "breach",                  "score": 5 },
