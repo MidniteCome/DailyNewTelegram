@@ -59,15 +59,23 @@ function calcScore(article, source, scoring) {
 }
 
 // ─── 分类定义（优先级从上到下，第一个 tag 命中即归入该类）───────────────────────
+//
+// 资本市场交易分为三个平级子类：
+//   💼 并购 M&A     — tags: ma
+//   📈 股权融资     — tags: ipo, vc
+//   💰 资本市场·其他 — tags: finance, startup（兜底）
+//
+// 注意：深度阅读须排在资本市场·其他之前，防止 essay/strategy 类博客落入资本市场桶
 const CATEGORIES = [
-  { label: "🤖 AI & 研究",  tags: ["ai", "llm", "research"] },
-  { label: "💼 并购 & 交易", tags: ["ma"] },
-  { label: "💰 金融 & 创投", tags: ["finance", "ipo", "startup", "vc"] },
-  { label: "🔧 开发 & 系统", tags: ["dev", "systems", "rust", "cs", "software"] },
-  { label: "🛡️ 安全",       tags: ["security"] },
-  { label: "💻 科技产品",    tags: ["tech", "apple", "semiconductor"] },
-  { label: "📝 深度阅读",    tags: ["essay", "deep-read", "interview", "strategy", "science", "criticism"] },
-  { label: "🌐 社区",       tags: ["community", "zh"] },
+  { label: "🤖 AI & 研究",      tags: ["ai", "llm", "research"] },
+  { label: "💼 并购 M&A",       tags: ["ma"] },
+  { label: "📈 股权融资",       tags: ["ipo", "vc"] },
+  { label: "📊 宏观市场",       tags: ["macro"] },
+  { label: "💻 泛科技",         tags: ["tech", "apple", "semiconductor", "dev", "systems",
+                                        "rust", "cs", "software", "security"] },
+  { label: "📝 深度阅读",       tags: ["essay", "deep-read", "interview", "strategy", "science", "criticism"] },
+  { label: "💰 资本市场·其他",  tags: ["finance", "startup"] },
+  { label: "🌐 社区",           tags: ["community", "zh"] },
 ];
 
 function assignCategory(source) {

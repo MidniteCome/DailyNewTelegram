@@ -90,13 +90,13 @@
       "name": "Hacker News",
       "url": "https://hnrss.org/frontpage",
       "weight": 2,
-      "tags": ["tech", "community"]
+      "tags": ["community"]
     },
     {
       "name": "V2EX 技术",
       "url": "https://www.v2ex.com/feed/tab/tech.xml",
       "weight": 1,
-      "tags": ["tech", "community", "zh"]
+      "tags": ["community", "zh"]
     },
     {
       "name": "Simon Willison",
@@ -109,7 +109,7 @@
       "name": "Paul Graham Essays",
       "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
       "weight": 2,
-      "tags": ["startup", "tech", "essay"],
+      "tags": ["essay", "startup"],
       "halfLifeHours": 48
     },
     {
@@ -151,7 +151,7 @@
       "name": "Construction Physics",
       "url": "https://www.construction-physics.com/feed",
       "weight": 2,
-      "tags": ["tech", "industry", "deep-read"],
+      "tags": ["deep-read", "industry"],
       "halfLifeHours": 48
     },
     {
@@ -182,7 +182,7 @@
       "name": "dynomight",
       "url": "https://dynomight.net/feed.xml",
       "weight": 1,
-      "tags": ["science", "tech", "essay"]
+      "tags": ["science", "essay"]
     },
     {
       "name": "Where's Your Ed At",
