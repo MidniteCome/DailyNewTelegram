@@ -1,0 +1,209 @@
+{
+  "lastRun": "2026-02-25",
+  "feeds": [
+    {
+      "name": "Stratechery",
+      "url": "https://stratechery.passport.online/feed/rss/CYTbSebmyaKYnjBgSNwoG",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "CNBC Technology",
+      "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/index",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/",
+      "ok": true,
+      "itemCount": 10,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Reuters M&A (Google News)",
+      "url": "https://news.google.com/rss/search?q=site:reuters.com+(acquisition+OR+merger+OR+takeover)+when:3d&hl=en-GB&gl=GB&ceid=GB:en",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Reuters IPO (Google News)",
+      "url": "https://news.google.com/rss/search?q=site:reuters.com+(IPO+OR+listing+OR+%22files+for+IPO%22)+when:3d&hl=en-GB&gl=GB&ceid=GB:en",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Reuters Funding (Google News)",
+      "url": "https://news.google.com/rss/search?q=site:reuters.com+(funding+OR+valuation+OR+%22Series+A%22+OR+%22Series+B%22)+when:3d&hl=en-GB&gl=GB&ceid=GB:en",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Crunchbase News",
+      "url": "https://news.crunchbase.com/feed/",
+      "ok": true,
+      "itemCount": 10,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Yahoo Finance",
+      "url": "https://feedfry.com/rss/11f111092c9aca3cbeb66cb95d7dc0e7",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/feeds/feed.rss",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "V2EX 技术",
+      "url": "https://www.v2ex.com/feed/tab/tech.xml",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/atom/everything/",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Paul Graham Essays",
+      "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
+      "ok": true,
+      "itemCount": 0,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Gwern",
+      "url": "https://gwern.net/feed",
+      "ok": false,
+      "itemCount": 0,
+      "consecutiveFails": 1,
+      "error": "HTTP 403 for https://gwern.net/feed"
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "url": "https://www.dwarkeshpatel.com/feed",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "The Gradient",
+      "url": "https://thegradient.pub/rss/",
+      "ok": true,
+      "itemCount": 15,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "geohot Blog",
+      "url": "https://geohot.github.io/blog/feed.xml",
+      "ok": true,
+      "itemCount": 10,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "matklad",
+      "url": "https://matklad.github.io/feed.xml",
+      "ok": true,
+      "itemCount": 10,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Construction Physics",
+      "url": "https://www.construction-physics.com/feed",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Eli Bendersky",
+      "url": "https://eli.thegreenplace.net/feeds/all.atom.xml",
+      "ok": true,
+      "itemCount": 5,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Daring Fireball",
+      "url": "https://daringfireball.net/feeds/main",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/",
+      "ok": true,
+      "itemCount": 10,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Steve Blank",
+      "url": "https://steveblank.com/feed/",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "dynomight",
+      "url": "https://dynomight.net/feed.xml",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Where's Your Ed At",
+      "url": "https://www.wheresyoured.at/rss/",
+      "ok": true,
+      "itemCount": 15,
+      "consecutiveFails": 0
+    },
+    {
+      "name": "Sean Goedecke",
+      "url": "https://www.seangoedecke.com/rss.xml",
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
+    }
+  ]
+}
