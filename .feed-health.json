@@ -47,7 +47,7 @@
       "name": "Reuters Funding (Google News)",
       "url": "https://news.google.com/rss/search?q=site:reuters.com+(funding+OR+valuation+OR+%22Series+A%22+OR+%22Series+B%22)+when:3d&hl=en-GB&gl=GB&ceid=GB:en",
       "ok": true,
-      "itemCount": 0,
+      "itemCount": 20,
       "consecutiveFails": 0
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://gwern.net/feed",
       "ok": false,
       "itemCount": 0,
-      "consecutiveFails": 3,
+      "consecutiveFails": 4,
       "error": "HTTP 403 for https://gwern.net/feed"
     },
     {
