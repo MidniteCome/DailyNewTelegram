@@ -29,6 +29,30 @@
       "halfLifeHours": 30
     },
     {
+      "name": "Reuters M&A (Google News)",
+      "url": "https://news.google.com/rss/search?q=site:reuters.com+(acquisition+OR+merger+OR+takeover)+when:3d&hl=en-GB&gl=GB&ceid=GB:en",
+      "weight": 3,
+      "tags": ["finance", "ma", "global"],
+      "halfLifeHours": 24,
+      "paywalled": true
+    },
+    {
+      "name": "Reuters IPO (Google News)",
+      "url": "https://news.google.com/rss/search?q=site:reuters.com+(IPO+OR+listing+OR+%22files+for+IPO%22)+when:3d&hl=en-GB&gl=GB&ceid=GB:en",
+      "weight": 3,
+      "tags": ["finance", "ipo", "global"],
+      "halfLifeHours": 24,
+      "paywalled": true
+    },
+    {
+      "name": "Reuters Funding (Google News)",
+      "url": "https://news.google.com/rss/search?q=site:reuters.com+(funding+OR+valuation+OR+%22Series+A%22+OR+%22Series+B%22)+when:3d&hl=en-GB&gl=GB&ceid=GB:en",
+      "weight": 2,
+      "tags": ["finance", "vc", "startup", "global"],
+      "halfLifeHours": 24,
+      "paywalled": true
+    },
+    {
       "name": "Crunchbase News",
       "url": "https://news.crunchbase.com/feed/",
       "weight": 3,

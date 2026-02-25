@@ -75,9 +75,10 @@ export async function pushToTelegram(topArticles, dateYmd, siteUrl = null) {
     const title = escHtml((a.titleEn ?? a.title).replace(/\s+/g, " ").trim());
     const source = escHtml(a.sourceName);
     const time = a.pubDate.toISOString().slice(11, 16) + " UTC";
+    const paywall = a.paywalled ? " 🔒" : "";
 
     lines.push(`<b>${num}. <a href="${a.link}">${title}</a></b>`);
-    lines.push(`<i>${source} · ${time}</i>`);
+    lines.push(`<i>${source}${paywall} · ${time}</i>`);
 
     // 摘要（LLM 点评或原文摘要）
     if (a.llmComment) {

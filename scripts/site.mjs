@@ -33,6 +33,7 @@ export async function generateSite(rankedArticles, dateYmd, topN = 5) {
       titleEn:    a.titleEn ?? null,
       titleZh:    a.titleZh ?? null,
       isHot:      a.isHot ?? false,
+      paywalled:  a.paywalled ?? false,
     })),
   };
   await fs.writeFile(jsonPath, JSON.stringify(payload, null, 2) + "\n", "utf8");
@@ -401,6 +402,14 @@ function buildSpaHtml() {
     .signal-hi  { color: var(--signal-hi); background: rgba(22,163,74,0.1); }
     .signal-mid { color: var(--signal-mid); background: rgba(180,83,9,0.1); }
 
+    /* 付费墙标记 */
+    .lock-badge {
+      font-size: 0.72rem;
+      opacity: 0.75;
+      cursor: default;
+      user-select: none;
+    }
+
     /* 标题 */
     .card-title {
       font-size: 1rem;
@@ -705,6 +714,7 @@ function cardHtml(a, isTop, idx) {
   const rtim = relativeTime(a.pubDate);
   const ftim = fullTime(a.pubDate);
   const tags = tagsHtml(a);
+  const lock = a.paywalled ? \` <span class="lock-badge" title="付费内容 · 仅标题">🔒</span>\` : '';
 
   const aiBlock = a.llmComment ? \`
     <div class="ai-comment">
@@ -719,7 +729,7 @@ function cardHtml(a, isTop, idx) {
     \${a.isHot ? '<span class="hot-badge">🔥 热议</span>' : ''}
     \${tags}
     <span class="source-row">
-      <span class="source">\${esc(a.source)}</span>
+      <span class="source">\${esc(a.source)}\${lock}</span>
       <span class="sep">·</span>
       <span class="time" title="\${esc(ftim)}">\${esc(rtim)}</span>
       \${sig ? '<span class="sep">·</span>' + sig : ''}

@@ -218,8 +218,10 @@ export async function fetchAllFeeds(sources, maxItemsPerFeed = 30, prevHealth = 
 
     try {
       const xml   = await fetchXml(url);
-      const items = parseFeed(xml, name, url).slice(0, maxItemsPerFeed);
-      console.log(`  ✓ ${name}  (${items.length} 条)`);
+      const raw   = parseFeed(xml, name, url).slice(0, maxItemsPerFeed);
+      // 把来源配置的 paywalled 标记透传到每篇文章
+      const items = src.paywalled ? raw.map(a => ({ ...a, paywalled: true })) : raw;
+      console.log(`  ✓ ${name}  (${items.length} 条)${src.paywalled ? " 🔒" : ""}`);
       articles.push(...items);
       health.push({ name, url, ok: true, itemCount: items.length, consecutiveFails: 0 });
     } catch (err) {
