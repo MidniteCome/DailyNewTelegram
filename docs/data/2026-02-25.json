@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-02-25",
     "topN": 5,
-    "total": 15
+    "total": 17
   },
   "articles": [
     {
@@ -11,7 +11,7 @@
       "link": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m/",
       "source": "TechCrunch",
       "summary": "The startup was founded by former Google TPU engineers in 2023.",
-      "llmComment": "MatX是一家由前谷歌TPU工程师于2023年创立的初创公司，专注于开发人工智能芯片，以挑战Nvidia在该领域的主导地位。MatX的核心差异化在于其由经验丰富的工程师团队打造的芯片，可能带来更高效的AI计算和更低的能耗。该公司获得5亿美元的融资，表明投资者对其潜力有信心，但在竞争激烈的AI芯片市场中，MatX仍面临来自Nvidia和其他巨头的强烈竞争威胁。尚待观察MatX如何利用这笔资金来推动产品开发和市场扩张。",
+      "llmComment": "MatX是一家由前谷歌TPU工程师于2023年创立的AI芯片初创公司，最近成功募集了5亿美元资金。MatX的核心差异化在于其专注于开发高性能的AI芯片，以挑战Nvidia在该领域的主导地位。该公司的潜在市场机会在于AI芯片的需求日益增长，但同时也面临来自Nvidia和其他芯片制造商的激烈竞争。尚待观察MatX如何利用这笔资金来推动其产品开发和市场扩张，值得持续追踪的是该公司的产品发布和市场反应。",
       "pubDate": "2026-02-25T00:45:47.000Z",
       "score": 76,
       "category": "💰 金融 & 创投",
@@ -25,7 +25,7 @@
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
       "source": "Simon Willison",
       "summary": "Agentic Engineering Patterns &gt; Sometimes it's useful to have a coding agent give you a structured walkthrough of a codebase. Maybe it's existing code you need to get up to speed on, maybe it's your own code that you've forgotten the details of, or maybe you vibe coded the whole thing and need to ",
-      "llmComment": "Agentic Engineering Patterns是一家专注于开发人工智能编码工具的公司，他们最近推出了一个名为Linear walkthroughs的技术，能够让编码代理提供结构化的代码库导览。这种技术与现有的代码导览工具不同之处在于，它能够提供更为结构化和详细的代码解释，这可能会大大提高开发人员的工作效率。对于产业链来说，这项技术可能会对云厂商和应用层产生影响，因为它能够提高代码开发和维护的效率，进而降低成本和提高产品质量。然而，目前尚待观察的是，这项技术是否能够广泛适用于不同类型的代码库和开发项目，以及是否存在潜在的安全风险或挑战。",
+      "llmComment": "Agentic Engineering Patterns是一家专注于开发人工智能编码工具的公司，它们提出了一种名为Linear walkthroughs的新技术，旨在让编码代理提供结构化的代码库导览。这种技术与现有方案的实质差异在于，它可以让开发者更高效地理解和维护代码，尤其是在处理复杂的代码库时。对产业链的影响，Linear walkthroughs可能会改变芯片和云厂商对代码优化的需求，从而影响应用层的开发效率和竞品的市场份额。然而，目前尚待观察的是，这项技术是否能在实际应用中带来显著的性能提升和开发效率的提高。",
       "pubDate": "2026-02-25T01:07:10.000Z",
       "score": 72,
       "category": "🤖 AI & 研究",
@@ -39,7 +39,7 @@
       "link": "https://techcrunch.com/2026/02/24/self-driving-tech-startup-wayve-raises-1-2b-from-nvidia-uber-and-three-automakers/",
       "source": "TechCrunch",
       "summary": "Major automakers, tech giants, AI companies, and chipmakers are all trying to get a piece of Wayve.",
-      "llmComment": "Wayve是一家专注于自动驾驶技术的初创公司，最近成功从包括Nvidia、Uber和三家大型汽车制造商在内的投资者那里获得了12亿美元的融资。这种投资的核心逻辑在于Wayve的技术壁垒和数据资产，因为自动驾驶领域需要大量的数据和算力来实现高精度的驾驶决策。这种投资可能会加剧自动驾驶领域的竞争格局，既有可能让Wayve获得更大的市场份额，也可能让其他公司如特斯拉、谷歌的Waymo等感到压力。从bull case来看，Wayve可能会利用这笔资金进一步提升技术和扩大市场份额，但从bear case来看，尚待观察这笔投资是否能真正带来长期的盈利和竞争优势。",
+      "llmComment": "Wayve是一家专注于自动驾驶技术的初创公司，最近成功从包括Nvidia、Uber和三家大型汽车制造商在内的投资者那里筹集了12亿美元。这种投资的核心逻辑可能在于Wayve的创新自动驾驶解决方案能够为汽车制造商和技术公司提供关键的技术壁垒和数据资产，从而在激烈竞争的市场中获得优势。这种投资可能会对行业竞争格局产生重大影响，可能使Wayve和其投资者受益，而其他没有参与此轮投资的自动驾驶技术公司可能会面临更大的竞争压力。尚待观察的是，这笔投资是否能够真正推动Wayve的技术和市场份额的增长，以及投资者是否能够从中获得预期的回报。",
       "pubDate": "2026-02-25T00:37:59.000Z",
       "score": 71,
       "category": "💰 金融 & 创投",
@@ -49,11 +49,39 @@
     },
     {
       "rank": 4,
+      "title": "Paradigm Shifts and the Winner's Curse",
+      "link": "https://stratechery.com/2025/paradigm-shifts-and-the-winners-curse/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3BhcmFkaWdtLXNoaWZ0cy1hbmQtdGhlLXdpbm5lcnMtY3Vyc2UvIl19LCJleHAiOjE3NzQ2MDQ3MTIsImlhdCI6MTc3MjAxMjcxMiwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTljOTE4Ny0yMWUyLTcxZTQtYjdjYS0zYmM3Y2I5ZTcwNGYiLCJ1c2UiOiJhY2Nlc3MifQ.gt_w1YNu952KSGzlVfgwSW0sgcLF-9AbFbTMKBAC8CWLahteBh0s0iJ1SQ4pOoGpKqOX1AsyuKVjvhthbZNX_8crynqrtv4LX8kMQ8QPhLVmFZ_bcJoJ_LJWOj6CMz67fLQtuMhPo09Rg27qkGGMU3dT7LxJkrVNOXnKX-q5cdlmym3KIdVeM_k5wh7d_A2bP9DsaVmYAxSxNpEeGUgIJn19Wiwctkx0VNEEJBDsOqhBL-LGaX6tGY691eltWU1LDjXRqib5I-_lO2nSqj5X8PjbwWhb9RSOxxXQs0CFSJJ9BB-kgO6DPP3Y9b-RZyPuS_yRs1bfaf6NWPitr04cvA",
+      "source": "Stratechery",
+      "summary": "When paradigms change, previous winners have the hardest time adjusting; that is why AI might be a challenge for Apple and Amazon",
+      "llmComment": "苹果和亚马逊等科技巨头正面临着人工智能（AI）带来的挑战，这是因为它们在之前的范式中取得了成功，难以适应新的变化。苹果和亚马逊的核心差异化在于它们对用户体验和创新产品的关注，但在AI领域，它们可能需要重新调整自己的战略。潜在的市场机会在于AI技术的广泛应用，但同时也存在来自其他专注于AI的公司的竞争威胁，尚待观察这些巨头如何应对这一挑战。值得持续追踪的信号是苹果和亚马逊在AI领域的投资和创新动向，以及它们如何将AI技术融入自己的产品和服务中。",
+      "pubDate": "2025-08-06T15:33:50.000Z",
+      "score": 66,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "范式转变与胜利者诅咒",
+      "isHot": true
+    },
+    {
+      "rank": 5,
+      "title": "Thin Is In",
+      "link": "https://stratechery.com/2026/thin-is-in/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RoaW4taXMtaW4vIl19LCJleHAiOjE3NzQ2MDQ3MTIsImlhdCI6MTc3MjAxMjcxMiwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTljOTE4Ny0yMWUyLTcxZTQtYjdjYS0zYmM3Y2I5ZTcwNGYiLCJ1c2UiOiJhY2Nlc3MifQ.OoaZiATJfwvyZobcNm-6o7yvfZVnEkIm4FClfoIJTVBZwXZloFsHSRq8J06Crfd_oRXWBFOOZvgfz2n8N56iRl0AK3BJr9xPp4khT7SnwnObBbr_4pUWeu_XMZq6joG7V3XNfqarBBmPFoZzG6zfpELCv5c-q2uk9T4LBy87FGj92MNJ7rj584gkgCti4xbF5j5seY1PU9VzvbVPE2ckJYhEPEVzXtcaM6wEK7FvblKMDYj0Ip4m9G4yOmNkxswMS1A0QWOkChCA1Pa7pClpfz5SrtrQoYCHIzEpnWrWKlsrnccngWr0yVAfU_9bob_P17IL57kqmIxAdMpZX-JbnA",
+      "source": "Stratechery",
+      "summary": "Thick clients were the dominant form of device throughout the PC and mobile era; in an AI world, however, thin clients make much more sense.",
+      "llmComment": "这家公司或产品的核心差异化在于其在人工智能时代推崇使用薄客户端（thin clients），这与过去PC和移动设备时代的厚客户端（thick clients）形成鲜明对比。这种转变的潜在市场机会在于，薄客户端可以更好地适应云计算和人工智能的需求，提供更轻便、更灵活的设备使用体验。然而，竞争威胁也存在，因为薄客户端的广泛应用可能会受到网络连接速度和稳定性的限制，尚待观察的是如何解决这些挑战。值得持续追踪的信号是薄客户端在人工智能应用中的实际表现和用户接受度。",
+      "pubDate": "2026-02-17T11:00:00.000Z",
+      "score": 64,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "科学家发现薄即是新趋势",
+      "isHot": true
+    },
+    {
+      "rank": 6,
       "title": "Anthropic Drops Flagship Safety Pledge",
       "link": "https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/",
       "source": "Hacker News",
       "summary": "Article URL: https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/ Comments URL: https://news.ycombinator.com/item?id=47145963 Points: 299 # Comments: 128",
-      "llmComment": "Anthropic是一家人工智能公司，近期宣布放弃其旗舰安全承诺，这一举动引起了广泛关注。这种突破与现有方案的差异在于，它可能会改变人们对AI安全性的看法和处理方式，进而影响到芯片、云厂商和应用层的发展，因为如果AI安全性得到改善，可能会带来更多的应用和商业机会。然而，这一路线目前存在的风险或挑战在于，尚待观察放弃安全承诺是否会导致AI系统的安全性下降，进而影响到整个产业链的稳定性。原文未披露相关的技术细节和未来规划，因此需要进一步关注Anthropic的后续动向。",
+      "llmComment": null,
       "pubDate": "2026-02-25T01:08:46.000Z",
       "score": 61,
       "category": "💻 科技产品",
@@ -62,12 +90,12 @@
       "isHot": false
     },
     {
-      "rank": 5,
+      "rank": 7,
       "title": "Why Chile is the latest LATAM country to be caught in a U.S.-China power struggle",
       "link": "https://www.cnbc.com/2026/02/25/chile-china-trump-rubio-visa-sanctions-us-latam.html",
       "source": "CNBC Technology",
       "summary": "The spat comes just days before a Latin American leader's summit in Miami and two weeks before Chile's incoming right-wing government takes over in Santiago.",
-      "llmComment": "智利正在成为美中两国在拉丁美洲地区争夺影响力的最新战场。智利的战略位置和丰富的自然资源使其成为美中两国都极力想要拉拢的对象，其核心差异化在于其独特的地缘政治位置。然而，智利在美中之间左右为难的局面，也意味着其面临着潜在的市场机会与竞争威胁，尚待观察智利的新政府如何在这种复杂的局势中找到平衡点。值得持续追踪的信号是智利与美中两国的关系如何发展，以及这将如何影响拉丁美洲地区的整体局势。",
+      "llmComment": null,
       "pubDate": "2026-02-25T07:50:27.000Z",
       "score": 60,
       "category": "💰 金融 & 创投",
@@ -76,7 +104,7 @@
       "isHot": false
     },
     {
-      "rank": 6,
+      "rank": 8,
       "title": "LLM=True",
       "link": "https://blog.codemine.be/posts/2026/20260222-be-quiet/",
       "source": "Hacker News",
@@ -90,7 +118,7 @@
       "isHot": false
     },
     {
-      "rank": 7,
+      "rank": 9,
       "title": "Quoting Kellan Elliott-McCrea",
       "link": "https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything",
       "source": "Simon Willison",
@@ -104,35 +132,21 @@
       "isHot": false
     },
     {
-      "rank": 8,
-      "title": "Innovation on the move",
-      "link": "https://www.technologyreview.com/2026/02/24/1132181/innovation-on-the-move/",
+      "rank": 10,
+      "title": "Reformulated antibodies could be injected for easier treatment",
+      "link": "https://www.technologyreview.com/2026/02/24/1132086/reformulated-antibodies-could-be-injected-for-easier-treatment/",
       "source": "MIT Technology Review",
-      "summary": "The Massachusetts Bay Trans­portation Authority moves hundreds of thousands of people across Greater Boston each day—thanks to a vast system of buses, trains, and ferries that depends on coordination among thousands of employees. In this storied transit system, history runs deep: The Green Line stil",
-      "llmComment": null,
-      "pubDate": "2026-02-24T22:00:00.000Z",
-      "score": 58,
-      "category": "🤖 AI & 研究",
-      "titleEn": null,
-      "titleZh": "创新在移动",
-      "isHot": true
-    },
-    {
-      "rank": 9,
-      "title": "A new way to rejuvenate the immune system",
-      "link": "https://www.technologyreview.com/2026/02/24/1132080/a-new-way-to-rejuvenate-the-immune-system/",
-      "source": "MIT Technology Review",
-      "summary": "As people age, their immune function weakens. Owing to shrinkage of the thymus, where T cells normally mature and diversify, populations of these immune cells become smaller and can’t react to pathogens as quickly. But researchers at MIT and the Broad Institute have now found a way to overcome that ",
+      "summary": "Antibody treatments for cancer and other diseases are typically delivered intravenously, requiring patients to go to a hospital and potentially spend hours receiving infusions. Now Professor Patrick Doyle and his colleagues have taken a major step toward reformulating antibodies so that they can be ",
       "llmComment": null,
       "pubDate": "2026-02-24T22:00:00.000Z",
       "score": 55,
       "category": "🤖 AI & 研究",
       "titleEn": null,
-      "titleZh": "MIT科学家发现一种通过刺激肝脏来恢复免疫系统的方法",
+      "titleZh": "改良抗体可注射实现更简单治疗",
       "isHot": false
     },
     {
-      "rank": 10,
+      "rank": 11,
       "title": "Trending tickers: Rolls-Royce, Fresnillo, JD Sports, Vanda Pharmaceuticals and IDFC First Bank",
       "link": "https://uk.finance.yahoo.com/news/rolls-royce-fresnillo-jd-sports-vanda-pharmaceuticals-idfc-first-bank-trending-tickers-094329610.html",
       "source": "Yahoo Finance",
@@ -146,7 +160,7 @@
       "isHot": false
     },
     {
-      "rank": 11,
+      "rank": 12,
       "title": "Gold price hits three-week high on fresh Trump tariff jitters",
       "link": "https://uk.finance.yahoo.com/news/gold-prices-oil-pound-commodities-dollar-trump-tariff-092959780.html",
       "source": "Yahoo Finance",
@@ -160,7 +174,7 @@
       "isHot": false
     },
     {
-      "rank": 12,
+      "rank": 13,
       "title": "Boozy chimps fail urine test, confirm hotly debated theory",
       "link": "https://arstechnica.com/science/2026/02/boozy-chimps-fail-urine-test-confirm-hotly-debated-theory/",
       "source": "Ars Technica",
@@ -174,7 +188,7 @@
       "isHot": true
     },
     {
-      "rank": 13,
+      "rank": 14,
       "title": "[APP 自荐] Syna Fit : \"我通过跑步免费用上了 AI\"",
       "link": "https://www.v2ex.com/t/1193961#reply11",
       "source": "V2EX 技术",
@@ -188,21 +202,35 @@
       "isHot": true
     },
     {
-      "rank": 14,
+      "rank": 15,
       "title": "OpenClaw 自己切 gemini API 把自己改崩了。",
       "link": "https://www.v2ex.com/t/1194024#reply7",
       "source": "V2EX 技术",
       "summary": "在本地用着。本来谷歌 gemini Pro 账号的 antigravity API 用的挺好的，但是因为看到最近大规模的封号，导致自己不太敢用了，只能去用 Ai studio 的 API ，结果换了之后就一直死那儿了。 有大哥遇到过这样的问题的吗。 求支招。 一直报错⚠️ Agent failed before reply: All models failed (2): google/gemini-3-flash-latest: Unknown model: google/gemini-3-flash-latest (model_not_found) | xai/grok-4-1-fast-r",
       "llmComment": null,
       "pubDate": "2026-02-25T08:25:38.000Z",
-      "score": 53,
+      "score": 52,
       "category": "💻 科技产品",
       "titleEn": null,
       "titleZh": "OpenClaw自己切Geminii API导致崩溃",
       "isHot": true
     },
     {
-      "rank": 15,
+      "rank": 16,
+      "title": "Just pull a string to turn these tile patterns into useful 3D structures",
+      "link": "https://www.technologyreview.com/2026/02/24/1132074/just-pull-a-string-to-turn-these-tile-patterns-into-useful-3d-structures/",
+      "source": "MIT Technology Review",
+      "summary": "MIT researchers have developed a new method for designing 3D structures that can spring up from a flat sheet of interconnected tiles with a single pull of a string. The technique could be used to make foldable bike helmets and medical devices, emergency shelters and field hospitals for disaster zone",
+      "llmComment": null,
+      "pubDate": "2026-02-24T22:00:00.000Z",
+      "score": 50,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "研究人员发现拉动字符串可将瓷砖图案转化为有用的3D结构",
+      "isHot": false
+    },
+    {
+      "rank": 17,
       "title": "[Sponsor] Hands-On Workshop: Fix It Faster — Crash Reporting, Tracing, and Logs for iOS in Sentry",
       "link": "https://sentry.io/resources/ios-workshop-jan-2026/?utm_source=daringfireball&amp;utm_medium=paid-display&amp;utm_campaign=general-fy27q1-evergreen&amp;utm_content=static-ad-mobilerss-trysentry",
       "source": "Daring Fireball",
