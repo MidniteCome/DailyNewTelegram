@@ -567,18 +567,31 @@ let kbdIdx        = -1;       // 当前键盘焦点文章索引
 // 分类展示顺序
 const CAT_ORDER = [
   "🤖 AI & 研究",
+  "💼 并购 M&A",
+  "📈 股权融资",
+  "📊 宏观市场",
+  "💻 泛科技",
+  "📝 深度阅读",
+  "💰 资本市场·其他",
+  "🌐 社区",
+  "📰 其他",
+  // 旧分类名向后兼容（历史 JSON 数据）
   "💼 并购 & 交易",
   "💰 金融 & 创投",
   "🔧 开发 & 系统",
   "🛡️ 安全",
   "💻 科技产品",
-  "📝 深度阅读",
-  "🌐 社区",
-  "📰 其他",
 ];
 
-// "交易信号"分类
-const DEAL_CATS = new Set(["💼 并购 & 交易", "💰 金融 & 创投"]);
+// "交易信号"分类（含三个资本市场子类）
+const DEAL_CATS = new Set([
+  "💼 并购 M&A",
+  "📈 股权融资",
+  "💰 资本市场·其他",
+  // 旧名兼容
+  "💼 并购 & 交易",
+  "💰 金融 & 创投",
+]);
 
 // ── 工具函数 ─────────────────────────────────────────────────────────────────
 function esc(s) {
@@ -616,15 +629,22 @@ function signalBadge(score) {
   return '';
 }
 
-// 分类 → 标签
+// 分类 → 标签（含旧名兼容条目，供历史数据正常显示）
 const CAT_TAG = {
-  "🤖 AI & 研究":  { label:'AI',       cls:'tag-ai'    },
-  "💼 并购 & 交易": { label:'M&A',      cls:'tag-ma'    },
-  "💰 金融 & 创投": { label:'Finance',  cls:'tag-fin'   },
-  "🔧 开发 & 系统": { label:'Dev',      cls:'tag-dev'   },
-  "🛡️ 安全":        { label:'Security', cls:'tag-sec'   },
-  "💻 科技产品":    { label:'Tech',     cls:'tag-ai'    },
-  "📝 深度阅读":    { label:'Essay',    cls:'tag-essay' },
+  "🤖 AI & 研究":      { label:'AI',      cls:'tag-ai'    },
+  "💼 并购 M&A":       { label:'M&A',     cls:'tag-ma'    },
+  "📈 股权融资":       { label:'Equity',  cls:'tag-ipo'   },
+  "📊 宏观市场":       { label:'Macro',   cls:'tag-macro' },
+  "💻 泛科技":         { label:'Tech',    cls:'tag-chip'  },
+  "📝 深度阅读":       { label:'Essay',   cls:'tag-essay' },
+  "💰 资本市场·其他":  { label:'Capital', cls:'tag-fin'   },
+  "🌐 社区":           { label:'Community',cls:'tag-dev'  },
+  // 旧分类名向后兼容
+  "💼 并购 & 交易":    { label:'M&A',     cls:'tag-ma'    },
+  "💰 金融 & 创投":    { label:'Finance', cls:'tag-fin'   },
+  "🔧 开发 & 系统":    { label:'Dev',     cls:'tag-dev'   },
+  "🛡️ 安全":           { label:'Security',cls:'tag-sec'   },
+  "💻 科技产品":       { label:'Tech',    cls:'tag-ai'    },
 };
 
 // 从标题额外识别标签
@@ -740,10 +760,11 @@ function renderStats(articles) {
     counts[c] = (counts[c] || 0) + 1;
   }
   const chips = [
-    { key: '🤖 AI & 研究',  label: 'AI'  },
-    { key: '💼 并购 & 交易', label: 'M&A' },
-    { key: '💰 金融 & 创投', label: '金融' },
-    { key: '📝 深度阅读',    label: '深度' },
+    { key: '🤖 AI & 研究',     label: 'AI'   },
+    { key: '💼 并购 M&A',      label: 'M&A'  },
+    { key: '📈 股权融资',      label: '股权' },
+    { key: '📊 宏观市场',      label: '宏观' },
+    { key: '💻 泛科技',        label: '科技' },
   ]
   .filter(c => counts[c.key])
   .map(c => `<span class="stat-chip">${c.label} ${counts[c.key]}</span>`)
@@ -767,7 +788,7 @@ function applyFilter(data) {
 
   if (currentFilter === 'deal') {
     filtered = articles.filter(a => DEAL_CATS.has(a.category)
-      || /\bipo\b|s-1|f-1|acquisition|merger|series [a-e]\b/i.test(a.title));
+      || /\bipo\b|s-1|f-1|acquisition|merger|acquires|buyout|series [a-e]\b|funding round/i.test(a.title));
   }
 
   const top  = filtered.filter(a => a.rank <= topN);
