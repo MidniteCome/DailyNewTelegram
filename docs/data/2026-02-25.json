@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-02-25",
     "topN": 5,
-    "total": 67
+    "total": 86
   },
   "articles": [
     {
@@ -11,7 +11,7 @@
       "link": "https://techcrunch.com/2026/02/25/harbinger-acquires-autonomous-driving-company-phantom-ai",
       "source": "TechCrunch",
       "summary": "It's the Los Angeles trucking startup's first acquisition — the latest in a series of moves to spin up new revenue streams.",
-      "llmComment": "Harbinger是一家来自洛杉矶的卡车初创公司，近期宣布收购了自动驾驶技术公司Phantom AI，这是Harbinger的首次收购行动。通过这次收购，Harbinger可能希望提升自己的自动驾驶技术能力，进而拓展新的业务收入来源。这种战略举动可能会对行业竞争格局产生影响，尤其是对其他尚未拥有成熟自动驾驶技术的卡车或物流公司来说，可能会面临更大的竞争压力。尚待观察的是，这次收购将如何具体影响Harbinger的业务发展和盈利能力，以及 Phantom AI 的技术如何整合到 Harbinger 现有的业务中。",
+      "llmComment": "哈宾杰公司是一家位于洛杉矶的卡车创业公司，近日宣布收购了自动驾驶技术公司Phantom AI，这是哈宾杰公司的首次收购。这种收购的核心逻辑可能是为了提升哈宾杰公司在自动驾驶技术方面的能力，尤其是在卡车运输领域，这可能有助于公司提高运输效率和安全性。这种收购可能会对行业竞争格局产生影响，其他卡车运输公司可能会面临来自哈宾杰公司的更强竞争，尚待观察的是这笔交易对哈宾杰公司的盈利能力和市场份额的具体影响。",
       "pubDate": "2026-02-25T14:00:00.000Z",
       "score": 85,
       "category": "🤖 AI & 研究",
@@ -26,7 +26,7 @@
       "link": "https://news.crunchbase.com/public/ipos-up-saas-debuts-down-early-2026",
       "source": "Crunchbase News",
       "summary": "While the first couple months of the year brought a steady stream of market entries from companies in sectors such as construction tech, space tech and biotech, new offerings from SaaS companies, long an IPO market staple, are notably absent.",
-      "llmComment": "2026年初，尽管各个行业如建筑科技、太空科技和生物科技的公司不断上市，但软件即服务（SaaS）公司的IPO却明显缺席，这让人对当前的资本市场趋势感到好奇。这种现象的核心逻辑可能在于投资者对SaaS公司的增长前景和盈利能力的重新评估，导致它们暂时退出IPO市场。对行业竞争格局的影响是，传统的科技巨头可能会受益，因为它们可以继续巩固自己的市场地位，而新兴的SaaS公司可能会面临更大的融资压力。尚待观察的是，这种趋势是否会持续，以及SaaS公司如何应对当前的挑战，是否会找到新的融资途径或调整商业模式来重返IPO市场。",
+      "llmComment": "SaaS 公司长期以来是IPO市场的重要组成部分，但今年以来却鲜有SaaS公司上市。这种现象的核心逻辑可能在于投资者对SaaS公司的增长前景和盈利能力的担忧，这可能会导致整个SaaS行业的竞争格局发生变化。尚待观察的是，这种变化对行业领军者和新兴公司的具体影响，但可以预见的是，能够提供稳定增长和盈利的SaaS公司可能会获得更多投资者的青睐，而那些难以实现盈利的公司可能会面临更大的压力。从bull case来看，如果SaaS公司能够找到新的增长点和盈利模式，整个行业仍然有望复苏；从bear case来看，若SaaS公司无法克服当前的挑战，整个行业的发展可能会放缓。",
       "pubDate": "2026-02-25T12:00:37.000Z",
       "score": 81,
       "category": "💰 资本市场·其他",
@@ -37,11 +37,26 @@
     },
     {
       "rank": 3,
+      "title": "Taser-maker Axon pops 18% as AI boosts demand for its software tools",
+      "link": "https://www.cnbc.com/2026/02/25/axon-enterprise-axon-q4-2025-earnings.html",
+      "source": "CNBC Technology",
+      "summary": "CEO Rick Smith noted the impact of AI and said Axon is at a \"moment unlike anything\" he has seen since starting the company.",
+      "llmComment": "Axon是一家以开发电击枪（Taser）闻名的公司，但近年来，其软件工具的需求也在迅速增长。Axon的核心差异化在于其对人工智能（AI）的应用，这使得其软件工具变得更加智能和高效，从而吸引了更多的客户。随着AI技术的不断发展，Axon的软件工具可能会面临更多的市场机会，但同时也可能会遇到来自其他科技公司的竞争威胁，尚待观察其如何应对这些挑战。值得持续追踪的是，Axon的CEO Rick Smith认为当前的市场环境是公司发展的重要契机，这可能会带来新的增长机会。",
+      "pubDate": "2026-02-25T14:51:41.000Z",
+      "score": 78,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "Axon涨18%因AI驱动软件需求",
+      "isHot": true,
+      "paywalled": false
+    },
+    {
+      "rank": 4,
       "title": "Anthropic faces Friday deadline in Defense AI clash with Hegseth",
       "link": "https://www.cnbc.com/2026/02/24/anthropic-ai-hegseth-spying-defense.html",
       "source": "CNBC Technology",
       "summary": "Until this week, Anthropic was the only AI company cleared to deploy its models on classified networks. Elon Musk's xAI is now the second.",
-      "llmComment": "Anthropic是一家人工智能公司，之前是唯一一家获得许可在机密网络上部署其模型的公司，但现在Elon Musk的xAI也获得了这一许可。这种许可的核心技术突破在于能够在高安全性的环境中运行AI模型，与现有方案的差异在于能够处理机密信息，这可能会对云厂商和应用层产生影响，因为它们需要确保自己的服务能够满足这些安全标准。目前尚待观察的是，这种许可对Anthropic和xAI的商业模式会产生何种影响，以及它们如何应对在机密网络上部署AI模型的潜在风险和挑战。原文未披露两家公司如何解决这些问题的细节。",
+      "llmComment": "Anthropic是一家人工智能公司，之前是唯一一家被允许在机密网络上部署其模型的AI公司，但现在Elon Musk的xAI也获得了这一资格。这种核心技术突破意味着xAI的模型也可以在高安全性网络中运行，与现有方案的差异在于xAI也可以参与到机密项目中。对产业链的影响可能会让云厂商和芯片制造商重新评估他们的合作伙伴和技术路线，尤其是那些依赖机密网络的应用层公司。目前尚待观察的是，这一发展路线是否会带来新的安全风险或挑战，特别是在机密数据处理方面。",
       "pubDate": "2026-02-25T14:19:00.000Z",
       "score": 78,
       "category": "🤖 AI & 研究",
@@ -51,7 +66,7 @@
       "paywalled": false
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "Nvidia’s new AI system Vera Rubin is 10 times more efficient than its predecessor — here’s a first look",
       "link": "https://www.cnbc.com/2026/02/25/first-look-at-nvidias-ai-system-vera-rubin-and-how-it-beats-blackwell.html",
       "source": "CNBC Technology",
@@ -66,12 +81,12 @@
       "paywalled": false
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Nvidia challenger AI chip startup MatX raised $500M",
       "link": "https://techcrunch.com/2026/02/24/nvidia-challenger-ai-chip-startup-matx-raised-500m",
       "source": "TechCrunch",
       "summary": "The startup was founded by former Google TPU engineers in 2023.",
-      "llmComment": "MatX是一家由前谷歌TPU工程师于2023年创立的初创公司，专注于开发人工智能芯片，以挑战Nvidia在该领域的主导地位。MatX的核心差异化可能在于其对人工智能计算的优化和创新设计，吸引了投资者关注，获得了5000万美元的融资。然而，人工智能芯片市场竞争激烈，Nvidia的技术优势和市场份额将对MatX构成重大挑战，尚待观察MatX如何在这场竞争中找到自己的突破口。值得持续追踪的信号是MatX的产品开发进展和市场反应，原文未披露具体的产品信息和商业策略。",
+      "llmComment": "MatX是一家由前谷歌TPU工程师于2023年创立的初创公司，专注于开发AI芯片，以挑战Nvidia在该领域的主导地位。MatX的核心差异化在于其团队的背景，前谷歌TPU工程师的加入可能带来对AI芯片设计和优化的独特见解。MatX获得5亿美元的融资，表明其在AI芯片市场的潜在机会，但同时也面临来自Nvidia等业界巨头的激烈竞争，尚待观察MatX如何利用这笔资金进一步提升其技术和市场份额。值得持续追踪的是MatX的产品发布和市场表现，原文未披露具体的产品信息和商业策略，未来动向尚待观察。",
       "pubDate": "2026-02-25T00:45:47.000Z",
       "score": 74,
       "category": "🤖 AI & 研究",
@@ -81,7 +96,7 @@
       "paywalled": false
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "FTSE 100 muted and Wall Street climbs as investors monitor developments on tariffs and AI",
       "link": "https://uk.finance.yahoo.com/news/ftse-100-live-stocks-trump-tariffs-091310053.html",
       "source": "Yahoo Finance",
@@ -96,28 +111,28 @@
       "paywalled": false
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "Morning Bid: Another day, another AI mood swing - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTjRocDV0c3lsUXlELWFmRHZIZkhDa2t3bk15NEd5STkwZkpfUVRsX2w4ZDF6Qm1rSml0OExrcDlhRTZiTmZnalJsZExLQjRCRGJGbWFTWnBqSVJsZnBnWW1Rd3FCOENGSmRLUW91UnJQQlk1VHlmV3hmQy1TcHFHazl3?oc=5",
       "source": "Reuters IPO (Google News)",
       "summary": "Morning Bid: Another day, another AI mood swing Reuters",
       "llmComment": null,
       "pubDate": "2026-02-25T11:39:48.000Z",
-      "score": 67,
-      "category": "📈 股权融资",
+      "score": 66,
+      "category": "🤖 AI & 研究",
       "titleEn": null,
       "titleZh": "3. On在韩国推出机器人工厂以应对供应链风险 - 路透社",
       "isHot": true,
       "paywalled": true
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "GSK to buy 35Pharma for $950 million in CEO Miel's second major deal - Reuters",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON0FRTzlpWmhZVFByeFNaZ21RRUxMaktRclZ1THNFTXV6WHVzYzJPcnhpV201OUV5VVB0bG16b0JTWVJXUkZYLWxqdUd5cURnX0VERHFTajJKaThGRVViSkNwNjUzV3k0SlNkaURLWHdpc2RPMk9HS19kLWlzY05abDAyLUJmMHFzQUFHSQ?oc=5",
       "source": "Reuters M&A (Google News)",
       "summary": "GSK to buy 35Pharma for $950 million in CEO Miel's second major deal Reuters",
       "llmComment": null,
-      "pubDate": "2026-02-25T07:18:00.000Z",
+      "pubDate": "2026-02-25T07:18:13.000Z",
       "score": 66,
       "category": "💰 资本市场·其他",
       "titleEn": null,
@@ -126,7 +141,7 @@
       "paywalled": true
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "Sportswear brand On launches South Korea robot factory to tackle supply chain risk - Reuters",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSmVPTlEwOEhUclZnT09uZTJBbVFwaHp6LVhDR1JkbWpzYlNzUnFxWHJzLVNEak1UVmRaV1ZZNnE1cHJtSUljNUZicjVNMjVPZjRGZy1rR3FXcmxYSnN2Rlotc2pHTnUwLUhiR2ZPQm5RVVlDSjZwNG9DdnRUd2dpV3FUaWxXVFZuRl9HZTh2aHltdFZQYjdZVWRQUnB1dlNHemNoWlNGNWRqdm9PWm9QcEYwN3BRdVdwbjNNb2JwcGlaMXR0eVRlSTNpSUhGVzhramxj?oc=5",
       "source": "Reuters M&A (Google News)",
@@ -141,7 +156,7 @@
       "paywalled": true
     },
     {
-      "rank": 10,
+      "rank": 11,
       "title": "Linear walkthroughs",
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
       "source": "Simon Willison",
@@ -156,7 +171,7 @@
       "paywalled": false
     },
     {
-      "rank": 11,
+      "rank": 12,
       "title": "European shares hit record as HSBC raises lending target, AI disruption fears ease - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQck0zYzM5alYyaUgwNmdIZUR5Tm4tSU5fQnFFT2Vwb2VRWUZXWXpjR1NPV0JaMFd4TW5fejdZdFVzWXAwMWpjZjBtaDhJOFhXNTdTNS0xakc3UmtZQWs3YlhNNFNOSzhBQmN4Mks1MnR1RzlRdUZBdzVndDlYSnh3X0xONEZlMHRlOTAxN19qeFFVa0dQdm84OG9uZEM0NDhodnU2NWpuUER1ZzJqLUoxQmp3Y3pwcTJwZjJuM0NhYXROQQ?oc=5",
       "source": "Reuters IPO (Google News)",
@@ -169,21 +184,6 @@
       "titleZh": "斯特莱普考虑收购PayPal的全部或部分资产，彭博社报道 - 路透社",
       "isHot": true,
       "paywalled": true
-    },
-    {
-      "rank": 12,
-      "title": "Launch HN: TeamOut (YC W22) – AI agent for planning company events",
-      "link": "https://app.teamout.com/ai",
-      "source": "Hacker News",
-      "summary": "Hi HN, I’m Vincent, CTO of TeamOut ( https://www.teamout.com/ ). We build an AI agent that plans company events from start to finish entirely through conversation. Similar to how Lovable helps build websites through chat, we apply that approach to event planning. Our system handles venue sourcing, v",
-      "llmComment": null,
-      "pubDate": "2026-02-25T14:02:02.000Z",
-      "score": 65,
-      "category": "🌐 社区",
-      "titleEn": null,
-      "titleZh": "Launch HN：TeamOut推出AI规划公司活动代理",
-      "isHot": true,
-      "paywalled": false
     },
     {
       "rank": 13,
@@ -202,6 +202,21 @@
     },
     {
       "rank": 14,
+      "title": "Launch HN: TeamOut (YC W22) – AI agent for planning company events",
+      "link": "https://app.teamout.com/ai",
+      "source": "Hacker News",
+      "summary": "Hi HN, I’m Vincent, CTO of TeamOut ( https://www.teamout.com/ ). We build an AI agent that plans company events from start to finish entirely through conversation. Similar to how Lovable helps build websites through chat, we apply that approach to event planning. Our system handles venue sourcing, v",
+      "llmComment": null,
+      "pubDate": "2026-02-25T14:02:02.000Z",
+      "score": 65,
+      "category": "🌐 社区",
+      "titleEn": null,
+      "titleZh": "Launch HN：TeamOut推出AI规划公司活动代理",
+      "isHot": true,
+      "paywalled": false
+    },
+    {
+      "rank": 15,
       "title": "AIs can't stop recommending nuclear strikes in war game simulations",
       "link": "https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations",
       "source": "Hacker News",
@@ -216,7 +231,7 @@
       "paywalled": false
     },
     {
-      "rank": 15,
+      "rank": 16,
       "title": "3 things Juliet Beauchamp is into right now",
       "link": "https://www.technologyreview.com/2026/02/25/1132836/3-things-juliet-beauchamp",
       "source": "MIT Technology Review",
@@ -231,7 +246,7 @@
       "paywalled": false
     },
     {
-      "rank": 16,
+      "rank": 17,
       "title": "Trending tickers: Rolls-Royce, Fresnillo, JD Sports, Vanda Pharmaceuticals and IDFC First Bank",
       "link": "https://uk.finance.yahoo.com/news/rolls-royce-fresnillo-jd-sports-vanda-pharmaceuticals-idfc-first-bank-trending-tickers-094329610.html",
       "source": "Yahoo Finance",
@@ -246,14 +261,14 @@
       "paywalled": false
     },
     {
-      "rank": 17,
+      "rank": 18,
       "title": "Show HN: A real-time strategy game that AI agents can play",
       "link": "https://llmskirmish.com",
       "source": "Hacker News",
       "summary": "I've liked all the projects that put LLMs into game environments. It's been a weird juxtaposition, though: frontier LLMs can one-shot full coding projects, and those same models struggle to get out of Pokémon Red's Mt. Moon. Because of this, I wanted to create a game environment that put this genera",
       "llmComment": null,
       "pubDate": "2026-02-25T10:02:45.000Z",
-      "score": 63,
+      "score": 62,
       "category": "🌐 社区",
       "titleEn": null,
       "titleZh": "人工智能代理可以玩的实时策略游戏",
@@ -261,7 +276,7 @@
       "paywalled": false
     },
     {
-      "rank": 18,
+      "rank": 19,
       "title": "India aims to raise $20 billion from IPOs of state-run firms by 2030 - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPeHFFZVhreTNCaGJiek4tOUZOQmtkbEtZMk1QQ0FDYlJZYWZLWThja3J2Y0dXQktaNkwtZnNKbGp4OGY3N1MwYkJRbE9obXMzQWpFZFZOYmY3TGNMcEFsM3JEbUp0YnlMWjZNa2VmSjVQWW1TQjNzT09IOERTVVBFSU5Jc0VLMzJSLVlMRm9DNHB5NHhoazg3eGQyQ3J1enNRemdQOUFORGk?oc=5",
       "source": "Reuters IPO (Google News)",
@@ -276,7 +291,7 @@
       "paywalled": true
     },
     {
-      "rank": 19,
+      "rank": 20,
       "title": "Hegseth gives Anthropic until Friday to back down on AI safeguards, Axios reports - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOd1RlMW1OVWUtdXRlbDZkSkhXQzNncVZhakpPWGFQRGZQTllWYzZHbTRONjB5OTVJQkx1VWpvVkNXUmJpMFRiSXVmX1hndVlUZlBhOUwxeHVNbHBUb3Q2am5pRllfRkhESUVKdXowR01ZTDcwNE9LRXVvQWo0bUxsTXVqR2Z2SnE2el9DX2JiMVhhdVpjemtEZjBhS1VEXzFsd2Ywc1ZIRFdZVmg3SVpMNm13TFV1ZkdMc2JB?oc=5",
       "source": "Reuters IPO (Google News)",
@@ -291,7 +306,7 @@
       "paywalled": true
     },
     {
-      "rank": 20,
+      "rank": 21,
       "title": "A I-designed proteins may help spot cancer",
       "link": "https://www.technologyreview.com/2026/02/24/1132083/a-i-designed-proteins-may-help-spot-cancer",
       "source": "MIT Technology Review",
@@ -306,7 +321,7 @@
       "paywalled": false
     },
     {
-      "rank": 21,
+      "rank": 22,
       "title": "The Download: introducing the Crime issue",
       "link": "https://www.technologyreview.com/2026/02/25/1133653/the-download-introducing-the-crime-issue",
       "source": "MIT Technology Review",
@@ -321,7 +336,22 @@
       "paywalled": false
     },
     {
-      "rank": 22,
+      "rank": 23,
+      "title": "Reddit fined $20 million in UK over children's data failures - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWHhLdS0tNHY0bGVKNkJWN21NSFNBVXA4a29qYmhCVlVNdHFIenU2UE91ems2OUFkTHNNTFg0V1kxa2RUUzNuXzRJYjM1YXhuME9MN2pOeE1kUWNDZjNraDRfZjBJZlpFdFp4UGVKZ2RRTGZxbXhXYVp6UUJONFJUMVhzbnBpakFxVzIzS1FKaG5NUW9lbjZudjlUbHdzVy0zZWQtZDVUa2ZDb2VMZGdUNDMzVjM?oc=5",
+      "source": "Reuters IPO (Google News)",
+      "summary": "Reddit fined $20 million in UK over children's data failures Reuters",
+      "llmComment": null,
+      "pubDate": "2026-02-24T11:44:59.000Z",
+      "score": 57,
+      "category": "💰 资本市场·其他",
+      "titleEn": null,
+      "titleZh": "Reddit被英国罚2000万美元 - 路透",
+      "isHot": true,
+      "paywalled": true
+    },
+    {
+      "rank": 24,
       "title": "5 Interesting Startup Deals You May Have Missed: Plant-Based Clothing Dyes, A Shoebox-Picking Robot, And Power Generated On The Moon",
       "link": "https://news.crunchbase.com/venture/interesting-startup-deals-ai-robotics-energy-generation",
       "source": "Crunchbase News",
@@ -336,7 +366,7 @@
       "paywalled": false
     },
     {
-      "rank": 23,
+      "rank": 25,
       "title": "Crunchbase Data: The AI Boom Has Drastically Changed Who’s Funding The Hottest Companies In 2025 Vs. 2021",
       "link": "https://news.crunchbase.com/venture/data-2025-vs-2021-funding-hottest-companies-ai",
       "source": "Crunchbase News",
@@ -351,7 +381,22 @@
       "paywalled": false
     },
     {
-      "rank": 24,
+      "rank": 26,
+      "title": "AI Seed Trends: More Multimedia, Backend Automation, Agentic Security, And Yes, Robots",
+      "link": "https://news.crunchbase.com/venture/data-ai-seed-trends-multimedia-automation-cybersecurity-robots",
+      "source": "Crunchbase News",
+      "summary": "Investors poured over $9 billion into global AI-focused seed rounds over the past six months, per Crunchbase data. Areas they favored include cybersecurity, multimedia AI, robotics and desk work automation.",
+      "llmComment": null,
+      "pubDate": "2026-02-20T12:00:03.000Z",
+      "score": 56,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "AI种子趋势：多媒体、后端自动化、代理安全和机器人",
+      "isHot": true,
+      "paywalled": false
+    },
+    {
+      "rank": 27,
       "title": "AI accounting startup Basis raises $100 million at $1.15 billion valuation - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWXJkRnFQRk90RXFsOWhjZll3SGJpNEgxci1tQTF4SkE0cXFQMUt5RWxmMzVnSHNMM3NLS3psTmRQZkU2VTdxMjdtN1dBR2tTUm9IV05VN1hWcU5XekN0MjNWblY3NF8wUzF5VWFRR3otYjVmSll5T1VnOUVIWVJ6NVduOWZidHZkX0Y4UzZrSzBrTXVKcWJqaXoxOXBWQnZYak1BbXVaZlpmVnhSVGdURzBCRQ?oc=5",
       "source": "Reuters Funding (Google News)",
@@ -366,7 +411,7 @@
       "paywalled": true
     },
     {
-      "rank": 25,
+      "rank": 28,
       "title": "TSMC Risk",
       "link": "https://stratechery.com/2026/tsmc-risk/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RzbWMtcmlzay8iXX0sImV4cCI6MTc3NDYyMTI2MywiaWF0IjoxNzcyMDI5MjYzLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.UxPgn30AafXk6QgWIJK2Jo7D5telZkk5Av6Q1NtrP1aL53EW6XWXEN9H9yLM-sRCDaTDCQrfQxNFkc5y22aKaze6nss1qDtTw9ZLiSSgIQ43d3sbqaSD_D1TvS-N2bEixAK1zKo_22FAyZ56R0Yez7EvNp9eaU3CamruODI5xUvdr0rAahLM6zyrnXOaxXAPHgX9Yz-HVulkLjfxeC3jShm19r5jECsLygnYIOPK94UOCeXhbP2m0wq4poBFm_qbBWw04nPMy0nfaMNJjX6GHQnVFngmGMI-vOHWg7_UfTNqjnR9R8ddZ2-Q5gQTBx3Sfi_1Q0fr9PSzjwsIUYh-PQ",
       "source": "Stratechery",
@@ -381,7 +426,7 @@
       "paywalled": false
     },
     {
-      "rank": 26,
+      "rank": 29,
       "title": "Google, Nvidia, and OpenAI",
       "link": "https://stratechery.com/2025/google-nvidia-and-openai/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L2dvb2dsZS1udmlkaWEtYW5kLW9wZW5haS8iXX0sImV4cCI6MTc3NDYyMTI2MywiaWF0IjoxNzcyMDI5MjYzLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.FegFUuRAWf4DMK_1Fz8kv5_d4tQZrqg1vpFW8QuLg24J4SgEy1uRh7o-umhAqDSGj7cK-lDMsXX-H7frR1Lkr_L_pmolUDub3zUM2q-1RZnTnDgjKN6yi9diprqo0q2rn8erCZJBcTArBPgC_zXug_1kidGRG2lb2sOnZRglyFTxJIGM6DEoLrlRiUYjX26kw8RfmBMfnXiiyShRXh8EYGdPkW_Ebpiz8hpwJvEyKU_Ytck8MGDM5TrERN8VyonpMb47zc6IWEWTAM9_YO43qxfPTFRtZYn_NaGOGUQkPGFvfxxQAweEi8kWCbqaVy8-bvhRhaqyaa7dqBLBUZ8BAw",
       "source": "Stratechery",
@@ -396,7 +441,7 @@
       "paywalled": false
     },
     {
-      "rank": 27,
+      "rank": 30,
       "title": "DAE Capital nears deal to buy aircraft leasing firm Macquarie Airfinance, sources say - Reuters",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeDM0dUVEOGU3SEJpbGx4cTdKOXJmZFlxOEEtS2N4UlgyTmQzOUNMNFpEM2FjZlBEUWltS3JwWnBmUDZPUUlNd201U1RLbW1wMEV2eTJvYlVHaXRISzhJY2l5VUFSVVBrb1RJNzZzTVZhRkNpT203eW9ERW44SEVDZmU0dE0xZW84aXVrdjJLWk5xN2JUZHo5VVJqem92b0VLSllUSVh4MXNONDJZOWp3dDNwbGE1czBCV2x1WjZpT0JIRUFFaG11YmJxS3p5OEVpcGZGTUhYaw?oc=5",
       "source": "Reuters M&A (Google News)",
@@ -411,7 +456,7 @@
       "paywalled": true
     },
     {
-      "rank": 28,
+      "rank": 31,
       "title": "[调研] 兄弟们都在用什么方案搞 Vibe Coding？来分享分享体验",
       "link": "https://www.v2ex.com/t/1194068#reply11",
       "source": "V2EX 技术",
@@ -426,7 +471,7 @@
       "paywalled": false
     },
     {
-      "rank": 29,
+      "rank": 32,
       "title": "Boozy chimps fail urine test, confirm hotly debated theory",
       "link": "https://arstechnica.com/science/2026/02/boozy-chimps-fail-urine-test-confirm-hotly-debated-theory",
       "source": "Ars Technica",
@@ -441,7 +486,7 @@
       "paywalled": false
     },
     {
-      "rank": 30,
+      "rank": 33,
       "title": "Quoting Kellan Elliott-McCrea",
       "link": "https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything",
       "source": "Simon Willison",
@@ -456,7 +501,7 @@
       "paywalled": false
     },
     {
-      "rank": 31,
+      "rank": 34,
       "title": "UK self-driving startup Wayve raises $1.2 billion from investors including Mercedes, Stellantis - Reuters",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTU9kTC1FNG9VVDhRWkM3bVNIMEZiU0JCUF9VS1FjYzlNQ0hZYlpaa2k5eDRfY3RnckY4YmlTRy04WGJManloVjJqLTIybnZ5S2JfdEhoZVQxODY1bndXQi0wdEE1QjlVMVM4MDJiM2w1dlBCbFpoOXllbjYyMEVOdWppckR0VlpEbmJvUm1pN1V5SzVNZnZoaGFpWmpBX1UzTzZpN1g4RmJHRUpHT1RtUlJQVEVvNl9qNTBDZU1n?oc=5",
       "source": "Reuters Funding (Google News)",
@@ -471,7 +516,7 @@
       "paywalled": true
     },
     {
-      "rank": 32,
+      "rank": 35,
       "title": "OpenClaw 自己切 gemini API 把自己改崩了。",
       "link": "https://www.v2ex.com/t/1194024#reply12",
       "source": "V2EX 技术",
@@ -486,7 +531,7 @@
       "paywalled": false
     },
     {
-      "rank": 33,
+      "rank": 36,
       "title": "Following 35% growth, solar has passed hydro on US grid",
       "link": "https://arstechnica.com/science/2026/02/final-2025-data-is-in-us-energy-use-is-up-as-solar-passes-hydro",
       "source": "Ars Technica",
@@ -501,7 +546,37 @@
       "paywalled": false
     },
     {
-      "rank": 34,
+      "rank": 37,
+      "title": "OpenAI's Windows Play",
+      "link": "https://stratechery.com/2025/openais-windows-play/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L29wZW5haXMtd2luZG93cy1wbGF5LyJdfSwiZXhwIjoxNzc0NjE3Nzg3LCJpYXQiOjE3NzIwMjU3ODcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.RVNsW7ksO5uUFPpOTyxaSSWvZiYqZmyYLUXeDnGTrfCpjp3XO9GhQsnQUxgcJsJeawGRV-SKKXrGcM13OuwqwTaz6rSu5RQoZY1-YOUlzPXEnJ9fuhAunUCRI9TzuWEOcND2vM_6raOaL6vJLIpig7nWvRXQuYdHqsmXgO9o1eeGAnVKxSXkFS0urpmu4K2thVe-CrxseCFCn98X06KrTzC-CIosVpoMa8YNY6jdNBcFZ6VqX-oo6C9OjEuz5SfXKUcPBzcgaXy5W2VXEk2RcgPOR5APylW3Zs7PE9BgrrsZqdDm2gHaoUkEJ14vNMoG82B2FVWB2AiLrJB9R-cnOA",
+      "source": "Stratechery",
+      "summary": "OpenAI is making a play to be the Windows of AI: the all-encompassing platform that controls both hardware supplier and software developers.",
+      "llmComment": null,
+      "pubDate": "2025-10-07T09:57:32.000Z",
+      "score": 48,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "OpenAI的Windows布局",
+      "isHot": true,
+      "paywalled": false
+    },
+    {
+      "rank": 38,
+      "title": "Sora, AI Bicycles, and Meta Disruption",
+      "link": "https://stratechery.com/2025/sora-ai-bicycles-and-meta-disruption/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3NvcmEtYWktYmljeWNsZXMtYW5kLW1ldGEtZGlzcnVwdGlvbi8iXX0sImV4cCI6MTc3NDYxNzc4NywiaWF0IjoxNzcyMDI1Nzg3LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.LU2tEOAe_aXYWJqQOy3go8TQEnVTF0b63uabQqhypXiw92az7kKdvtVqcsmMzjf3dhZak-wpz2c1t5WgfgMrGlbNJdNuLGzX1hogB14e-FuHN49MNkEhMzQsWtQIw_vZQToMm0OiRP_iP2DwuZbUcQfUEAHTUQyquE1EmvMwZDKaWiY3dgSj85X6LtssQqejMyt-Fyvkqca7ag_Ih4SWUjwbQ_6n12RfCGzxfFXcoFfkFA2l06aG6UorfsDzDLOi7XmVZwnwV-2Q2KkVOuv6MTVGI7NU6i5M9qpu-GX2c2CLVFUH5qS5wORUVWDdC0l1afkjsa31QR-K2mck2reQyA",
+      "source": "Stratechery",
+      "summary": "Sora is going viral, suggesting there is a big opportunity in unlocking creativity. If that's true, that's good for humanity — and bad for Meta.",
+      "llmComment": null,
+      "pubDate": "2025-10-06T10:04:14.000Z",
+      "score": 48,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "Sora、AI自行车和Meta颠覆",
+      "isHot": true,
+      "paywalled": false
+    },
+    {
+      "rank": 39,
       "title": "AI and the Human Condition",
       "link": "https://stratechery.com/2026/ai-and-the-human-condition/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FpLWFuZC10aGUtaHVtYW4tY29uZGl0aW9uLyJdfSwiZXhwIjoxNzc0NjE3Nzg3LCJpYXQiOjE3NzIwMjU3ODcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.tJfsM9rNpLGy-UL4ednlkF4roP8d-KmZCp7fK0PxEqZofy28MMgBKo4y8_8A2LCe8MdNCLKePxSp6dJDGVL8iNYGWMlPo3ER7xgsCunVyMWdP7xgWnBsaww4ikDtnjtlK-bttJZuWLYNmxUXC3QzsfjEAtpY42eR3BhAitKfWI_CqV7gcSbZQ7F48SHg2SDYcuG76ntxm5tLl3tilOdxzX7BKM9__Bo0-2RO8t9QIOU4iYYKfardSFumdpMCTboIb9DYszCW5-f1z7677UN083OEmUEZbnU8C9Sgo9v-WlJumMeKM0kLy8FL-z1K8l-Q2RR5Tjb7gousfT0Z8TuF6w",
       "source": "Stratechery",
@@ -516,7 +591,7 @@
       "paywalled": false
     },
     {
-      "rank": 35,
+      "rank": 40,
       "title": "The Benefits of Bubbles",
       "link": "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xNzQ5MSJdfSwiZXhwIjoxNzc0NjE3Nzg3LCJpYXQiOjE3NzIwMjU3ODcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.DtmwVUBlD4V_EKwc74sw14cbrogB_JGWHwvbG2Es4ZXIMNF2e1BxUIF90BUibbD_UOTui73PZHFQvhrSpN58p_2_9WCu0ifsqwNq6BEhtuKTjUJkD26GUnzqduHYIdYLTWotZd7UdEwRBX19UIBBdN1HzkMaNLEjaGMkRrx6KS110NEAh7BKl0xh1A7PrWdn9cK78ufLqAaZz0jqfEDN7nm3CsmeggU30vSZYn0Z43hKBFSVOFV8fxu57B67M_81USNn6IuOA0UAyy-SInOwhAe8Cpru8UsBeEmTThX0OdQoI3e1mPuM4rl6OvdRpLQe79Tlflt140fPdZW4qK2guQ&amp%3Bp=17491",
       "source": "Stratechery",
@@ -531,7 +606,7 @@
       "paywalled": false
     },
     {
-      "rank": 36,
+      "rank": 41,
       "title": "EU countries give final approval to weaken company sustainability laws - Reuters",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaXFURlp6VlRJazZUeHJjTzE5TlVXa2xnTjZkOE43ZG0temE1dzZJZE84NzBPaWJqbFVMcTdQU0p6aUlObFpzT3JSd1kzWDd3RGp2cmtjcHlPRURLNTM1aHA5VXhBSExKaFc3U3lrTWM3X0JtdHA5SVQyMjNIMkpVSDNkV21oVXNYWURsZ0tIcXdmcF82YmlsNFNEaWhXRS1COEg0RXAxWVc4Y0Zvd1ZlUVVWZVZBb2NYQmhEaE8wQk5UVzRibTZKTWhnbExvbDZxRURaZ3pldm9LN1k?oc=5",
       "source": "Reuters Funding (Google News)",
@@ -546,7 +621,7 @@
       "paywalled": true
     },
     {
-      "rank": 37,
+      "rank": 42,
       "title": "UK fines Reddit for not checking user ages aggressively enough",
       "link": "https://arstechnica.com/tech-policy/2026/02/uk-fines-reddit-for-not-checking-user-ages-aggressively-enough",
       "source": "Ars Technica",
@@ -561,7 +636,37 @@
       "paywalled": false
     },
     {
-      "rank": 38,
+      "rank": 43,
+      "title": "New Microsoft gaming chief has \"no tolerance for bad AI\"",
+      "link": "https://arstechnica.com/gaming/2026/02/new-microsoft-gaming-chief-has-no-tolerance-for-bad-ai",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-23T17:45:29.000Z",
+      "score": 45,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "微软新任游戏负责人“零容忍差AI”",
+      "isHot": true,
+      "paywalled": false
+    },
+    {
+      "rank": 44,
+      "title": "Longevity expert Peter Attia steps aside from CBS News following Epstein emails - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS2VtcXRSVzY3d05fTzZfLVRBa3JydXlzT0V2TGNmY2IxbXFzdFMwVzhxRWp2OUFISnphNkhfTHlsbjdYemRhd2lYMF9RN183VHFDV0NPZkNMdnVXMlZYSG1NMV9RNG5PaGtCY1hhREY0dlpibjN5alVmaE5fQXQxaGJkNkk5OTdFdzRSRjYtOFI2a2VxaTQtOFRHSFJNMEU2WnFYaHB5c21BQnNpMXJ2V3l5UVJaOEpucmNVZ082QkZEd2p4ODU2NHk4Q0hBQQ?oc=5",
+      "source": "Reuters Funding (Google News)",
+      "summary": "Longevity expert Peter Attia steps aside from CBS News following Epstein emails Reuters",
+      "llmComment": null,
+      "pubDate": "2026-02-23T20:43:04.000Z",
+      "score": 44,
+      "category": "💰 资本市场·其他",
+      "titleEn": null,
+      "titleZh": "长寿专家Peter Attia因艾普斯坦邮件离开CBS新闻 - 路透",
+      "isHot": true,
+      "paywalled": true
+    },
+    {
+      "rank": 45,
       "title": "Google DeepMind supports U.S. Department of Energy on Genesis: a national mission to accelerate innovation and scientific discovery",
       "link": "https://deepmind.google/blog/google-deepmind-supports-us-department-of-energy-on-genesis",
       "source": "Google DeepMind Blog",
@@ -576,7 +681,7 @@
       "paywalled": false
     },
     {
-      "rank": 39,
+      "rank": 46,
       "title": "How we’re bringing AI image verification to the Gemini app",
       "link": "https://deepmind.google/blog/how-were-bringing-ai-image-verification-to-the-gemini-app",
       "source": "Google DeepMind Blog",
@@ -591,7 +696,7 @@
       "paywalled": false
     },
     {
-      "rank": 40,
+      "rank": 47,
       "title": "Engineering more resilient crops for a warming climate",
       "link": "https://deepmind.google/blog/engineering-more-resilient-crops-for-a-warming-climate",
       "source": "Google DeepMind Blog",
@@ -606,7 +711,37 @@
       "paywalled": false
     },
     {
-      "rank": 41,
+      "rank": 48,
+      "title": "A new way to express yourself: Gemini can now create music",
+      "link": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music",
+      "source": "Google DeepMind Blog",
+      "summary": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images.",
+      "llmComment": null,
+      "pubDate": "2026-02-18T16:01:38.000Z",
+      "score": 35,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "Gemini现在可以创作音乐",
+      "isHot": true,
+      "paywalled": false
+    },
+    {
+      "rank": 49,
+      "title": "Improved Gemini audio models for powerful voice experiences",
+      "link": "https://deepmind.google/blog/improved-gemini-audio-models-for-powerful-voice-experiences",
+      "source": "Google DeepMind Blog",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2025-12-12T17:50:50.000Z",
+      "score": 35,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "Gemini音频模型升级，打造强大的语音体验",
+      "isHot": true,
+      "paywalled": false
+    },
+    {
+      "rank": 50,
       "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
       "link": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks",
       "source": "Google DeepMind Blog",
@@ -621,7 +756,7 @@
       "paywalled": false
     },
     {
-      "rank": 42,
+      "rank": 51,
       "title": "[Sponsor] Hands-On Workshop: Fix It Faster — Crash Reporting, Tracing, and Logs for iOS in Sentry",
       "link": "https://sentry.io/resources/ios-workshop-jan-2026/?amp%3Butm_medium=paid-display&amp%3Butm_campaign=general-fy27q1-evergreen&amp%3Butm_content=static-ad-mobilerss-trysentry",
       "source": "Daring Fireball",
@@ -636,7 +771,7 @@
       "paywalled": false
     },
     {
-      "rank": 43,
+      "rank": 52,
       "title": "Here's How Much OpenAI Spends On Inference and Its Revenue Share With Microsoft",
       "link": "https://www.wheresyoured.at/oai_docs",
       "source": "Where's Your Ed At",
@@ -651,7 +786,7 @@
       "paywalled": false
     },
     {
-      "rank": 44,
+      "rank": 53,
       "title": "After Orthogonality: Virtue-Ethical Agency and AI Alignment",
       "link": "https://thegradient.pub/virtue-ethics-ai-alignment",
       "source": "The Gradient",
@@ -666,7 +801,7 @@
       "paywalled": false
     },
     {
-      "rank": 45,
+      "rank": 54,
       "title": "I Am Nothing if Not a Man of Science",
       "link": "https://mastodon.social/@gruber/116131665730352697",
       "source": "Daring Fireball",
@@ -681,7 +816,7 @@
       "paywalled": false
     },
     {
-      "rank": 46,
+      "rank": 55,
       "title": "Premium: Mythbusters - AI Edition",
       "link": "https://www.wheresyoured.at/ai-mythbusters",
       "source": "Where's Your Ed At",
@@ -696,7 +831,7 @@
       "paywalled": false
     },
     {
-      "rank": 47,
+      "rank": 56,
       "title": "Premium: The Ways The AI Bubble Might Burst",
       "link": "https://www.wheresyoured.at/premium-the-ways-the-ai-bubble-might-burst",
       "source": "Where's Your Ed At",
@@ -711,7 +846,7 @@
       "paywalled": false
     },
     {
-      "rank": 48,
+      "rank": 57,
       "title": "A Brief Overview of Gender Bias in AI",
       "link": "https://thegradient.pub/gender-bias-in-ai",
       "source": "The Gradient",
@@ -726,7 +861,7 @@
       "paywalled": false
     },
     {
-      "rank": 49,
+      "rank": 58,
       "title": "The Artificiality of Alignment",
       "link": "https://thegradient.pub/the-artificiality-of-alignment",
       "source": "The Gradient",
@@ -741,7 +876,7 @@
       "paywalled": false
     },
     {
-      "rank": 50,
+      "rank": 59,
       "title": "Premium: The AI Bubble Is A Time Bomb",
       "link": "https://www.wheresyoured.at/premium-timebomb",
       "source": "Where's Your Ed At",
@@ -756,7 +891,7 @@
       "paywalled": false
     },
     {
-      "rank": 51,
+      "rank": 60,
       "title": "We Need Positive Visions for AI Grounded in Wellbeing",
       "link": "https://thegradient.pub/we-need-positive-visions-for-ai-grounded-in-wellbeing",
       "source": "The Gradient",
@@ -771,7 +906,37 @@
       "paywalled": false
     },
     {
-      "rank": 52,
+      "rank": 61,
+      "title": "Premium: This Is Worse Than The Dot Com Bubble",
+      "link": "https://www.wheresyoured.at/dot-com-bubble",
+      "source": "Where's Your Ed At",
+      "summary": "Soundtrack - Radiohead - Karma Police I just spent a week at the Consumer Electronics Show, and one word kept coming up: bullshit.&#xA0; LG, a company known for making home appliances and televisions, demonstrated a robot (named &#x201C;CLOiD&#x201D; for some reason) that could &#x201C;fold laundry&",
+      "llmComment": null,
+      "pubDate": "2026-01-16T17:15:37.000Z",
+      "score": 26,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "高级：这比点컴泡沫更糟",
+      "isHot": true,
+      "paywalled": false
+    },
+    {
+      "rank": 62,
+      "title": "NVIDIA Isn't Enron - So What Is It?",
+      "link": "https://www.wheresyoured.at/nvidia-isnt-enron-so-what-is-it",
+      "source": "Where's Your Ed At",
+      "summary": "If you enjoy this free newsletter, why not subscribe to Where's Your Ed At Premium? It's $7 a month or $70 a year, and helps support me putting out these giant free newsletters! At the end of November, NVIDIA put out an internal memo ( that was",
+      "llmComment": null,
+      "pubDate": "2025-12-08T17:02:17.000Z",
+      "score": 26,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "NVIDIA不是安然 - 那么它是什么？",
+      "isHot": true,
+      "paywalled": false
+    },
+    {
+      "rank": 63,
       "title": "Kimwolf Botnet Lurking in Corporate, Govt. Networks",
       "link": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks",
       "source": "Krebs on Security",
@@ -786,7 +951,7 @@
       "paywalled": false
     },
     {
-      "rank": 53,
+      "rank": 64,
       "title": "Patch Tuesday, January 2026 Edition",
       "link": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition",
       "source": "Krebs on Security",
@@ -801,7 +966,7 @@
       "paywalled": false
     },
     {
-      "rank": 54,
+      "rank": 65,
       "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
       "link": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters",
       "source": "Krebs on Security",
@@ -816,7 +981,7 @@
       "paywalled": false
     },
     {
-      "rank": 55,
+      "rank": 66,
       "title": "Who Operates the Badbox 2.0 Botnet?",
       "link": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet",
       "source": "Krebs on Security",
@@ -831,7 +996,37 @@
       "paywalled": false
     },
     {
-      "rank": 56,
+      "rank": 67,
+      "title": "Shape, Symmetries, and Structure: The Changing Role of Mathematics in Machine Learning Research",
+      "link": "https://thegradient.pub/shape-symmetry-structure",
+      "source": "The Gradient",
+      "summary": "What is the Role of Mathematics in Modern Machine Learning? The past decade has witnessed a shift in how progress is made in machine learning. Research involving carefully designed and mathematically principled architectures result in only marginal improvements while compute-intensive and engineerin",
+      "llmComment": null,
+      "pubDate": "2024-11-16T16:46:15.000Z",
+      "score": 15,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "形状、对称性和结构：数学在机器学习研究中的变化角色",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 68,
+      "title": "Neural algorithmic reasoning",
+      "link": "https://thegradient.pub/neural-algorithmic-reasoning",
+      "source": "The Gradient",
+      "summary": "In this article, we will talk about classical computation : the kind of computation typically found in an undergraduate Computer Science course on Algorithms and Data Structures [1]. Think shortest path-finding, sorting, clever ways to break problems down into simpler problems, incredible ways to or",
+      "llmComment": null,
+      "pubDate": "2023-10-14T15:30:15.000Z",
+      "score": 15,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "神经算法推理",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 69,
       "title": "Insider amnesia",
       "link": "https://seangoedecke.com/insider-amnesia",
       "source": "Sean Goedecke",
@@ -846,7 +1041,7 @@
       "paywalled": false
     },
     {
-      "rank": 57,
+      "rank": 70,
       "title": "What's so hard about continuous learning?",
       "link": "https://seangoedecke.com/continuous-learning",
       "source": "Sean Goedecke",
@@ -861,7 +1056,97 @@
       "paywalled": false
     },
     {
-      "rank": 58,
+      "rank": 71,
+      "title": "You have to know how to drive the car",
+      "link": "https://seangoedecke.com/knowing-how-to-drive-the-car",
+      "source": "Sean Goedecke",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-01-26T00:00:00.000Z",
+      "score": 10,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "你必须知道如何驾驶汽车",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 72,
+      "title": "How I estimate work as a staff software engineer",
+      "link": "https://seangoedecke.com/how-i-estimate-work",
+      "source": "Sean Goedecke",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-01-24T00:00:00.000Z",
+      "score": 10,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "我如何估计软件工程师的工作量",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 73,
+      "title": "Make product worse, get money",
+      "link": "https://dynomight.net/worse",
+      "source": "dynomight",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2025-11-20T00:00:00.000Z",
+      "score": 10,
+      "category": "📝 深度阅读",
+      "titleEn": null,
+      "titleZh": "产品变差，赚钱",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 74,
+      "title": "Dating: A mysterious constellation of facts",
+      "link": "https://dynomight.net/dating",
+      "source": "dynomight",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2025-10-30T00:00:00.000Z",
+      "score": 10,
+      "category": "📝 深度阅读",
+      "titleEn": null,
+      "titleZh": "约会：一个神秘的事实星座",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 75,
+      "title": "How to Sell to the Dept of War – The 2025 PEO Directory – Now with 500 more names",
+      "link": "https://steveblank.com/2025/10/15/how-to-sell-to-the-dept-of-war-the-2025-peo-directory-now-with-500-more-names",
+      "source": "Steve Blank",
+      "summary": "The October 2025 PEO Directory – Update 2. The Department of War (DoW) is one of the world’s largest organizations. If you’re a startup trying to figure out who to call on and how to navigate the system, it can be – to put it politely – challenging.Those inside the DoW have little perspective of […]",
+      "llmComment": null,
+      "pubDate": "2025-10-15T13:00:11.000Z",
+      "score": 10,
+      "category": "📝 深度阅读",
+      "titleEn": null,
+      "titleZh": "如何向战争部销售 - 2025年PEO目录 - 现在有500个更多的名字",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 76,
+      "title": "No Science, No Startups: The Innovation Engine We’re Switching Off",
+      "link": "https://steveblank.com/2025/10/13/no-science-no-startups-the-unseen-engine-were-switching-off",
+      "source": "Steve Blank",
+      "summary": "Tons of words have been written about the Trump Administrations war on Science in Universities. But few people have asked what, exactly, is science? How does it work? Who are the scientists? What do they do? And more importantly, why should anyone (outside of universities) care? (Unfortunately, you ",
+      "llmComment": null,
+      "pubDate": "2025-10-13T13:00:56.000Z",
+      "score": 10,
+      "category": "📝 深度阅读",
+      "titleEn": null,
+      "titleZh": "没有科学，就没有初创公司：我们关闭的创新引擎",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 77,
       "title": "On screwing up",
       "link": "https://seangoedecke.com/screwing-up",
       "source": "Sean Goedecke",
@@ -876,7 +1161,7 @@
       "paywalled": false
     },
     {
-      "rank": 59,
+      "rank": 78,
       "title": "Large tech companies don't need heroes",
       "link": "https://seangoedecke.com/heroism",
       "source": "Sean Goedecke",
@@ -891,7 +1176,7 @@
       "paywalled": false
     },
     {
-      "rank": 60,
+      "rank": 79,
       "title": "Why the chicken crossed the road, according to various entities",
       "link": "https://dynomight.net/chicken",
       "source": "dynomight",
@@ -906,7 +1191,7 @@
       "paywalled": false
     },
     {
-      "rank": 61,
+      "rank": 80,
       "title": "Underrated reasons to be thankful V",
       "link": "https://dynomight.net/thanks-5",
       "source": "dynomight",
@@ -921,7 +1206,7 @@
       "paywalled": false
     },
     {
-      "rank": 62,
+      "rank": 81,
       "title": "The Department of War Just Shot the Accountants and Opted for Speed",
       "link": "https://steveblank.com/2025/11/11/the-department-of-war-just-shot-the-accountants-and-opted-for-speed",
       "source": "Steve Blank",
@@ -936,7 +1221,7 @@
       "paywalled": false
     },
     {
-      "rank": 63,
+      "rank": 82,
       "title": "It only took 20 years, but the Strategic Management Society now Believes the Lean Startup is a Strategy",
       "link": "https://steveblank.com/2025/10/30/it-only-took-20-years-but-the-strategic-management-society-now-believes-the-lean-startup-is-a-strategy-i-got-an-award-for-it",
       "source": "Steve Blank",
@@ -951,7 +1236,7 @@
       "paywalled": false
     },
     {
-      "rank": 64,
+      "rank": 83,
       "title": "Revisionist History – Aliens, Secrets and Conspiracies",
       "link": "https://steveblank.com/2026/02/10/revisionist-history-aliens-secrets-and-conspiracies",
       "source": "Steve Blank",
@@ -966,7 +1251,7 @@
       "paywalled": false
     },
     {
-      "rank": 65,
+      "rank": 84,
       "title": "Why read novels?",
       "link": "https://dynomight.net/novels",
       "source": "dynomight",
@@ -981,7 +1266,7 @@
       "paywalled": false
     },
     {
-      "rank": 66,
+      "rank": 85,
       "title": "Good if make prior after data instead of before",
       "link": "https://dynomight.net/prior",
       "source": "dynomight",
@@ -996,7 +1281,7 @@
       "paywalled": false
     },
     {
-      "rank": 67,
+      "rank": 86,
       "title": "The Department of War Directory",
       "link": "https://steveblank.com/2025/12/16/the-department-of-war-directory",
       "source": "Steve Blank",

@@ -62,7 +62,7 @@
       "url": "https://feedfry.com/rss/11f111092c9aca3cbeb66cb95d7dc0e7",
       "ok": false,
       "itemCount": 0,
-      "consecutiveFails": 1,
+      "consecutiveFails": 2,
       "error": "HTTP 429 for https://feedfry.com/rss/11f111092c9aca3cbeb66cb95d7dc0e7"
     },
     {
@@ -120,7 +120,7 @@
       "ok": false,
       "itemCount": 0,
       "consecutiveFails": 5,
-      "error": "HTTP 403 for https://gwern.net/feed"
+      "skipped": true
     },
     {
       "name": "Dwarkesh Patel",
