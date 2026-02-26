@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-02-25",
+  "lastRun": "2026-02-26",
   "feeds": [
     {
       "name": "Stratechery",
@@ -60,10 +60,9 @@
     {
       "name": "Yahoo Finance",
       "url": "https://feedfry.com/rss/11f111092c9aca3cbeb66cb95d7dc0e7",
-      "ok": false,
-      "itemCount": 0,
-      "consecutiveFails": 2,
-      "error": "HTTP 429 for https://feedfry.com/rss/11f111092c9aca3cbeb66cb95d7dc0e7"
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
     },
     {
       "name": "IEEE Spectrum",
