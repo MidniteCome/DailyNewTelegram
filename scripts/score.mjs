@@ -85,23 +85,24 @@ const CATEGORIES = [
 //
 // 设计原则：
 //   - 模式尽量高精度（宁可不命中，不要误命中）
-//   - 顺序同 CATEGORIES，保持一致的优先级
+//   - 交易事件（并购、融资）优先于行业标签（AI、宏观）
+//     因为 "AI 芯片公司融资" 的首要分类是融资事件，而非 AI 行业
 const TITLE_PATTERNS = [
-  {
-    label: "🤖 AI & 研究",
-    re: /\bai\b|\bllm\b|gpt-?\d|gpt\s*4o?|claude\s|gemini\s|openai\b|deepmind|deepseek|anthropic|\bartificial intelligence\b|large language model/i,
-  },
   {
     label: "💼 并购 M&A",
     re: /\bacquisition\b|(?:acquires|acquired)\b|\bbuys\b.{1,40}(?:for|deal)|\bmerger\b|\bmerges\b|\btakeover\b|\bbuyout\b/i,
   },
   {
     label: "📈 股权融资",
-    re: /\bipo\b|\bgo(?:es|ing)\s+public\b|\bfiles?\s+(?:for\s+)?ipo\b|\bs-1\b|\bf-1\b|series\s+[a-e]\s+(?:round|funding)|\braised?\s+\$[\d,.]+\s*(?:million|billion)\b|\bfunding\s+round\b/i,
+    re: /\bipo\b|\bgo(?:es|ing)\s+public\b|\bfiles?\s+(?:for\s+)?ipo\b|\bs-1\b|\bf-1\b|series\s+[a-e]\s+(?:round|funding)|\braised?\s+\$[\d,.]+\s*(?:million|billion)\b|\bfunding\s+round\b|\braises\b.{1,30}\$[\d]/i,
   },
   {
     label: "📊 宏观市场",
     re: /\bfed\b|federal reserve|\bcpi\b|\bppi\b|\binflation\b|\btariff(?:s)?\b|interest\s+rate|rate\s+cut|rate\s+hike|treasury\s+yield|nonfarm\s+payroll|gdp\s+(?:growth|data|fell|rose)/i,
+  },
+  {
+    label: "🤖 AI & 研究",
+    re: /\bai\b|\bllm\b|gpt-?\d|gpt\s*4o?|claude\s|gemini\s|openai\b|deepmind|deepseek|anthropic|\bartificial intelligence\b|large language model/i,
   },
 ];
 

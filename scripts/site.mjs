@@ -748,17 +748,18 @@ function applyFilter(data) {
   const topN     = meta?.topN ?? 5;
   const filtered = getFilteredArticles(articles);
   const top  = filtered.filter(a => a.rank <= topN);
-  const rest = filtered.filter(a => a.rank >  topN);
+  // Category section shows ALL filtered articles (including top-N),
+  // so M&A / funding items in the top spotlight also appear under their category.
+  const rest = filtered;
 
   // Update labels
   const filterLabels = { all: 'Top Signals', deal: 'Deals · Top Signals', ai: 'AI · Top Signals', macro: 'Macro · Top Signals', deep: 'Deep Reads' };
   topLabel.textContent = filterLabels[currentFilter] || 'Top Signals';
 
-  const restCount = rest.length;
   const kbdSpan = divLabel.querySelector('.kbd-hint');
   const restLabelText = currentFilter === 'all'
-    ? \`All Articles · \${restCount}\`
-    : \`\${document.querySelector('.filter-btn.active')?.textContent ?? ''} · \${restCount}\`;
+    ? \`All Articles · \${filtered.length}\`
+    : \`\${document.querySelector('.filter-btn.active')?.textContent ?? ''} · \${filtered.length}\`;
   divLabel.firstChild.textContent = restLabelText + ' ';
   if (kbdSpan && !divLabel.contains(kbdSpan)) divLabel.appendChild(kbdSpan);
 
