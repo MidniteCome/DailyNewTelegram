@@ -396,43 +396,75 @@
     }
 
     /* ── Podcast panel ── */
-
-    /* ── Podcast panel ── */
     #podcast-panel { display: none; }
-    .pod-inner { max-width: 760px; margin: 0 auto; padding: 0.9rem 1rem 2rem; }
-    .pod-status { text-align: center; padding: 3rem 0; color: var(--muted); font-size: 0.85rem; }
-    .pod-list { display: flex; flex-direction: column; gap: 5px; }
-    .pod-ep {
-      display: flex; gap: 12px; align-items: flex-start;
+
+    /* Timeline (chat-bubble style) */
+    .pod-timeline { max-width: 680px; margin: 0 auto; padding: 1rem 1rem 3rem; display: flex; flex-direction: column; gap: 1.4rem; }
+    .pod-day-label { text-align: center; font-size: 0.70rem; color: var(--muted); padding: 0.4rem 0; letter-spacing: 0.05em; text-transform: uppercase; }
+    .pod-status { text-align: center; padding: 2.5rem 0 1rem; color: var(--muted); font-size: 0.85rem; }
+    .pod-show-grid { display: flex; flex-wrap: wrap; gap: 8px; padding: 0.5rem 0; }
+    .pod-show-chip {
+      display: flex; align-items: center; gap: 7px;
       background: var(--surface); border: 1px solid var(--border);
-      border-radius: var(--radius); padding: 11px 14px;
-      transition: border-color 0.12s;
-      text-decoration: none; color: inherit;
+      border-radius: 20px; padding: 5px 12px 5px 6px;
+      cursor: pointer; font-size: 0.78rem; font-weight: 500; color: var(--text-sub);
+      transition: border-color 0.12s, color 0.12s;
     }
-    .pod-ep:hover { border-color: var(--border-hi); }
-    .pod-ep-art {
-      width: 54px; height: 54px; border-radius: 6px;
-      object-fit: cover; flex-shrink: 0;
+    .pod-show-chip:hover { border-color: var(--border-hi); color: var(--text); }
+    .pod-chip-art { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; }
+
+    /* Bubble rows */
+    .pod-bubble-row { display: flex; gap: 10px; align-items: flex-start; }
+    .pod-avatar {
+      width: 44px; height: 44px; border-radius: 50%; object-fit: cover; flex-shrink: 0;
+      cursor: pointer; border: 2px solid var(--border); transition: border-color 0.12s;
     }
-    .pod-ep-body { flex: 1; min-width: 0; }
-    .pod-ep-meta {
-      display: flex; align-items: center; flex-wrap: wrap;
-      gap: 5px; margin-bottom: 4px;
+    .pod-avatar:hover { border-color: var(--border-hi); }
+    .pod-avatar-ph {
+      width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0; cursor: pointer;
+      background: var(--border); display: flex; align-items: center; justify-content: center; font-size: 1.2rem;
     }
-    .pod-badge {
-      display: inline-block; padding: 1px 5px; border-radius: 3px;
-      font-size: 0.66rem; font-weight: 600;
-      background: #FDF4FF; color: #7E22CE;
+    .pod-bubble {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 0 12px 12px 12px; padding: 10px 14px;
+      flex: 1; min-width: 0; transition: border-color 0.12s;
     }
-    .pod-show { font-size: 0.72rem; font-weight: 600; color: var(--text-sub); }
-    .pod-dur  { font-size: 0.70rem; color: var(--muted); font-variant-numeric: tabular-nums; }
-    .pod-time { font-size: 0.70rem; color: var(--muted); }
-    .pod-ep-title {
-      font-size: 0.93rem; font-weight: 600; color: var(--text);
-      line-height: 1.45; margin-bottom: 2px; letter-spacing: -0.01em;
+    .pod-bubble:hover { border-color: var(--border-hi); }
+    .pod-bubble-meta { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-bottom: 5px; }
+    .pod-bubble-show { font-size: 0.72rem; font-weight: 700; color: var(--text-sub); cursor: pointer; }
+    .pod-bubble-show:hover { color: var(--link); text-decoration: underline; }
+    .pod-bubble-time { font-size: 0.68rem; color: var(--muted); }
+    .pod-bubble-title a { font-size: 0.93rem; font-weight: 600; color: var(--text); text-decoration: none; line-height: 1.4; }
+    .pod-bubble-title a:hover { color: var(--link); text-decoration: underline; }
+    .pod-bubble-summary { font-size: 0.81rem; color: var(--text-sub); line-height: 1.55; margin-top: 5px; }
+
+    /* Channel drill-down */
+    .pod-channel-wrap { max-width: 680px; margin: 0 auto; padding: 0 1rem 3rem; }
+    .pod-channel-hdr {
+      display: flex; align-items: center; gap: 12px;
+      padding: 1rem 0 1.2rem; border-bottom: 1px solid var(--border); margin-bottom: 1.2rem;
     }
-    .pod-ep:hover .pod-ep-title { color: var(--link); }
-    .pod-ep-summary { font-size: 0.81rem; color: var(--text-sub); line-height: 1.55; margin-top: 2px; }
+    .pod-back {
+      border: 1px solid var(--border); background: transparent; color: var(--muted);
+      padding: 4px 10px; border-radius: var(--radius-sm); cursor: pointer;
+      font-size: 0.76rem; font-family: inherit; flex-shrink: 0;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .pod-back:hover { border-color: var(--border-hi); color: var(--text); }
+    .pod-chan-art { width: 52px; height: 52px; border-radius: 50%; object-fit: cover; border: 2px solid var(--border); flex-shrink: 0; }
+    .pod-chan-name { font-size: 1rem; font-weight: 700; color: var(--text); }
+    .pod-chan-cat  { font-size: 0.72rem; color: var(--muted); margin-top: 2px; }
+    .pod-chan-eps  { display: flex; flex-direction: column; gap: 8px; }
+    .pod-chan-ep {
+      display: block; padding: 10px 14px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); text-decoration: none; color: inherit; transition: border-color 0.12s;
+    }
+    .pod-chan-ep:hover { border-color: var(--border-hi); }
+    .pod-chan-ep-title { font-size: 0.9rem; font-weight: 600; color: var(--text); line-height: 1.4; }
+    .pod-chan-ep:hover .pod-chan-ep-title { color: var(--link); }
+    .pod-chan-ep-meta { font-size: 0.69rem; color: var(--muted); margin-top: 4px; display: flex; gap: 8px; }
+    .pod-chan-ep-summary { font-size: 0.80rem; color: var(--text-sub); margin-top: 5px; line-height: 1.5; }
   </style>
 </head>
 <body>
@@ -494,10 +526,7 @@
 
 <!-- ── Podcast panel (hidden by default) ── -->
 <div id="podcast-panel">
-  <div class="pod-inner">
-    <div class="panel-label">🎙️ Recent Episodes</div>
-    <div id="pod-list"><div class="pod-status">Loading…</div></div>
-  </div>
+  <div id="pod-list"></div>
 </div>
 
 <script>
@@ -890,71 +919,130 @@ const tabPodcast   = document.getElementById('tab-podcast');
 const podcastPanel = document.getElementById('podcast-panel');
 const podList      = document.getElementById('pod-list');
 const newsControls = document.getElementById('news-controls');
-
-// News body elements to hide while podcast view is active
-const newsBodyEls = [document.querySelector('.split-layout')].filter(Boolean);
+const newsBodyEls  = [document.querySelector('.split-layout')].filter(Boolean);
 
 let podLoaded = false;
 let podMode   = false;
+let podData   = null;   // { shows, episodes }
 
-function fmtDuration(s) {
-  if (!s) return '';
-  // already HH:MM:SS or MM:SS
-  if (/^\d+:\d+/.test(s)) return s;
-  // seconds integer
-  const sec = parseInt(s, 10);
-  if (isNaN(sec)) return s;
-  const h = Math.floor(sec / 3600);
-  const m = Math.floor((sec % 3600) / 60);
-  const ss = sec % 60;
-  return h
-    ? `${h}:${String(m).padStart(2,'0')}:${String(ss).padStart(2,'0')}`
-    : `${m}:${String(ss).padStart(2,'0')}`;
+function todayLocalYmd() {
+  const d = new Date();
+  return d.getFullYear() + '-'
+    + String(d.getMonth()+1).padStart(2,'0') + '-'
+    + String(d.getDate()).padStart(2,'0');
 }
 
-function fmtPodDate(iso) {
+function epLocalYmd(ep) {
   try {
-    return new Date(iso).toLocaleDateString('en-GB', { day:'numeric', month:'short' });
+    const d = new Date(ep.pubDate);
+    return d.getFullYear() + '-'
+      + String(d.getMonth()+1).padStart(2,'0') + '-'
+      + String(d.getDate()).padStart(2,'0');
   } catch { return ''; }
 }
 
-function podEpHtml(ep) {
-  const dur  = ep.duration ? `<span class="pod-dur">⏱ ${fmtDuration(ep.duration)}</span>` : '';
-  const date = ep.pubDate  ? `<span class="pod-time">${fmtPodDate(ep.pubDate)}</span>` : '';
-  const art  = ep.art ? `<img class="pod-ep-art" src="${ep.art}" loading="lazy" alt="">` : '';
-  return `
-<a class="pod-ep" href="${ep.link}" target="_blank" rel="noopener">
-  ${art}
-  <div class="pod-ep-body">
-    <div class="pod-ep-meta">
-      <span class="pod-badge">${ep.category ?? ''}</span>
-      <span class="pod-show">${ep.showName}</span>
-      ${dur}${date}
-    </div>
-    <div class="pod-ep-title">${ep.title}</div>
-    ${ep.summary ? `<div class="pod-ep-summary">${ep.summary}</div>` : ''}
-  </div>
-</a>`;
+function fmtDuration(s) {
+  if (!s) return '';
+  if (/^\d+:\d+/.test(s)) return s;
+  const sec = parseInt(s, 10);
+  if (isNaN(sec)) return s;
+  const h = Math.floor(sec/3600), m = Math.floor((sec%3600)/60), ss = sec%60;
+  return h ? `${h}:${String(m).padStart(2,'0')}:${String(ss).padStart(2,'0')}`
+           : `${m}:${String(ss).padStart(2,'0')}`;
 }
 
-function renderPodcasts(data) {
-  const eps = data.episodes ?? [];
-  if (!eps.length) {
-    podList.innerHTML = '<div class="pod-status">No episodes found.</div>';
-    return;
+function fmtPodDate(iso) {
+  try { return new Date(iso).toLocaleString('zh-CN', {month:'short', day:'numeric', hour:'2-digit', minute:'2-digit'}); }
+  catch { return ''; }
+}
+
+function bubbleHtml(ep, shows) {
+  const show = shows.find(s => s.id === ep.showId) ?? {};
+  const art  = show.art;
+  const avt  = art
+    ? `<img class="pod-avatar" src="${art}" alt="" data-show="${ep.showId}" loading="lazy">`
+    : `<div class="pod-avatar-ph" data-show="${ep.showId}">🎙️</div>`;
+  const meta = ep.pubDate ? fmtPodDate(ep.pubDate) : '';
+  const dur  = ep.duration ? ' · ⏱ ' + fmtDuration(ep.duration) : '';
+  return '<div class="pod-bubble-row">'
+    + avt
+    + '<div class="pod-bubble">'
+    + '<div class="pod-bubble-meta">'
+    + `<span class="pod-bubble-show" data-show="${ep.showId}">${ep.showName}</span>`
+    + `<span class="pod-bubble-time">${meta}${dur}</span>`
+    + '</div>'
+    + `<div class="pod-bubble-title"><a href="${ep.link}" target="_blank" rel="noopener">${ep.title}</a></div>`
+    + (ep.summary ? `<div class="pod-bubble-summary">${ep.summary}</div>` : '')
+    + '</div></div>';
+}
+
+function renderTimeline() {
+  const { shows, episodes } = podData;
+  const today    = todayLocalYmd();
+  const todayEps = episodes.filter(ep => epLocalYmd(ep) === today);
+
+  if (!todayEps.length) {
+    const chips = shows.map(s =>
+      '<div class="pod-show-chip" data-show="' + s.id + '">'
+      + (s.art ? `<img class="pod-chip-art" src="${s.art}" loading="lazy" alt="">` : '🎙️')
+      + `<span>${s.name}</span></div>`
+    ).join('');
+    podList.innerHTML = '<div class="pod-timeline">'
+      + '<div class="pod-status">今日暂无新节目</div>'
+      + `<div class="pod-show-grid">${chips}</div>`
+      + '</div>';
+  } else {
+    podList.innerHTML = '<div class="pod-timeline">'
+      + `<div class="pod-day-label">今日更新 · ${today}</div>`
+      + todayEps.map(ep => bubbleHtml(ep, shows)).join('')
+      + '</div>';
   }
-  podList.innerHTML = eps.map(podEpHtml).join('');
+  bindAvatarClicks();
+}
+
+function renderChannel(showId) {
+  const { shows, episodes } = podData;
+  const show = shows.find(s => s.id === showId);
+  if (!show) return;
+  const eps = episodes.filter(ep => ep.showId === showId);
+  const artHtml = show.art
+    ? `<img class="pod-chan-art" src="${show.art}" alt="">`
+    : '<div class="pod-chan-art" style="background:var(--border);display:flex;align-items:center;justify-content:center;font-size:1.3rem">🎙️</div>';
+  podList.innerHTML = '<div class="pod-channel-wrap">'
+    + '<div class="pod-channel-hdr">'
+    + '<button class="pod-back" id="pod-back">← 返回</button>'
+    + artHtml
+    + `<div><div class="pod-chan-name">${show.name}</div><div class="pod-chan-cat">${show.category ?? ''}</div></div>`
+    + '</div>'
+    + '<div class="pod-chan-eps">'
+    + eps.map(ep =>
+        `<a class="pod-chan-ep" href="${ep.link}" target="_blank" rel="noopener">`
+        + `<div class="pod-chan-ep-title">${ep.title}</div>`
+        + `<div class="pod-chan-ep-meta">${ep.pubDate ? fmtPodDate(ep.pubDate) : ''}${ep.duration ? ' · ⏱ ' + fmtDuration(ep.duration) : ''}</div>`
+        + (ep.summary ? `<div class="pod-chan-ep-summary">${ep.summary}</div>` : '')
+        + '</a>'
+      ).join('')
+    + '</div></div>';
+  document.getElementById('pod-back')?.addEventListener('click', renderTimeline);
+}
+
+function bindAvatarClicks() {
+  podList.querySelectorAll('[data-show]').forEach(el => {
+    el.addEventListener('click', e => { e.preventDefault(); renderChannel(el.dataset.show); });
+  });
 }
 
 async function loadPodcasts() {
-  podList.innerHTML = '<div class="pod-status">Loading…</div>';
+  podList.innerHTML = '<div class="pod-timeline"><div class="pod-status">Loading…</div></div>';
   try {
     const r = await fetch(`data/podcasts.json?t=${Date.now()}`);
     if (!r.ok) throw new Error('HTTP ' + r.status);
-    renderPodcasts(await r.json());
+    podData = await r.json();
+    if (!podData.shows) podData.shows = [];
     podLoaded = true;
+    renderTimeline();
   } catch (e) {
-    podList.innerHTML = `<div class="pod-status">Failed to load podcasts — ${e.message}</div>`;
+    podList.innerHTML = `<div class="pod-timeline"><div class="pod-status">加载失败 — ${e.message}</div></div>`;
   }
 }
 

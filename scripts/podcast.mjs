@@ -108,6 +108,7 @@ async function main() {
   await fs.mkdir(DATA_DIR, { recursive: true });
 
   const allEpisodes = [];
+  const allShows    = [];
   const health      = [];
 
   for (const pod of sources) {
@@ -123,7 +124,19 @@ async function main() {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const xml = await res.text();
 
-      const { items } = parseRSS(xml, maxEp);
+      const { showArt, items } = parseRSS(xml, maxEp);
+
+      // 提取 show 级别链接
+      const chanBlock  = xml.match(/<channel>([\s\S]*?)<item>/)?.[1] ?? "";
+      const showLink   = tagText(chanBlock, "link") ?? pod.rss;
+
+      allShows.push({
+        id:       pod.id,
+        name:     pod.name,
+        category: pod.category ?? "general",
+        art:      showArt ?? null,
+        link:     showLink,
+      });
 
       for (const ep of items) {
         allEpisodes.push({
@@ -152,6 +165,7 @@ async function main() {
       totalEpisodes: allEpisodes.length,
       health,
     },
+    shows:    allShows,
     episodes: allEpisodes,
   };
 
