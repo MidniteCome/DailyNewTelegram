@@ -1,43 +1,43 @@
 {
   "meta": {
-    "updatedAt": "2026-02-28T20:47:32.239Z",
-    "totalEpisodes": 24,
+    "updatedAt": "2026-02-28T22:49:43.628Z",
+    "totalEpisodes": 105,
     "health": [
       {
         "id": "20vc",
         "name": "20VC",
         "ok": true,
-        "count": 3
+        "count": 15
       },
       {
         "id": "ezraklein",
         "name": "The Ezra Klein Show",
         "ok": true,
-        "count": 3
+        "count": 15
       },
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": true,
-        "count": 3
+        "ok": false,
+        "error": "terminated"
       },
       {
         "id": "indicator",
         "name": "The Indicator",
         "ok": true,
-        "count": 3
+        "count": 15
       },
       {
         "id": "lexfridman",
         "name": "Lex Fridman Podcast",
         "ok": true,
-        "count": 3
+        "count": 15
       },
       {
         "id": "talksat",
         "name": "Talks at GS",
         "ok": true,
-        "count": 3
+        "count": 15
       },
       {
         "id": "bg2pod",
@@ -55,7 +55,7 @@
         "id": "acquired",
         "name": "Acquired",
         "ok": true,
-        "count": 3
+        "count": 15
       },
       {
         "id": "left-right",
@@ -73,10 +73,61 @@
         "id": "etw",
         "name": "声东击西",
         "ok": true,
-        "count": 3
+        "count": 15
       }
     ]
   },
+  "shows": [
+    {
+      "id": "20vc",
+      "name": "20VC",
+      "category": "vc",
+      "art": "https://static.libsyn.com/p/assets/d/2/b/a/d2ba673c1d134c2be55e3c100dce7605/WhatsApp_Image_2024-10-28_at_11.39.21.jpeg",
+      "link": "http://www.thetwentyminutevc.com/"
+    },
+    {
+      "id": "ezraklein",
+      "name": "The Ezra Klein Show",
+      "category": "politics",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed",
+      "link": "https://www.nytimes.com/ezra-klein-podcast"
+    },
+    {
+      "id": "indicator",
+      "name": "The Indicator",
+      "category": "macro",
+      "art": "https://media.npr.org/assets/img/2024/03/25/the-indicator_2024_sq-121249a297878ab2327b321c997ab870300ec659.jpg?s=1400&amp;c=66&amp;f=jpg",
+      "link": "https://www.npr.org/podcasts/510325/the-indicator-from-planet-money"
+    },
+    {
+      "id": "lexfridman",
+      "name": "Lex Fridman Podcast",
+      "category": "tech",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
+      "link": "https://lexfridman.com/"
+    },
+    {
+      "id": "talksat",
+      "name": "Talks at GS",
+      "category": "finance",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "link": "http://www.goldmansachs.com/our-thinking/talks-at-gs/index.html"
+    },
+    {
+      "id": "acquired",
+      "name": "Acquired",
+      "category": "tech",
+      "art": "https://img.transistorcdn.com/ERwaC95Hz6E804iD15qquWP1Kg7IShZgAkTYjnhmEc0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zZWVm/MzgyOGZmMzkxOWYz/YWVhNzUwMGUxMGIx/YmY3NS5wbmc.jpg",
+      "link": "https://acquired.fm"
+    },
+    {
+      "id": "etw",
+      "name": "声东击西",
+      "category": "zh",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4",
+      "link": "http://etw.fm"
+    }
+  ],
   "episodes": [
     {
       "showId": "20vc",
@@ -90,17 +141,6 @@
       "art": "https://static.libsyn.com/p/assets/9/f/4/9/9f491779a0794327d959afa2a1bf1c87/WhatsApp_Image_2026-02-27_at_15.16.10.jpeg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2461 - Robert F. Kennedy, Jr.",
-      "link": "https://traffic.megaphone.fm/GLT2655700925.mp3?updated=1772214646",
-      "pubDate": "2026-02-27T18:00:00.000Z",
-      "duration": "9107",
-      "summary": "Robert F. Kennedy Jr. is the United States Secretary of Health and Human Services, founder of the Waterkeeper Alliance and Children’s Health Defense, and an attorney and author.www.hhs.gov/about/leade",
-      "art": "https://megaphone.imgix.net/podcasts/5bc43bae-1395-11f1-a94d-4f3c51abe2a0/image/7274ba9b36786416ad2ed729fd5615b7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -110,17 +150,6 @@
       "duration": "565",
       "summary": "It’s … Indicators of the Week (now on YouTube!), our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: How Minnesota workers were affected by Operation Me",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbe%2F9e%2Fc5c610f04028beecade33651969e%2F0a21d384-b129-453d-bc58-90c54a9295e2.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2460 - Rachel Wilson",
-      "link": "https://traffic.megaphone.fm/GLT8521906535.mp3?updated=1772127268",
-      "pubDate": "2026-02-26T18:00:00.000Z",
-      "duration": "8820",
-      "summary": "Rachel Wilson is a writer, cultural commentator, and media personality. She is the author of “Occult Feminism: The Secret History of Women’s Liberation.”www.linktr.ee/RachelLWilson Perplexity: Downloa",
-      "art": "https://megaphone.imgix.net/podcasts/ea61e582-12a0-11f1-a327-932dd954886d/image/0af12eb8c0497e72b29dd679e9dd496f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "indicator",
@@ -156,17 +185,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "JRE MMA Show #174 with Terence Crawford",
-      "link": "https://traffic.megaphone.fm/GLT5908455235.mp3?updated=1772042650",
-      "pubDate": "2026-02-25T18:00:00.000Z",
-      "duration": "8172",
-      "summary": "Joe sits down with retired boxer Terence Crawford, a three-division undisputed champion who retired 42–0.www.youtube.com/@TBudCrawfordOfficialwww.tbudcrawford.com Perplexity: Download the app or ask P",
-      "art": "https://megaphone.imgix.net/podcasts/092ec28a-11e5-11f1-8b95-7fb90e30ebad/image/34f2d584009501cefef390893f5b31fa.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -200,6 +218,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Do traders who place big bets make big money?",
+      "link": "https://www.npr.org/2026/02/24/nx-s1-5723935/do-traders-who-place-big-bets-make-big-money",
+      "pubDate": "2026-02-24T08:00:00.000Z",
+      "duration": "570",
+      "summary": "We’re going whale watching today. No, not orcas or great blues, but financial traders that place big bets on something called options. On today’s show, who are these option whales and do their bets al",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F65%2Fda%2F6fc1516e40b7889afdadad49278b%2Fc914bdd1-8dfc-4474-93c6-ed5a3071f07a.png"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -209,6 +238,39 @@
       "duration": "01:06:43",
       "summary": "Lucas Swisher co-leads the growth fund at Coatue where he has partnered with iconic companies like OpenAI, Harvey, Deel, Canva, Openevidence, Anthropic, and others. Prior to Coatue, he was on the inve",
       "art": "https://static.libsyn.com/p/assets/c/b/4/7/cb47f1db09616e1416c3140a3186d450/WhatsApp_Image_2026-02-20_at_17.51.47.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Why there are roving rotisserie chicken mobs",
+      "link": "https://www.npr.org/2026/02/23/nx-s1-5721204/why-there-are-roving-rotisserie-chicken-mobs",
+      "pubDate": "2026-02-23T08:00:02.000Z",
+      "duration": "569",
+      "summary": "You asked, we answered. On today’s show, we tackle questions from our dear listeners on whether AI interviewers are biased, what the heck M2 money supply is, and what’s up with the frenzied mobs fight",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbb%2Fcd%2F436ea4574a7d93c40b79c7f99767%2F857f296e-aacf-4e59-8bf4-07d7782adaa3.jpg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Can I get my tariff money back now?",
+      "link": "https://www.npr.org/2026/02/21/nx-s1-5721268/can-i-get-my-tariff-money-back-now",
+      "pubDate": "2026-02-21T08:00:00.000Z",
+      "duration": "521",
+      "summary": "The Supreme Court struck down a bunch of President Trump’s tariffs yesterday. The Trump administration originally used an emergency economic powers law to justify the tariffs. And the court said: No! ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe6%2F6a%2Fe54add49452e95257607aa63f803%2F27fdee5d-14fd-4f33-b1b5-67960edad4bc.jpg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Codex vs Claude Code vs Cursor: Who Wins, Who Loses | Will All Coding Be Automated - Do We Need PMs | The Real Bottleneck to AGI | The Three Phases of Agents and What You Need to Know with Alex Embiricos, Head of Codex at OpenAI",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-codex-vs-claude-code-vs-cursor-who-wins-who-loses-will-all-coding-be-automated-do-we-need-pms-the-real-bottleneck-to-agi-the-three-phases-of-agents-and-what-you-need-to-know-with-alex-embiricos-head-of-codex-at-openai",
+      "pubDate": "2026-02-21T07:07:00.000Z",
+      "duration": "01:03:44",
+      "summary": "Alexander Embiricos is the Head of Codex at OpenAI, leading the development of the company's flagship AI coding systems that power automated software generation, debugging and developer workflows. Und",
+      "art": "https://static.libsyn.com/p/assets/a/0/d/a/a0dadf2f3cff76d916c3140a3186d450/WhatsApp_Image_2026-02-19_at_15.39.03.jpeg"
     },
     {
       "showId": "ezraklein",
@@ -222,6 +284,127 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Retirement luck, Hassett hassles the Fed, and boneless chicken in ... court?",
+      "link": "https://www.npr.org/2026/02/20/nx-s1-5720184/retirement-luck-hassett-hassles-the-fed-and-boneless-chicken-in-court",
+      "pubDate": "2026-02-20T08:00:00.000Z",
+      "duration": "567",
+      "summary": "It’s … Indicators of the Week! Our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: Why you better hope you retire at juuuust the right time , why the re",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc7%2F21%2F3a9db9d64c98877e5996347a2428%2F8db49dc3-1923-4bcb-be79-4c75d1437609.png"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Why this rural town wants an ICE facility",
+      "link": "https://www.npr.org/2026/02/19/nx-s1-5718368/why-this-rural-town-wants-an-ice-facility",
+      "pubDate": "2026-02-19T08:00:00.000Z",
+      "duration": "551",
+      "summary": "The Trump administration is planning to pour more than $38 billion into warehouses for mass immigrant detention. While some communities are starting to push back, one rural town has agreed to expand i",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F76%2Fe3%2Fd4538e1d45d5957390c161ece2cc%2Fa5f14091-56d3-4b60-8f9f-45a5f52b785d.png"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Anthropic Raises $30BN at $380BN Valuation | Thrive Raises New $10BN Fund | OpenAI Buys OpenClaw | Stripe Raises at $140BN: Is Adyen Wildly Undervalued? | Monday, Figma, Shopify: Which are Buys vs Sells?",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-raises-30bn-at-380bn-valuation-thrive-raises-new-10bn-fund-openai-buys-openclaw-stripe-raises-at-140bn-is-adyen-wildly-undervalued-monday-figma-shopify-which-are-buys-vs-sells",
+      "pubDate": "2026-02-19T07:07:00.000Z",
+      "duration": "01:34:11",
+      "summary": "AGENDA: 04:14 Anthropic's $30B Raise at $380B 06:18 Why SaaS Stocks Keep Getting Crushed 18:15 Wall Street's New Religion: AI Replaces Headcount 22:42 The Bear Case for Shopify: What Could Go Wrong? 3",
+      "art": "https://static.libsyn.com/p/assets/8/9/4/c/894cc741ae5f84ff16c3140a3186d450/WhatsApp_Image_2026-02-18_at_17.39.12.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "How well are ICE's 12,000 new officers being trained?",
+      "link": "https://www.npr.org/2026/02/18/nx-s1-5717052/how-well-are-ices-12-000-new-officers-being-trained",
+      "pubDate": "2026-02-18T08:00:00.000Z",
+      "duration": "508",
+      "summary": "The Department of Homeland Security says it has more than doubled the workforce of Immigration and Customs Enforcement under President Trump. Yet videos of immigration officers killing two U.S. citize",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F69%2F19%2Fb860f9c34de9b3ce425aa9dbae69%2F211a8c25-d755-4d2c-b668-ea341bc34b3c.png"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "How Iran's flagging economy inflamed its protests",
+      "link": "https://www.npr.org/2026/02/17/nx-s1-5716260/how-irans-flagging-economy-inflamed-its-protests",
+      "pubDate": "2026-02-17T08:00:00.000Z",
+      "duration": "516",
+      "summary": "Editor's note: The United States and Israel launched attacks on Iran early Saturday, Feb. 28. For current coverage click here . For background context, the story below was published on Feb. 17, 2026. ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbf%2F8e%2Ff2e40d7f4557806beb2e84c13a74%2F1788e0c4-60e1-4209-8fbc-4c6ded379af8.jpg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: SaaS is Dead: Why Systems of Record Will Die in an Agentic World | What Revenue Multiple Will Software Companies Trade At? | From 7,000 to 3,000: We Need Less People Than Ever with Sebastian Siemiatkowski",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-saas-is-dead-why-systems-of-record-will-die-in-an-agentic-world-what-revenue-multiple-will-software-companies-trade-at-from-7000-to-3000-we-need-less-people-than-ever-with-sebastian-siemiatkowski",
+      "pubDate": "2026-02-16T07:07:00.000Z",
+      "duration": "01:27:38",
+      "summary": "Sebastian Siemiatkowski is the co-founder and CEO of Klarna, the global digital bank with over 114 million global active users and 3.4 million transactions per day. Seb is one of the leading public co",
+      "art": "https://static.libsyn.com/p/assets/3/4/a/d/34adc3c3d725a40ed959afa2a1bf1c87/WhatsApp_Image_2026-02-13_at_15.41.16.jpeg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20Sales: Inside ElevenLabs $330M ARR Sales Machine | The 20x Sales Comp Plan Reps Must Hit | How to Land and Expand in a World of AI | Why Product-Market-Fit is BS, Reps Should Not Be in the Office and Outbound is King with Carles Reina",
+      "link": "https://thetwentyminutevc.libsyn.com/20sales-inside-elevenlabs-330m-arr-sales-machine-the-20x-sales-comp-plan-reps-must-hit-how-to-land-and-expand-in-a-world-of-ai-why-product-market-fit-is-bs-reps-should-not-be-in-the-office-and-outbound-is-king-with-carles-reina",
+      "pubDate": "2026-02-14T12:48:00.000Z",
+      "duration": "01:14:44",
+      "summary": "Carles Reina is VP of Sales at ElevenLabs, where he was the first investor and fourth employee. Carles has scaled the revenue org from Day 1 to over $330M in just 3 years. Carles is also an active inv",
+      "art": "https://static.libsyn.com/p/assets/f/4/4/5/f445a5e88c344e9fd959afa2a1bf1c87/WhatsApp_Image_2026-02-12_at_13.13.57.jpeg"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "The Infrastructure of Jeffrey Epstein’s Power",
+      "link": "https://www.nytimes.com/2026/02/13/opinion/ezra-klein-podcast-anand-giridharadas.html",
+      "pubDate": "2026-02-13T10:00:00.000Z",
+      "duration": "01:26:13",
+      "summary": "At the end of January, Trump’s Justice Department released what it said was the last tranche of the Epstein files: millions of pages of emails and texts, F.B.I. documents and court records. Much was r",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Jobs numbers, immigrants in healthcare, and ... Jesus Christ?",
+      "link": "https://www.npr.org/2026/02/13/nx-s1-5712631/jobs-numbers-immigrants-in-healthcare-and-jesus-christ",
+      "pubDate": "2026-02-13T08:00:00.000Z",
+      "duration": "570",
+      "summary": "It’s time for … Indicators of the Week! Our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: Analyzing the new jobs numbers, how letting in more immigran",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F78%2F9d%2F94c4473c4ae7bafe4ab4696643a0%2F5c3e6713-01b2-4a10-b16d-b5b44c294457.png"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "What it costs to be an elite figure skater like the 'Quad God'",
+      "link": "https://www.npr.org/2026/02/12/nx-s1-5711461/what-it-costs-to-be-an-elite-figure-skater-like-the-quad-god",
+      "pubDate": "2026-02-12T08:00:00.000Z",
+      "duration": "585",
+      "summary": "Behind every Ilia Malinin or Alysa Liu, there is an army of elite figure skating coaches and choreographers who have been with them from the beginning. On today’s show, how much does it cost to achiev",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9d%2F1c%2F2f7efaa24225af93d68a22853583%2F93baad84-8957-4037-bb6a-0283721a85ea.png"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Anthropic's Superbowl Ad: Who Won - Who Lost | Harvey Raises $200M at $11BN Valuation | Sierra Hits $150M in ARR: Is Customer Support Too Crowded",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropics-superbowl-ad-who-won-who-lost-harvey-raises-200m-at-11bn-valuation-sierra-hits-150m-in-arr-is-customer-support-too-crowded",
+      "pubDate": "2026-02-12T07:07:00.000Z",
+      "duration": "01:21:52",
+      "summary": "AGENDA: 03:43 Anthropic Predicts $149B in ARR in 2029 09:27 Will FDEs Become More or Less Powerful 26:17 Harvey Raises $200M at an $11BN Valuation 42:45 Is Customer Support a Terrible or Terrific Inve",
+      "art": "https://static.libsyn.com/p/assets/d/a/f/6/daf6dcaed78d175516c3140a3186d450/WhatsApp_Image_2026-02-11_at_17.10.17.jpeg"
+    },
+    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -233,6 +416,83 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "What is going on with gold and silver?",
+      "link": "https://www.npr.org/2026/02/11/nx-s1-5709012/what-is-going-on-with-gold-and-silver",
+      "pubDate": "2026-02-11T08:00:00.000Z",
+      "duration": "527",
+      "summary": "The prices of gold and silver are on rollercoaster rides; Gold has been rising over the last few years, silver shot up like a skyrocket in January … but then both plunged in price and sputtered around",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2F24%2Fff1d2b26401cb259b509042b67eb%2Fc330a1f0-2e3f-453a-b5e3-a4e017dcba9b.png"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "George Saunders on Anger, Ambition and Sin",
+      "link": "https://www.nytimes.com/2026/02/10/opinion/ezra-klein-podcast-george-saunders.html",
+      "pubDate": "2026-02-10T10:00:00.000Z",
+      "duration": "01:27:05",
+      "summary": "George Saunders is tired of being the “kindness guy.” Saunders is one of my favorite fiction writers, and a friend of the pod; I talked to him back in 2021 and 2022. He also has a reputation as a kind",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "The boxed meal helping Americans stay on budget",
+      "link": "https://www.npr.org/2026/02/10/nx-s1-5707403/the-boxed-meal-helping-americans-stay-on-budget",
+      "pubDate": "2026-02-10T08:00:00.000Z",
+      "duration": "566",
+      "summary": "Food keeps getting more expensive, so how do shoppers respond? They change what they buy, right? It’s not just that cheaper foods get more popular. Shoppers are more nuanced than that. So, today on th",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0c%2F09%2Fccb8446f48078ba0e27751d733d8%2Fb811382c-c3cd-4dcd-861e-5ee73f80dca9.jpg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Are we in an economic 'doom loop'?",
+      "link": "https://www.npr.org/2026/02/09/nx-s1-5704756/are-we-in-an-economic-doom-loop",
+      "pubDate": "2026-02-09T08:00:00.000Z",
+      "duration": "561",
+      "summary": "Trade wars. Financial panics. Inflation. How come it feels like it’s all bad news in the global economy these days? Economist Eswar Prasad’s answer: something he calls the ‘doom loop.’ That’s where ma",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb2%2F72%2F0f3f4dd444e6a79be3944664b035%2F5a3378ba-6924-451e-84cf-8cfa1a30d499.jpg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Is SaaS Dead in a World of AI | Do Margins Matter Anymore | Is Triple, Triple, Double, Double Dead Today? | Who Wins the Dev Market: Cursor or Claude Code | Why We Are Not in an AI Bubble with Anish Acharya @ a16z",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-is-saas-dead-in-a-world-of-ai-do-margins-matter-anymore-is-triple-triple-double-double-dead-today-who-wins-the-dev-market-cursor-or-claude-code-why-we-are-not-in-an-ai-bubble-with-anish-acharya-a16z",
+      "pubDate": "2026-02-09T07:07:00.000Z",
+      "duration": "01:24:15",
+      "summary": "Anish Acharya is a General Partner at Andreessen Horowitz (a16z), where he leads consumer and fintech investing at Series A. He serves on the boards of standout portfolio companies including Deel, Mos",
+      "art": "https://static.libsyn.com/p/assets/6/f/d/0/6fd04dd168f4d95816c3140a3186d450/WhatsApp_Image_2026-02-06_at_16.24.47.jpeg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: From $6.2BN Market Cap to $2.8BN: What Is Not Translating About Navan's Public Story | Are Any Public Company CEOs Actually Happy? | Why Navan Built It's Own Customer Service AI and What it Could Mean For Customer Service AI with Ariel Cohen",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-from-62bn-market-cap-to-28bn-what-is-not-translating-about-navans-public-story-are-any-public-company-ceos-actually-happy-why-navan-built-its-own-customer-service-ai-and-what-it-could-mean-for-customer-service-ai-with-ariel-cohen",
+      "pubDate": "2026-02-07T23:19:00.000Z",
+      "duration": "54:18",
+      "summary": "Ariel Cohen is the Co-Founder and CEO of Navan (formerly TripActions), an AI-powered travel and expense platform. Last month, Ariel took the company public, since being a public company, they have fac",
+      "art": "https://static.libsyn.com/p/assets/1/8/d/6/18d681733d57aa5816c3140a3186d450/WhatsApp_Image_2026-02-05_at_15.17.51.jpeg"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "We Didn’t Ask for This Internet",
+      "link": "https://www.nytimes.com/2026/01/13/opinion/ezra-klein-podcast-doctorow-wu.html",
+      "pubDate": "2026-02-06T10:00:00.000Z",
+      "duration": "01:27:00",
+      "summary": "Ragebait, sponcon, A.I. slop — the internet of 2026 makes a lot of us nostalgic for the internet of 10 or 15 years ago. What exactly went wrong here? How did the early promise of the internet get so t",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -242,6 +502,17 @@
       "duration": "1538",
       "summary": "Adyen has scaled from an Amsterdam startup to a global fintech by building every layer of payments in-house and focusing relentlessly on merchants. Pieter van der Does, co-founder and co-CEO of Adyen,",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: SpaceX Completes Acquisition of xAI | The 2026 SaaS Massacre: Public Market Collapse | Microsoft's $360 Billion Market Cap Loss | NVIDIA's $100BN Investment Dispute with OpenAI | Waymo Raises $16 Billion at a $110 Billion Valuation",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-spacex-completes-acquisition-of-xai-the-2026-saas-massacre-public-market-collapse-microsofts-360-billion-market-cap-loss-nvidias-100bn-investment-dispute-with-openai-waymo-raises-16-billion-at-a-110-billion-valuation",
+      "pubDate": "2026-02-05T07:07:00.000Z",
+      "duration": "01:34:19",
+      "summary": "AGENDA: 00:00 - SpaceX Completes Acquisition of xAI in $1.25 Trillion Merger 08:44 - The Rehabilitation of the IPO and the End of \"State Private Forever\" 15:53 - The 2026 SaaS Massacre: Public Market ",
+      "art": "https://static.libsyn.com/p/assets/d/6/7/2/d672032923b4c9d416c3140a3186d450/WhatsApp_Image_2026-02-04_at_18.14.35.jpeg"
     },
     {
       "showId": "etw",
@@ -266,6 +537,28 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Is Your Social Life Missing Something? This Is For You.",
+      "link": "https://www.nytimes.com/2026/01/16/opinion/ezra-klein-podcast-priya-parker.html",
+      "pubDate": "2026-02-03T10:00:00.000Z",
+      "duration": "01:31:16",
+      "summary": "My motivation for this episode is personal. One of my resolutions this year is to spend more time hosting and to make those gatherings more meaningful. I think a lot of us wish we had better social li",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: 50% of Funds Will Go Out of Business | Why Growth Expectations Today are BS and Will Not Last | Why Oren Zeev Takes $0 Management Fees But 30% Carry | Why GPs Should Not Tell LPs Their Strategy",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-50-of-funds-will-go-out-of-business-why-growth-expectations-today-are-bs-and-will-not-last-why-oren-zeev-takes-0-management-fees-but-30-carry-why-gps-should-not-tell-lps-their-strategy",
+      "pubDate": "2026-02-02T07:07:00.000Z",
+      "duration": "01:08:22",
+      "summary": "Oren Zeev is one of the most prominent solo capitalists in venture. He is one of the most no BS investors of our time. Oren manages over $1BN in AUM and is known for his \"radical alignment\" approach, ",
+      "art": "https://static.libsyn.com/p/assets/0/6/8/8/0688ae0d4df8a90d16c3140a3186d450/WhatsApp_Image_2026-01-29_at_19.03.38.jpeg"
+    },
+    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -275,6 +568,39 @@
       "duration": null,
       "summary": "Nathan Lambert and Sebastian Raschka are machine learning researchers, engineers, and educators. Nathan is the post-training lead at the Allen Institute for AI (Ai2) and the author of The RLHF Book. S",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20Growth: How Wix Built a $100M Marketing Machine | Why LTV is BS and Why Time Return On Investment is the Most Important Metric | How to 10x Your Growth: What is the Next Great Channel with Omer Shai, CMO @ Wix",
+      "link": "https://thetwentyminutevc.libsyn.com/20growth-how-wix-built-a-100m-marketing-machine-why-ltv-is-bs-and-why-time-return-on-investment-is-the-most-important-metric-how-to-10x-your-growth-what-is-the-next-great-channel-with-omer-shai-cmo-wix",
+      "pubDate": "2026-01-31T07:07:00.000Z",
+      "duration": "01:01:24",
+      "summary": "Omer Shai serves as the CMO at Wix. Shai leads a team of over 400 people and is responsible for the company's global online and offline marketing activity, which boasts an incredible growth of approxi",
+      "art": "https://static.libsyn.com/p/assets/a/8/8/4/a884be14fc980ddb16c3140a3186d450/WhatsApp_Image_2026-01-29_at_19.03.07.jpeg"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "How the World Sees America, With Adam Tooze",
+      "link": "https://www.nytimes.com/2026/01/30/opinion/ezra-klein-podcast-adam-tooze.html",
+      "pubDate": "2026-01-30T10:00:00.000Z",
+      "duration": "01:03:59",
+      "summary": "The old world order is dying. What new world order — if any — is struggling to be born? I can’t think of a week when it felt clearer that an era was coming to an end. Whatever people thought America w",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "How AI is Driving Drug Discovery: Xaira Therapeutics' Marc Tessier Lavigne",
+      "link": "https://traffic.megaphone.fm/GLD5871617835.mp3",
+      "pubDate": "2026-01-29T15:20:00.000Z",
+      "duration": "1057",
+      "summary": "Xaira Therapeutics is harnessing AI to fundamentally change how we discover and develop medicines, shortening the path from lab to clinic for previously \"un-druggable\" targets. Dr. Marc Tessier-Lavign",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -299,6 +625,39 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Brex Acquired for $5.15BN | a16z Companies are 2/3 AI Revenues | Anthropic Inference Costs Skyrocket | OpenEvidence Raises at $12BN Valuation | The IPO Market: EquipmentShare, Wealthfront and Ethos Insurance",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-brex-acquired-for-515bn-a16z-companies-are-23-ai-revenues-anthropic-inference-costs-skyrocket-openevidence-raises-at-12bn-valuation-the-ipo-market-equipmentshare-wealthfront-and-ethos-insurance",
+      "pubDate": "2026-01-29T07:07:00.000Z",
+      "duration": "01:15:55",
+      "summary": "AGENDA: 03:36 Brex Acquisition by Capital One for $5.15BN 10:54 Does Brex's Acquisition Help or Hurt Ramp? 16:28 TikTok Deal Completed: Who Won & Who Lost: Analysis 19:30 Anthropic Inference Costs Hig",
+      "art": "https://static.libsyn.com/p/assets/1/e/8/7/1e8710381599c4f8d959afa2a1bf1c87/WhatsApp_Image_2026-01-28_at_18.02.42.jpeg"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "Edward Norton: From Hollywood to High-Impact Entrepreneurship",
+      "link": "https://traffic.megaphone.fm/GLD6515602365.mp3",
+      "pubDate": "2026-01-27T17:11:00.000Z",
+      "duration": "1188",
+      "summary": "Edward Norton is known for both his acclaimed film career and his experiences founding and scaling ventures like CrowdRise, Baswood, STAX, and EDO. He joins Kim Posnett, global co-head of Investment B",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "The Most Important Foreign Policy Speech in Years",
+      "link": "https://www.nytimes.com/2026/01/27/opinion/ezra-klein-podcast-henry-farrell.html",
+      "pubDate": "2026-01-27T10:00:00.000Z",
+      "duration": "01:14:35",
+      "summary": "“We are in the midst of a rupture, not a transition,” Prime Minister Mark Carney of Canada announced last week at the World Economic Forum in Davos, Switzerland. It was one of the most significant for",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -308,6 +667,94 @@
       "duration": "15438",
       "summary": "The NFL is nearly synonymous with America today. Practically nothing is more quintessentially and universally American than tuning in every Sunday (and Monday, and Thursday… and sometimes Saturdays an",
       "art": "https://img.transistorcdn.com/k6PMRB94qpyAUeb4r05mG6J-SrKAjHr5ARrbzBhWboE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yNDBh/NmViODk0OWMzMjlh/ZGM1MTM1OGEyMTdj/ZjRlMC5wbmc.jpg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: From Only OpenAI to Die-Hard Anthropic: The Downfall of OpenAI in Enterprise | Harvey vs Legora: Legal AI is a Winner Take All | $7M ARR in a Single Day and Raising $200M Across 3 Rounds with No Deck with Max Junestrand, CEO @ Legora",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-from-only-openai-to-die-hard-anthropic-the-downfall-of-openai-in-enterprise-harvey-vs-legora-legal-ai-is-a-winner-take-all-7m-arr-in-a-single-day-and-raising-200m-across-3-rounds-with-no-deck-with-max-junestrand-ceo-legora",
+      "pubDate": "2026-01-26T14:19:00.000Z",
+      "duration": "01:03:20",
+      "summary": "Max Junestrand is the Co-Founder and CEO @ Legora, the legal AI company that has scaled to 750 of the world's leading law firms as customers and over 300 employees in just 2 years. They have raised ov",
+      "art": "https://static.libsyn.com/p/assets/4/1/f/2/41f2082363648a9716c3140a3186d450/WhatsApp_Image_2026-01-23_at_21.00.03_1.jpeg"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "Qatar PM Al Thani: Diplomacy and Qatar's Economic Future",
+      "link": "https://traffic.megaphone.fm/GLD6395505667.mp3",
+      "pubDate": "2026-01-23T15:06:00.000Z",
+      "duration": "1385",
+      "summary": "Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani, Prime Minister and Minister of Foreign Affairs of Qatar, discusses Qatar's pivotal role in global diplomacy, and his strategic vision driving his n",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Minneapolis Reveals Where Trumps Deportation Agenda Is Going",
+      "link": "https://www.nytimes.com/2026/01/23/opinion/ezra-klein-podcast-caitlin-dickerson.html",
+      "pubDate": "2026-01-23T10:00:00.000Z",
+      "duration": "01:06:26",
+      "summary": "There’s so much more happening than what you see in online video clips. Congress gave Trump a staggering, military-size budget for immigration enforcement. And it’s hard to keep the scale of what the ",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "Anastasia Soare: Building a Billion-dollar Beauty Brand",
+      "link": "https://traffic.megaphone.fm/GLD8718690811.mp3",
+      "pubDate": "2026-01-22T14:58:00.000Z",
+      "duration": "1535",
+      "summary": "Anastasia Beverly Hills has revolutionized the beauty industry, establishing the art of eyebrow shaping as a cornerstone of modern aesthetics. Anastasia Soare, Founder and CEO of Anastasia Beverly Hil",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#377 「帝国」转身时：特朗普搅动一年后国际秩序的转向",
+      "link": "http://etw.fm/2196",
+      "pubDate": "2026-01-22T08:45:00.000Z",
+      "duration": "1:11:09",
+      "summary": "特朗普再次上台已满一年，回头看他的外交政策，我们应该如何判断 —— 的确是一连串个人风格驱动的激进行动，还是美国的对外战略正在发生更深层的转向？ 这一期节目，我们邀请清华大学国际关系学者达巍教授，从特朗普这一年来的关键决策出发，试图去拆解美国外交政策背后的结构性变化：从关税、盟友关系到国际秩序，美国正在放弃什么，又正在重塑什么？那些看似出乎意料的动作，如何拼接成一个正在成形的新秩序图景？又会对身处",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#376 石油旧梦与突袭余波：一个委内瑞拉青年的二十五年",
+      "link": "http://etw.fm/2195",
+      "pubDate": "2026-01-20T08:15:00.000Z",
+      "duration": "32:16",
+      "summary": "一位生活在首都的委内瑞拉青年，在美军突袭那晚经历了一场怎样的惊心动魄？从小到大，他又如何见证了国家从石油时代的繁荣巅峰，一步步坠入动荡与贫困的深渊 ？ 2026 年 1 月 3 号，美军突袭委内瑞拉首都并抓捕其总统马杜罗的消息震惊全球。而这场突如其来的巨变，也让这个命运多舛的国家再次被推到了命运的十字路口。 这期节目，我们采访了从小生活在首都加拉加斯的委内瑞拉青年 Andrés，他回忆了自己在 1",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Has Trump Achieved a Lot Less Than It Seems?",
+      "link": "https://www.nytimes.com/2026/01/16/opinion/ezra-klein-podcast-yuval-levin.html",
+      "pubDate": "2026-01-16T10:00:00.000Z",
+      "duration": "01:01:15",
+      "summary": "We are one year into Trump’s second term. And it feels like so much has happened – more than the human mind, or the country, can absorb. But how much has Trump really accomplished? What policies have ",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#375 透过 2025 的内容现场，寻找通往 2026 的坐标与锚点",
+      "link": "http://etw.fm/2194",
+      "pubDate": "2026-01-15T07:30:00.000Z",
+      "duration": "1:00:02",
+      "summary": "技术在加速，规则在松动，不同代际对世界的感受也越来越不一样。当下的我们究竟正处在一个怎样的转变之中？ 这期节目，四位关注不同社会领域的节目制作人坐在一起，从科技变革引发的社会范式重构，到年轻人参与的谷子经济与情绪实感，再到青少年作为「数字原住民」的观察视角，聊聊我们在 2025 年的内容创作与对话中，捕捉到的一些关键线索。 希望这些真实而多元的体感，能为你理解 2026 带来一些判断的线索，也为浮",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "lexfridman",
@@ -321,6 +768,72 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Can James Talarico Reclaim Christianity for the Left?",
+      "link": "https://www.nytimes.com/2026/01/13/opinion/ezra-klein-podcast-james-talarico.html",
+      "pubDate": "2026-01-13T10:00:00.000Z",
+      "duration": "01:28:12",
+      "summary": "State Representative James Talarico of Texas might have been our most requested guest last year. And he seemed to come out of nowhere. Talarico started breaking through with viral videos on TikTok and",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "Turning $700 into a Billion-Dollar Brand: John Paul DeJoria",
+      "link": "https://traffic.megaphone.fm/GLD9783266144.mp3",
+      "pubDate": "2026-01-12T16:10:00.000Z",
+      "duration": "1401",
+      "summary": "John Paul DeJoria is the co-founder of two billion-dollar companies: John Paul Mitchell Hair Systems and Patrón Spirits. He joins Meena Flynn, global co-head of Private Wealth Management at Goldman Sa",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Venezuela, Renee Good and Trump’s ‘Assault on Hope’",
+      "link": "https://www.nytimes.com/2026/01/10/opinion/ezra-klein-podcast-m-gessen.html",
+      "pubDate": "2026-01-10T12:00:00.000Z",
+      "duration": "01:05:37",
+      "summary": "The shocking events of January have sent a message: America works differently now. M. Gessen is a Times Opinion columnist and the author of books about living under autocracy, including the National B",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "Transforming Private Equity Through Employee Ownership: KKR's Pete Stavros",
+      "link": "https://traffic.megaphone.fm/GLD4827011327.mp3",
+      "pubDate": "2026-01-09T17:52:00.000Z",
+      "duration": "1551",
+      "summary": "KKR has evolved from a traditional LBO shop into a global investment powerhouse managing over $500 billion in assets. Pete Stavros, Co-Head of Global Private Equity at KKR, joins Matt McClure, Global ",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#374 AI 时代，一所大学的新闻系如何在探索中演进",
+      "link": "http://etw.fm/2193",
+      "pubDate": "2026-01-08T08:45:00.000Z",
+      "duration": "1:07:07",
+      "summary": "继数字化浪潮之后，AI 的兴起再次给传媒行业带来了冲击。在这个新技术快速迭代的时代，传媒教育究竟还应该教给学生什么？ 去年，香港大学原有的「新闻及传媒研究中心」重新更名为「未来媒体学院」。而今天这期节目的嘉宾，也是未来媒体学院的教师 Yolanda，则是学院内人工智能创新方向的主导者。 作为一线实践者，她正带着学生在变动的行业边界中寻找新的坐标。我们讨论了：新传专业正在设计哪些新课程来应对技术的变",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "What Trump Wants in Venezuela",
+      "link": "https://www.nytimes.com/2026/01/06/opinion/ezra-klein-podcast-jonathan-blitzer.html",
+      "pubDate": "2026-01-06T10:00:00.000Z",
+      "duration": "00:58:03",
+      "summary": "What is America doing in Venezuela? On Jan. 3, the Trump administration launched an operation that ended with the capture of President Nicolás Maduro, who is now in New York City on narcoterrorism and",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -332,6 +845,17 @@
       "art": "https://img.transistorcdn.com/82DxBjjLGlGkY5ze706jcF5N_2sMUlVayi2P7pSCZY8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81MjAw/ZGE5NjhhZTZiMTkw/MTlmYjU1MWY4Y2U0/M2RmMi5qcGc.jpg"
     },
     {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "This Question Can Change Your Life",
+      "link": "https://www.nytimes.com/2026/01/02/opinion/ezra-klein-podcast-stephen-batchelor.html",
+      "pubDate": "2026-01-02T10:00:00.000Z",
+      "duration": "01:05:34",
+      "summary": "I like to start the year with a few episodes on things I’m personally working on. Not resolutions, exactly. More like intentions. Or, even better, practices. One of those practices, strange as it soun",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -341,6 +865,424 @@
       "duration": "10913",
       "summary": "Costco is not only Charlie Munger’s favorite company of all time (plus he’s on the board, natch), it’s an absolutely fascinating study in how seemingly opposite characteristics can combine to create i",
       "art": "https://img.transistorcdn.com/Ar-P_o695JJBrXBgdGlcOGGELTtscIfRioEbEhNSuKI/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS82YWM0/Y2ZiYTZmOGVlM2Qy/NmRiMDFhODA0MjRh/NjQzOC5qcGc.jpg"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#488 – Infinity, Paradoxes that Broke Mathematics, Gödel Incompleteness the Multiverse Joel David Hamkins",
+      "link": "https://lexfridman.com/joel-david-hamkins/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=joel-david-hamkins",
+      "pubDate": "2025-12-31T21:24:33.000Z",
+      "duration": null,
+      "summary": "Joel David Hamkins is a mathematician and philosopher specializing in set theory, the foundations of mathematics, and the nature of infinity, and hes the #1 highest-rated user on MathOverflow. He is a",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#373 请收下这枚记录 2025 年的声音时光胶囊",
+      "link": "http://etw.fm/2192",
+      "pubDate": "2025-12-25T04:00:00.000Z",
+      "duration": "30:46",
+      "summary": "2025，我们是不是已经走进了一个临界时代？ 这一年，暖水珊瑚礁跨越了热力临界点，世界最大的冰山 A23a 解体，曾经被认为没有蚊子的冰岛也出现了嗡嗡声…… 极端气候之外，这一年，全球范围内的紧张局势持续发酵：从贸易摩擦到政治分歧，从民族到国家，人类社会中不同层面的对立似乎并未缓解，反而在一些地方变得更加尖锐。 而宏大叙事之下，身为普通人的我们，也依然要在自己具体而真实的生活中不停地应对变化、做出",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "Coinbase CEO Brian Armstrong: Propelling the Crypto Economy",
+      "link": "https://traffic.megaphone.fm/GLD7366659324.mp3",
+      "pubDate": "2025-12-23T15:32:00.000Z",
+      "duration": "1452",
+      "summary": "Coinbase is the leading digital asset exchange and platform. Brian Armstrong, co-founder and CEO of Coinbase, joins David Solomon, Chairman and CEO of Goldman Sachs, to discuss Coinbase's founding sto",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "AppLovin's Adam Foroughi: The Power of a Startup Mindset",
+      "link": "https://traffic.megaphone.fm/GLD5266546745.mp3",
+      "pubDate": "2025-12-22T17:30:00.000Z",
+      "duration": "1336",
+      "summary": "AppLovin has redefined mobile technology and advertising, emerging as a global leader in helping developers grow their audiences. Adam Foroughi, co-founder and CEO of AppLovin, joins Dan Dees, co-head",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "Transforming Work Productivity with AI: Glean CEO Arvind Jain",
+      "link": "https://traffic.megaphone.fm/GLD5155590908.mp3",
+      "pubDate": "2025-12-22T14:26:00.000Z",
+      "duration": "1710",
+      "summary": "In just a few years, Glean has grown from a startup to an AI unicorn, redefining how workplaces harness knowledge and productivity. Arvind Jain, founder and CEO of Glean, joins Kim Posnett, global co-",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#372 美联储半年内的第三次降息，为 2026 释放了何种信号",
+      "link": "http://etw.fm/2191",
+      "pubDate": "2025-12-18T10:30:00.000Z",
+      "duration": "49:40",
+      "summary": "在 2025 年初，市场还普遍认为美联储今年可能只会降息一次，为什么它却在下半年连续三次做出了降息的决定？ 美联储是一个怎样的机构，我们应该如何理解它的「公私」属性？降息作为一个工具，会在什么情况下被使用，以期达到怎样的目的？美联储的内部都有哪些派别和争论，作为主席的鲍威尔和曾经提名他的「伯乐」特朗普之间，又在进行怎样的博弈？ 最后，我们也对 2026 年美国经济的发展趋势，以及它可能会给中国和世",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "10 Years of Acquired (with Michael Lewis)",
+      "link": "https://www.acquired.fm/episodes/10-years-of-acquired-with-michael-lewis",
+      "pubDate": "2025-12-15T04:19:45.000Z",
+      "duration": "10057",
+      "summary": "Why has Acquired — seemingly against all odds — “worked”? It's a puzzling question: episodes are four hours long, they come out infrequently, and they usually don’t have guests or video. Hardly the st",
+      "art": "https://img.transistorcdn.com/hFchaBginILRtJ-OJh7pCtQUmZfQsKIqWO2EWVLMVeM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xYzE1/NzFmNjBhOGI3MTUw/YWZlYTQzYzhkOTMz/MWIzZi5qcGc.jpg"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#487 – Irving Finkel: Deciphering Secrets of Ancient Civilizations Flood Myths",
+      "link": "https://lexfridman.com/irving-finkel/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=irving-finkel",
+      "pubDate": "2025-12-12T20:04:16.000Z",
+      "duration": null,
+      "summary": "Irving Finkel is a scholar of ancient languages and a longtime curator at the British Museum, renowned for his expertise in Mesopotamian history and cuneiform writing. He specializes in reading and in",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#371 与一位美国商科教授，关于 AI 时代商学院、通识教育和未来工作的讨论",
+      "link": "http://etw.fm/2190",
+      "pubDate": "2025-12-04T08:45:00.000Z",
+      "duration": "1:06:10",
+      "summary": "当麦肯锡、德勤等全球大公司都在削减入门岗位，因为那些工作 AI 已比新人做得更快更好时，直接给这些公司输送人才的商学院还能教什么，怎么教？ 过去十几年里，商学院的改革基本围绕着给自己的各种课程贴上「数据分析」的标签。但当 AI 性能一日千里，原本构成商业世界入口的那套技能体系正在松动：入门岗位减少、训练路径被压缩，商学院的处境也变得尴尬。 这期节目，我们和在美国一所文理学院任教的陈燚老师一起，聊了",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "Managing the World’s Largest Publicly Traded Hedge Fund: Man Group CEO Robyn Grew",
+      "link": "https://traffic.megaphone.fm/GLD3804308392.mp3",
+      "pubDate": "2025-12-03T18:14:00.000Z",
+      "duration": "1683",
+      "summary": "Man Group is a global alternative investment management firm with approximately $213 billion in assets under management. Robyn Grew, CEO of Man Group, joins John Storey, global co-head of Equities Dis",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "The Future of Global Travel: Trip.com Group CEO Jane Sun",
+      "link": "https://traffic.megaphone.fm/GLD4307243288.mp3",
+      "pubDate": "2025-12-03T00:00:00.000Z",
+      "duration": "1447",
+      "summary": "Trip.com Group has revolutionized the travel industry with its focus on the customer and innovation. CEO Jane Sun explains how the company has adapted to changing market trends and harnessed technolog",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#486 – Michael Levin: Hidden Reality of Alien Intelligence Biological Life",
+      "link": "https://lexfridman.com/michael-levin-2/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=michael-levin-2",
+      "pubDate": "2025-11-30T19:40:53.000Z",
+      "duration": null,
+      "summary": "Michael Levin is a biologist at Tufts University working on novel ways to understand and control complex pattern formation in biological systems. Thank you for listening ❤ Check out our sponsors: http",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#370 表达从未如此容易，但为什么沟通依然如此困难",
+      "link": "http://etw.fm/2189",
+      "pubDate": "2025-11-27T09:00:00.000Z",
+      "duration": "59:46",
+      "summary": "为什么在这个看似人人都在表达的时代，真正的沟通却变得如此稀缺？好的对话又应该如何开启？ 借着《疯狂动物城 2》上映的契机，我们和参加了此次首映礼的老朋友东东枪、「声动活泼」创始人 Diane 一起，聊了聊我们从电影中看到的，存在于我们每个人日常生活中的一个重要议题 —— 沟通。 为什么社媒上的「标签」那么好用？为什么人群中的理解如此稀缺？从职场到家庭，怎样的沟通技巧能让我们更好地「听见」彼此？不同",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "Coca-Cola",
+      "link": "https://www.acquired.fm/episodes/coca-cola",
+      "pubDate": "2025-11-24T03:00:17.000Z",
+      "duration": "14668",
+      "summary": "Coca-Cola is… sugar water. And somehow it’s also America, Christmas, summertime, friendship and happiness. Today we tell the story of how The Coca-Cola Company amazingly transmogrified a beverage into",
+      "art": "https://img.transistorcdn.com/5nqbUmBNhEvT2AIM87VA5K_4YbydTAXrqlr60RYN-w4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zMmQz/ZDNiZjJlMjhiZWNh/N2Q3NzA2NzEzMzVl/ZDAwOS5qcGc.jpg"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "The Apollo Theater’s Michelle Ebanks: Preserving Legacy and Celebrating Harlem's Cultural Scene",
+      "link": "https://traffic.megaphone.fm/GLD9711314117.mp3",
+      "pubDate": "2025-11-21T17:29:00.000Z",
+      "duration": "1012",
+      "summary": "The Apollo Theater in Harlem, New York City has been a cornerstone of American culture and music since its founding in 1934. It has been instrumental in nurturing emerging artists and launching legend",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#369 AI 将会演化成一种有智慧的生命吗，和一位人工智能科学家的漫谈",
+      "link": "http://etw.fm/2188",
+      "pubDate": "2025-11-20T09:00:00.000Z",
+      "duration": "1:11:27",
+      "summary": "AI 有可能是一种类人的生物吗？ 在这期放任畅想并进行漫谈节目里，我们把这个看似科幻的问题，拆开、放大，再一层层往下追问。 当我们从进化、生物学、认知科学一路谈到模型的训练方式，会发现 AI 的变化速度、迭代方式，乃至判断力与偏好，都和「生命体」的许多特征惊人地相似：它会在环境压力下被「选择」，会在无数微小的演变中不断进化，甚至开始展现出自己的一套品味和判断逻辑。 如果 AI 的确正在成为一种新的",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#485 – David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy",
+      "link": "https://lexfridman.com/david-kirtley/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=david-kirtley",
+      "pubDate": "2025-11-17T18:55:13.000Z",
+      "duration": null,
+      "summary": "David Kirtley is a nuclear fusion engineer and CEO of Helion Energy, a company working on building the worlds first commercial fusion power plant by 2028. Thank you for listening ❤ Check out our spons",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#368 被速度推着走的人，怎样重新找到节奏",
+      "link": "http://etw.fm/2187",
+      "pubDate": "2025-11-13T06:00:00.000Z",
+      "duration": "57:58",
+      "summary": "在这个被按下了「加速键」的世界里，我们应该如何找到和维护自己的内心节奏呢？ 在这期节目里，我们从具体的经验出发，尝试回答这个问题。从如何恢复能量，到从生物学的视角去理解身体发出的信号，我们聊睡眠、运动，也聊情绪的命名、复盘与接纳。 科学的节律与个体的节奏，共同交织成我们与世界相处的方式。或许我们无法改变外界的速度，但可以学着在生活的拿起与放下之间，找到平衡，找到属于我们的自在节奏。 本期人物 Ya",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#367 当意大利街角的浓缩咖啡，变成中国移民的生意",
+      "link": "http://etw.fm/2186",
+      "pubDate": "2025-11-07T14:30:00.000Z",
+      "duration": "1:02:26",
+      "summary": "在意大利街角，为什么越来越多的「正宗意大利咖啡吧」背后，是华人在经营？ 这不是偶然的商业选择。移民、老龄化、经济危机等等复杂要素促成了这一现象。而当我们仔细审视这一现象时，可能会对「国民文化」、「移民」、「身份认同」、「种族歧视」都有不一样的看法。 这集，我们与记者冯兆音、人类学者邓婷，一起讨论意式咖啡里移民现实，身份认同以及文化的流动边界。而华人在异乡所经历的「他者」的经历，或许也可以成为反观我",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#484 – Dan Houser: GTA, Red Dead Redemption, Rockstar, Absurd Future of Gaming",
+      "link": "https://lexfridman.com/dan-houser/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dan-houser",
+      "pubDate": "2025-10-31T20:53:37.000Z",
+      "duration": "2:54:01",
+      "summary": "Dan Houser is co-founder of Rockstar Games and is a legendary creative mind behind Grand Theft Auto (GTA) and Red Dead Redemption series of video games. Thank you for listening ❤ Check out our sponsor",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#366 大选一年后，特朗普的经济承诺兑现了吗？",
+      "link": "http://etw.fm/2185",
+      "pubDate": "2025-10-30T08:15:00.000Z",
+      "duration": "1:02:05",
+      "summary": "去年秋天，特朗普在总统竞选阶段允诺下不少经济政策。现在回顾，这些允诺兑现得如何了？ 把各国都得罪了一遍的关税果真让制造业回流了吗？为什么说「大而美法案」是特朗普固定自己政治遗产的手段？而当美国政府越发重视产业政策，甚至开始以股东的身份介入产业、左右企业决策时，这种被美国媒体称为是「国家资本主义」的转向，又意味着什么？ 这一期，我们和老朋友周玖洲一起，复盘特朗普竞选成功一周年的经济实验：兑现的承诺、",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "Trader Joe’s",
+      "link": "https://www.acquired.fm/episodes/trader-joes",
+      "pubDate": "2025-10-27T03:07:10.000Z",
+      "duration": "12501",
+      "summary": "Trader Joe's breaks every rule of modern retail. They don't do e-commerce. They don't do delivery. No sales, coupons, or loyalty programs. They only stock 4,000 SKUs versus 50,000+ at normal supermark",
+      "art": "https://img.transistorcdn.com/mq0lgrSm6fJKRP39Oi5lgpBWo-rigMKrTI-LKVI16UE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zOGIx/MmQwYmNlNjEyZGFj/YWVhOTA5NDY1MGZi/ZWEyMC5qcGc.jpg"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#483 – Julia Shaw: Criminal Psychology of Murder, Serial Killers, Memory Sex",
+      "link": "https://lexfridman.com/julia-shaw/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=julia-shaw",
+      "pubDate": "2025-10-14T17:32:37.000Z",
+      "duration": "2:48:50",
+      "summary": "Julia Shaw is a criminal psychologist and author who in her books explores human nature, including psychopathy, violent crime, the psychology of evil, police interrogation, false memory manipulation, ",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "Google: The AI Company",
+      "link": "https://www.acquired.fm/episodes/google-the-ai-company",
+      "pubDate": "2025-10-06T01:35:54.000Z",
+      "duration": "14798",
+      "summary": "Google faces the greatest innovator's dilemma in history. They invented the Transformer — the breakthrough technology powering every modern AI system from ChatGPT to Claude (and, of course, Gemini). T",
+      "art": "https://img.transistorcdn.com/y4nQdH_zx3Uiyr6Ege0RkhfJtRXIVZUB6JJ34AeqLko/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xOTY3/YzI4NjFjYzg4NWFl/NjY1YjZlM2E0ZDI3/MWE0OC5qcGc.jpg"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "Acquired Live at Radio City Music Hall (Presented by J.P. Morgan)",
+      "link": "https://www.acquired.fm/episodes/acquired-live-at-radio-city-music-hall-presented-by-j-p-morgan",
+      "pubDate": "2025-10-01T03:08:00.000Z",
+      "duration": "78",
+      "summary": "It’s finally here! Today we are releasing Acquired’s first “concert film” — the full video recording of our Radio City live show from this summer with Jamie Dimon, Andrew Ross Sorkin, New York Times C",
+      "art": "https://img.transistorcdn.com/HAD3NV74Wb50v-K4eRAxFNbaEFsr0q_59z4n2664oYA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81ZGI5/MzRlOGI5MmMyNGZj/ZWFiYzY2ZmE0YmNh/Mjc1ZC5wbmc.jpg"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#482 – Pavel Durov: Telegram, Freedom, Censorship, Money, Power Human Nature",
+      "link": "https://lexfridman.com/pavel-durov/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=pavel-durov",
+      "pubDate": "2025-10-01T01:40:10.000Z",
+      "duration": "4:42:37",
+      "summary": "Pavel Durov is the founder and CEO of Telegram. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep482-sc See below for timestamps, transcript, and to give feedback, s",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#481 – Norman Ohler: Hitler, Nazis, Drugs, WW2, Blitzkrieg, LSD, MKUltra CIA",
+      "link": "https://lexfridman.com/norman-ohler/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=norman-ohler",
+      "pubDate": "2025-09-19T18:34:47.000Z",
+      "duration": "4:31:21",
+      "summary": "Norman Ohler is a historian and author of Blitzed: Drugs in the Third Reich, a book that investigates the role of psychoactive drugs, particularly stimulants such as methamphetamine, in the military h",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#480 – Dave Hone: T-Rex, Dinosaurs, Extinction, Evolution, and Jurassic Park",
+      "link": "https://lexfridman.com/dave-hone/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dave-hone",
+      "pubDate": "2025-09-04T20:57:38.000Z",
+      "duration": "3:41:55",
+      "summary": "Dave Hone is a paleontologist, expert on dinosaurs, co-host of the Terrible Lizards podcast, and author of numerous scientific papers and books on the behavior and ecology of dinosaurs. He lectures at",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#479 – Dave Plummer: Programming, Autism, and Old-School Microsoft Stories",
+      "link": "https://lexfridman.com/dave-plummer/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dave-plummer",
+      "pubDate": "2025-08-29T23:59:06.000Z",
+      "duration": null,
+      "summary": "Dave Plummer is a programmer, former Microsoft software engineer (Windows 95, NT, XP), creator of Task Manager, author of two books on autism, and host of the Daves Garage YouTube channel, where he sh",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "Alphabet Inc.",
+      "link": "https://www.acquired.fm/episodes/alphabet-inc",
+      "pubDate": "2025-08-26T10:19:06.000Z",
+      "duration": "15093",
+      "summary": "In its first six years from 1998 to 2004, Google built one of the greatest products of all time (and certainly the greatest business of all time) with Search. Then in its next six years from 2005 to 2",
+      "art": "https://img.transistorcdn.com/gLaKE9vfu-tPCSV5766PrXGWFO95TCIXYYRQvaTrgPs/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yNzY2/ZTU5NWQyM2ZhZWZk/ZThlZTAxNTYyZTQz/YWMzOS5qcGc.jpg"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#478 – Scott Horton: The Case Against War and the Military Industrial Complex",
+      "link": "https://lexfridman.com/scott-horton/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=scott-horton",
+      "pubDate": "2025-08-24T01:25:12.000Z",
+      "duration": "10:35:13",
+      "summary": "Scott Horton is the director of the Libertarian Institute, editorial director of Antiwar.com, host of The Scott Horton Show, co-host of Provoked, and for the past three decades a staunch critic of U.S",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#477 – Keyu Jin: Chinas Economy, Tariffs, Trade, Trump, Communism Capitalism",
+      "link": "https://lexfridman.com/keyu-jin/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=keyu-jin",
+      "pubDate": "2025-08-13T21:29:29.000Z",
+      "duration": "1:57:17",
+      "summary": "Keyu Jin is an economist specializing in Chinas economy, international macroeconomics, global trade imbalances, and financial policy. She is the author of The New China Playbook: Beyond Socialism and ",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "The Jamie Dimon Interview",
+      "link": "https://www.acquired.fm/episodes/the-jamie-dimon-interview",
+      "pubDate": "2025-07-16T14:18:04.000Z",
+      "duration": "4118",
+      "summary": "We sit down with Jamie Dimon for a live conversation at Radio City Music Hall, covering the incredible journey from his 1998 firing at Citgroup (where he was widely expected to become CEO) to building",
+      "art": "https://img.transistorcdn.com/cy5c8cYm3Mif1hAX53cvNupzpgVSO5vERlobaDDdECo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xNTU3/NTA0NTEzMTE2NzBj/NGRjNTY5NGI3MjU2/ZWYzMi5qcGc.jpg"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "Google: The Origin of Search",
+      "link": "https://www.acquired.fm/episodes/google",
+      "pubDate": "2025-06-30T03:11:14.000Z",
+      "duration": "13064",
+      "summary": "We tell the story of the single greatest business ever created: Google search. From its origins as a Stanford research project called BackRub, Google became the front door to the internet. Today it’s ",
+      "art": "https://img.transistorcdn.com/AIk_95Gy1RKYk2QVkS2VQVKpZd30JmUJb3cV4VmNY0s/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNDE4/MGJjZWJjMDgzMjBh/YjY1MzZmOTk3Yjk5/N2M3OC5qcGc.jpg"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "The Steve Ballmer Interview",
+      "link": "https://www.acquired.fm/episodes/the-steve-ballmer-interview",
+      "pubDate": "2025-06-02T01:54:06.000Z",
+      "duration": "10624",
+      "summary": "We sit down with Steve Ballmer, the legendary former Microsoft CEO and owner of the LA Clippers, for an epic conversation covering his 34 years at Microsoft. Steve listened to our Microsoft episodes a",
+      "art": "https://img.transistorcdn.com/nlEyqUXOU914UwjwrayeOmgMmfLh8qGrdXGXEfHTp0g/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNjli/ZDk5NTRlY2FjZTdk/NjM4NmVjZDYzNzgw/ZmEyMi5qcGc.jpg"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "Epic Systems (MyChart)",
+      "link": "https://www.acquired.fm/episodes/epic-systems-mychart",
+      "pubDate": "2025-04-21T02:04:52.000Z",
+      "duration": "14104",
+      "summary": "What if we told you that the most important company in US healthcare was run from a farm in rural Wisconsin? And that farm contained the world’s largest subterranean auditorium, as well as Disneyland—",
+      "art": "https://img.transistorcdn.com/vZ8_8iXPbKD-misy2I84tm0vU9lSJyFCsVM6KYcQP0Y/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9kM2Q0/MDhhNGI2OGEzMTNm/NmQxNjc2ZmE0MmRl/OTVjNi5wbmc.jpg"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "Indian Premier League Cricket",
+      "link": "https://www.acquired.fm/episodes/indian-premier-league-cricket",
+      "pubDate": "2025-03-24T01:39:34.000Z",
+      "duration": "15979",
+      "summary": "When you saw this episode pop up in your feed, you either jumped for joy and hit play immediately (in which case you’re not reading this), or you said “Huh. That’s a surprising episode.” Well, if you’",
+      "art": "https://img.transistorcdn.com/P7764OsbE5HFwEoFl-L-g4QuzNfHwT9E7IDco3xxNXM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lYzA5/ZWMzN2Q5NjMzY2Ni/ZDMwZGI0Y2FmYThh/MTIwMC5qcGc.jpg"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "TSMC Founder Morris Chang",
+      "link": "https://www.acquired.fm/episodes/tsmc-founder-morris-chang",
+      "pubDate": "2025-01-27T02:35:00.000Z",
+      "duration": "10577",
+      "summary": "We flew to Taiwan to interview TSMC Founder Morris Chang in a rare English interview. In fact, the last long-form video interview we could find was 17 years ago at the Computer History Museum… conduct",
+      "art": "https://img.transistorcdn.com/9o7fI1dkkZTUeeWXu1RfziX_sGpKxqa_XcLRGZOQSf4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hNDA3/MDVlMGNiN2Y3ZjVi/YTUzN2ZlYmQ5OTZk/MGM5NS5qcGc.jpg"
     }
   ]
 }
