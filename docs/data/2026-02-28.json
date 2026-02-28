@@ -2,11 +2,26 @@
   "meta": {
     "date": "2026-02-28",
     "topN": 5,
-    "total": 75
+    "total": 96
   },
   "articles": [
     {
       "rank": 1,
+      "title": "Netflix drops its WBD bid, Block layoffs, Anthropic's DOD deadline and more in Morning Squawk",
+      "link": "https://www.cnbc.com/2026/02/27/5-things-to-know-before-the-market-opens.html",
+      "source": "CNBC Technology",
+      "summary": "Here are five key things investors need to know to start the trading day.",
+      "llmComment": "Anthropic是一家人工智能研究公司，近期引起关注的是他们的技术突破和与美国国防部的合作。他们的核心技术突破在于开发更先进的AI模型，这可能与现有方案在性能和效率方面有所不同。这种技术进步可能会对芯片和云厂商产生影响，因为他们需要适应新的AI计算需求，而应用层的公司也可能受益于更强大的AI能力。然而，尚待观察的是，这项技术在实际应用中的稳定性和安全性，以及Anthropic如何应对来自竞品的潜在挑战。",
+      "pubDate": "2026-02-27T13:08:11.000Z",
+      "score": 168,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "网飞放弃WBD竞购",
+      "isHot": true,
+      "paywalled": false
+    },
+    {
+      "rank": 2,
       "title": "OpenAI strikes deal with Pentagon, hours after rival Anthropic was blacklisted by Trump",
       "link": "https://www.cnbc.com/2026/02/27/openai-strikes-deal-with-pentagon-hours-after-rival-anthropic-was-blacklisted-by-trump.html",
       "source": "CNBC Technology",
@@ -21,7 +36,7 @@
       "paywalled": false
     },
     {
-      "rank": 2,
+      "rank": 3,
       "title": "OpenAI’s New $110B Raise At A $840B Valuation Marks The Largest Venture Deal Ever",
       "link": "https://news.crunchbase.com/venture/openai-raise-largest-ai-venture-deal-ever",
       "source": "Crunchbase News",
@@ -36,7 +51,7 @@
       "paywalled": false
     },
     {
-      "rank": 3,
+      "rank": 4,
       "title": "The Week’s 10 Biggest Funding Rounds: OpenAI Takes The Spotlight With Record-Setting $110B Round",
       "link": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-openai-semiconductors-matx",
       "source": "Crunchbase News",
@@ -51,7 +66,7 @@
       "paywalled": false
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "OpenAI announces $110 billion funding round with backing from Amazon, Nvidia, SoftBank",
       "link": "https://www.cnbc.com/2026/02/27/open-ai-funding-round-amazon.html",
       "source": "CNBC Technology",
@@ -66,7 +81,7 @@
       "paywalled": false
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "Jack Dorsey made the loudest case yet that AI is already replacing jobs",
       "link": "https://www.cnbc.com/2026/02/27/jack-dorsey-made-the-loudest-case-yet-ai-is-already-replacing-jobs.html",
       "source": "CNBC Technology",
@@ -81,7 +96,7 @@
       "paywalled": false
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "AI music generator Suno hits 2M paid subscribers and $300M in annual recurring revenue",
       "link": "https://techcrunch.com/2026/02/27/ai-music-generator-suno-hits-2-million-paid-subscribers-and-300m-in-annual-recurring-revenue",
       "source": "TechCrunch",
@@ -96,7 +111,7 @@
       "paywalled": false
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
       "link": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
       "source": "Simon Willison",
@@ -111,7 +126,7 @@
       "paywalled": false
     },
     {
-      "rank": 8,
+      "rank": 9,
       "title": "Trending tickers: Nvidia, Salesforce, Baidu, IonQ and Ocado",
       "link": "https://uk.finance.yahoo.com/news/nvidia-salesforce-baidu-ionq-ocado-trending-tickers-101106585.html",
       "source": "Yahoo Finance",
@@ -126,7 +141,7 @@
       "paywalled": false
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "The Air Force's new ICBM is nearly ready to fly, but there’s nowhere to put it",
       "link": "https://arstechnica.com/space/2026/02/the-air-forces-new-icbm-is-nearly-ready-to-fly-but-theres-nowhere-to-put-them",
       "source": "Ars Technica",
@@ -141,7 +156,7 @@
       "paywalled": false
     },
     {
-      "rank": 10,
+      "rank": 11,
       "title": "Brookfield's new AI unit Radiant valued at $1.3 billion after merger with UK startup, sources say - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc0Q0OXpnMjNDdHJ0eDdSX3o3TmFfZGtILTA1ejB4U1RtWlRjMHIycmVnWnJpU0lpQW1MNDRQVnpVY1R1OFFnaElDUVBvekUxckI1TXFZUWZRdFlfQnE2YV83clZCbmZkQWJqM1RRZHNxWFRJa01EZ1ctclhXdV93UFY3U003ejVzdEJzclA2cXlIX2NxaTlwa0lmOEV3eHFtWlVQQTdMcm5LY19vMUx5UXI5VjlQMnROWkRFdEJ4WkQ?oc=5",
       "source": "Reuters M&A (Google News)",
@@ -156,7 +171,7 @@
       "paywalled": true
     },
     {
-      "rank": 11,
+      "rank": 12,
       "title": "OpenAI's $110 billion funding round draws investment from Amazon, Nvidia, SoftBank - Reuters",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQa1N4S1RQRHB5Y0lyb3pvN1RQcEVVT0JrblFrcmtEODZfOVRwMHZob3VuWGdkVkVkZmFqR3BaOXotS0d6TWJqMVVta3MtU2xtc0dTTHlZczVoWnhMZUpzSUJteDBkRDIxTzlWaU93MFE2TE0xWlpjRWNremRydUtQY3kzeDF1TExuekRVVTJYdXJTOEtQSmxKSmVYdUppUHFGcFVLRFRPUm5IU2ZsdXZFaXVhWl9ETS1tZk0xbFJBYlQ5SlUwRjVZQmZZcWNqWm8?oc=5",
       "source": "Reuters IPO (Google News)",
@@ -171,7 +186,7 @@
       "paywalled": true
     },
     {
-      "rank": 12,
+      "rank": 13,
       "title": "ChatGPT reaches 900M weekly active users",
       "link": "https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users",
       "source": "TechCrunch",
@@ -186,7 +201,7 @@
       "paywalled": false
     },
     {
-      "rank": 13,
+      "rank": 14,
       "title": "Trump raises prospect of 'friendly takeover' of Cuba, says Rubio in talks - Reuters",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2FCc0g5b2hkR28yQ3lsT1BMS2ZWNE8zcXNiZ3NEcWNzaXpnYnZDVVpnNlpHTnlXQndyci1XMURMQUJVTEU4X2dVeVJxd2VabnFFV0tfNFRUOEh2a3JwTlZyZ0JvNU1sMERLOXhHc09LVHNJR0xHOU9IOUM3VlNmYWdMUktBalFRMGltbGFKdDR1Q1E?oc=5",
       "source": "Reuters M&A (Google News)",
@@ -201,7 +216,7 @@
       "paywalled": true
     },
     {
-      "rank": 14,
+      "rank": 15,
       "title": "Dell shares climb 22% on earnings beat as company navigates rising memory costs",
       "link": "https://www.cnbc.com/2026/02/27/dell-stock-earnings-memory-shortage-ai-servers.html",
       "source": "CNBC Technology",
@@ -216,7 +231,7 @@
       "paywalled": false
     },
     {
-      "rank": 15,
+      "rank": 16,
       "title": "Bitcoin price rebounds after Nvidia earnings and ETF inflows",
       "link": "https://uk.finance.yahoo.com/news/bitcoin-price-nvidia-earnings-etf-inflows-094504663.html",
       "source": "Yahoo Finance",
@@ -231,7 +246,7 @@
       "paywalled": false
     },
     {
-      "rank": 16,
+      "rank": 17,
       "title": "How do I cancel my ChatGPT subscription?",
       "link": "https://help.openai.com/en/articles/7232927-how-do-i-cancel-my-chatgpt-subscription",
       "source": "Hacker News",
@@ -246,7 +261,7 @@
       "paywalled": false
     },
     {
-      "rank": 17,
+      "rank": 18,
       "title": "Cash issuing terminals",
       "link": "https://computer.rip/2026-02-27-ibm-atm.html",
       "source": "Hacker News",
@@ -261,7 +276,7 @@
       "paywalled": false
     },
     {
-      "rank": 18,
+      "rank": 19,
       "title": "Netflix cedes Warner Bros. Discovery to Paramount: “No longer financially attractive”",
       "link": "https://arstechnica.com/gadgets/2026/02/netflix-cedes-warner-bros-discovery-to-paramount-no-longer-financially-attractive",
       "source": "Ars Technica",
@@ -276,7 +291,22 @@
       "paywalled": false
     },
     {
-      "rank": 19,
+      "rank": 20,
+      "title": "Here's an update on our 4th Industrial Revolution stocks and the rest of the portfolio",
+      "link": "https://www.cnbc.com/2026/02/27/jim-cramers-update-on-our-ai-stocks-and-the-rest-of-the-portfolio.html",
+      "source": "CNBC Technology",
+      "summary": "Jim Cramer spotlighted the \"Fourth Industrial Revolution\" winners in the Club's portfolio during Friday's Monthly Meeting.",
+      "llmComment": "Jim Cramer旗下的投资组合聚焦于“第四次工业革命”的赢家，包括一系列科技产品和公司，这些公司正在推动工业自动化、人工智能和数据分析等领域的创新。该组合的核心差异化在于其对科技颠覆性变化的把握和布局，试图捕捉新兴技术带来的投资机会。然而，市场竞争日趋激烈，其他投资机构和公司也在积极布局第四次工业革命的赛道，潜在的竞争威胁不容忽视。值得持续追踪的信号是这些公司的业绩表现和市场份额变化，但原文未披露具体的公司名称和业绩数据，尚待观察。",
+      "pubDate": "2026-02-27T19:30:43.000Z",
+      "score": 61,
+      "category": "💻 泛科技",
+      "titleEn": "Here's an update on our 4th Industrial Revolution stocks and the rest of the portfolio",
+      "titleZh": "第四次工业革命股票及投资组合更新",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 21,
       "title": "Free Claude Max for (large project) open source maintainers",
       "link": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
       "source": "Simon Willison",
@@ -291,7 +321,7 @@
       "paywalled": false
     },
     {
-      "rank": 20,
+      "rank": 22,
       "title": "MIT Technology Review is a 2026 ASME finalist in reporting",
       "link": "https://www.technologyreview.com/2026/02/27/1133769/asme-finalist-reporting",
       "source": "MIT Technology Review",
@@ -306,7 +336,7 @@
       "paywalled": false
     },
     {
-      "rank": 21,
+      "rank": 23,
       "title": "Let's discuss sandbox isolation",
       "link": "https://www.shayon.dev/post/2026/52/lets-discuss-sandbox-isolation",
       "source": "Hacker News",
@@ -321,12 +351,12 @@
       "paywalled": false
     },
     {
-      "rank": 22,
+      "rank": 24,
       "title": "Croatia declared free of landmines after 31 years",
       "link": "https://glashrvatske.hrt.hr/en/domestic/croatia-declared-free-of-landmines-after-31-years-12593533",
       "source": "Hacker News",
-      "summary": "Article URL: https://glashrvatske.hrt.hr/en/domestic/croatia-declared-free-of-landmines-after-31-years-12593533 Comments URL: https://news.ycombinator.com/item?id=47189535 Points: 259 # Comments: 50",
-      "llmComment": "克罗地亚经过31年的努力，终于宣布自己已经摆脱了陆地雷的威胁，这一成就不仅反映了该国在安全保障方面的重大进步，也为其他受到土地雷威胁的国家提供了宝贵的经验。然而，这一新闻与科技和投资领域似乎没有直接的关联，因此尚待观察其对相关行业的影响。从更广泛的角度来看，地雷清除技术和安全保障领域可能会受益于这一成就，相关公司和项目可能会获得更多的关注和投资。原文未披露相关的数据和数字，因此无法对此进行更详细的分析。",
+      "summary": "Article URL: https://glashrvatske.hrt.hr/en/domestic/croatia-declared-free-of-landmines-after-31-years-12593533 Comments URL: https://news.ycombinator.com/item?id=47189535 Points: 270 # Comments: 53",
+      "llmComment": "克罗地亚政府宣布该国已经摆脱了31年的雷区威胁，这一成就归功于长期的排雷工作。这个消息主要关注的是克罗地亚的安全和人道主义成就，而非直接关注科技或投资领域。因此，在科技和投资的角度来看，这个消息主要反映了克罗地亚的安全环境改善，这可能会对其旅游业和经济发展产生积极影响，但尚待观察具体的经济效益。克罗地亚摆脱雷区的威胁可能会吸引更多的投资者和游客，但具体的影响和风险尚待进一步分析。",
       "pubDate": "2026-02-28T02:48:16.000Z",
       "score": 59,
       "category": "🌐 社区",
@@ -336,7 +366,7 @@
       "paywalled": false
     },
     {
-      "rank": 23,
+      "rank": 25,
       "title": "SpaceX could seek IPO valuation of over $1.75 trillion, Bloomberg says - Reuters",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQTmxJY1FEcVNZZk9taUFXSDRNQUlMS2V5eENJbkNHNDhpVElCVVV0TC0yNFVGRTRzMl9TbUJJSVZLYThSYU04dUhzbk13ZE9PZmNRcjJJaTRUeDJPNlVNbFVSSnQxN0l1NTFDOFAwTDlmakF6Mkp1MlhLN2Fxa01Ib3gxQ2hKd21rWllCdENwWUpWOEJUWG9tcEswZ0l6a1FLQWxEYVIwS19ldGQ2R0JQNW1mLUxlVlU?oc=5",
       "source": "Reuters IPO (Google News)",
@@ -351,7 +381,22 @@
       "paywalled": true
     },
     {
-      "rank": 24,
+      "rank": 26,
+      "title": "Generate Biomedicines shares fall in weak Nasdaq debut for drug developer - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNX3hNMTNZQktqLURYMlZuMWhyZmRfRnZWMzU1M1g4cXM2QlB0aUltdWtmRXVZUjVibEtDQ2oyajc2azJoWEFsdW1ac2FCWmVZdS05bWdnTnVhZ3JQUWZTSlIybXluWUIxZFVBTGNJNjlVTEhlc2ZjdTZ5VHZ3Q0dkQzFKbTJGRXQzaF9adi1Ncld5MGZVUXBVcExYWmxpcUhORVoyRDdVMzRmMXBnaWhYVF8ySXhEQnduVnZ5YS1oeHQwZVZpdHcyclRWZU85aHZhR2c?oc=5",
+      "source": "Reuters IPO (Google News)",
+      "summary": "Generate Biomedicines shares fall in weak Nasdaq debut for drug developer Reuters",
+      "llmComment": "Generate Biomedicines是一家专注于药物开发的生物技术公司，最近在纳斯达克上市，但其股价却在首日交易中下跌。这个结果可能反映出投资者对该公司的前景和竞争力有一定的担忧，尤其是在生物技术行业中，技术壁垒和数据资产的竞争非常激烈。Generate Biomedicines的上市可能会对行业竞争格局产生一定影响，尤其是对其他生物技术公司的融资和上市计划可能产生影响。尚待观察的是，这次上市对Generate Biomedicines的长期发展和行业格局会产生什么样的影响。",
+      "pubDate": "2026-02-27T17:57:37.000Z",
+      "score": 58,
+      "category": "💰 资本市场·其他",
+      "titleEn": null,
+      "titleZh": "Generate Biomedicines首日上市表现欠佳",
+      "isHot": true,
+      "paywalled": true
+    },
+    {
+      "rank": 27,
       "title": "European shares close eighth month of gains on earnings lift; credit fears hit banks - Reuters",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVFpuTmkwbEtOVkZHSkMtLUFYalhiVGpWR0huMTZOLW9aQXY5RXQ5andsNHJkcDRvS0U0aUJpQ0ZrWVBHd1owTENobllOSmVYYmxTZDJ3cjlHTmE4VjUyaVpFc2JUOVZ1ZGNxN09UdnFiMTJwZzJYQXhPcDNMMzJGRGhtN2JTNW9tajNnRnNjUXJaYms0dXVuOXlsZmg4ZUxQN2ZnZ2xfZERNWTBVMVZkag?oc=5",
       "source": "Reuters IPO (Google News)",
@@ -366,7 +411,22 @@
       "paywalled": true
     },
     {
-      "rank": 25,
+      "rank": 28,
+      "title": "Inferring car movement patterns from passive TPMS measurements",
+      "link": "https://dspace.networks.imdea.org/handle/20.500.12761/2011",
+      "source": "Hacker News",
+      "summary": "Article URL: https://dspace.networks.imdea.org/handle/20.500.12761/2011 Comments URL: https://news.ycombinator.com/item?id=47191844 Points: 22 # Comments: 3",
+      "llmComment": "Inferring car movement patterns from passive TPMS measurements 这个研究项目主要是通过被动轮胎压力监测系统（TPMS）来推断车辆运动模式。这个项目的核心逻辑在于利用现有的轮胎压力监测系统来收集数据，并通过数据分析来了解车辆的运动特征，这可能会为智能交通、自动驾驶等领域提供有价值的信息。这个项目可能会对交通数据分析行业产生影响，相关公司可能会受益于这项技术，但具体的影响和商业化潜力尚待观察。原文未披露该项目的商业计划和潜在客户，所以难以判断其bull case和bear case。",
+      "pubDate": "2026-02-28T07:45:36.000Z",
+      "score": 56,
+      "category": "🌐 社区",
+      "titleEn": "Here's how to infer car movement patterns from passive TPMS measurements",
+      "titleZh": "如何从被动TPMS测量中推断车辆运动模式",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 29,
       "title": "TSMC Risk",
       "link": "https://stratechery.com/2026/tsmc-risk/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L3RzbWMtcmlzay8iXX0sImV4cCI6MTc3NDg1NjgzNywiaWF0IjoxNzcyMjY0ODM3LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.QGUPihQPoAR5_ucG3_EJp7WCtFp4qA3ARMoOrSB8IMcP7n7C0pew6kkNo1cHKItrb3lE27rhrGgDDddNQ2HSnUKDnB6EtBc6V-8x0v0lMdadmtI19f8LZOfu2hyTU65y1y9fzDPw5JLlpKTRP1lCR5V2Fph26Dh7VR7qyDF2Im1Qu-dsyi33tG3YXcKUGN2mJJCxfgi2kd-AkgJrkTfqYDlW3azdegvhYQigP0sBse-Is_3P2It4z5PA-MxWHzTD6VZBxmUoqYQORM0_3zc9W9OKTSPBw3lNIphs8zBY3fB0kOhI3m030QyctV-rSjT3j638geIT3YeFwSQDuqoKYA",
       "source": "Stratechery",
@@ -381,7 +441,7 @@
       "paywalled": false
     },
     {
-      "rank": 26,
+      "rank": 30,
       "title": "Google, Nvidia, and OpenAI",
       "link": "https://stratechery.com/2025/google-nvidia-and-openai/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L2dvb2dsZS1udmlkaWEtYW5kLW9wZW5haS8iXX0sImV4cCI6MTc3NDg1NjgzNywiaWF0IjoxNzcyMjY0ODM3LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.DD5c_wis4jLzvIkyr93hp8r1khzKJs-wc16ik5Jrnu8nzDUttRmDKX2FN0pp1Q9w9hjyvDTy0_PwiCBldzK8CQ5KEf86NoUZgrKJ1GW1UIlzhp2bY1VGYPY1Oaw7XIt2IDSUZBzIur_SvUO2gFW9Qz15QJ0DD-pwFcDPjCCeUm71u15YJVKNWoxl43mDzjjrCt6zm2SVvRuQJ9lTFOcLDJwpjxtJX6m0IZxO2h7luR6QVzFkDziimYcnCUrdkS81gA7-zniGuiTWxA8v_zDVGUEfd_eyk-jXlAapu3tVjeXI6q4-luKAsXmjdbkzFLkrtomb6x0xY3-DcGsDgfbtaw",
       "source": "Stratechery",
@@ -396,7 +456,7 @@
       "paywalled": false
     },
     {
-      "rank": 27,
+      "rank": 31,
       "title": "South Korea opens the door to let Google Maps operate fully",
       "link": "https://techcrunch.com/2026/02/27/south-korea-opens-the-door-to-let-google-maps-operate-fully",
       "source": "TechCrunch",
@@ -411,7 +471,7 @@
       "paywalled": false
     },
     {
-      "rank": 28,
+      "rank": 32,
       "title": "Sector Snapshot: Space Tech Startup Funding Still Flying High",
       "link": "https://news.crunchbase.com/venture/space-tech-startup-funding-flying-high",
       "source": "Crunchbase News",
@@ -426,7 +486,7 @@
       "paywalled": false
     },
     {
-      "rank": 29,
+      "rank": 33,
       "title": "Apple says it has \"a big week ahead.\" Here's what we expect to see.",
       "link": "https://arstechnica.com/gadgets/2026/02/what-new-hardware-to-expect-from-apple-next-week",
       "source": "Ars Technica",
@@ -441,7 +501,7 @@
       "paywalled": false
     },
     {
-      "rank": 30,
+      "rank": 34,
       "title": "Under a Paramount-WBD merger, two struggling media giants would unite",
       "link": "https://arstechnica.com/gadgets/2026/02/under-a-paramount-wbd-merger-two-struggling-media-giants-would-unite",
       "source": "Ars Technica",
@@ -456,7 +516,7 @@
       "paywalled": false
     },
     {
-      "rank": 31,
+      "rank": 35,
       "title": "West Virginia’s Anti-Apple CSAM Lawsuit Would Help Child Predators Walk Free",
       "link": "https://www.techdirt.com/2026/02/25/west-virginias-anti-apple-csam-lawsuit-would-help-child-predators-walk-free",
       "source": "Daring Fireball",
@@ -471,7 +531,22 @@
       "paywalled": false
     },
     {
-      "rank": 32,
+      "rank": 36,
+      "title": "Ultrahuman bets on redesigned smart ring to win back US market after Oura dispute",
+      "link": "https://techcrunch.com/2026/02/27/ultrahuman-unveils-new-smart-ring-as-it-awaits-u-s-clearance-after-oura-dispute",
+      "source": "TechCrunch",
+      "summary": "Ultrahuman’s Ring Pro promises 15-day battery life and a $479 price tag as the wearables maker expands its health-tech push.",
+      "llmComment": null,
+      "pubDate": "2026-02-27T11:00:00.000Z",
+      "score": 53,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "Ultrahuman智能戒指重返美国市场",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 37,
       "title": "Please, please, please stop using passkeys for encrypting user data",
       "link": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
       "source": "Simon Willison",
@@ -486,7 +561,22 @@
       "paywalled": false
     },
     {
-      "rank": 33,
+      "rank": 38,
+      "title": "Google quantum-proofs HTTPS by squeezing 2.5kB of data into 64-byte space",
+      "link": "https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-28T01:26:41.000Z",
+      "score": 51,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "谷歌量子加密HTTPS",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 39,
       "title": "Blue Owl turmoil adds to strain in $2 trillion US private credit sector - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbUNzaElic3JhbEtPS1N3SGpOdWo3bFN0SGdQVEpxZ3VuUGZYQ1dDQllfbmJvbWhMN1hER09oRkkxbTlRTkxWY2pqcnhzNXdfSkN5S2lZaUFsZDFfbzRCek5VS1NaeGZ1d3FGR0Rab2VPYzlUaHlscjVFMDBvenptV3RQS3ZvUjhpVDB1aFp6LWRZRS1BUndFei1JeDJsLVJfLXRUZF9tZDRZNkpzNzlYS0w4WVk2R0Ez?oc=5",
       "source": "Reuters Funding (Google News)",
@@ -501,7 +591,7 @@
       "paywalled": true
     },
     {
-      "rank": 34,
+      "rank": 40,
       "title": "The Download: how AI is shaking up Go, and a cybersecurity mystery",
       "link": "https://www.technologyreview.com/2026/02/27/1133754/the-download-how-ai-is-shaking-up-go-and-a-cybersecurity-mystery",
       "source": "MIT Technology Review",
@@ -516,7 +606,7 @@
       "paywalled": false
     },
     {
-      "rank": 35,
+      "rank": 41,
       "title": "California now the biggest obstacle to Paramount's Warner Bros takeover - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalk0djMySVZJd1lrNnlVeThucmlYMlVOcHJrbEcxSWxUR2NIck0tOVRPU0lXcWJDN0xMMmdsSW0wZlM5S01Qb0JLNE15RUxTdVlqVzUwRFdhRkw2S0xlUUp2eld4c0NJY3YwOGhnNXRNS0FHSGxCZ0JJaHh3TkpseHoxd3dWd0JTSEVvMlJ1MGF2Qzd5a21yQlBQVVhQNUU4SEhHbmR2bnd5eVpaT2wza2d0UWllZFUyTFdr?oc=5",
       "source": "Reuters M&A (Google News)",
@@ -531,7 +621,7 @@
       "paywalled": true
     },
     {
-      "rank": 36,
+      "rank": 42,
       "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
       "link": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
       "source": "Simon Willison",
@@ -546,7 +636,7 @@
       "paywalled": false
     },
     {
-      "rank": 37,
+      "rank": 43,
       "title": "Video Friday: Robot Dogs Haul Produce From the Field",
       "link": "https://spectrum.ieee.org/quadruped-farming-robots",
       "source": "IEEE Spectrum",
@@ -561,7 +651,7 @@
       "paywalled": false
     },
     {
-      "rank": 38,
+      "rank": 44,
       "title": "Last 24 hours to get TechCrunch Disrupt 2026 tickets at the lowest rates of the year",
       "link": "https://techcrunch.com/2026/02/27/last-24-hours-to-get-techcrunch-disrupt-2026-tickets-at-the-lowest-rates-of-the-year",
       "source": "TechCrunch",
@@ -576,7 +666,22 @@
       "paywalled": false
     },
     {
-      "rank": 39,
+      "rank": 45,
+      "title": "Rocket Report: Vulcan \"many months\" from flying; Falcon 9 extends reuse milestone",
+      "link": "https://arstechnica.com/space/2026/02/rocket-report-neutron-launch-date-is-delayed-again-vector-launch-is-back-sort-of",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-27T12:00:13.000Z",
+      "score": 50,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "火箭报告：Vulcan将于数月内首飞",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 46,
       "title": "9 luxury homes under the £2m mansion tax threshold",
       "link": "https://uk.finance.yahoo.com/news/luxury-homes-mansion-tax-threshold-060001218.html",
       "source": "Yahoo Finance",
@@ -591,7 +696,7 @@
       "paywalled": false
     },
     {
-      "rank": 40,
+      "rank": 47,
       "title": "NatWest cuts mortgage costs ahead of spring statement",
       "link": "https://uk.finance.yahoo.com/news/cheapest-mortgage-interest-rates-bank-england-hsbc-natwest-barclays-nationwide-152154701.html",
       "source": "Yahoo Finance",
@@ -606,7 +711,7 @@
       "paywalled": false
     },
     {
-      "rank": 41,
+      "rank": 48,
       "title": "Premium: The Hater's Guide to Private Equity",
       "link": "https://www.wheresyoured.at/hatersguide-pe",
       "source": "Where's Your Ed At",
@@ -621,7 +726,7 @@
       "paywalled": false
     },
     {
-      "rank": 42,
+      "rank": 49,
       "title": "openclaw 自带的官方飞书插件不支持 bot 之间的 mention 操作，我修复了",
       "link": "https://www.v2ex.com/t/1194837#reply0",
       "source": "V2EX 技术",
@@ -636,7 +741,7 @@
       "paywalled": false
     },
     {
-      "rank": 43,
+      "rank": 50,
       "title": "马年来了，你码完了没？ Markdone 码完 - Markdown 所见即所得编辑器上线了",
       "link": "https://www.v2ex.com/t/1194830#reply6",
       "source": "V2EX 技术",
@@ -651,7 +756,22 @@
       "paywalled": false
     },
     {
-      "rank": 44,
+      "rank": 51,
+      "title": "Memory shortage could cause the biggest dip in smartphone shipments in over a decade",
+      "link": "https://techcrunch.com/2026/02/27/memory-shortage-could-cause-the-biggest-smartphone-shipments-dip-in-over-a-decade",
+      "source": "TechCrunch",
+      "summary": "IDC says phone makers will ship only 1.12 billion smartphones as compared to 1.26 billion last year.",
+      "llmComment": null,
+      "pubDate": "2026-02-27T14:00:00.000Z",
+      "score": 48,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "内存短缺可能导致智能手机出货量大幅下滑",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 52,
       "title": "Sunway Healthcare launches $736 million IPO, Malaysia's largest in nine years - Reuters",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTjdzcTZWVVNmam9yaHNjYV9CX3hqNllhdXM0ZE1Rc2o2UFJfNHROZFUtaVM5MmFDNXd4dS1MSG5PTzhwNzRhQTBqRFhaUVVQSUJpOEF3Y1l4bGZYRjF2SzJPR28wUVhSS3BuVVRpZUNxZ3h5WFZmdkZ6Q2J1U0Zfa0lUYTR5cHF6TEtCUmJQMzFOTWNWdTJlSy1yX0VkRndKejBvb2hHZ2E2QjYwTkQzS3pral8yd1VhRmRybVBlaWhSNkZ4QXJj?oc=5",
       "source": "Reuters IPO (Google News)",
@@ -666,7 +786,7 @@
       "paywalled": true
     },
     {
-      "rank": 45,
+      "rank": 53,
       "title": "From Headsets to Hearing Aids",
       "link": "https://spectrum.ieee.org/bluetooth-low-energy-audio",
       "source": "IEEE Spectrum",
@@ -681,7 +801,7 @@
       "paywalled": false
     },
     {
-      "rank": 46,
+      "rank": 54,
       "title": "TUDUMB",
       "link": "https://spyglass.org/netflix-warner-bros-paramount-deal",
       "source": "Daring Fireball",
@@ -696,7 +816,7 @@
       "paywalled": false
     },
     {
-      "rank": 47,
+      "rank": 55,
       "title": "大佬们， coding plan 选哪家强？体验最好？最稳定？最大方？",
       "link": "https://www.v2ex.com/t/1194846#reply27",
       "source": "V2EX 技术",
@@ -705,13 +825,13 @@
       "pubDate": "2026-02-28T07:58:58.000Z",
       "score": 44,
       "category": "🌐 社区",
-      "titleEn": "选择哪家编码计划最强，[context] 选择最好的编码计划",
-      "titleZh": "选择最好的编码计划",
+      "titleEn": null,
+      "titleZh": "选择编码计划哪家强？体验最好？最稳定？最大方？",
       "isHot": false,
       "paywalled": false
     },
     {
-      "rank": 48,
+      "rank": 56,
       "title": "如何把 Agentic Browser 比如 Comet/Gemini in Chrome 和 openclaw 集成起来？",
       "link": "https://www.v2ex.com/t/1194816#reply1",
       "source": "V2EX 技术",
@@ -726,7 +846,7 @@
       "paywalled": false
     },
     {
-      "rank": 49,
+      "rank": 57,
       "title": "India markets regulator changes gold, silver valuation for mutual funds - Reuters",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTkhTQmptaHFsdHRtT1ZrSmNYYzh4RUJ1aTI5c05HQVViNHBha0tFY29vQXhEUXJmWVhBOEJmLVdhbDdLQ1BkZGtEckUyZkRRVC0zbXQ0V3BwMFh0Rk9JMjRBN24wS3NzQ0k1Q21QRlBLNms3WHhNVWd0TFIyZ3ZkTXFreEJISUVOcXZwMngzVWQxY1BFMEZpTWJELWxYRElsV0R2Sm11ZEJVNEl0TTFaM2N6dVUtZnI3VVpycHBZWnFiUmpDWnJzaThqMUpMU2ZSbjI2aGN2NW1VUQ?oc=5",
       "source": "Reuters Funding (Google News)",
@@ -741,7 +861,22 @@
       "paywalled": true
     },
     {
-      "rank": 50,
+      "rank": 58,
+      "title": "升级 IntelliJ IDEA 2025.3.3 版本后啥也不干就大量能耗，怎么回事？",
+      "link": "https://www.v2ex.com/t/1194734#reply5",
+      "source": "V2EX 技术",
+      "summary": "之前用 2025.3.1 版本时不时会卡顿，搜了一圈发现是 idea maven 的 bug 导致内存泄露，昨天升级到 2025.3.3 版本，打开软件啥也不干，MAC 就显示大量能耗，逐渐也开始发热 ]]>",
+      "llmComment": null,
+      "pubDate": "2026-02-28T02:18:08.000Z",
+      "score": 42,
+      "category": "🌐 社区",
+      "titleEn": null,
+      "titleZh": "IntelliJ IDEA 2025.3.3版本升级后能耗过高",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 59,
       "title": "Netflix surges as investors cheer decision to exit Warner Bros race - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNblEySmd4bWFNQUNZdDdLRTdmQmJpYTlhaDZEZDBOQmpQelp1bXp5dFUwMEpES3k2ZVREcjBYcFJMMWRtamlrY3VYbXF0WENld0JpOXB0M3dZYXJCTlpNdm5pQnlsbUNOb0JMb3RKa1VLa1lRXzZvcEpiRGFTUTFxaEhhVHlkcHpmU2lLY0NseWhKWjRabWgxQWdyX1NpRmxZai1LUG1SNlZqanhhRUx5MTRRTXNwRHZM?oc=5",
       "source": "Reuters M&A (Google News)",
@@ -756,7 +891,22 @@
       "paywalled": true
     },
     {
-      "rank": 51,
+      "rank": 60,
+      "title": "UN rights chief warns that more Iranians face execution over protests - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQ2dHanNRQk5wcUZVMzVoeE5EcWNROGhScDRpZGZ2MXFabjRaa29zTXZYZ2o4TEY1SnBpcVY1Vk5hVWFJZENQcXA1UmZNMktkM1ZJalA0b1FVN3p1ekliNXFpWXRtLVlnN3p1ZmFQNFYzRGc5SzM0RFVnUWI1Qi1TYUp5OE55bjVRSXNyUjFsR0tkRGszemI0bEUwTm5ZbkJhcDhCbGtLX01QQXVyVVpHNi1UTUo2cGF0cXpra05WT0toVTVLbHEtLQ?oc=5",
+      "source": "Reuters IPO (Google News)",
+      "summary": "UN rights chief warns that more Iranians face execution over protests Reuters",
+      "llmComment": null,
+      "pubDate": "2026-02-27T09:06:41.000Z",
+      "score": 40,
+      "category": "💰 资本市场·其他",
+      "titleEn": null,
+      "titleZh": "联合国人权高级专员警告伊朗抗议者面临处决",
+      "isHot": false,
+      "paywalled": true
+    },
+    {
+      "rank": 61,
       "title": "U.S. Intel",
       "link": "https://stratechery.com/2025/u-s-intel/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3Utcy1pbnRlbC8iXX0sImV4cCI6MTc3NDg1NjgzNywiaWF0IjoxNzcyMjY0ODM3LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.YcKxoiN0eR9HPxijyXZ51BOl4Qhva-dHaVpFGZBpbbqlXZfb6vSTHvyER2FzuT7PnA92WrdX61evk5xGtBhObrHY80JGqa-rmmwqA8txvcsEAgfqtMU--0n8F9auIircBOPO8jNpJ46eg6m-PK86ZiSkrXKndBrGKY8KB42Ml1LDGGLIyR0SnxJG5K5qqzmNzNzV5XAXk5ABT8fqgDTG7ls7TEdQsoy_nYYyte7e4UQXkvVjqHoZ1md_3dYPj959l5H-G4sIMbW8JBg-TFwKhap9uHGagskRK5SZiFoz4_vuLQB3L2_b8Jk7whkdPt-pqmKwNc4jrOIZNdDhsh_V-g",
       "source": "Stratechery",
@@ -771,7 +921,7 @@
       "paywalled": false
     },
     {
-      "rank": 52,
+      "rank": 62,
       "title": "★ A Sometimes-Hidden Setting Controls What Happens When You Tap a Call in the iOS 26 Phone App",
       "link": "https://daringfireball.net/2026/02/sometimes_hidden_setting_phone_app",
       "source": "Daring Fireball",
@@ -786,7 +936,22 @@
       "paywalled": false
     },
     {
-      "rank": 53,
+      "rank": 63,
+      "title": "Cuba slams US for 'impunity' on speedboat attack suspects - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQmFhVWZVVmhpYVRhenNKNmNYMFpQbmVOT25oY0ZWY3diMlo2T0RxMUJDZGtxN2JId2hYeVJycFM3Z3A2dlBHVXdiQ3VWNHpQWkZoTHpON2o2aXNkd0F6SXItckNMVHc4Z1BhOE5OY3Rvb2NRejcwTjdxVDVtSzdtMEREUm5SQXRQdndISlZyNXhBXzNldzV5T0Q0MGpOM0IteWoyZ19IU3Frb3N1cC01OHpvZw?oc=5",
+      "source": "Reuters M&A (Google News)",
+      "summary": "Cuba slams US for 'impunity' on speedboat attack suspects Reuters",
+      "llmComment": null,
+      "pubDate": "2026-02-26T14:14:31.000Z",
+      "score": 36,
+      "category": "💰 资本市场·其他",
+      "titleEn": null,
+      "titleZh": "古巴批评美国对高速艇袭击嫌疑人处理不当",
+      "isHot": false,
+      "paywalled": true
+    },
+    {
+      "rank": 64,
       "title": "What is the Druzhba oil pipeline and why has it held up EU sanctions on Russia? - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNzB3U3NBSU5wTEJhcTFycndMMFlxR01rU1dkWGViUS1Gd1RaemsyYnh2SVY3dWVmOHU1cmxGZmpEM3hqaFZWd0k2X3FLeXIycU9la0tFb0IyenNaa0ZuQW5NZTlCeXBaM0wtUFhVNG1NWk1KQXVBRVF0UHU0eHJ2ZEZVWXVvcW5FazVoeF9mWm15UVNyQWZEb3RNRE44aksySnRzaUl2Z1dpejBYam81N1pNWlB2akNhNGw4?oc=5",
       "source": "Reuters Funding (Google News)",
@@ -801,7 +966,7 @@
       "paywalled": true
     },
     {
-      "rank": 54,
+      "rank": 65,
       "title": "Hungary's Orban asks EU to go verify Druzhba pipeline damage - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNX09JZWdpTHBINWRtdWFMdU0zQUs0QVgwdUdBX05LUG9YcXQwQWNPNzVxUzBKZW5qZHU0UTVoZkdQdzlhYnFCZ3ZFZXhhX21OUnloLWpqQ0p2ZEQ3dlpLWnNtQjkxdlVVbTMwRkFUOFA0OTNCQy1OdVlmel9sa2szWDVnTW1haGZsZjRuUUZyRnJQY0RJSFRBTDRoTHFtbTNPNUxQNTFscU4?oc=5",
       "source": "Reuters Funding (Google News)",
@@ -816,7 +981,7 @@
       "paywalled": true
     },
     {
-      "rank": 55,
+      "rank": 66,
       "title": "Bond Strength, Biocompatibility, and Beyond",
       "link": "https://content.knowledgehub.wiley.com/a-guide-to-selecting-adhesives-for-medical-device-applications",
       "source": "IEEE Spectrum",
@@ -831,7 +996,52 @@
       "paywalled": false
     },
     {
-      "rank": 56,
+      "rank": 67,
+      "title": "EU announces 63 million euros in humanitarian funding for Somalia - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTlIyNWN5TTc3NTdLRnIyemh3VFNqeUlsMDZJbGc5REx5MG9LX3dRWGdvUm5aX3d0VGVJRkh1WXN0N2ZyUHE1R3hrSkg0Q0hXUmx5OWFuVktBbHptUVF1d0VhQUJHR25SaUxhUjRDODZ2cktOMGRYbVZ0TGZxV3RyblI1R2hDdjJrdlhUV2xqWnd6eldSMDlCUXBRN2tFSV9IbW9aQ192alQzdDg?oc=5",
+      "source": "Reuters Funding (Google News)",
+      "summary": "EU announces 63 million euros in humanitarian funding for Somalia Reuters",
+      "llmComment": null,
+      "pubDate": "2026-02-26T13:51:19.000Z",
+      "score": 31,
+      "category": "💰 资本市场·其他",
+      "titleEn": null,
+      "titleZh": "欧盟宣布向索马里提供6300万欧元人道主义资金",
+      "isHot": false,
+      "paywalled": true
+    },
+    {
+      "rank": 68,
+      "title": "The 2025 Stratechery Year in Review",
+      "link": "https://stratechery.com/2025/the-2025-stratechery-year-in-review/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3RoZS0yMDI1LXN0cmF0ZWNoZXJ5LXllYXItaW4tcmV2aWV3LyJdfSwiZXhwIjoxNzc0ODU2ODM3LCJpYXQiOjE3NzIyNjQ4MzcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.ls8tSLitXDVQF0FJyhJv5jAMP0g-Hxw0xtAiMBBsAWHQlnX_gRwA_YV4pBy6Bvfj5ZtRPgL4WrOwGd-IUpUiPl_4j9DuWz9tcCWeReJWdRwceF0HC4f-1hVt_Q8G-ZWtAx-5PkBE68vp-JjjdYrZk-YbxAketfTj21JIuUPt6vqx7hBRgk17P2egsYS2gZpYo2CmleP1Wghm2F4MOKPNczLDaos82VOqEiswIi0a84DfGe4kgCRQdPiqJiaKZ2M2eNoFAu7ADpKo8fNDuQt-wEKdtwH3pHAjefvZl3Hdw5Vbis0gICn1RaYO6g_XoPizRdLULk5LHmVbfXDK8-rLCQ",
+      "source": "Stratechery",
+      "summary": "The most popular and most important posts on Stratechery in 2025.",
+      "llmComment": null,
+      "pubDate": "2025-12-18T11:00:00.000Z",
+      "score": 30,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "2025年Stratechery年度回顾",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 69,
+      "title": "Netflix and the Hollywood End Game",
+      "link": "https://stratechery.com/2025/netflix-and-the-hollywood-end-game/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L25ldGZsaXgtYW5kLXRoZS1ob2xseXdvb2QtZW5kLWdhbWUvIl19LCJleHAiOjE3NzQ4NTY4MzcsImlhdCI6MTc3MjI2NDgzNywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTljOTE4Ny0yMWUyLTcxZTQtYjdjYS0zYmM3Y2I5ZTcwNGYiLCJ1c2UiOiJhY2Nlc3MifQ.CoGnmdW6DRk3tWlzQHZHHRURmOPAq1FvxzvzZxsJ0_JMl3mMXwWnu6NMXzgKcD_UbKmqW0CWHczvRgOwWiYmZyZkFyEdD7Pb0j16KNzS5kyS34YR_Ay3AgUqJc4RwJGFiXwx93JwkppZGsbDXE-yeN-Ns7Pmah-p8G8lmex4imM6GGn5pWgcnhOunR23AfChpPaT5m__OCDmYmQt7MhWd9ggddjzeuzZMn9I1zI0FTvORTDRt4ojUMztSM7Ml3ff6Fnw_KAjTJY3X902y_FrlVq1DF8a4cEPnMFuyqJlaA9oHB6XTVu5cwVSDlHNeqiWbimfUEGc_ccxzxc1xRtq1g",
+      "source": "Stratechery",
+      "summary": "Netflix is driving the Hollywood end game, likely confident it can increase the value of IP, and fend off YouTube.",
+      "llmComment": null,
+      "pubDate": "2025-12-08T11:00:00.000Z",
+      "score": 30,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "网飞和好莱坞的终局",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 70,
       "title": "Apple: You (Still) Don't Understand the Vision Pro",
       "link": "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xODAzMyJdfSwiZXhwIjoxNzc0ODU2ODM3LCJpYXQiOjE3NzIyNjQ4MzcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.olDrkuOKW8x4UkUv12FWLJC56jn5HWyEtLfaWR4L_01Jjq1DDzcJtxMSa2s8sqJj649Qo4VeoaXZ5jGCkqV1NkBUzmNYUnuZafisUS39fYBcRLHcjApPFwPGtSmD-3S76ksxvdyUQr7HR2742lDMS0wgF3NgKyVuYc9hh5VPWAH58JYEY0g7t43IBsgzFfvLDe_PUd2Tzw6H0pfZSQKCVdRWFQVf7Kd8tgkmfuZ2pdBzf7iZqMNNb3wLQxD-Y_JIrRo6Ygq9rMcIIvhNDGj4MHwEVgLi-MqAvuXY2MssD1z76FtLd9Mi5cg3f_1eNuozgS1ru8Z2-jijpHXk6WTj-A&amp%3Bp=18033",
       "source": "Stratechery",
@@ -846,7 +1056,37 @@
       "paywalled": false
     },
     {
-      "rank": 57,
+      "rank": 71,
+      "title": "Elliott goes public on LSEG, calls for more action after record buyback - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOY0FxRlduM3FvcDhnUEhtemNDQWp6RTlLbG9USzJZWmhGcVZ6MkdfX1JzN1ppYnR3SUEtYi1CUG4yTG1uUzRfYkNoY2FtSzVhNzc1X0twaWFjdlItVzNsVEdlUGdfWWdHalN1X3Rrd2szQ0NTckpnN0NqSmRiYmNoYmh6ald5ZnYtX2JuSXpUR21mQkRMNVU4U0JsMnZJMnl2SzlJYkV1cnJiM29YQl9IYjVwOW1KOUxvbVBNeDZoVVFwbWhfZ2tuNHdJTnpjYmt3Z3c?oc=5",
+      "source": "Reuters Funding (Google News)",
+      "summary": "Elliott goes public on LSEG, calls for more action after record buyback Reuters",
+      "llmComment": null,
+      "pubDate": "2026-02-27T07:19:00.000Z",
+      "score": 29,
+      "category": "📈 股权融资",
+      "titleEn": null,
+      "titleZh": "埃利奥特公开要求LSEG采取更多行动",
+      "isHot": false,
+      "paywalled": true
+    },
+    {
+      "rank": 72,
+      "title": "tldraw issue: Move tests to closed source repo",
+      "link": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
+      "source": "Simon Willison",
+      "summary": "tldraw issue: Move tests to closed source repo It's become very apparent over the past few months that a comprehensive test suite is enough to build a completely fresh implementation of any open source library from scratch, potentially in a different language. This has worrying implications for open",
+      "llmComment": null,
+      "pubDate": "2026-02-25T21:06:53.000Z",
+      "score": 28,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "tldraw问题：移动测试到闭源仓库",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 73,
       "title": "This Startup Makes Access to Rehabilitation Facilities Easier",
       "link": "https://spectrum.ieee.org/carenector-health-care-startup",
       "source": "IEEE Spectrum",
@@ -861,7 +1101,22 @@
       "paywalled": false
     },
     {
-      "rank": 58,
+      "rank": 74,
+      "title": "New Path to Battery-Grade Lithium Uses Electrochemistry",
+      "link": "https://spectrum.ieee.org/mangrove-lithium-refining-ev-bottleneck",
+      "source": "IEEE Spectrum",
+      "summary": "As electric vehicles roll off assembly lines, a bottleneck sits upstream: lithium refinement. T urning raw lithium into the compounds needed for batteries is expensive, messy, and energy-intensive, but Mangrove Lithium , a Vancouver-based startup, has a better way. The company has developed an elect",
+      "llmComment": null,
+      "pubDate": "2026-02-26T17:00:03.000Z",
+      "score": 28,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "电化学制备电池级锂的新方法",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 75,
       "title": "America was winning the race to find Martian life. Then China jumped in.",
       "link": "https://www.technologyreview.com/2026/02/26/1133584/america-china-mars-sample-return-space-race-nasa",
       "source": "MIT Technology Review",
@@ -876,7 +1131,22 @@
       "paywalled": false
     },
     {
-      "rank": 59,
+      "rank": 76,
+      "title": "Jimi Hendrix Was a Systems Engineer",
+      "link": "https://spectrum.ieee.org/jimi-hendrix-systems-engineer",
+      "source": "IEEE Spectrum",
+      "summary": "3 February 1967 is a day that belongs in the annals of music history. It’s the day that Jimi Hendrix entered London’s Olympic Studios to record a song using a new component. The song was “ Purple Haze ,” and the component was the Octavia guitar pedal, created for Hendrix by sound engineer Roger Maye",
+      "llmComment": null,
+      "pubDate": "2026-02-25T15:39:03.000Z",
+      "score": 24,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "吉米·亨德里克斯是一名系统工程师",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 77,
       "title": "How to Block the ‘Upgrade to Tahoe’ Alerts and System Settings Indicator",
       "link": "https://robservatory.com/block-the-upgrade-to-tahoe-alerts-and-system-settings-indicator",
       "source": "Daring Fireball",
@@ -891,7 +1161,22 @@
       "paywalled": false
     },
     {
-      "rank": 60,
+      "rank": 78,
+      "title": "Revealing a key protein behind heart disease",
+      "link": "https://deepmind.google/blog/revealing-a-key-protein-behind-heart-disease",
+      "source": "Google DeepMind Blog",
+      "summary": "AlphaFold has revealed the structure of a key protein behind heart disease",
+      "llmComment": null,
+      "pubDate": "2025-11-25T15:52:51.000Z",
+      "score": 20,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "揭示心脏病的关键蛋白",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 79,
       "title": "Gemini 3 Flash: frontier intelligence built for speed",
       "link": "https://deepmind.google/blog/gemini-3-flash-frontier-intelligence-built-for-speed",
       "source": "Google DeepMind Blog",
@@ -906,7 +1191,7 @@
       "paywalled": false
     },
     {
-      "rank": 61,
+      "rank": 80,
       "title": "AlphaFold: Five years of impact",
       "link": "https://deepmind.google/blog/alphafold-five-years-of-impact",
       "source": "Google DeepMind Blog",
@@ -921,7 +1206,7 @@
       "paywalled": false
     },
     {
-      "rank": 62,
+      "rank": 81,
       "title": "Veo 3.1 Ingredients to Video: More consistency, creativity and control",
       "link": "https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control",
       "source": "Google DeepMind Blog",
@@ -936,7 +1221,7 @@
       "paywalled": false
     },
     {
-      "rank": 63,
+      "rank": 82,
       "title": "Google's year in review: 8 areas with research breakthroughs in 2025",
       "link": "https://deepmind.google/blog/googles-year-in-review-8-areas-with-research-breakthroughs-in-2025",
       "source": "Google DeepMind Blog",
@@ -951,7 +1236,37 @@
       "paywalled": false
     },
     {
-      "rank": 64,
+      "rank": 83,
+      "title": "iPhone and iPad Approved to Handle Classified NATO Information",
+      "link": "https://nr.apple.com/Do0I6B8WX0",
+      "source": "Daring Fireball",
+      "summary": "Apple Newsroom: Today, Apple announced iPhone and iPad are the first and only consumer devices in compliance with the information assurance requirements of NATO nations. This enables iPhone and iPad to be used with classified information up to the NATO restricted level without requiring special soft",
+      "llmComment": null,
+      "pubDate": "2026-02-26T21:42:15.000Z",
+      "score": 17,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "iPhone和iPad获批处理北约机密信息",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 84,
+      "title": "Microsoft Adds Additional Markdown Features to Windows Notepad",
+      "link": "https://blogs.windows.com/windows-insider/2026/01/21/notepad-and-paint-updates-begin-rolling-out-to-windows-insiders",
+      "source": "Daring Fireball",
+      "summary": "Still feels a bit ridiculous to me that Markdown is now an editing mode in Notepad. ★ ]]>",
+      "llmComment": null,
+      "pubDate": "2026-02-26T17:50:08.000Z",
+      "score": 16,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "微软为Windows记事本添加更多Markdown功能",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 85,
       "title": "Nobody knows how large software products work",
       "link": "https://seangoedecke.com/nobody-knows-how-software-products-work",
       "source": "Sean Goedecke",
@@ -966,7 +1281,7 @@
       "paywalled": false
     },
     {
-      "rank": 65,
+      "rank": 86,
       "title": "How good engineers write bad code at big companies",
       "link": "https://seangoedecke.com/bad-code-at-big-companies",
       "source": "Sean Goedecke",
@@ -981,7 +1296,7 @@
       "paywalled": false
     },
     {
-      "rank": 66,
+      "rank": 87,
       "title": "Links for July",
       "link": "https://dynomight.net/links-3",
       "source": "dynomight",
@@ -996,7 +1311,7 @@
       "paywalled": false
     },
     {
-      "rank": 67,
+      "rank": 88,
       "title": "Do blue-blocking glasses improve sleep?",
       "link": "https://dynomight.net/blue-light",
       "source": "dynomight",
@@ -1011,7 +1326,7 @@
       "paywalled": false
     },
     {
-      "rank": 68,
+      "rank": 89,
       "title": "How the U.S. Became A Science Superpower",
       "link": "https://steveblank.com/2025/04/15/how-the-u-s-became-a-science-superpower",
       "source": "Steve Blank",
@@ -1026,7 +1341,7 @@
       "paywalled": false
     },
     {
-      "rank": 69,
+      "rank": 90,
       "title": "How Saboteurs Threaten Innovation–and What to Do About It",
       "link": "https://steveblank.com/2024/10/08/how-saboteurs-threaten-innovation-and-what-to-do-about-it",
       "source": "Steve Blank",
@@ -1041,7 +1356,7 @@
       "paywalled": false
     },
     {
-      "rank": 70,
+      "rank": 91,
       "title": "Software engineers should be a little bit cynical",
       "link": "https://seangoedecke.com/a-little-bit-cynical",
       "source": "Sean Goedecke",
@@ -1056,7 +1371,7 @@
       "paywalled": false
     },
     {
-      "rank": 71,
+      "rank": 92,
       "title": "You can't design software you don't work on",
       "link": "https://seangoedecke.com/you-cant-design-software-you-dont-work-on",
       "source": "Sean Goedecke",
@@ -1071,7 +1386,7 @@
       "paywalled": false
     },
     {
-      "rank": 72,
+      "rank": 93,
       "title": "New colors without shooting lasers into your eyes",
       "link": "https://dynomight.net/colors",
       "source": "dynomight",
@@ -1086,7 +1401,7 @@
       "paywalled": false
     },
     {
-      "rank": 73,
+      "rank": 94,
       "title": "My 9-week unprocessed food self-experiment",
       "link": "https://dynomight.net/unprocessed-food",
       "source": "dynomight",
@@ -1101,7 +1416,7 @@
       "paywalled": false
     },
     {
-      "rank": 74,
+      "rank": 95,
       "title": "Hacking for Defense @ Stanford 2025 – Lessons Learned Presentations",
       "link": "https://steveblank.com/2025/06/17/hacking-for-defense-stanford-2025-lessons-learned-presentations",
       "source": "Steve Blank",
@@ -1116,7 +1431,7 @@
       "paywalled": false
     },
     {
-      "rank": 75,
+      "rank": 96,
       "title": "How the United States Gave Up Being a Science Superpower",
       "link": "https://steveblank.com/2025/05/13/how-the-united-states-became-a-science-superpower-and-how-quickly-it-could-crumble",
       "source": "Steve Blank",
