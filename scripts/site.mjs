@@ -461,7 +461,56 @@ function buildSpaHtml() {
     }
 
     /* ── Podcast panel ── */
-    #podcast-panel { display: none; }
+    #podcast-panel { display: none; height: calc(100vh - 44px); overflow: hidden; }
+    #pod-layout    { display: flex; height: 100%; }
+
+    /* ── Sidebar (contact-list style) ── */
+    #pod-sidebar {
+      width: 200px; flex-shrink: 0;
+      border-right: 1px solid var(--border);
+      overflow-y: auto; padding: 0.3rem 0;
+      background: var(--surface);
+    }
+    #pod-list { flex: 1; overflow-y: auto; }
+
+    .pod-sb-hdr {
+      font-size: 0.62rem; font-weight: 600; color: var(--muted);
+      text-transform: uppercase; letter-spacing: 0.07em;
+      padding: 0.75rem 12px 0.25rem;
+    }
+    .pod-sb-divider { height: 1px; background: var(--border); margin: 4px 0; }
+    .pod-sb-item {
+      display: flex; align-items: center; gap: 9px;
+      padding: 7px 10px; cursor: pointer;
+      border-left: 2px solid transparent;
+      transition: background 0.1s, border-color 0.1s;
+    }
+    .pod-sb-item:hover  { background: var(--bg); }
+    .pod-sb-item.active { background: var(--bg); border-left-color: var(--text); }
+    .pod-sb-art {
+      width: 34px; height: 34px; border-radius: 50%;
+      object-fit: cover; flex-shrink: 0;
+    }
+    .pod-sb-ph {
+      width: 34px; height: 34px; border-radius: 50%; flex-shrink: 0;
+      background: var(--border); display: flex; align-items: center;
+      justify-content: center; font-size: 0.85rem;
+    }
+    .pod-sb-info { flex: 1; min-width: 0; }
+    .pod-sb-name {
+      font-size: 0.74rem; font-weight: 500; color: var(--text-sub);
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .pod-sb-item.has-today .pod-sb-name { color: var(--text); font-weight: 650; }
+    .pod-today-dot {
+      width: 7px; height: 7px; border-radius: 50%;
+      background: var(--sig-hi); flex-shrink: 0;
+    }
+    @media (max-width: 600px) {
+      #pod-sidebar { width: 56px; }
+      .pod-sb-name, .pod-sb-hdr, .pod-sb-divider { display: none; }
+      .pod-sb-item { justify-content: center; padding: 8px 0; }
+    }
 
     /* Timeline (chat-bubble style) */
     .pod-timeline { max-width: 680px; margin: 0 auto; padding: 1rem 1rem 3rem; display: flex; flex-direction: column; gap: 1.4rem; }
@@ -591,7 +640,10 @@ function buildSpaHtml() {
 
 <!-- ── Podcast panel (hidden by default) ── -->
 <div id="podcast-panel">
-  <div id="pod-list"></div>
+  <div id="pod-layout">
+    <nav id="pod-sidebar"></nav>
+    <div id="pod-list"></div>
+  </div>
 </div>
 
 <script>
@@ -982,13 +1034,15 @@ async function init() {
 const tabNews      = document.getElementById('tab-news');
 const tabPodcast   = document.getElementById('tab-podcast');
 const podcastPanel = document.getElementById('podcast-panel');
+const podSidebar   = document.getElementById('pod-sidebar');
 const podList      = document.getElementById('pod-list');
 const newsControls = document.getElementById('news-controls');
 const newsBodyEls  = [document.querySelector('.split-layout')].filter(Boolean);
 
-let podLoaded = false;
-let podMode   = false;
-let podData   = null;   // { shows, episodes }
+let podLoaded      = false;
+let podMode        = false;
+let podData        = null;      // { shows, episodes }
+let activeSbId     = 'timeline'; // 'timeline' | showId
 
 function todayLocalYmd() {
   const d = new Date();
@@ -1041,31 +1095,91 @@ function bubbleHtml(ep, shows) {
     + '</div></div>';
 }
 
-function renderTimeline() {
+// ── Sidebar ────────────────────────────────────────────────────────────────────
+function updateSidebarActive() {
+  if (!podSidebar) return;
+  podSidebar.querySelectorAll('.pod-sb-item').forEach(el => {
+    const elId = el.dataset.show ?? (el.id === 'pod-sb-today' ? 'timeline' : null);
+    el.classList.toggle('active', elId === activeSbId);
+  });
+}
+
+function renderSidebar(todayShowIds) {
+  if (!podSidebar) return;
+  const { shows } = podData;
+  const todayCount = todayShowIds.size;
+
+  // Sort: today's first (by name), then rest (by name)
+  const sorted = [...shows].sort((a, b) => {
+    const at = todayShowIds.has(a.id) ? 0 : 1;
+    const bt = todayShowIds.has(b.id) ? 0 : 1;
+    return at - bt || a.name.localeCompare(b.name);
+  });
+
+  const todayItem = '<div class="pod-sb-item" id="pod-sb-today">'
+    + '<div class="pod-sb-ph">📋</div>'
+    + '<div class="pod-sb-info"><div class="pod-sb-name">今日更新</div></div>'
+    + (todayCount ? '<span class="pod-today-dot"></span>' : '')
+    + '</div>';
+
+  const showItems = sorted.map(s => {
+    const hasToday = todayShowIds.has(s.id);
+    const img = s.art
+      ? \`<img class="pod-sb-art" src="\${s.art}" loading="lazy" alt="">\`
+      : '<div class="pod-sb-ph">🎙️</div>';
+    return \`<div class="pod-sb-item\${hasToday ? ' has-today' : ''}" data-show="\${s.id}">\`
+      + img
+      + \`<div class="pod-sb-info"><div class="pod-sb-name">\${s.name}</div></div>\`
+      + (hasToday ? '<span class="pod-today-dot"></span>' : '')
+      + '</div>';
+  }).join('');
+
+  podSidebar.innerHTML = todayItem
+    + '<div class="pod-sb-divider"></div>'
+    + (todayCount ? '<div class="pod-sb-hdr">今日有更新</div>' : '<div class="pod-sb-hdr">所有节目</div>')
+    + showItems;
+
+  podSidebar.querySelector('#pod-sb-today')?.addEventListener('click', () => {
+    activeSbId = 'timeline';
+    updateSidebarActive();
+    renderTimeline(/* fromSidebar */ true);
+  });
+  podSidebar.querySelectorAll('[data-show]').forEach(el => {
+    el.addEventListener('click', () => {
+      activeSbId = el.dataset.show;
+      updateSidebarActive();
+      renderChannel(el.dataset.show, /* fromSidebar */ true);
+    });
+  });
+  updateSidebarActive();
+}
+
+// ── Main + Channel views ───────────────────────────────────────────────────────
+function renderTimeline(fromSidebar) {
+  activeSbId = 'timeline';
+  if (!fromSidebar) updateSidebarActive();
+
   const { shows, episodes } = podData;
   const today    = todayLocalYmd();
   const todayEps = episodes.filter(ep => epLocalYmd(ep) === today);
 
   if (!todayEps.length) {
-    const chips = shows.map(s =>
-      '<div class="pod-show-chip" data-show="' + s.id + '">'
-      + (s.art ? \`<img class="pod-chip-art" src="\${s.art}" loading="lazy" alt="">\` : '🎙️')
-      + \`<span>\${s.name}</span></div>\`
-    ).join('');
     podList.innerHTML = '<div class="pod-timeline">'
-      + '<div class="pod-status">今日暂无新节目</div>'
-      + \`<div class="pod-show-grid">\${chips}</div>\`
+      + '<div class="pod-status">今日暂无新节目 — 点击左侧频道查看历史</div>'
       + '</div>';
   } else {
     podList.innerHTML = '<div class="pod-timeline">'
       + \`<div class="pod-day-label">今日更新 · \${today}</div>\`
       + todayEps.map(ep => bubbleHtml(ep, shows)).join('')
       + '</div>';
+    bindAvatarClicks();
   }
-  bindAvatarClicks();
 }
 
-function renderChannel(showId) {
+function renderChannel(showId, fromSidebar) {
+  activeSbId = showId;
+  if (!fromSidebar) updateSidebarActive();
+
   const { shows, episodes } = podData;
   const show = shows.find(s => s.id === showId);
   if (!show) return;
@@ -1075,7 +1189,6 @@ function renderChannel(showId) {
     : '<div class="pod-chan-art" style="background:var(--border);display:flex;align-items:center;justify-content:center;font-size:1.3rem">🎙️</div>';
   podList.innerHTML = '<div class="pod-channel-wrap">'
     + '<div class="pod-channel-hdr">'
-    + '<button class="pod-back" id="pod-back">← 返回</button>'
     + artHtml
     + \`<div><div class="pod-chan-name">\${show.name}</div><div class="pod-chan-cat">\${show.category ?? ''}</div></div>\`
     + '</div>'
@@ -1088,7 +1201,6 @@ function renderChannel(showId) {
         + '</a>'
       ).join('')
     + '</div></div>';
-  document.getElementById('pod-back')?.addEventListener('click', renderTimeline);
 }
 
 function bindAvatarClicks() {
@@ -1105,7 +1217,10 @@ async function loadPodcasts() {
     podData = await r.json();
     if (!podData.shows) podData.shows = [];
     podLoaded = true;
-    renderTimeline();
+    const today = todayLocalYmd();
+    const todayShowIds = new Set(podData.episodes.filter(ep => epLocalYmd(ep) === today).map(ep => ep.showId));
+    renderSidebar(todayShowIds);
+    renderTimeline(true);
   } catch (e) {
     podList.innerHTML = \`<div class="pod-timeline"><div class="pod-status">加载失败 — \${e.message}</div></div>\`;
   }
