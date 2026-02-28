@@ -250,10 +250,12 @@ Output:`;
         if (content.includes(" | ")) {
           // 模糊标题：改写英文 | 中文翻译
           const [en, zh] = content.split(" | ").map(s => s.trim());
-          // 基础校验：中文译文不为空且长度合理
-          if (zh && zh.length >= 2 && zh.length <= 60) {
-            articles[globalIdx].titleEn = en || articles[globalIdx].titleEn;
+          const zhOk = zh && zh.length >= 2 && zh.length <= 60 && /[\u4e00-\u9fff]/.test(zh);
+          const enOk = en && !/[\u4e00-\u9fff]/.test(en); // 英文改写中不应含中文字符
+          if (zhOk) {
             articles[globalIdx].titleZh = zh;
+            if (enOk) articles[globalIdx].titleEn = en;
+            // else: LLM 误将中文放入 en 位置，只保留 zh，titleEn 保持原值（或不设）
           } else {
             mismatchCount++;
           }

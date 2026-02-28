@@ -154,10 +154,47 @@ function assignCategory(source, article) {
   return "📰 其他";
 }
 
-// ─── 话题热度检测 ──────────────────────────────────────────────────────────────
+// ─── 标题指纹与故事相似度 ──────────────────────────────────────────────────────
 
 const HOT_THRESHOLD        = 2;  // 至少被几个不同来源报道才触发聚合
 const CLUSTER_BONUS_SOURCE = 8;  // 每多一个来源报道，代表文章额外加分
+
+// 标题相似度比较时过滤掉的高频噪词
+const STORY_STOPWORDS = new Set([
+  "the", "this", "that", "with", "from", "into", "they", "their",
+  "have", "will", "been", "what", "when", "where", "which", "about",
+  "after", "says", "said", "more", "over", "than", "could", "would",
+  "report", "reports", "update", "updates", "latest", "news",
+  "amid", "week", "year", "back", "also", "just", "some", "says",
+  "plan", "plans", "make", "made", "take", "took", "look", "here",
+]);
+
+/**
+ * 将标题规范化为词列表（用于跨来源相似度比较）
+ *   - 金额归一化：$110B / $110 billion → "110b"；$250M / $250 million → "250m"
+ *   - 去除所有格 's
+ *   - 过滤停用词和极短词（< 4 字符）
+ */
+function titleFingerprint(title) {
+  return (title ?? "")
+    .toLowerCase()
+    .replace(/'s\b/g, "")
+    .replace(/\$?([\d,.]+)\s*[Bb](?:illion|n)?\b/g, (_, n) => n.replace(/,/g, "") + "b")
+    .replace(/\$?([\d,.]+)\s*[Mm](?:illion|n)?\b/g, (_, n) => n.replace(/,/g, "") + "m")
+    .replace(/[^a-z0-9\s]/g, " ")
+    .split(/\s+/)
+    .filter(w => w.length >= 4 && !STORY_STOPWORDS.has(w));
+}
+
+/**
+ * 判断两个标题是否报道同一故事（共享 >= minShared 个有意义词元）
+ */
+function sameStory(t1, t2, minShared = 2) {
+  const f1 = new Set(titleFingerprint(t1));
+  if (f1.size === 0) return false;
+  const shared = titleFingerprint(t2).filter(w => f1.has(w)).length;
+  return shared >= minShared;
+}
 
 /**
  * 统计每个关键词被多少个不同来源提到，返回热门关键词 → 来源集合 的 Map
@@ -184,45 +221,42 @@ function detectHotTopics(articles, keywords) {
 /**
  * 故事聚合去重
  *
- * 流程：
- *   1. 将文章按共享热词分组（同一"故事"的不同媒体报道）
- *   2. 每组只保留得分最高的代表文章
- *   3. 代表文章得分 += (同组来源数 - 1) × CLUSTER_BONUS_SOURCE
- *      → 多家媒体齐报是新闻重要性的信号，应当提权
- *   4. 非热门文章（不含热词）不参与聚合，直接保留
+ * 双重聚合策略：
+ *   1. 标题相似度（主要）— 共享 ≥2 个有意义词元即视为同一故事
+ *      → 覆盖未在 scoring.keywords 中列出的实体（如 "openai"、"billion" 等）
+ *   2. 热词重叠（辅助）— 延续旧逻辑，兜底处理泛关键词场景
+ *
+ * 每组只保留得分最高的代表文章，多来源报道转化为加分（isHot 信号）。
  *
  * @param {Array}  articles     已完成初步打分的文章数组
  * @param {Set}    hotKeywords  detectHotTopics 返回的热词集合
  * @returns {Array} 去重后的文章数组（每个故事最多一篇）
  */
 function clusterAndDedup(articles, hotKeywords) {
-  if (hotKeywords.size === 0) return articles;
-
   const hotArr = [...hotKeywords];
 
-  // 给每篇文章标注命中了哪些热词
+  // 给每篇文章标注命中了哪些热词（保留兜底热词逻辑）
   const tagged = articles.map(a => {
     const hay = `${a.title} ${a.summary}`.toLowerCase();
     const hits = hotArr.filter(kw => hay.includes(kw));
     return { ...a, _hotHits: hits };
   });
 
-  const clusters  = []; // { hotKws: Set, articles: [] }
-  const coldList  = []; // 不含热词的文章，直接保留
+  const clusters = []; // { hotKws: Set, articles: [] }
 
   for (const article of tagged) {
-    if (article._hotHits.length === 0) {
-      coldList.push(article);
-      continue;
-    }
-    // 找到与本文有热词重叠的已有聚类
+    // 寻找可以合并的已有聚类：热词重叠 OR 标题相似
     let target = null;
     for (const cluster of clusters) {
-      if (article._hotHits.some(kw => cluster.hotKws.has(kw))) {
+      const hotOverlap   = article._hotHits.length > 0 &&
+                           article._hotHits.some(kw => cluster.hotKws.has(kw));
+      const titleSimilar = cluster.articles.some(ca => sameStory(article.title, ca.title));
+      if (hotOverlap || titleSimilar) {
         target = cluster;
         break;
       }
     }
+
     if (target) {
       target.articles.push(article);
       article._hotHits.forEach(kw => target.hotKws.add(kw));
@@ -232,28 +266,30 @@ function clusterAndDedup(articles, hotKeywords) {
   }
 
   // 每个聚类：选代表 + 计算加分
-  const representatives = clusters.map(cluster => {
-    cluster.articles.sort((a, b) => b.score - a.score);
-    const best        = cluster.articles[0];
-    const uniqueSrcs  = new Set(cluster.articles.map(a => a.sourceName)).size;
-    const bonus       = (uniqueSrcs - 1) * CLUSTER_BONUS_SOURCE;
-    const isHot       = uniqueSrcs >= HOT_THRESHOLD;
-
-    if (uniqueSrcs > 1) {
-      console.log(
-        `  📰 故事聚合: "${best.title.slice(0, 55)}…" ` +
-        `(${uniqueSrcs} 个来源, +${bonus}分)`
-      );
+  const result = [];
+  for (const cluster of clusters) {
+    if (cluster.articles.length === 1) {
+      // 单篇，无需聚合
+      const { _hotHits, ...rest } = cluster.articles[0];
+      result.push(rest);
+      continue;
     }
 
-    // 清理临时字段
-    const { _hotHits, ...rest } = best;
-    return { ...rest, score: best.score + bonus, isHot };
-  });
+    cluster.articles.sort((a, b) => b.score - a.score);
+    const best       = cluster.articles[0];
+    const uniqueSrcs = new Set(cluster.articles.map(a => a.sourceName)).size;
+    const bonus      = (uniqueSrcs - 1) * CLUSTER_BONUS_SOURCE;
 
-  // 清理冷文章的临时字段
-  const cold = coldList.map(({ _hotHits, ...rest }) => rest);
-  return [...cold, ...representatives];
+    console.log(
+      `  📰 故事聚合: "${best.title.slice(0, 55)}…" ` +
+      `(${uniqueSrcs} 个来源, +${bonus}分)`
+    );
+
+    const { _hotHits, ...rest } = best;
+    result.push({ ...rest, score: best.score + bonus, isHot: uniqueSrcs >= HOT_THRESHOLD });
+  }
+
+  return result;
 }
 
 /**
@@ -294,13 +330,13 @@ export function rankArticles(articles, sources, scoring) {
     return { ...article, score: rawScore, category };
   });
 
-  // ── Step 3: 检测热词 ──────────────────────────────────────────────────────
+  // ── Step 3: 检测热词（辅助聚合信号）──────────────────────────────────────
   const hotKeywords = detectHotTopics(scored, keywords);
   if (hotKeywords.size > 0) {
     console.log(`  🔥 热门话题（${HOT_THRESHOLD}+ 来源报道）: ${[...hotKeywords].join(" · ")}`);
   }
 
-  // ── Step 4: 故事聚合去重 ─────────────────────────────────────────────────
+  // ── Step 4: 故事聚合去重（标题相似度 + 热词双重策略）────────────────────
   const deduped = clusterAndDedup(scored, hotKeywords);
 
   // ── Step 5: 来源多样性控制（每来源最多 maxPerSource 篇）────────────────────
