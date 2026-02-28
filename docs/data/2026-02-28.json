@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-02-28",
     "topN": 5,
-    "total": 19
+    "total": 30
   },
   "articles": [
     {
@@ -11,7 +11,7 @@
       "link": "https://www.cnbc.com/2026/02/27/openai-strikes-deal-with-pentagon-hours-after-rival-anthropic-was-blacklisted-by-trump.html",
       "source": "CNBC Technology",
       "summary": "OpenAI CEO Sam Altman said on X that his company has come to terms with the Defense Department for use of its models.",
-      "llmComment": "OpenAI是一家领先的AI研究和开发公司，最近与美国国防部达成协议，允许后者使用其AI模型。这种合作可能会促进AI技术在国防领域的应用，尤其是在数据分析和决策支持方面，与现有的传统解决方案相比，OpenAI的AI模型可能提供更高的准确性和效率。这种合作可能会对芯片和云计算供应商产生积极影响，因为他们可能需要为OpenAI的AI模型提供更强大的计算能力和存储支持，但尚待观察这种合作会如何影响竞争对手Anthropic和其他AI公司。同时，OpenAI的AI模型在实际应用中可能会面临数据安全和伦理方面的挑战和风险。",
+      "llmComment": "OpenAI是一家领先的AI研究公司，最近与美国国防部达成协议，允许后者使用其AI模型。这种合作可能会让OpenAI的技术在国防领域得到应用和验证，与现有的AI解决方案相比，OpenAI的模型可能具有更强的学习和适应能力，从而在复杂任务中表现出色。这种合作可能会对整个AI产业链产生影响，包括芯片制造商、云服务提供商和应用开发者，因为他们可能需要适应OpenAI的技术标准。然而，尚待观察的是，这种合作会面临哪些监管和安全挑战，因为AI技术在国防领域的应用可能会引发新的伦理和安全问题。",
       "pubDate": "2026-02-28T04:25:34.000Z",
       "score": 165,
       "category": "🤖 AI & 研究",
@@ -25,8 +25,8 @@
       "title": "Croatia declared free of landmines after 31 years",
       "link": "https://glashrvatske.hrt.hr/en/domestic/croatia-declared-free-of-landmines-after-31-years-12593533",
       "source": "Hacker News",
-      "summary": "Article URL: https://glashrvatske.hrt.hr/en/domestic/croatia-declared-free-of-landmines-after-31-years-12593533 Comments URL: https://news.ycombinator.com/item?id=47189535 Points: 287 # Comments: 54",
-      "llmComment": "克罗地亚近日宣布该国已经摆脱了31年的雷区威胁，这一成就主要归功于克罗地亚政府和相关组织的不懈努力，以及采用先进的探测和清除技术。然而，这一新闻似乎与科技和投资领域没有直接关联，更多的是一个国家安全和人道主义领域的成就。尚待观察这一事件对克罗地亚的经济和社会发展可能产生的间接影响。从更广泛的角度来看，探测和清除雷区的技术进步可能会对相关领域的公司或项目带来投资机会，但具体的影响尚待进一步分析。总体而言，这一事件更多地体现了人道主义和国家安全领域的成就。",
+      "summary": "Article URL: https://glashrvatske.hrt.hr/en/domestic/croatia-declared-free-of-landmines-after-31-years-12593533 Comments URL: https://news.ycombinator.com/item?id=47189535 Points: 292 # Comments: 54",
+      "llmComment": "克罗地亚是一個位于东欧的国家，经过31年的努力，终于宣布自己已经清除所有陆地雷。这个消息主要反映的是克罗地亚在安全和人道主义方面的成就，而不是一笔交易或商业事件。因此，尚待观察其对行业竞争格局的影响，因为原文未披露相关信息。从人道主义角度来说，这一成就对克罗地亚的安全环境和民众生活有着积极影响，但具体的经济效益和商业机会尚待进一步分析。",
       "pubDate": "2026-02-28T02:48:16.000Z",
       "score": 59,
       "category": "🌐 社区",
@@ -41,7 +41,7 @@
       "link": "https://www.cnbc.com/2026/02/27/smartphone-market-poised-for-sharpest-decline-on-record-in-2026-according-to-reports-memory-chip-data-center-ai-samsung-apple-google-meta.html",
       "source": "CNBC Technology",
       "summary": "Two recent reports predict further declines in the smartphone market in 2026, as dwindling memory supplies continue to drive up prices of consumer electronics.",
-      "llmComment": "智能手机市场的领军者正面临着前所未有的挑战，因为两份最新报告预测2026年智能手机市场将会经历有记录以来最剧烈的下滑。这种下滑的核心原因在于内存供应不足，这导致消费电子产品的价格持续上涨，从而影响了智能手机的销量。潜在的市场机会在于那些能够找到成本控制和创新设计的公司，它们可能会在这个困难时期脱颖而出，但同时也面临来自其他电子设备的竞争威胁，如平板电脑和可穿戴设备。尚待观察的是，智能手机市场是否能够通过技术创新和市场策略来逆转这一趋势。",
+      "llmComment": "智能手机市场的龙头企业正面临着前所未有的挑战，因为2026年的智能手机市场预计将会经历有记录以来最大的下滑。这种下滑的主要原因是内存供应不足，这导致了消费电子产品的价格大幅上涨，从而影响了整个智能手机市场的销售。这种情况下，具有核心技术和供应链优势的企业可能会凭借差异化的产品和策略脱颖而出，但具体的市场机会和竞争威胁尚待观察。值得注意的是，内存供应的恢复和新技术的出现可能会成为智能手机市场走出低迷的关键信号，但这些因素的发展尚待进一步观察。",
       "pubDate": "2026-02-27T11:43:50.000Z",
       "score": 58,
       "category": "💻 泛科技",
@@ -56,7 +56,7 @@
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNUpzR00xbE50U1lGMExjWkpaQXNIQlJyN3dHNEJKak1SQjJ1NFRia0ZtaHNiSU9qNFZRbFBTNGd2ekNmUm40VDhicXQtYUM0ZzhIV3ZJUDc4THo1UFh2T2JwZkt2OUplUTFCM1N0OXQxUzdTUDhTdU83UUoyT1JES2R1Z0E3UmcyOUMtNmZXQUl3a2txd0ItZktueDI1bk16cUZuVC1fUVltSFgxVDBTRkUxQ21CLUJ5MkxR?oc=5",
       "source": "Reuters IPO (Google News)",
       "summary": "CoreWeave shares slump as doubling capital expenditure sparks margin concerns Reuters",
-      "llmComment": "CoreWeave是一家提供云计算和人工智能解决方案的公司，最近宣布将其资本支出翻倍，这一举动引发了人们对其利润率的担忧。这种战略性举动可能是为了扩大其市场份额和提高技术壁垒，但同时也可能导致短期内的成本增加和利润率下降。这种举动可能会对行业竞争格局产生影响，其他公司可能会面临更大的竞争压力，而CoreWeave可能会在长期内受益于扩张带来的规模效应。然而，尚待观察的是CoreWeave如何平衡其扩张战略和利润率的关系，若能成功管理，可能会带来长期的增长机会，但若管理不善，可能会面临持续的利润压力。",
+      "llmComment": "CoreWeave是一家提供云计算服务的公司，近期宣布将其资本支出翻倍，这一举动引发了投资者的担忧，导致其股价下跌。这个决定的核心逻辑可能是为了扩大服务能力和提高市场份额，但也可能会对公司的利润率造成压力。这种情况可能会对行业竞争格局产生影响，其他云计算服务提供商可能会受益于CoreWeave的扩张计划，但也可能面临更激烈的竞争。尚待观察的是，这种扩张是否能够带来长期的增长和利润，还是会导致公司的财务状况恶化。",
       "pubDate": "2026-02-27T13:16:24.000Z",
       "score": 57,
       "category": "💰 资本市场·其他",
@@ -71,7 +71,7 @@
       "link": "https://dspace.networks.imdea.org/handle/20.500.12761/2011",
       "source": "Hacker News",
       "summary": "Article URL: https://dspace.networks.imdea.org/handle/20.500.12761/2011 Comments URL: https://news.ycombinator.com/item?id=47191844 Points: 24 # Comments: 3",
-      "llmComment": "Inferring car movement patterns from passive TPMS measurements 这个项目主要是通过被动轮胎压力监测系统（TPMS）来推断汽车的运动模式。这个项目的核心逻辑在于利用现有的TPMS数据来分析汽车的行驶习惯和模式，这可能会为汽车制造商、交通管理部门和保险公司等提供有价值的数据资产。这种技术可能会对交通管理和汽车保险行业产生影响，相关企业可能会受益于这些数据。然而，尚待观察的是，这种技术的准确性和实用性如何，以及是否会对现有的交通监测系统产生冲击。",
+      "llmComment": "Inferring car movement patterns from passive TPMS measurements 这个项目主要是通过被动轮胎压力监测系统（TPMS）来推断汽车运动模式。这个项目的核心逻辑在于利用现有的TPMS数据来分析汽车的行驶习惯和模式，这可能会对汽车行业的数据分析和智能交通系统产生影响。尚待观察这个项目如何影响行业竞争格局，但可以预见的是，这种技术可能会让汽车制造商和交通管理部门受益，因为他们可以利用这些数据来优化交通流和提高安全性。从bull case来看，如果这个项目能够成功推广，可能会带来新的商业机会和数据驱动的交通解决方案，但从bear case来看，尚待观察这个项目的实施成本和数据准确性是否能够满足行业需求。",
       "pubDate": "2026-02-28T07:45:36.000Z",
       "score": 55,
       "category": "🌐 社区",
@@ -112,6 +112,21 @@
     },
     {
       "rank": 8,
+      "title": "Hyperion author Dan Simmons dies from stroke at 77",
+      "link": "https://arstechnica.com/culture/2026/02/hyperion-author-dan-simmons-dies-from-stroke-at-77",
+      "source": "Ars Technica",
+      "summary": "Hyperion blind, decades ago, knowing almost nothing about it. I was never the same.]]>",
+      "llmComment": null,
+      "pubDate": "2026-02-27T18:36:04.000Z",
+      "score": 49,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "Hyperion作者丹·西蒙斯去世",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 9,
       "title": "9 luxury homes under the £2m mansion tax threshold",
       "link": "https://uk.finance.yahoo.com/news/luxury-homes-mansion-tax-threshold-060001218.html",
       "source": "Yahoo Finance",
@@ -126,7 +141,7 @@
       "paywalled": false
     },
     {
-      "rank": 9,
+      "rank": 10,
       "title": "NatWest cuts mortgage costs ahead of spring statement",
       "link": "https://uk.finance.yahoo.com/news/cheapest-mortgage-interest-rates-bank-england-hsbc-natwest-barclays-nationwide-152154701.html",
       "source": "Yahoo Finance",
@@ -141,7 +156,7 @@
       "paywalled": false
     },
     {
-      "rank": 10,
+      "rank": 11,
       "title": "Spotify is rolling out Audiobook Charts",
       "link": "https://techcrunch.com/2026/02/27/spotify-is-rolling-out-audiobook-charts",
       "source": "TechCrunch",
@@ -156,7 +171,7 @@
       "paywalled": false
     },
     {
-      "rank": 11,
+      "rank": 12,
       "title": "India disrupts access to popular developer platform Supabase with blocking order",
       "link": "https://techcrunch.com/2026/02/27/india-disrupts-access-to-popular-developer-platform-supabase-with-blocking-order",
       "source": "TechCrunch",
@@ -166,27 +181,42 @@
       "score": 45,
       "category": "💻 泛科技",
       "titleEn": null,
-      "titleZh": "印度封锁Supabase开发者平台",
+      "titleZh": "India封锁Supabase",
       "isHot": false,
       "paywalled": false
     },
     {
-      "rank": 12,
+      "rank": 13,
       "title": "大佬们， coding plan 选哪家强？体验最好？最稳定？最大方？",
       "link": "https://www.v2ex.com/t/1194846#reply30",
       "source": "V2EX 技术",
       "summary": "大佬们买哪个最好最稳定？只能买 1 个。。 ]]>",
       "llmComment": null,
       "pubDate": "2026-02-28T07:58:58.000Z",
-      "score": 44,
+      "score": 43,
       "category": "🌐 社区",
       "titleEn": null,
-      "titleZh": "选择哪家编程计划最强？体验最好？最稳定？最大方？",
+      "titleZh": "选择哪家编码计划最强？",
       "isHot": false,
       "paywalled": false
     },
     {
-      "rank": 13,
+      "rank": 14,
+      "title": "如何把 Agentic Browser 比如 Comet/Gemini in Chrome 和 openclaw 集成起来？",
+      "link": "https://www.v2ex.com/t/1194816#reply1",
+      "source": "V2EX 技术",
+      "summary": "让 Agentic Browser 比如 Comet 去做 search/deepResearch 。这样也更节省 token. 使用 CDP 去做查询和监控状态。不知道这样可行么？ ]]>",
+      "llmComment": null,
+      "pubDate": "2026-02-28T06:44:10.000Z",
+      "score": 43,
+      "category": "🌐 社区",
+      "titleEn": null,
+      "titleZh": "集成Agentic Browser",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 15,
       "title": "升级 IntelliJ IDEA 2025.3.3 版本后啥也不干就大量能耗，怎么回事？",
       "link": "https://www.v2ex.com/t/1194734#reply5",
       "source": "V2EX 技术",
@@ -201,7 +231,52 @@
       "paywalled": false
     },
     {
-      "rank": 14,
+      "rank": 16,
+      "title": "Panama officials search CK Hutchison's local office as tensions rise - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNelJVcHBBaUZJSlM5bzdqbnNBR3BIVDV5MWZRT2VNLWR4R0VPckZvRUg2R2d4U2gtY2JqNHFwRHkxaTdnX2dzazVSck5kMEl4ZzBlbmY2dHd1N0tOWFEtY0J4QVVUMFE5ZXhOeWJra2lzUUlpY1dOR29hdlZEaXkyLWFqOXhMbzJHOU5sVEppYnZBRDg3RHBWM3ROMnhXTEV3eHhZaXZRSUViWmozNllEU09kdFVoWGE3MDgwa0NB?oc=5",
+      "source": "Reuters M&A (Google News)",
+      "summary": "Panama officials search CK Hutchison's local office as tensions rise Reuters",
+      "llmComment": null,
+      "pubDate": "2026-02-26T23:07:28.000Z",
+      "score": 37,
+      "category": "💰 资本市场·其他",
+      "titleEn": null,
+      "titleZh": "巴拿马官员搜查CK Hutchison办公室",
+      "isHot": false,
+      "paywalled": true
+    },
+    {
+      "rank": 17,
+      "title": "U.S. Intel",
+      "link": "https://stratechery.com/2025/u-s-intel/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3Utcy1pbnRlbC8iXX0sImV4cCI6MTc3NDg2NzI0MSwiaWF0IjoxNzcyMjc1MjQxLCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.UXxgEajdDsZtQWsxunDXEk__Fgg9yDV7azuuqPvMttTdZVbiFhOtbBksmzO8qimBU1GLfRU5SQVrsJ2aGtea79cfWRhWAuctBoVaZ9Fb-EcypQoWHGi4hElSKETzQztl4iu11QciAZXHXcs9Sq830TbIyWVqf4Ni1TnAb78E5-gzWv9tUYnwjB_E56G79oMcgMzqfzL5emq-JHGlSGWeT1isr39kj-0Fq2YFrMNHOD7F8ZzQI7fHU4ffLZ_tO8lm0UX_cyeT9E_DP3sS-qmAb2jegQnGzl-cUStkGoFDgh78E6hVCioOuQN0AoWTwA-Wkptiqlmpj3h9rMZcRgVjCQ",
+      "source": "Stratechery",
+      "summary": "The U.S. taking an equity stake in Intel is a terrible idea; it also happens to be the least bad idea to make Intel Foundry viable.",
+      "llmComment": null,
+      "pubDate": "2025-08-26T10:00:00.000Z",
+      "score": 37,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "美国情报",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 18,
+      "title": "Victory Capital goes public with $8.6 billion rival bid for Janus Henderson - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQY3MwdW9XNUo2Y0V2VGVWamNXcTRCQzlnZFRYRXFjWkx3WGtGQ1NERzF6WVZJZGVQNXhlQWx3bUpKRURUR1RDYy1sZFBQcGliekxBeC1XcnlBX3BQc3F0WFAwN3Bybm9Eb3d4LVdzRV9IeUFPVjBxWnhTWlNudVhQYWZVYk9xOFhSTENTWXFaazg2Ym1CS1pDZm9yRzVrTV9uaGkxNnQxTFlLQ2c?oc=5",
+      "source": "Reuters M&A (Google News)",
+      "summary": "Victory Capital goes public with $8.6 billion rival bid for Janus Henderson Reuters",
+      "llmComment": null,
+      "pubDate": "2026-02-26T14:16:41.000Z",
+      "score": 36,
+      "category": "💼 并购 M&A",
+      "titleEn": null,
+      "titleZh": "Victory Capital以86亿美元竞购Janus Henderson",
+      "isHot": false,
+      "paywalled": true
+    },
+    {
+      "rank": 19,
       "title": "Iranian gas supplies resume to Iraq, ministry says - Reuters",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNamlDend4eFhWWEJPZFNNbnVzeFFwOGMxLXpadzFjSlZfYlZzZ0N2N2d6eFNKQzlUazY3d0k0U0ItM2sxeVdtM1hRQXBjdkdxUHJWZzctSFRDMlV4YXZnMG5ZaVJlaVEtclk4eG12Z1FSVmdtendtV090bXQyQ2l1ZTVQaVRKRURpNlk1aExjU0xRUFJmSHd5ZzNVRng2VDg?oc=5",
       "source": "Reuters IPO (Google News)",
@@ -216,7 +291,52 @@
       "paywalled": true
     },
     {
-      "rank": 15,
+      "rank": 20,
+      "title": "TSA officers get fraction of pay as government shutdown drags - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZGNfb1gwVzhIUFBldkx1Wm9kMWNDQzMyYWpXQ2VERFBTbFd6S2hlY3FDTG9pSTF5UFFSeWNERmlUOVFXOEs5d3RrOUYyOEFWZ2UyMV9tY3Noa21PZ0Z6N2pzRTBMbVRyN0NhdXdtSWNWYmhSbHYyT2JmN1F1WmlpX2JuZ25tUW9Ua0VNeS1mUUpKdW4xVkl3Y3BZMmZIYlRfbU1WNg?oc=5",
+      "source": "Reuters Funding (Google News)",
+      "summary": "TSA officers get fraction of pay as government shutdown drags Reuters",
+      "llmComment": null,
+      "pubDate": "2026-02-27T16:49:16.000Z",
+      "score": 32,
+      "category": "💰 资本市场·其他",
+      "titleEn": null,
+      "titleZh": "美国政府停摆，TSA官员薪水大减",
+      "isHot": false,
+      "paywalled": true
+    },
+    {
+      "rank": 21,
+      "title": "Apple: You (Still) Don't Understand the Vision Pro",
+      "link": "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xODAzMyJdfSwiZXhwIjoxNzc0ODY3MjQxLCJpYXQiOjE3NzIyNzUyNDEsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.tpTpHa6_xnNcEcPFVoiltuD4RD4ux6xIXbmtWpaDFTEgVyveyEDi12tYEL-rR5uUktF4M-EjSipXMIWmAdkpUKe1kttR1KHNsizlyq2Q86KuEesRnbtA9PI6xMoWBY2mrE-faIGBS7TKv-951QZcB0uKx9fbXBMoWjwApxqFkowJeVX1_4a-W5N7vf371tUroOQHSkDx8cioKhp0iBLcJWO0udFj9dD4LiQp5Ne85cbuYyC6fqDmvwGHbFtMIRQNmMumFK6eX2KJ6vI8a09Xoqyh1FE0jkVSAnAu6hAcDNiS-xD4bhJam7DUeMDIy62m6X-waNZcT2vjF6_cWOwO0A&amp%3Bp=18033",
+      "source": "Stratechery",
+      "summary": "The first live sporting event was broadcast in the Vision Pro, and it's a big disappointment. The experience could be amazing, but Apple actively ruins it.",
+      "llmComment": null,
+      "pubDate": "2026-01-12T11:00:00.000Z",
+      "score": 30,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "苹果：你仍然不懂Vision Pro",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 22,
+      "title": "Tech News | Today's Latest Technology News - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBsc1JxYWZtanlYeGRJWTg2Y0pqVmRQTlJtTEs3UGxTSXc2YnpCaVc1bWtEWmg0RW4wUUd6M0lRUXNHOVU1YkM2X0lOVQ?oc=5",
+      "source": "Reuters IPO (Google News)",
+      "summary": "Tech News | Today's Latest Technology News Reuters",
+      "llmComment": null,
+      "pubDate": "2016-05-26T05:11:17.000Z",
+      "score": 30,
+      "category": "💰 资本市场·其他",
+      "titleEn": null,
+      "titleZh": "今日最新科技新闻",
+      "isHot": false,
+      "paywalled": true
+    },
+    {
+      "rank": 23,
       "title": "Robotaxis and Suburbia",
       "link": "https://stratechery.com/2025/robotaxis-and-suburbia/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3JvYm90YXhpcy1hbmQtc3VidXJiaWEvIl19LCJleHAiOjE3NzQ4NTY4MzcsImlhdCI6MTc3MjI2NDgzNywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTljOTE4Ny0yMWUyLTcxZTQtYjdjYS0zYmM3Y2I5ZTcwNGYiLCJ1c2UiOiJhY2Nlc3MifQ.ICWhqXVLN88hiFn_kDj9FAuRufLTf5ORlWLqB3pD94T1H-GzIxMuY6NxSvf3XBtrAIi98r6WyCA4ZnC-LF1JQgOBzNDq_DyFChH8OQHKbkSxfap3PAgTaZOpI97OI-t0Hw5YDIIUOuyCwiTRrI9hQtu4B9blBwPyiJ8EUNiWDNHTgfLjuArm8rhr5pwzi5Vaq-hAZjiEKT0M52WM72jXz38ltjjRtnntHxRnDspRrBg9qYP_sLvdOJdZ4p8m0K0larhy6FwwyxsXMcRsZfsa3db3jFwHRu4kzl1jCpBWSvfcR725x-ldilMXt7jqoFP3hI1zM-dFQMS-YamKi1_K1g",
       "source": "Stratechery",
@@ -231,7 +351,7 @@
       "paywalled": false
     },
     {
-      "rank": 16,
+      "rank": 24,
       "title": "Resiliency and Scale",
       "link": "https://stratechery.com/2025/resiliency-and-scale/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3Jlc2lsaWVuY3ktYW5kLXNjYWxlLyJdfSwiZXhwIjoxNzc0ODU2ODM3LCJpYXQiOjE3NzIyNjQ4MzcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.T4Y1HOJJu38KObOtwq_agOq1GEXt3QjBwP1iB1dNUShemnqeeWV7JVKu4-12Pm56hB_XPe3weKOP3Gf3AG6r0s23j5RIgTeGPrtZR1irBUN5TZFq3sza67ZU6d9TboTq8TrOZAyhHdrJBDo3JmOZS42k6RQ1gwHzNIIXOd_bIxd95uEXanIuEJcOIQ76aUa1MEArlMgWxLGLI_OcgagXrJ5THPCMSm-8Cl3YJExd6-7lAxErmweFeMqZ7WjayA6Vk5etaDSXKkn0bgHNt5hy8eKHGvqbhPs_FY47bAya2UKSiFde-2JOABgjf1VeDOoBF2aMysQG-T0N3c7x_RzLZg",
       "source": "Stratechery",
@@ -246,7 +366,22 @@
       "paywalled": false
     },
     {
-      "rank": 17,
+      "rank": 25,
+      "title": "Zscaler posts wider quarterly loss on higher spending; shares down 9% - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRG1ybHQzSF92cXlRVlZ3YVhnS3BTNDlud0w3S2pvZENyVXo4MDlvOHVtaDFOb1dNTW9yOXRaV2hYUnZTT0lKekNueE5BZWxqS05Za2RtbFlBLWd5cF9QbzBZWHdzR1R3dHdmbFhQM0E4LXRDUHhEcXpnRmJMTHkzYnFCajR5b0dPdXhfeERNVU10SVFENkVCUXBtOVNGSnVlWndrVE93YW94aUxjcS05Nw?oc=5",
+      "source": "Reuters Funding (Google News)",
+      "summary": "Zscaler posts wider quarterly loss on higher spending; shares down 9% Reuters",
+      "llmComment": null,
+      "pubDate": "2026-02-27T01:11:00.000Z",
+      "score": 28,
+      "category": "💰 资本市场·其他",
+      "titleEn": null,
+      "titleZh": "Zscaler季度亏损扩大，股价下跌9%",
+      "isHot": false,
+      "paywalled": true
+    },
+    {
+      "rank": 26,
       "title": "EU says social fund can be used to allow access to safe abortions across bloc - Reuters",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNd1h1R09HNVlQWDNUYUxSeGc3MU5lckRvZG5icTVkSkFlejNrUEd4eHJEVjVUZ1NPZ2J1akdmbDdULWl1ZVhIU0RoVGdLRzl1VG9GNlhIbmktSXZubTFfNkdpczJienZWNi1mcVNtc2dCZjh2NVVud3l2d1B0QkM3QzdjYXBWbS1lYm45NmJwWmp4Sy16SFZ2NW96Mnh0VVVQakJnYVhOTUpVRWM4N1h3NlFIeGhXa2piOVFqWmc3S2ptQ1ZvMUxUZHE1OG1pTXUxT3N3TDdyYW5oQQ?oc=5",
       "source": "Reuters Funding (Google News)",
@@ -261,7 +396,7 @@
       "paywalled": true
     },
     {
-      "rank": 18,
+      "rank": 27,
       "title": "Research Firm Says Podcasts Have Passed AM/FM Talk Radio in Spoken-Word Listening Time",
       "link": "https://www.edisonresearch.com/podcasts-lead-am-fm-in-spoken-word-listening-marking-a-first",
       "source": "Daring Fireball",
@@ -276,7 +411,7 @@
       "paywalled": false
     },
     {
-      "rank": 19,
+      "rank": 28,
       "title": "‘H-Bomb: A Frank Lloyd Wright Typographic Mystery’",
       "link": "https://www.inconspicuous.info/p/h-bomb-a-frank-lloyd-wright-typographic",
       "source": "Daring Fireball",
@@ -287,6 +422,36 @@
       "category": "💻 泛科技",
       "titleEn": null,
       "titleZh": "弗兰克·劳埃德·赖特的字体之谜",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 29,
+      "title": "Terry Godier: ‘Phantom Obligation’",
+      "link": "https://www.terrygodier.com/phantom-obligation",
+      "source": "Daring Fireball",
+      "summary": "Terry Godier, in a thoughtful essay on the design of RSS feed readers: There’s a particular kind of guilt that visits me when I open my feed reader after a few days away. It’s not the guilt of having done something wrong, exactly. It’s more like the feeling of walking into a room where people have b",
+      "llmComment": null,
+      "pubDate": "2026-02-25T23:52:42.000Z",
+      "score": 14,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "特里·戈迪尔：《幻影义务》",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 30,
+      "title": "Samsung Galaxy S26 Ultra’s Privacy Display",
+      "link": "https://9to5google.com/2026/02/25/samsung-galaxy-s26-ultra-privacy-display-demo-hands-on",
+      "source": "Daring Fireball",
+      "summary": "Ben Schoon, writing for 9to5 Google: When activated, Privacy Display changes how the pixels in your display emit light, making it harder or near-impossible to view the display at an off-angle. At its default setting, it definitely works, but the contents of the display are visible at less-sharp angl",
+      "llmComment": null,
+      "pubDate": "2026-02-25T20:59:30.000Z",
+      "score": 13,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "三星Galaxy S26 Ultra的隐私显示屏",
       "isHot": false,
       "paywalled": false
     }
