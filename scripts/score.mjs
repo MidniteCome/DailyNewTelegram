@@ -90,7 +90,7 @@ const CATEGORIES = [
 const TITLE_PATTERNS = [
   {
     label: "💼 并购 M&A",
-    re: /\bacquisition\b|(?:acquires|acquired)\b|\bbuys\b.{1,40}(?:for|deal)|\bmerger\b|\bmerges\b|\btakeover\b|\bbuyout\b/i,
+    re: /\bacquisition\b|(?:acquires|acquired)\b|\bbuys\b.{1,40}(?:for|deal)|\bmerger\b|\bmerges\b|\btakeover\b|\bbuyout\b|\bdrops?\b.{0,25}\bbid\b|\bbid\s+for\b|\bbids?\s+on\b/i,
   },
   {
     label: "📈 股权融资",

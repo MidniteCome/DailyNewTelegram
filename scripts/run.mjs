@@ -104,7 +104,7 @@ function gitCommitAndPush(dateYmd) {
     }
     execSync('git config user.name "github-actions[bot]"');
     execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
-    execSync("git add .last_sent.json .title_cache.json .feed-health.json docs/");
+    execSync("git add .last_sent.json .feed-health.json docs/");
     execSync(`git commit -m "news: ${dateYmd}"`);
     execSync("git push");
     console.log("  ✓ git commit + push 完成");
@@ -182,21 +182,57 @@ async function main() {
   const ranked = rankArticles(enrichedArticles, sources, scoring);
   console.log(`   排序完成，共 ${ranked.length} 篇\n`);
 
-  const topArticles = ranked.slice(0, topN);
-
   // ── Step 3: LLM 翻译 + 点评（可选）──────────────────────────────────────
-  // 无论是否开启 LLM，先从缓存填充已有译文
+  // 无论是否开启 LLM，先从缓存填充已有译文（带校验，防止脏数据注入）
   const titleCache = await readTitleCache();
   let cacheHits = 0;
   for (const a of ranked) {
-    if (titleCache[a.link])          { a.titleZh = titleCache[a.link];          cacheHits++; }
-    if (titleCache[a.link + "__en"]) { a.titleEn = titleCache[a.link + "__en"];              }
+    const cachedZh = titleCache[a.link];
+    const cachedEn = titleCache[a.link + "__en"];
+    // 校验：titleZh 必须含中文字符，titleEn 不能含中文字符
+    if (cachedZh && /[\u4e00-\u9fff]/.test(cachedZh)) { a.titleZh = cachedZh; cacheHits++; }
+    if (cachedEn && !/[\u4e00-\u9fff]/.test(cachedEn)) { a.titleEn = cachedEn; }
   }
   if (cacheHits > 0) console.log(`📖 从翻译缓存命中 ${cacheHits} 篇\n`);
 
+  // ── Step 4a: 合并今日历史文章（确保 Telegram 与网站 Top-N 一致）────────────
+  // 注意：必须在 LLM 翻译和 Telegram 推送之前合并，
+  // 这样 topArticles 来自全天累积排序，而非仅当次抓取结果。
+  let siteArticles = ranked;
+  const todayJsonPath = `docs/data/${today}.json`;
+  try {
+    const prevPayload = JSON.parse(await fs.readFile(todayJsonPath, "utf8"));
+    const prevArts = (prevPayload.articles ?? []).map(a => ({
+      title:      a.title,
+      link:       a.link,
+      sourceName: a.source,          // JSON 里存的字段名是 source
+      summary:    a.summary   ?? "",
+      llmComment: a.llmComment ?? null,
+      pubDate:    new Date(a.pubDate),
+      score:      a.score,
+      category:   a.category,
+      // 校验旧存档中的 titleEn/titleZh，防止历史脏数据被重新载入
+      titleEn:    (a.titleEn && !/[\u4e00-\u9fff]/.test(a.titleEn)) ? a.titleEn : null,
+      titleZh:    (a.titleZh && /[\u4e00-\u9fff]/.test(a.titleZh))  ? a.titleZh : null,
+      isHot:      a.isHot     ?? false,
+      paywalled:  a.paywalled ?? false,
+    }));
+    const newLinks = new Set(ranked.map(a => a.link));
+    const onlyPrev = prevArts.filter(a => !newLinks.has(a.link));
+    if (onlyPrev.length > 0) {
+      siteArticles = [...ranked, ...onlyPrev].sort((a, b) => b.score - a.score);
+      console.log(`  📦 合并今日历史 ${onlyPrev.length} 篇 → 网站共展示 ${siteArticles.length} 篇`);
+    }
+  } catch {
+    // 首次运行或文件不存在，直接使用当前 ranked
+  }
+
+  // Top-N 从合并后的 siteArticles 中取，确保与网站一致
+  const topArticles = siteArticles.slice(0, topN);
+
   if (process.env.USE_LLM === "true") {
-    // 3a. 只处理缓存中没有中文译文的文章
-    const needTranslate = ranked.filter(a => !a.titleZh);
+    // 3a. 只处理缓存中没有中文译文的文章（含合并后的 siteArticles）
+    const needTranslate = siteArticles.filter(a => !a.titleZh);
     if (needTranslate.length > 0) {
       await translateTitles(needTranslate);
       // 写入中文译文和改写英文标题到缓存
@@ -225,44 +261,13 @@ async function main() {
     console.log();
   }
 
-  // ── Step 4: Telegram 推送 ─────────────────────────────────────────────────
+  // ── Step 4b: Telegram 推送（与网站同源的 Top-N）──────────────────────────
   console.log(`📨 推送 Top ${topN} 到 Telegram…`);
   await pushToTelegram(topArticles, today, siteUrl);
   console.log();
 
-  // ── Step 5: 生成网站（合并今日历史，支持日内多次 re-run 不丢失文章）──────
+  // ── Step 5: 生成网站 ──────────────────────────────────────────────────────
   console.log("🌐 生成静态网站…");
-
-  // 若当天已有存档 JSON，将其中未出现在本次 ranked 的文章一并纳入，
-  // 这样每次 re-run 都是在当日全量文章基础上重新排序，而不是覆盖旧数据。
-  let siteArticles = ranked;
-  const todayJsonPath = `docs/data/${today}.json`;
-  try {
-    const prevPayload = JSON.parse(await fs.readFile(todayJsonPath, "utf8"));
-    const prevArts = (prevPayload.articles ?? []).map(a => ({
-      title:      a.title,
-      link:       a.link,
-      sourceName: a.source,          // JSON 里存的字段名是 source
-      summary:    a.summary   ?? "",
-      llmComment: a.llmComment ?? null,
-      pubDate:    new Date(a.pubDate),
-      score:      a.score,
-      category:   a.category,
-      titleEn:    a.titleEn   ?? null,
-      titleZh:    a.titleZh   ?? null,
-      isHot:      a.isHot     ?? false,
-      paywalled:  a.paywalled ?? false,
-    }));
-    const newLinks = new Set(ranked.map(a => a.link));
-    const onlyPrev = prevArts.filter(a => !newLinks.has(a.link));
-    if (onlyPrev.length > 0) {
-      siteArticles = [...ranked, ...onlyPrev].sort((a, b) => b.score - a.score);
-      console.log(`  📦 合并今日历史 ${onlyPrev.length} 篇 → 网站共展示 ${siteArticles.length} 篇`);
-    }
-  } catch {
-    // 首次运行或文件不存在，直接使用当前 ranked
-  }
-
   await generateSite(siteArticles, today, topN);
   console.log();
 
