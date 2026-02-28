@@ -160,13 +160,36 @@ const HOT_THRESHOLD        = 2;  // 至少被几个不同来源报道才触发�
 const CLUSTER_BONUS_SOURCE = 8;  // 每多一个来源报道，代表文章额外加分
 
 // 标题相似度比较时过滤掉的高频噪词
+// 关键原则：资本市场通用动词/名词（raises/funding/series/round/deal 等）
+// 必须在此过滤，否则不同公司的融资/并购文章会因共享这些词而被错误聚合。
+// 只有公司名、金额（已归一化为 110b/250m 等）、产品名等"锚定词"才算有效标识符。
 const STORY_STOPWORDS = new Set([
+  // ── 英文通用停用词 ──
   "the", "this", "that", "with", "from", "into", "they", "their",
   "have", "will", "been", "what", "when", "where", "which", "about",
   "after", "says", "said", "more", "over", "than", "could", "would",
   "report", "reports", "update", "updates", "latest", "news",
-  "amid", "week", "year", "back", "also", "just", "some", "says",
+  "amid", "week", "year", "back", "also", "just", "some",
   "plan", "plans", "make", "made", "take", "took", "look", "here",
+  "says", "said", "data", "first", "last", "next", "high", "know",
+  // ── 资本市场通用动词（太普遍，无法区分不同交易）──
+  "raise", "raises", "raised", "raising",
+  "close", "closes", "closed", "closing",
+  "invest", "invests", "invested",
+  "acquire", "acquires", "acquired",
+  "announce", "announces", "announced",
+  "launch", "launches", "launched",
+  "reveal", "reveals", "revealed",
+  "secure", "secures", "secured",
+  // ── 资本市场通用名词（太普遍，无法区分不同交易）──
+  "fund", "funds", "funding", "funded",
+  "round", "rounds", "series",
+  "deal", "deals", "sale", "sales",
+  "investment", "investments",
+  "stake", "equity", "share", "shares",
+  "startup", "startups", "company", "companies", "firm", "firms",
+  "market", "markets", "business", "industry",
+  "billion", "million",  // 已被金额归一化覆盖，再列出以防万一
 ]);
 
 /**
