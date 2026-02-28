@@ -420,6 +420,58 @@ function buildSpaHtml() {
       .kbd-hint { display: none; }
       .search-wrap { max-width: 120px; }
     }
+
+    /* ── Podcast tab button (in header) ── */
+    #podcast-tab {
+      border: 1px solid var(--border); background: transparent;
+      color: var(--muted); padding: 3px 9px;
+      border-radius: var(--radius-sm); cursor: pointer;
+      font-size: 0.73rem; font-weight: 500; font-family: inherit;
+      white-space: nowrap; flex-shrink: 0;
+      transition: border-color 0.12s, color 0.12s, background 0.12s;
+    }
+    #podcast-tab.active {
+      background: var(--fab-bg); color: var(--fab-text);
+      border-color: var(--fab-bg); font-weight: 600;
+    }
+    #podcast-tab:not(.active):hover { border-color: var(--border-hi); color: var(--text-sub); }
+
+    /* ── Podcast panel ── */
+    #podcast-panel { display: none; }
+    .pod-inner { max-width: 760px; margin: 0 auto; padding: 0.9rem 1rem 2rem; }
+    .pod-status { text-align: center; padding: 3rem 0; color: var(--muted); font-size: 0.85rem; }
+    .pod-list { display: flex; flex-direction: column; gap: 5px; }
+    .pod-ep {
+      display: flex; gap: 12px; align-items: flex-start;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 11px 14px;
+      transition: border-color 0.12s;
+      text-decoration: none; color: inherit;
+    }
+    .pod-ep:hover { border-color: var(--border-hi); }
+    .pod-ep-art {
+      width: 54px; height: 54px; border-radius: 6px;
+      object-fit: cover; flex-shrink: 0;
+    }
+    .pod-ep-body { flex: 1; min-width: 0; }
+    .pod-ep-meta {
+      display: flex; align-items: center; flex-wrap: wrap;
+      gap: 5px; margin-bottom: 4px;
+    }
+    .pod-badge {
+      display: inline-block; padding: 1px 5px; border-radius: 3px;
+      font-size: 0.66rem; font-weight: 600;
+      background: #FDF4FF; color: #7E22CE;
+    }
+    .pod-show { font-size: 0.72rem; font-weight: 600; color: var(--text-sub); }
+    .pod-dur  { font-size: 0.70rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+    .pod-time { font-size: 0.70rem; color: var(--muted); }
+    .pod-ep-title {
+      font-size: 0.93rem; font-weight: 600; color: var(--text);
+      line-height: 1.45; margin-bottom: 2px; letter-spacing: -0.01em;
+    }
+    .pod-ep:hover .pod-ep-title { color: var(--link); }
+    .pod-ep-summary { font-size: 0.81rem; color: var(--text-sub); line-height: 1.55; margin-top: 2px; }
   </style>
 </head>
 <body>
@@ -447,6 +499,7 @@ function buildSpaHtml() {
 
   <div id="stats"></div>
 
+  <button id="podcast-tab" title="Podcasts">🎙️ Pods</button>
   <button id="theme-toggle" title="Toggle theme">☀️</button>
 </header>
 
@@ -467,6 +520,14 @@ function buildSpaHtml() {
     <div class="panel-inner">
       <div id="list-rest"></div>
     </div>
+  </div>
+</div>
+
+<!-- ── Podcast panel (hidden by default) ── -->
+<div id="podcast-panel">
+  <div class="pod-inner">
+    <div class="panel-label">🎙️ Recent Episodes</div>
+    <div id="pod-list"><div class="pod-status">Loading…</div></div>
   </div>
 </div>
 
@@ -853,6 +914,103 @@ async function init() {
     listTop.innerHTML = '<div class="state-msg">Failed to load — please refresh</div>';
   }
 }
+
+// ── Podcast tab ───────────────────────────────────────────────────────────────
+const podcastTab   = document.getElementById('podcast-tab');
+const podcastPanel = document.getElementById('podcast-panel');
+const podList      = document.getElementById('pod-list');
+
+// News UI elements to hide while podcast view is active
+const newsEls = [
+  document.querySelector('.split-layout'),
+  document.getElementById('stats'),
+  document.querySelector('.search-wrap'),
+  document.getElementById('date-select-wrap'),
+].filter(Boolean);
+
+let podLoaded = false;
+let podMode   = false;
+
+function fmtDuration(s) {
+  if (!s) return '';
+  // already HH:MM:SS or MM:SS
+  if (/^\\d+:\\d+/.test(s)) return s;
+  // seconds integer
+  const sec = parseInt(s, 10);
+  if (isNaN(sec)) return s;
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  const ss = sec % 60;
+  return h
+    ? \`\${h}:\${String(m).padStart(2,'0')}:\${String(ss).padStart(2,'0')}\`
+    : \`\${m}:\${String(ss).padStart(2,'0')}\`;
+}
+
+function fmtPodDate(iso) {
+  try {
+    return new Date(iso).toLocaleDateString('en-GB', { day:'numeric', month:'short' });
+  } catch { return ''; }
+}
+
+function podEpHtml(ep) {
+  const dur  = ep.duration ? \`<span class="pod-dur">⏱ \${fmtDuration(ep.duration)}</span>\` : '';
+  const date = ep.pubDate  ? \`<span class="pod-time">\${fmtPodDate(ep.pubDate)}</span>\` : '';
+  const art  = ep.art ? \`<img class="pod-ep-art" src="\${ep.art}" loading="lazy" alt="">\` : '';
+  return \`
+<a class="pod-ep" href="\${ep.link}" target="_blank" rel="noopener">
+  \${art}
+  <div class="pod-ep-body">
+    <div class="pod-ep-meta">
+      <span class="pod-badge">\${ep.category ?? ''}</span>
+      <span class="pod-show">\${ep.showName}</span>
+      \${dur}\${date}
+    </div>
+    <div class="pod-ep-title">\${ep.title}</div>
+    \${ep.summary ? \`<div class="pod-ep-summary">\${ep.summary}</div>\` : ''}
+  </div>
+</a>\`;
+}
+
+function renderPodcasts(data) {
+  const eps = data.episodes ?? [];
+  if (!eps.length) {
+    podList.innerHTML = '<div class="pod-status">No episodes found.</div>';
+    return;
+  }
+  podList.innerHTML = eps.map(podEpHtml).join('');
+}
+
+async function loadPodcasts() {
+  podList.innerHTML = '<div class="pod-status">Loading…</div>';
+  try {
+    const r = await fetch(\`data/podcasts.json?t=\${Date.now()}\`);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    renderPodcasts(await r.json());
+    podLoaded = true;
+  } catch (e) {
+    podList.innerHTML = \`<div class="pod-status">Failed to load podcasts — \${e.message}</div>\`;
+  }
+}
+
+function enterPodcastMode() {
+  podMode = true;
+  podcastTab.classList.add('active');
+  podcastPanel.style.display = 'block';
+  newsEls.forEach(el => { el.style.display = 'none'; });
+  if (!podLoaded) loadPodcasts();
+}
+
+function exitPodcastMode() {
+  podMode = false;
+  podcastTab.classList.remove('active');
+  podcastPanel.style.display = 'none';
+  newsEls.forEach(el => { el.style.display = ''; });
+}
+
+podcastTab.addEventListener('click', () => {
+  if (podMode) exitPodcastMode();
+  else enterPodcastMode();
+});
 
 init();
 </script>

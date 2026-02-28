@@ -1,0 +1,80 @@
+{
+  "maxEpisodesPerShow": 3,
+  "podcasts": [
+    {
+      "id": "20vc",
+      "name": "20VC",
+      "category": "vc",
+      "rss": "https://thetwentyminutevc.libsyn.com/rss"
+    },
+    {
+      "id": "ezraklein",
+      "name": "The Ezra Klein Show",
+      "category": "politics",
+      "rss": "https://feeds.simplecast.com/82FI35Px"
+    },
+    {
+      "id": "jre",
+      "name": "Joe Rogan Experience",
+      "category": "general",
+      "rss": "https://feeds.megaphone.fm/GLT1412515089"
+    },
+    {
+      "id": "indicator",
+      "name": "The Indicator",
+      "category": "macro",
+      "rss": "https://feeds.npr.org/510325/podcast.xml"
+    },
+    {
+      "id": "lexfridman",
+      "name": "Lex Fridman Podcast",
+      "category": "tech",
+      "rss": "https://lexfridman.com/feed/podcast/"
+    },
+    {
+      "id": "talksat",
+      "name": "Talks at GS",
+      "category": "finance",
+      "rss": "https://feeds.megaphone.fm/GLD3069230077"
+    },
+    {
+      "id": "bg2pod",
+      "name": "BG2Pod",
+      "category": "vc",
+      "rss": "https://anchor.fm/s/bg2pod/podcast/rss",
+      "_note": "⚠️ Verify: Spotify-for-Creators feed; update if 404"
+    },
+    {
+      "id": "allin",
+      "name": "All-In",
+      "category": "tech",
+      "rss": "https://feeds.megaphone.fm/allin",
+      "_note": "⚠️ Verify: check feed health log on first run"
+    },
+    {
+      "id": "acquired",
+      "name": "Acquired",
+      "category": "tech",
+      "rss": "https://feeds.transistor.fm/acquired"
+    },
+    {
+      "id": "left-right",
+      "name": "忽左忽右",
+      "category": "zh",
+      "rss": "https://justpodmedia.com/rss/left-right.xml"
+    },
+    {
+      "id": "weirdo",
+      "name": "不合时宜",
+      "category": "zh",
+      "rss": "https://justpodmedia.com/rss/theweirdo.xml",
+      "_note": "⚠️ Verify: guessed from JustPod URL pattern"
+    },
+    {
+      "id": "etw",
+      "name": "声东击西",
+      "category": "zh",
+      "rss": "https://www.etw.fm/rss"
+    }
+  ]
+}
