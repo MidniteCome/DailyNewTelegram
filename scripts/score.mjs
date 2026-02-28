@@ -241,7 +241,30 @@ export function rankArticles(articles, sources, scoring) {
     return cnt < maxPerSource;
   });
 
-  // 应用惩罚后重新排序
+  // ── 主题去重：同一热门话题的第 2+ 篇文章乘以惩罚系数 ──────────────────────
+  // 防止"OpenAI $110B"从 3 个来源各拿一篇，霸占 Top-5 大半席位。
+  // 惩罚而非删除：文章仍保留，只是分数大幅下降，自然落到 topN 之后，
+  // 在分类区照常展示。
+  const TOPIC_DUP_PENALTY = 0.25; // 第 2+ 篇热门重复文章得分乘以此系数
+  if (hotKeywords.size > 0) {
+    const hotTopicClaimed = new Set(); // 已有"代表"的热词
+    for (const article of final) {    // final 已按分数降序
+      const hay = `${article.title} ${article.summary}`.toLowerCase();
+      const matchedHots = [...hotKeywords].filter(kw => hay.includes(kw));
+      if (matchedHots.length === 0) continue;
+
+      const alreadyClaimed = matchedHots.some(kw => hotTopicClaimed.has(kw));
+      if (alreadyClaimed) {
+        // 同话题已有最高分代表，本篇施加惩罚
+        article.score = Math.round(article.score * TOPIC_DUP_PENALTY);
+      } else {
+        // 首次出现：标记该热词已被"代表"
+        matchedHots.forEach(kw => hotTopicClaimed.add(kw));
+      }
+    }
+  }
+
+  // 应用主题惩罚后重新排序
   final.sort((a, b) => b.score - a.score);
 
   return final;

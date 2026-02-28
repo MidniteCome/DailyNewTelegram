@@ -199,11 +199,12 @@ export async function translateTitles(articles) {
     const batch = articles.slice(start, start + BATCH);
 
     // 为模糊标题附加摘要上下文，帮助 LLM 改写
+    // 注意：批内用局部编号 1..N，避免 LLM 在看到大数字时自行从 1 重排
     const numbered = batch.map((a, i) => {
-      const num = start + i + 1;
+      const num = i + 1;  // 局部编号，每批从 1 开始
       if (isTitleVague(a.title)) {
         const ctx = (a.fullText ?? a.summary ?? "")
-          .slice(0, 500).replace(/\s+/g, " ").trim();
+          .slice(0, 400).replace(/\s+/g, " ").trim();
         return ctx
           ? `${num}. ${a.title}\n   [context] ${ctx}`
           : `${num}. ${a.title}`;
@@ -214,18 +215,20 @@ export async function translateTitles(articles) {
     const prompt =
 `You are a professional news headline editor and translator.
 
-For each numbered headline below, do ONE of the following:
+There are ${batch.length} headlines below, numbered 1 to ${batch.length}. Process EACH one independently. Do NOT mix up translations between headlines.
+
+For each numbered headline, do ONE of the following:
 
 A) If the headline is already specific (contains a company name, number, or proper noun):
    → Translate it to Chinese only (≤25 characters).
    Output format: N. 中文翻译
 
-B) If the headline is vague (e.g. "A deal was announced", "Markets moved today", no real subject or outcome):
-   → Rewrite it in English using the [context] provided. The rewritten headline MUST include: WHO did WHAT to WHOM/WHAT (subject + verb + object). Then translate.
+B) If the headline is vague (no real subject or outcome):
+   → Rewrite in English using [context], then translate.
    ✓ Good: "3. Stripe Acquires Stablecoin Startup Bridge for $1.1B | Stripe以11亿美元收购稳定币初创公司Bridge"
    ✗ Bad:  "3. A fintech deal closed today | 一笔金融科技交易今日完成"
 
-Output ONLY the results, one per line, no explanations, no labels, no extra text.
+Output ONLY ${batch.length} lines, one per headline, no extra text.
 
 ${numbered}
 
@@ -234,22 +237,37 @@ Output:`;
     try {
       const text = await callLLM(prompt, { temperature: 0.1, timeout: 120_000 }) ?? "";
 
-      // 解析两种输出格式
+      // 解析：使用局部编号 (1..batch.length)，全局索引 = start + localIdx
+      let mismatchCount = 0;
       for (const line of text.split("\n")) {
         const m = line.match(/^(\d+)\.\s*(.+)/);
         if (!m) continue;
-        const idx = parseInt(m[1], 10) - 1;
-        if (idx < 0 || idx >= total) continue;
+        const localIdx = parseInt(m[1], 10) - 1;   // 局部 0-based
+        if (localIdx < 0 || localIdx >= batch.length) continue;
+        const globalIdx = start + localIdx;         // 全局 0-based
         const content = m[2].trim();
+
         if (content.includes(" | ")) {
           // 模糊标题：改写英文 | 中文翻译
           const [en, zh] = content.split(" | ").map(s => s.trim());
-          articles[idx].titleEn = en;
-          articles[idx].titleZh = zh;
+          // 基础校验：中文译文不为空且长度合理
+          if (zh && zh.length >= 2 && zh.length <= 60) {
+            articles[globalIdx].titleEn = en || articles[globalIdx].titleEn;
+            articles[globalIdx].titleZh = zh;
+          } else {
+            mismatchCount++;
+          }
         } else {
-          // 清晰标题：仅中文翻译
-          articles[idx].titleZh = content;
+          // 清晰标题：仅中文翻译（必须包含至少一个中文字符）
+          if (/[\u4e00-\u9fff]/.test(content) && content.length <= 60) {
+            articles[globalIdx].titleZh = content;
+          } else {
+            mismatchCount++;
+          }
         }
+      }
+      if (mismatchCount > 0) {
+        console.warn(`    ⚠️  ${mismatchCount} 条翻译校验未通过，已跳过`);
       }
 
       const rewriteCount = batch.slice(0, BATCH)
