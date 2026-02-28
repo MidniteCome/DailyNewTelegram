@@ -154,25 +154,16 @@ function assignCategory(source, article) {
   return "📰 其他";
 }
 
-/**
- * 对文章列表打分、去重、排序，并应用来源多样性惩罚
- * @param {Array}  articles  fetchAllFeeds 返回的原始文章数组
- * @param {Array}  sources   sources.json 中的 sources 数组（含 weight）
- * @param {object} scoring   sources.json 中的 scoring 配置块
- * @returns {Array}  带 score、category 字段的文章数组，按分数降序
- */
 // ─── 话题热度检测 ──────────────────────────────────────────────────────────────
 
-const HOT_BONUS     = 10; // 热门话题额外加分
-const HOT_THRESHOLD = 3;  // 至少被几个不同来源报道才算热门
+const HOT_THRESHOLD        = 2;  // 至少被几个不同来源报道才触发聚合
+const CLUSTER_BONUS_SOURCE = 8;  // 每多一个来源报道，代表文章额外加分
 
 /**
- * 统计每个关键词被多少个不同来源提到，返回热门关键词集合
+ * 统计每个关键词被多少个不同来源提到，返回热门关键词 → 来源集合 的 Map
  */
 function detectHotTopics(articles, keywords) {
-  // keyword → Set<sourceName>
-  const kwSourceMap = new Map();
-
+  const kwSourceMap = new Map(); // keyword → Set<sourceName>
   for (const article of articles) {
     const haystack = `${article.title} ${article.summary}`.toLowerCase();
     for (const { keyword } of keywords) {
@@ -183,22 +174,111 @@ function detectHotTopics(articles, keywords) {
       }
     }
   }
-
-  // 只保留达到阈值的关键词
   const hotKeywords = new Set();
-  for (const [kw, sources] of kwSourceMap) {
-    if (sources.size >= HOT_THRESHOLD) hotKeywords.add(kw);
+  for (const [kw, srcs] of kwSourceMap) {
+    if (srcs.size >= HOT_THRESHOLD) hotKeywords.add(kw);
   }
   return hotKeywords;
 }
 
+/**
+ * 故事聚合去重
+ *
+ * 流程：
+ *   1. 将文章按共享热词分组（同一"故事"的不同媒体报道）
+ *   2. 每组只保留得分最高的代表文章
+ *   3. 代表文章得分 += (同组来源数 - 1) × CLUSTER_BONUS_SOURCE
+ *      → 多家媒体齐报是新闻重要性的信号，应当提权
+ *   4. 非热门文章（不含热词）不参与聚合，直接保留
+ *
+ * @param {Array}  articles     已完成初步打分的文章数组
+ * @param {Set}    hotKeywords  detectHotTopics 返回的热词集合
+ * @returns {Array} 去重后的文章数组（每个故事最多一篇）
+ */
+function clusterAndDedup(articles, hotKeywords) {
+  if (hotKeywords.size === 0) return articles;
+
+  const hotArr = [...hotKeywords];
+
+  // 给每篇文章标注命中了哪些热词
+  const tagged = articles.map(a => {
+    const hay = `${a.title} ${a.summary}`.toLowerCase();
+    const hits = hotArr.filter(kw => hay.includes(kw));
+    return { ...a, _hotHits: hits };
+  });
+
+  const clusters  = []; // { hotKws: Set, articles: [] }
+  const coldList  = []; // 不含热词的文章，直接保留
+
+  for (const article of tagged) {
+    if (article._hotHits.length === 0) {
+      coldList.push(article);
+      continue;
+    }
+    // 找到与本文有热词重叠的已有聚类
+    let target = null;
+    for (const cluster of clusters) {
+      if (article._hotHits.some(kw => cluster.hotKws.has(kw))) {
+        target = cluster;
+        break;
+      }
+    }
+    if (target) {
+      target.articles.push(article);
+      article._hotHits.forEach(kw => target.hotKws.add(kw));
+    } else {
+      clusters.push({ hotKws: new Set(article._hotHits), articles: [article] });
+    }
+  }
+
+  // 每个聚类：选代表 + 计算加分
+  const representatives = clusters.map(cluster => {
+    cluster.articles.sort((a, b) => b.score - a.score);
+    const best        = cluster.articles[0];
+    const uniqueSrcs  = new Set(cluster.articles.map(a => a.sourceName)).size;
+    const bonus       = (uniqueSrcs - 1) * CLUSTER_BONUS_SOURCE;
+    const isHot       = uniqueSrcs >= HOT_THRESHOLD;
+
+    if (uniqueSrcs > 1) {
+      console.log(
+        `  📰 故事聚合: "${best.title.slice(0, 55)}…" ` +
+        `(${uniqueSrcs} 个来源, +${bonus}分)`
+      );
+    }
+
+    // 清理临时字段
+    const { _hotHits, ...rest } = best;
+    return { ...rest, score: best.score + bonus, isHot };
+  });
+
+  // 清理冷文章的临时字段
+  const cold = coldList.map(({ _hotHits, ...rest }) => rest);
+  return [...cold, ...representatives];
+}
+
+/**
+ * 对文章列表打分、聚合去重、排序
+ *
+ * 流程：
+ *   1. URL 去重
+ *   2. 逐篇打分 + 分类
+ *   3. 检测热词（被 HOT_THRESHOLD+ 个来源报道的关键词）
+ *   4. 故事聚合：同故事只保留代表文章，多来源覆盖转化为加分
+ *   5. 每来源最多 maxPerSource 篇（多样性控制）
+ *   6. 最终排序
+ *
+ * @param {Array}  articles  fetchAllFeeds 返回的原始文章数组
+ * @param {Array}  sources   sources.json 中的 sources 数组
+ * @param {object} scoring   sources.json 中的 scoring 配置块
+ * @returns {Array} 去重排序后的文章数组
+ */
 export function rankArticles(articles, sources, scoring) {
   const { maxPerSource = 3, keywords = [] } = scoring;
 
   // 建立来源名 → 配置的快速查找表
   const sourceMap = new Map(sources.map((s) => [s.name, s]));
 
-  // 去重（按链接）
+  // ── Step 1: URL 去重 ──────────────────────────────────────────────────────
   const seen = new Set();
   const unique = articles.filter((a) => {
     if (seen.has(a.link)) return false;
@@ -206,66 +286,33 @@ export function rankArticles(articles, sources, scoring) {
     return true;
   });
 
-  // 初步打分 + 分类
-  const scored = unique
-    .map((article) => {
-      const source = sourceMap.get(article.sourceName);
-      const rawScore = calcScore(article, source, scoring);
-      const category = assignCategory(source, article);
-      return { ...article, score: rawScore, category };
-    });
-
-  // ── 话题热度加分 ────────────────────────────────────────────────────────────
-  const hotKeywords = detectHotTopics(scored, keywords);
-
-  if (hotKeywords.size > 0) {
-    console.log(`  🔥 热门话题（被 ${HOT_THRESHOLD}+ 来源同日报道）: ${[...hotKeywords].join(" · ")}`);
-  }
-
-  const withHot = scored.map((article) => {
-    const haystack = `${article.title} ${article.summary}`.toLowerCase();
-    const isHot = [...hotKeywords].some((kw) => haystack.includes(kw));
-    return isHot
-      ? { ...article, score: article.score + HOT_BONUS, isHot: true }
-      : article;
+  // ── Step 2: 逐篇打分 + 分类 ──────────────────────────────────────────────
+  const scored = unique.map((article) => {
+    const source  = sourceMap.get(article.sourceName);
+    const rawScore = calcScore(article, source, scoring);
+    const category = assignCategory(source, article);
+    return { ...article, score: rawScore, category };
   });
 
-  // 按加分后的分数排序
-  withHot.sort((a, b) => b.score - a.score);
+  // ── Step 3: 检测热词 ──────────────────────────────────────────────────────
+  const hotKeywords = detectHotTopics(scored, keywords);
+  if (hotKeywords.size > 0) {
+    console.log(`  🔥 热门话题（${HOT_THRESHOLD}+ 来源报道）: ${[...hotKeywords].join(" · ")}`);
+  }
 
-  // ── 多样性控制：每个来源最多保留 maxPerSource 篇，超出直接排除 ──────────────
-  const sourceCount = new Map();
-  const final = withHot.filter((article) => {
-    const cnt = sourceCount.get(article.sourceName) ?? 0;
-    sourceCount.set(article.sourceName, cnt + 1);
+  // ── Step 4: 故事聚合去重 ─────────────────────────────────────────────────
+  const deduped = clusterAndDedup(scored, hotKeywords);
+
+  // ── Step 5: 来源多样性控制（每来源最多 maxPerSource 篇）────────────────────
+  deduped.sort((a, b) => b.score - a.score);
+  const srcCount = new Map();
+  const final = deduped.filter((article) => {
+    const cnt = srcCount.get(article.sourceName) ?? 0;
+    srcCount.set(article.sourceName, cnt + 1);
     return cnt < maxPerSource;
   });
 
-  // ── 主题去重：同一热门话题的第 2+ 篇文章乘以惩罚系数 ──────────────────────
-  // 防止"OpenAI $110B"从 3 个来源各拿一篇，霸占 Top-5 大半席位。
-  // 惩罚而非删除：文章仍保留，只是分数大幅下降，自然落到 topN 之后，
-  // 在分类区照常展示。
-  const TOPIC_DUP_PENALTY = 0.25; // 第 2+ 篇热门重复文章得分乘以此系数
-  if (hotKeywords.size > 0) {
-    const hotTopicClaimed = new Set(); // 已有"代表"的热词
-    for (const article of final) {    // final 已按分数降序
-      const hay = `${article.title} ${article.summary}`.toLowerCase();
-      const matchedHots = [...hotKeywords].filter(kw => hay.includes(kw));
-      if (matchedHots.length === 0) continue;
-
-      const alreadyClaimed = matchedHots.some(kw => hotTopicClaimed.has(kw));
-      if (alreadyClaimed) {
-        // 同话题已有最高分代表，本篇施加惩罚
-        article.score = Math.round(article.score * TOPIC_DUP_PENALTY);
-      } else {
-        // 首次出现：标记该热词已被"代表"
-        matchedHots.forEach(kw => hotTopicClaimed.add(kw));
-      }
-    }
-  }
-
-  // 应用主题惩罚后重新排序
+  // ── Step 6: 最终排序 ─────────────────────────────────────────────────────
   final.sort((a, b) => b.score - a.score);
-
   return final;
 }
