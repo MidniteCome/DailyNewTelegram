@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-02-28T22:49:43.628Z",
-    "totalEpisodes": 105,
+    "updatedAt": "2026-02-28T23:21:12.868Z",
+    "totalEpisodes": 120,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": false,
-        "error": "terminated"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "indicator",
@@ -93,6 +93,13 @@
       "link": "https://www.nytimes.com/ezra-klein-podcast"
     },
     {
+      "id": "jre",
+      "name": "Joe Rogan Experience",
+      "category": "general",
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/11f568857987283428d892402e623b21.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "link": "https://feeds.megaphone.fm/GLT1412515089"
+    },
+    {
       "id": "indicator",
       "name": "The Indicator",
       "category": "macro",
@@ -141,6 +148,17 @@
       "art": "https://static.libsyn.com/p/assets/9/f/4/9/9f491779a0794327d959afa2a1bf1c87/WhatsApp_Image_2026-02-27_at_15.16.10.jpeg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2461 - Robert F. Kennedy, Jr.",
+      "link": "https://traffic.megaphone.fm/GLT2655700925.mp3?updated=1772214646",
+      "pubDate": "2026-02-27T18:00:00.000Z",
+      "duration": "9107",
+      "summary": "Robert F. Kennedy Jr. is the United States Secretary of Health and Human Services, founder of the Waterkeeper Alliance and Children’s Health Defense, and an attorney and author.www.hhs.gov/about/leade",
+      "art": "https://megaphone.imgix.net/podcasts/5bc43bae-1395-11f1-a94d-4f3c51abe2a0/image/7274ba9b36786416ad2ed729fd5615b7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -150,6 +168,17 @@
       "duration": "565",
       "summary": "It’s … Indicators of the Week (now on YouTube!), our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: How Minnesota workers were affected by Operation Me",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbe%2F9e%2Fc5c610f04028beecade33651969e%2F0a21d384-b129-453d-bc58-90c54a9295e2.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2460 - Rachel Wilson",
+      "link": "https://traffic.megaphone.fm/GLT8521906535.mp3?updated=1772127268",
+      "pubDate": "2026-02-26T18:00:00.000Z",
+      "duration": "8820",
+      "summary": "Rachel Wilson is a writer, cultural commentator, and media personality. She is the author of “Occult Feminism: The Secret History of Women’s Liberation.”www.linktr.ee/RachelLWilson Perplexity: Downloa",
+      "art": "https://megaphone.imgix.net/podcasts/ea61e582-12a0-11f1-a327-932dd954886d/image/0af12eb8c0497e72b29dd679e9dd496f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "indicator",
@@ -185,6 +214,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #174 with Terence Crawford",
+      "link": "https://traffic.megaphone.fm/GLT5908455235.mp3?updated=1772042650",
+      "pubDate": "2026-02-25T18:00:00.000Z",
+      "duration": "8172",
+      "summary": "Joe sits down with retired boxer Terence Crawford, a three-division undisputed champion who retired 42–0.www.youtube.com/@TBudCrawfordOfficialwww.tbudcrawford.com Perplexity: Download the app or ask P",
+      "art": "https://megaphone.imgix.net/podcasts/092ec28a-11e5-11f1-8b95-7fb90e30ebad/image/34f2d584009501cefef390893f5b31fa.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -194,6 +234,17 @@
       "duration": "545",
       "summary": "What do the latest batch of documents tell us about convicted sex offender Jeffrey Epstein and elite networking? Quite a bit. Today on the show, we analyze one exchange between Epstein and a former wo",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F62%2F90218fe54c1c9d7608943770ea29%2F983b92c7-9a38-4d5a-85ca-db6d1b955a87.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2459 - Jim Breuer",
+      "link": "https://traffic.megaphone.fm/GLT4266228236.mp3?updated=1771954373",
+      "pubDate": "2026-02-24T18:00:00.000Z",
+      "duration": "10730",
+      "summary": "Jim Breuer is a stand-up comedian, actor, and host of “The Breuniverse Podcast.” He is touring in 2026 with the “Find the Funny” tour.www.youtube.com/@JimBreuerwww.jimbreuer.com/ Perplexity: Download ",
+      "art": "https://megaphone.imgix.net/podcasts/52ac7674-1130-11f1-ac6f-47dec182ca1d/image/89aba1c16ce0424f1128181285fdc8e5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -273,6 +324,17 @@
       "art": "https://static.libsyn.com/p/assets/a/0/d/a/a0dadf2f3cff76d916c3140a3186d450/WhatsApp_Image_2026-02-19_at_15.39.03.jpeg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2458 - Matt McCusker",
+      "link": "https://traffic.megaphone.fm/GLT4339942079.mp3?updated=1771610771",
+      "pubDate": "2026-02-20T18:00:00.000Z",
+      "duration": "10146",
+      "summary": "Matt McCusker is a comedian, writer, actor, and co-host of “Matt and Shane’s Secret Podcast” with Shane Gillis. His most recent special, “Matt McCusker: A Humble Offering,” is streaming on Netflix.www",
+      "art": "https://megaphone.imgix.net/podcasts/6ed322c4-0e0d-11f1-abd8-c730efb6d9e8/image/47f12612493ae037ca5ba41383790cbb.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -293,6 +355,17 @@
       "duration": "567",
       "summary": "It’s … Indicators of the Week! Our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: Why you better hope you retire at juuuust the right time , why the re",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc7%2F21%2F3a9db9d64c98877e5996347a2428%2F8db49dc3-1923-4bcb-be79-4c75d1437609.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2457 - Michael Malice",
+      "link": "https://traffic.megaphone.fm/GLT3522571789.mp3?updated=1771553043",
+      "pubDate": "2026-02-19T18:00:00.000Z",
+      "duration": "10031",
+      "summary": "Michael Malice is a cultural commentator, author, and host of the “Your Welcome” podcast. His next book is the graphic novel \"Unwanted.\"unwantedbook.comwww.youtube.com/@MichaelMaliceofficialmalice.loc",
+      "art": "https://megaphone.imgix.net/podcasts/5dc91c9c-0d48-11f1-9d84-cbfe008edf29/image/d77f8fc7a91cf3a7d032c847532a79d2.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "indicator",
@@ -317,6 +390,17 @@
       "art": "https://static.libsyn.com/p/assets/8/9/4/c/894cc741ae5f84ff16c3140a3186d450/WhatsApp_Image_2026-02-18_at_17.39.12.jpeg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2456 - Michael Jai White",
+      "link": "https://traffic.megaphone.fm/GLT8210409209.mp3?updated=1771435754",
+      "pubDate": "2026-02-18T18:00:00.000Z",
+      "duration": "10369",
+      "summary": "Michael Jai White is an actor, director, writer, and martial artist. His latest film, “Oscar Shaw,” is available to stream on digital platforms.www.youtube.com/@RealMichaelJaiWhitewww.patreon.com/Mich",
+      "art": "https://megaphone.imgix.net/podcasts/4001764c-0c5c-11f1-9832-afb7361ad990/image/b7c2ee0fc513f194daf53ed426139180.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -326,6 +410,17 @@
       "duration": "508",
       "summary": "The Department of Homeland Security says it has more than doubled the workforce of Immigration and Customs Enforcement under President Trump. Yet videos of immigration officers killing two U.S. citize",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F69%2F19%2Fb860f9c34de9b3ce425aa9dbae69%2F211a8c25-d755-4d2c-b668-ea341bc34b3c.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2455 - Donnell Rawlings",
+      "link": "https://traffic.megaphone.fm/GLT4487663159.mp3?updated=1771348168",
+      "pubDate": "2026-02-17T18:00:00.000Z",
+      "duration": "9791",
+      "summary": "Donnell Rawlings is a comedian, actor, and host of “The Donnell Rawlings Show” podcast. His most recent special, “Chappelle’s Home Team Presents: Donnell Rawlings: A New Day,” is streaming on Netflix.",
+      "art": "https://megaphone.imgix.net/podcasts/6679ce84-0bba-11f1-a843-2784d67d19a1/image/b37e0e6bc5484dd9318f9107fe728dc1.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "indicator",
@@ -361,6 +456,17 @@
       "art": "https://static.libsyn.com/p/assets/f/4/4/5/f445a5e88c344e9fd959afa2a1bf1c87/WhatsApp_Image_2026-02-12_at_13.13.57.jpeg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2454 - Robert Malone, MD",
+      "link": "https://traffic.megaphone.fm/GLT6618950088.mp3?updated=1771005105",
+      "pubDate": "2026-02-13T18:00:00.000Z",
+      "duration": "9532",
+      "summary": "Robert W. Malone, MD, MS, is a virologist and immunologist and an original inventor of mRNA delivery and vaccination as a technology, DNA vaccination, and multiple non-viral DNA and RNA/mRNA platform ",
+      "art": "https://megaphone.imgix.net/podcasts/1443fc8a-0885-11f1-a9a1-eb83a35e4beb/image/e046b03374e022dcb5f67dad4e406cc8.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -381,6 +487,17 @@
       "duration": "570",
       "summary": "It’s time for … Indicators of the Week! Our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: Analyzing the new jobs numbers, how letting in more immigran",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F78%2F9d%2F94c4473c4ae7bafe4ab4696643a0%2F5c3e6713-01b2-4a10-b16d-b5b44c294457.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2453 - Evan Hafer",
+      "link": "https://traffic.megaphone.fm/GLT8914209138.mp3?updated=1770917642",
+      "pubDate": "2026-02-12T18:00:00.000Z",
+      "duration": "10780",
+      "summary": "Evan Hafer is a Special Forces veteran, founder, and executive chairman of Black Rifle Coffee Company, and one of the hosts of the “Black Rifle Coffee Podcast.”www.blackriflecoffee.comwww.youtube.com/",
+      "art": "https://megaphone.imgix.net/podcasts/b7894018-07b2-11f1-8528-afdb47a869ad/image/7904039e2c6e8e4ac5520ea53e6ffeb8.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "indicator",
@@ -416,6 +533,17 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2452 - Roger Avary",
+      "link": "https://traffic.megaphone.fm/GLT6466858295.mp3?updated=1770832389",
+      "pubDate": "2026-02-11T18:00:00.000Z",
+      "duration": "11484",
+      "summary": "Roger Avary is a director, producer, and Academy Award-winning screenwriter known for “Pulp Fiction,” which he co-wrote with Quentin Tarantino, as well as “The Rules of Attraction” and “Killing Zoe.” ",
+      "art": "https://megaphone.imgix.net/podcasts/18f27e36-0700-11f1-bfe7-a7ac3a74be6c/image/35eae712accdf0229fa758bfd24d601e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -425,6 +553,17 @@
       "duration": "527",
       "summary": "The prices of gold and silver are on rollercoaster rides; Gold has been rising over the last few years, silver shot up like a skyrocket in January … but then both plunged in price and sputtered around",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2F24%2Fff1d2b26401cb259b509042b67eb%2Fc330a1f0-2e3f-453a-b5e3-a4e017dcba9b.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2451 - Cheryl Hines",
+      "link": "https://traffic.megaphone.fm/GLT6251051540.mp3?updated=1770747895",
+      "pubDate": "2026-02-10T18:00:00.000Z",
+      "duration": "11409",
+      "summary": "Cheryl Hines is an Emmy Award-nominated actress, director, producer, and comedian. While she is best known for her role as Cheryl David on the HBO series “Curb Your Enthusiasm,” Hines has appeared in ",
+      "art": "https://megaphone.imgix.net/podcasts/8f5c9d80-0625-11f1-8078-93b17659a82a/image/8de0368c4b3f4c08d628b34592271ead.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -482,6 +621,17 @@
       "art": "https://static.libsyn.com/p/assets/1/8/d/6/18d681733d57aa5816c3140a3186d450/WhatsApp_Image_2026-02-05_at_15.17.51.jpeg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2450 - Tommy Wood",
+      "link": "https://traffic.megaphone.fm/GLT7023346046.mp3?updated=1770395897",
+      "pubDate": "2026-02-06T18:00:00.000Z",
+      "duration": "8197",
+      "summary": "Tommy Wood, PhD, is a neuroscientist and athletic performance coach. He is a host of the “Better Brain Fitness” podcast and author of “The Stimulated Mind: Future-Proof Your Brain from Dementia and St",
+      "art": "https://megaphone.imgix.net/podcasts/a46bb368-032e-11f1-b6fa-678b37cb6141/image/c35dff87831242267c8b26ca73995567.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -491,6 +641,17 @@
       "duration": "01:27:00",
       "summary": "Ragebait, sponcon, A.I. slop — the internet of 2026 makes a lot of us nostalgic for the internet of 10 or 15 years ago. What exactly went wrong here? How did the early promise of the internet get so t",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2449 - Raul Bilecky",
+      "link": "https://traffic.megaphone.fm/GLT8924602297.mp3?updated=1770311634",
+      "pubDate": "2026-02-05T18:00:00.000Z",
+      "duration": "9399",
+      "summary": "Raul Bilecky is a researcher, explorer, and creator of the YouTube channel “Pillars of the Past.”www.youtube.com/@PillarsofthePast101https://www.patreon.com/PillarsofthePastwww.pillarsofthepast.com Pe",
+      "art": "https://megaphone.imgix.net/podcasts/d9afde8a-0245-11f1-b677-c75fa897aec8/image/926ee90487cd377f66fd25c958688777.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -524,6 +685,17 @@
       "duration": "1:14:36",
       "summary": "在海量内容的涌动与算法分发的复杂性面前，平台的规则制定者，应该如何在用户体验与社区生态之间寻找那条「动态平衡」线？ 平台治理不仅仅是写在后台的逻辑，它更像是一场关于数字秩序的微缩实验。比如，当「反对制造对立」被写进小红书最新的社区公约 2.0，这不仅是一个立场的更新，也引出了治理中更深层的追问：在推荐与干预之间，平台治理的刻度到底该定在哪里？它究竟是在管理内容本身，还是在试图重塑一种数字空间的相处",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2448 - Andrew Doyle",
+      "link": "https://traffic.megaphone.fm/GLT4585485091.mp3?updated=1770225975",
+      "pubDate": "2026-02-04T18:00:00.000Z",
+      "duration": "9911",
+      "summary": "Andrew Doyle is a writer, broadcaster, and comedian. He is the author of several books, including his most recent, “The End of Woke: How the Culture War Went Too Far and What to Expect from the Counte",
+      "art": "https://megaphone.imgix.net/podcasts/6dc0bccc-0177-11f1-9c54-ff832000dc7c/image/3b7fddb4d2ed5b9b4c359a824c58d2e3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
