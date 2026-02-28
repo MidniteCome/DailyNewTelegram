@@ -97,19 +97,50 @@
     /* ── Header ── */
     header {
       position: sticky; top: 0;
-      height: 48px;
       background: var(--surface);
       border-bottom: 1px solid var(--border);
-      padding: 0 1rem;
-      display: flex; align-items: center; gap: 0.65rem;
       z-index: 20;
+    }
+
+    /* Top nav row: brand + main tabs + theme toggle */
+    .header-top {
+      display: flex; align-items: stretch;
+      padding: 0 1rem; gap: 0;
+      height: 44px;
     }
     .brand {
       font-size: 0.85rem; font-weight: 700;
       color: var(--text); white-space: nowrap; letter-spacing: -0.02em;
-      flex-shrink: 0;
+      flex-shrink: 0; display: flex; align-items: center;
+      padding-right: 1.2rem;
     }
     .brand-sep { color: var(--border-hi); font-weight: 300; margin: 0 1px; }
+
+    /* Main tab navigation */
+    .main-tabs {
+      display: flex; align-items: stretch; gap: 0; flex-shrink: 0;
+    }
+    .main-tab {
+      border: none; background: transparent;
+      color: var(--muted); font-size: 0.82rem; font-weight: 500;
+      padding: 0 1.1rem; cursor: pointer;
+      font-family: inherit; white-space: nowrap;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s, border-color 0.15s;
+      display: flex; align-items: center; gap: 5px;
+      margin-bottom: -1px;   /* overlap header border-bottom */
+    }
+    .main-tab:hover { color: var(--text-sub); }
+    .main-tab.active {
+      color: var(--text); font-weight: 600;
+      border-bottom-color: var(--text);
+    }
+
+    /* News controls bar (filter + search + date + stats) */
+    #news-controls {
+      display: flex; align-items: center; gap: 0.65rem;
+      padding: 0 1rem 0.55rem; flex-wrap: wrap;
+    }
 
     /* Filter tabs */
     .filter-group {
@@ -157,7 +188,7 @@
 
     /* Stats */
     #stats {
-      margin-left: auto; display: flex; gap: 0.35rem;
+      margin-left: auto; display: flex; gap: 0.35rem; flex-shrink: 0;
       align-items: center; font-size: 0.71rem;
       color: var(--muted); white-space: nowrap;
     }
@@ -173,6 +204,7 @@
       border-radius: var(--radius-sm); cursor: pointer;
       font-size: 0.85rem; display: flex; align-items: center;
       justify-content: center; flex-shrink: 0;
+      margin-left: auto;
       transition: border-color 0.15s, color 0.15s;
     }
     #theme-toggle:hover { border-color: var(--border-hi); color: var(--text); }
@@ -181,7 +213,7 @@
     .split-layout { /* single scrollable flow */ }
     .panel-top  { /* no fixed height / overflow */ }
     .divider {
-      position: sticky; top: 48px; z-index: 15;
+      position: sticky; top: 44px; z-index: 15;
       height: 28px;
       background: var(--surface);
       border-top: 1px solid var(--border);
@@ -362,34 +394,82 @@
       .kbd-hint { display: none; }
       .search-wrap { max-width: 120px; }
     }
+
+    /* ── Podcast panel ── */
+
+    /* ── Podcast panel ── */
+    #podcast-panel { display: none; }
+    .pod-inner { max-width: 760px; margin: 0 auto; padding: 0.9rem 1rem 2rem; }
+    .pod-status { text-align: center; padding: 3rem 0; color: var(--muted); font-size: 0.85rem; }
+    .pod-list { display: flex; flex-direction: column; gap: 5px; }
+    .pod-ep {
+      display: flex; gap: 12px; align-items: flex-start;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 11px 14px;
+      transition: border-color 0.12s;
+      text-decoration: none; color: inherit;
+    }
+    .pod-ep:hover { border-color: var(--border-hi); }
+    .pod-ep-art {
+      width: 54px; height: 54px; border-radius: 6px;
+      object-fit: cover; flex-shrink: 0;
+    }
+    .pod-ep-body { flex: 1; min-width: 0; }
+    .pod-ep-meta {
+      display: flex; align-items: center; flex-wrap: wrap;
+      gap: 5px; margin-bottom: 4px;
+    }
+    .pod-badge {
+      display: inline-block; padding: 1px 5px; border-radius: 3px;
+      font-size: 0.66rem; font-weight: 600;
+      background: #FDF4FF; color: #7E22CE;
+    }
+    .pod-show { font-size: 0.72rem; font-weight: 600; color: var(--text-sub); }
+    .pod-dur  { font-size: 0.70rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+    .pod-time { font-size: 0.70rem; color: var(--muted); }
+    .pod-ep-title {
+      font-size: 0.93rem; font-weight: 600; color: var(--text);
+      line-height: 1.45; margin-bottom: 2px; letter-spacing: -0.01em;
+    }
+    .pod-ep:hover .pod-ep-title { color: var(--link); }
+    .pod-ep-summary { font-size: 0.81rem; color: var(--text-sub); line-height: 1.55; margin-top: 2px; }
   </style>
 </head>
 <body>
 
 <header>
-  <span class="brand">Daily<span class="brand-sep">/</span>Brief</span>
+  <div class="header-top">
+    <span class="brand">Daily<span class="brand-sep">/</span>Brief</span>
 
-  <div class="filter-group">
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="deal">Deals</button>
-    <button class="filter-btn" data-filter="ai">AI</button>
-    <button class="filter-btn" data-filter="macro">Macro</button>
-    <button class="filter-btn" data-filter="deep">Deep</button>
+    <div class="main-tabs">
+      <button class="main-tab active" id="tab-news">📰 News</button>
+      <button class="main-tab" id="tab-podcast">🎙️ Podcasts</button>
+    </div>
+
+    <button id="theme-toggle" title="Toggle theme">☀️</button>
   </div>
 
-  <div class="search-wrap">
-    <input type="search" id="search-input" class="search-input"
-           placeholder="Search…" autocomplete="off" spellcheck="false" />
+  <div id="news-controls">
+    <div class="filter-group">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="deal">Deals</button>
+      <button class="filter-btn" data-filter="ai">AI</button>
+      <button class="filter-btn" data-filter="macro">Macro</button>
+      <button class="filter-btn" data-filter="deep">Deep</button>
+    </div>
+
+    <div class="search-wrap">
+      <input type="search" id="search-input" class="search-input"
+             placeholder="Search…" autocomplete="off" spellcheck="false" />
+    </div>
+
+    <div id="date-select-wrap">
+      <label for="date-select">Date</label>
+      <select id="date-select"><option>Loading…</option></select>
+    </div>
+
+    <div id="stats"></div>
   </div>
-
-  <div id="date-select-wrap">
-    <label for="date-select">Date</label>
-    <select id="date-select"><option>Loading…</option></select>
-  </div>
-
-  <div id="stats"></div>
-
-  <button id="theme-toggle" title="Toggle theme">☀️</button>
 </header>
 
 <div class="split-layout">
@@ -409,6 +489,14 @@
     <div class="panel-inner">
       <div id="list-rest"></div>
     </div>
+  </div>
+</div>
+
+<!-- ── Podcast panel (hidden by default) ── -->
+<div id="podcast-panel">
+  <div class="pod-inner">
+    <div class="panel-label">🎙️ Recent Episodes</div>
+    <div id="pod-list"><div class="pod-status">Loading…</div></div>
   </div>
 </div>
 
@@ -795,6 +883,102 @@ async function init() {
     listTop.innerHTML = '<div class="state-msg">Failed to load — please refresh</div>';
   }
 }
+
+// ── Podcast tab ───────────────────────────────────────────────────────────────
+const tabNews      = document.getElementById('tab-news');
+const tabPodcast   = document.getElementById('tab-podcast');
+const podcastPanel = document.getElementById('podcast-panel');
+const podList      = document.getElementById('pod-list');
+const newsControls = document.getElementById('news-controls');
+
+// News body elements to hide while podcast view is active
+const newsBodyEls = [document.querySelector('.split-layout')].filter(Boolean);
+
+let podLoaded = false;
+let podMode   = false;
+
+function fmtDuration(s) {
+  if (!s) return '';
+  // already HH:MM:SS or MM:SS
+  if (/^\d+:\d+/.test(s)) return s;
+  // seconds integer
+  const sec = parseInt(s, 10);
+  if (isNaN(sec)) return s;
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  const ss = sec % 60;
+  return h
+    ? `${h}:${String(m).padStart(2,'0')}:${String(ss).padStart(2,'0')}`
+    : `${m}:${String(ss).padStart(2,'0')}`;
+}
+
+function fmtPodDate(iso) {
+  try {
+    return new Date(iso).toLocaleDateString('en-GB', { day:'numeric', month:'short' });
+  } catch { return ''; }
+}
+
+function podEpHtml(ep) {
+  const dur  = ep.duration ? `<span class="pod-dur">⏱ ${fmtDuration(ep.duration)}</span>` : '';
+  const date = ep.pubDate  ? `<span class="pod-time">${fmtPodDate(ep.pubDate)}</span>` : '';
+  const art  = ep.art ? `<img class="pod-ep-art" src="${ep.art}" loading="lazy" alt="">` : '';
+  return `
+<a class="pod-ep" href="${ep.link}" target="_blank" rel="noopener">
+  ${art}
+  <div class="pod-ep-body">
+    <div class="pod-ep-meta">
+      <span class="pod-badge">${ep.category ?? ''}</span>
+      <span class="pod-show">${ep.showName}</span>
+      ${dur}${date}
+    </div>
+    <div class="pod-ep-title">${ep.title}</div>
+    ${ep.summary ? `<div class="pod-ep-summary">${ep.summary}</div>` : ''}
+  </div>
+</a>`;
+}
+
+function renderPodcasts(data) {
+  const eps = data.episodes ?? [];
+  if (!eps.length) {
+    podList.innerHTML = '<div class="pod-status">No episodes found.</div>';
+    return;
+  }
+  podList.innerHTML = eps.map(podEpHtml).join('');
+}
+
+async function loadPodcasts() {
+  podList.innerHTML = '<div class="pod-status">Loading…</div>';
+  try {
+    const r = await fetch(`data/podcasts.json?t=${Date.now()}`);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    renderPodcasts(await r.json());
+    podLoaded = true;
+  } catch (e) {
+    podList.innerHTML = `<div class="pod-status">Failed to load podcasts — ${e.message}</div>`;
+  }
+}
+
+function enterPodcastMode() {
+  podMode = true;
+  tabNews.classList.remove('active');
+  tabPodcast.classList.add('active');
+  podcastPanel.style.display = 'block';
+  if (newsControls) newsControls.style.display = 'none';
+  newsBodyEls.forEach(el => { el.style.display = 'none'; });
+  if (!podLoaded) loadPodcasts();
+}
+
+function exitPodcastMode() {
+  podMode = false;
+  tabPodcast.classList.remove('active');
+  tabNews.classList.add('active');
+  podcastPanel.style.display = 'none';
+  if (newsControls) newsControls.style.display = '';
+  newsBodyEls.forEach(el => { el.style.display = ''; });
+}
+
+tabNews.addEventListener('click', () => { if (podMode) exitPodcastMode(); });
+tabPodcast.addEventListener('click', () => { if (!podMode) enterPodcastMode(); });
 
 init();
 </script>

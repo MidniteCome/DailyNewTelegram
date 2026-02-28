@@ -53,6 +53,13 @@ export async function generateSite(rankedArticles, dateYmd, topN = 5) {
   console.log(`  ✓ index.html 已更新`);
 }
 
+// 单独导出：仅重新生成 index.html（供 podcast.mjs 调用，无需传入文章数据）
+export async function generateIndexHtml() {
+  await fs.mkdir(DOCS_DIR, { recursive: true });
+  await fs.writeFile(path.join(DOCS_DIR, "index.html"), buildSpaHtml(), "utf8");
+  console.log(`  ✓ index.html 已更新`);
+}
+
 // ─── SPA HTML ─────────────────────────────────────────────────────────────────
 
 function buildSpaHtml() {
@@ -155,19 +162,50 @@ function buildSpaHtml() {
     /* ── Header ── */
     header {
       position: sticky; top: 0;
-      height: 48px;
       background: var(--surface);
       border-bottom: 1px solid var(--border);
-      padding: 0 1rem;
-      display: flex; align-items: center; gap: 0.65rem;
       z-index: 20;
+    }
+
+    /* Top nav row: brand + main tabs + theme toggle */
+    .header-top {
+      display: flex; align-items: stretch;
+      padding: 0 1rem; gap: 0;
+      height: 44px;
     }
     .brand {
       font-size: 0.85rem; font-weight: 700;
       color: var(--text); white-space: nowrap; letter-spacing: -0.02em;
-      flex-shrink: 0;
+      flex-shrink: 0; display: flex; align-items: center;
+      padding-right: 1.2rem;
     }
     .brand-sep { color: var(--border-hi); font-weight: 300; margin: 0 1px; }
+
+    /* Main tab navigation */
+    .main-tabs {
+      display: flex; align-items: stretch; gap: 0; flex-shrink: 0;
+    }
+    .main-tab {
+      border: none; background: transparent;
+      color: var(--muted); font-size: 0.82rem; font-weight: 500;
+      padding: 0 1.1rem; cursor: pointer;
+      font-family: inherit; white-space: nowrap;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s, border-color 0.15s;
+      display: flex; align-items: center; gap: 5px;
+      margin-bottom: -1px;   /* overlap header border-bottom */
+    }
+    .main-tab:hover { color: var(--text-sub); }
+    .main-tab.active {
+      color: var(--text); font-weight: 600;
+      border-bottom-color: var(--text);
+    }
+
+    /* News controls bar (filter + search + date + stats) */
+    #news-controls {
+      display: flex; align-items: center; gap: 0.65rem;
+      padding: 0 1rem 0.55rem; flex-wrap: wrap;
+    }
 
     /* Filter tabs */
     .filter-group {
@@ -215,7 +253,7 @@ function buildSpaHtml() {
 
     /* Stats */
     #stats {
-      margin-left: auto; display: flex; gap: 0.35rem;
+      margin-left: auto; display: flex; gap: 0.35rem; flex-shrink: 0;
       align-items: center; font-size: 0.71rem;
       color: var(--muted); white-space: nowrap;
     }
@@ -231,6 +269,7 @@ function buildSpaHtml() {
       border-radius: var(--radius-sm); cursor: pointer;
       font-size: 0.85rem; display: flex; align-items: center;
       justify-content: center; flex-shrink: 0;
+      margin-left: auto;
       transition: border-color 0.15s, color 0.15s;
     }
     #theme-toggle:hover { border-color: var(--border-hi); color: var(--text); }
@@ -239,7 +278,7 @@ function buildSpaHtml() {
     .split-layout { /* single scrollable flow */ }
     .panel-top  { /* no fixed height / overflow */ }
     .divider {
-      position: sticky; top: 48px; z-index: 15;
+      position: sticky; top: 44px; z-index: 15;
       height: 28px;
       background: var(--surface);
       border-top: 1px solid var(--border);
@@ -421,20 +460,7 @@ function buildSpaHtml() {
       .search-wrap { max-width: 120px; }
     }
 
-    /* ── Podcast tab button (in header) ── */
-    #podcast-tab {
-      border: 1px solid var(--border); background: transparent;
-      color: var(--muted); padding: 3px 9px;
-      border-radius: var(--radius-sm); cursor: pointer;
-      font-size: 0.73rem; font-weight: 500; font-family: inherit;
-      white-space: nowrap; flex-shrink: 0;
-      transition: border-color 0.12s, color 0.12s, background 0.12s;
-    }
-    #podcast-tab.active {
-      background: var(--fab-bg); color: var(--fab-text);
-      border-color: var(--fab-bg); font-weight: 600;
-    }
-    #podcast-tab:not(.active):hover { border-color: var(--border-hi); color: var(--text-sub); }
+    /* ── Podcast panel ── */
 
     /* ── Podcast panel ── */
     #podcast-panel { display: none; }
@@ -477,30 +503,38 @@ function buildSpaHtml() {
 <body>
 
 <header>
-  <span class="brand">Daily<span class="brand-sep">/</span>Brief</span>
+  <div class="header-top">
+    <span class="brand">Daily<span class="brand-sep">/</span>Brief</span>
 
-  <div class="filter-group">
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="deal">Deals</button>
-    <button class="filter-btn" data-filter="ai">AI</button>
-    <button class="filter-btn" data-filter="macro">Macro</button>
-    <button class="filter-btn" data-filter="deep">Deep</button>
+    <div class="main-tabs">
+      <button class="main-tab active" id="tab-news">📰 News</button>
+      <button class="main-tab" id="tab-podcast">🎙️ Podcasts</button>
+    </div>
+
+    <button id="theme-toggle" title="Toggle theme">☀️</button>
   </div>
 
-  <div class="search-wrap">
-    <input type="search" id="search-input" class="search-input"
-           placeholder="Search…" autocomplete="off" spellcheck="false" />
+  <div id="news-controls">
+    <div class="filter-group">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="deal">Deals</button>
+      <button class="filter-btn" data-filter="ai">AI</button>
+      <button class="filter-btn" data-filter="macro">Macro</button>
+      <button class="filter-btn" data-filter="deep">Deep</button>
+    </div>
+
+    <div class="search-wrap">
+      <input type="search" id="search-input" class="search-input"
+             placeholder="Search…" autocomplete="off" spellcheck="false" />
+    </div>
+
+    <div id="date-select-wrap">
+      <label for="date-select">Date</label>
+      <select id="date-select"><option>Loading…</option></select>
+    </div>
+
+    <div id="stats"></div>
   </div>
-
-  <div id="date-select-wrap">
-    <label for="date-select">Date</label>
-    <select id="date-select"><option>Loading…</option></select>
-  </div>
-
-  <div id="stats"></div>
-
-  <button id="podcast-tab" title="Podcasts">🎙️ Pods</button>
-  <button id="theme-toggle" title="Toggle theme">☀️</button>
 </header>
 
 <div class="split-layout">
@@ -916,17 +950,14 @@ async function init() {
 }
 
 // ── Podcast tab ───────────────────────────────────────────────────────────────
-const podcastTab   = document.getElementById('podcast-tab');
+const tabNews      = document.getElementById('tab-news');
+const tabPodcast   = document.getElementById('tab-podcast');
 const podcastPanel = document.getElementById('podcast-panel');
 const podList      = document.getElementById('pod-list');
+const newsControls = document.getElementById('news-controls');
 
-// News UI elements to hide while podcast view is active
-const newsEls = [
-  document.querySelector('.split-layout'),
-  document.getElementById('stats'),
-  document.querySelector('.search-wrap'),
-  document.getElementById('date-select-wrap'),
-].filter(Boolean);
+// News body elements to hide while podcast view is active
+const newsBodyEls = [document.querySelector('.split-layout')].filter(Boolean);
 
 let podLoaded = false;
 let podMode   = false;
@@ -994,23 +1025,25 @@ async function loadPodcasts() {
 
 function enterPodcastMode() {
   podMode = true;
-  podcastTab.classList.add('active');
+  tabNews.classList.remove('active');
+  tabPodcast.classList.add('active');
   podcastPanel.style.display = 'block';
-  newsEls.forEach(el => { el.style.display = 'none'; });
+  if (newsControls) newsControls.style.display = 'none';
+  newsBodyEls.forEach(el => { el.style.display = 'none'; });
   if (!podLoaded) loadPodcasts();
 }
 
 function exitPodcastMode() {
   podMode = false;
-  podcastTab.classList.remove('active');
+  tabPodcast.classList.remove('active');
+  tabNews.classList.add('active');
   podcastPanel.style.display = 'none';
-  newsEls.forEach(el => { el.style.display = ''; });
+  if (newsControls) newsControls.style.display = '';
+  newsBodyEls.forEach(el => { el.style.display = ''; });
 }
 
-podcastTab.addEventListener('click', () => {
-  if (podMode) exitPodcastMode();
-  else enterPodcastMode();
-});
+tabNews.addEventListener('click', () => { if (podMode) exitPodcastMode(); });
+tabPodcast.addEventListener('click', () => { if (!podMode) enterPodcastMode(); });
 
 init();
 </script>

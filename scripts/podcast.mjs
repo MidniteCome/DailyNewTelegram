@@ -13,6 +13,7 @@
 import fs   from "node:fs/promises";
 import path from "node:path";
 import { execSync } from "node:child_process";
+import { generateIndexHtml } from "./site.mjs";
 
 const DATA_DIR   = "docs/data";
 const OUTPUT     = path.join(DATA_DIR, "podcasts.json");
@@ -157,6 +158,9 @@ async function main() {
   await fs.writeFile(OUTPUT, JSON.stringify(output, null, 2) + "\n", "utf8");
   console.log(`\n✓ 写入 ${OUTPUT}（共 ${allEpisodes.length} 集）`);
 
+  // 同步更新 index.html（保持 SPA 模板最新）
+  await generateIndexHtml();
+
   // 失败汇总
   const failed = health.filter(h => !h.ok);
   if (failed.length) {
@@ -171,7 +175,7 @@ async function main() {
     if (!diff) { console.log("\n(git) 无变更，跳过 commit"); return; }
     execSync('git config user.name  "github-actions[bot]"');
     execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
-    execSync(`git add "${OUTPUT}"`);
+    execSync(`git add "${OUTPUT}" docs/index.html`);
     execSync(`git commit -m "podcast: ${new Date().toISOString().slice(0, 10)}"`);
     execSync("git push");
     console.log("  ✓ git push 完成");
