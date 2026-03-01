@@ -5,70 +5,83 @@
       "id": "20vc",
       "name": "20VC",
       "category": "vc",
-      "rss": "https://thetwentyminutevc.libsyn.com/rss"
+      "rss": "https://thetwentyminutevc.libsyn.com/rss",
+      "appleId": 1294741399
     },
     {
       "id": "ezraklein",
       "name": "The Ezra Klein Show",
       "category": "politics",
-      "rss": "https://feeds.simplecast.com/82FI35Px"
+      "rss": "https://feeds.simplecast.com/82FI35Px",
+      "appleId": 1548604447
     },
     {
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "rss": "https://feeds.megaphone.fm/GLT1412515089"
+      "rss": "https://feeds.megaphone.fm/GLT1412515089",
+      "appleId": 360084272,
+      "_note": "Spotify 独家，RSS 可能被限速；iTunes 兜底会尝试获取 feedUrl"
     },
     {
       "id": "indicator",
       "name": "The Indicator",
       "category": "macro",
-      "rss": "https://feeds.npr.org/510325/podcast.xml"
+      "rss": "https://feeds.npr.org/510325/podcast.xml",
+      "appleId": 1320118593
     },
     {
       "id": "lexfridman",
       "name": "Lex Fridman Podcast",
       "category": "tech",
-      "rss": "https://lexfridman.com/feed/podcast/"
+      "rss": "https://lexfridman.com/feed/podcast/",
+      "appleId": 1434243584
     },
     {
       "id": "talksat",
       "name": "Talks at GS",
       "category": "finance",
-      "rss": "https://feeds.megaphone.fm/GLD3069230077"
+      "rss": "https://feeds.megaphone.fm/GLD3069230077",
+      "appleId": 517299292
     },
     {
       "id": "bg2pod",
       "name": "BG2Pod",
       "category": "vc",
-      "rss": "https://anchor.fm/s/bg2pod/podcast/rss",
-      "_note": "⚠️ Verify: Spotify-for-Creators feed; update if 404"
+      "rss": "https://bg2pod.podbean.com/feed.xml",
+      "appleId": 1727278168,
+      "_note": "旧 anchor.fm URL 404；改为 podbean；iTunes 兜底备用"
     },
     {
       "id": "allin",
       "name": "All-In",
       "category": "tech",
-      "rss": "https://feeds.megaphone.fm/allin",
-      "_note": "⚠️ Verify: check feed health log on first run"
+      "rss": "https://allinchamathjason.libsyn.com/rss",
+      "appleId": 1502871393,
+      "_note": "旧 megaphone URL 404；改为 libsyn"
     },
     {
       "id": "acquired",
       "name": "Acquired",
       "category": "tech",
-      "rss": "https://feeds.transistor.fm/acquired"
+      "rss": "https://feeds.transistor.fm/acquired",
+      "appleId": 1050462261
     },
     {
       "id": "left-right",
       "name": "忽左忽右",
       "category": "zh",
-      "rss": "https://justpodmedia.com/rss/left-right.xml"
+      "rss": "https://justpodmedia.com/rss/left-right.xml",
+      "appleId": 1493503146,
+      "_note": "justpodmedia.com 在 GH Actions 可能 DNS 失败；iTunes 兜底"
     },
     {
       "id": "weirdo",
       "name": "不合时宜",
       "category": "zh",
       "rss": "https://justpodmedia.com/rss/theweirdo.xml",
-      "_note": "⚠️ Verify: guessed from JustPod URL pattern"
+      "appleId": 1487143507,
+      "_note": "同上，DNS 失败时走 iTunes 兜底"
     },
     {
       "id": "etw",

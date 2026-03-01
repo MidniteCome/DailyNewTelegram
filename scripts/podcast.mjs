@@ -112,47 +112,82 @@ async function main() {
   const health      = [];
 
   for (const pod of sources) {
-    try {
-      const res = await fetch(pod.rss, {
-        headers: {
-          "User-Agent": "Mozilla/5.0 (compatible; DailyBriefBot/1.0)",
-          "Accept":     "application/rss+xml, application/xml, text/xml, */*",
-        },
-        signal: AbortSignal.timeout(20_000),
-        redirect: "follow",
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const xml = await res.text();
+    // 无论 RSS 是否成功，先把节目加入 shows（保证侧边栏始终可见）
+    const showEntry = {
+      id:       pod.id,
+      name:     pod.name,
+      category: pod.category ?? "general",
+      art:      null,
+      link:     pod.rss,
+    };
+    allShows.push(showEntry);
 
-      const { showArt, items } = parseRSS(xml, maxEp);
+    // 尝试主 RSS，失败时若有 appleId 则从 iTunes API 获取真实 feedUrl 再试一次
+    let ok = false;
+    const attempts = [{ url: pod.rss, label: "" }];
 
-      // 提取 show 级别链接
-      const chanBlock  = xml.match(/<channel>([\s\S]*?)<item>/)?.[1] ?? "";
-      const showLink   = tagText(chanBlock, "link") ?? pod.rss;
-
-      allShows.push({
-        id:       pod.id,
-        name:     pod.name,
-        category: pod.category ?? "general",
-        art:      showArt ?? null,
-        link:     showLink,
-      });
-
-      for (const ep of items) {
-        allEpisodes.push({
-          showId:   pod.id,
-          showName: pod.name,
-          category: pod.category ?? "general",
-          ...ep,
+    for (const { url, label } of attempts) {
+      try {
+        const res = await fetch(url, {
+          headers: {
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+            "Accept":     "application/rss+xml, application/xml, text/xml, */*",
+          },
+          signal: AbortSignal.timeout(25_000),
+          redirect: "follow",
         });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const xml = await res.text();
+
+        const { showArt, items } = parseRSS(xml, maxEp);
+        const chanBlock = xml.match(/<channel>([\s\S]*?)<item>/)?.[1] ?? "";
+        const showLink  = tagText(chanBlock, "link") ?? url;
+
+        // 用真实数据更新 showEntry
+        showEntry.art  = showArt ?? null;
+        showEntry.link = showLink;
+
+        for (const ep of items) {
+          allEpisodes.push({
+            showId:   pod.id,
+            showName: pod.name,
+            category: pod.category ?? "general",
+            ...ep,
+          });
+        }
+
+        console.log(`  ✓ ${pod.name.padEnd(22)} ${items.length} 集${label}`);
+        health.push({ id: pod.id, name: pod.name, ok: true, count: items.length });
+        ok = true;
+        break;
+
+      } catch (err) {
+        if (label === "" && pod.appleId) {
+          // 主 RSS 失败 → 从 iTunes API 取真实 feedUrl，加入下一轮尝试
+          console.warn(`  ↷ ${pod.name.padEnd(22)} 主源失败(${err.message})，尝试 iTunes 兜底…`);
+          try {
+            const lookup = await fetch(
+              `https://itunes.apple.com/lookup?id=${pod.appleId}&entity=podcast`,
+              { signal: AbortSignal.timeout(10_000), headers: { "User-Agent": "iTunes/12.0" } }
+            );
+            const data = await lookup.json();
+            const feedUrl = data.results?.[0]?.feedUrl;
+            if (feedUrl && feedUrl !== url) {
+              attempts.push({ url: feedUrl, label: " (iTunes兜底)" });
+            } else {
+              throw new Error("iTunes 未返回有效 feedUrl");
+            }
+          } catch (e2) {
+            console.warn(`     iTunes 查询失败: ${e2.message}`);
+          }
+        } else {
+          console.warn(`  ✗ ${pod.name.padEnd(22)} ${err.message}`);
+        }
       }
+    }
 
-      console.log(`  ✓ ${pod.name.padEnd(22)} ${items.length} 集`);
-      health.push({ id: pod.id, name: pod.name, ok: true, count: items.length });
-
-    } catch (err) {
-      console.warn(`  ✗ ${pod.name.padEnd(22)} ${err.message}`);
-      health.push({ id: pod.id, name: pod.name, ok: false, error: err.message });
+    if (!ok) {
+      health.push({ id: pod.id, name: pod.name, ok: false, error: "所有源均失败" });
     }
   }
 
