@@ -111,13 +111,14 @@ const TITLE_PATTERNS = [
   {
     label: "💼 并购 M&A",
     // 并购事件：收购 / 合并 / 私有化 / 要约收购
-    re: /\bacquisition\b|\bacquires?\b|\bacquired\b|\bto\s+buy\b.{0,50}(?:\$|billion|\bdeal\b)|\bbuys\b.{0,50}(?:for\s+\$|\bdeal\b)|\bmerger\b|\bmerges?\b|\btakeover\b|\bbuyout\b|\blbo\b|\bprivate[- ]equity.{0,30}(?:buys?|acquires?|takes?)|\bdrops?\s+bid\b|\bbid\s+for\b|\bbids?\s+on\b|\bsold\s+to\b|\bagrees?\s+to\s+(?:buy|acquire)\b|\bto\s+be\s+(?:bought|acquired)\s+by\b|\bstrategic\s+acquisition\b/i,
+    // "landmark/proposed/planned X sale" 也捕捉（公司出售场景）
+    re: /\bacquisition\b|\bacquires?\b|\bacquired\b|\bto\s+buy\b.{0,50}(?:\$|billion|\bdeal\b)|\bbuys\b.{0,50}(?:for\s+\$|\bdeal\b)|\bmerger\b|\bmerges?\b|\btakeover\b|\bbuyout\b|\blbo\b|\bprivate[- ]equity.{0,30}(?:buys?|acquires?|takes?)|\bdrops?\s+bid\b|\bbid\s+for\b|\bbids?\s+on\b|\bsold\s+to\b|\bagrees?\s+to\s+(?:buy|acquire)\b|\bto\s+be\s+(?:bought|acquired)\s+by\b|\bstrategic\s+acquisition\b|\b(?:proposed|planned|pending|landmark|blockbuster|historic)\b.{0,60}\bsale\b/i,
   },
   {
     label: "📈 股权融资",
     // 融资事件：IPO / 融资轮次 / 估值 / 多种"拿钱"动词 + 金额
-    // "eyes public listing" / "eyes IPO" / "plans listing" 也在此捕捉
-    re: /\bipo\b|\bgo(?:es|ing)\s+public\b|\bfiles?\s+(?:for\s+)?ipo\b|\bs-1\b|\bf-1\b|\bspac\b|\b(?:public|stock\s+market)\s+listing\b|\bdirect\s+listing\b|\bpre-ipo\b|\bplans?\s+(?:an?\s+)?(?:ipo|listing|public\s+offering)\b|\beyes?\b.{0,40}\b(?:ipo|listing|public)\b|series\s+[a-f]\b|(?:raises?|raised|secures?|secured|bags?|bagged|lands?|landed|closes?|closed|nets?|nabs?|wins?)\s+\$[\d,.]+\s*(?:million|billion|[bm])\b|\bfunding\s+round\b|\bseed\s+(?:round|funding|raise|investment)\b|\braises?\s+\$[\d]|\$[\d,.]+\s*(?:million|billion)\s+(?:raise|round|funding|investment)\b|\bvalued?\s+at\s+\$[\d,.]+\s*(?:billion|million)\b|\bventure\s+(?:round|funding)\b|\bconvertible\s+note\b|\bprivate\s+placement\b/i,
+    // "eyes public listing" / "plans listing" / "listings seek $Xm" 也在此捕捉
+    re: /\bipo\b|\bgo(?:es|ing)\s+public\b|\bfiles?\s+(?:for\s+)?ipo\b|\bs-1\b|\bf-1\b|\bspac\b|\b(?:public|stock\s+market)\s+listing\b|\bdirect\s+listing\b|\bpre-ipo\b|\bplans?\s+(?:an?\s+)?(?:ipo|listing|public\s+offering)\b|\beyes?\b.{0,40}\b(?:ipo|listing|public)\b|series\s+[a-f]\b|(?:raises?|raised|secures?|secured|bags?|bagged|lands?|landed|closes?|closed|nets?|nabs?|wins?|seeks?|sought)\s+\$[\d,.]+\s*(?:million|billion|[bm])\b|\blistings?\b.{0,20}\$[\d,.]+\s*(?:million|billion)\b|\bfunding\s+round\b|\bseed\s+(?:round|funding|raise|investment)\b|\braises?\s+\$[\d]|\$[\d,.]+\s*(?:million|billion)\s+(?:raise|round|funding|investment)\b|\bvalued?\s+at\s+\$[\d,.]+\s*(?:billion|million)\b|\bventure\s+(?:round|funding)\b|\bconvertible\s+note\b|\bprivate\s+placement\b/i,
   },
   {
     label: "📊 宏观市场",
