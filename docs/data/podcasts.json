@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-02-28T23:21:12.868Z",
-    "totalEpisodes": 120,
+    "updatedAt": "2026-03-01T01:17:39.002Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
@@ -42,14 +42,14 @@
       {
         "id": "bg2pod",
         "name": "BG2Pod",
-        "ok": false,
-        "error": "HTTP 404"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "allin",
         "name": "All-In",
-        "ok": false,
-        "error": "HTTP 404"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "acquired",
@@ -60,14 +60,14 @@
       {
         "id": "left-right",
         "name": "忽左忽右",
-        "ok": false,
-        "error": "fetch failed"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "weirdo",
         "name": "不合时宜",
-        "ok": false,
-        "error": "fetch failed"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "etw",
@@ -121,11 +121,39 @@
       "link": "http://www.goldmansachs.com/our-thinking/talks-at-gs/index.html"
     },
     {
+      "id": "bg2pod",
+      "name": "BG2Pod",
+      "category": "vc",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg",
+      "link": "https://www.bg2pod.com"
+    },
+    {
+      "id": "allin",
+      "name": "All-In",
+      "category": "tech",
+      "art": "https://static.libsyn.com/p/assets/a/9/c/b/a9cb4d1dadb1ea21/all-in_logo.png",
+      "link": "http://allinchamathjason.libsyn.com/website"
+    },
+    {
       "id": "acquired",
       "name": "Acquired",
       "category": "tech",
       "art": "https://img.transistorcdn.com/ERwaC95Hz6E804iD15qquWP1Kg7IShZgAkTYjnhmEc0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zZWVm/MzgyOGZmMzkxOWYz/YWVhNzUwMGUxMGIx/YmY3NS5wbmc.jpg",
       "link": "https://acquired.fm"
+    },
+    {
+      "id": "left-right",
+      "name": "忽左忽右",
+      "category": "zh",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea",
+      "link": "https://www.xiaoyuzhoufm.com/podcast/5e4ee557418a84a0466737b7?utm_source=rss"
+    },
+    {
+      "id": "weirdo",
+      "name": "不合时宜",
+      "category": "zh",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png",
+      "link": "https://www.xiaoyuzhoufm.com/podcast/5e280fb8418a84a0461fd076?utm_source=rss"
     },
     {
       "id": "etw",
@@ -148,6 +176,17 @@
       "art": "https://static.libsyn.com/p/assets/9/f/4/9/9f491779a0794327d959afa2a1bf1c87/WhatsApp_Image_2026-02-27_at_15.16.10.jpeg"
     },
     {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Software Stocks Implode, Claude's Hit List, State of the Union Reactions, Trump's Tariff Pivot",
+      "link": "https://allinchamathjason.libsyn.com/software-stocks-implode-claudes-hit-list-state-of-the-union-reactions-trumps-tariff-pivot",
+      "pubDate": "2026-02-28T00:34:00.000Z",
+      "duration": "01:21:08",
+      "summary": "(0:00) Bestie intros (1:22) Claude's hit list, SaaS crash, and Citrini's AI letter (30:39) Why Doomer narratives are more popular, valuable new AI jobs (40:19) Understanding the Rate Payer Protection ",
+      "art": "https://static.libsyn.com/p/assets/8/0/4/2/8042280528f65293d959afa2a1bf1c87/1_Pod_E262-20260228-vg0iehw4vb.png"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -159,6 +198,17 @@
       "art": "https://megaphone.imgix.net/podcasts/5bc43bae-1395-11f1-a94d-4f3c51abe2a0/image/7274ba9b36786416ad2ed729fd5615b7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "继业者1918｜高尔察克、捷克军团与俄国内战中的东方白卫军",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69a1517cde29766da9bf2156?utm_source=rss",
+      "pubDate": "2026-02-27T08:34:31.000Z",
+      "duration": "00:03:00",
+      "summary": "- 导语 - 1918年，俄国内战激战正酣，西伯利亚成为各方角逐的战场。曾经的海军名将与北极探险家高尔察克，在乱世中被推举为俄国的「最高统治者」。然而，高尔察克这场看似拥有西方列强支持的反攻，最终却在西伯利亚的极寒荒野中演变成了一场全线崩溃的悲剧大撤退。一位科学家和海军将领，在内战期间怎样辗转成为西伯利亚的白军领袖？因「一战」而滞留俄国，捷克军团在俄国内战发挥了怎样的特殊作用？高尔察克的军队如何向",
+      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -168,6 +218,17 @@
       "duration": "565",
       "summary": "It’s … Indicators of the Week (now on YouTube!), our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: How Minnesota workers were affected by Operation Me",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbe%2F9e%2Fc5c610f04028beecade33651969e%2F0a21d384-b129-453d-bc58-90c54a9295e2.png"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "俄乌战争四周年：当战场被遗忘，当荒诞成常态",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69a10925a22480add64236e8?utm_source=rss",
+      "pubDate": "2026-02-27T03:19:59.000Z",
+      "duration": "01:20:02",
+      "summary": "【主播的话】 俄乌战争刚刚迎来了四周年纪念日，迈入第五年。 本期节目延续我们自2022年以来的“周年传统”，邀请了老朋友路尘、公爵，从战场、外交、社会心态与舆论环境等多个层面，系统梳理这一年的关键变化。 与前三年相比，第四年的变化首先体现在外部政治环境。特朗普重返白宫后，美国对乌政策出现明显调整，停火谈判成为高频词。但，从阿布扎比到日内瓦，几轮会谈释放出不同信号，却尚未形成实质性成果。与此同时，前",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
       "showId": "jre",
@@ -269,6 +330,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "458 秃黄油·花胶·佛跳墙：与王恺漫谈年货与美味",
+      "link": "https://www.xiaoyuzhoufm.com/episode/699d628466e2c303773757a6?utm_source=rss",
+      "pubDate": "2026-02-24T09:07:41.000Z",
+      "duration": "01:38:29",
+      "summary": "- 导语 - 一方水土有一方年味。从苏州到潮汕，从福州到台北，美食作家王恺多年踏访各地，深入观察形形色色的年末饮食。如今流行的地方年货背后藏着怎样的历史？潮汕鱼胶为何能成为天价年货？沈葆桢家的佛跳墙究竟包含哪四层材料？福建渔村对「本港海鲜」的执念背后有着怎样的缘由？请听本期嘉宾王恺带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 王恺，作家、资深媒体人，《三联",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -322,6 +394,17 @@
       "duration": "01:03:44",
       "summary": "Alexander Embiricos is the Head of Codex at OpenAI, leading the development of the company's flagship AI coding systems that power automated software generation, debugging and developer workflows. Und",
       "art": "https://static.libsyn.com/p/assets/a/0/d/a/a0dadf2f3cff76d916c3140a3186d450/WhatsApp_Image_2026-02-19_at_15.39.03.jpeg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Epstein Files Special: Prince Andrew Arrested, Global Network, Mythology, Reid Hoffman Files",
+      "link": "https://allinchamathjason.libsyn.com/prince-andrew-arrested-epstein-mythology-reid-hoffman-files-with-saagar-enjeti-michael-tracey",
+      "pubDate": "2026-02-20T21:31:00.000Z",
+      "duration": "01:47:23",
+      "summary": "(0:00) David Sacks introduces Saagar Enjeti and Michael Tracey (1:04) Reacting to the arrest of Prince Andrew in the UK, Epstein's global finance network (11:24) Who was Jeffrey Epstein, and what is t",
+      "art": "https://static.libsyn.com/p/assets/b/9/c/2/b9c2f0717aed08bcd959afa2a1bf1c87/1x1_CLASSIC_E.png"
     },
     {
       "showId": "jre",
@@ -456,6 +539,17 @@
       "art": "https://static.libsyn.com/p/assets/f/4/4/5/f445a5e88c344e9fd959afa2a1bf1c87/WhatsApp_Image_2026-02-12_at_13.13.57.jpeg"
     },
     {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Debt Spiral or NEW Golden Age? Super Bowl Insider Trading, Booming Token Budgets, Ferrari's New EV",
+      "link": "https://allinchamathjason.libsyn.com/debt-spiral-or-new-golden-age-super-bowl-insider-trading-booming-token-budgets-ferraris-new-ev",
+      "pubDate": "2026-02-13T21:56:00.000Z",
+      "duration": "01:13:10",
+      "summary": "(0:00) Bestie intros (0:23) AI updates: On-prem comeback, token budgets surpass salaries (19:19) Prediction markets: Super Bowl insider trading, how to police? (28:44) All-In Liquidity: The ultimate i",
+      "art": "https://static.libsyn.com/p/assets/e/0/f/7/e0f7b247ad95a656d959afa2a1bf1c87/1_Pod_E261.png"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -478,6 +572,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "继业者1918｜俄国内战中的南线白卫军：邓尼金、顿河哥萨克与「黑男爵」弗兰格尔",
+      "link": "https://www.xiaoyuzhoufm.com/episode/698ee2d366e2c3037755b523?utm_source=rss",
+      "pubDate": "2026-02-13T09:14:08.000Z",
+      "duration": "00:03:00",
+      "summary": "- 导语 - 2005年，俄罗斯在莫斯科以盛大军礼，安葬了内战时代的白卫军领袖、流亡美国并客死异乡的邓尼金。这位颇具争议的将领人生充满矛盾与传奇：出身农奴之子却成白军统帅；坚定的反布尔什维克者，也在二战期间拒绝与纳粹合作；有波兰血统，最终成为大俄罗斯主义的捍卫者。他个人的争议也反映出俄国内战中红军、白军、黑军、绿军与哥萨克等多股势力交织的复杂局面。邓尼金的志愿军为何能在南俄起事？又为何迅速溃败？红",
+      "art": "https://image.xyzcdn.net/Fq7mZgDoRc-C_Vd0YgodauX6VS6d.png"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -487,6 +592,17 @@
       "duration": "570",
       "summary": "It’s time for … Indicators of the Week! Our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: Analyzing the new jobs numbers, how letting in more immigran",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F78%2F9d%2F94c4473c4ae7bafe4ab4696643a0%2F5c3e6713-01b2-4a10-b16d-b5b44c294457.png"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "那些想重看的剧，以及无法重过一次的生活｜不时夜谈春节版",
+      "link": "https://www.xiaoyuzhoufm.com/episode/698e95eda22480add6fd33b5?utm_source=rss",
+      "pubDate": "2026-02-13T03:22:17.000Z",
+      "duration": "01:18:11",
+      "summary": "【主播的话】 不合时宜的听友们，祝大家春节快乐。 这是一期新春特辑节目，我们与相识多年的好友小堡畅聊了那些过去看过，想要再度重温的影视剧和电影，以及我们如何在看这些片子中感受过去一年自己身上所发生的变化。它是一期以影视剧作为载体的年终总结，虽然无法保证充足的信息量，以及专业影评水准。但保证轻松、愉快！希望能给你在春节的闲暇时间里带去一点欢乐。 【本期主播】 若含 ：小红书@若含 王磬： 微博@王磬",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
       "showId": "jre",
@@ -577,6 +693,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "457 古物与政坛：从庞莱臣、张静江聊民国「湖州帮」往事",
+      "link": "https://www.xiaoyuzhoufm.com/episode/698aef71a22480add67d9f30?utm_source=rss",
+      "pubDate": "2026-02-10T09:02:01.000Z",
+      "duration": "01:39:15",
+      "summary": "- 导语 - 清末民初，湖州南浔的富商由丝业、地产积累财富，进而转向字画古董收藏，最终成为辛亥革命与国民政府的「天使投资人」。二陈兄弟、戴季陶、张静江与湖州籍同乡团体「湖社」有怎样的关系？抗战爆发后，湖州富人的收藏如何在日军、掮客与爱国买家之间流转？多重间谍张子羽如何周旋于各方势力，最终将国宝「毛公鼎」保全？张葱玉鉴定庞莱臣收藏仇英《江南春》为赝品的来龙去脉又是怎么一回事？请听本期嘉宾吴真的分享！",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -586,6 +713,17 @@
       "duration": "566",
       "summary": "Food keeps getting more expensive, so how do shoppers respond? They change what they buy, right? It’s not just that cheaper foods get more popular. Shoppers are more nuanced than that. So, today on th",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0c%2F09%2Fccb8446f48078ba0e27751d733d8%2Fb811382c-c3cd-4dcd-861e-5ee73f80dca9.jpg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "CZ's Untold Story: The Rise, Fall, and Redemption of Binance's Founder",
+      "link": "https://allinchamathjason.libsyn.com/czs-untold-story-the-rise-fall-and-redemption-of-binances-founder",
+      "pubDate": "2026-02-10T04:56:00.000Z",
+      "duration": "01:57:24",
+      "summary": "(0:00) From China to Canada (6:13) CZ's Early Career: Shockingly Normal (17:39) First Company in Shanghai (23:08) Discovering Bitcoin (30:11) Going All-In on Crypto (41:27) Founding Binance (1:03:57) ",
+      "art": "https://static.libsyn.com/p/assets/3/9/1/e/391e389ffa39ed5b16c3140a3186d450/1_Pod_CZ.png"
     },
     {
       "showId": "indicator",
@@ -610,6 +748,17 @@
       "art": "https://static.libsyn.com/p/assets/6/f/d/0/6fd04dd168f4d95816c3140a3186d450/WhatsApp_Image_2026-02-06_at_16.24.47.jpeg"
     },
     {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "对话张旭东：鲁迅逝世90年了，他为何仍然塑造着我们的精神世界？",
+      "link": "https://www.xiaoyuzhoufm.com/episode/698952a966e2c303778c06b7?utm_source=rss",
+      "pubDate": "2026-02-09T03:33:39.000Z",
+      "duration": "01:18:27",
+      "summary": "【主播的话】 1936年，在风雨飘摇的上海，鲁迅因病去世，享年55岁。 2026年，是鲁迅逝世九十周年。差不多整整一个世纪过去了，鲁迅却并未远去——他依然深深存在于当代中国人的精神生活之中，存在于我们的语言、记忆与时代观念里。 在中国出生长大的人，对鲁迅几乎都不会陌生。他的作品是小学课本里的重点篇目，直到今天，我们也许仍然能够熟练背出其中许多段落：从《从百草园到三味书屋》到《阿Q正传》，从《狂人日",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -619,6 +768,17 @@
       "duration": "54:18",
       "summary": "Ariel Cohen is the Co-Founder and CEO of Navan (formerly TripActions), an AI-powered travel and expense platform. Last month, Ariel took the company public, since being a public company, they have fac",
       "art": "https://static.libsyn.com/p/assets/1/8/d/6/18d681733d57aa5816c3140a3186d450/WhatsApp_Image_2026-02-05_at_15.17.51.jpeg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Epstein Files, Is SaaS Dead?, Moltbook Panic, SpaceX xAI Merger, Trump's Fed Pick",
+      "link": "https://allinchamathjason.libsyn.com/epstein-files-is-saas-dead-moltbook-panic-spacex-xai-merger-trumps-fed-pick-0",
+      "pubDate": "2026-02-07T04:35:00.000Z",
+      "duration": "01:19:22",
+      "summary": "(0:00) Besties intros: Brad Gerstner joins the show (3:16) Epstein Files (15:45) SaaS stocks crash out (35:11) Moltbook panic (47:37) Trump selects Kevin Warsh as new Fed Chair, replacing Jerome Powel",
+      "art": "https://static.libsyn.com/p/assets/8/4/b/9/84b98376fbde2c18d959afa2a1bf1c87/1_Pod_E260-20260207-cu0v3vcuor.png"
     },
     {
       "showId": "jre",
@@ -641,6 +801,17 @@
       "duration": "01:27:00",
       "summary": "Ragebait, sponcon, A.I. slop — the internet of 2026 makes a lot of us nostalgic for the internet of 10 or 15 years ago. What exactly went wrong here? How did the early promise of the internet get so t",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "继业者1918｜曼纳海姆与芬兰的世纪突围：从考察中国西北情报到「冬季战争」",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6985a282c78b823892f0011b?utm_source=rss",
+      "pubDate": "2026-02-06T09:09:27.000Z",
+      "duration": "00:03:00",
+      "summary": "- 导语 - 从忠诚的沙俄将领，到化名「马达汉」前往中国西北搜集情报的探险家，再到在1918年乱局中奠定芬兰独立基础的开国功臣，曼纳海姆的一生是旧帝国崩塌与新国家诞生交织的缩影。面对沙俄崩溃与芬兰境内红白内战，说瑞典语的贵族曼纳海姆为何被推举为芬兰白军总司令？从依赖德国援助到巧妙周旋于苏德之间，曼纳海姆如何在冬季战争中创造奇迹，又如何在「继续战争」后带领芬兰从二战轴心国困局中全身而退？请听本期节目",
+      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
     },
     {
       "showId": "jre",
@@ -720,6 +891,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "456 洪门会党、矿工械斗与拿律战争：白伟权谈19世纪马来半岛的华人移民社会",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6981bb5865d831df72382ec0?utm_source=rss",
+      "pubDate": "2026-02-03T09:27:12.000Z",
+      "duration": "01:16:56",
+      "summary": "- 导语 - 十九世纪的马来半岛，是众多华人移民眼中的「异域」，从广府人、客家人等不同群体的迁徙聚居，到洪门会党组织的械斗，南洋华人在这片土地留下了复杂而鲜活的历史印记。华工移民的社会日常生活究竟是怎样的？以海山、义兴为代表的华人会党，如何成为矿区社会的核心力量？因资源争夺引发的多次拿律战争，如何影响了马来半岛的殖民进程？请听本期嘉宾白伟权老师带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -751,6 +933,28 @@
       "duration": "01:01:24",
       "summary": "Omer Shai serves as the CMO at Wix. Shai leads a team of over 400 people and is responsible for the company's global online and offline marketing activity, which boasts an incredible growth of approxi",
       "art": "https://static.libsyn.com/p/assets/a/8/8/4/a884be14fc980ddb16c3140a3186d450/WhatsApp_Image_2026-01-29_at_19.03.07.jpeg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "ICE Chaos in Minneapolis, Clawdbot Takeover, Why the Dollar is Dropping",
+      "link": "https://allinchamathjason.libsyn.com/ice-chaos-in-minneapolis-clawdbot-takeover-why-the-dollar-is-dropping",
+      "pubDate": "2026-01-30T23:25:00.000Z",
+      "duration": "01:30:02",
+      "summary": "(0:00) Bestie intros + quick Davos recap (9:55) ICE chaos in Minneapolis: aftermath and reactions to the two recent deaths (45:54) Clawdbot takeover: Jason demos his OpenClawd instances, Kimi K2.5, en",
+      "art": "https://static.libsyn.com/p/assets/7/f/b/3/7fb3e0d2ebe6d56416c3140a3186d450/1_Pod_259.png"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "继业者1918｜凯末尔与现代土耳其的诞生：从战争英雄到改革家",
+      "link": "https://www.xiaoyuzhoufm.com/episode/697c80472fc7f49d09088c7d?utm_source=rss",
+      "pubDate": "2026-01-30T12:24:28.000Z",
+      "duration": "00:03:00",
+      "summary": "- 导语 - 从奥斯曼帝国的废墟中缔造现代土耳其的凯末尔，是一位坚定的「世俗主义者」。他在一战后的民族存亡关头领导独立战争，击退希腊军队，废除苏丹制与哈里发制，建立了土耳其共和国；又以铁腕推行世俗化改革，从文字、服饰到法律，全面重塑社会面貌。旧体制难以为继，民族主义崛起，奥斯曼帝国如何一步步走向分崩离析？凯末尔如何在战争中威望大增，最终成为「土耳其国父」？倡导「民主实验」却又一再反复，凯末尔为现代",
+      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
     },
     {
       "showId": "ezraklein",
@@ -830,6 +1034,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "455 武官·使臣·僧人：悟空法师的大唐西域历险记",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69787ef03cf2b0c01cdd0013?utm_source=rss",
+      "pubDate": "2026-01-27T09:18:42.000Z",
+      "duration": "01:06:12",
+      "summary": "- 导语 - 孙悟空有历史原型吗？ 历史作家苗子兮在一次新疆旅行中，意外揭开了真实「悟空」的传奇人生。他并非神话中会七十二变的孙行者，而是唐朝的一位低阶武官，俗名车奉朝，他出使唐蕃对峙的中亚前线，却意外滞留几十载春秋 。出使罽宾的重任背后有哪些历史大事件？从中亚到天竺再到回鹘草原，车奉朝如何一步步成为悟空法师？唐朝、吐蕃与大食的互动如何影响了西游与返乡之旅？请听本期嘉宾苗子兮带来的精彩分享！ - ",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -852,6 +1067,39 @@
       "art": "https://static.libsyn.com/p/assets/4/1/f/2/41f2082363648a9716c3140a3186d450/WhatsApp_Image_2026-01-23_at_21.00.03_1.jpeg"
     },
     {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "The Future of Everything: What CEOs of Circle, CrowdStrike & More See Coming in 2026",
+      "link": "https://allinchamathjason.libsyn.com/the-future-of-everything-what-ceos-of-circle-crowdstrike-more-see-coming-in-2026",
+      "pubDate": "2026-01-25T19:52:00.000Z",
+      "duration": "02:14:41",
+      "summary": "(0:00) Intro (0:50) Circle CEO Jeremy Allaire on stablecoins post-GENIUS Act, interest rate impact, growth in 2026, and the future of money in an AI world (52:33) CrowdStrike CEO George Kurtz on cyber",
+      "art": "https://static.libsyn.com/p/assets/a/9/c/b/a9cb4d1dadb1ea21/all-in_logo.png"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Dr. Mehmet Oz on Fixing American Healthcare + Fraud | Live from Davos",
+      "link": "https://allinchamathjason.libsyn.com/healthcare-needs-builders-not-bureaucrats-dr-mehmet-oz-live-from-davos",
+      "pubDate": "2026-01-24T06:19:00.000Z",
+      "duration": "01:05:43",
+      "summary": "(0:00) The Besties introduce Dr. Oz (3:26) Trump's vision for healthcare in America (13:26) AI & self-directed healthcare (30:10) The future of GLP-1s and affordability (35:06) The Medical Fraud Crisi",
+      "art": "https://static.libsyn.com/p/assets/f/9/a/f/f9afb2c64cb8476ed959afa2a1bf1c87/1_Pod_DrOz.png"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Coinbase CEO's Top 3 Crypto Trends for 2026 + More from Davos!",
+      "link": "https://allinchamathjason.libsyn.com/coinbase-ceo-brian-armstrong-breaks-down-the-three-biggest-trends-in-crypto-more-from-davos",
+      "pubDate": "2026-01-23T18:37:00.000Z",
+      "duration": "01:35:15",
+      "summary": "(0:00) Intro (0:37) Coinbase CEO, Brian Armstrong on Crypto Adoption (38:51) Cerebras CEO, Andrew Feldman on Compute Power (1:18:50) Gecko Robotics CEO, Jake Loosararian on AI and Physical Robots This",
+      "art": "https://static.libsyn.com/p/assets/a/9/c/b/a9cb4d1dadb1ea21/all-in_logo.png"
+    },
+    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -863,6 +1111,17 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "继业者1918｜波兰国父毕苏斯基元帅：从「华沙之战」到「海间联邦」未竟之梦",
+      "link": "https://www.xiaoyuzhoufm.com/episode/697349e9109824f9e127512d?utm_source=rss",
+      "pubDate": "2026-01-23T11:02:37.000Z",
+      "duration": "00:03:00",
+      "summary": "- 导语 - 被瓜分亡国123年后奇迹般地复国，这样的例子在世界史中并不常见，波兰第二共和国却做到了。约瑟夫·毕苏斯基是这场「复活赛」的总策划与急先锋，他作为革命家缔造了新波兰，也以独裁者的身份为后世铭记；他是布尔什维克的死对头，亲手在维斯瓦河畔击碎了列宁西进的梦想，又试图建立海间联邦，最终在欧洲民族主义浪潮中举步维艰。从西伯利亚的流放者到反抗帝俄的统帅，这位强硬的波兰人如何影响了二十世纪的欧洲？",
+      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
+    },
+    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -872,6 +1131,39 @@
       "duration": "01:06:26",
       "summary": "There’s so much more happening than what you see in online video clips. Congress gave Trump a staggering, military-size budget for immigration enforcement. And it’s hard to keep the scale of what the ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "风暴中心的伊朗：大巴扎、女性与年轻人的未来",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69733a54109824f9e123e093?utm_source=rss",
+      "pubDate": "2026-01-23T09:25:57.000Z",
+      "duration": "00:51:28",
+      "summary": "【主播的话】 2025年12月以来，一场由德黑兰大巴扎商贩发起的抗议，很快席卷了伊朗全境。经济急剧恶化，里亚尔对美元暴跌、通胀飙升、食品与燃料价格激增，普通人维生艰难。很快，经济抗议转向了政治诉求，示威者要求改变政治体制，对伊斯兰共和国统治合法性提出了质疑，甚至出现了“回到巴列维”的口号。伊朗政府于 1 月 8 日开始实施全面的互联网封锁，试图切断国内外信息流通。国家安全力量进行了大规模镇压，根据",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Inside America's AI Strategy: Infrastructure, Regulation, and Global Competition",
+      "link": "https://allinchamathjason.libsyn.com/inside-americas-ai-strategy-infrastructure-regulation-and-global-competition",
+      "pubDate": "2026-01-23T04:38:00.000Z",
+      "duration": "47:56",
+      "summary": "(0:00) Introducing David Sacks and Michael Kratsios, moderated by Maria Bartiromo (1:21) The cost of infrastructure build-out, energy challenges (12:41) Where AI will be most impactful (22:39) The Chi",
+      "art": "https://static.libsyn.com/p/assets/a/9/c/b/a9cb4d1dadb1ea21/all-in_logo.png"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Under Secretary of State Sarah B. Rogers on dismantling the \"Censorship Industrial Complex\"",
+      "link": "https://allinchamathjason.libsyn.com/under-secretary-of-state-sarah-b-rogers-on-dismantling-the-censorship-industrial-complex",
+      "pubDate": "2026-01-22T19:00:00.000Z",
+      "duration": "45:04",
+      "summary": "(0:00) Jason and Sacks welcome Sarah B. Rogers! (2:22) Free speech, EU censorship, OSA/DSA overreach? (13:44) Censorship on mass migration policies, major fines against US companies, the DSA as a \"cen",
+      "art": "https://static.libsyn.com/p/assets/2/c/4/c/2c4cae7216ae05b5d959afa2a1bf1c87/1_Pod_SarahB.png"
     },
     {
       "showId": "talksat",
@@ -896,6 +1188,28 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Microsoft CEO Satya Nadella on AI's Business Revolution: What Happens to SaaS, OpenAI, and Microsoft? | LIVE from Davos",
+      "link": "https://allinchamathjason.libsyn.com/microsoft-ceo-satya-nadella-on-ais-business-revolution-what-happens-to-saas-openai-and-microsoft-live-from-davos",
+      "pubDate": "2026-01-21T21:16:00.000Z",
+      "duration": "32:00",
+      "summary": "(0:00) Jason and Sacks welcome Microsoft CEO Satya Nadella (1:31) Future of AI copilots and agents, impact on white collar work (8:01) How Microsoft has scaled revenue and profits with flat headcount ",
+      "art": "https://static.libsyn.com/p/assets/7/b/4/8/7b480f5621f09822d959afa2a1bf1c87/1_Pod_Satya.png"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "454 对话赵鼎新：当你从干毛巾里挤出东海的水，学问才开始",
+      "link": "https://www.xiaoyuzhoufm.com/episode/696f556bef1cf272a7723adc?utm_source=rss",
+      "pubDate": "2026-01-20T12:35:19.000Z",
+      "duration": "01:42:12",
+      "summary": "- 导语 - 工厂工人、昆虫生态学博士、社会学家，赵鼎新亲历过动荡年代，也完成过从生物学到社会学的跨界。带上多重视角成为知名学者，那些从上海到宁夏的经历，如何影响了他的学术研究路径？生物学和时代的眼光如何被他带到了社会学？「儒法国家」在今天具有怎样的解释力？为什么他说「视角的改变」远比「材料的发现」更重要？请听本期嘉宾赵鼎新老师的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierG",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -907,6 +1221,17 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Iran's Breaking Point, Trump's Greenland Acquisition, and Solving Energy Costs",
+      "link": "https://allinchamathjason.libsyn.com/irans-breaking-point-trumps-greenland-acquisition-solving-energy-costs-billionaire-tax-backlash",
+      "pubDate": "2026-01-17T00:00:00.000Z",
+      "duration": "01:10:45",
+      "summary": "(0:00) Bestie intros! (4:18) Iran's breaking point: regime change coming? (14:28) Solving energy prices: Microsoft first hyperscaler to \"pay its own way\" and subsidize residential electric costs (31:1",
+      "art": "https://static.libsyn.com/p/assets/3/8/7/f/387f480b460ebe3916c3140a3186d450/1_Pod_E258.png"
+    },
+    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -916,6 +1241,39 @@
       "duration": "01:01:15",
       "summary": "We are one year into Trump’s second term. And it feels like so much has happened – more than the human mind, or the country, can absorb. But how much has Trump really accomplished? What policies have ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "中统局往事06｜乱世末路与特务群像：张冲、黄凯、季源溥及其他",
+      "link": "https://www.xiaoyuzhoufm.com/episode/696a0287109824f9e1d38758?utm_source=rss",
+      "pubDate": "2026-01-16T09:56:01.000Z",
+      "duration": "00:03:00",
+      "summary": "- 导语 - 在中统这台政治机器中，并非人人顺遂登顶。从才华横溢有志难酬的张冲，到派系倾轧中黯然离场的黄凯，再到被埋没的天才特工周光亚，中统的中层干部中其实存在着许多「失意者」。留美、留德、留苏的不同背景如何成为国民党派系斗争的基础？源自司法系统的「反省院」制度，如何被中统渗透掌握？上层政府改革，第三代局长季源溥如何应对中统经济危机？请听郑诗亮带来的精彩分享！ 《谍海轶闻｜中统局往事》将回溯中统局",
+      "art": "https://image.xyzcdn.net/FnrQGrCG1Qc-dgRYP0rOPm2tVpeL.png"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "当婚姻和生育分离，女性选择的多种可能",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6968fe86109824f9e1aeb1c6?utm_source=rss",
+      "pubDate": "2026-01-16T00:00:00.000Z",
+      "duration": "00:44:44",
+      "summary": "【主播的话】 主流社会的想象中，生育几乎总是与亲密关系、伴侣或婚姻绑定在一起的。 然而，这是一个必须要遵从的默认前提吗？当我们怀顾四周，发现事实并非如此。今天的女性，即使没有伴侣或者婚姻，依然能拥有不同的选择和生活自由。这是我们希望制作这个迷你系列的初衷，试图回答这一种新的选择意味着什么？ 这是系列的第二期，我们和导演、艺术家阿烂聊了聊她的生育选择、创作以及国内目前单身生育的环境。在录制这期节目时",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Supercharging a New FDA: Marty Makary on Science, Power & Patients",
+      "link": "https://allinchamathjason.libsyn.com/can-we-trust-the-fda-marty-makary-on-science-power-patients",
+      "pubDate": "2026-01-15T19:35:00.000Z",
+      "duration": "01:29:48",
+      "summary": "(0:00) Friedberg intros FDA Commissioner Marty Makary (3:21) Inside the 42 major FDA reforms in 10 months (7:51) The China Race: Winning back biotech leadership (13:14) Accelerating drug approvals saf",
+      "art": "https://static.libsyn.com/p/assets/5/f/3/6/5f36ac11d7f4dbe616c3140a3186d450/1_Pod_Makary.png"
     },
     {
       "showId": "etw",
@@ -951,6 +1309,28 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "453 从抓捕马杜罗事件漫谈美式隐蔽行动与特种作战：以拉美和中东为例",
+      "link": "https://www.xiaoyuzhoufm.com/episode/696603fa109824f9e13e9712?utm_source=rss",
+      "pubDate": "2026-01-13T08:58:49.000Z",
+      "duration": "01:30:43",
+      "summary": "- 导语 - 2026年1月3日凌晨，美军对委内瑞拉发动代号为「绝对决心」的突袭行动，成功抓获马杜罗夫妇并押送至美国。这场突袭并非孤立事件，而是美国自冷战以来在拉美和中东推行「隐蔽行动」这一套路的延续与演变。本期节目我们不仅梳理此次突袭的种种细节，也回溯美国在危地马拉、智利、巴拿马、伊拉克、黎巴嫩等国开展隐蔽行动的历史。看CIA如何从「导演」走向「演员」，以及特种部队如何接手并执行定点清除任务。请",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Adam Carolla on California's Collapse: Fires, Failed Leadership, and Gyno-Fascism",
+      "link": "https://allinchamathjason.libsyn.com/adam-carolla-on-californias-collapse-fires-failed-leadership-and-gyno-fascism",
+      "pubDate": "2026-01-13T03:04:00.000Z",
+      "duration": "01:09:49",
+      "summary": "(0:00) David Friedberg introduces Adam Carolla! (1:32) Palisades Fire one year out: the rebuilding crisis in LA (7:39) Gyno-fascism and safety culture (15:49) Media bias and gender dynamics (28:51) DE",
+      "art": "https://static.libsyn.com/p/assets/a/7/d/7/a7d75b77e19e9351d959afa2a1bf1c87/1_Pod_Carolla.png"
+    },
+    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -984,6 +1364,17 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "中统局往事05｜叛徒与卧底：从丁默邨、李士群「76号」魔窟到沈之岳的双面间谍疑云",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6960cb0af8b05f9f75aaad16?utm_source=rss",
+      "pubDate": "2026-01-09T09:49:03.000Z",
+      "duration": "00:03:00",
+      "summary": "- 导语 - 在谍战风云中，核心骨干的叛变往往是胜负的关键。中统的兴衰，既始于对「自首分子」的技术吸收，也受挫于昔日干将倒戈后的一击。从顾顺章叛变后史济美施展的「细胞战术」，李士群、丁默邨落水组建「76号」魔窟，到郭潜、沈之岳等人物扑朔迷离的双面人生，中统如何利用叛徒群体渗透破坏，又如何屡遭背叛？请听郑诗亮带来的精彩分享！ 《谍海轶闻｜中统局往事》将回溯中统局在上世纪三四十年代被尘封的那段历史。整",
+      "art": "https://image.xyzcdn.net/FnrQGrCG1Qc-dgRYP0rOPm2tVpeL.png"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -993,6 +1384,28 @@
       "duration": "1:07:07",
       "summary": "继数字化浪潮之后，AI 的兴起再次给传媒行业带来了冲击。在这个新技术快速迭代的时代，传媒教育究竟还应该教给学生什么？ 去年，香港大学原有的「新闻及传媒研究中心」重新更名为「未来媒体学院」。而今天这期节目的嘉宾，也是未来媒体学院的教师 Yolanda，则是学院内人工智能创新方向的主导者。 作为一线实践者，她正带着学生在变动的行业边界中寻找新的坐标。我们讨论了：新传专业正在设计哪些新课程来应对技术的变",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "石油、毒品与马杜罗：委内瑞拉的漫长坠落",
+      "link": "https://www.xiaoyuzhoufm.com/episode/695f1c35973648a0a60bec20?utm_source=rss",
+      "pubDate": "2026-01-08T03:11:23.000Z",
+      "duration": "00:48:55",
+      "summary": "【主播的话】 马杜罗，委内瑞拉现任总统，在一场由美国发起的特别行动中，被美军抓获。 这种抓捕行动充满了戏剧性。当地时间1月3日的凌晨，美军对委内瑞拉首都加拉加斯发起了空袭，地面部队闯入了总统住所，将马杜罗夫妇从熟睡中抓走。随后，特朗普召开了新闻发布会，表示这场行动已经策划了数月，马杜罗夫妇将被押至美国受审，美国将“接管”委内瑞拉直至权力的“安全过渡”。 一方面，过去十几年以来，委内瑞拉都被认为是一",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "452 安史之乱中的政治宣传、权力斗争与历史迷雾",
+      "link": "https://www.xiaoyuzhoufm.com/episode/695cd79421cd486af7378a1d?utm_source=rss",
+      "pubDate": "2026-01-06T10:14:54.000Z",
+      "duration": "02:13:23",
+      "summary": "- 导语 - 一场盛世的骤然崩塌，为后人理解安史之乱留下了重重谜团，甚至「宣传变成了历史，历史变成了神话」。《安史之乱》一书，便对那些与史实相距甚远的叙事进行了重新梳理。长时段的财政和历史地理分析出发，安史之乱爆发的基本条件是什么？现实中的杨国忠是否真如传说般依靠杨贵妃上台？张巡在睢阳保卫战中「杀妾飨士」的故事背后有哪些复杂线索？请听本期嘉宾历史学者张诗坪老师带来的精彩分享！ - 本期话题成员 -",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
       "showId": "ezraklein",
@@ -1015,6 +1428,17 @@
       "duration": "17989",
       "summary": "Rolex is a series of paradoxes. They sell obsolete and objectively inferior mechanical devices for 10-1000x the price of their superior digital successors… and demand is stronger than ever in history!",
       "art": "https://img.transistorcdn.com/82DxBjjLGlGkY5ze706jcF5N_2sMUlVayi2P7pSCZY8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81MjAw/ZGE5NjhhZTZiMTkw/MTlmYjU1MWY4Y2U0/M2RmMi5qcGc.jpg"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "中统局往事04｜如何指导文化特务工作：潘公展与张道藩",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6957966d14db1df9ef06c3cd?utm_source=rss",
+      "pubDate": "2026-01-02T10:22:06.000Z",
+      "duration": "00:03:00",
+      "summary": "- 导语 - 刀光剑影之外，中统在文化舆论战线上的角力极具特色且手段复杂。从潘公展执掌《申报》的舆论权力，到张道藩对文艺界的系统压制，中统深度介入舆论斗争的方方面面。国民党在文艺宣传上有哪些难以克服的思想短板？在思想活跃的校园，叶秀峰怎样通过「职业学生」管控舆论阵地？面对《文汇报》的三次拒绝，中统的收买为何最终落空？请听本期郑诗亮的精彩分享！ - 本期话题成员 - 郑诗亮，文史研究者 程衍樑（微博",
+      "art": "https://image.xyzcdn.net/FoI_XonfIotRT1m26hQ6KaZTDj-d.png"
     },
     {
       "showId": "ezraklein",
@@ -1061,6 +1485,17 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "AI Enterprise - Databricks & Glean | BG2 Guest Interview",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/AI-Enterprise---Databricks--Glean--BG2-Guest-Interview-e3cokl2",
+      "pubDate": "2025-12-23T23:00:00.000Z",
+      "duration": "00:45:00",
+      "summary": "In this BG2 guest interview, Altimeter partner Apoorv Agrawal sits down with Ali Ghodsi (Databricks) and Arvind Jain (Glean) for a candid, operator-level discussion on what’s actually working in enter",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
+    },
+    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1105,6 +1540,17 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "单身生育：一场关于自由、自我与爱的实验",
+      "link": "https://www.xiaoyuzhoufm.com/episode/694229525e8cb26fdf424d4f?utm_source=rss",
+      "pubDate": "2025-12-17T04:16:16.000Z",
+      "duration": "01:15:05",
+      "summary": "【主播的话】 在主流社会的想象中，生育几乎总是与亲密关系、伴侣或婚姻绑定在一起的。 然而，这是一个必须要遵从的默认前提吗？当我们怀顾四周，发现事实并非如此。今天的女性，即使没有伴侣或者婚姻，依然能拥有成为志愿单身母亲的自由。这是我们希望制作这个迷你系列的初衷，试图回答这一种新的选择意味着什么？ 今天的节目里，嘉宾西柚是一位通过精子库和 IVF （辅助生育技术）成为母亲的单身妈妈，她也是一位优秀的写",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -1125,6 +1571,17 @@
       "duration": null,
       "summary": "Irving Finkel is a scholar of ancient languages and a longtime curator at the British Museum, renowned for his expertise in Mesopotamian history and cuneiform writing. He specializes in reading and in",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "AI 革命的另一面：算法喂养者与全球劳动困局",
+      "link": "https://www.xiaoyuzhoufm.com/episode/693697813fec3166cfe430f0?utm_source=rss",
+      "pubDate": "2025-12-09T00:00:00.000Z",
+      "duration": "00:57:32",
+      "summary": "【主播的话】 过去几年，我们的生活里已经不可避免地被AI所包围。AI 的迅猛发展在给人类工作和生活带来便利的同时，也给人类带来了很多焦虑。许多这些焦虑也是围绕着我们对自己，以及和这个世界的关系展开的。 每个人在面对新科技发展时，都有不同的应对机制；过去几年做科技报道的经历让我意识到要了解一个新技术的优点与局限，它的潜在不公正与威胁。首先要了解它是如何被制造出来的？在这个制造环节中涉及了哪些不同的人",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
       "showId": "etw",
@@ -1182,6 +1639,17 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "对话“中国发展学之父”李小云：发展难有绝对公平，关键是不让弱者被甩下车",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6926af06f8a9e1d162827317?utm_source=rss",
+      "pubDate": "2025-11-27T00:00:00.000Z",
+      "duration": "00:50:57",
+      "summary": "【主播的话】 今年夏天，我去了云南西双版纳的一个小村子，观摩了一场关于“发展”的社会实验：一个资源匮乏、交通不便、族群杂居的边缘村庄，如何找到自己的位置？它的市场逻辑、政府逻辑、文化逻辑分别是什么？ 这场实验的主导者，是中国农业大学的李小云教授和他的团队。自上世纪90年代留学归国后，李小云长期研究贫困问题：一边在书斋里写论文，一边在田间地头，与农民一起种粮、盖房。许多贫困村在他的介入下重获新生，最",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -1237,6 +1705,17 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "对话张丰：有杏书店这两年",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69156a20cbba038b42549747?utm_source=rss",
+      "pubDate": "2025-11-13T05:28:23.000Z",
+      "duration": "00:52:44",
+      "summary": "【主播的话】 介绍不多写了，大家听节目吧。 【本期主播】 王磬： 微博 @王磬 【本期嘉宾】 张丰： 有杏书店主理人，独立媒体人，公众号「城市的地得」「张3丰的世界」「成都客」主理人 【相关阅读】 2025/10/29《好了，今天就告别吧》 mp.weixin.qq.com 2025/10/30《对成都的最后一点爱》 mp.weixin.qq.com 2025/11/1《这样很好》 mp.weix",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -1246,6 +1725,28 @@
       "duration": "1:02:26",
       "summary": "在意大利街角，为什么越来越多的「正宗意大利咖啡吧」背后，是华人在经营？ 这不是偶然的商业选择。移民、老龄化、经济危机等等复杂要素促成了这一现象。而当我们仔细审视这一现象时，可能会对「国民文化」、「移民」、「身份认同」、「种族歧视」都有不一样的看法。 这集，我们与记者冯兆音、人类学者邓婷，一起讨论意式咖啡里移民现实，身份认同以及文化的流动边界。而华人在异乡所经历的「他者」的经历，或许也可以成为反观我",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "战败自杀被救之后，她成为上万个中国孩子的接生婆",
+      "link": "https://www.xiaoyuzhoufm.com/episode/690d7cbfd99642be96e0b448?utm_source=rss",
+      "pubDate": "2025-11-07T05:09:03.000Z",
+      "duration": "00:52:33",
+      "summary": "【主播的话】 在播客的世界里，爱哲为人所知的身份，是故事FM的主播。他自称，“是一个以收集故事为业的人”。在讲述了许许多多别人的故事之后，爱哲自己变成了今天这个故事的主角。 在过去的十四年里，爱哲一直在寻找一个人——他的接生婆。 她是一位日本人，1940 年来到伪满洲国，在吉林桦甸的一家医院做护士。1945 年日本战败，她的家庭选择了自尽：夫妻和两个年幼的孩子全部倒在那场历史洪流之下。只有她，被中",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "All things AI w @altcap @sama & @satyanadella. A Halloween Special. 🎃🔥BG2 w/ Brad Gerstner",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/All-things-AI-w-altcap-sama--satyanadella--A-Halloween-Special--BG2-w-Brad-Gerstner-e3ab5db",
+      "pubDate": "2025-10-31T23:11:44.000Z",
+      "duration": "01:14:20",
+      "summary": "Brad Gerstner sits down with Satya Nadella (Microsoft) and Sam Altman (OpenAI) to unpack the $3 trillion AI buildout transforming technology, business, and the global economy. They dive deep into the ",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
     },
     {
       "showId": "lexfridman",
@@ -1270,6 +1771,17 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "不时夜谈｜她找到了想一直干到80岁的工作：让人吃得健康、美味又公正",
+      "link": "https://www.xiaoyuzhoufm.com/episode/68ff0df9083a71a4eb6beccf?utm_source=rss",
+      "pubDate": "2025-10-28T00:00:00.000Z",
+      "duration": "01:02:52",
+      "summary": "【主播的话】 这期节目我们一起来聊聊吃饭这件事。食物在我们生活如此频繁的出现，大部分人都在意食物是否美味，但很多时候如何选择食物也关系到我们想要一个怎样的世界。 今年十月瑞典斯德哥尔摩多食物论坛转型大会（EAT）上， 柳叶刀的行星饮食法（PHD）2.0 正式发布，报告推崇一种更健康和可持续化的饮食方式，科学家们提出如果全球推广PHD饮食法，每年可预防1500万成年人过早死亡（该估算未计入该饮食法对",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -1279,6 +1791,28 @@
       "duration": "12501",
       "summary": "Trader Joe's breaks every rule of modern retail. They don't do e-commerce. They don't do delivery. No sales, coupons, or loyalty programs. They only stock 4,000 SKUs versus 50,000+ at normal supermark",
       "art": "https://img.transistorcdn.com/mq0lgrSm6fJKRP39Oi5lgpBWo-rigMKrTI-LKVI16UE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zOGIx/MmQwYmNlNjEyZGFj/YWVhOTA5NDY1MGZi/ZWEyMC5qcGc.jpg"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "加沙战争两周年：我们还能相信什么样的正义？",
+      "link": "https://www.xiaoyuzhoufm.com/episode/68f85d3c456ffec65ef210c7?utm_source=rss",
+      "pubDate": "2025-10-22T04:49:11.000Z",
+      "duration": "01:27:28",
+      "summary": "【主播的话】 整整两年之前，2023年的十月份，以色列跟巴勒斯坦之间爆发了新一轮的严重冲突，并恶化为一场旷日持久的战争、以及一场接一场的人道惨剧。那天之后，世界似乎开始了一种持续至今的撕裂。在加沙，成千上万的人每天都在受难，饥饿、暴力、失踪、流离失所、残疾、死亡。与此同时，这场战争的回声，也在战场之外的地方不断回荡——在中东邻国、在美国、在欧洲，在大学校园里，在政治辩论中，在社交媒体上。 过去两年",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "AI Bubble, Stablecoin Boom, and Runnin' Down a Dream | BG2 w/ Bill Gurley and Brad Gerstner",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/AI-Bubble--Stablecoin-Boom--and-Runnin-Down-a-Dream--BG2-w-Bill-Gurley-and-Brad-Gerstner-e39hsi8",
+      "pubDate": "2025-10-14T23:40:02.000Z",
+      "duration": "01:01:49",
+      "summary": "Pre-Order Runnin' Down a Dream now: https://a.co/d/0oIPPve Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week, they unpack the ",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
     },
     {
       "showId": "lexfridman",
@@ -1303,6 +1837,17 @@
       "art": "https://img.transistorcdn.com/y4nQdH_zx3Uiyr6Ege0RkhfJtRXIVZUB6JJ34AeqLko/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xOTY3/YzI4NjFjYzg4NWFl/NjY1YjZlM2E0ZDI3/MWE0OC5qcGc.jpg"
     },
     {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "印尼抗议背后：经济不平等、殖民历史及与华人的关系",
+      "link": "https://www.xiaoyuzhoufm.com/episode/68de11318e321a0d6facf10f?utm_source=rss",
+      "pubDate": "2025-10-02T05:53:23.000Z",
+      "duration": "00:34:12",
+      "summary": "【主播的话】 今年8月29日，印尼雅加达示威中，21岁网约司机 Affan Kurniawan 被装甲警车碾压致死，引爆了全国愤怒；随后印尼好几个城市都爆发了更大规模抗议——抗议浪潮很快上升为更广泛的反警暴与反特权运动。 在这期国庆加更节目中，我们邀请了历史学博士王乐之从他的视角和我们聊聊印尼这次抗议的特殊之处，以及印尼背后错综复杂的历史及其与华人社群的关系。 【本期主播】 若含 ：微博@_R若含",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -1325,6 +1870,28 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "气候政治新剧本：南方崛起、东升西降？谁在退场、谁在接棒？",
+      "link": "https://www.xiaoyuzhoufm.com/episode/68da0904b4befcf7306dacf8?utm_source=rss",
+      "pubDate": "2025-09-29T04:56:54.000Z",
+      "duration": "00:49:00",
+      "summary": "【主播的话】 过去的这一周，第80届联合国大会在纽约举行。这不仅是一场外交大秀，也是一场议题角力的舞台。今年的大会同时也正值“纽约气候周”，来自全球的环保组织、科研机构、企业与政策制定者齐聚一堂。 在各种地缘冲突、经济挑战与安全博弈之外，气候变化依旧是绕不过去的焦点：全球正在逼近气候临界点。21 世纪20 年代被称为应对气候变化行动最具决定性的十年，而现在即将过半。特朗普的联合国大会发言，延续了他",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "NVIDIA: OpenAI, Future of Compute, and the American Dream | BG2 w/ Bill Gurley and Brad Gerstner",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/NVIDIA-OpenAI--Future-of-Compute--and-the-American-Dream--BG2-w-Bill-Gurley-and-Brad-Gerstner-e38nn2r",
+      "pubDate": "2025-09-26T03:17:35.000Z",
+      "duration": "01:44:14",
+      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week, Brad and Clark Tang sit down with Jensen Huang, founder & CEO of NVIDIA, fo",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
+    },
+    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -1334,6 +1901,17 @@
       "duration": "4:31:21",
       "summary": "Norman Ohler is a historian and author of Blitzed: Drugs in the Third Reich, a book that investigates the role of psychoactive drugs, particularly stimulants such as methamphetamine, in the military h",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "Inside OpenAI Enterprise: Forward Deployed Engineering, GPT-5, and More | BG2 Guest Interview",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/Inside-OpenAI-Enterprise-Forward-Deployed-Engineering--GPT-5--and-More--BG2-Guest-Interview-e383tev",
+      "pubDate": "2025-09-11T21:07:07.000Z",
+      "duration": "01:08:57",
+      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week, guest host Altimeter’s Apoorv Agrawal explores how OpenAI is reshaping ente",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
     },
     {
       "showId": "lexfridman",
@@ -1356,6 +1934,17 @@
       "duration": null,
       "summary": "Dave Plummer is a programmer, former Microsoft software engineer (Windows 95, NT, XP), creator of Task Manager, author of two books on autism, and host of the Daves Garage YouTube channel, where he sh",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "China, China, China. Breaking Down China’s Tech Surge | BG2 w/ Bill Gurley and Brad Gerstner",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/China--China--China--Breaking-Down-Chinas-Tech-Surge--BG2-w-Bill-Gurley-and-Brad-Gerstner-e37f6dq",
+      "pubDate": "2025-08-28T23:39:23.000Z",
+      "duration": "01:06:32",
+      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week, they dive deep into China’s explosive innovation across AI and EVs, the ris",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
     },
     {
       "showId": "acquired",
@@ -1391,6 +1980,17 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "China Open-Source, Compute Arms Race, Reordering Global Trade | BG2 w/ Bill Gurley and Brad Gerstner",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/China-Open-Source--Compute-Arms-Race--Reordering-Global-Trade--BG2-w-Bill-Gurley-and-Brad-Gerstner-e369e1e",
+      "pubDate": "2025-07-31T15:11:15.000Z",
+      "duration": "01:04:20",
+      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week, they discuss open-source models in China and the US, the compute arms race,",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
+    },
+    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -1400,6 +2000,17 @@
       "duration": "4118",
       "summary": "We sit down with Jamie Dimon for a live conversation at Radio City Music Hall, covering the incredible journey from his 1998 firing at Citgroup (where he was widely expected to become CEO) to building",
       "art": "https://img.transistorcdn.com/cy5c8cYm3Mif1hAX53cvNupzpgVSO5vERlobaDDdECo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xNTU3/NTA0NTEzMTE2NzBj/NGRjNTY5NGI3MjU2/ZWYzMi5qcGc.jpg"
+    },
+    {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "Michael Dell – Invest America Act Becomes Law, AI Talent Wars, Compute Demand, Market Update | BG2",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/Michael-Dell--Invest-America-Act-Becomes-Law--AI-Talent-Wars--Compute-Demand--Market-Update--BG2-e35d6pa",
+      "pubDate": "2025-07-10T22:50:18.000Z",
+      "duration": "01:18:35",
+      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week, they welcome Michael Dell to discuss the Invest America Act, lessons learne",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
     },
     {
       "showId": "acquired",
@@ -1413,6 +2024,39 @@
       "art": "https://img.transistorcdn.com/AIk_95Gy1RKYk2QVkS2VQVKpZd30JmUJb3cV4VmNY0s/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNDE4/MGJjZWJjMDgzMjBh/YjY1MzZmOTk3Yjk5/N2M3OC5qcGc.jpg"
     },
     {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "Coatue Pt2. Open AI’s Kevin Weil Dives into All Things ChatGPT | BG2 w/ Bill Gurley & Brad Gerstner",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/Coatue-Pt2--Open-AIs-Kevin-Weil-Dives-into-All-Things-ChatGPT--BG2-w-Bill-Gurley--Brad-Gerstner-e34i1mv",
+      "pubDate": "2025-06-21T15:51:43.000Z",
+      "duration": "00:21:36",
+      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week, recording from the Coatue East Meets West stage, they welcome OpenAI CPO Ke",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
+    },
+    {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "Coatue’s Laffont Brothers. AI, Public & VC Mkts, Macro, US Debt, Crypto, IPO's, & more | BG2",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/Coatues-Laffont-Brothers--AI--Public--VC-Mkts--Macro--US-Debt--Crypto--IPOs---more--BG2-e34g43p",
+      "pubDate": "2025-06-20T00:11:39.000Z",
+      "duration": "01:01:16",
+      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week, they welcome Coatue’s Thomas and Philippe Laffont to discuss the AI Super c",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
+    },
+    {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "China, AI Immigration, Rare Earths & Chips, Tariffs, Market Check | BG2 w/ Bill Gurley & Brad Gerstner",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/China--AI-Immigration--Rare-Earths--Chips--Tariffs--Market-Check--BG2-w-Bill-Gurley--Brad-Gerstner-e33s4vi",
+      "pubDate": "2025-06-05T23:20:47.000Z",
+      "duration": "01:01:11",
+      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week, they discuss the pace of AI and data walls, China’s startups, immigration a",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
+    },
+    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -1422,6 +2066,28 @@
       "duration": "10624",
       "summary": "We sit down with Steve Ballmer, the legendary former Microsoft CEO and owner of the LA Clippers, for an epic conversation covering his 34 years at Microsoft. Steve listened to our Microsoft episodes a",
       "art": "https://img.transistorcdn.com/nlEyqUXOU914UwjwrayeOmgMmfLh8qGrdXGXEfHTp0g/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNjli/ZDk5NTRlY2FjZTdk/NjM4NmVjZDYzNzgw/ZmEyMi5qcGc.jpg"
+    },
+    {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "AI, Middle East, China, Tariffs, Recon Bill, Invest America | BG2 w/ Bill Gurley & Brad Gerstner",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/AI--Middle-East--China--Tariffs--Recon-Bill--Invest-America--BG2-w-Bill-Gurley--Brad-Gerstner-e337e3n",
+      "pubDate": "2025-05-22T16:23:05.000Z",
+      "duration": "01:16:27",
+      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week, they discuss the overturning of the AI Diffusion Rule, Brad’s trip to the M",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
+    },
+    {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "Tariffs, Free Trade, Export Controls, H20 & Rare Earth Ban | BG2 w/ Bill Gurley & Brad Gerstner",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/Tariffs--Free-Trade--Export-Controls--H20--Rare-Earth-Ban--BG2-w-Bill-Gurley--Brad-Gerstner-e31vheo",
+      "pubDate": "2025-04-24T21:14:35.000Z",
+      "duration": "01:02:36",
+      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week they revisit arguments about free trade, and discuss updates on tariff negot",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
     },
     {
       "showId": "acquired",
@@ -1435,6 +2101,17 @@
       "art": "https://img.transistorcdn.com/vZ8_8iXPbKD-misy2I84tm0vU9lSJyFCsVM6KYcQP0Y/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9kM2Q0/MDhhNGI2OGEzMTNm/NmQxNjc2ZmE0MmRl/OTVjNi5wbmc.jpg"
     },
     {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "Liberation Day, Tariffs, US v China Open Source, OpenAI Fundraise, $CRWV, TikTok | BG2 w/ Bill Gurley & Brad Gerstner",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/Liberation-Day--Tariffs--US-v-China-Open-Source--OpenAI-Fundraise--CRWV--TikTok--BG2-w-Bill-Gurley--Brad-Gerstner-e3135kg",
+      "pubDate": "2025-04-04T02:21:02.000Z",
+      "duration": "01:13:12",
+      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week they discuss market uncertainty, globalism and tariffs, M&A, Wiz and GOOG, N",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
+    },
+    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -1444,6 +2121,17 @@
       "duration": "15979",
       "summary": "When you saw this episode pop up in your feed, you either jumped for joy and hit play immediately (in which case you’re not reading this), or you said “Huh. That’s a surprising episode.” Well, if you’",
       "art": "https://img.transistorcdn.com/P7764OsbE5HFwEoFl-L-g4QuzNfHwT9E7IDco3xxNXM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lYzA5/ZWMzN2Q5NjMzY2Ni/ZDMwZGI0Y2FmYThh/MTIwMC5qcGc.jpg"
+    },
+    {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "NVDA GTC, M&A Wiz / Goog $32 B Deal, April 2 Tariff Uncertainty; Huawei Belt & Road; ChatGPT",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/NVDA-GTC--MA-Wiz--Goog-32-B-Deal--April-2-Tariff-Uncertainty-Huawei-Belt--Road-ChatGPT-e30f4k1",
+      "pubDate": "2025-03-21T01:25:12.000Z",
+      "duration": "01:22:00",
+      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week they discuss market uncertainty, globalism and tariffs, M&A, Wiz and GOOG, N",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
     },
     {
       "showId": "acquired",
