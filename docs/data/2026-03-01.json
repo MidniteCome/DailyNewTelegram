@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-03-01",
     "topN": 5,
-    "total": 16
+    "total": 29
   },
   "articles": [
     {
@@ -11,12 +11,12 @@
       "link": "https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself",
       "source": "TechCrunch",
       "summary": "Anthropic, OpenAI, Google DeepMind and others have long promised to govern themselves responsibly. Now, in the absence of rules, there's not a lot to protect them.",
-      "llmComment": "Anthropic是一家人工智能研究公司，致力于开发更安全、更负责任的AI技术。他们的核心技术突破在于尝试建立自我监管的框架，以避免AI带来的潜在风险，这与现有方案的实质差异在于他们试图在行业内建立自律机制。这种路线可能对产业链产生深远影响，尤其是对云厂商和应用层的公司，他们可能需要重新评估自己的AI开发和部署策略。然而，目前尚待观察的是，这种自我监管的框架是否能够真正有效地保护用户和社会免受AI带来的风险。",
+      "llmComment": "Anthropic是一家人工智能公司，致力于开发和应用AI技术，尤其是在大型语言模型方面。他们的核心技术突破在于开发了更为安全和可靠的AI系统，但具体的技术细节尚待观察。这种技术突破可能对产业链产生深远影响，尤其是对芯片和云厂商，他们可能需要调整自己的产品和服务以适应新的AI技术。然而，目前尚不清楚Anthropic的技术路线是否能完全规避风险和挑战，尤其是在缺乏明确规则和监管的情况下，这可能会对公司的发展和整个AI产业造成不确定性。",
       "pubDate": "2026-03-01T00:08:58.000Z",
-      "score": 164,
+      "score": 163,
       "category": "🤖 AI & 研究",
       "titleEn": null,
-      "titleZh": "人工智能陷阱",
+      "titleZh": "Anthropic 自建陷阱",
       "isHot": true,
       "paywalled": false
     },
@@ -26,7 +26,7 @@
       "link": "https://techcrunch.com/2026/02/28/why-did-netflix-back-down-from-its-deal-to-acquire-warner-bros",
       "source": "TechCrunch",
       "summary": "Netflix's co-CEO reportedly told Trump, \"I took your advice.\"",
-      "llmComment": "Netflix是一家全球领先的流媒体服务公司，近期传出其放弃收购华纳兄弟的计划。该交易的核心逻辑可能是Netflix试图通过收购华纳兄弟来扩大其内容库和提高竞争力，但最终放弃可能是由于成本、整合挑战或监管审查等因素。这种放弃可能会让其他竞争对手如Amazon或Disney受益，而Netflix可能面临更大的竞争压力。 Bull case是Netflix可以专注于自身内容创作和技术创新，保持其市场领先地位；而Bear case是Netflix可能失去扩张和竞争的机会，尚待观察其未来战略调整。",
+      "llmComment": "Netflix是一家全球领先的流媒体服务提供商，近期传出与华纳兄弟公司（Warner Bros.）的收购谈判破裂的消息。该交易的核心逻辑可能涉及Netflix对高质量内容和市场份额的追求，但具体细节尚待观察。这个事件可能会对行业竞争格局产生影响，其他流媒体服务提供商可能会受益于Netflix的收购失败，而华纳兄弟公司可能会面临新的竞争压力。从bull case来看，Netflix可能会寻找其他收购机会来增强其内容优势，但从bear case来看，公司的战略调整可能会影响其短期业绩。",
       "pubDate": "2026-02-28T22:07:48.000Z",
       "score": 67,
       "category": "💼 并购 M&A",
@@ -37,11 +37,26 @@
     },
     {
       "rank": 3,
+      "title": "What to know about the landmark Warner Bros. Discovery sale",
+      "link": "https://techcrunch.com/2026/02/28/warner-bros-netflix-paramount-acquisition-timeline-wbd",
+      "source": "TechCrunch",
+      "summary": "Learn more about Paramount's planned acquisition of Warner Bros. Discovery — a historic Hollywood megadeal valued at $111 billion — as it continues to develop.",
+      "llmComment": "派拉蒙公司计划以1110亿美元的价格收购华纳兄弟发现公司，这是近年来最大的媒体行业并购案之一。这种交易的核心逻辑可能是派拉蒙公司希望通过收购华纳兄弟发现公司的丰富内容资源和媒体资产来扩大自己的市场份额和竞争力。这种收购可能会对行业竞争格局产生重大影响，可能会使派拉蒙公司和华纳兄弟发现公司的竞争对手，如Netflix和迪士尼，面临更大的压力。尚待观察的是，这笔交易是否能最终完成，以及如何影响整个媒体行业的竞争格局和市场格局。",
+      "pubDate": "2026-02-28T21:28:06.000Z",
+      "score": 66,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "华纳兄弟发现的标志性销售",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 4,
       "title": "Trump moves to ban Anthropic from the US government",
       "link": "https://arstechnica.com/tech-policy/2026/02/trump-moves-to-ban-anthropic-from-the-us-government",
       "source": "Ars Technica",
       "summary": "",
-      "llmComment": "Anthropic是一家人工智能公司，专注于开发更安全、更可靠的AI模型，最近引起了美国政府的关注。其核心技术突破在于开发了一种新的AI模型，能够更好地理解和控制自身的行为，这与现有的AI方案有着显著的差异，因为传统的AI模型往往难以控制其自身的行为和输出。这种技术突破可能会对产业链产生重大影响，尤其是对云厂商和应用层的公司，因为它们可能需要重新评估和调整自己的AI解决方案以适应新的安全和可靠性标准。然而，目前尚待观察的是，这种技术是否能够在实际应用中保持其安全性和可靠性，以及是否会面临来自竞品的挑战。",
+      "llmComment": "Anthropic是一家人工智能公司，专注于开发更安全、更透明的AI模型。他们的核心技术突破在于开发了一种新的AI训练方法，这种方法可以更好地控制AI的行为和输出，与现有方案相比具有更高的安全性和可靠性。这种技术突破可能会对产业链产生潜在影响，尤其是对云厂商和应用层的公司，他们可能需要重新评估自己的AI解决方案以确保安全性和合规性。然而，尚待观察的是，这种技术是否能够在大规模应用中保持其安全性和效率，以及是否会面临来自竞品的挑战和监管审查。",
       "pubDate": "2026-02-28T20:00:26.000Z",
       "score": 64,
       "category": "🤖 AI & 研究",
@@ -51,12 +66,12 @@
       "paywalled": false
     },
     {
-      "rank": 4,
+      "rank": 5,
       "title": "MinIO Is Dead, Long Live MinIO",
       "link": "https://blog.vonng.com/en/db/minio-resurrect",
       "source": "Hacker News",
       "summary": "Article URL: https://blog.vonng.com/en/db/minio-resurrect/ Comments URL: https://news.ycombinator.com/item?id=47200342 Points: 174 # Comments: 59",
-      "llmComment": "MinIO是一家提供对象存储解决方案的公司，其核心差异化在于其开源的、兼容S3的存储系统，能够为用户提供高性能和可扩展的数据存储服务。MinIO的产品能够满足云计算和大数据处理的需求，这使得其在市场上具有潜在的机会，特别是在云存储和数据管理领域。然而，MinIO也面临着来自其他云存储提供商的竞争威胁，例如Amazon S3和Google Cloud Storage等。由于原文信息有限，尚待观察MinIO的未来发展和竞争策略。",
+      "llmComment": "MinIO是一家提供对象存储解决方案的公司，近期其开源项目被社区接管，标志着其产品的新生。MinIO的核心差异化在于其高性能和兼容性，能够与多种云存储服务无缝对接，这使得它在数据存储和管理市场中具有竞争力。然而，随着开源项目的社区化运营，MinIO可能面临来自其他开源存储解决方案的竞争威胁，例如Ceph和OpenStack Swift等。值得持续追踪的是MinIO社区的发展动态和其产品在市场中的接受程度，尚待观察其是否能保持原有的市场份额和影响力。",
       "pubDate": "2026-02-28T21:16:53.000Z",
       "score": 53,
       "category": "🌐 社区",
@@ -66,7 +81,7 @@
       "paywalled": false
     },
     {
-      "rank": 5,
+      "rank": 6,
       "title": "US and Israel attack Iran; Tehran retaliates - Reuters",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMHg3V1dUR3Vrcm9aT2hMZ0ZJZ1JSMV9WWVpLSC1fQk96WTdaQnJCXzhrLXRDQ2JnSExRbmNmQy1VaWhYd2RVNzRiS1Q2bVg3UUZ0UHhZRWZyV01kSkZWaXlCbmQxUUdlLWxvUThwR2xObFZ4aDBJRHBsQ1dYOGdEb09XUHhGZDZ1QjNqaQ?oc=5",
       "source": "Reuters M&A (Google News)",
@@ -81,7 +96,7 @@
       "paywalled": true
     },
     {
-      "rank": 6,
+      "rank": 7,
       "title": "Addressing Antigravity Bans and Reinstating Access",
       "link": "https://github.com/google-gemini/gemini-cli/discussions/20632",
       "source": "Hacker News",
@@ -96,7 +111,7 @@
       "paywalled": false
     },
     {
-      "rank": 7,
+      "rank": 8,
       "title": "QIA, Visa and ADIA set to anchor SoftBank's PayPay IPO, sources say - Reuters",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQ0tybmRoZmdfS3RqOGthSlRUaTlkMi1RQUhqZ1BCRGctMTBIZkFBX2dORUhMMDlNNjlGMmxqZC1oRENQc3kxbXM3VWRkVFFYTFUzTVk2OXRfa2w5a1FfeUZkTGNTVkFuTnhDLU5uWHN1ZFJEQjQ3X2JWUDN4cUFqWkd1TDVCc1ZDWTE2RE9kZ0l6bElvbFZaS2Z1TWVoTjdzVWlJMi16a3d2R2tPOThDWnVB?oc=5",
       "source": "Reuters IPO (Google News)",
@@ -111,7 +126,37 @@
       "paywalled": true
     },
     {
-      "rank": 8,
+      "rank": 9,
+      "title": "MCP server that reduces Claude Code context consumption by 98%",
+      "link": "https://mksg.lu/blog/context-mode",
+      "source": "Hacker News",
+      "summary": "Article URL: https://mksg.lu/blog/context-mode Comments URL: https://news.ycombinator.com/item?id=47193064 Points: 215 # Comments: 52",
+      "llmComment": null,
+      "pubDate": "2026-02-28T10:01:20.000Z",
+      "score": 48,
+      "category": "🌐 社区",
+      "titleEn": null,
+      "titleZh": "98% 减少 Claude Code 上下文消耗的 MCP 服务器",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 10,
+      "title": "Qwen3.5 122B and 35B models offer Sonnet 4.5 performance on local computers",
+      "link": "https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance",
+      "source": "Hacker News",
+      "summary": "Article URL: https://venturebeat.com/technology/alibabas-new-open-source-qwen3-5-medium-models-offer-sonnet-4-5-performance Comments URL: https://news.ycombinator.com/item?id=47199781 Points: 189 # Comments: 117",
+      "llmComment": null,
+      "pubDate": "2026-02-28T20:20:00.000Z",
+      "score": 47,
+      "category": "🌐 社区",
+      "titleEn": null,
+      "titleZh": "Qwen3.5 模型提供 Sonnet 4.5 性能",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 11,
       "title": "Swiss renewable energy company ThomasLloyd eyes US public listing - Reuters",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUEk2dF9yVFphM3pnUUlvd3BsMHZYYl9ZMG9fUzUySGFmX3FBRkdjWERhWXhtUDhQdFBLdzlubWhNMXVfTTdLTFJ1RG5LQlVYYXo5T255Tmd6bW8tOXNtaktRVGxWNzc2RF9RZTBrWkFobEtxUmI1U2xoTGtnMEhHdUk0LWNYLW8yUDBZemk4b2k5THhleHhmVFZKbUxZQkRxUmJKSlAwTWNXN2JWaDd3b0hKem5ta1l4QmJCQg?oc=5",
       "source": "Reuters IPO (Google News)",
@@ -126,7 +171,22 @@
       "paywalled": true
     },
     {
-      "rank": 9,
+      "rank": 12,
+      "title": "Carlyle-backed Quest Global plans India IPO next year, CEO says - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdXlST2FnWkpCRUpqcWR3d3diN1dfS1hEVzN0TXpPNlNPdm5FZDg1MHg2YmVmZVVJeWliNURGX20zVy10QmlqX0xRNzhBNFhrbDhMdmRzeEFHRHJsNzhQVjRfQ1FhUzBhczhiZFZEa2o5ZG9sQzJYaE52QUk1YmszVW5SNmpWYmo4Y1R4VnBEU0tEODR3RThCUmR5MjUtZWN2Z25WYjYtTld4cVBCemRFNml3Mnp6NERj?oc=5",
+      "source": "Reuters IPO (Google News)",
+      "summary": "Carlyle-backed Quest Global plans India IPO next year, CEO says Reuters",
+      "llmComment": null,
+      "pubDate": "2026-02-26T18:32:49.000Z",
+      "score": 43,
+      "category": "📈 股权融资",
+      "titleEn": null,
+      "titleZh": "卡莱尔支持的 Quest Global 计划明年在印度上市 - 路透社",
+      "isHot": false,
+      "paywalled": true
+    },
+    {
+      "rank": 13,
       "title": "Rolls-Royce shares pop as profits jump nearly 40%",
       "link": "https://uk.finance.yahoo.com/news/rolls-royce-profits-jump-buyback-ftse-defence-stocks-121234394.html",
       "source": "Yahoo Finance",
@@ -141,7 +201,7 @@
       "paywalled": false
     },
     {
-      "rank": 10,
+      "rank": 14,
       "title": "Should you invest in gold?",
       "link": "https://uk.finance.yahoo.com/news/should-i-invest-gold-prices-123542208.html",
       "source": "Yahoo Finance",
@@ -156,7 +216,82 @@
       "paywalled": false
     },
     {
-      "rank": 11,
+      "rank": 15,
+      "title": "Four Hong Kong listings seek $626 million as market revives after Lunar New Year - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOUQyN3pjbjYxRjhDLW05T3NNaHdGVno2OVNmRm5Tb09tTlZUUGY2ZkdTU2hiT2JfWTRWeGhtRkpJNjhEMmlmZG9kbWRtdWYtYlJBWkJWa1MzZE9QNy1TNUtMTm5iZjA3clFGZ1RDaFpnWEYwSnkzUHY1bUZNUVEwX0JwZi05NVhCYjVIRFV1N2lKanQwS2NFTkdITS1VQ1hHQlBNd3NkUVEyaXVRdDgtT0RHS3l4bFUwams1eU5UOVlTRjRCUFhVdUFMTQ?oc=5",
+      "source": "Reuters IPO (Google News)",
+      "summary": "Four Hong Kong listings seek $626 million as market revives after Lunar New Year Reuters",
+      "llmComment": null,
+      "pubDate": "2026-02-27T01:10:00.000Z",
+      "score": 42,
+      "category": "💰 资本市场·其他",
+      "titleEn": null,
+      "titleZh": "四家香港上市公司寻求 6.26 亿美元融资 - 路透社",
+      "isHot": false,
+      "paywalled": true
+    },
+    {
+      "rank": 16,
+      "title": "Eurozone inflation falls to 16-month low of 1.7%",
+      "link": "https://uk.finance.yahoo.com/news/eurozone-inflation-cpi-ecb-121915354.html",
+      "source": "Yahoo Finance",
+      "summary": "Eurozone inflation falls to 16-month low of 1.7% Yahoo Finance UK • 3 days ago",
+      "llmComment": null,
+      "pubDate": "2026-02-26T23:18:24.000Z",
+      "score": 41,
+      "category": "📊 宏观市场",
+      "titleEn": null,
+      "titleZh": "欧元区通胀率降至 16 个月低点 1.7%",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 17,
+      "title": "Neanderthals seemed to have a thing for modern human women",
+      "link": "https://arstechnica.com/science/2026/02/genomes-chart-the-history-of-neanderthal-modern-human-interactions",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-26T23:16:46.000Z",
+      "score": 37,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "尼安德特人似乎偏爱现代人类女性",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 18,
+      "title": "NASA shakes up its Artemis program to speed up lunar return",
+      "link": "https://arstechnica.com/staff/2026/02/nasa-shakes-up-its-artemis-program-to-speed-up-lunar-return",
+      "source": "Ars Technica",
+      "summary": "",
+      "llmComment": null,
+      "pubDate": "2026-02-27T15:08:08.000Z",
+      "score": 37,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "美国国家航空航天局调整阿尔忒弥斯计划以加速月球返回",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 19,
+      "title": "U.S. Intel",
+      "link": "https://stratechery.com/2025/u-s-intel/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3Utcy1pbnRlbC8iXX0sImV4cCI6MTc3NDkxOTgyNywiaWF0IjoxNzcyMzI3ODI3LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.scyQbvTfCodtXYBaWHkcLCMLU7lQMxzpB7q2vmM-oUi8i_s1ysn4A1A23bqKvzWxhoAtfJtn2ri8KGITl7xa6lMBeqGAp7NGMBXFdSY3h43M3l2WqDcRzZC73QGw2BKlyG_1KKmL76jfE-mYQtuDwIbFCPSnyUYkHYqimUs59hqkz7qrZ0AXvVpu8QFWP5EWgR5ImCuXpv8AkLiwC37w83iUROilbOP5691EAAYIi72P6kTQXe31OU6ukxxojuFHPyqpLSRXp9J1gyQxdBaO5rbyI_EDf5GMP0myUqzISCZ-eLgCivhxpPn3OFJ1n_6QmWGhko-lHh-7fjD8r6QQ-g",
+      "source": "Stratechery",
+      "summary": "The U.S. taking an equity stake in Intel is a terrible idea; it also happens to be the least bad idea to make Intel Foundry viable.",
+      "llmComment": null,
+      "pubDate": "2025-08-26T10:00:00.000Z",
+      "score": 37,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "美国情报背景",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 20,
       "title": "And the award for the most improved EV goes to... the 2026 Toyota bZ",
       "link": "https://arstechnica.com/cars/2026/02/and-the-award-for-the-most-improved-ev-goes-to-the-2026-toyota-bz",
       "source": "Ars Technica",
@@ -171,7 +306,7 @@
       "paywalled": false
     },
     {
-      "rank": 12,
+      "rank": 21,
       "title": "U.S. Intel",
       "link": "https://stratechery.com/2025/u-s-intel/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3Utcy1pbnRlbC8iXX0sImV4cCI6MTc3NDkxODU3NywiaWF0IjoxNzcyMzI2NTc3LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.RzxIPPC3yLu1lXibuCtGPKw-hJ7DFwaPFPKvD3db0Smgx6mNgMbe_jMZPM7heWR6QnWKzoWH8Wl6kt29RvmoLAshX-oj2ABZZP_bivzlLSBUYYVeUql3RthsinNAhZ0KgILSGgMWfzlbnZA7lfObnqXmyUAkaiu94rcb5oDH2Jy0HFutB6fBeAScJfXoQ5mfSQj-OCqr7rY1ppiAES5L9MNoqwyDuOSBQtNu9sUUab4HptXg9mgn_JGqHo-P-cpSBSFCmzh4tOHptfUs2NaZqXpJSiCSr_9RalAZyb0fPdzCfnt_bBjvhPw3Z1EH68ER44tk8a05kkMraXGZSAHVIA",
       "source": "Stratechery",
@@ -186,7 +321,22 @@
       "paywalled": false
     },
     {
-      "rank": 13,
+      "rank": 22,
+      "title": "Gold prices to hit $6,300 by end of year, says JPMorgan",
+      "link": "https://uk.finance.yahoo.com/news/gold-prices-oil-pound-dollar-trump-tariffs-us-iran-093052215.html",
+      "source": "Yahoo Finance",
+      "summary": "Gold prices to hit $6,300 by end of year, says JPMorgan Yahoo Finance UK • 2 days ago GC=F GBPUSD=X",
+      "llmComment": null,
+      "pubDate": "2026-02-27T08:02:25.000Z",
+      "score": 36,
+      "category": "📊 宏观市场",
+      "titleEn": null,
+      "titleZh": "摩根大通：金价年底将达到 6300 美元",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 23,
       "title": "刷 LineageOS 等第三方 ROM 的手机，短信日历常用 APP 都用的什么代替品？",
       "link": "https://www.v2ex.com/t/1194927#reply8",
       "source": "V2EX 技术",
@@ -201,7 +351,7 @@
       "paywalled": false
     },
     {
-      "rank": 14,
+      "rank": 24,
       "title": "Surge 换 Singbox+Realip 体验",
       "link": "https://www.v2ex.com/t/1194924#reply1",
       "source": "V2EX 技术",
@@ -216,7 +366,52 @@
       "paywalled": false
     },
     {
-      "rank": 15,
+      "rank": 25,
+      "title": "刷 LineageOS 等第三方 ROM 的手机，短信日历常用 APP 都用的什么代替品？",
+      "link": "https://www.v2ex.com/t/1194927#reply11",
+      "source": "V2EX 技术",
+      "summary": "像 LineageOS 这些 ROM ，自带的电话/短信/日历/通讯录/闹钟等 APP 都不怎么好用。功能过于简单，比如短信没有搜索功能；不适合中文环境，比如日历没有显示农历的功能，闹钟不会根据调休自动调整等方便的功能。 像这些 APP 都有哪些好用代替品？ ]]>",
+      "llmComment": null,
+      "pubDate": "2026-02-28T16:52:21.000Z",
+      "score": 34,
+      "category": "🌐 社区",
+      "titleEn": null,
+      "titleZh": "使用第三方 ROM 的手机短信和日历 APP 替代品",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 26,
+      "title": "配置 DNS 服务器进行域名解析的优先级！",
+      "link": "https://www.v2ex.com/t/1194910#reply1",
+      "source": "V2EX 技术",
+      "summary": "电脑本地 Hosts ＞本地连接（物理网卡）配置的＞上联设备 DHCP 分配 DNS （如路由器） ]]>",
+      "llmComment": null,
+      "pubDate": "2026-02-28T14:39:03.000Z",
+      "score": 33,
+      "category": "🌐 社区",
+      "titleEn": null,
+      "titleZh": "DNS 服务器配置优先级",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 27,
+      "title": "Apple: You (Still) Don't Understand the Vision Pro",
+      "link": "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xODAzMyJdfSwiZXhwIjoxNzc0OTE5ODI3LCJpYXQiOjE3NzIzMjc4MjcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.kAdY7IyyIQa9B1G05lTfjhhLSD8f12ij0l7nV6fiBDP1K3QCQuyStvgqWKOCvZCNL4p4DT3Z5Y22RW2UgFb3kB4iXmQmPCk707LkVguX-K9eNmQ4xe_beTx_XQNhOEmXioO_FmGB4a8XeUZkeYyc1bId3ECR-PIb_M38sQDL8kxagu_x3uANPXD_bFA4tLlltyZcP1FYQaSCI1R8uUVVs0GZ2GKgwp2PDh4ckduTOcbJ-yZI4KcpK6ydXx5nYnYG9YjZqgIcYWoXjfScLYWZgqgoz-4WVX-VrnX82O8iZwJGR5FQpkQZ9Hqu1UVw2Z2S6pJa3I78670EY5puKa7nvA&amp%3Bp=18033",
+      "source": "Stratechery",
+      "summary": "The first live sporting event was broadcast in the Vision Pro, and it's a big disappointment. The experience could be amazing, but Apple actively ruins it.",
+      "llmComment": null,
+      "pubDate": "2026-01-12T11:00:00.000Z",
+      "score": 30,
+      "category": "🤖 AI & 研究",
+      "titleEn": null,
+      "titleZh": "苹果：你仍不懂 Vision Pro",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 28,
       "title": "Apple: You (Still) Don't Understand the Vision Pro",
       "link": "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xODAzMyJdfSwiZXhwIjoxNzc0OTE4NTc3LCJpYXQiOjE3NzIzMjY1NzcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.dhezA7mtCK1ZibXrMBrB78r0Wqv7wfEcQ-Bcz6Q5L_VSO34AVn9Ap0aKwa8qgAxC1nZLnBEmr1EhcQDjd0FHHSdxL-6dSYISCRTjJWXd1RHwr-KHAnItOEZYH5qBjDLKGF7bmdnvTIc63iFuM6r-tepiLlPtsqzpVSUkefZ1EOp-d930c5ZqybhvFHwayDwNiOIeYuiCafkrMOUcYpb6Xnk4tu47r-MgEzp2um2Un1eh9iLGcslKG7H5b9U5EolAT36A1gJv-9wzmBsVFTe-QyrJFjV_H4C0Z8zdw0GnmfwdINHC58IviSCuawr8qe7O2GsCn2hv9SLRLEdZYkbgzg&amp%3Bp=18033",
       "source": "Stratechery",
@@ -231,7 +426,7 @@
       "paywalled": false
     },
     {
-      "rank": 16,
+      "rank": 29,
       "title": "Almost 8,000 died on migration routes in 2025 but toll likely far higher, says UN agency - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0JmS3h3blBfY1pIT3ptX2wtZC1LRWxzbHR5dXY4OGF5SEhSU2hHRGFzdFJULV9mRWRQN25CaWVEckRwdkJ3RmdkNjE1M21tZWI2Q2JtTjBLREdMNEVZNm1kUGhKanc4QzU2WGRMbWd4bFpudTd0Nm43LV9oWDd6bWJadGlFNzZfeEljRzdDTXJGVFJqUEVBdjZZQlJZTXE3NnRYb0V3YVJ3ZUFNNFF0UmdKdzlZaE0yRnc?oc=5",
       "source": "Reuters Funding (Google News)",
