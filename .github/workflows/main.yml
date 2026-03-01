@@ -29,11 +29,27 @@ jobs:
       - name: Install deps
         run: npm ci || npm i
 
-      - name: Run bot
+      # ── Step 1: 新闻抓取 + 生成 SPA（只 commit，不 push）─────────────────────
+      - name: Run news bot
         run: node scripts/run.mjs ${{ github.event.inputs.force == 'true' && '--force' || '' }}
         env:
-          BOT_TOKEN:    ${{ secrets.BOT_TOKEN }}
-          TG_CHAT_ID:   ${{ secrets.TG_CHAT_ID }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          USE_LLM:      "true"
-          SITE_URL: "https://midnitecome.github.io/DailyNewTelegram/"
+          BOT_TOKEN:      ${{ secrets.BOT_TOKEN }}
+          TG_CHAT_ID:     ${{ secrets.TG_CHAT_ID }}
+          GROQ_API_KEY:   ${{ secrets.GROQ_API_KEY }}
+          USE_LLM:        "true"
+          SITE_URL:       "https://midnitecome.github.io/DailyNewTelegram/"
+          SKIP_GIT_PUSH:  "true"   # 由最后统一 push，避免触发中间的 pages 部署
+
+      # ── Step 2: Podcast 抓取（只 commit，不 push）────────────────────────────
+      - name: Update podcasts
+        run: node scripts/podcast.mjs
+        env:
+          SKIP_GIT_PUSH: "true"   # 同上
+
+      # ── Step 3: 统一 push → 触发唯一一次 pages-build-deployment ────────────
+      - name: Push all changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # 若两个脚本都无变更（均跳过 commit），此处 push 也是 no-op
+          git push || echo "nothing to push"

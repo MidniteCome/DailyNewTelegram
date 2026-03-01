@@ -226,8 +226,13 @@ async function main() {
     execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
     execSync(`git add "${OUTPUT}" docs/index.html`);
     execSync(`git commit -m "podcast: ${new Date().toISOString().slice(0, 10)}"`);
-    execSync("git push");
-    console.log("  ✓ git push 完成");
+    // SKIP_GIT_PUSH=true 时只 commit，不 push（由外部统一 push，避免触发多次 pages 部署）
+    if (process.env.SKIP_GIT_PUSH === "true") {
+      console.log("  ✓ git commit 完成（push 由外部统一执行）");
+    } else {
+      execSync("git push");
+      console.log("  ✓ git push 完成");
+    }
   } catch (e) {
     console.warn("  git 跳过或失败:", e?.message ?? e);
   }

@@ -106,8 +106,13 @@ function gitCommitAndPush(dateYmd) {
     execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
     execSync("git add .last_sent.json .feed-health.json docs/");
     execSync(`git commit -m "news: ${dateYmd}"`);
-    execSync("git push");
-    console.log("  ✓ git commit + push 完成");
+    // SKIP_GIT_PUSH=true 时只 commit，不 push（由外部统一 push，避免触发多次 pages 部署）
+    if (process.env.SKIP_GIT_PUSH === "true") {
+      console.log("  ✓ git commit 完成（push 由外部统一执行）");
+    } else {
+      execSync("git push");
+      console.log("  ✓ git commit + push 完成");
+    }
   } catch (e) {
     console.warn("  git 操作跳过或失败:", e?.message ?? e);
   }
