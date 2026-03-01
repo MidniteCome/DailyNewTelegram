@@ -4,7 +4,27 @@
  * 总分 = 新鲜度分(0-20) + 来源权重分(0-30) + 关键词匹配分(0-30) + 话题热度加分(0-15)
  * 同一来源超过 maxPerSource 条时，多余条目乘以多样性惩罚系数 0.3
  * 话题热度：同一关键词被 hotThreshold 个以上不同来源报道时，相关文章额外加分
+ *
+ * 手动分类修正：classify-overrides.json（URL → 正确分类标签）
+ *   格式：{ "https://...": "💼 并购 M&A", ... }
+ *   用途：case-by-case 修正误分类，不影响通用规则
  */
+
+import { readFileSync } from "fs";
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+
+/** 从项目根目录的 classify-overrides.json 加载手动分类修正映射 */
+function loadClassifyOverrides() {
+  try {
+    const p = join(__dirname, "..", "classify-overrides.json");
+    return JSON.parse(readFileSync(p, "utf8"));
+  } catch {
+    return {};
+  }
+}
 
 /**
  * 计算单篇文章得分
@@ -84,25 +104,29 @@ const CATEGORIES = [
 // 避免 Google News 返回与检索词不符的文章被错误归类。
 //
 // 设计原则：
-//   - 模式尽量高精度（宁可不命中，不要误命中）
-//   - 交易事件（并购、融资）优先于行业标签（AI、宏观）
-//     因为 "AI 芯片公司融资" 的首要分类是融资事件，而非 AI 行业
+//   - 模式按优先级排列：交易事件 > 宏观/财报 > AI（最后匹配）
+//   - "AI 芯片公司融资" → 首要分类是融资事件，而非 AI 行业
+//   - 宁可不命中，不要误命中（用更精确的模式而非宽泛关键词）
 const TITLE_PATTERNS = [
   {
     label: "💼 并购 M&A",
-    re: /\bacquisition\b|(?:acquires|acquired)\b|\bbuys\b.{1,40}(?:for|deal)|\bmerger\b|\bmerges\b|\btakeover\b|\bbuyout\b|\bdrops?\b.{0,25}\bbid\b|\bbid\s+for\b|\bbids?\s+on\b/i,
+    // 并购事件：收购 / 合并 / 私有化 / 要约收购
+    re: /\bacquisition\b|\bacquires?\b|\bacquired\b|\bto\s+buy\b.{0,50}(?:\$|billion|\bdeal\b)|\bbuys\b.{0,50}(?:for\s+\$|\bdeal\b)|\bmerger\b|\bmerges?\b|\btakeover\b|\bbuyout\b|\blbo\b|\bprivate[- ]equity.{0,30}(?:buys?|acquires?|takes?)|\bdrops?\s+bid\b|\bbid\s+for\b|\bbids?\s+on\b|\bsold\s+to\b|\bagrees?\s+to\s+(?:buy|acquire)\b|\bto\s+be\s+(?:bought|acquired)\s+by\b|\bstrategic\s+acquisition\b/i,
   },
   {
     label: "📈 股权融资",
-    re: /\bipo\b|\bgo(?:es|ing)\s+public\b|\bfiles?\s+(?:for\s+)?ipo\b|\bs-1\b|\bf-1\b|series\s+[a-e]\s+(?:round|funding)|\braised?\s+\$[\d,.]+\s*(?:million|billion)\b|\bfunding\s+round\b|\braises\b.{1,30}\$[\d]/i,
+    // 融资事件：IPO / 融资轮次 / 估值 / 多种"拿钱"动词 + 金额
+    re: /\bipo\b|\bgo(?:es|ing)\s+public\b|\bfiles?\s+(?:for\s+)?ipo\b|\bs-1\b|\bf-1\b|\bspac\b|\bdirect\s+listing\b|\bpre-ipo\b|series\s+[a-f]\b|(?:raises?|raised|secures?|secured|bags?|bagged|lands?|landed|closes?|closed|nets?|nabs?|wins?)\s+\$[\d,.]+\s*(?:million|billion|[bm])\b|\bfunding\s+round\b|\bseed\s+(?:round|funding|raise|investment)\b|\braises?\s+\$[\d]|\$[\d,.]+\s*(?:million|billion)\s+(?:raise|round|funding|investment)\b|\bvalued?\s+at\s+\$[\d,.]+\s*(?:billion|million)\b|\bventure\s+(?:round|funding)\b|\bconvertible\s+note\b|\bprivate\s+placement\b/i,
   },
   {
     label: "📊 宏观市场",
-    re: /\bfed\b|federal reserve|\bcpi\b|\bppi\b|\binflation\b|\btariff(?:s)?\b|interest\s+rate|rate\s+cut|rate\s+hike|treasury\s+yield|nonfarm\s+payroll|gdp\s+(?:growth|data|fell|rose)/i,
+    // 宏观指标 + 财报结果（公司财报属于资本市场信号，优先于 AI 标签）
+    re: /\bfed\b|federal\s+reserve|\bcpi\b|\bppi\b|\binflation\b|\btariff(?:s)?\b|interest\s+rate|rate\s+(?:cut|hike|decision)\b|treasury\s+yield|nonfarm\s+payroll|gdp\s+(?:growth|data|fell|rose|shrank|expanded?|contraction)|q[1-4]\s*(?:'?\d\d)?\s+(?:earnings?|results?|revenue)|\bearnings?\s+(?:beat|miss(?:ed)?|top(?:ped)?|report|season|call)\b|quarterly\s+(?:earnings?|results?|revenue)\b|revenue\s+(?:beat|miss(?:ed)?|tops?|topped|rose|fell|grew|declined|surged)\b|profit(?:s)?\s+(?:rose|fell|grew|surged|declined|topped|beat|miss(?:ed)?)\b|(?:beat|miss(?:ed)?)\s+(?:analyst\s+)?(?:estimates?|expectations?|forecasts?)\b/i,
   },
   {
     label: "🤖 AI & 研究",
-    re: /\bai\b|\bllm\b|gpt-?\d|gpt\s*4o?|claude\s|gemini\s|openai\b|deepmind|deepseek|anthropic|\bartificial intelligence\b|large language model/i,
+    // 最后匹配：AI 产品 / 研究（排在所有交易类之后，避免 AI 公司融资被误归入此类）
+    re: /\bai\b|\bllm\b|gpt-?\d|gpt[\s\-]?4o?|claude[\s\-]|gemini[\s\-]|openai\b|deepmind\b|deepseek\b|anthropic\b|\bartificial\s+intelligence\b|large\s+language\s+model|\bmachine\s+learning\b/i,
   },
 ];
 
@@ -346,10 +370,12 @@ export function rankArticles(articles, sources, scoring) {
   });
 
   // ── Step 2: 逐篇打分 + 分类 ──────────────────────────────────────────────
+  const overrides = loadClassifyOverrides();
   const scored = unique.map((article) => {
     const source  = sourceMap.get(article.sourceName);
     const rawScore = calcScore(article, source, scoring);
-    const category = assignCategory(source, article);
+    // 优先使用手动 override，否则走自动分类逻辑
+    const category = overrides[article.link] ?? assignCategory(source, article);
     return { ...article, score: rawScore, category };
   });
 
