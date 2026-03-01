@@ -116,12 +116,20 @@ const TITLE_PATTERNS = [
   {
     label: "📈 股权融资",
     // 融资事件：IPO / 融资轮次 / 估值 / 多种"拿钱"动词 + 金额
-    re: /\bipo\b|\bgo(?:es|ing)\s+public\b|\bfiles?\s+(?:for\s+)?ipo\b|\bs-1\b|\bf-1\b|\bspac\b|\bdirect\s+listing\b|\bpre-ipo\b|series\s+[a-f]\b|(?:raises?|raised|secures?|secured|bags?|bagged|lands?|landed|closes?|closed|nets?|nabs?|wins?)\s+\$[\d,.]+\s*(?:million|billion|[bm])\b|\bfunding\s+round\b|\bseed\s+(?:round|funding|raise|investment)\b|\braises?\s+\$[\d]|\$[\d,.]+\s*(?:million|billion)\s+(?:raise|round|funding|investment)\b|\bvalued?\s+at\s+\$[\d,.]+\s*(?:billion|million)\b|\bventure\s+(?:round|funding)\b|\bconvertible\s+note\b|\bprivate\s+placement\b/i,
+    // "eyes public listing" / "eyes IPO" / "plans listing" 也在此捕捉
+    re: /\bipo\b|\bgo(?:es|ing)\s+public\b|\bfiles?\s+(?:for\s+)?ipo\b|\bs-1\b|\bf-1\b|\bspac\b|\b(?:public|stock\s+market)\s+listing\b|\bdirect\s+listing\b|\bpre-ipo\b|\bplans?\s+(?:an?\s+)?(?:ipo|listing|public\s+offering)\b|\beyes?\b.{0,40}\b(?:ipo|listing|public)\b|series\s+[a-f]\b|(?:raises?|raised|secures?|secured|bags?|bagged|lands?|landed|closes?|closed|nets?|nabs?|wins?)\s+\$[\d,.]+\s*(?:million|billion|[bm])\b|\bfunding\s+round\b|\bseed\s+(?:round|funding|raise|investment)\b|\braises?\s+\$[\d]|\$[\d,.]+\s*(?:million|billion)\s+(?:raise|round|funding|investment)\b|\bvalued?\s+at\s+\$[\d,.]+\s*(?:billion|million)\b|\bventure\s+(?:round|funding)\b|\bconvertible\s+note\b|\bprivate\s+placement\b/i,
   },
   {
     label: "📊 宏观市场",
-    // 宏观指标 + 财报结果（公司财报属于资本市场信号，优先于 AI 标签）
-    re: /\bfed\b|federal\s+reserve|\bcpi\b|\bppi\b|\binflation\b|\btariff(?:s)?\b|interest\s+rate|rate\s+(?:cut|hike|decision)\b|treasury\s+yield|nonfarm\s+payroll|gdp\s+(?:growth|data|fell|rose|shrank|expanded?|contraction)|q[1-4]\s*(?:'?\d\d)?\s+(?:earnings?|results?|revenue)|\bearnings?\s+(?:beat|miss(?:ed)?|top(?:ped)?|report|season|call)\b|quarterly\s+(?:earnings?|results?|revenue)\b|revenue\s+(?:beat|miss(?:ed)?|tops?|topped|rose|fell|grew|declined|surged)\b|profit(?:s)?\s+(?:rose|fell|grew|surged|declined|topped|beat|miss(?:ed)?)\b|(?:beat|miss(?:ed)?)\s+(?:analyst\s+)?(?:estimates?|expectations?|forecasts?)\b/i,
+    // 宏观指标（Fed / 通胀 / 关税 / GDP）+ 地缘政治事件（战争/制裁/外交冲突）
+    // 注意：单一公司股价涨跌不在此，交给来源标签或资本市场·其他
+    re: /\bfed\b|federal\s+reserve|\bcpi\b|\bppi\b|\binflation\b|\btariff(?:s)?\b|interest\s+rate|rate\s+(?:cut|hike|decision)\b|treasury\s+yield|nonfarm\s+payroll|gdp\s+(?:growth|data|fell|rose|shrank|expanded?|contraction)|\bsanction(?:s|ed|ing)?\b|\btrade\s+war\b|\bgeopoliti|\bretaliates?\b|\bescalat(?:es?|ion)\b|\bmilitary\s+(?:strike|action|operation|attack)\b|\binvades?\b|\binvasion\b/i,
+  },
+  {
+    label: "💰 资本市场·其他",
+    // 单一公司股价涨跌 / 业绩（避免被来源"macro"标签误推入宏观市场）
+    // 须排在宏观市场之后、AI 之前，仅作为精准兜底
+    re: /\bshares?\s+(?:pop|surge[ds]?|jump(?:s|ed)?|fall(?:s|en)?|tumble[ds]?|rallied?|rises?|rose|plunge[ds]?|sank?|sink|soar(?:ed|s)?|dip(?:ped|s)?|climb(?:ed|s)?|gained?|slid?|slump(?:ed|s)?)\b/i,
   },
   {
     label: "🤖 AI & 研究",
