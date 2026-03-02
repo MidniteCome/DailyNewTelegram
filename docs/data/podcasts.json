@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-03-01T20:17:08.001Z",
-    "totalEpisodes": 180,
+    "updatedAt": "2026-03-02T08:02:55.142Z",
+    "totalEpisodes": 165,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/11f568857987283428d892402e623b21.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "art": null,
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -165,6 +165,28 @@
   ],
   "episodes": [
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Should the families of organ donors be compensated?",
+      "link": "https://www.npr.org/2026/03/02/nx-s1-5729630/should-the-families-of-organ-donors-be-compensated",
+      "pubDate": "2026-03-02T08:00:00.000Z",
+      "duration": "569",
+      "summary": "Two economists get into the business—and stakes—of organ donation, and they argue why the government should financially compensate their families. FYI, we are going on a book tour! Planet Money’s firs",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F36%2F76%2F3eab68d64abf9a69e52c9ee66cb3%2F582cc882-a321-46c0-8c62-2963f24e9c61.png"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Monday.com CEO on Is SaaS Dead: Will Everything Be Vibe Coded | Will Systems of Record Become Valueless Databases in an Agentic World | Will LLMs Own the Value in the Application Layer with Eran Zinman",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-mondaycom-ceo-on-is-saas-dead-will-everything-be-vibe-coded-will-systems-of-record-become-valueless-databases-in-an-agentic-world-will-llms-own-the-value-in-the-application-layer-with-eran-zinman",
+      "pubDate": "2026-03-02T07:07:00.000Z",
+      "duration": "01:09:55",
+      "summary": "Monday has been hit harder than almost any other public SaaS company. With $1.3BN in ARR, the company is valued at just $3.8BN; a more than 60% fall since IPO. Today, Eran Zinman, Monday's CEO joins H",
+      "art": "https://static.libsyn.com/p/assets/a/a/6/3/aa6395557b235be016c3140a3186d450/WhatsApp_Image_2026-02-27_at_15.16.27.jpeg"
+    },
+    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -196,17 +218,6 @@
       "duration": "01:21:08",
       "summary": "(0:00) Bestie intros (1:22) Claude's hit list, SaaS crash, and Citrini's AI letter (30:39) Why Doomer narratives are more popular, valuable new AI jobs (40:19) Understanding the Rate Payer Protection ",
       "art": "https://static.libsyn.com/p/assets/8/0/4/2/8042280528f65293d959afa2a1bf1c87/1_Pod_E262-20260228-vg0iehw4vb.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2461 - Robert F. Kennedy, Jr.",
-      "link": "https://traffic.megaphone.fm/GLT2655700925.mp3?updated=1772214646",
-      "pubDate": "2026-02-27T18:00:00.000Z",
-      "duration": "9107",
-      "summary": "Robert F. Kennedy Jr. is the United States Secretary of Health and Human Services, founder of the Waterkeeper Alliance and Children’s Health Defense, and an attorney and author.www.hhs.gov/about/leade",
-      "art": "https://megaphone.imgix.net/podcasts/5bc43bae-1395-11f1-a94d-4f3c51abe2a0/image/7274ba9b36786416ad2ed729fd5615b7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -242,17 +253,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2460 - Rachel Wilson",
-      "link": "https://traffic.megaphone.fm/GLT8521906535.mp3?updated=1772127268",
-      "pubDate": "2026-02-26T18:00:00.000Z",
-      "duration": "8820",
-      "summary": "Rachel Wilson is a writer, cultural commentator, and media personality. She is the author of “Occult Feminism: The Secret History of Women’s Liberation.”www.linktr.ee/RachelLWilson Perplexity: Downloa",
-      "art": "https://megaphone.imgix.net/podcasts/ea61e582-12a0-11f1-a327-932dd954886d/image/0af12eb8c0497e72b29dd679e9dd496f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -286,17 +286,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "JRE MMA Show #174 with Terence Crawford",
-      "link": "https://traffic.megaphone.fm/GLT5908455235.mp3?updated=1772042650",
-      "pubDate": "2026-02-25T18:00:00.000Z",
-      "duration": "8172",
-      "summary": "Joe sits down with retired boxer Terence Crawford, a three-division undisputed champion who retired 42–0.www.youtube.com/@TBudCrawfordOfficialwww.tbudcrawford.com Perplexity: Download the app or ask P",
-      "art": "https://megaphone.imgix.net/podcasts/092ec28a-11e5-11f1-8b95-7fb90e30ebad/image/34f2d584009501cefef390893f5b31fa.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -306,17 +295,6 @@
       "duration": "545",
       "summary": "What do the latest batch of documents tell us about convicted sex offender Jeffrey Epstein and elite networking? Quite a bit. Today on the show, we analyze one exchange between Epstein and a former wo",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F62%2F90218fe54c1c9d7608943770ea29%2F983b92c7-9a38-4d5a-85ca-db6d1b955a87.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2459 - Jim Breuer",
-      "link": "https://traffic.megaphone.fm/GLT4266228236.mp3?updated=1771954373",
-      "pubDate": "2026-02-24T18:00:00.000Z",
-      "duration": "10730",
-      "summary": "Jim Breuer is a stand-up comedian, actor, and host of “The Breuniverse Podcast.” He is touring in 2026 with the “Find the Funny” tour.www.youtube.com/@JimBreuerwww.jimbreuer.com/ Perplexity: Download ",
-      "art": "https://megaphone.imgix.net/podcasts/52ac7674-1130-11f1-ac6f-47dec182ca1d/image/89aba1c16ce0424f1128181285fdc8e5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -418,17 +396,6 @@
       "art": "https://static.libsyn.com/p/assets/b/9/c/2/b9c2f0717aed08bcd959afa2a1bf1c87/1x1_CLASSIC_E.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2458 - Matt McCusker",
-      "link": "https://traffic.megaphone.fm/GLT4339942079.mp3?updated=1771610771",
-      "pubDate": "2026-02-20T18:00:00.000Z",
-      "duration": "10146",
-      "summary": "Matt McCusker is a comedian, writer, actor, and co-host of “Matt and Shane’s Secret Podcast” with Shane Gillis. His most recent special, “Matt McCusker: A Humble Offering,” is streaming on Netflix.www",
-      "art": "https://megaphone.imgix.net/podcasts/6ed322c4-0e0d-11f1-abd8-c730efb6d9e8/image/47f12612493ae037ca5ba41383790cbb.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -449,17 +416,6 @@
       "duration": "567",
       "summary": "It’s … Indicators of the Week! Our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: Why you better hope you retire at juuuust the right time , why the re",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc7%2F21%2F3a9db9d64c98877e5996347a2428%2F8db49dc3-1923-4bcb-be79-4c75d1437609.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2457 - Michael Malice",
-      "link": "https://traffic.megaphone.fm/GLT3522571789.mp3?updated=1771553043",
-      "pubDate": "2026-02-19T18:00:00.000Z",
-      "duration": "10031",
-      "summary": "Michael Malice is a cultural commentator, author, and host of the “Your Welcome” podcast. His next book is the graphic novel \"Unwanted.\"unwantedbook.comwww.youtube.com/@MichaelMaliceofficialmalice.loc",
-      "art": "https://megaphone.imgix.net/podcasts/5dc91c9c-0d48-11f1-9d84-cbfe008edf29/image/d77f8fc7a91cf3a7d032c847532a79d2.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "indicator",
@@ -484,17 +440,6 @@
       "art": "https://static.libsyn.com/p/assets/8/9/4/c/894cc741ae5f84ff16c3140a3186d450/WhatsApp_Image_2026-02-18_at_17.39.12.jpeg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2456 - Michael Jai White",
-      "link": "https://traffic.megaphone.fm/GLT8210409209.mp3?updated=1771435754",
-      "pubDate": "2026-02-18T18:00:00.000Z",
-      "duration": "10369",
-      "summary": "Michael Jai White is an actor, director, writer, and martial artist. His latest film, “Oscar Shaw,” is available to stream on digital platforms.www.youtube.com/@RealMichaelJaiWhitewww.patreon.com/Mich",
-      "art": "https://megaphone.imgix.net/podcasts/4001764c-0c5c-11f1-9832-afb7361ad990/image/b7c2ee0fc513f194daf53ed426139180.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -504,17 +449,6 @@
       "duration": "508",
       "summary": "The Department of Homeland Security says it has more than doubled the workforce of Immigration and Customs Enforcement under President Trump. Yet videos of immigration officers killing two U.S. citize",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F69%2F19%2Fb860f9c34de9b3ce425aa9dbae69%2F211a8c25-d755-4d2c-b668-ea341bc34b3c.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2455 - Donnell Rawlings",
-      "link": "https://traffic.megaphone.fm/GLT4487663159.mp3?updated=1771348168",
-      "pubDate": "2026-02-17T18:00:00.000Z",
-      "duration": "9791",
-      "summary": "Donnell Rawlings is a comedian, actor, and host of “The Donnell Rawlings Show” podcast. His most recent special, “Chappelle’s Home Team Presents: Donnell Rawlings: A New Day,” is streaming on Netflix.",
-      "art": "https://megaphone.imgix.net/podcasts/6679ce84-0bba-11f1-a843-2784d67d19a1/image/b37e0e6bc5484dd9318f9107fe728dc1.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "indicator",
@@ -561,17 +495,6 @@
       "art": "https://static.libsyn.com/p/assets/e/0/f/7/e0f7b247ad95a656d959afa2a1bf1c87/1_Pod_E261.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2454 - Robert Malone, MD",
-      "link": "https://traffic.megaphone.fm/GLT6618950088.mp3?updated=1771005105",
-      "pubDate": "2026-02-13T18:00:00.000Z",
-      "duration": "9532",
-      "summary": "Robert W. Malone, MD, MS, is a virologist and immunologist and an original inventor of mRNA delivery and vaccination as a technology, DNA vaccination, and multiple non-viral DNA and RNA/mRNA platform ",
-      "art": "https://megaphone.imgix.net/podcasts/1443fc8a-0885-11f1-a9a1-eb83a35e4beb/image/e046b03374e022dcb5f67dad4e406cc8.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -616,17 +539,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2453 - Evan Hafer",
-      "link": "https://traffic.megaphone.fm/GLT8914209138.mp3?updated=1770917642",
-      "pubDate": "2026-02-12T18:00:00.000Z",
-      "duration": "10780",
-      "summary": "Evan Hafer is a Special Forces veteran, founder, and executive chairman of Black Rifle Coffee Company, and one of the hosts of the “Black Rifle Coffee Podcast.”www.blackriflecoffee.comwww.youtube.com/",
-      "art": "https://megaphone.imgix.net/podcasts/b7894018-07b2-11f1-8528-afdb47a869ad/image/7904039e2c6e8e4ac5520ea53e6ffeb8.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -660,17 +572,6 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2452 - Roger Avary",
-      "link": "https://traffic.megaphone.fm/GLT6466858295.mp3?updated=1770832389",
-      "pubDate": "2026-02-11T18:00:00.000Z",
-      "duration": "11484",
-      "summary": "Roger Avary is a director, producer, and Academy Award-winning screenwriter known for “Pulp Fiction,” which he co-wrote with Quentin Tarantino, as well as “The Rules of Attraction” and “Killing Zoe.” ",
-      "art": "https://megaphone.imgix.net/podcasts/18f27e36-0700-11f1-bfe7-a7ac3a74be6c/image/35eae712accdf0229fa758bfd24d601e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -680,17 +581,6 @@
       "duration": "527",
       "summary": "The prices of gold and silver are on rollercoaster rides; Gold has been rising over the last few years, silver shot up like a skyrocket in January … but then both plunged in price and sputtered around",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2F24%2Fff1d2b26401cb259b509042b67eb%2Fc330a1f0-2e3f-453a-b5e3-a4e017dcba9b.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2451 - Cheryl Hines",
-      "link": "https://traffic.megaphone.fm/GLT6251051540.mp3?updated=1770747895",
-      "pubDate": "2026-02-10T18:00:00.000Z",
-      "duration": "11409",
-      "summary": "Cheryl Hines is an Emmy Award-nominated actress, director, producer, and comedian. While she is best known for her role as Cheryl David on the HBO series “Curb Your Enthusiasm,” Hines has appeared in ",
-      "art": "https://megaphone.imgix.net/podcasts/8f5c9d80-0625-11f1-8078-93b17659a82a/image/8de0368c4b3f4c08d628b34592271ead.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -737,17 +627,6 @@
       "art": "https://static.libsyn.com/p/assets/3/9/1/e/391e389ffa39ed5b16c3140a3186d450/1_Pod_CZ.png"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Are we in an economic 'doom loop'?",
-      "link": "https://www.npr.org/2026/02/09/nx-s1-5704756/are-we-in-an-economic-doom-loop",
-      "pubDate": "2026-02-09T08:00:00.000Z",
-      "duration": "561",
-      "summary": "Trade wars. Financial panics. Inflation. How come it feels like it’s all bad news in the global economy these days? Economist Eswar Prasad’s answer: something he calls the ‘doom loop.’ That’s where ma",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb2%2F72%2F0f3f4dd444e6a79be3944664b035%2F5a3378ba-6924-451e-84cf-8cfa1a30d499.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -792,17 +671,6 @@
       "art": "https://static.libsyn.com/p/assets/8/4/b/9/84b98376fbde2c18d959afa2a1bf1c87/1_Pod_E260-20260207-cu0v3vcuor.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2450 - Tommy Wood",
-      "link": "https://traffic.megaphone.fm/GLT7023346046.mp3?updated=1770395897",
-      "pubDate": "2026-02-06T18:00:00.000Z",
-      "duration": "8197",
-      "summary": "Tommy Wood, PhD, is a neuroscientist and athletic performance coach. He is a host of the “Better Brain Fitness” podcast and author of “The Stimulated Mind: Future-Proof Your Brain from Dementia and St",
-      "art": "https://megaphone.imgix.net/podcasts/a46bb368-032e-11f1-b6fa-678b37cb6141/image/c35dff87831242267c8b26ca73995567.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -823,17 +691,6 @@
       "duration": "00:03:00",
       "summary": "- 导语 - 从忠诚的沙俄将领，到化名「马达汉」前往中国西北搜集情报的探险家，再到在1918年乱局中奠定芬兰独立基础的开国功臣，曼纳海姆的一生是旧帝国崩塌与新国家诞生交织的缩影。面对沙俄崩溃与芬兰境内红白内战，说瑞典语的贵族曼纳海姆为何被推举为芬兰白军总司令？从依赖德国援助到巧妙周旋于苏德之间，曼纳海姆如何在冬季战争中创造奇迹，又如何在「继续战争」后带领芬兰从二战轴心国困局中全身而退？请听本期节目",
       "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2449 - Raul Bilecky",
-      "link": "https://traffic.megaphone.fm/GLT8924602297.mp3?updated=1770311634",
-      "pubDate": "2026-02-05T18:00:00.000Z",
-      "duration": "9399",
-      "summary": "Raul Bilecky is a researcher, explorer, and creator of the YouTube channel “Pillars of the Past.”www.youtube.com/@PillarsofthePast101https://www.patreon.com/PillarsofthePastwww.pillarsofthepast.com Pe",
-      "art": "https://megaphone.imgix.net/podcasts/d9afde8a-0245-11f1-b677-c75fa897aec8/image/926ee90487cd377f66fd25c958688777.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -867,17 +724,6 @@
       "duration": "1:14:36",
       "summary": "在海量内容的涌动与算法分发的复杂性面前，平台的规则制定者，应该如何在用户体验与社区生态之间寻找那条「动态平衡」线？ 平台治理不仅仅是写在后台的逻辑，它更像是一场关于数字秩序的微缩实验。比如，当「反对制造对立」被写进小红书最新的社区公约 2.0，这不仅是一个立场的更新，也引出了治理中更深层的追问：在推荐与干预之间，平台治理的刻度到底该定在哪里？它究竟是在管理内容本身，还是在试图重塑一种数字空间的相处",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2448 - Andrew Doyle",
-      "link": "https://traffic.megaphone.fm/GLT4585485091.mp3?updated=1770225975",
-      "pubDate": "2026-02-04T18:00:00.000Z",
-      "duration": "9911",
-      "summary": "Andrew Doyle is a writer, broadcaster, and comedian. He is the author of several books, including his most recent, “The End of Woke: How the Culture War Went Too Far and What to Expect from the Counte",
-      "art": "https://megaphone.imgix.net/podcasts/6dc0bccc-0177-11f1-9c54-ff832000dc7c/image/3b7fddb4d2ed5b9b4c359a824c58d2e3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -1059,23 +905,12 @@
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
-      "title": "The NFL (2026 Update)",
+      "title": "The NFL",
       "link": "https://www.acquired.fm/episodes/the-nfl",
       "pubDate": "2026-01-27T02:50:40.000Z",
       "duration": "15438",
       "summary": "The NFL is nearly synonymous with America today. Practically nothing is more quintessentially and universally American than tuning in every Sunday (and Monday, and Thursday… and sometimes Saturdays an",
       "art": "https://img.transistorcdn.com/k6PMRB94qpyAUeb4r05mG6J-SrKAjHr5ARrbzBhWboE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yNDBh/NmViODk0OWMzMjlh/ZGM1MTM1OGEyMTdj/ZjRlMC5wbmc.jpg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: From Only OpenAI to Die-Hard Anthropic: The Downfall of OpenAI in Enterprise | Harvey vs Legora: Legal AI is a Winner Take All | $7M ARR in a Single Day and Raising $200M Across 3 Rounds with No Deck with Max Junestrand, CEO @ Legora",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-from-only-openai-to-die-hard-anthropic-the-downfall-of-openai-in-enterprise-harvey-vs-legora-legal-ai-is-a-winner-take-all-7m-arr-in-a-single-day-and-raising-200m-across-3-rounds-with-no-deck-with-max-junestrand-ceo-legora",
-      "pubDate": "2026-01-26T14:19:00.000Z",
-      "duration": "01:03:20",
-      "summary": "Max Junestrand is the Co-Founder and CEO @ Legora, the legal AI company that has scaled to 750 of the world's leading law firms as customers and over 300 employees in just 2 years. They have raised ov",
-      "art": "https://static.libsyn.com/p/assets/4/1/f/2/41f2082363648a9716c3140a3186d450/WhatsApp_Image_2026-01-23_at_21.00.03_1.jpeg"
     },
     {
       "showId": "allin",
