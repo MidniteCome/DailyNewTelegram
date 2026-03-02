@@ -145,9 +145,11 @@ const SOURCE_IDENTITY_TAGS = new Set([
   "community", "zh",
 ]);
 
-// 这些标签代表"具体交易类型"，需要标题内容确认才使用；
+// 这些标签代表"具体分类意图"，需要标题内容确认才使用；
 // 若标题无法确认，则退回到通用兜底分类（资本市场·其他）
-const SOFT_CAPITAL_TAGS = new Set(["ma", "ipo", "vc"]);
+// "macro" 加入：Yahoo Finance 等来源用 macro 标签涵盖所有市场新闻，
+//   实际宏观文章需 TITLE_PATTERN 确认（Fed/CPI/tariff 等），否则退回 finance → 资本市场·其他
+const SOFT_CAPITAL_TAGS = new Set(["ma", "ipo", "vc", "macro"]);
 
 /**
  * 分配文章分类
@@ -378,9 +380,16 @@ export function rankArticles(articles, sources, scoring) {
     return true;
   });
 
+  // ── Step 1.5: 标题清洗（去除 RSS 来源注入的前缀标签）────────────────────
+  // 例：Yahoo Finance 注入的 "[context: aviation] Some Title" → "Some Title"
+  const cleaned = unique.map(a => ({
+    ...a,
+    title: (a.title ?? "").replace(/^\[context:[^\]]*\]\s*/i, "").trim(),
+  }));
+
   // ── Step 2: 逐篇打分 + 分类 ──────────────────────────────────────────────
   const overrides = loadClassifyOverrides();
-  const scored = unique.map((article) => {
+  const scored = cleaned.map((article) => {
     const source  = sourceMap.get(article.sourceName);
     const rawScore = calcScore(article, source, scoring);
     // 优先使用手动 override，否则走自动分类逻辑
