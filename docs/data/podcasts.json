@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-02T20:27:10.690Z",
+    "updatedAt": "2026-03-03T08:00:58.594Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -168,6 +168,39 @@
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
+      "title": "Why Paramount went looney tunes for Warner Bros.",
+      "link": "https://www.npr.org/2026/03/03/nx-s1-5732850/why-paramount-went-looney-tunes-for-warner-bros",
+      "pubDate": "2026-03-03T08:00:00.000Z",
+      "duration": "528",
+      "summary": "Paramount Skydance is making a $110 billion play for Warner Bros. Discovery, and with it intellectual property like Harry Potter, Batman, and subsidiaries HBO and CNN. On today’s show, who is the man ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F45%2F78%2F39d7e1da474385e283d702491cb2%2Fd61d2588-2b90-479f-8064-11b2794f52d9.png"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "连线迪拜：美伊升级后的海湾困境、战火外溢和秩序挑战丨Bonus",
+      "link": "http://etw.fm/2200",
+      "pubDate": "2026-03-03T01:30:00.000Z",
+      "duration": "29:25",
+      "summary": "一位身在阿联酋的中国人，在刚刚过去的 72 个小时内都经历了些什么？曾被视为「投资绿洲」的海湾国家，又为何在短短几天内，就被推到了战火蔓延的边缘？ 2026 年 2 月 28 日，美以对伊朗进行军事打击的消息震惊世界。而随着哈梅内伊的身亡，伊朗的报复行动也迅速升级，这场战火也随之蔓延到了阿联酋、沙特阿拉伯、卡塔尔这些海湾国家。 这期节目，我们连线了正身处迪拜的「声东击西」后期制作人赛德，他回忆了自",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "Formula 1",
+      "link": "https://www.acquired.fm/episodes/formula-1",
+      "pubDate": "2026-03-02T22:18:59.000Z",
+      "duration": "16171",
+      "summary": "Formula 1 is three competitions in one: a 200mph battle of the world's best race car drivers, the world cup of engineering where thousand-person teams spend hundreds of millions designing cars from sc",
+      "art": "https://img.transistorcdn.com/ORaQ7w0zdqAScJ9YPCf3I4RKe_muT-If0IMRT5rIuE8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS84MzRh/NWY0NDJlNzAzNDY1/OGY2NThlZDBkYmU1/NzdjMC5wbmc.jpg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
       "title": "Should the families of organ donors be compensated?",
       "link": "https://www.npr.org/2026/03/02/nx-s1-5729630/should-the-families-of-organ-donors-be-compensated",
       "pubDate": "2026-03-02T08:00:00.000Z",
@@ -312,7 +345,7 @@
       "showName": "Joe Rogan Experience",
       "category": "general",
       "title": "JRE MMA Show #174 with Terence Crawford",
-      "link": "https://traffic.megaphone.fm/GLT5908455235.mp3?updated=1772042650",
+      "link": "https://traffic.megaphone.fm/GLT5908455235.mp3?updated=1772513195",
       "pubDate": "2026-02-25T18:00:00.000Z",
       "duration": "8172",
       "summary": "Joe sits down with retired boxer Terence Crawford, a three-division undisputed champion who retired 42–0.www.youtube.com/@TBudCrawfordOfficialwww.tbudcrawford.com Perplexity: Download the app or ask P",
@@ -334,7 +367,7 @@
       "showName": "Joe Rogan Experience",
       "category": "general",
       "title": "#2459 - Jim Breuer",
-      "link": "https://traffic.megaphone.fm/GLT4266228236.mp3?updated=1771954373",
+      "link": "https://traffic.megaphone.fm/GLT4266228236.mp3?updated=1772513097",
       "pubDate": "2026-02-24T18:00:00.000Z",
       "duration": "10730",
       "summary": "Jim Breuer is a stand-up comedian, actor, and host of “The Breuniverse Podcast.” He is touring in 2026 with the “Find the Funny” tour.www.youtube.com/@JimBreuerwww.jimbreuer.com/ Perplexity: Download ",
@@ -737,17 +770,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "The boxed meal helping Americans stay on budget",
-      "link": "https://www.npr.org/2026/02/10/nx-s1-5707403/the-boxed-meal-helping-americans-stay-on-budget",
-      "pubDate": "2026-02-10T08:00:00.000Z",
-      "duration": "566",
-      "summary": "Food keeps getting more expensive, so how do shoppers respond? They change what they buy, right? It’s not just that cheaper foods get more popular. Shoppers are more nuanced than that. So, today on th",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0c%2F09%2Fccb8446f48078ba0e27751d733d8%2Fb811382c-c3cd-4dcd-861e-5ee73f80dca9.jpg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1075,7 +1097,7 @@
       "pubDate": "2026-01-27T02:50:40.000Z",
       "duration": "15438",
       "summary": "The NFL is nearly synonymous with America today. Practically nothing is more quintessentially and universally American than tuning in every Sunday (and Monday, and Thursday… and sometimes Saturdays an",
-      "art": "https://img.transistorcdn.com/k6PMRB94qpyAUeb4r05mG6J-SrKAjHr5ARrbzBhWboE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yNDBh/NmViODk0OWMzMjlh/ZGM1MTM1OGEyMTdj/ZjRlMC5wbmc.jpg"
+      "art": "https://img.transistorcdn.com/0W9LXPciU-Mg9c-bq6cYJitjm_JtnvF9S-OKbe-GC14/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hYWU0/NDEyNTY4ZmZjNzQ5/N2Y0NzdjZDdmOWRh/ZDllMC5wbmc.jpg"
     },
     {
       "showId": "allin",
@@ -1086,7 +1108,7 @@
       "pubDate": "2026-01-25T19:52:00.000Z",
       "duration": "02:14:41",
       "summary": "(0:00) Intro (0:50) Circle CEO Jeremy Allaire on stablecoins post-GENIUS Act, interest rate impact, growth in 2026, and the future of money in an AI world (52:33) CrowdStrike CEO George Kurtz on cyber",
-      "art": "https://static.libsyn.com/p/assets/a/9/c/b/a9cb4d1dadb1ea21/all-in_logo.png"
+      "art": "https://static.libsyn.com/p/assets/9/6/b/2/96b2ada7362760d716c3140a3186d450/1_Pod_JA_Davos.png"
     },
     {
       "showId": "allin",
@@ -1108,7 +1130,7 @@
       "pubDate": "2026-01-23T18:37:00.000Z",
       "duration": "01:35:15",
       "summary": "(0:00) Intro (0:37) Coinbase CEO, Brian Armstrong on Crypto Adoption (38:51) Cerebras CEO, Andrew Feldman on Compute Power (1:18:50) Gecko Robotics CEO, Jake Loosararian on AI and Physical Robots This",
-      "art": "https://static.libsyn.com/p/assets/a/9/c/b/a9cb4d1dadb1ea21/all-in_logo.png"
+      "art": "https://static.libsyn.com/p/assets/8/d/2/5/8d25cfe18fcfe1f7d959afa2a1bf1c87/1_Pod_BA_Davosi.png"
     },
     {
       "showId": "talksat",
@@ -1163,7 +1185,7 @@
       "pubDate": "2026-01-23T04:38:00.000Z",
       "duration": "47:56",
       "summary": "(0:00) Introducing David Sacks and Michael Kratsios, moderated by Maria Bartiromo (1:21) The cost of infrastructure build-out, energy challenges (12:41) Where AI will be most impactful (22:39) The Chi",
-      "art": "https://static.libsyn.com/p/assets/a/9/c/b/a9cb4d1dadb1ea21/all-in_logo.png"
+      "art": "https://static.libsyn.com/p/assets/7/7/b/0/77b0388c53abcef016c3140a3186d450/1_Pod_Kratsios_Davos.png"
     },
     {
       "showId": "allin",
@@ -1174,7 +1196,7 @@
       "pubDate": "2026-01-22T19:00:00.000Z",
       "duration": "45:04",
       "summary": "(0:00) Jason and Sacks welcome Sarah B. Rogers! (2:22) Free speech, EU censorship, OSA/DSA overreach? (13:44) Censorship on mass migration policies, major fines against US companies, the DSA as a \"cen",
-      "art": "https://static.libsyn.com/p/assets/2/c/4/c/2c4cae7216ae05b5d959afa2a1bf1c87/1_Pod_SarahB.png"
+      "art": "https://static.libsyn.com/p/assets/3/4/6/c/346c5725a918b57ed959afa2a1bf1c87/1_Pod_SBR_Davos.png"
     },
     {
       "showId": "talksat",
@@ -1207,7 +1229,7 @@
       "pubDate": "2026-01-21T21:16:00.000Z",
       "duration": "32:00",
       "summary": "(0:00) Jason and Sacks welcome Microsoft CEO Satya Nadella (1:31) Future of AI copilots and agents, impact on white collar work (8:01) How Microsoft has scaled revenue and profits with flat headcount ",
-      "art": "https://static.libsyn.com/p/assets/7/b/4/8/7b480f5621f09822d959afa2a1bf1c87/1_Pod_Satya.png"
+      "art": "https://static.libsyn.com/p/assets/d/c/e/3/dce3e22a3bbef9f116c3140a3186d450/1_Pod_Satya_Davos.png"
     },
     {
       "showId": "left-right",
@@ -1771,17 +1793,6 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#366 大选一年后，特朗普的经济承诺兑现了吗？",
-      "link": "http://etw.fm/2185",
-      "pubDate": "2025-10-30T08:15:00.000Z",
-      "duration": "1:02:05",
-      "summary": "去年秋天，特朗普在总统竞选阶段允诺下不少经济政策。现在回顾，这些允诺兑现得如何了？ 把各国都得罪了一遍的关税果真让制造业回流了吗？为什么说「大而美法案」是特朗普固定自己政治遗产的手段？而当美国政府越发重视产业政策，甚至开始以股东的身份介入产业、左右企业决策时，这种被美国媒体称为是「国家资本主义」的转向，又意味着什么？ 这一期，我们和老朋友周玖洲一起，复盘特朗普竞选成功一周年的经济实验：兑现的承诺、",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -2132,17 +2143,6 @@
       "duration": "01:22:00",
       "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week they discuss market uncertainty, globalism and tariffs, M&A, Wiz and GOOG, N",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
-    },
-    {
-      "showId": "acquired",
-      "showName": "Acquired",
-      "category": "tech",
-      "title": "TSMC Founder Morris Chang",
-      "link": "https://www.acquired.fm/episodes/tsmc-founder-morris-chang",
-      "pubDate": "2025-01-27T02:35:00.000Z",
-      "duration": "10577",
-      "summary": "We flew to Taiwan to interview TSMC Founder Morris Chang in a rare English interview. In fact, the last long-form video interview we could find was 17 years ago at the Computer History Museum… conduct",
-      "art": "https://img.transistorcdn.com/9o7fI1dkkZTUeeWXu1RfziX_sGpKxqa_XcLRGZOQSf4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hNDA3/MDVlMGNiN2Y3ZjVi/YTUzN2ZlYmQ5OTZk/MGM5NS5qcGc.jpg"
     }
   ]
 }
