@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-03T08:00:58.594Z",
+    "updatedAt": "2026-03-03T14:52:09.425Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Trump’s Head-on-a-Pike Foreign Policy",
+      "link": "https://www.nytimes.com/2026/03/03/opinion/ezra-klein-podcast-ben-rhodes.html",
+      "pubDate": "2026-03-03T10:00:00.000Z",
+      "duration": "01:10:58",
+      "summary": "Two sitting heads of state, eight weeks apart. On Saturday, February 28, the United States and Israel launched a massive military assault on Iran that resulted in the death of Ayatollah Ali Khamenei, ",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Ray Dalio: Our System Is in Jeopardy - Debt, AI & the Cycle That Destroyed Rome",
+      "link": "https://allinchamathjason.libsyn.com/ray-dalio-our-system-is-in-jeopardy-debt-ai-the-cycle-that-destroyed-rome",
+      "pubDate": "2026-03-03T10:00:00.000Z",
+      "duration": "49:14",
+      "summary": "(0:00) Friedberg Introduces Ray Dalio (1:29) 5 Forces That Will Decide America's Future (7:26) Why Government Reform Is Nearly Impossible (11:19) Gold vs. Bitcoin (28:16) What Economists Got Wrong Abo",
+      "art": "https://static.libsyn.com/p/assets/c/7/0/d/c70d5904e24409e816c3140a3186d450/1_Pod_Dalio.png"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "元宵特辑｜修庙、入梦与童年异闻录",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69a69fca66e2c303771db73a?utm_source=rss",
+      "pubDate": "2026-03-03T09:11:38.000Z",
+      "duration": "01:11:47",
+      "summary": "- 导语 - 从修缮村庙的法事谈起，祈福安龙、点兵放猖、游神巡境、扎禁罐，这些充满民俗特色的仪式背后，藏着哪些鲜为人知的讲究？在地的神灵可以「远洋执法」吗？梦境究竟反映了什么，又如何与现实产生联系？在风水界，为什么祠堂并非越大越好？请听本期嘉宾海伯利安带来的精彩分享。 - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 海伯利安，命理数术研习者（公众号：海公物语） - 时间轴 -",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1353,17 +1386,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Adam Carolla on California's Collapse: Fires, Failed Leadership, and Gyno-Fascism",
-      "link": "https://allinchamathjason.libsyn.com/adam-carolla-on-californias-collapse-fires-failed-leadership-and-gyno-fascism",
-      "pubDate": "2026-01-13T03:04:00.000Z",
-      "duration": "01:09:49",
-      "summary": "(0:00) David Friedberg introduces Adam Carolla! (1:32) Palisades Fire one year out: the rebuilding crisis in LA (7:39) Gyno-fascism and safety culture (15:49) Media bias and gender dynamics (28:51) DE",
-      "art": "https://static.libsyn.com/p/assets/a/7/d/7/a7d75b77e19e9351d959afa2a1bf1c87/1_Pod_Carolla.png"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1461,28 +1483,6 @@
       "duration": "17989",
       "summary": "Rolex is a series of paradoxes. They sell obsolete and objectively inferior mechanical devices for 10-1000x the price of their superior digital successors… and demand is stronger than ever in history!",
       "art": "https://img.transistorcdn.com/82DxBjjLGlGkY5ze706jcF5N_2sMUlVayi2P7pSCZY8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS81MjAw/ZGE5NjhhZTZiMTkw/MTlmYjU1MWY4Y2U0/M2RmMi5qcGc.jpg"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "中统局往事04｜如何指导文化特务工作：潘公展与张道藩",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6957966d14db1df9ef06c3cd?utm_source=rss",
-      "pubDate": "2026-01-02T10:22:06.000Z",
-      "duration": "00:03:00",
-      "summary": "- 导语 - 刀光剑影之外，中统在文化舆论战线上的角力极具特色且手段复杂。从潘公展执掌《申报》的舆论权力，到张道藩对文艺界的系统压制，中统深度介入舆论斗争的方方面面。国民党在文艺宣传上有哪些难以克服的思想短板？在思想活跃的校园，叶秀峰怎样通过「职业学生」管控舆论阵地？面对《文汇报》的三次拒绝，中统的收买为何最终落空？请听本期郑诗亮的精彩分享！ - 本期话题成员 - 郑诗亮，文史研究者 程衍樑（微博",
-      "art": "https://image.xyzcdn.net/FoI_XonfIotRT1m26hQ6KaZTDj-d.png"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "This Question Can Change Your Life",
-      "link": "https://www.nytimes.com/2026/01/02/opinion/ezra-klein-podcast-stephen-batchelor.html",
-      "pubDate": "2026-01-02T10:00:00.000Z",
-      "duration": "01:05:34",
-      "summary": "I like to start the year with a few episodes on things I’m personally working on. Not resolutions, exactly. More like intentions. Or, even better, practices. One of those practices, strange as it soun",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "acquired",
