@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-03T14:52:09.425Z",
+    "updatedAt": "2026-03-03T20:24:43.416Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,10 +165,21 @@
   ],
   "episodes": [
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2462 - Aaron Siri",
+      "link": "https://traffic.megaphone.fm/GLT5558298469.mp3?updated=1772559919",
+      "pubDate": "2026-03-03T18:00:00.000Z",
+      "duration": "9722",
+      "summary": "Aaron Siri is an attorney and managing partner of Siri & Glimstad LLP, where he focuses on civil litigation, constitutional law, and vaccine-related injury claims. He is the host of the podcast “Infor",
+      "art": "https://megaphone.imgix.net/podcasts/b17cea7c-16b6-11f1-bec2-9f206de7600d/image/4bc9fdf8309df64f07526cd063ac88bc.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
-      "title": "Trump’s Head-on-a-Pike Foreign Policy",
+      "title": "The Great Lie of War",
       "link": "https://www.nytimes.com/2026/03/03/opinion/ezra-klein-podcast-ben-rhodes.html",
       "pubDate": "2026-03-03T10:00:00.000Z",
       "duration": "01:10:58",
@@ -933,17 +944,6 @@
       "duration": "1:14:36",
       "summary": "在海量内容的涌动与算法分发的复杂性面前，平台的规则制定者，应该如何在用户体验与社区生态之间寻找那条「动态平衡」线？ 平台治理不仅仅是写在后台的逻辑，它更像是一场关于数字秩序的微缩实验。比如，当「反对制造对立」被写进小红书最新的社区公约 2.0，这不仅是一个立场的更新，也引出了治理中更深层的追问：在推荐与干预之间，平台治理的刻度到底该定在哪里？它究竟是在管理内容本身，还是在试图重塑一种数字空间的相处",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2448 - Andrew Doyle",
-      "link": "https://traffic.megaphone.fm/GLT4585485091.mp3?updated=1770225975",
-      "pubDate": "2026-02-04T18:00:00.000Z",
-      "duration": "9911",
-      "summary": "Andrew Doyle is a writer, broadcaster, and comedian. He is the author of several books, including his most recent, “The End of Woke: How the Culture War Went Too Far and What to Expect from the Counte",
-      "art": "https://megaphone.imgix.net/podcasts/6dc0bccc-0177-11f1-9c54-ff832000dc7c/image/3b7fddb4d2ed5b9b4c359a824c58d2e3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
