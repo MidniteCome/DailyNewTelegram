@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-04T20:24:27.495Z",
+    "updatedAt": "2026-03-05T08:00:55.964Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,6 +165,39 @@
   ],
   "episodes": [
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Want a 2.5% mortgage? Buy it.",
+      "link": "https://www.npr.org/2026/03/05/nx-s1-5736530/want-a-2-5-mortgage-buy-it",
+      "pubDate": "2026-03-05T08:00:00.000Z",
+      "duration": "566",
+      "summary": "Remember those juicy mortgage rates from back in 2021? You don’t actually need a time machine to get one today. You just need to find someone willing to sell their house AND their mortgage to you. Cal",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5b%2Fa2%2F80cb5fb8439dad18e53f610c488b%2F82bb9ec0-8808-48be-89cf-c5ecb6817aba.jpg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Anthropic vs The Pentagon: Who Wins | OpenAI's $110BN Mega Round | Cursor Hits $2BN in ARR | Block's 40% Headcount Reduction: AI or Overhiring",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-vs-the-pentagon-who-wins-openais-110bn-mega-round-cursor-hits-2bn-in-arr-blocks-40-headcount-reduction-ai-or-overhiring",
+      "pubDate": "2026-03-05T07:07:00.000Z",
+      "duration": "01:23:15",
+      "summary": "AGENDA: 04:13 Anthropic vs The Pentagon: Who Wins 13:54 Was Sam Altman Wrong to Take the Deal 24:28 OpenAI's $110BN Mega Round: The Breakdown 28:22 Who Has a Bigger Valuation Premium: Sam Altman or El",
+      "art": "https://static.libsyn.com/p/assets/1/a/d/6/1ad6af6550f19bded959afa2a1bf1c87/WhatsApp_Image_2026-03-04_at_17.43.50.jpeg"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#380 从北京到华盛顿：从默茨之行看中美欧三角关系",
+      "link": "http://etw.fm/2201",
+      "pubDate": "2026-03-05T06:00:00.000Z",
+      "duration": "54:09",
+      "summary": "德国总理默茨上周刚刚结束了他的中国行程，他也是马年第一位访华的外国领导人。几乎与此同时，中东局势突然升级，美国对伊朗发动打击，也让默茨随后访美的行程处在一个颇为微妙的国际背景之下。在这样不断变化的地缘政治环境中，德国乃至欧洲正在发生哪些结构性变化？ 这一期节目，我们邀请长期观察欧洲政治经济的独立媒体人孙谦，从默茨访华的细节出发，聊一聊：德国的对华政策正在发生怎样的改变？欧洲的防务自主如今走到哪一步",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -256,7 +289,7 @@
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
-      "title": "连线迪拜：美伊升级后的海湾困境、战火外溢和秩序挑战丨Bonus",
+      "title": "#加更|连线迪拜：美伊升级后的海湾困境、战火外溢和秩序挑战",
       "link": "http://etw.fm/2200",
       "pubDate": "2026-03-03T01:30:00.000Z",
       "duration": "29:25",
@@ -759,17 +792,6 @@
       "art": "https://megaphone.imgix.net/podcasts/b7894018-07b2-11f1-8528-afdb47a869ad/image/7904039e2c6e8e4ac5520ea53e6ffeb8.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "What it costs to be an elite figure skater like the 'Quad God'",
-      "link": "https://www.npr.org/2026/02/12/nx-s1-5711461/what-it-costs-to-be-an-elite-figure-skater-like-the-quad-god",
-      "pubDate": "2026-02-12T08:00:00.000Z",
-      "duration": "585",
-      "summary": "Behind every Ilia Malinin or Alysa Liu, there is an army of elite figure skating coaches and choreographers who have been with them from the beginning. On today’s show, how much does it cost to achiev",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9d%2F1c%2F2f7efaa24225af93d68a22853583%2F93baad84-8957-4037-bb6a-0283721a85ea.png"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1087,17 +1109,6 @@
       "duration": "37:18",
       "summary": "当学校的大门向一个女孩关闭，她要如何想象自己人生的未来，又要如何在重重阻碍中继续寻找教育的可能性？ 1 月 24 日，联合国发稿敦促采取行动保护阿富汗境内的受教育权，这是因为，阿富汗是唯一一个严格禁止女孩和妇女接受中学及高等教育的国家，在这里，有 220 万女孩被剥夺了接受中学教育的权利。 这一期节目，我们就记录了这 220 万阿富汗女孩中的 2 位 —— Sophia 和 Lina，她们在本该继",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Brex Acquired for $5.15BN | a16z Companies are 2/3 AI Revenues | Anthropic Inference Costs Skyrocket | OpenEvidence Raises at $12BN Valuation | The IPO Market: EquipmentShare, Wealthfront and Ethos Insurance",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-brex-acquired-for-515bn-a16z-companies-are-23-ai-revenues-anthropic-inference-costs-skyrocket-openevidence-raises-at-12bn-valuation-the-ipo-market-equipmentshare-wealthfront-and-ethos-insurance",
-      "pubDate": "2026-01-29T07:07:00.000Z",
-      "duration": "01:15:55",
-      "summary": "AGENDA: 03:36 Brex Acquisition by Capital One for $5.15BN 10:54 Does Brex's Acquisition Help or Hurt Ramp? 16:28 TikTok Deal Completed: Who Won & Who Lost: Analysis 19:30 Anthropic Inference Costs Hig",
-      "art": "https://static.libsyn.com/p/assets/1/e/8/7/1e8710381599c4f8d959afa2a1bf1c87/WhatsApp_Image_2026-01-28_at_18.02.42.jpeg"
     },
     {
       "showId": "talksat",
@@ -1749,17 +1760,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#367 当意大利街角的浓缩咖啡，变成中国移民的生意",
-      "link": "http://etw.fm/2186",
-      "pubDate": "2025-11-07T14:30:00.000Z",
-      "duration": "1:02:26",
-      "summary": "在意大利街角，为什么越来越多的「正宗意大利咖啡吧」背后，是华人在经营？ 这不是偶然的商业选择。移民、老龄化、经济危机等等复杂要素促成了这一现象。而当我们仔细审视这一现象时，可能会对「国民文化」、「移民」、「身份认同」、「种族歧视」都有不一样的看法。 这集，我们与记者冯兆音、人类学者邓婷，一起讨论意式咖啡里移民现实，身份认同以及文化的流动边界。而华人在异乡所经历的「他者」的经历，或许也可以成为反观我",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1975,7 +1975,7 @@
       "title": "Google Part II: Alphabet",
       "link": "https://www.acquired.fm/episodes/alphabet-inc",
       "pubDate": "2025-08-26T10:19:06.000Z",
-      "duration": "15093",
+      "duration": "15038",
       "summary": "In its first six years from 1998 to 2004, Google built one of the greatest products of all time (and certainly the greatest business of all time) with Search. Then in its next six years from 2005 to 2",
       "art": "https://img.transistorcdn.com/gLaKE9vfu-tPCSV5766PrXGWFO95TCIXYYRQvaTrgPs/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yNzY2/ZTU5NWQyM2ZhZWZk/ZThlZTAxNTYyZTQz/YWMzOS5qcGc.jpg"
     },
