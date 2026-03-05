@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-05T14:53:16.918Z",
+    "updatedAt": "2026-03-05T20:30:17.733Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2464 - Priyanka Chopra Jonas",
+      "link": "https://traffic.megaphone.fm/GLT2092384352.mp3?updated=1772732458",
+      "pubDate": "2026-03-05T18:00:00.000Z",
+      "duration": "9038",
+      "summary": "Priyanka Chopra Jonas is an actor, producer, entrepreneur and former Miss World. She stars in the ongoing series “Citadel” and the film “The Bluff,” both streaming on Prime Video.www.amazon.com/gp/vid",
+      "art": "https://megaphone.imgix.net/podcasts/1487e05a-183c-11f1-af2d-4b5ae497d50c/image/8512dfc194c488269f1db5662aa4af09.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -911,17 +922,6 @@
       "duration": "01:19:22",
       "summary": "(0:00) Besties intros: Brad Gerstner joins the show (3:16) Epstein Files (15:45) SaaS stocks crash out (35:11) Moltbook panic (47:37) Trump selects Kevin Warsh as new Fed Chair, replacing Jerome Powel",
       "art": "https://static.libsyn.com/p/assets/8/4/b/9/84b98376fbde2c18d959afa2a1bf1c87/1_Pod_E260-20260207-cu0v3vcuor.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2450 - Tommy Wood",
-      "link": "https://traffic.megaphone.fm/GLT7023346046.mp3?updated=1770395897",
-      "pubDate": "2026-02-06T18:00:00.000Z",
-      "duration": "8197",
-      "summary": "Tommy Wood, PhD, is a neuroscientist and athletic performance coach. He is a host of the “Better Brain Fitness” podcast and author of “The Stimulated Mind: Future-Proof Your Brain from Dementia and St",
-      "art": "https://megaphone.imgix.net/podcasts/a46bb368-032e-11f1-b6fa-678b37cb6141/image/c35dff87831242267c8b26ca73995567.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
