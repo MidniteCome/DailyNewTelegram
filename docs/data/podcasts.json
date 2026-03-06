@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-06T07:58:18.700Z",
+    "updatedAt": "2026-03-06T14:42:38.339Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,61 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Why are fewer Americans working the night shift?",
+      "link": "https://www.npr.org/2026/03/06/nx-s1-5737366/why-are-fewer-americans-working-the-night-shift",
+      "pubDate": "2026-03-06T14:38:17.000Z",
+      "duration": "545",
+      "summary": "The night shift isn’t for everyone, but it often means a boost in pay and a foot in the door. Yet a smaller share of Americans are working the graveyard shift than in decades past. Today on the show, ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F20%2F86%2Fc2af0d524335acfda4b6d738fe5c%2F1ac628e6-fa51-4d53-9bb1-518c4e9fae2c.png"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Why the Pentagon Wants to Destroy Anthropic",
+      "link": "https://www.nytimes.com/2026/03/06/opinion/ezra-klein-podcast-dean-ball.html",
+      "pubDate": "2026-03-06T10:00:00.000Z",
+      "duration": "01:09:58",
+      "summary": "Last Friday, Secretary of Defense Pete Hegseth announced that he was breaking the Pentagon’s contract with the A.I. company Anthropic and would declare the company a supply chain risk — a designation ",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Inside the Iran War and the Pentagon's Feud with Anthropic with Under Secretary of War Emil Michael",
+      "link": "https://allinchamathjason.libsyn.com/inside-the-iran-war-and-the-pentagons-feud-with-anthropic-with-under-secretary-of-war-emil-michael",
+      "pubDate": "2026-03-06T09:23:00.000Z",
+      "duration": "01:22:59",
+      "summary": "(0:00) The Besties welcome Under Secretary of War Emil Michael (2:30) US war with Iran: Bigger picture and why now? (13:16) Trump's new approach to warfare, AI, drones, rules of engagement (28:39) Isr",
+      "art": "https://static.libsyn.com/p/assets/4/b/6/b/4b6b88910431c6f016c3140a3186d450/1_Pod_E263.png"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "继业者1918｜「疯男爵」温甘伦的奇幻漂流与谢苗诺夫匪帮的末日",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69aa8ceec8cdeb38c21ce8db?utm_source=rss",
+      "pubDate": "2026-03-06T09:17:54.000Z",
+      "duration": "00:03:00",
+      "summary": "俄国内战进入尾声，信仰藏传佛教的德意志族男爵温甘伦，却怀揣着复兴成吉思汗帝国的狂想，率领「亚洲骑兵师」闯入蒙古高原，最终被苏俄红军俘获。一战前夜，圣彼得堡的俄国上流社会为何迷恋东方神秘思想？被称为「疯男爵」的温甘伦精神是否正常？日本扶持的傀儡谢苗诺夫在远东如何给高尔察克拆台，又如何与温甘伦分道扬镳？请听本期节目陆大鹏带来的精彩分享！ 《继业者1918》讲述一战结束后那个风云突变的年代，聚焦于在帝国",
+      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "默茨访华之后：德国人也要开始“卷”了吗？",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69aa97d35b2d0ed0699b62df?utm_source=rss",
+      "pubDate": "2026-03-06T09:16:51.000Z",
+      "duration": "01:10:15",
+      "summary": "【主播的话】 在刚刚过去的二月份，德国总理默茨（Friedrich Merz）携代表团访华，汽车与工业巨头悉数随行。 这次访华的一些画面在社交媒体上广为流传。比如，默茨走进了宇树科技，观看机器人跳舞。在回到德国之后，他发表了一个演讲，感慨中国发展之快，暗示德国的工作生活平衡或将拖累竞争力。这个演讲在中德两国引发了非常不同的解读——中国网友津津乐道于”连德国总理都来取经”，德国国内则掀起了一场关于产",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -770,17 +825,6 @@
       "art": "https://image.xyzcdn.net/Fq7mZgDoRc-C_Vd0YgodauX6VS6d.png"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Jobs numbers, immigrants in healthcare, and ... Jesus Christ?",
-      "link": "https://www.npr.org/2026/02/13/nx-s1-5712631/jobs-numbers-immigrants-in-healthcare-and-jesus-christ",
-      "pubDate": "2026-02-13T08:00:00.000Z",
-      "duration": "570",
-      "summary": "It’s time for … Indicators of the Week! Our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: Analyzing the new jobs numbers, how letting in more immigran",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F78%2F9d%2F94c4473c4ae7bafe4ab4696643a0%2F5c3e6713-01b2-4a10-b16d-b5b44c294457.png"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1353,17 +1397,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Supercharging a New FDA: Marty Makary on Science, Power & Patients",
-      "link": "https://allinchamathjason.libsyn.com/can-we-trust-the-fda-marty-makary-on-science-power-patients",
-      "pubDate": "2026-01-15T19:35:00.000Z",
-      "duration": "01:29:48",
-      "summary": "(0:00) Friedberg intros FDA Commissioner Marty Makary (3:21) Inside the 42 major FDA reforms in 10 months (7:51) The China Race: Winning back biotech leadership (13:14) Accelerating drug approvals saf",
-      "art": "https://static.libsyn.com/p/assets/5/f/3/6/5f36ac11d7f4dbe616c3140a3186d450/1_Pod_Makary.png"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -1472,28 +1505,6 @@
       "duration": "00:48:55",
       "summary": "【主播的话】 马杜罗，委内瑞拉现任总统，在一场由美国发起的特别行动中，被美军抓获。 这种抓捕行动充满了戏剧性。当地时间1月3日的凌晨，美军对委内瑞拉首都加拉加斯发起了空袭，地面部队闯入了总统住所，将马杜罗夫妇从熟睡中抓走。随后，特朗普召开了新闻发布会，表示这场行动已经策划了数月，马杜罗夫妇将被押至美国受审，美国将“接管”委内瑞拉直至权力的“安全过渡”。 一方面，过去十几年以来，委内瑞拉都被认为是一",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "452 安史之乱中的政治宣传、权力斗争与历史迷雾",
-      "link": "https://www.xiaoyuzhoufm.com/episode/695cd79421cd486af7378a1d?utm_source=rss",
-      "pubDate": "2026-01-06T10:14:54.000Z",
-      "duration": "02:13:23",
-      "summary": "- 导语 - 一场盛世的骤然崩塌，为后人理解安史之乱留下了重重谜团，甚至「宣传变成了历史，历史变成了神话」。《安史之乱》一书，便对那些与史实相距甚远的叙事进行了重新梳理。长时段的财政和历史地理分析出发，安史之乱爆发的基本条件是什么？现实中的杨国忠是否真如传说般依靠杨贵妃上台？张巡在睢阳保卫战中「杀妾飨士」的故事背后有哪些复杂线索？请听本期嘉宾历史学者张诗坪老师带来的精彩分享！ - 本期话题成员 -",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "What Trump Wants in Venezuela",
-      "link": "https://www.nytimes.com/2026/01/06/opinion/ezra-klein-podcast-jonathan-blitzer.html",
-      "pubDate": "2026-01-06T10:00:00.000Z",
-      "duration": "00:58:03",
-      "summary": "What is America doing in Venezuela? On Jan. 3, the Trump administration launched an operation that ended with the capture of President Nicolás Maduro, who is now in New York City on narcoterrorism and",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "acquired",
@@ -1890,17 +1901,6 @@
       "duration": "4:42:37",
       "summary": "Pavel Durov is the founder and CEO of Telegram. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep482-sc See below for timestamps, transcript, and to give feedback, s",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "weirdo",
-      "showName": "不合时宜",
-      "category": "zh",
-      "title": "气候政治新剧本：南方崛起、东升西降？谁在退场、谁在接棒？",
-      "link": "https://www.xiaoyuzhoufm.com/episode/68da0904b4befcf7306dacf8?utm_source=rss",
-      "pubDate": "2025-09-29T04:56:54.000Z",
-      "duration": "00:49:00",
-      "summary": "【主播的话】 过去的这一周，第80届联合国大会在纽约举行。这不仅是一场外交大秀，也是一场议题角力的舞台。今年的大会同时也正值“纽约气候周”，来自全球的环保组织、科研机构、企业与政策制定者齐聚一堂。 在各种地缘冲突、经济挑战与安全博弈之外，气候变化依旧是绕不过去的焦点：全球正在逼近气候临界点。21 世纪20 年代被称为应对气候变化行动最具决定性的十年，而现在即将过半。特朗普的联合国大会发言，延续了他",
-      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
       "showId": "bg2pod",
