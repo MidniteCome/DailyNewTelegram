@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-06T14:42:38.339Z",
+    "updatedAt": "2026-03-06T20:22:20.152Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #175 with Shakur Stevenson",
+      "link": "https://traffic.megaphone.fm/GLT3513799155.mp3?updated=1772820744",
+      "pubDate": "2026-03-06T18:00:00.000Z",
+      "duration": "8265",
+      "summary": "Joe sits down with Shakur Stevenson, a professional boxer, four-time world champion, and Olympic medalist. https://www.youtube.com/@ShakurStevensonTV https://www.boxrec.com/en/box-pro/790719 Perplexit",
+      "art": "https://megaphone.imgix.net/podcasts/a5d23722-191d-11f1-ae5b-27ef4b14a447/image/93489171c394bb97b22f50269f5db267.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -878,17 +889,6 @@
       "duration": "11484",
       "summary": "Roger Avary is a director, producer, and Academy Award-winning screenwriter known for “Pulp Fiction,” which he co-wrote with Quentin Tarantino, as well as “The Rules of Attraction” and “Killing Zoe.” ",
       "art": "https://megaphone.imgix.net/podcasts/18f27e36-0700-11f1-bfe7-a7ac3a74be6c/image/35eae712accdf0229fa758bfd24d601e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2451 - Cheryl Hines",
-      "link": "https://traffic.megaphone.fm/GLT6251051540.mp3?updated=1770747895",
-      "pubDate": "2026-02-10T18:00:00.000Z",
-      "duration": "11409",
-      "summary": "Cheryl Hines is an Emmy Award-nominated actress, director, producer, and comedian. While she is best known for her role as Cheryl David on the HBO series “Curb Your Enthusiasm,” Hines has appeared in ",
-      "art": "https://megaphone.imgix.net/podcasts/8f5c9d80-0625-11f1-8078-93b17659a82a/image/8de0368c4b3f4c08d628b34592271ead.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
