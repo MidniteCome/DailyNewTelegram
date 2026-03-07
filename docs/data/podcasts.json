@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-07T14:30:16.313Z",
+    "updatedAt": "2026-03-07T20:16:01.293Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Exiled Iranian Prince Reza Pahlavi: Transition Plan and the Fight for Iran's Freedom",
+      "link": "https://allinchamathjason.libsyn.com/exiled-iranian-prince-reza-pahlavi-transition-plan-and-the-fight-for-irans-freedom",
+      "pubDate": "2026-03-07T18:00:00.000Z",
+      "duration": "47:56",
+      "summary": "(0:00) Jason intros Prince Reza Pahlavi (1:09) Pahlavi's take on the war and vision for Iran's future, Democracy, and return (8:53) Trump's surrender conditions, core principles, role in transition an",
+      "art": "https://static.libsyn.com/p/assets/1/a/5/4/1a544e8045810c6016c3140a3186d450/1_Pod_Reza.png"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -1351,17 +1362,6 @@
       "duration": "32:16",
       "summary": "一位生活在首都的委内瑞拉青年，在美军突袭那晚经历了一场怎样的惊心动魄？从小到大，他又如何见证了国家从石油时代的繁荣巅峰，一步步坠入动荡与贫困的深渊 ？ 2026 年 1 月 3 号，美军突袭委内瑞拉首都并抓捕其总统马杜罗的消息震惊全球。而这场突如其来的巨变，也让这个命运多舛的国家再次被推到了命运的十字路口。 这期节目，我们采访了从小生活在首都加拉加斯的委内瑞拉青年 Andrés，他回忆了自己在 1",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Iran's Breaking Point, Trump's Greenland Acquisition, and Solving Energy Costs",
-      "link": "https://allinchamathjason.libsyn.com/irans-breaking-point-trumps-greenland-acquisition-solving-energy-costs-billionaire-tax-backlash",
-      "pubDate": "2026-01-17T00:00:00.000Z",
-      "duration": "01:10:45",
-      "summary": "(0:00) Bestie intros! (4:18) Iran's breaking point: regime change coming? (14:28) Solving energy prices: Microsoft first hyperscaler to \"pay its own way\" and subsidize residential electric costs (31:1",
-      "art": "https://static.libsyn.com/p/assets/3/8/7/f/387f480b460ebe3916c3140a3186d450/1_Pod_E258.png"
     },
     {
       "showId": "ezraklein",
