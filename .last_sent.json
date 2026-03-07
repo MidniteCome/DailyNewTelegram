@@ -1,5 +1,5 @@
 {
-  "lastSent": "2026-03-06",
+  "lastSent": "2026-03-07",
   "seenLinks": [
     "https://uk.finance.yahoo.com/news/gold-prices-oil-pound-commodities-dollar-interest-rates-federal-reserve-uk-inflation-093233998.html",
     "https://uk.finance.yahoo.com/news/ftse-100-live-stock-markets-wall-street-uk-retail-sales-budget-surplus-084326165.html",
@@ -1110,6 +1110,30 @@
     "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNDZvT0hNRDc2a2VQMjdEOWxuTDgzQ0pUaWx3S1ZaQ21Oc0cyTmJWejlnektPZHdYTjBYV0ZXczVEbjYyZXd0YTh2TnhhZFJSN2NxRXozY1prcnFlbUZMVHNSUXpTeWdheTNuQTZxa1FnNTBwX21kYWFSTEFZNWozR21SVkF0ekxZRllsSEpicEVxd0pkMGJYQ1R3Q2xwVkxHZ21NUHB1V3Rha1BRVWJJUTdkcEVZU2dRdEZB?oc=5",
     "https://news.google.com/rss/articles/CBMizwFBVV95cUxQYjJuRUFjVzN2MjVORGlsM2k4SmlMaG1TY3ZYUXVVY2hOd0NhVmtEMTRTcXVlV29hM1NPeEJJZThMQnZSYm9vM0NLTkRid3hmVGprTmh0dHkzU0ZIOU9SdkZmN1k5azctUnJwSnRaOHk5NEsyZmFRb29RbmhCOXJ5U2hxU0szVXFMUmxNaThDZDY0MnJ2cDJUUHAxS1dCZ2RjeXhqMHc4c0NNOWtjSmZkZmgwRGhnNVhCWFM2NmwySVI3VDJXVl9fOVFPMHVXSHM?oc=5",
     "https://www.youtube.com/watch?v=U37Ds3RvyoM",
-    "https://matklad.github.io/2026/03/05/jj-lsp-followup.html"
+    "https://matklad.github.io/2026/03/05/jj-lsp-followup.html",
+    "https://www.cnbc.com/2026/03/06/marvell-shares-surge-18percent-as-ceo-points-to-continuing-ai-demand.html",
+    "https://uk.finance.yahoo.com/news/halifax-mortgage-costs-middle-east-conflict-123651548.html",
+    "https://www.cnbc.com/2026/03/06/palantir-stock-jumps-15percent-in-week-on-iran-war-boosts-anthropic-muted.html",
+    "https://techcrunch.com/2026/03/06/nintendo-sues-the-u-s-government-for-a-refund-on-tariffs",
+    "https://uk.finance.yahoo.com/news/ftse-100-live-stocks-oil-iran-israel-us-090520112.html",
+    "https://techcrunch.com/2026/03/06/life-ev-officially-owns-rad-power-bikes-now",
+    "https://news.ycombinator.com/item?id=47282777",
+    "https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code",
+    "https://arstechnica.com/space/2026/03/ding-dong-the-exploration-upper-stage-is-dead",
+    "https://arstechnica.com/tech-policy/2026/03/apple-users-in-the-us-can-no-longer-download-bytedances-chinese-apps",
+    "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPM1FUMmp5WjZVUFRCTW9Ydjd4M0lNZ094LVd3aTB6S1ZQOEY3OHpmdGpoSGZZZ3R2Z25UUjdRRVlXNHRkRkxNX1ZJWkZabWFNV01HQTVGckpacV90WTZ4eE00aDlzNlBhTTlOeURpTVZNNlZVem9QUjd0QWlFVmFjcUx5STFRYlRhX0VSck1SRjc4TUk1bVJaUGlfUGtZTnFudEdiWWlXWUtaeGc1RzhnbTJXdmhLU2dkelYteFp1Q3BZWS1OLVZFSmFObldmZXZrNEhhT1MweFVnSFkzRDRUcw?oc=5",
+    "https://spectrum.ieee.org/video-friday-robot-hand-artificial-muscles",
+    "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVVRzaWJwSVp2N0R1bjFxT09hYWhROFg2VEFYV29JbDBhOVN2THNCN3pETjNqYXVic3JPRkJ0eEd4WkpvUEhHeFFOUEtzTVlLMkF4b19lZDJpdzdkcG81OXZoR1dkMlhJbHdycENTd0hjdkxaNDBBdmF5bFRKU3JlQkcyWm9lMW5hX1pfclBMNUtEWk8wNEZsbi1HRklUeG9LUlFtQWRNNmpoazE1djFiZG9kZG1mc281UGxyZU04QW9mNWs4SjM0bkVTbHNYN0RuZmc?oc=5",
+    "https://www.theverge.com/23996474/epic-tim-sweeney-interview-win-google-antitrust-lawsuit-district-court",
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNb1p3aXBhUjZMYzhGeGtmZExmVC1fRGQ4TWJ3MTdsNEtMdC1RU2diOXdjYjJiWVh4X2FQMVZxYllnQjVaTDN2c1FsMXJVWDNhZldRY3hpRVRNYXFvRnBfbWF6SnZsYWdWeHBDSEVCVGJBdXZ1U2JocksxVm1fSWdlSWRUMXBFdWVlNGtDckY0ZE91SmpSbHBhdElhcWwtMUtNNWRrZ29IQzl3V183Q3drZFh6eHFVWi0yNGczdndTeVc?oc=5",
+    "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOGhfeWg3WDVNVE5uYVdEZnV6QXIzd1lpcVRYQWVyLWstQUFNUTdxbEpRQ0tRd19aWXRyYUtsVmtPczU0aU9yLTVLc2RoZnBOMDNFalZtdllLZWR1dlI5Y21ZUlA3ZkJqczBJUVVaNEs3N3pFYmpjVFJnSFdkc3hqdjM3TnFkQjF6cHQ0cnlpR1pCcnRDb2lVZHVLWmMtUWtSc0N3?oc=5",
+    "https://www.v2ex.com/t/1196467#reply4",
+    "https://daringfireball.net/feeds/sponsors",
+    "https://stratechery.com/2025/u-s-intel/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3Utcy1pbnRlbC8iXX0sImV4cCI6MTc3NTQ2MTcyOCwiaWF0IjoxNzcyODY5NzI4LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.nMJfmHAYnk8gChMjkl6y15OpO0sPXFYrc5ZznbcQFcPj5Ydg3qlItSG8vbz9oJxEnc9NyYVmO63C5faIAwDfNQowM0Rvj_MnJQMFGh9x5xzdTHEenLIzSwmRcZsdInxgDPwyDX4JbXnSBxAUwMMtRGNa7w79qORjAPaxFLhAjs31GtGTh-CO21tfaxkwJdnusEap4-fOcsLf6cV0ENCXwMqZWmoPZ1uTwtcBLPJuYuYv4eHmuAYuE5bo3UhteIc-bWutDBPUZL4fgEKwve8Ie1EzGzhk7YD_9Zr8v4KKgYuZKGkv9HLbLfQzcVRTHwa5c8t1uXdkhQctojxCHC3zbA",
+    "https://www.v2ex.com/t/1196472#reply0",
+    "https://www.construction-physics.com/p/a-history-of-operation-breakthrough",
+    "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYnQzN05DZlJ2VlU1UVMtWFdfeWljTjAzcGRXSHhoU1I1Y0NYQjNSdHNTc3lURVZuNXpoTDZPdkZZZVROWVh5d1hNbWZjV25ORGVhZlIzUkI3YzlpX0tVMDFnTHo5T1VaRk8xTEtwNWE3LWg1b0dzVlVram9ndmlvbXNYaFRhR2xKeGRfVm5pUkFTTTdQQzFLZFhYX1V4SkxjSGVTN0Zn?oc=5",
+    "https://stratechery.com/2026/anthropic-and-alignment/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpYy1hbmQtYWxpZ25tZW50LyJdfSwiZXhwIjoxNzc1NDYxNzI4LCJpYXQiOjE3NzI4Njk3MjgsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.mMoneo-jTjAe9CH6wrV6xWeWBPEASyxHrY_e44BwSDTzA2FYcxcTVSuAHv96ju2mWP5azcUMzslhulT8_lFHfnRlnuT24FqRyGadPuq2vdPJ_w2pgIMElbehJulgeVrYD25Vfuya1YmP654CUL3cPXcITlvgA2m9PM6OlsqJTAqFoZ3pCR7QqtgKq0r-fONsLqW1U_D5m6PJUPfbYx1ef3nBQ6zDypCS7Wl5u6ePzZNM-TrRP5zdLoWnfloJ9VhH4m67hi5727KiT6fY5CPPVLTJpKLsKRKDIU-Jv-H20edBSaTsH37PtYhoclk3LUk8ZQpN_daifYWfL_EmARPfcw",
+    "https://seangoedecke.com/will-my-job-still-exist"
   ]
 }
