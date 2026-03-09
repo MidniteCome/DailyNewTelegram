@@ -1,5 +1,5 @@
 {
-  "lastSent": "2026-03-08",
+  "lastSent": "2026-03-09",
   "seenLinks": [
     "https://uk.finance.yahoo.com/news/gold-prices-oil-pound-commodities-dollar-interest-rates-federal-reserve-uk-inflation-093233998.html",
     "https://uk.finance.yahoo.com/news/ftse-100-live-stock-markets-wall-street-uk-retail-sales-budget-surplus-084326165.html",
@@ -1156,6 +1156,28 @@
     "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
     "https://stratechery.com/2026/anthropic-and-alignment/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpYy1hbmQtYWxpZ25tZW50LyJdfSwiZXhwIjoxNzc1NTQ4MjIzLCJpYXQiOjE3NzI5NTYyMjMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.lHX8Lnw18UBxMBdItmFj9dgV7umtZOGtuEHKpqpVJkVoVxs09OdjVAyCIAp1Vhig9GSEgHwNrPDFYKqRI1dwS7lDMkgtlyXvvEw1mPaHqEiPVn1GU90LJkvtbFir9A0RIhitqr_l-4FsNib1abfQPg3fO5--JJEY-gU0Gb3UaDdhB-9iD-LPeAAefaWCqCWP1ROpiZWtYt_QbeRG1_8gL7QpX0A6zsW5PhNpgvtG6L28FlFRrU9WoeC7Epj2Kgj02fT3mlU7Rjnkpr4t0Kg2sZkmdLtloat220eGF8wLGaS45f_yVQTBkp85AajXL-9QhcK4aaPbvQUu840d1vfqsA",
     "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOG1QdzdmRGFaQVFYY2J3T1BnWUMzcU9vLU83bWM3c0tNaWJCdmduYV9PcnhqZlp6Ny1xZ2tJVV96ZG9RUjJKMVJFZzdodldKREo3TGlaSEFkelo2MzBpblpZMVBlNENBRFJITjE5YlFoYmlZdzhYdHo0UzR3azJHZEZPQndVMGJFalZpTkVuUzN5NnhEUlJGT1Bzd2tjaXJ5dVJkd19xUEpqM3BRVUh1UnRwOUx2YUE?oc=5",
-    "https://x.com/ethan_is_online/status/2029331836137291941?s=42"
+    "https://x.com/ethan_is_online/status/2029331836137291941?s=42",
+    "https://www.cnbc.com/2026/03/06/amazon-aws-anthropic-claude-pentagon-blacklist.html",
+    "https://github.com/knowsuchagency/mcp2cli",
+    "https://techcrunch.com/2026/03/08/will-the-pentagons-anthropic-controversy-scare-startups-away-from-defense-work",
+    "https://www.smartlab.at/rss-revival-life-after-social-media",
+    "https://uk.finance.yahoo.com/news/properties-mews-homes-convenience-060051716.html",
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxNU2VmMTVLYXVCZ3lRZjUyVkwwUS1BUk5XRnpzTzNoRHBUUGZpV1lDMjc5d2dBMlJ1am5XY28tN194a3U5ZUZ0eU03eW5UWWk2ZkduOTgwMGFwVXpJMTIxdkhPM1I1ZGVwSGFCY0xSN2s1RjE2aW1ET2tLdEZkak56eGVUS21WRkRBeUxXTWlqck1OM3JjY2xUdjJEUURvbEFySTVlSF9TNnJZOTMyY2U3OHl3?oc=5",
+    "https://techcrunch.com/2026/03/08/palmer-luckeys-retro-gaming-startup-modretro-reportedly-seeks-funding-at-1b-valuation",
+    "https://news.google.com/rss/articles/CBMizAFBVV95cUxPMFRUc3p0bFFUU2YxS1R0dnQtS3M2eWRmajN0VHZqbkZ4TTY2eXdMTklpcU1sWVRvMnFEVUZheDFrSDE1NnF0SWZOZFZndDMyNWFQYlM5bzlzRXVqMHI1NWpIRVNuTS1sOU1ETmp0anBCU3E0MUFRWW1NREtZWDdFOEtWY3VMOE1HbmpkdjFUSjNSX1VHVU5VSE9hYXF4XzFKLVF4OXQ2YU14cXlWeEFmSkc1dHlwajZrX281LS1uMDlCQ3dEWFVmLU5hTGw?oc=5",
+    "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQWdBc1QydUF2NjFxMEd6dERJMmlYdnF2QUMtOWk2eTZUZ3FTLUtrUkNueGxaNHBPYndNd3QtNDRvWWRUM090U0w1YkhlU1JoNTJuM0szRy14ODdNLVlpeWthYVVsUTFkQVR5SE5CcEw2WDZkRTJOTlFVT3BIclEtQ05MUkNnYVNsZmpIQXFLOHIzcng4VnpRSk0xbWRtRVhyc0s5b2RQbVdNbmdIRlF5Vm5ONmswWTlsM1N4c05VZw?oc=5",
+    "https://www.apple.com/leadership/steve-lemay",
+    "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU0FueDItbnRmY2pQMmM3YXJIelZKb2xCQmlPSVF6c0Q0QVJYb0hGOS1fSG1qVS1QOE05QUExck51Qmt5V0JQTnZhTUxiMUliVWhodG9YMXpjY0diRWJ1QW84S25MREF1QjdrWTE3UENxLXVvRjJpNTVVMG90Y3RocTZOQThGMTZWcVQwdjVCZEdGY2JHTWVwb09kZ3dlemRndFBGQV9VVGd2Sjht?oc=5",
+    "https://www.cnbc.com/2026/03/07/irans-internet-blackout-extends-into-second-week-netblocks.html",
+    "https://arstechnica.com/ai/2026/03/googles-new-command-line-tool-can-plug-openclaw-into-your-workspace-data",
+    "https://www.v2ex.com/t/1196719#reply28",
+    "https://www.v2ex.com/t/1196703#reply53",
+    "https://stratechery.com/2025/u-s-intel/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3Utcy1pbnRlbC8iXX0sImV4cCI6MTc3NTYzNTM1NSwiaWF0IjoxNzczMDQzMzU1LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.nkKqSPTUS0BHBLiNtsSf-6zSP8tpk4C-hhQameytTQYpPOd9_Pej_wQoBHlL4UvoFJfe0IY6hifA-FkW2tQxjfdsX4CdmaESyeTPdYUkIUb7sFlqb8AMJrfWrwwaHdQ0EEa3bYdK_bbYTVyHS0ELokvOe1VnTZQ0MzDl0Va10feouZ70LjEmcy-PdLmUUNeyu0NI7xjxWLoNk8emiCTs0ukipW55ZlWrdHjMKvNHXrWcoGjfEWawkUvN178sVZ1EwXK0Dm19Tl2X5_pa9duhK-zrOHIGG5K9lBazJRobg77GCTZwpFMPR_OVlsc_U8fHAB5udPSeA6H1oIDzxIi0wA",
+    "https://arstechnica.com/science/2026/03/hunting-for-elusive-ghost-elephants",
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYy15bkltUzVKbWVrTmdoYTBHamJrcTM2MzU0VDhxRzEycFd5dC15bnp6VW5FWkhqTnJsZUdJQ0lOc0x3MjJybXJiTUMxV2xCUmE3aHdlOXg0UURIN1VReDRPVmJVYlBienRPaG13MG1NaWxRNjZJNko1TDR0NkQtMUdoNHJDcE15R3J4TlNkMllRYkpOX1huN18tMXJKd0h0LXNnNUF1VWlTTEk4UFJBNDZ0cw?oc=5",
+    "https://uk.finance.yahoo.com/news/broadcom-aviva-itv-taylor-wimpey-rentokil-trending-tickers-094502569.html",
+    "https://stratechery.com/2026/anthropic-and-alignment/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpYy1hbmQtYWxpZ25tZW50LyJdfSwiZXhwIjoxNzc1NjM1MzU1LCJpYXQiOjE3NzMwNDMzNTUsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.YRgy_b6Ob-fT-FePKnNffhzAOCwO2awTZI9VqrRxPuAN5-IuVYM5yBVCesk5rlOzI_AmudbNYzTfhc3W9ToSaT2_Mg4hhIWaWPo55spuLZTmjuffcKu2DgEUZrW6Gq5WeYCFPFhOuKjFf-mTUn2Kr1qn3D_aiZVfunpjDpVaCLjQedtYlJFk-IV1Mzz9Uv0CMWzZZzG9UnWQ5RzIAfeggfpHx3lVG4JbnDHLsU7D_sLLTX7L7NR1WHQvYKaC-khiX-RHnsu-ArKxmOKo7UULV8_AiKQKgQ3Oq-A5F-Hlo-9abMMgyefRj_1o9tVRNGzIA3t6lIoumF7njcHy7JSECA",
+    "https://simonwillison.net/2026/Mar/5/chardet",
+    "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaE9NbE5jRFhlVk9XM2NtalIycWxJUVhrNXVKNXZiYXl4M2p6RWZzcEpzdGVmakhaQm9mWTEzTmtxZVQ5VVJHY0ozVS1lUFYwVWVTSGgySHNsNGxZWXpuZ1V1N2FhQlZDbEJHSkxmRjdiWUYwMldNYXFzajhIZXRxTnkzeE5Dc3l6T2ZMNHhyZGNyMy0zWnJyNkpPODNiT2tmMkF3ZWh1SXVROEx0Nl9fVzc2cE96MEN5cDZsaDFUUUV3UnozWmc?oc=5"
   ]
 }
