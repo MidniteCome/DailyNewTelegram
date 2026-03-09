@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-08T20:16:31.554Z",
+    "updatedAt": "2026-03-09T08:03:11.147Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Inside Accel's $4BN Growth Investing Machine | Cursor is Dead is Total BS: Here is Why | What Missing Rippling and ElevenLabs Taught Us | Are $2BN-$10BN IPOs Dead | Why Now is a Great Time to be Thoma Bravo with Miles Clements",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-inside-accels-4bn-growth-investing-machine-cursor-is-dead-is-total-bs-here-is-why-what-missing-rippling-and-elevenlabs-taught-us-are-2bn-10bn-ipos-dead-why-now-is-a-great-time-to-be-thoma-bravo-with-miles-clements",
+      "pubDate": "2026-03-09T07:07:00.000Z",
+      "duration": "01:03:02",
+      "summary": "Miles Clements is a Partner @ Accel where he helps to lead their growth fund. At Accel, Miles has led or invested in Atlassian, Cursor, Linear, and more. AGENDA: 03:38 Where is True Alpha and Value in",
+      "art": "https://static.libsyn.com/p/assets/e/b/6/2/eb62a7ee4e4ed4f016c3140a3186d450/WhatsApp_Image_2026-03-06_at_20.35.35.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "No healthcare premiums? In this economy?! Here's how.",
+      "link": "https://www.npr.org/2026/03/09/nx-s1-5739387/no-healthcare-premiums-in-this-economy-heres-how",
+      "pubDate": "2026-03-09T07:00:00.000Z",
+      "duration": "546",
+      "summary": "It turns out healthcare in America CAN be cheaper. If your employer wants it to be. Today on the show, we speak with a Canadian-founded startup that has unusually generous benefits for their employees",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffa%2F9e%2F6b102cca4101bda2981f9e9f5bfa%2F49fd1c3f-1c61-469c-84f8-9375cb9f9089.jpg"
+    },
     {
       "showId": "allin",
       "showName": "All-In",
@@ -781,17 +803,6 @@
       "art": "https://megaphone.imgix.net/podcasts/6679ce84-0bba-11f1-a843-2784d67d19a1/image/b37e0e6bc5484dd9318f9107fe728dc1.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "How Iran's flagging economy inflamed its protests",
-      "link": "https://www.npr.org/2026/02/17/nx-s1-5716260/how-irans-flagging-economy-inflamed-its-protests",
-      "pubDate": "2026-02-17T08:00:00.000Z",
-      "duration": "516",
-      "summary": "Editor's note: The United States and Israel launched attacks on Iran early Saturday, Feb. 28. For current coverage click here . For background context, the story below was published on Feb. 17, 2026. ",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbf%2F8e%2Ff2e40d7f4557806beb2e84c13a74%2F1788e0c4-60e1-4209-8fbc-4c6ded379af8.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1076,17 +1087,6 @@
       "duration": "01:16:56",
       "summary": "- 导语 - 十九世纪的马来半岛，是众多华人移民眼中的「异域」，从广府人、客家人等不同群体的迁徙聚居，到洪门会党组织的械斗，南洋华人在这片土地留下了复杂而鲜活的历史印记。华工移民的社会日常生活究竟是怎样的？以海山、义兴为代表的华人会党，如何成为矿区社会的核心力量？因资源争夺引发的多次拿律战争，如何影响了马来半岛的殖民进程？请听本期嘉宾白伟权老师带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: 50% of Funds Will Go Out of Business | Why Growth Expectations Today are BS and Will Not Last | Why Oren Zeev Takes $0 Management Fees But 30% Carry | Why GPs Should Not Tell LPs Their Strategy",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-50-of-funds-will-go-out-of-business-why-growth-expectations-today-are-bs-and-will-not-last-why-oren-zeev-takes-0-management-fees-but-30-carry-why-gps-should-not-tell-lps-their-strategy",
-      "pubDate": "2026-02-02T07:07:00.000Z",
-      "duration": "01:08:22",
-      "summary": "Oren Zeev is one of the most prominent solo capitalists in venture. He is one of the most no BS investors of our time. Oren manages over $1BN in AUM and is known for his \"radical alignment\" approach, ",
-      "art": "https://static.libsyn.com/p/assets/0/6/8/8/0688ae0d4df8a90d16c3140a3186d450/WhatsApp_Image_2026-01-29_at_19.03.38.jpeg"
     },
     {
       "showId": "lexfridman",
