@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-10T08:00:33.724Z",
+    "updatedAt": "2026-03-10T14:56:24.416Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "I Asked a Former Trump Official to Justify This War",
+      "link": "https://www.nytimes.com/2026/03/10/opinion/ezra-klein-podcast-nadia-schadlow.html",
+      "pubDate": "2026-03-10T09:00:00.000Z",
+      "duration": "01:00:46",
+      "summary": "I’m opposed to this war. The Trump administration did not consult the American public or try to persuade Congress before authorizing the strikes on Iran. I don’t think the administration is prepared f",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "459 军统档案解密：孙潇潇谈真实的戴笠与对日抗战锄奸",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69afcdc12a2882aae748b0d0?utm_source=rss",
+      "pubDate": "2026-03-10T08:21:25.000Z",
+      "duration": "02:02:38",
+      "summary": "- 导语 - 在谍战史中，戴笠与军统始终笼罩在「中国希姆莱」与「杀人机构」的标签之下。然而，当尘封数年的档案陆续解密，这位传奇特务头目的真实面目才开始浮出水面。从单枪匹马搞情报的黄埔六期生，到执掌军统的「戴老板」，他的情报技能究竟如何炼成？从唐绍仪、陆连奎案看锄奸行动逻辑，军统为何偏爱斧头？王鲁翘、余乐醒等性格各异的部下，如何让戴老板日常头疼？戴笠之死争议重重，是蒋介石的阴谋还是单纯飞机失事？本期",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1452,17 +1474,6 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Venezuela, Renee Good and Trump’s ‘Assault on Hope’",
-      "link": "https://www.nytimes.com/2026/01/10/opinion/ezra-klein-podcast-m-gessen.html",
-      "pubDate": "2026-01-10T12:00:00.000Z",
-      "duration": "01:05:37",
-      "summary": "The shocking events of January have sent a message: America works differently now. M. Gessen is a Times Opinion columnist and the author of books about living under autocracy, including the National B",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1472,17 +1483,6 @@
       "duration": "1551",
       "summary": "KKR has evolved from a traditional LBO shop into a global investment powerhouse managing over $500 billion in assets. Pete Stavros, Co-Head of Global Private Equity at KKR, joins Matt McClure, Global ",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "中统局往事05｜叛徒与卧底：从丁默邨、李士群「76号」魔窟到沈之岳的双面间谍疑云",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6960cb0af8b05f9f75aaad16?utm_source=rss",
-      "pubDate": "2026-01-09T09:49:03.000Z",
-      "duration": "00:03:00",
-      "summary": "- 导语 - 在谍战风云中，核心骨干的叛变往往是胜负的关键。中统的兴衰，既始于对「自首分子」的技术吸收，也受挫于昔日干将倒戈后的一击。从顾顺章叛变后史济美施展的「细胞战术」，李士群、丁默邨落水组建「76号」魔窟，到郭潜、沈之岳等人物扑朔迷离的双面人生，中统如何利用叛徒群体渗透破坏，又如何屡遭背叛？请听郑诗亮带来的精彩分享！ 《谍海轶闻｜中统局往事》将回溯中统局在上世纪三四十年代被尘封的那段历史。整",
-      "art": "https://image.xyzcdn.net/FnrQGrCG1Qc-dgRYP0rOPm2tVpeL.png"
     },
     {
       "showId": "etw",
