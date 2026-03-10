@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-10T14:56:24.416Z",
+    "updatedAt": "2026-03-10T20:24:33.343Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2465 - Michael Shellenberger",
+      "link": "https://traffic.megaphone.fm/GLT5167173774.mp3?updated=1773162477",
+      "pubDate": "2026-03-10T17:00:00.000Z",
+      "duration": "10970",
+      "summary": "Michael Shellenberger is an author, journalist, and founder of Environmental Progress. He is the CBR Chair of Politics, Censorship, and Free Speech at the University of Austin. His books include “Apoc",
+      "art": "https://megaphone.imgix.net/podcasts/716eb582-1c33-11f1-b043-234795f83a6d/image/4df581ddf95a227958278cf58ba8db77.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
@@ -944,17 +955,6 @@
       "duration": null,
       "summary": "Peter Steinberger is the creator of OpenClaw, an open-source AI agent framework thats the fastest-growing project in GitHub history. Thank you for listening ❤ Check out our sponsors: https://lexfridma",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2452 - Roger Avary",
-      "link": "https://traffic.megaphone.fm/GLT6466858295.mp3?updated=1772582748",
-      "pubDate": "2026-02-11T18:00:00.000Z",
-      "duration": "11484",
-      "summary": "Roger Avary is a director, producer, and Academy Award-winning screenwriter known for “Pulp Fiction,” which he co-wrote with Quentin Tarantino, as well as “The Rules of Attraction” and “Killing Zoe.” ",
-      "art": "https://megaphone.imgix.net/podcasts/18f27e36-0700-11f1-bfe7-a7ac3a74be6c/image/35eae712accdf0229fa758bfd24d601e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
