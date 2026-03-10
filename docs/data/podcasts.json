@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-09T20:24:48.146Z",
+    "updatedAt": "2026-03-10T08:00:33.724Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Will Trump’s shipping insurance plan work?",
+      "link": "https://www.npr.org/2026/03/10/nx-s1-5742757/will-trumps-shipping-insurance-plan-work",
+      "pubDate": "2026-03-10T07:00:06.000Z",
+      "duration": "537",
+      "summary": "More than a thousand ships are stranded outside the Strait of Hormuz, bobbing in the water. A big reason? Insurance. War insurance premiums have skyrocketed since the war with Iran began. It’s an add-",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2F3b%2F6598606047de9d2a4f636d44a4f1%2Fba119c61-8251-4a07-9c35-2ac0ddb18421.jpg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Graham Allison on the Global Realignment: Iran, China, Israel, Greenland",
+      "link": "https://allinchamathjason.libsyn.com/graham-allison-on-the-global-realignment-iran-china-israel-greenland",
+      "pubDate": "2026-03-09T20:42:00.000Z",
+      "duration": "01:03:26",
+      "summary": "(0:00) The Besties welcome legendary Harvard professor Graham Allison (1:14) Iran Conflict: Strategy, Netanyahu's influence, Trump's motivation, redefining Middle East security (11:44) Iran endgame sc",
+      "art": "https://static.libsyn.com/p/assets/9/0/1/7/9017fe4546f1ad9116c3140a3186d450/1_Pod_GrahamAllison.png"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -781,17 +803,6 @@
       "art": "https://megaphone.imgix.net/podcasts/4001764c-0c5c-11f1-9832-afb7361ad990/image/b7c2ee0fc513f194daf53ed426139180.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "How well are ICE's 12,000 new officers being trained?",
-      "link": "https://www.npr.org/2026/02/18/nx-s1-5717052/how-well-are-ices-12-000-new-officers-being-trained",
-      "pubDate": "2026-02-18T08:00:00.000Z",
-      "duration": "508",
-      "summary": "The Department of Homeland Security says it has more than doubled the workforce of Immigration and Customs Enforcement under President Trump. Yet videos of immigration officers killing two U.S. citize",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F69%2F19%2Fb860f9c34de9b3ce425aa9dbae69%2F211a8c25-d755-4d2c-b668-ea341bc34b3c.png"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1329,17 +1340,6 @@
       "duration": "1:11:09",
       "summary": "特朗普再次上台已满一年，回头看他的外交政策，我们应该如何判断 —— 的确是一连串个人风格驱动的激进行动，还是美国的对外战略正在发生更深层的转向？ 这一期节目，我们邀请清华大学国际关系学者达巍教授，从特朗普这一年来的关键决策出发，试图去拆解美国外交政策背后的结构性变化：从关税、盟友关系到国际秩序，美国正在放弃什么，又正在重塑什么？那些看似出乎意料的动作，如何拼接成一个正在成形的新秩序图景？又会对身处",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Microsoft CEO Satya Nadella on AI's Business Revolution: What Happens to SaaS, OpenAI, and Microsoft? | LIVE from Davos",
-      "link": "https://allinchamathjason.libsyn.com/microsoft-ceo-satya-nadella-on-ais-business-revolution-what-happens-to-saas-openai-and-microsoft-live-from-davos",
-      "pubDate": "2026-01-21T21:16:00.000Z",
-      "duration": "32:00",
-      "summary": "(0:00) Jason and Sacks welcome Microsoft CEO Satya Nadella (1:31) Future of AI copilots and agents, impact on white collar work (8:01) How Microsoft has scaled revenue and profits with flat headcount ",
-      "art": "https://static.libsyn.com/p/assets/d/c/e/3/dce3e22a3bbef9f116c3140a3186d450/1_Pod_Satya_Davos.png"
     },
     {
       "showId": "left-right",
