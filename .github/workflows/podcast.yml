@@ -1,5 +1,9 @@
 name: podcast-update
 
+concurrency:
+  group: podcast-update
+  cancel-in-progress: false
+
 on:
   schedule:
     # 08:00 UTC 已由 main.yml (daily-telegram-news) 串联执行，此处不重复
@@ -24,7 +28,7 @@ jobs:
           node-version: 20
 
       - name: Install deps
-        run: npm ci || npm i
+        run: npm ci
 
       - name: Fetch & generate podcasts
         run: node scripts/podcast.mjs

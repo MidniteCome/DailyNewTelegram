@@ -1,5 +1,9 @@
 name: daily-telegram-news
 
+concurrency:
+  group: daily-telegram-news
+  cancel-in-progress: false
+
 on:
   schedule:
     - cron: "30 7 * * *"   # 07:30 UTC 每天运行
@@ -27,7 +31,7 @@ jobs:
           node-version: 20
 
       - name: Install deps
-        run: npm ci || npm i
+        run: npm ci
 
       # ── Step 1: 新闻抓取 + 生成 SPA（只 commit，不 push）─────────────────────
       - name: Run news bot
