@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-10T20:24:33.343Z",
+    "updatedAt": "2026-03-11T08:01:54.502Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,14 +165,25 @@
   ],
   "episodes": [
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "The shadowy world of merchant cash advances",
+      "link": "https://www.npr.org/2026/03/11/nx-s1-5743977/the-shadowy-world-of-merchant-cash-advances",
+      "pubDate": "2026-03-11T07:00:00.000Z",
+      "duration": "561",
+      "summary": "During the pandemic, mostly unregulated lenders went after struggling restaurants and music venues, charging at times sky high rates. Now, they’ve found a new market: small businesses that desperately",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F81%2F34%2F00fab59b43df94c225274269fe69%2F5d54841b-64ea-495f-8e40-dcc0b1a38a25.png"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
       "title": "#2465 - Michael Shellenberger",
-      "link": "https://traffic.megaphone.fm/GLT5167173774.mp3?updated=1773162477",
+      "link": "https://traffic.megaphone.fm/GLT5167173774.mp3?updated=1773184653",
       "pubDate": "2026-03-10T17:00:00.000Z",
       "duration": "10970",
-      "summary": "Michael Shellenberger is an author, journalist, and founder of Environmental Progress. He is the CBR Chair of Politics, Censorship, and Free Speech at the University of Austin. His books include “Apoc",
+      "summary": "Michael Shellenberger is an author, journalist, and founder of Civilization Works. He is the CBR Chair of Politics, Censorship, and Free Speech at the University of Austin. His books include “Apocalyp",
       "art": "https://megaphone.imgix.net/podcasts/716eb582-1c33-11f1-b043-234795f83a6d/image/4df581ddf95a227958278cf58ba8db77.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
@@ -801,17 +812,6 @@
       "duration": "10031",
       "summary": "Michael Malice is a cultural commentator, author, and host of the “Your Welcome” podcast. His next book is the graphic novel \"Unwanted.\"unwantedbook.comwww.youtube.com/@MichaelMaliceofficialmalice.loc",
       "art": "https://megaphone.imgix.net/podcasts/5dc91c9c-0d48-11f1-9d84-cbfe008edf29/image/d77f8fc7a91cf3a7d032c847532a79d2.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why this rural town wants an ICE facility",
-      "link": "https://www.npr.org/2026/02/19/nx-s1-5718368/why-this-rural-town-wants-an-ice-facility",
-      "pubDate": "2026-02-19T08:00:00.000Z",
-      "duration": "551",
-      "summary": "The Trump administration is planning to pour more than $38 billion into warehouses for mass immigrant detention. While some communities are starting to push back, one rural town has agreed to expand i",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F76%2Fe3%2Fd4538e1d45d5957390c161ece2cc%2Fa5f14091-56d3-4b60-8f9f-45a5f52b785d.png"
     },
     {
       "showId": "20vc",
