@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-11T14:53:59.546Z",
+    "updatedAt": "2026-03-11T20:26:05.670Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Rewriting the Rules: The SEC & CFTC on Crypto, IPOs & the Future of American Markets",
+      "link": "https://allinchamathjason.libsyn.com/rewriting-the-rules-the-sec-cftc-on-crypto-ipos-the-future-of-american-markets",
+      "pubDate": "2026-03-11T19:59:00.000Z",
+      "duration": "01:00:10",
+      "summary": "(0:00) Jason and Chamath welcome SEC's Paul Atkins and CFTC's Michael Selig (0:53) Atkins on how US markets have changed over his 40 year career (3:04) Top priorities across both agencies: Fixing the ",
+      "art": "https://static.libsyn.com/p/assets/2/b/1/1/2b11f96acce6acefd959afa2a1bf1c87/1_Pod_SEC_CTFC.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2466 - Francis Foster & Konstantin Kisin",
+      "link": "https://traffic.megaphone.fm/GLT6188587702.mp3?updated=1773249543",
+      "pubDate": "2026-03-11T17:00:00.000Z",
+      "duration": "11716",
+      "summary": "Francis Foster is a comic and author of \"Classroom Confidential: The Truth About Being a Teacher and Why You Should Never Become One.\" Konstantin Kisin is a political commentator and author of \"An Imm",
+      "art": "https://megaphone.imgix.net/podcasts/a208aa0c-1d02-11f1-aa23-570a0b9773c2/image/4486a32c894ab9dc5cf3e85b1b9156bb.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -924,17 +946,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2453 - Evan Hafer",
-      "link": "https://traffic.megaphone.fm/GLT8914209138.mp3?updated=1770917642",
-      "pubDate": "2026-02-12T18:00:00.000Z",
-      "duration": "10780",
-      "summary": "Evan Hafer is a Special Forces veteran, founder, and executive chairman of Black Rifle Coffee Company, and one of the hosts of the “Black Rifle Coffee Podcast.”www.blackriflecoffee.comwww.youtube.com/",
-      "art": "https://megaphone.imgix.net/podcasts/b7894018-07b2-11f1-8528-afdb47a869ad/image/7904039e2c6e8e4ac5520ea53e6ffeb8.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1329,17 +1340,6 @@
       "duration": "47:56",
       "summary": "(0:00) Introducing David Sacks and Michael Kratsios, moderated by Maria Bartiromo (1:21) The cost of infrastructure build-out, energy challenges (12:41) Where AI will be most impactful (22:39) The Chi",
       "art": "https://static.libsyn.com/p/assets/7/7/b/0/77b0388c53abcef016c3140a3186d450/1_Pod_Kratsios_Davos.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Under Secretary of State Sarah B. Rogers on dismantling the \"Censorship Industrial Complex\"",
-      "link": "https://allinchamathjason.libsyn.com/under-secretary-of-state-sarah-b-rogers-on-dismantling-the-censorship-industrial-complex",
-      "pubDate": "2026-01-22T19:00:00.000Z",
-      "duration": "45:04",
-      "summary": "(0:00) Jason and Sacks welcome Sarah B. Rogers! (2:22) Free speech, EU censorship, OSA/DSA overreach? (13:44) Censorship on mass migration policies, major fines against US companies, the DSA as a \"cen",
-      "art": "https://static.libsyn.com/p/assets/3/4/6/c/346c5725a918b57ed959afa2a1bf1c87/1_Pod_SBR_Davos.png"
     },
     {
       "showId": "talksat",
