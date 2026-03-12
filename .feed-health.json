@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-03-11",
+  "lastRun": "2026-03-12",
   "feeds": [
     {
       "name": "Stratechery",
@@ -62,7 +62,7 @@
       "url": "https://feedfry.com/rss/11f111092c9aca3cbeb66cb95d7dc0e7",
       "ok": false,
       "itemCount": 0,
-      "consecutiveFails": 1,
+      "consecutiveFails": 2,
       "error": "HTTP 402 for https://feedfry.com/rss/11f111092c9aca3cbeb66cb95d7dc0e7"
     },
     {
