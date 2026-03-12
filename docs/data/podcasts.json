@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-11T20:26:05.670Z",
+    "updatedAt": "2026-03-12T08:02:05.136Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,50 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Anthropic vs The Pentagon: Who Wins | The Ultimate Stock Picks: What to Buy | The Data Centre Arms Race: Is the Capex War Stalling | The Era of Public Company Deceleration is Dead",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-vs-the-pentagon-who-wins-the-ultimate-stock-picks-what-to-buy-the-data-centre-arms-race-is-the-capex-war-stalling-the-era-of-public-company-deceleration-is-dead",
+      "pubDate": "2026-03-12T07:07:00.000Z",
+      "duration": "01:14:09",
+      "summary": "AGENDA: 00:00 - ANTHROPIC VS. THE PENTAGON: The Billion Dollar Supply Chain War 07:11 - B2B PANIC: Why Leading Companies Are Losing Deals to OpenAI 12:19 - THE ANTHROPIC ENDGAME: Will Claude Eclipse C",
+      "art": "https://static.libsyn.com/p/assets/4/6/0/3/4603e3db6f80813b16c3140a3186d450/WhatsApp_Image_2026-03-11_at_14.10.35.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Should colleges accept money from bad people?",
+      "link": "https://www.npr.org/2026/03/12/nx-s1-5745149/should-colleges-accept-money-from-bad-people",
+      "pubDate": "2026-03-12T07:00:00.000Z",
+      "duration": "507",
+      "summary": "At a dinner in 2010, physicist Sean Carroll is handed a phone. On the other end: A wealthy patron looking to potentially fund his research. Months later came an invite to a conference. It would take p",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F97%2F4d%2F4ed3db3b48c89dd67348d07882c6%2F9b19227e-67a3-413a-92c7-9face5243336.png"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#381 杀伤链上的红线之争：当 AI 能够决定战场上的生死，人类离集体卸责还有多远？",
+      "link": "http://etw.fm/2202",
+      "pubDate": "2026-03-12T06:30:00.000Z",
+      "duration": "56:14",
+      "summary": "当 AI 的角色从你我屏幕里的聊天机器人，慢慢渗透进战争决策链条中的核心环节，它的边界究竟在哪里？又会引发怎样的伦理危机？ 过去两周，美以伊冲突无疑是全球最大的变数。但在硝烟之后，另一场同样深刻的冲突也正在发生，表面上这是 AI 公司 Anthropic 与五角大楼的争端，背后却隐含着更多这个时代需要回答的问题：一家提供技术的 AI 公司，有没有权利限制自己的模型被政府如何使用？当 AI 成为新的",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#493 – Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming",
+      "link": "https://lexfridman.com/jeff-kaplan/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jeff-kaplan",
+      "pubDate": "2026-03-11T20:37:33.000Z",
+      "duration": null,
+      "summary": "Jeff Kaplan is a legendary Blizzard game designer of World of Warcraft and Overwatch, now preparing to launch a new game, The Legend of California, from his new studio Kintsugiyama available to wishli",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
     {
       "showId": "allin",
       "showName": "All-In",
@@ -814,17 +858,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Retirement luck, Hassett hassles the Fed, and boneless chicken in ... court?",
-      "link": "https://www.npr.org/2026/02/20/nx-s1-5720184/retirement-luck-hassett-hassles-the-fed-and-boneless-chicken-in-court",
-      "pubDate": "2026-02-20T08:00:00.000Z",
-      "duration": "567",
-      "summary": "It’s … Indicators of the Week! Our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: Why you better hope you retire at juuuust the right time , why the re",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/png/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc7%2F21%2F3a9db9d64c98877e5996347a2428%2F8db49dc3-1923-4bcb-be79-4c75d1437609.png"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1076,17 +1109,6 @@
       "duration": "1538",
       "summary": "Adyen has scaled from an Amsterdam startup to a global fintech by building every layer of payments in-house and focusing relentlessly on merchants. Pieter van der Does, co-founder and co-CEO of Adyen,",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: SpaceX Completes Acquisition of xAI | The 2026 SaaS Massacre: Public Market Collapse | Microsoft's $360 Billion Market Cap Loss | NVIDIA's $100BN Investment Dispute with OpenAI | Waymo Raises $16 Billion at a $110 Billion Valuation",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-spacex-completes-acquisition-of-xai-the-2026-saas-massacre-public-market-collapse-microsofts-360-billion-market-cap-loss-nvidias-100bn-investment-dispute-with-openai-waymo-raises-16-billion-at-a-110-billion-valuation",
-      "pubDate": "2026-02-05T07:07:00.000Z",
-      "duration": "01:34:19",
-      "summary": "AGENDA: 00:00 - SpaceX Completes Acquisition of xAI in $1.25 Trillion Merger 08:44 - The Rehabilitation of the IPO and the End of \"State Private Forever\" 15:53 - The 2026 SaaS Massacre: Public Market ",
-      "art": "https://static.libsyn.com/p/assets/d/6/7/2/d672032923b4c9d416c3140a3186d450/WhatsApp_Image_2026-02-04_at_18.14.35.jpeg"
     },
     {
       "showId": "etw",
@@ -1749,17 +1771,6 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#368 被速度推着走的人，怎样重新找到节奏",
-      "link": "http://etw.fm/2187",
-      "pubDate": "2025-11-13T06:00:00.000Z",
-      "duration": "57:58",
-      "summary": "在这个被按下了「加速键」的世界里，我们应该如何找到和维护自己的内心节奏呢？ 在这期节目里，我们从具体的经验出发，尝试回答这个问题。从如何恢复能量，到从生物学的视角去理解身体发出的信号，我们聊睡眠、运动，也聊情绪的命名、复盘与接纳。 科学的节律与个体的节奏，共同交织成我们与世界相处的方式。或许我们无法改变外界的速度，但可以学着在生活的拿起与放下之间，找到平衡，找到属于我们的自在节奏。 本期人物 Ya",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1978,17 +1989,6 @@
       "duration": "15038",
       "summary": "In its first six years from 1998 to 2004, Google built one of the greatest products of all time (and certainly the greatest business of all time) with Search. Then in its next six years from 2005 to 2",
       "art": "https://img.transistorcdn.com/gLaKE9vfu-tPCSV5766PrXGWFO95TCIXYYRQvaTrgPs/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yNzY2/ZTU5NWQyM2ZhZWZk/ZThlZTAxNTYyZTQz/YWMzOS5qcGc.jpg"
-    },
-    {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#478 – Scott Horton: The Case Against War and the Military Industrial Complex",
-      "link": "https://lexfridman.com/scott-horton/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=scott-horton",
-      "pubDate": "2025-08-24T01:25:12.000Z",
-      "duration": "10:35:13",
-      "summary": "Scott Horton is the director of the Libertarian Institute, editorial director of Antiwar.com, host of The Scott Horton Show, co-host of Provoked, and for the past three decades a staunch critic of U.S",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
       "showId": "bg2pod",
