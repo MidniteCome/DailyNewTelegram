@@ -1,10 +1,83 @@
 {
-  "enabled": false,
+  "enabled": true,
+  "baseUrl": "https://rsshub.rssforever.com",
   "sources": [
     {
-      "name": "example-wechat-source",
-      "type": "placeholder",
-      "note": "Phase 1 skeleton only. Add connector strategy before enabling."
+      "name": "投中网",
+      "type": "rsshub",
+      "route": "/pedaily/news",
+      "note": "投中网新闻"
+    },
+    {
+      "name": "36氪",
+      "type": "rsshub",
+      "route": "/36kr/newsflashes",
+      "note": "36氪快讯（类似资讯补充）"
+    },
+    {
+      "name": "InfoQ-AI",
+      "type": "rsshub",
+      "route": "/infoq/recommend",
+      "note": "InfoQ AI/技术前线（替代AI前线）"
+    },
+    {
+      "name": "少数派",
+      "type": "rsshub",
+      "route": "/sspai/matrix",
+      "note": "少数派 Matrix（科技/效率）"
+    },
+    {
+      "name": "IT之家",
+      "type": "rsshub",
+      "route": "/ithome/it",
+      "note": "IT之家（综合科技）"
+    }
+  ],
+  "_pending_wechat_biz": [
+    {
+      "name": "199IT互联网数据中心",
+      "biz": "TODO",
+      "note": "需要获取 biz ID"
+    },
+    {
+      "name": "CINNO",
+      "biz": "TODO"
+    },
+    {
+      "name": "IPO早知道",
+      "biz": "TODO"
+    },
+    {
+      "name": "土著哥聊AI",
+      "biz": "TODO"
+    },
+    {
+      "name": "随机漫步随笔录",
+      "biz": "TODO"
+    },
+    {
+      "name": "AIGC开放社区",
+      "biz": "TODO"
+    },
+    {
+      "name": "芯榜",
+      "biz": "TODO"
+    },
+    {
+      "name": "美股投资网",
+      "biz": "TODO"
+    },
+    {
+      "name": "暗涌Waves",
+      "biz": "TODO"
+    },
+    {
+      "name": "独角兽早知道",
+      "biz": "TODO"
+    },
+    {
+      "name": "米股研报站",
+      "biz": "TODO"
     }
   ]
 }

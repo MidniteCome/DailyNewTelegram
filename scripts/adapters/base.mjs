@@ -33,3 +33,23 @@ export function normalizeHealth(name, url, extra = {}) {
     error: extra.error,
   };
 }
+
+/**
+ * Normalize an item to the canonical shape.
+ */
+export function normalizeItem(item) {
+  return {
+    id: item.id || item.link || `${item.source}:${item.title}`,
+    sourceType: item.sourceType || "unknown",
+    source: item.source || item.sourceName || "unknown",
+    sourceName: item.sourceName || item.source || "unknown",
+    title: item.title || "",
+    link: item.link || "",
+    summary: item.summary || "",
+    pubDate: toDate(item.pubDate) || new Date(),
+    author: item.author || "",
+    paywalled: Boolean(item.paywalled),
+    tags: item.tags || [],
+    raw: item.raw || null,
+  };
+}
