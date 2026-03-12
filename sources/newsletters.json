@@ -1,0 +1,10 @@
+{
+  "enabled": false,
+  "sources": [
+    {
+      "name": "example-newsletter",
+      "type": "placeholder",
+      "note": "Phase 1 skeleton only. Add mailbox/bridge connector before enabling."
+    }
+  ]
+}

@@ -35,6 +35,13 @@ node scripts/run.mjs --force    # force rerun for test/debug
 - Concurrency guards prevent overlapping runs in the same workflow.
 - Manual rerun is preserved for testing.
 
+## Phase 1 Multi-source Skeleton (safe by default)
+- Added adapter/pipeline scaffolding for future `wechat` and `email` ingestion.
+- Current runtime behavior is unchanged unless flags are enabled.
+- Feature flags:
+  - `ENABLE_WECHAT=true`
+  - `ENABLE_EMAIL=true`
+
 ## Troubleshooting
 - If Telegram send fails: verify `BOT_TOKEN` and `TG_CHAT_ID`.
 - If LLM fails: verify `GROQ_API_KEY` or set `USE_LLM=false`.

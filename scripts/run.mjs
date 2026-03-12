@@ -13,7 +13,8 @@
 
 import fs from "node:fs/promises";
 import { execSync } from "node:child_process";
-import { fetchAllFeeds, enrichWithFullText } from "./fetch.mjs";
+import { enrichWithFullText } from "./fetch.mjs";
+import { ingestAll } from "./pipeline/ingest.mjs";
 import { rankArticles } from "./score.mjs";
 import { pushToTelegram } from "./telegram.mjs";
 import { summarize, translateTitles } from "./llm.mjs";
@@ -147,10 +148,18 @@ async function main() {
   }
   if (force) console.log("⚡ --force 模式，跳过今日重复检查\n");
 
-  // ── Step 1: 抓取 ──────────────────────────────────────────────────────────
+  // ── Step 1: 抓取（多源入口，默认仅 RSS）──────────────────────────────────
   console.log(`📡 抓取 ${sources.length} 个 RSS 源…`);
   const prevHealth = await readFeedHealth();
-  const { articles, health } = await fetchAllFeeds(sources, scoring.maxItemsPerFeed ?? 30, prevHealth);
+  const enableWechat = process.env.ENABLE_WECHAT === "true";
+  const enableEmail = process.env.ENABLE_EMAIL === "true";
+  const { articles, health } = await ingestAll({
+    rssSources: sources,
+    maxItemsPerFeed: scoring.maxItemsPerFeed ?? 30,
+    prevHealth,
+    enableWechat,
+    enableEmail,
+  });
   await writeFeedHealth(health, today);
   const failCount = health.filter(h => !h.ok && !h.skipped).length;
   if (failCount > 0) console.log(`   ⚠️  ${failCount} 个源本次失败（详见 .feed-health.json）`);

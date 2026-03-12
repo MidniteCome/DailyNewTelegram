@@ -1,0 +1,10 @@
+{
+  "enabled": false,
+  "sources": [
+    {
+      "name": "example-wechat-source",
+      "type": "placeholder",
+      "note": "Phase 1 skeleton only. Add connector strategy before enabling."
+    }
+  ]
+}
