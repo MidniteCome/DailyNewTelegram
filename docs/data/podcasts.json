@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-12T14:56:27.452Z",
+    "updatedAt": "2026-03-12T20:25:35.918Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,6 +165,17 @@
   ],
   "episodes": [
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2467 - Michael Pollan",
+      "link": "https://traffic.megaphone.fm/GLT9240266292.mp3?updated=1773332833",
+      "pubDate": "2026-03-12T17:00:00.000Z",
+      "duration": "8968",
+      "summary": "Michael Pollan is an author and journalist whose books include “The Omnivore’s Dilemma,” “In Defense of Food,” and “How to Change Your Mind.\" His most recent is “A World Appears: A Journey into Consci",
+      "art": "https://megaphone.imgix.net/podcasts/40229214-1dc3-11f1-9a66-9bdf22d08247/image/1eaaa0f2804306841810c39225ce146d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -224,10 +235,10 @@
       "showName": "Joe Rogan Experience",
       "category": "general",
       "title": "#2466 - Francis Foster & Konstantin Kisin",
-      "link": "https://traffic.megaphone.fm/GLT6188587702.mp3?updated=1773249543",
+      "link": "https://traffic.megaphone.fm/GLT6188587702.mp3?updated=1773331947",
       "pubDate": "2026-03-11T17:00:00.000Z",
       "duration": "11716",
-      "summary": "Francis Foster is a comic and author of \"Classroom Confidential: The Truth About Being a Teacher and Why You Should Never Become One.\" Konstantin Kisin is a political commentator and author of \"An Imm",
+      "summary": "Francis Foster is a comic and author of \"(Un)educated.\" Konstantin Kisin is a political commentator and author of \"An Immigrant's Love Letter to the West.\" Together, they host the podcast \"Triggernome",
       "art": "https://megaphone.imgix.net/podcasts/a208aa0c-1d02-11f1-aa23-570a0b9773c2/image/4486a32c894ab9dc5cf3e85b1b9156bb.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
@@ -933,17 +944,6 @@
       "duration": "01:13:10",
       "summary": "(0:00) Bestie intros (0:23) AI updates: On-prem comeback, token budgets surpass salaries (19:19) Prediction markets: Super Bowl insider trading, how to police? (28:44) All-In Liquidity: The ultimate i",
       "art": "https://static.libsyn.com/p/assets/e/0/f/7/e0f7b247ad95a656d959afa2a1bf1c87/1_Pod_E261.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2454 - Robert Malone, MD",
-      "link": "https://traffic.megaphone.fm/GLT6618950088.mp3?updated=1771005105",
-      "pubDate": "2026-02-13T18:00:00.000Z",
-      "duration": "9532",
-      "summary": "Robert W. Malone, MD, MS, is a virologist and immunologist and an original inventor of mRNA delivery and vaccination as a technology, DNA vaccination, and multiple non-viral DNA and RNA/mRNA platform ",
-      "art": "https://megaphone.imgix.net/podcasts/1443fc8a-0885-11f1-a9a1-eb83a35e4beb/image/e046b03374e022dcb5f67dad4e406cc8.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
