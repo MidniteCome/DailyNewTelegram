@@ -71,6 +71,17 @@ async function fetchNewslettersFromImap(config) {
             .trim()
             .slice(0, 500);
         }
+        
+        // Clean up HTML entities
+        content = content
+          .replace(/&#\d+;/g, " ")       // Remove numeric entities like &#8202;
+          .replace(/&nbsp;/gi, " ")
+          .replace(/&amp;/gi, "&")
+          .replace(/&lt;/gi, "<")
+          .replace(/&gt;/gi, ">")
+          .replace(/&quot;/gi, '"')
+          .replace(/\s+/g, " ")
+          .trim();
 
         // Extract first link as the "read more" link
         const linkMatch = parsed.html?.match(/href="(https?:\/\/[^"]+)"/i);
