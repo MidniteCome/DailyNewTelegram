@@ -27,11 +27,7 @@ const GROQ_API_KEY = process.env.GROQ_API_KEY ?? null;
 const GROQ_MODEL   = process.env.GROQ_MODEL ?? "llama-3.3-70b-versatile";
 const GROQ_URL     = "https://api.groq.com/openai/v1/chat/completions";
 
-// ── Ollama 配置（本地回退）──
-const OLLAMA_URL = process.env.OLLAMA_URL ?? "http://localhost:11434";
-const LLM_MODEL  = process.env.LLM_MODEL  ?? "qwen2.5:7b";
-
-// 优先级: Groq > Gemini > Ollama
+// 优先级: Groq > Gemini
 const USE_GROQ   = !!GROQ_API_KEY;
 const USE_GEMINI = !USE_GROQ && !!GEMINI_API_KEY;
 
@@ -70,20 +66,7 @@ async function callLLM(prompt, { temperature = 0.4, timeout = 90_000 } = {}) {
     if (!res.ok) throw new Error(`Groq HTTP ${res.status}: ${await res.text()}`);
     return (await res.json()).choices?.[0]?.message?.content?.trim() ?? null;
   } else {
-    // Ollama (local)
-    const res = await fetch(`${OLLAMA_URL}/api/generate`, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
-        model: LLM_MODEL,
-        prompt,
-        stream: false,
-        options: { temperature, top_p: 0.9 },
-      }),
-      signal: AbortSignal.timeout(timeout),
-    });
-    if (!res.ok) throw new Error(`Ollama HTTP ${res.status}`);
-    return (await res.json()).response?.trim() ?? null;
+    throw new Error("No LLM API key configured (need GROQ_API_KEY or GEMINI_API_KEY)");
   }
 }
 
@@ -217,7 +200,7 @@ export async function translateTitles(articles) {
 
   const BATCH = 30;
   const total = articles.length;
-  const backend = USE_GEMINI ? `Gemini/${GEMINI_MODEL}` : USE_GROQ ? `Groq/${GROQ_MODEL}` : `Ollama/${LLM_MODEL}`;
+  const backend = USE_GROQ ? `Groq/${GROQ_MODEL}` : `Gemini/${GEMINI_MODEL}`;
   console.log(`🌐 翻译标题（共 ${total} 篇，批次 ${BATCH}，后端: ${backend}）…`);
 
   for (let start = 0; start < total; start += BATCH) {
@@ -320,7 +303,7 @@ export async function summarize(article) {
 
   try {
     const output = await callLLM(prompt, { temperature: 0.4 });
-    const backend = USE_GEMINI ? "Gemini" : USE_GROQ ? "Groq" : "Ollama";
+    const backend = USE_GROQ ? "Groq" : "Gemini";
     console.log(`    [${backend}/${type}] ${article.title.slice(0, 40)}…`);
     return output;
   } catch (err) {
@@ -357,7 +340,7 @@ export async function summarizeNewsletter(item) {
 
   try {
     const output = await callLLM(prompt, { temperature: 0.3 });
-    const backend = USE_GEMINI ? "Gemini" : USE_GROQ ? "Groq" : "Ollama";
+    const backend = USE_GROQ ? "Groq" : "Gemini";
     console.log(`    [${backend}/Newsletter] ${(item.title || "").slice(0, 30)}…`);
     return output?.slice(0, 120) || null;  // 限制长度
   } catch (err) {
