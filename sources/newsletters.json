@@ -1,13 +1,5 @@
 {
   "enabled": true,
-  "imap": {
-    "host": "imap.gmail.com",
-    "port": 993,
-    "secure": true,
-    "user": "williamuk2024@gmail.com",
-    "password": "wtho yuvs bcfs rkkn",
-    "folder": "INBOX"
-  },
   "maxAge": 7,
   "senders": [
     "dailybriefing@thomsonreuters.com",

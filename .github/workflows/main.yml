@@ -42,7 +42,12 @@ jobs:
           GROQ_API_KEY:   ${{ secrets.GROQ_API_KEY }}
           USE_LLM:        "true"
           SITE_URL:       "https://midnitecome.github.io/DailyNewTelegram/"
-          SKIP_GIT_PUSH:  "true"   # 由最后统一 push，避免触发中间的 pages 部署
+          SKIP_GIT_PUSH:  "true"
+          # Newsletter (IMAP)
+          ENABLE_EMAIL:   "true"
+          IMAP_HOST:      "imap.gmail.com"
+          IMAP_USER:      ${{ secrets.IMAP_USER }}
+          IMAP_PASSWORD:  ${{ secrets.IMAP_PASSWORD }}
 
       # ── Step 2: Podcast 抓取（只 commit，不 push）────────────────────────────
       - name: Update podcasts
