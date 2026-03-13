@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-13T16:17:21.418Z",
+    "updatedAt": "2026-03-13T20:24:41.244Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and PR Nightmare",
+      "link": "https://allinchamathjason.libsyn.com/iran-war-oil-shock-off-ramps-ais-revenue-explosion-and-pr-nightmare",
+      "pubDate": "2026-03-13T17:53:00.000Z",
+      "duration": "01:20:23",
+      "summary": "(0:00) The Besties welcome Brad Gerstner! (3:48) Economic fallout of the Iran War, escalation scenarios, impact on midterms (19:18) Off ramp strategies, Gulf state involvement, the China angle (27:05)",
+      "art": "https://static.libsyn.com/p/assets/0/9/0/4/0904d896e43c983a16c3140a3186d450/1_Pod_E264-20260313-7wen55e4z1.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2468 - Luke Grimes",
+      "link": "https://traffic.megaphone.fm/GLT6232108793.mp3?updated=1773423047",
+      "pubDate": "2026-03-13T17:00:00.000Z",
+      "duration": "9932",
+      "summary": "Luke Grimes is an actor and musician who stars as Kayce Dutton in the “Yellowstone” spin-off series “Marshals,” airing Sundays at 8 PM Pacific / 7 PM Central on CBS and available to stream on Paramoun",
+      "art": "https://megaphone.imgix.net/podcasts/1700727e-1efa-11f1-a99e-1ff94ba1d0e9/image/267566941397af0f4962aeaffc6ef20f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -913,17 +935,6 @@
       "art": "https://megaphone.imgix.net/podcasts/4001764c-0c5c-11f1-9832-afb7361ad990/image/b7c2ee0fc513f194daf53ed426139180.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2455 - Donnell Rawlings",
-      "link": "https://traffic.megaphone.fm/GLT4487663159.mp3?updated=1771348168",
-      "pubDate": "2026-02-17T18:00:00.000Z",
-      "duration": "9791",
-      "summary": "Donnell Rawlings is a comedian, actor, and host of “The Donnell Rawlings Show” podcast. His most recent special, “Chappelle’s Home Team Presents: Donnell Rawlings: A New Day,” is streaming on Netflix.",
-      "art": "https://megaphone.imgix.net/podcasts/6679ce84-0bba-11f1-a843-2784d67d19a1/image/b37e0e6bc5484dd9318f9107fe728dc1.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1362,17 +1373,6 @@
       "duration": "00:51:28",
       "summary": "【主播的话】 2025年12月以来，一场由德黑兰大巴扎商贩发起的抗议，很快席卷了伊朗全境。经济急剧恶化，里亚尔对美元暴跌、通胀飙升、食品与燃料价格激增，普通人维生艰难。很快，经济抗议转向了政治诉求，示威者要求改变政治体制，对伊斯兰共和国统治合法性提出了质疑，甚至出现了“回到巴列维”的口号。伊朗政府于 1 月 8 日开始实施全面的互联网封锁，试图切断国内外信息流通。国家安全力量进行了大规模镇压，根据",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Inside America's AI Strategy: Infrastructure, Regulation, and Global Competition",
-      "link": "https://allinchamathjason.libsyn.com/inside-americas-ai-strategy-infrastructure-regulation-and-global-competition",
-      "pubDate": "2026-01-23T04:38:00.000Z",
-      "duration": "47:56",
-      "summary": "(0:00) Introducing David Sacks and Michael Kratsios, moderated by Maria Bartiromo (1:21) The cost of infrastructure build-out, energy challenges (12:41) Where AI will be most impactful (22:39) The Chi",
-      "art": "https://static.libsyn.com/p/assets/7/7/b/0/77b0388c53abcef016c3140a3186d450/1_Pod_Kratsios_Davos.png"
     },
     {
       "showId": "talksat",
