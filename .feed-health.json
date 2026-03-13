@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-03-12",
+  "lastRun": "2026-03-13",
   "feeds": [
     {
       "name": "Stratechery",
@@ -62,7 +62,7 @@
       "url": "https://feedfry.com/rss/11f111092c9aca3cbeb66cb95d7dc0e7",
       "ok": false,
       "itemCount": 0,
-      "consecutiveFails": 2,
+      "consecutiveFails": 3,
       "error": "HTTP 402 for https://feedfry.com/rss/11f111092c9aca3cbeb66cb95d7dc0e7"
     },
     {
@@ -205,6 +205,22 @@
       "ok": true,
       "itemCount": 20,
       "consecutiveFails": 0
+    },
+    {
+      "name": "wechat",
+      "url": "sources/wechat.json",
+      "ok": true,
+      "itemCount": 0,
+      "consecutiveFails": 0,
+      "skipped": true
+    },
+    {
+      "name": "email",
+      "url": "sources/newsletters.json",
+      "ok": true,
+      "itemCount": 0,
+      "consecutiveFails": 0,
+      "skipped": true
     }
   ]
 }
