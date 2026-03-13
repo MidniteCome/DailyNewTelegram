@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-13T08:02:15.397Z",
+    "updatedAt": "2026-03-13T14:29:13.677Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "继业者1918｜匈牙利摄政王霍尔蒂的两战沉浮：从奥匈帝国解体到踏上希特勒的战车",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69b3ca2db715a238c072c8cf?utm_source=rss",
+      "pubDate": "2026-03-13T08:55:20.000Z",
+      "duration": "00:03:00",
+      "summary": "- 导语 - 在两次世界大战之间的夹缝，匈牙利作为一个失去四分之三领土的内陆小国，却由一位「没有海军的海军将领」统治了二十余年。奥匈帝国的末代廷臣、海军将领霍尔蒂，如何从镇压红色革命的「白军」领袖，蜕变为匈牙利摄政王？一面镇压极右翼「箭十字党」，一面又与希特勒合作，这位独裁者如何在纳粹与苏联间周旋？东欧剧变后，他的历史又如何重塑现代匈牙利的自我认同？请听本期节目陆大鹏带来的精彩分享！ 《继业者19",
+      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1472,17 +1483,6 @@
       "duration": "01:28:12",
       "summary": "State Representative James Talarico of Texas might have been our most requested guest last year. And he seemed to come out of nowhere. Talarico started breaking through with viral videos on TikTok and",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "453 从抓捕马杜罗事件漫谈美式隐蔽行动与特种作战：以拉美和中东为例",
-      "link": "https://www.xiaoyuzhoufm.com/episode/696603fa109824f9e13e9712?utm_source=rss",
-      "pubDate": "2026-01-13T08:58:49.000Z",
-      "duration": "01:30:43",
-      "summary": "- 导语 - 2026年1月3日凌晨，美军对委内瑞拉发动代号为「绝对决心」的突袭行动，成功抓获马杜罗夫妇并押送至美国。这场突袭并非孤立事件，而是美国自冷战以来在拉美和中东推行「隐蔽行动」这一套路的延续与演变。本期节目我们不仅梳理此次突袭的种种细节，也回溯美国在危地马拉、智利、巴拿马、伊拉克、黎巴嫩等国开展隐蔽行动的历史。看CIA如何从「导演」走向「演员」，以及特种部队如何接手并执行定点清除任务。请",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
       "showId": "talksat",
