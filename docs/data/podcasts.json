@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-12T20:25:35.918Z",
+    "updatedAt": "2026-03-13T08:02:15.397Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "A lot of gas trapped, oil reserves tapped, and Live Nation gets a (tiny) cap",
+      "link": "https://www.npr.org/2026/03/13/nx-s1-5746095/a-lot-of-gas-trapped-oil-reserves-tapped-and-live-nation-gets-a-tiny-cap",
+      "pubDate": "2026-03-13T07:00:00.000Z",
+      "duration": "512",
+      "summary": "It’s Indicators of the Week (now on YouTube !), our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: How big is this gas crisis and could releasing oil r",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F36%2F8f%2F7cb953364d14a616960681008d7f%2F90ad4da4-5da0-4bef-ae54-7b4bddc442a3.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -812,17 +823,6 @@
       "duration": "569",
       "summary": "You asked, we answered. On today’s show, we tackle questions from our dear listeners on whether AI interviewers are biased, what the heck M2 money supply is, and what’s up with the frenzied mobs fight",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbb%2Fcd%2F436ea4574a7d93c40b79c7f99767%2F857f296e-aacf-4e59-8bf4-07d7782adaa3.jpg"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Can I get my tariff money back now?",
-      "link": "https://www.npr.org/2026/02/21/nx-s1-5721268/can-i-get-my-tariff-money-back-now",
-      "pubDate": "2026-02-21T08:00:00.000Z",
-      "duration": "521",
-      "summary": "The Supreme Court struck down a bunch of President Trump’s tariffs yesterday. The Trump administration originally used an emergency economic powers law to justify the tariffs. And the court said: No! ",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe6%2F6a%2Fe54add49452e95257607aa63f803%2F27fdee5d-14fd-4f33-b1b5-67960edad4bc.jpg"
     },
     {
       "showId": "20vc",
