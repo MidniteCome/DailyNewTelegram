@@ -5,3 +5,4 @@ run-local.sh
 
 # 标题翻译缓存（本地生成，防止 git 冲突）
 .title_cache.json
+sources/newsletters.json

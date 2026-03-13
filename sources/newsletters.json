@@ -1,31 +1,21 @@
 {
-  "enabled": false,
+  "enabled": true,
   "imap": {
     "host": "imap.gmail.com",
     "port": 993,
     "secure": true,
-    "user": "",
-    "password": "",
+    "user": "williamuk2024@gmail.com",
+    "password": "wtho yuvs bcfs rkkn",
     "folder": "INBOX"
   },
   "maxAge": 7,
   "senders": [
-    "newsletter@example.com",
-    "digest@theinformation.com",
-    "hello@morningbrew.com"
-  ],
-  "_setup_guide": {
-    "gmail": {
-      "1": "开启 IMAP: Gmail设置 → 转发和POP/IMAP → 启用IMAP",
-      "2": "生成应用密码: Google账号 → 安全 → 应用专用密码",
-      "3": "填入 user (你的邮箱) 和 password (应用密码)",
-      "4": "可选: 创建 'Newsletters' 标签并设置过滤器自动分类"
-    },
-    "outlook": {
-      "host": "outlook.office365.com",
-      "1": "确保 IMAP 已启用",
-      "2": "使用邮箱密码或应用密码"
-    },
-    "note": "senders 数组用于过滤发件人，只抓取匹配的邮件"
-  }
+    "dailybriefing@thomsonreuters.com",
+    "breakingviews@thomsonreuters.com",
+    "reuters_ai@thomsonreuters.com",
+    "econworld@thomsonreuters.com",
+    "morningbid@thomsonreuters.com",
+    "newsletters@email.reuters.com",
+    "thedailydocket@thomsonreuters.com"
+  ]
 }
