@@ -303,3 +303,38 @@ export async function summarize(article) {
     return null;
   }
 }
+
+// ─── Newsletter 摘要 ────────────────────────────────────────────────────────
+
+const NEWSLETTER_PROMPT = (title, content, author) => `你是一位专业的财经/科技新闻编辑，正在阅读 ${author || 'Reuters'} 的 newsletter。
+
+标题：${title}
+内容片段：${content}
+
+请用 1-2 句话（不超过 80 字）总结这封 newsletter 的核心信息。
+- 提炼关键数据或事件
+- 使用简洁、专业的中文
+- 不要使用"本文"、"该文"等指代词
+- 直接陈述要点
+
+输出（纯文本，不要 markdown）：`;
+
+export async function summarizeNewsletter(item) {
+  if (!USE_LLM) return null;
+
+  const prompt = NEWSLETTER_PROMPT(
+    item.title || "(无标题)",
+    (item.summary || "").slice(0, 600),
+    item.author || "Reuters"
+  );
+
+  try {
+    const output = await callLLM(prompt, { temperature: 0.3 });
+    const backend = USE_GROQ ? "Groq" : "Ollama";
+    console.log(`    [${backend}/Newsletter] ${(item.title || "").slice(0, 30)}…`);
+    return output?.slice(0, 120) || null;  // 限制长度
+  } catch (err) {
+    console.warn(`  Newsletter LLM 跳过（${err.message}）`);
+    return null;
+  }
+}

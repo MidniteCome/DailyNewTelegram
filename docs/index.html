@@ -401,6 +401,69 @@
       .search-wrap { max-width: 120px; }
     }
 
+    /* ── Newsletter panel ── */
+    #newsletter-panel { display: none; height: calc(100vh - 48px); overflow: hidden; }
+    #nl-layout { display: flex; height: 100%; }
+    #nl-sidebar {
+      width: 210px; flex-shrink: 0;
+      border-right: 1px solid var(--border);
+      overflow-y: auto; padding: 0.4rem 0;
+      background: var(--surface);
+    }
+    #nl-list { flex: 1; overflow-y: auto; }
+    .nl-sb-item {
+      display: flex; align-items: center; gap: 9px;
+      padding: 7px 12px; cursor: pointer;
+      border-left: 2px solid transparent;
+      transition: background 0.1s, border-color 0.1s;
+    }
+    .nl-sb-item:hover { background: var(--bg); }
+    .nl-sb-item.active { background: var(--accent-bg); border-left-color: var(--accent); }
+    .nl-sb-icon {
+      width: 34px; height: 34px; border-radius: 50%; flex-shrink: 0;
+      background: var(--accent-bg); color: var(--accent);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.9rem; font-weight: 600;
+    }
+    .nl-sb-info { flex: 1; min-width: 0; }
+    .nl-sb-name {
+      font-size: 0.74rem; font-weight: 500; color: var(--text-sub);
+      overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    .nl-sb-item.active .nl-sb-name { color: var(--text); font-weight: 650; }
+    .nl-sb-count {
+      font-size: 0.65rem; color: var(--muted);
+      background: var(--tag-bg); padding: 1px 6px; border-radius: var(--radius-pill);
+    }
+    .nl-timeline { max-width: 700px; margin: 0 auto; padding: 1.2rem 1.25rem 3rem; }
+    .nl-bubble-row { display: flex; gap: 11px; align-items: flex-start; margin-bottom: 12px; }
+    .nl-avatar {
+      width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
+      background: var(--accent-bg); color: var(--accent);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; font-weight: 600;
+    }
+    .nl-bubble {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 0 12px 12px 12px; padding: 11px 15px;
+      flex: 1; min-width: 0; transition: border-color 0.12s;
+    }
+    .nl-bubble:hover { border-color: var(--border-hi); }
+    .nl-bubble-meta { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-bottom: 5px; }
+    .nl-bubble-author { font-size: 0.73rem; font-weight: 700; color: var(--text-sub); }
+    .nl-bubble-time { font-size: 0.68rem; color: var(--muted); }
+    .nl-bubble-title a { font-size: 0.95rem; font-weight: 600; color: var(--text); text-decoration: none; line-height: 1.4; }
+    .nl-bubble-title a:hover { color: var(--link); text-decoration: underline; }
+    .nl-bubble-summary { font-size: 0.82rem; color: var(--text-sub); line-height: 1.6; margin-top: 5px; }
+    .nl-ai-comment { margin-top: 8px; padding: 7px 11px; background: var(--ai-bg); border-left: 2px solid var(--ai-border); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+    .nl-ai-label { font-size: 0.62rem; font-weight: 700; color: var(--ai-label); letter-spacing: 0.07em; text-transform: uppercase; margin-bottom: 3px; }
+    .nl-ai-text { font-size: 0.82rem; color: var(--ai-text); line-height: 1.65; }
+    @media (max-width: 600px) {
+      #nl-sidebar { width: 56px; }
+      .nl-sb-name, .nl-sb-count { display: none; }
+      .nl-sb-item { justify-content: center; padding: 8px 0; }
+    }
+
     /* ── Podcast panel ── */
     #podcast-panel { display: none; height: calc(100vh - 48px); overflow: hidden; }
     #pod-layout    { display: flex; height: 100%; }
@@ -581,10 +644,10 @@
 </div>
 
 <!-- ── Newsletter panel (hidden by default) ── -->
-<div id="newsletter-panel" style="display:none">
-  <div class="panel-inner" style="max-width:780px;margin:0 auto;padding:1.2rem 1.25rem 3rem">
-    <div class="panel-label">📧 Newsletters</div>
-    <div id="newsletter-list"><div class="state-msg">Loading…</div></div>
+<div id="newsletter-panel">
+  <div id="nl-layout">
+    <nav id="nl-sidebar"></nav>
+    <div id="nl-list"></div>
   </div>
 </div>
 
@@ -1199,54 +1262,136 @@ tabNews.addEventListener('click', () => { exitAllModes(); });
 tabPodcast.addEventListener('click', () => { exitAllModes(); enterPodcastMode(); });
 
 // ── Newsletter tab ────────────────────────────────────────────────────────────
-const tabNewsletter    = document.getElementById('tab-newsletter');
-const newsletterPanel  = document.getElementById('newsletter-panel');
-const newsletterList   = document.getElementById('newsletter-list');
+const tabNewsletter   = document.getElementById('tab-newsletter');
+const newsletterPanel = document.getElementById('newsletter-panel');
+const nlSidebar       = document.getElementById('nl-sidebar');
+const nlList          = document.getElementById('nl-list');
 let nlLoaded = false;
 let nlMode   = false;
+let nlData   = null;
+let nlActiveAuthor = 'all';
 
-function newsletterCardHtml(item) {
+function getAuthorInitial(author) {
+  if (!author) return '?';
+  const clean = author.replace(/^Reuterss*/i, '').trim();
+  if (clean.length === 0) return 'R';
+  return clean.charAt(0).toUpperCase();
+}
+
+function getAuthorShortName(author) {
+  if (!author) return 'Unknown';
+  return author.replace(/^Reuterss*/i, '').replace(/@.+$/, '').trim() || author;
+}
+
+function nlBubbleHtml(item) {
   const title = esc(item.title || '(no subject)');
-  const author = esc(item.author || item.source || 'Unknown');
+  const author = esc(item.author || 'Unknown');
+  const shortName = getAuthorShortName(item.author);
+  const initial = getAuthorInitial(item.author);
   const time = item.pubDate ? relativeTime(item.pubDate) : '';
   const summary = esc((item.summary || '').slice(0, 300));
   const link = item.link || '#';
+  const aiComment = item.llmComment ? 
+    '<div class="nl-ai-comment"><span class="nl-ai-label">AI</span><div class="nl-ai-text">' + esc(item.llmComment) + '</div></div>' : '';
   
-  return '<article class="card">'
-    + '<div class="card-meta">'
-    + '<span class="tag tag-essay">Newsletter</span>'
-    + '<span class="source-row">'
-    + '<span class="source">' + author + '</span>'
-    + '<span class="sep">·</span>'
-    + '<span class="time">' + time + '</span>'
-    + '</span></div>'
-    + '<h2 class="card-title">'
+  return '<div class="nl-bubble-row">'
+    + '<div class="nl-avatar">' + initial + '</div>'
+    + '<div class="nl-bubble">'
+    + '<div class="nl-bubble-meta">'
+    + '<span class="nl-bubble-author">' + esc(shortName) + '</span>'
+    + '<span class="nl-bubble-time">' + time + '</span>'
+    + '</div>'
+    + '<div class="nl-bubble-title">'
     + (link !== '#' ? '<a href="' + esc(link) + '" target="_blank" rel="noopener">' + title + '</a>' : title)
-    + '</h2>'
-    + (summary ? '<p class="card-summary">' + summary + '</p>' : '')
-    + '</article>';
+    + '</div>'
+    + (summary ? '<div class="nl-bubble-summary">' + summary + '</div>' : '')
+    + aiComment
+    + '</div></div>';
+}
+
+function renderNlSidebar() {
+  if (!nlData || !nlData.items) return;
+  
+  // Group by author
+  const authorMap = new Map();
+  for (const item of nlData.items) {
+    const author = item.author || 'Unknown';
+    if (!authorMap.has(author)) authorMap.set(author, []);
+    authorMap.get(author).push(item);
+  }
+  
+  // Sort authors by count
+  const authors = [...authorMap.entries()].sort((a, b) => b[1].length - a[1].length);
+  
+  let html = '<div class="nl-sb-item' + (nlActiveAuthor === 'all' ? ' active' : '') + '" data-author="all">'
+    + '<div class="nl-sb-icon">📧</div>'
+    + '<div class="nl-sb-info"><div class="nl-sb-name">All Newsletters</div></div>'
+    + '<span class="nl-sb-count">' + nlData.items.length + '</span>'
+    + '</div>';
+  
+  for (const [author, items] of authors) {
+    const shortName = getAuthorShortName(author);
+    const initial = getAuthorInitial(author);
+    const isActive = nlActiveAuthor === author ? ' active' : '';
+    html += '<div class="nl-sb-item' + isActive + '" data-author="' + esc(author) + '">'
+      + '<div class="nl-sb-icon">' + initial + '</div>'
+      + '<div class="nl-sb-info"><div class="nl-sb-name">' + esc(shortName) + '</div></div>'
+      + '<span class="nl-sb-count">' + items.length + '</span>'
+      + '</div>';
+  }
+  
+  nlSidebar.innerHTML = html;
+  
+  // Bind click events
+  nlSidebar.querySelectorAll('.nl-sb-item').forEach(el => {
+    el.addEventListener('click', () => {
+      nlActiveAuthor = el.dataset.author;
+      renderNlSidebar();
+      renderNlList();
+    });
+  });
+}
+
+function renderNlList() {
+  if (!nlData || !nlData.items) {
+    nlList.innerHTML = '<div class="nl-timeline"><div class="state-msg">No newsletters</div></div>';
+    return;
+  }
+  
+  let items = nlData.items;
+  if (nlActiveAuthor !== 'all') {
+    items = items.filter(item => item.author === nlActiveAuthor);
+  }
+  
+  // Sort by date, newest first
+  items = [...items].sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0));
+  
+  if (items.length === 0) {
+    nlList.innerHTML = '<div class="nl-timeline"><div class="state-msg">No newsletters</div></div>';
+    return;
+  }
+  
+  nlList.innerHTML = '<div class="nl-timeline">' + items.map(nlBubbleHtml).join('') + '</div>';
 }
 
 async function loadNewsletters() {
-  newsletterList.innerHTML = '<div class="state-msg">Loading…</div>';
+  nlList.innerHTML = '<div class="nl-timeline"><div class="state-msg">Loading…</div></div>';
   try {
     const r = await fetch('data/newsletters.json?t=' + Date.now());
     if (!r.ok) throw new Error('HTTP ' + r.status);
-    const data = await r.json();
+    nlData = await r.json();
     nlLoaded = true;
     
-    if (!data.items || !data.items.length) {
-      newsletterList.innerHTML = '<div class="state-msg">No newsletters yet</div>';
+    if (!nlData.items || !nlData.items.length) {
+      nlSidebar.innerHTML = '';
+      nlList.innerHTML = '<div class="nl-timeline"><div class="state-msg">No newsletters yet</div></div>';
       return;
     }
     
-    const sorted = [...data.items].sort((a, b) => 
-      new Date(b.pubDate || 0) - new Date(a.pubDate || 0)
-    );
-    
-    newsletterList.innerHTML = sorted.map(newsletterCardHtml).join('');
+    renderNlSidebar();
+    renderNlList();
   } catch (e) {
-    newsletterList.innerHTML = '<div class="state-msg">No newsletters data available</div>';
+    nlList.innerHTML = '<div class="nl-timeline"><div class="state-msg">No newsletters data available</div></div>';
   }
 }
 

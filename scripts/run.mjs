@@ -17,7 +17,7 @@ import { enrichWithFullText } from "./fetch.mjs";
 import { ingestAll } from "./pipeline/ingest.mjs";
 import { rankArticles } from "./score.mjs";
 import { pushToTelegram } from "./telegram.mjs";
-import { summarize, translateTitles } from "./llm.mjs";
+import { summarize, translateTitles, summarizeNewsletter } from "./llm.mjs";
 import { generateSite } from "./site.mjs";
 
 // ─── 工具函数 ─────────────────────────────────────────────────────────────────
@@ -284,7 +284,17 @@ async function main() {
   
   // ── Step 5b: 生成 newsletters.json（如果有邮件数据）─────────────────────────
   if (emailItems && emailItems.length > 0) {
-    console.log(`📧 生成 newsletters.json（${emailItems.length} 封）…`);
+    console.log(`📧 处理 newsletters（${emailItems.length} 封）…`);
+    
+    // LLM 摘要（如果启用）
+    if (process.env.USE_LLM === "true") {
+      console.log("🤖 生成 newsletter AI 摘要…");
+      for (const item of emailItems) {
+        item.llmComment = await summarizeNewsletter(item);
+      }
+      console.log();
+    }
+    
     const nlPayload = {
       generatedAt: new Date().toISOString(),
       items: emailItems.map(item => ({
@@ -294,6 +304,7 @@ async function main() {
         source: item.source,
         pubDate: item.pubDate,
         summary: item.summary || "",
+        llmComment: item.llmComment || null,
       })),
     };
     await fs.writeFile(
@@ -301,6 +312,7 @@ async function main() {
       JSON.stringify(nlPayload, null, 2) + "\n",
       "utf8"
     );
+    console.log(`  ✓ newsletters.json (${emailItems.length} 封)`);
   }
   console.log();
 
