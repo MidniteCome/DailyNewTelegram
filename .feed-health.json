@@ -63,7 +63,7 @@
       "ok": false,
       "itemCount": 0,
       "consecutiveFails": 5,
-      "error": "HTTP 402 for https://feedfry.com/rss/11f111092c9aca3cbeb66cb95d7dc0e7"
+      "skipped": true
     },
     {
       "name": "IEEE Spectrum",
