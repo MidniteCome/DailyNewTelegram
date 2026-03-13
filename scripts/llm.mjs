@@ -214,7 +214,9 @@ function isTitleVague(title) {
 export async function translateTitles(articles) {
   if (!USE_LLM || !articles.length) return;
 
-  const BATCH = 30;
+  // Gemini 免费层限制 15 RPM，减小批次并加延迟
+  const BATCH = USE_GEMINI ? 8 : 30;
+  const DELAY_MS = USE_GEMINI ? 5000 : 0;  // Gemini: 5秒延迟
   const total = articles.length;
   const backend = USE_GEMINI ? `Gemini/${GEMINI_MODEL}` : USE_GROQ ? `Groq/${GROQ_MODEL}` : `Ollama/${LLM_MODEL}`;
   console.log(`🌐 翻译标题（共 ${total} 篇，批次 ${BATCH}，后端: ${backend}）…`);
@@ -302,6 +304,11 @@ Output:`;
       console.log(`    批次 ${start + 1}–${Math.min(start + BATCH, total)} 完成 ${label}`);
     } catch (err) {
       console.warn(`  翻译批次 ${start + 1}–${Math.min(start + BATCH, total)} 跳过（${err.message}）`);
+    }
+    
+    // Gemini 速率限制：批次间延迟
+    if (DELAY_MS > 0 && start + BATCH < total) {
+      await new Promise(r => setTimeout(r, DELAY_MS));
     }
   }
 }

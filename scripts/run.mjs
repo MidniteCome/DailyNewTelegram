@@ -259,7 +259,9 @@ async function main() {
 
     // 3b. 对 Top N 逐篇生成深度点评（后端截断 ≤400 中文字符，前端有展开按钮）
     console.log("🤖 LLM 点评 Top 文章…");
-    for (const article of topArticles) {
+    const useGemini = !!process.env.GEMINI_API_KEY;
+    for (let i = 0; i < topArticles.length; i++) {
+      const article = topArticles[i];
       const raw = await summarize(article);
       if (raw && raw.length > 400) {
         // 在最后一个句号/！/？处截断，避免截断到句中
@@ -268,6 +270,10 @@ async function main() {
         article.llmComment = lastPunct > 200 ? cut.slice(0, lastPunct + 1) : cut;
       } else {
         article.llmComment = raw;
+      }
+      // Gemini 速率限制
+      if (useGemini && i < topArticles.length - 1) {
+        await new Promise(r => setTimeout(r, 5000));
       }
     }
     console.log();
@@ -289,8 +295,13 @@ async function main() {
     // LLM 摘要（如果启用）
     if (process.env.USE_LLM === "true") {
       console.log("🤖 生成 newsletter AI 摘要…");
-      for (const item of emailItems) {
-        item.llmComment = await summarizeNewsletter(item);
+      const useGeminiNl = !!process.env.GEMINI_API_KEY;
+      for (let i = 0; i < emailItems.length; i++) {
+        emailItems[i].llmComment = await summarizeNewsletter(emailItems[i]);
+        // Gemini 速率限制
+        if (useGeminiNl && i < emailItems.length - 1) {
+          await new Promise(r => setTimeout(r, 5000));
+        }
       }
       console.log();
     }
