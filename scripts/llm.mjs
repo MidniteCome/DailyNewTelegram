@@ -31,8 +31,9 @@ const GROQ_URL     = "https://api.groq.com/openai/v1/chat/completions";
 const OLLAMA_URL = process.env.OLLAMA_URL ?? "http://localhost:11434";
 const LLM_MODEL  = process.env.LLM_MODEL  ?? "qwen2.5:7b";
 
-const USE_GEMINI = !!GEMINI_API_KEY;
-const USE_GROQ   = !USE_GEMINI && !!GROQ_API_KEY;
+// 优先级: Groq > Gemini > Ollama
+const USE_GROQ   = !!GROQ_API_KEY;
+const USE_GEMINI = !USE_GROQ && !!GEMINI_API_KEY;
 
 // ── 统一调用入口 ──────────────────────────────────────────────────────────────
 async function callLLM(prompt, { temperature = 0.4, timeout = 90_000 } = {}) {
@@ -214,9 +215,7 @@ function isTitleVague(title) {
 export async function translateTitles(articles) {
   if (!USE_LLM || !articles.length) return;
 
-  // Gemini 免费层限制 15 RPM，减小批次并加延迟
-  const BATCH = USE_GEMINI ? 8 : 30;
-  const DELAY_MS = USE_GEMINI ? 5000 : 0;  // Gemini: 5秒延迟
+  const BATCH = 30;
   const total = articles.length;
   const backend = USE_GEMINI ? `Gemini/${GEMINI_MODEL}` : USE_GROQ ? `Groq/${GROQ_MODEL}` : `Ollama/${LLM_MODEL}`;
   console.log(`🌐 翻译标题（共 ${total} 篇，批次 ${BATCH}，后端: ${backend}）…`);
@@ -304,11 +303,6 @@ Output:`;
       console.log(`    批次 ${start + 1}–${Math.min(start + BATCH, total)} 完成 ${label}`);
     } catch (err) {
       console.warn(`  翻译批次 ${start + 1}–${Math.min(start + BATCH, total)} 跳过（${err.message}）`);
-    }
-    
-    // Gemini 速率限制：批次间延迟
-    if (DELAY_MS > 0 && start + BATCH < total) {
-      await new Promise(r => setTimeout(r, DELAY_MS));
     }
   }
 }
