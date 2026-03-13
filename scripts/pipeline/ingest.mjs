@@ -17,5 +17,6 @@ export async function ingestAll({
   const items = dedupeItems(normalized);
   const health = mergeHealth(rss.health, email.health);
 
-  return { articles: items, health };
+  // Return email items separately for newsletter page
+  return { articles: items, health, emailItems: email.items };
 }

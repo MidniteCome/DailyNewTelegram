@@ -531,6 +531,7 @@
     <div class="main-tabs">
       <button class="main-tab active" id="tab-news">📰 News</button>
       <button class="main-tab" id="tab-podcast">🎙️ Podcasts</button>
+      <button class="main-tab" id="tab-newsletter">📧 Newsletters</button>
     </div>
 
     <button id="theme-toggle" title="Toggle theme">☀️</button>
@@ -576,6 +577,14 @@
     <div class="panel-inner">
       <div id="list-rest"></div>
     </div>
+  </div>
+</div>
+
+<!-- ── Newsletter panel (hidden by default) ── -->
+<div id="newsletter-panel" style="display:none">
+  <div class="panel-inner" style="max-width:780px;margin:0 auto;padding:1.2rem 1.25rem 3rem">
+    <div class="panel-label">📧 Newsletters</div>
+    <div id="newsletter-list"><div class="state-msg">Loading…</div></div>
   </div>
 </div>
 
@@ -1186,8 +1195,88 @@ function exitPodcastMode() {
   newsBodyEls.forEach(el => { el.style.display = ''; });
 }
 
-tabNews.addEventListener('click', () => { if (podMode) exitPodcastMode(); });
-tabPodcast.addEventListener('click', () => { if (!podMode) enterPodcastMode(); });
+tabNews.addEventListener('click', () => { exitAllModes(); });
+tabPodcast.addEventListener('click', () => { exitAllModes(); enterPodcastMode(); });
+
+// ── Newsletter tab ────────────────────────────────────────────────────────────
+const tabNewsletter    = document.getElementById('tab-newsletter');
+const newsletterPanel  = document.getElementById('newsletter-panel');
+const newsletterList   = document.getElementById('newsletter-list');
+let nlLoaded = false;
+let nlMode   = false;
+
+function newsletterCardHtml(item) {
+  const title = esc(item.title || '(no subject)');
+  const author = esc(item.author || item.source || 'Unknown');
+  const time = item.pubDate ? relativeTime(item.pubDate) : '';
+  const summary = esc((item.summary || '').slice(0, 300));
+  const link = item.link || '#';
+  
+  return `<article class="card">
+    <div class="card-meta">
+      <span class="tag tag-essay">Newsletter</span>
+      <span class="source-row">
+        <span class="source">${author}</span>
+        <span class="sep">·</span>
+        <span class="time">${time}</span>
+      </span>
+    </div>
+    <h2 class="card-title">
+      ${link !== '#' ? `<a href="${esc(link)}" target="_blank" rel="noopener">${title}</a>` : title}
+    </h2>
+    ${summary ? `<p class="card-summary">${summary}</p>` : ''}
+  </article>`;
+}
+
+async function loadNewsletters() {
+  newsletterList.innerHTML = '<div class="state-msg">Loading…</div>';
+  try {
+    const r = await fetch(`data/newsletters.json?t=${Date.now()}`);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const data = await r.json();
+    nlLoaded = true;
+    
+    if (!data.items || !data.items.length) {
+      newsletterList.innerHTML = '<div class="state-msg">No newsletters yet</div>';
+      return;
+    }
+    
+    // Sort by date, newest first
+    const sorted = [...data.items].sort((a, b) => 
+      new Date(b.pubDate || 0) - new Date(a.pubDate || 0)
+    );
+    
+    newsletterList.innerHTML = sorted.map(newsletterCardHtml).join('');
+  } catch (e) {
+    newsletterList.innerHTML = `<div class="state-msg">No newsletters data available</div>`;
+  }
+}
+
+function enterNewsletterMode() {
+  nlMode = true;
+  tabNews.classList.remove('active');
+  tabPodcast.classList.remove('active');
+  tabNewsletter.classList.add('active');
+  newsletterPanel.style.display = 'block';
+  podcastPanel.style.display = 'none';
+  if (newsControls) newsControls.style.display = 'none';
+  newsBodyEls.forEach(el => { el.style.display = 'none'; });
+  if (!nlLoaded) loadNewsletters();
+}
+
+function exitAllModes() {
+  podMode = false;
+  nlMode = false;
+  tabPodcast.classList.remove('active');
+  tabNewsletter.classList.remove('active');
+  tabNews.classList.add('active');
+  podcastPanel.style.display = 'none';
+  newsletterPanel.style.display = 'none';
+  if (newsControls) newsControls.style.display = '';
+  newsBodyEls.forEach(el => { el.style.display = ''; });
+}
+
+tabNewsletter.addEventListener('click', () => { exitAllModes(); enterNewsletterMode(); });
 
 init();
 </script>

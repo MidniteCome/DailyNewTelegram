@@ -151,13 +151,11 @@ async function main() {
   // ── Step 1: 抓取（多源入口，默认仅 RSS）──────────────────────────────────
   console.log(`📡 抓取 ${sources.length} 个 RSS 源…`);
   const prevHealth = await readFeedHealth();
-  const enableWechat = process.env.ENABLE_WECHAT === "true";
   const enableEmail = process.env.ENABLE_EMAIL === "true";
-  const { articles, health } = await ingestAll({
+  const { articles, health, emailItems } = await ingestAll({
     rssSources: sources,
     maxItemsPerFeed: scoring.maxItemsPerFeed ?? 30,
     prevHealth,
-    enableWechat,
     enableEmail,
   });
   await writeFeedHealth(health, today);
@@ -283,6 +281,27 @@ async function main() {
   // ── Step 5: 生成网站 ──────────────────────────────────────────────────────
   console.log("🌐 生成静态网站…");
   await generateSite(siteArticles, today, topN);
+  
+  // ── Step 5b: 生成 newsletters.json（如果有邮件数据）─────────────────────────
+  if (emailItems && emailItems.length > 0) {
+    console.log(`📧 生成 newsletters.json（${emailItems.length} 封）…`);
+    const nlPayload = {
+      generatedAt: new Date().toISOString(),
+      items: emailItems.map(item => ({
+        title: item.title,
+        link: item.link,
+        author: item.author || item.source,
+        source: item.source,
+        pubDate: item.pubDate,
+        summary: item.summary || "",
+      })),
+    };
+    await fs.writeFile(
+      "docs/data/newsletters.json",
+      JSON.stringify(nlPayload, null, 2) + "\n",
+      "utf8"
+    );
+  }
   console.log();
 
   // ── Step 6: 更新历史状态 + git push ──────────────────────────────────────
