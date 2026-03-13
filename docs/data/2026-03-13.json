@@ -2,7 +2,7 @@
   "meta": {
     "date": "2026-03-13",
     "topN": 5,
-    "total": 59
+    "total": 61
   },
   "articles": [
     {
@@ -11,12 +11,12 @@
       "link": "https://www.cnbc.com/2026/03/13/were-buying-more-of-this-leading-ai-stock-on-this-years-undeserved-pullback.html",
       "source": "CNBC Technology",
       "summary": "The tech giant was on the shopping list we shared on Thursday.",
-      "llmComment": "这家科技巨头是领先的AI领域玩家，近期由于今年的不当回调而被列入购入清单。其核心差异化在于在人工智能技术方面的持续创新和投资，这使得它在市场上保持着竞争优势。尽管当前市场存在不确定性，但该公司在AI领域的领先地位意味着它具有巨大的潜在市场机会，尤其是在企业和个人对智能解决方案需求日益增长的背景下。然而，尚待观察的是该公司如何应对来自其他科技巨头的竞争威胁，以及其在AI领域的持续创新能力。",
+      "llmComment": "这家科技巨头是人工智能领域的领军者，正在积极布局和拓展其AI技术应用。其核心差异化在于对AI技术的持续研发投入和在各个领域的应用创新，这使得其在市场中具有较强的竞争力。然而，尽管其具有巨大的市场机会，但也面临着来自其他科技巨头的竞争威胁，尤其是在AI技术的快速发展背景下。值得持续追踪的是，这家公司如何应对市场的挑战和机遇，原文未披露具体的发展战略和未来规划，尚待观察。",
       "pubDate": "2026-03-13T13:00:15.000Z",
       "score": 313,
       "category": "🤖 AI & 研究",
       "titleEn": null,
-      "titleZh": "今年回调，我们将购买更多领先的AI股票",
+      "titleZh": "今年我们将购买更多领先的AI股票",
       "isHot": true,
       "paywalled": false
     },
@@ -26,7 +26,7 @@
       "link": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say",
       "source": "TechCrunch",
       "summary": "Rox, founded in 2024 by the former chief growth officer of New Relic, offers an AI-native alternative to CRM tools.",
-      "llmComment": "Rox AI是一家成立于2024年的销售自动化初创公司，提供基于人工智能的销售工具，试图挑战传统的CRM工具。该公司的估值达到12亿美元，主要是因为其AI-native技术能够更好地帮助企业自动化销售流程，提高销售效率。这种技术可能会对传统CRM工具市场产生冲击，尤其是对那些没有足够投资人工智能技术的公司来说，这可能是一个挑战。尚待观察的是，Rox AI如何在未来发展和扩张中保持竞争优势，以及传统CRM工具公司如何应对这一挑战。",
+      "llmComment": "Rox AI是一家成立于2024年的销售自动化初创公司，旨在通过人工智能技术为客户关系管理（CRM）提供更高效的解决方案。该公司的核心逻辑在于利用AI技术打破传统CRM工具的局限，提供更智能的销售自动化服务，从而提高客户关系管理的效率和准确性。 Rox AI的1.2亿美元估值表明其在销售自动化领域具有较强的竞争力，可能会对传统CRM工具提供商产生压力，尤其是那些没有深入整合AI技术的企业。尚待观察的是，Rox AI如何在未来继续扩大其市场份额和技术领先地位。",
       "pubDate": "2026-03-12T22:25:50.000Z",
       "score": 215,
       "category": "🤖 AI & 研究",
@@ -37,11 +37,26 @@
     },
     {
       "rank": 3,
+      "title": "Adobe CEO Shantanu Narayen says he will step down after company installs successor",
+      "link": "https://www.cnbc.com/2026/03/12/adobe-ceo-shantanu-narayen-step-down.html",
+      "source": "CNBC Technology",
+      "summary": "Shantanu Narayen led Adobe through a transition to subscription software, and he's been positioning the company to grow in the artificial intelligence age.",
+      "llmComment": "Adobe 的 CEO Shantanu Narayen 即将卸任，这位领导者在过去将公司成功转型为订阅制软件提供商，并致力于在人工智能时代推动公司增长。Adobe 的核心差异化在于其强大的创意软件产品线和成功的订阅模式，这使得公司在设计和多媒体软件领域占据了重要地位。潜在的市场机会包括人工智能和云计算的持续发展，但同时也面临来自其他科技公司的竞争威胁，尤其是在人工智能应用领域。尚待观察新任CEO如何继续推动Adobe的增长和创新。",
+      "pubDate": "2026-03-13T14:57:51.000Z",
+      "score": 81,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "Adobe CEO尚塔努·纳雷恩将辞职",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 4,
       "title": "Bosa/Wu: Private equity is about to eat its own software portfolio",
       "link": "https://www.cnbc.com/2026/03/12/private-equity-ai-software-saas.html",
       "source": "CNBC Technology",
       "summary": "Private equity built the SaaS installed base. It may also be the one that rips it out.",
-      "llmComment": "私募股权公司一直是软件即服务（SaaS）领域的重要投资者和推动者，通过大量收购和整合，建立了庞大的软件产品组合。然而，这些公司可能会成为自己软件产品的最大挑战者，因为它们开始剥离和重组自己的软件资产，寻求更高的投资回报率和竞争力。这种趋势可能会对行业竞争格局产生重大影响，可能受益的公司是那些能够提供更高效、更具创新性的软件解决方案的企业，而那些依赖传统软件产品的公司可能会面临更大的压力。尚待观察的是，这种趋势将如何影响整个软件行业的发展和竞争格局。",
+      "llmComment": "私募股权公司一直是软件即服务（SaaS）领域的重要投资者和推动者，它们通过收购和整合各类软件公司，建立了庞大的软件产品组合。然而，随着私募股权公司自身的软件产品组合越来越庞大，它们可能会开始重新评估和优化自己的软件资产，这可能会导致一些软件公司被剥离或重组，从而对行业竞争格局产生影响。这种情况下，可能受益的公司是那些能够提供高效、低成本的软件解决方案的企业，而那些提供重复或低效软件产品的公司可能会面临压力。尚待观察的是，这种趋势对整个软件行业的影响将会如何，以及哪些公司能够在这个过程中找到新的机会。",
       "pubDate": "2026-03-12T20:44:05.000Z",
       "score": 79,
       "category": "💻 泛科技",
@@ -51,27 +66,12 @@
       "paywalled": false
     },
     {
-      "rank": 4,
-      "title": "Adobe CEO Shantanu Narayen says he will step down after company installs successor",
-      "link": "https://www.cnbc.com/2026/03/12/adobe-ceo-shantanu-narayen-step-down.html",
-      "source": "CNBC Technology",
-      "summary": "Shantanu Narayen led Adobe through a transition to subscription software, and he's been positioning the company to grow in the artificial intelligence age.",
-      "llmComment": "Adobe是一家全球领先的软件公司，其CEO Shantanu Narayen即将卸任，标志着公司领导层的重要变动。Adobe在Narayen的领导下成功转型为订阅制软件服务，并且正在积极布局人工智能时代的增长机会，这使得公司在科技行业中保持了竞争优势。随着新任CEO的到来，Adobe可能会面临新的市场机会和挑战，尤其是在人工智能领域的竞争日益激烈的情况下，尚待观察公司如何应对这些变化。值得持续追踪的信号是Adobe新任CEO的任命以及公司在人工智能领域的进一步布局和发展。",
-      "pubDate": "2026-03-12T22:22:21.000Z",
-      "score": 76,
-      "category": "💻 泛科技",
-      "titleEn": null,
-      "titleZh": "Adobe CEO宣布辞职",
-      "isHot": false,
-      "paywalled": false
-    },
-    {
       "rank": 5,
       "title": "$100 oil, PCE data, MLB valuations and more in Morning Squawk",
       "link": "https://www.cnbc.com/2026/03/13/5-things-to-know-before-the-market-opens.html",
       "source": "CNBC Technology",
       "summary": "Here are five key things investors need to know to start the trading day.",
-      "llmComment": "原文中并未提供具体的投融资、IPO或并购的新闻内容，只是提到了几项投资者需要关注的关键事项，包括油价、PCE数据和MLB估值等。因此，尚待观察这笔交易的核心逻辑和对行业竞争格局的影响。原文未披露具体的公司名称和交易金额，无法判断谁将受益或受压。 Bull case 和 Bear case 也尚待观察，需要更多的信息来进行分析。总之，需要更多的信息来对此进行准确的点评。",
+      "llmComment": "原文并未提供具体的公司或交易信息，因此无法直接进行点评。然而，如果我们考虑到题目中提到的\"$100 oil\"和\"PCE data\"，这些信息可能与能源市场和经济指标有关。尚待观察这些因素如何影响市场和投资者。由于原文未披露具体的交易或公司信息，无法对行业竞争格局、战略意图或数据资产进行分析。因此，Bull case和Bear case尚待观察，需要更多具体信息来进行准确的点评。",
       "pubDate": "2026-03-13T12:05:27.000Z",
       "score": 65,
       "category": "💻 泛科技",
@@ -91,7 +91,7 @@
       "score": 61,
       "category": "💻 泛科技",
       "titleEn": null,
-      "titleZh": "比亚迪最新的电动汽车可以在12分钟内充电至满",
+      "titleZh": "比亚迪最新的电动汽车可以在12分钟内充电至满电",
       "isHot": false,
       "paywalled": false
     },
@@ -100,13 +100,13 @@
       "title": "Source code of Swedish e-government services has been leaked",
       "link": "https://darkwebinformer.com/full-source-code-of-swedens-e-government-platform-leaked-from-compromised-cgi-sverige-infrastructure",
       "source": "Hacker News",
-      "summary": "Article URL: https://darkwebinformer.com/full-source-code-of-swedens-e-government-platform-leaked-from-compromised-cgi-sverige-infrastructure/ Comments URL: https://news.ycombinator.com/item?id=47362350 Points: 128 # Comments: 119",
+      "summary": "Article URL: https://darkwebinformer.com/full-source-code-of-swedens-e-government-platform-leaked-from-compromised-cgi-sverige-infrastructure/ Comments URL: https://news.ycombinator.com/item?id=47362350 Points: 135 # Comments: 122",
       "llmComment": null,
       "pubDate": "2026-03-13T09:45:30.000Z",
       "score": 60,
       "category": "🌐 社区",
       "titleEn": null,
-      "titleZh": "瑞典电子政府服务的源代码已泄露",
+      "titleZh": "瑞典电子政府服务的源代码已被泄露",
       "isHot": false,
       "paywalled": false
     },
@@ -130,13 +130,13 @@
       "title": "Nanny state discovers Linux, demands it check kids' IDs before booting",
       "link": "https://www.theregister.com/2026/03/13/opinion_os_verification",
       "source": "Hacker News",
-      "summary": "Article URL: https://www.theregister.com/2026/03/13/opinion_os_verification/ Comments URL: https://news.ycombinator.com/item?id=47363990 Points: 114 # Comments: 69",
+      "summary": "Article URL: https://www.theregister.com/2026/03/13/opinion_os_verification/ Comments URL: https://news.ycombinator.com/item?id=47363990 Points: 132 # Comments: 96",
       "llmComment": null,
       "pubDate": "2026-03-13T13:10:50.000Z",
       "score": 58,
       "category": "🌐 社区",
       "titleEn": null,
-      "titleZh": "保护主义国家发现Linux，要求在启动前检查儿童的ID",
+      "titleZh": "保护主义国家发现Linux，要求它在启动前检查儿童的身份证",
       "isHot": false,
       "paywalled": false
     },
@@ -256,7 +256,7 @@
       "score": 50,
       "category": "💻 泛科技",
       "titleEn": null,
-      "titleZh": "Truecaller现在可以代表您的家人挂断骗子的电话",
+      "titleZh": "Truecaller现在允许您代表您的家人挂断骗子电话",
       "isHot": false,
       "paywalled": false
     },
@@ -322,16 +322,16 @@
     },
     {
       "rank": 22,
-      "title": "Cuba says it has opened talks with US amid oil blockade - Reuters",
+      "title": "Cuba says it has opened talks with US as oil blockade takes toll - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUGZsY2VDcnhRVGVJU1o1RWQxajN4UlJUeG43ZkwyalhqOWw0LWtjY0FONnVSWEN0YlBHaTNhbnl0YmMzS20yMGV1MHdGMWdYOXdaMzN1T1NSZFQzc0lHMmNYWXZLYjRYWFE4SHFlWm8taDBXQ3pjYmhuVkVQMXc2T3lQUGpQWjRkQUZQZi16NDc2LXNoTlNQVG4tVVYtbHlSUE9HdXhGb0RfOXYzcDAwQ25ncTZ4YWIz?oc=5",
       "source": "Reuters M&A (Google News)",
-      "summary": "Cuba says it has opened talks with US amid oil blockade Reuters",
+      "summary": "Cuba says it has opened talks with US as oil blockade takes toll Reuters",
       "llmComment": null,
       "pubDate": "2026-03-13T09:01:35.000Z",
       "score": 47,
       "category": "💰 资本市场·其他",
       "titleEn": null,
-      "titleZh": "古巴称已在石油封锁中与美国开启谈判 - 路透社",
+      "titleZh": "古巴表示已与美国开启谈判，石油封锁带来影响 - 路透社",
       "isHot": false,
       "paywalled": true
     },
@@ -346,7 +346,7 @@
       "score": 45,
       "category": "🌐 社区",
       "titleEn": null,
-      "titleZh": "电子请柬可能留下记录，授权后无法取消",
+      "titleZh": "电子请柬留下记录",
       "isHot": false,
       "paywalled": false
     },
@@ -361,7 +361,7 @@
       "score": 44,
       "category": "💰 资本市场·其他",
       "titleEn": null,
-      "titleZh": "伊朗战争暴露了能源转型缓慢的愚蠢 - 路透社",
+      "titleZh": "Breakingviews - 伊朗战争暴露了能源转型缓慢的愚蠢 - 路透社",
       "isHot": false,
       "paywalled": true
     },
@@ -508,10 +508,10 @@
       "summary": "RAG 本身并不算是个坏主意。我们认真实践过，也确实在某些场景下跑通了。 去年，我们花了几个月搭过几套完整的 RAG 管线：三阶段处理（ Extract 、Chunk 、Embed ），三种搜索策略（ Vector 、BM25 、Hybrid + Reranking ）。从文本提取，粗排，到 Rerank 精排，每一个环节都认真做了一遍。工程量不小，技术上看着很漂亮。 但最终不得不承认一个事实： 效果不好 这篇文章不是要批判 RAG ，而是诚实地分享下我们具体遇到了哪些问题，以及我们后来怎么想的。以及，小广告。。。 问题一：Embedding 模型两难 做本地桌面应用，Embedding 模型",
       "llmComment": null,
       "pubDate": "2026-03-13T06:17:03.000Z",
-      "score": 41,
+      "score": 40,
       "category": "🌐 社区",
       "titleEn": null,
-      "titleZh": "放弃RAG的原因：六大难题",
+      "titleZh": "为什么放弃了 RAG？ RAG 的六大难题",
       "isHot": false,
       "paywalled": false
     },
@@ -637,6 +637,36 @@
     },
     {
       "rank": 43,
+      "title": "Resiliency and Scale",
+      "link": "https://stratechery.com/2025/resiliency-and-scale/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3Jlc2lsaWVuY3ktYW5kLXNjYWxlLyJdfSwiZXhwIjoxNzc1OTgwOTAzLCJpYXQiOjE3NzMzODg5MDMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.F0aSYTGJXymBZKLQOrMIEgGsIzu0z4_7xIOkoeGK_VYlzUKvEyyt7dm52WiE8PGSBk-kOovXvYK-9waWCCEG5I8tizmhxy0kREs0uSq7HHgZFgeAlRM0mgbbMHCfjG5bqyINcYDDi47ZH3p7mabUE9lnjj-NHaT2wFdjAQellnU96QJKaFADwwMVUJiztUJUMyh-NYLpH86NSAqYAOHxIuye2dXKJGri4lrcv2sZIWyi8skrO7PPYh6-P9NHT8LxhM37_dkJoNNF__3l3YMIHLTW74MnKvyb00pq23bJpjmcVtDhKZbREkhEO3fYL36-4oX9ZsSHrfMzUa4Q7S6KmA",
+      "source": "Stratechery",
+      "summary": "Decreasing transportation and communications costs increases resiliency in theory, but destroys it in practice. The only way to have resiliency is through less efficiency.",
+      "llmComment": null,
+      "pubDate": "2025-10-22T10:00:00.000Z",
+      "score": 30,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "公司的弹性和规模",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 44,
+      "title": "iPhones 17 and the Sugar Water Trap",
+      "link": "https://stratechery.com/2025/iphones-17-and-the-sugar-water-trap/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L2lwaG9uZXMtMTctYW5kLXRoZS1zdWdhci13YXRlci10cmFwLyJdfSwiZXhwIjoxNzc1OTgwOTAzLCJpYXQiOjE3NzMzODg5MDMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.BNMD7OZoPcPEALEJSBoNPxl-KdRKC6aHa2R7L5Q6npIDIyfvYkbv8cv1JeXEYOe8powMI8qg09nDUCBZMAgmUDqol_YwrXbKS65_J7tCo6Tdfdzd1FG5dy56lbETDhh_ZICEz2OQOSByNgEh-M9aYUaWJ0bZCK5GfhfmD6xO5Byzj9rY5ctdRw35tyqc-oZ71UB7p8y7eteFlnq7beT5GP7uKCcPtqG_asPVA5R_9-pnNpW-gwlDflRooSabdcfV9LUWSeeZTmggGrC2SLXsJcCrMQkI2iWuxdtxrqlJikqBJUDz6xu2aPK53hJPPxYvmqe69xTJTaqUQn5SfjQjYA",
+      "source": "Stratechery",
+      "summary": "Apple's iPhone announcement was impressive, but no one was impressed, because Apple is increasingly peripheral to what is changing the world.",
+      "llmComment": null,
+      "pubDate": "2025-09-10T10:32:53.000Z",
+      "score": 30,
+      "category": "💻 泛科技",
+      "titleEn": null,
+      "titleZh": "iPhone 17 糖水陷阱",
+      "isHot": false,
+      "paywalled": false
+    },
+    {
+      "rank": 45,
       "title": "Anthropic and Alignment",
       "link": "https://stratechery.com/2026/anthropic-and-alignment/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpYy1hbmQtYWxpZ25tZW50LyJdfSwiZXhwIjoxNzc2MDA1ODYyLCJpYXQiOjE3NzM0MTM4NjIsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.qzhVhbtI7aybHcyAeMkWUTslJQaffzxBHp1_WZP39FjQe9snMs33Lc0RX5w50it3izTV8GLvaNn_t1X4_ogh1Nn_AN4hIiJ8JYIJwZdvLtNEuddzCSHpUptBPuJIicOjvtrbHAw3zKGZ7AqmVon2PcS0i78kW0_PvWjnXTrXJqyW61vF4dL8DV4ssXu3pV_UEEfmW3nPvd65K0N-ynJ1v3xg7RLVsNddyEpfe6759E0xmi_5z0fazSf7rw71fb1IzEUOymje70Ox4ThdZgZbnamQLrfTnmOn-igoIWP7Abiiv9eHYVT3eFeAE5YKq5RB7culMjpn-c5OUGPmul9gFQ",
       "source": "Stratechery",
@@ -651,7 +681,7 @@
       "paywalled": false
     },
     {
-      "rank": 44,
+      "rank": 46,
       "title": "Netflix and the Hollywood End Game",
       "link": "https://stratechery.com/2025/netflix-and-the-hollywood-end-game/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L25ldGZsaXgtYW5kLXRoZS1ob2xseXdvb2QtZW5kLWdhbWUvIl19LCJleHAiOjE3NzU5ODA5MDMsImlhdCI6MTc3MzM4ODkwMywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTljOTE4Ny0yMWUyLTcxZTQtYjdjYS0zYmM3Y2I5ZTcwNGYiLCJ1c2UiOiJhY2Nlc3MifQ.oGEQfkEMHhLoEF3cnBW__vJom7bdrLNIfNtUi2utm24SzTdloqJYsD62I8iGRyn53Dpi9wnCLnhNr4Q-3V5eQLcWYBqNeiWi_OiYv9LdSOA3mReqeUu9sczqDspHUs_G1qBukD_5BJVQZ7UckMxWCFRTiWRobya0loClmgIHK748TeiJlaEDW8Dp4GtWcMyXEotl2ch7WO7Nf4FwT5bTyE0hrM8680lvDlANWPdtx48kJHTWXBU3KiZ6ucJaI5vJa16h-xJmeePhx0BqnOwQ3D_M4dT1mdTn73fsHdMGfz_hKICcLfn2ZiIwYZkAXL8abt-vbBfSRuVeeWHV-jInbw",
       "source": "Stratechery",
@@ -666,7 +696,7 @@
       "paywalled": false
     },
     {
-      "rank": 45,
+      "rank": 47,
       "title": "Robotaxis and Suburbia",
       "link": "https://stratechery.com/2025/robotaxis-and-suburbia/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3JvYm90YXhpcy1hbmQtc3VidXJiaWEvIl19LCJleHAiOjE3NzU5ODA5MDMsImlhdCI6MTc3MzM4ODkwMywiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMgcG9kY2FzdCByc3MiLCJzdWIiOiIwMTljOTE4Ny0yMWUyLTcxZTQtYjdjYS0zYmM3Y2I5ZTcwNGYiLCJ1c2UiOiJhY2Nlc3MifQ.VWZSeV5lKO70QH8-AT8Szx_8xZYgo6IwjsuGtZaM9LfjShxT3B9ydTRbvS2fsYdEWkiBhNISAALfe7DoVOMG87W2XJwvIhbYaJ057KO8ZP4Kse2MnNDUYrcYrPIjmrQrgYAJsdSLojhCMRSjuO1LNkwd-XqKbg4cmZ78rGmSv2_AWr2mbgDQ2JIZYU05KTEQWtbOBiIq8QEuFhaeE5GnofZBQZ374n_EMKwYWYrA4JoSSy4h5GWvuJMItfrnsEHFosRgWcUrNrDpvLbm4EO8MOmxB2ezYZUtnVu8H6ex2tO0_87FN8uVaPHVurBH9TvQkNQ2T02JoaEK-ejc8nui8Q",
       "source": "Stratechery",
@@ -681,7 +711,7 @@
       "paywalled": false
     },
     {
-      "rank": 46,
+      "rank": 48,
       "title": "Apple: You (Still) Don't Understand the Vision Pro",
       "link": "https://stratechery.com/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8_cD0xODAzMyJdfSwiZXhwIjoxNzc1OTgwOTAzLCJpYXQiOjE3NzMzODg5MDMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.OYYIPvbLWaXeeEJm7c9LmZsKvcJqFyOgjUdeF5o8OmSrmZXtlJK4BtNdOCViHR1RXrFotSUm5SNLNxJzVsXyDVfeyKM5-SpoMTVj36uJQHfCTJRZFuqopifxLRlAGOVRJTz0Rb4HSyPTPX3VRJl7GVPUGHRQkbQurMI8NGQtkRuYJIMJdhG_tJtRIGLqz3029ANZV_F2t06IMXW34rZm5qLSa-U9iULhnfI-tArltqqhJI8UM9UL2r_8xEalKyjYzD2gJpgW8VUUyG_8wy4CU_42tzQ9F53JHnozQALuFceE910t8Bb86ams4-CT-z1WcHykb1wKPQywVcg8PCF3Mw&amp%3Bp=18033",
       "source": "Stratechery",
@@ -696,7 +726,7 @@
       "paywalled": false
     },
     {
-      "rank": 47,
+      "rank": 49,
       "title": "The 2025 Stratechery Year in Review",
       "link": "https://stratechery.com/2025/the-2025-stratechery-year-in-review/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3RoZS0yMDI1LXN0cmF0ZWNoZXJ5LXllYXItaW4tcmV2aWV3LyJdfSwiZXhwIjoxNzc1OTgwOTAzLCJpYXQiOjE3NzMzODg5MDMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.pE37G5zk8O90PNl6yAKuH1tXBgF0kYPO2pmk7NSZMTuaFoGicBnz0iSvj7BE30Fd_30IQyXggF6hVdZ6gjm03tog7vMGw3YTX3ns2Py7759fkV9LUy3bKgwLowDqsPIX1GEqJj_5O7xw6naK_fAlewMIVg6KMGJGxnF8Lyg8lkFPMA3V3GIYtoAMpyA8k1rsPgbJ0G30tc6FfUuC4fl1TFD4G6CwpN93JTGSFIG_MbEsVO2orMXI07ijJQ9RHTPoziM7h7eemNXHl2mWP8OLOuapY13oshTLravLo2-kmt8B4xAydmIvNeMSXRd2O0goG5VUjzCT2Xd1qNohZvZUqQ",
       "source": "Stratechery",
@@ -711,7 +741,7 @@
       "paywalled": false
     },
     {
-      "rank": 48,
+      "rank": 50,
       "title": "Anthropic and Alignment",
       "link": "https://stratechery.com/2026/anthropic-and-alignment/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpYy1hbmQtYWxpZ25tZW50LyJdfSwiZXhwIjoxNzc1OTgwOTAzLCJpYXQiOjE3NzMzODg5MDMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.C-u_5r189B3Qa-0tyc5FCf5iEqcWmXqPVkT01gOEAucqq0OeyoAf3IyZXIQOa-LhgTSCQigpOXGqqKQwdAfzfT0E4Tav3hbOsGaJXwnXg7FFD80vEFWAsvqcTrctz0FZqC0nlIaGet6ZmvVmN_MXSUvbQ72SCLygPVTgnEztlGHtwlBFBq_mxkkNBcCzjWPDXCDIcZr0RTxBZWlxMrdDbl35AHGz1qRT-nRRwtV0cz-byA04P8BUztgpJkzzjZROUhPnG80BK4PRNgHgz3HOBMZIEbWIJsEgo8BqGMJZca2p6FlrPswaMinLdABofuOzrTuKglEOixDSDC6Ie_g8qQ",
       "source": "Stratechery",
@@ -726,7 +756,7 @@
       "paywalled": false
     },
     {
-      "rank": 49,
+      "rank": 51,
       "title": "London overtakes San Francisco, New York as top FinTech hub, growth capital fund says - Reuters",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPR3lKMHFFRlIxSXJOTk5IWTlsbHNaUF9KWFR1YUlkZVpsX3dGSTkzSjVMdGpWM2VYa0JheHhIOUJGQldsN3lKUG52d0pDYnMtcGhlalF4MEZlMzYtcWhUcjBKNVBiMFdoMG1NemdSZ3BSRmd5SGQtMFRNUnFwbFBYQm9SYUZoQTdkbHpoTHN5THl4c3BjRTNHcWhXR251czY2dG12WjdIZmM4Y2tRVzVhWGNPcmpkVWtCd2ppbkt6NG5adXBlOFg5dEJzRVk3dFBiU05YYUVxT3QyYVFwWjBGSw?oc=5",
       "source": "Reuters Funding (Google News)",
@@ -741,22 +771,22 @@
       "paywalled": true
     },
     {
-      "rank": 50,
+      "rank": 52,
       "title": "Markets over a barrel",
       "link": "https://newslink.reuters.com/click/44680224.70676/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDMxMzI2JnVzZXJfZW1haWw9MmZiNzYxYTRkMDU4M2IzODJmZjUzMjJhYjFiMDI2MzQwMTc2MTIzYTJlYmM3OTYxNDFiZjFlMmU3ZTA5N2E0YiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B1f842adc",
       "source": "newsletter:Reuters Morning Bid",
-      "summary": "96 Everything Mike Dolan and the ROI team are excited to read, watch and listen to over the weekend. &#8202; Morning Bid Weekend Morning Bid Weekend A Reuters Open Interest newsletter &#8202; &#8202; Everything Mike Dolan and the ROI team are excited to read, watch and listen to over the weekend. &#",
+      "summary": "96 Everything Mike Dolan and the ROI team are excited to read, watch and listen to over the weekend. Morning Bid Weekend Morning Bid Weekend A Reuters Open Interest newsletter Everything Mike Dolan and the ROI team are excited to read, watch and listen to over the weekend. From the Editor Hello Morn",
       "llmComment": null,
       "pubDate": "2026-03-13T10:31:24.000Z",
       "score": 28,
       "category": "📰 其他",
       "titleEn": null,
-      "titleZh": "市场面临挑战",
+      "titleZh": "市场被控制",
       "isHot": false,
       "paywalled": false
     },
     {
-      "rank": 51,
+      "rank": 53,
       "title": "Tesla delivery slide may stretch to third year, some fear, as cash burn looms - Reuters",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZ290bjNHRy1JLWI5azFMcTZ0S3FzV0g0YUFLaWdIX2drM19rM2szd3BqMzNVczFaYXFZeFhLZTM2R3V0ZHJlZUtUcENZYlREakR6N3JXSmw5LXpycE5rcVdGLXdiODhJbkp2R0tzczZmMjRZOWpFWDBSdGF3dVhZcENUdVdhUXdwYUJTWDRfaFJUay1pNjFVcVA3RzhDREtsemg5SkFsTkJDQ2h0cHdreFJweFIycG5yTFdtSUx5NlhsVlN3N3ZubTM5TU1Ec0VL?oc=5",
       "source": "Reuters Funding (Google News)",
@@ -771,7 +801,7 @@
       "paywalled": true
     },
     {
-      "rank": 52,
+      "rank": 54,
       "title": "Accents",
       "link": "https://mahdi.jp/apps/accents",
       "source": "Daring Fireball",
@@ -786,7 +816,7 @@
       "paywalled": false
     },
     {
-      "rank": 53,
+      "rank": 55,
       "title": "US judiciary to fast-track court records system upgrade after hacking - Reuters",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNlVZSHdmR1lpeXZrdXZwbTNLcUZ1Y2RDcWNNaDNKZ0dRLWsyb2pIRGoyNE5HVmJtUTVDakU1S3dTN2NQd2FUOVhDOFlLMzV4Wkt6bWdMajlkLTktbnlWOHhPQnRUa2kwLUhGX0ZFRW9GR2lVd05ham5DaF9DdThaZHpjMFRoZ1pkWjgzMEk2VjRERTNHVkNHVThRWGZveW9IcWFzNVAyREwzVG9VeVE3eVpNcnNvN1h1Tm1F?oc=5",
       "source": "Reuters Funding (Google News)",
@@ -801,7 +831,7 @@
       "paywalled": true
     },
     {
-      "rank": 54,
+      "rank": 56,
       "title": "US consumer prices likely increased in February ahead of Iran conflict",
       "link": "https://newslink.reuters.com/click/44626596.68076/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249UmV1dGVycy1CdXNpbmVzcyZ1dG1fdGVybT0wMzExMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158B47958192",
       "source": "newsletter:Reuters Business",
@@ -816,7 +846,7 @@
       "paywalled": false
     },
     {
-      "rank": 55,
+      "rank": 57,
       "title": "The modern formatting addiction in writing",
       "link": "https://dynomight.net/formatting",
       "source": "dynomight",
@@ -831,7 +861,7 @@
       "paywalled": false
     },
     {
-      "rank": 56,
+      "rank": 58,
       "title": "★ Modifier Key Order for Keyboard Shortcuts",
       "link": "https://daringfireball.net/2026/03/modifier_key_order_for_keyboard_shortcuts",
       "source": "Daring Fireball",
@@ -846,7 +876,7 @@
       "paywalled": false
     },
     {
-      "rank": 57,
+      "rank": 59,
       "title": "From panic to patience",
       "link": "https://newslink.reuters.com/click/44625188.42797/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDMxMTI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158B8559ad40",
       "source": "newsletter:Morning Bid U.S.",
@@ -861,7 +891,7 @@
       "paywalled": false
     },
     {
-      "rank": 58,
+      "rank": 60,
       "title": "What’s next for Iran?",
       "link": "https://newslink.reuters.com/click/44548889.36691/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGhlLVdlZWstSW4tQnJlYWtpbmd2aWV3cyZ1dG1fdGVybT0wMzA3MjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158B3487a849",
       "source": "newsletter:The Week in Breakingviews",
@@ -876,7 +906,7 @@
       "paywalled": false
     },
     {
-      "rank": 59,
+      "rank": 61,
       "title": "No quiet on the eastern front",
       "link": "https://newslink.reuters.com/click/44540456.64163/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDMwNjI2JnVzZXJfZW1haWw9MmZiNzYxYTRkMDU4M2IzODJmZjUzMjJhYjFiMDI2MzQwMTc2MTIzYTJlYmM3OTYxNDFiZjFlMmU3ZTA5N2E0YiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B6a9c235c",
       "source": "newsletter:Reuters Morning Bid",

@@ -210,7 +210,7 @@
       "name": "email",
       "url": "sources/newsletters.json",
       "ok": true,
-      "itemCount": 46,
+      "itemCount": 47,
       "consecutiveFails": 0,
       "skipped": false
     }
