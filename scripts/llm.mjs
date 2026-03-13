@@ -311,13 +311,15 @@ const NEWSLETTER_PROMPT = (title, content, author) => `你是一位专业的财�
 标题：${title}
 内容片段：${content}
 
-请用 1-2 句话（不超过 80 字）总结这封 newsletter 的核心信息。
+任务：用中文总结这封 newsletter 的核心信息（1-2 句话，不超过 80 字）。
+
+要求：
+- 必须用简体中文输出，禁止使用英文
 - 提炼关键数据或事件
-- 使用简洁、专业的中文
 - 不要使用"本文"、"该文"等指代词
 - 直接陈述要点
 
-输出（纯文本，不要 markdown）：`;
+中文摘要：`;
 
 export async function summarizeNewsletter(item) {
   if (!USE_LLM) return null;
