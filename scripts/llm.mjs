@@ -8,13 +8,19 @@
  *   TECH          → 通用科技产品视角（兜底）
  *
  * 后端优先级：
- *   1. Groq  — 设置 GROQ_API_KEY 即自动启用（云端，GitHub Actions 可用）
- *   2. Ollama — 设置 OLLAMA_URL（本地，默认 http://localhost:11434）
+ *   1. Gemini — 设置 GEMINI_API_KEY（推荐，有免费额度）
+ *   2. Groq   — 设置 GROQ_API_KEY（免费）
+ *   3. Ollama — 设置 OLLAMA_URL（本地）
  *
- * 启用：USE_LLM=true，并设置 GROQ_API_KEY 或 OLLAMA_URL
+ * 启用：USE_LLM=true，并设置对应的 API key
  */
 
 const USE_LLM    = process.env.USE_LLM === "true";
+
+// ── Gemini 配置（优先）──
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY ?? null;
+const GEMINI_MODEL   = process.env.GEMINI_MODEL ?? "gemini-2.0-flash";
+const GEMINI_URL     = "https://generativelanguage.googleapis.com/v1beta/models";
 
 // ── Groq 配置 ──
 const GROQ_API_KEY = process.env.GROQ_API_KEY ?? null;
@@ -25,11 +31,28 @@ const GROQ_URL     = "https://api.groq.com/openai/v1/chat/completions";
 const OLLAMA_URL = process.env.OLLAMA_URL ?? "http://localhost:11434";
 const LLM_MODEL  = process.env.LLM_MODEL  ?? "qwen2.5:7b";
 
-const USE_GROQ = !!GROQ_API_KEY;
+const USE_GEMINI = !!GEMINI_API_KEY;
+const USE_GROQ   = !USE_GEMINI && !!GROQ_API_KEY;
 
 // ── 统一调用入口 ──────────────────────────────────────────────────────────────
 async function callLLM(prompt, { temperature = 0.4, timeout = 90_000 } = {}) {
-  if (USE_GROQ) {
+  if (USE_GEMINI) {
+    // Gemini API
+    const url = `${GEMINI_URL}/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
+    const res = await fetch(url, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: { temperature },
+      }),
+      signal: AbortSignal.timeout(timeout),
+    });
+    if (!res.ok) throw new Error(`Gemini HTTP ${res.status}: ${await res.text()}`);
+    const data = await res.json();
+    return data.candidates?.[0]?.content?.parts?.[0]?.text?.trim() ?? null;
+  } else if (USE_GROQ) {
+    // Groq API (OpenAI compatible)
     const res = await fetch(GROQ_URL, {
       method: "POST",
       headers: {
@@ -46,6 +69,7 @@ async function callLLM(prompt, { temperature = 0.4, timeout = 90_000 } = {}) {
     if (!res.ok) throw new Error(`Groq HTTP ${res.status}: ${await res.text()}`);
     return (await res.json()).choices?.[0]?.message?.content?.trim() ?? null;
   } else {
+    // Ollama (local)
     const res = await fetch(`${OLLAMA_URL}/api/generate`, {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -192,7 +216,7 @@ export async function translateTitles(articles) {
 
   const BATCH = 30;
   const total = articles.length;
-  const backend = USE_GROQ ? `Groq/${GROQ_MODEL}` : `Ollama/${LLM_MODEL}`;
+  const backend = USE_GEMINI ? `Gemini/${GEMINI_MODEL}` : USE_GROQ ? `Groq/${GROQ_MODEL}` : `Ollama/${LLM_MODEL}`;
   console.log(`🌐 翻译标题（共 ${total} 篇，批次 ${BATCH}，后端: ${backend}）…`);
 
   for (let start = 0; start < total; start += BATCH) {
@@ -295,7 +319,7 @@ export async function summarize(article) {
 
   try {
     const output = await callLLM(prompt, { temperature: 0.4 });
-    const backend = USE_GROQ ? "Groq" : "Ollama";
+    const backend = USE_GEMINI ? "Gemini" : USE_GROQ ? "Groq" : "Ollama";
     console.log(`    [${backend}/${type}] ${article.title.slice(0, 40)}…`);
     return output;
   } catch (err) {
@@ -332,7 +356,7 @@ export async function summarizeNewsletter(item) {
 
   try {
     const output = await callLLM(prompt, { temperature: 0.3 });
-    const backend = USE_GROQ ? "Groq" : "Ollama";
+    const backend = USE_GEMINI ? "Gemini" : USE_GROQ ? "Groq" : "Ollama";
     console.log(`    [${backend}/Newsletter] ${(item.title || "").slice(0, 30)}…`);
     return output?.slice(0, 120) || null;  // 限制长度
   } catch (err) {
