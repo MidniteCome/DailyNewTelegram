@@ -1,83 +1,49 @@
 {
   "enabled": true,
-  "baseUrl": "https://rsshub.rssforever.com",
+  "baseUrl": "http://localhost:1200",
+  "fallbackUrl": "https://rsshub.rssforever.com",
   "sources": [
     {
-      "name": "投中网",
-      "type": "rsshub",
-      "route": "/pedaily/news",
-      "note": "投中网新闻"
-    },
-    {
-      "name": "36氪",
-      "type": "rsshub",
-      "route": "/36kr/newsflashes",
-      "note": "36氪快讯（类似资讯补充）"
-    },
-    {
-      "name": "InfoQ-AI",
-      "type": "rsshub",
-      "route": "/infoq/recommend",
-      "note": "InfoQ AI/技术前线（替代AI前线）"
-    },
-    {
-      "name": "少数派",
-      "type": "rsshub",
-      "route": "/sspai/matrix",
-      "note": "少数派 Matrix（科技/效率）"
-    },
-    {
-      "name": "IT之家",
-      "type": "rsshub",
-      "route": "/ithome/it",
-      "note": "IT之家（综合科技）"
+      "name": "CINNO",
+      "type": "wechat-biz",
+      "biz": "MjM5MTA2MDEzMQ==",
+      "note": "显示面板产业链（需配置搜狗cookies）"
     }
   ],
-  "_pending_wechat_biz": [
-    {
-      "name": "199IT互联网数据中心",
-      "biz": "TODO",
-      "note": "需要获取 biz ID"
-    },
-    {
-      "name": "CINNO",
-      "biz": "TODO"
-    },
-    {
-      "name": "IPO早知道",
-      "biz": "TODO"
-    },
-    {
-      "name": "土著哥聊AI",
-      "biz": "TODO"
-    },
-    {
-      "name": "随机漫步随笔录",
-      "biz": "TODO"
-    },
-    {
-      "name": "AIGC开放社区",
-      "biz": "TODO"
-    },
-    {
-      "name": "芯榜",
-      "biz": "TODO"
-    },
-    {
-      "name": "美股投资网",
-      "biz": "TODO"
-    },
-    {
-      "name": "暗涌Waves",
-      "biz": "TODO"
-    },
-    {
-      "name": "独角兽早知道",
-      "biz": "TODO"
-    },
-    {
-      "name": "米股研报站",
-      "biz": "TODO"
-    }
-  ]
+  "_wechat_pending": {
+    "note": "以下公众号需要获取 biz ID（打开文章→复制链接→提取__biz参数）",
+    "list": [
+      "199IT互联网数据中心",
+      "IPO早知道",
+      "土著哥聊AI",
+      "随机漫步随笔录",
+      "AIGC开放社区",
+      "芯榜",
+      "投中网",
+      "美股投资网",
+      "暗涌Waves",
+      "独角兽早知道",
+      "米股研报站"
+    ]
+  },
+  "_rsshub_alternatives": {
+    "note": "RSSHub上可用的高质量替代源（非36氪/InfoQ等营销号）",
+    "disabled": [
+      {
+        "name": "Hacker News 中文",
+        "type": "rsshub",
+        "route": "/hackernews/best"
+      },
+      {
+        "name": "TechCrunch",
+        "type": "rsshub",
+        "route": "/techcrunch"
+      },
+      {
+        "name": "The Verge",
+        "type": "rsshub",
+        "route": "/theverge"
+      }
+    ]
+  }
 }
