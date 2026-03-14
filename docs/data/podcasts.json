@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-14T07:56:27.996Z",
+    "updatedAt": "2026-03-14T14:35:30.262Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "What Trump Didn’t Know About Iran",
+      "link": "https://www.nytimes.com/2026/03/13/opinion/ezra-klein-podcast-ali-vaez.html",
+      "pubDate": "2026-03-14T11:00:00.000Z",
+      "duration": "01:31:11",
+      "summary": "The Trump administration miscalculated how Iran would respond to this war. And the United States, Iran and Israel were brought to the brink of war in the first place because of a whole series of misju",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -1472,17 +1483,6 @@
       "duration": "3:14:26",
       "summary": "Paul Rosolie is a naturalist, explorer, author of a new book titled Junglekeeper, and is someone who has dedicated his life to protecting the Amazon rainforest. Thank you for listening ❤ Check out our",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Can James Talarico Reclaim Christianity for the Left?",
-      "link": "https://www.nytimes.com/2026/01/13/opinion/ezra-klein-podcast-james-talarico.html",
-      "pubDate": "2026-01-13T10:00:00.000Z",
-      "duration": "01:28:12",
-      "summary": "State Representative James Talarico of Texas might have been our most requested guest last year. And he seemed to come out of nowhere. Talarico started breaking through with viral videos on TikTok and",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "talksat",
