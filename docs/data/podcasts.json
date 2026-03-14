@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-13T20:24:41.244Z",
+    "updatedAt": "2026-03-14T07:56:27.996Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,6 +165,17 @@
   ],
   "episodes": [
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20Growth: Inside Lovable's $400M ARR Growth Machine | How Lovable Does Product Launches | How Lovable Hacks Social To Make Posts Go Viral | How Lovable Makes Every Employee a Brand with Elena Verna",
+      "link": "https://thetwentyminutevc.libsyn.com/20growth-inside-lovables-400m-arr-growth-machine-how-lovable-does-product-launches-how-lovable-hacks-social-to-make-posts-go-viral-how-lovable-makes-every-employee-a-brand-with-elena-verna",
+      "pubDate": "2026-03-14T07:07:00.000Z",
+      "duration": "01:09:21",
+      "summary": "Elena Verna is the Head of Growth at Lovable, one of the fastest growing companies in the world having hit $400M in ARR in just 18 months. Prior to Lovable, Elena was Head of Growth at both Dropbox an",
+      "art": "https://static.libsyn.com/p/assets/6/b/f/b/6bfbc9a8f8be82cc16c3140a3186d450/WhatsApp_Image_2026-03-13_at_17.37.20.jpeg"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -245,11 +256,11 @@
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
-      "title": "#381 杀伤链上的红线之争：当 AI 能够决定战场上的生死，人类离集体卸责还有多远？",
-      "link": "http://etw.fm/2202",
+      "title": "#381 当AI公司Anthropic对抗五角大楼，这是 AI 的奥本海默时刻吗",
+      "link": "http://etw.fm/2202-ai-oppenheimer-moment",
       "pubDate": "2026-03-12T06:30:00.000Z",
       "duration": "56:14",
-      "summary": "当 AI 的角色从你我屏幕里的聊天机器人，慢慢渗透进战争决策链条中的核心环节，它的边界究竟在哪里？又会引发怎样的伦理危机？ 过去两周，美以伊冲突无疑是全球最大的变数。但在硝烟之后，另一场同样深刻的冲突也正在发生，表面上这是 AI 公司 Anthropic 与五角大楼的争端，背后却隐含着更多这个时代需要回答的问题：一家提供技术的 AI 公司，有没有权利限制自己的模型被政府如何使用？当 AI 成为新的",
+      "summary": "过去两周，美以伊冲突无疑是全球最大的变数。但在硝烟之后，另一场同样深刻的冲突也正在发生，表面上这是 AI 公司 Anthropic 与五角大楼的争端，背后却隐含着更多这个时代需要回答的问题：一家提供技术的 AI 公司，有没有权利限制自己的模型被政府如何使用？当 AI 成为新的基础设施，它的边界该由谁来划定？又该由谁来承担失控之后的责任？ 本期节目是《科技早知道》与《声东击西》的串台特别版。我们从 ",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
@@ -1076,17 +1087,6 @@
       "duration": "01:18:27",
       "summary": "【主播的话】 1936年，在风雨飘摇的上海，鲁迅因病去世，享年55岁。 2026年，是鲁迅逝世九十周年。差不多整整一个世纪过去了，鲁迅却并未远去——他依然深深存在于当代中国人的精神生活之中，存在于我们的语言、记忆与时代观念里。 在中国出生长大的人，对鲁迅几乎都不会陌生。他的作品是小学课本里的重点篇目，直到今天，我们也许仍然能够熟练背出其中许多段落：从《从百草园到三味书屋》到《阿Q正传》，从《狂人日",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: From $6.2BN Market Cap to $2.8BN: What Is Not Translating About Navan's Public Story | Are Any Public Company CEOs Actually Happy? | Why Navan Built It's Own Customer Service AI and What it Could Mean For Customer Service AI with Ariel Cohen",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-from-62bn-market-cap-to-28bn-what-is-not-translating-about-navans-public-story-are-any-public-company-ceos-actually-happy-why-navan-built-its-own-customer-service-ai-and-what-it-could-mean-for-customer-service-ai-with-ariel-cohen",
-      "pubDate": "2026-02-07T23:19:00.000Z",
-      "duration": "54:18",
-      "summary": "Ariel Cohen is the Co-Founder and CEO of Navan (formerly TripActions), an AI-powered travel and expense platform. Last month, Ariel took the company public, since being a public company, they have fac",
-      "art": "https://static.libsyn.com/p/assets/1/8/d/6/18d681733d57aa5816c3140a3186d450/WhatsApp_Image_2026-02-05_at_15.17.51.jpeg"
     },
     {
       "showId": "allin",
