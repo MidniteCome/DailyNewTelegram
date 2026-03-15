@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-15T14:36:56.879Z",
+    "updatedAt": "2026-03-15T20:19:12.640Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "bg2pod",
+      "showName": "BG2Pod",
+      "category": "vc",
+      "title": "ChatGPT – The Super Assistant Era | BG2 Guest Interview",
+      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/ChatGPT--The-Super-Assistant-Era--BG2-Guest-Interview-e3gf7om",
+      "pubDate": "2026-03-15T16:25:00.000Z",
+      "duration": "01:03:40",
+      "summary": "In this BG2 guest interview, Altimeter Partner Apoorv Agrawal sits down with Nick Turley of OpenAI for a deep dive into how ChatGPT became one of the fastest-growing products in history—and what comes",
+      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
+    },
     {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
@@ -2132,17 +2143,6 @@
       "duration": "15979",
       "summary": "When you saw this episode pop up in your feed, you either jumped for joy and hit play immediately (in which case you’re not reading this), or you said “Huh. That’s a surprising episode.” Well, if you’",
       "art": "https://img.transistorcdn.com/P7764OsbE5HFwEoFl-L-g4QuzNfHwT9E7IDco3xxNXM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lYzA5/ZWMzN2Q5NjMzY2Ni/ZDMwZGI0Y2FmYThh/MTIwMC5qcGc.jpg"
-    },
-    {
-      "showId": "bg2pod",
-      "showName": "BG2Pod",
-      "category": "vc",
-      "title": "NVDA GTC, M&A Wiz / Goog $32 B Deal, April 2 Tariff Uncertainty; Huawei Belt & Road; ChatGPT",
-      "link": "https://podcasters.spotify.com/pod/show/bg2pod/episodes/NVDA-GTC--MA-Wiz--Goog-32-B-Deal--April-2-Tariff-Uncertainty-Huawei-Belt--Road-ChatGPT-e30f4k1",
-      "pubDate": "2025-03-21T01:25:12.000Z",
-      "duration": "01:22:00",
-      "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week they discuss market uncertainty, globalism and tariffs, M&A, Wiz and GOOG, N",
-      "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
     }
   ]
 }
