@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-03-15T07:59:00.147Z",
+  "generatedAt": "2026-03-16T08:36:58.472Z",
   "items": [
-    {
-      "title": "China warns of global chip shortages as Nexperia dispute escalates again",
-      "link": "https://newslink.reuters.com/click/44567797.78331/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTAzMDgyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158Bf2cbb891",
-      "author": "Reuters Technology Roundup",
-      "source": "newsletter:Reuters Technology Roundup",
-      "pubDate": "2026-03-08T15:01:18.000Z",
-      "summary": "96 \"New conflicts\" broke out between Nexperia and its Chinese subsidiary, China's commerce ministry said. --> Technology Roundup Technology Roundup China warns of global chip shortages as Nexperia dispute escalates again Pentagon taps former DOGE official to lead its AI efforts China could see wides",
-      "llmComment": "中国警告全球芯片短缺，Nexperia争议升级。"
-    },
     {
       "title": "Better fill the car up, like right now",
       "link": "https://newslink.reuters.com/click/44570966.14202/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTAzMDkyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B93422d6f",
@@ -17,7 +8,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-03-09T06:00:07.000Z",
       "summary": "96 A look at the day ahead in European and global markets Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Wayne Cole, Chief Correspondent, Treasury Data refreshes every time you open this email. For more European market news, click here . Please send a",
-      "llmComment": "欧洲和全球市场今日展望。请及时关注市场动态。"
+      "llmComment": "欧洲和全球市场今日展望。wayne cole 提醒及时关注市场动态。"
     },
     {
       "title": "Oil's triple-digit trouble",
@@ -53,7 +44,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-03-09T12:00:26.000Z",
       "summary": "96 + Inside his Supreme Court strategy. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. Today we have a look at how President Trump is pushing the U.S. Supreme Court to weaken federal judges . Plus, SCOTUS is expected to issue orders; the 9th C",
-      "llmComment": "特朗普推动削弱联邦法官权力，最高法院预计将发布命令。"
+      "llmComment": "特朗普推动削弱联邦法官权力，最高法院预计发布命令。"
     },
     {
       "title": "Oil prices hit highest since 2022 at more than $119 a barrel on Iran war",
@@ -71,7 +62,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-03-09T15:01:16.000Z",
       "summary": "96 Microsoft is adding Anthropic's AI technology to its Copilot service to tap growing demand for autonomous agents, weeks after the startup's ​new tools sparked a selloff in software stocks. --> Technology Roundup Technology Roundup Microsoft taps Anthropic for Copilot Cowork in push for AI agents ",
-      "llmComment": "微软将Anthropic的AI技术加入Copilot服务，推动自主代理的发展。"
+      "llmComment": "微软将Anthropic的AI技术加入Copilot服务，以推动自主代理的发展。"
     },
     {
       "title": "Trump says war is 'very complete' - Iran has other ideas",
@@ -80,7 +71,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-03-10T06:00:09.000Z",
       "summary": "96 A look at the day ahead in European and global markets Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Gregor Stuart Hunter, Markets Correspondent Data refreshes every time you open this email. For more European market news, click here . Please send",
-      "llmComment": "特朗普称战争“非常完整”，伊朗有其他想法。欧洲和全球市场即将开市。"
+      "llmComment": "特朗普表示战争“非常完整”，但伊朗有其他想法。今日欧洲和全球市场展望。"
     },
     {
       "title": "Oil's combustible calm",
@@ -89,7 +80,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-03-10T10:40:16.000Z",
       "summary": "96 What matters in U.S. and global markets today Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-at-Large for Finance and Markets The fog of war remains thick. Crude oil prices have become wildly volatile this ",
-      "llmComment": "油价波动剧烈，全球市场仍然动荡。"
+      "llmComment": "油价波动剧烈，全球市场仍然不确定。"
     },
     {
       "title": "Markets bet Trump will end Iran war soon",
@@ -98,7 +89,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-03-10T11:01:11.000Z",
       "summary": "96 Plus, Elon Musk's SpaceX weighs Nasdaq listing. Daily Briefing Daily Briefing By Kate Turton Hello. Iran says it will not let any oil out of the Middle East until attacks end, as oil falls on Trump's prediction of a de-escalation. Elsewhere, Elon Musk's SpaceX weighs a Nasdaq listing , and Lindt ",
-      "llmComment": "特朗普预计伊朗战争将结束，油价下跌。埃隆·马斯克的SpaceX考虑在纳斯达克上市。"
+      "llmComment": "特朗普预测伊朗战争将结束，油价下跌。埃隆·马斯克的SpaceX考虑在纳斯达克上市。"
     },
     {
       "title": "Anthropic sues Pentagon over national security blacklist",
@@ -107,7 +98,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-03-10T12:01:17.000Z",
       "summary": "96 + Tensions over military use of AI intensify. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. Today we have a look at Anthropic ’s escalating fight with the Pentagon . Plus, a federal judge will consider the EEOC ’s broad subpoena power ; Th",
-      "llmComment": "Anthropic 与五角大楼的争端升级。五角大楼因将Anthropic列入国家安全黑名单而被起诉。"
+      "llmComment": "Anthropic 与五角大楼的争端升级。五角大楼因国家安全问题将其列入黑名单。"
     },
     {
       "title": "Elon Musk's SpaceX weighs Nasdaq listing after seeking early index entry, sources say",
@@ -116,7 +107,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-03-10T12:01:54.000Z",
       "summary": "96 Elon Musk's rocket and satellite maker SpaceX is leaning toward listing its shares on the Nasdaq ​for what could rank as the biggest initial public offering of all time, according to four people familiar with the company's ‌thinking. --> Reuters Business Reuters Business Elon Musk's SpaceX weighs",
-      "llmComment": "埃隆·马斯克的SpaceX考虑在纳斯达克上市，可能成为有史以来最大的IPO。"
+      "llmComment": "埃隆·马斯克的SpaceX考虑在纳斯达克上市，可能创下最大IPO记录。"
     },
     {
       "title": "China pins hopes on society-wide AI push to add jobs, rejuvenate economy",
@@ -125,7 +116,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-03-10T15:02:52.000Z",
       "summary": "96 China's scramble to adopt artificial intelligence will spawn new jobs and propel the world's second largest economy, say policymakers and company executives, as they play down growing global ​fears that the technology could stunt employment. --> Technology Roundup Technology Roundup China pins ho",
-      "llmComment": "中国希望通过全社会推广人工智能来创造新就业机会和振兴经济。"
+      "llmComment": "中国推动人工智能发展，预计将创造新就业机会，促进经济增长。"
     },
     {
       "title": "It ain't over yet",
@@ -134,7 +125,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-03-11T06:00:15.000Z",
       "summary": "96 A look at the day ahead in European and global markets Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Rae Wee, Correspondent Data refreshes every time you open this email. For more European market news, click here . Please send any feedback to morn",
-      "llmComment": "欧洲和全球市场的前景仍不明朗。今日市场将迎来新数据发布。"
+      "llmComment": "欧洲和全球市场展望。今日市场行情将继续变化。"
     },
     {
       "title": "From panic to patience",
@@ -143,7 +134,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-03-11T10:39:14.000Z",
       "summary": "96 What matters in U.S. and global markets today Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-at-Large for Finance and Markets Both energy and stock markets appear to be in a holding pattern after the wild s",
-      "llmComment": "能源和股市似乎进入了等待模式。市场正在观察美国和全球市场的发展。"
+      "llmComment": "美国和全球市场处于观望状态，能源和股市暂时稳定。"
     },
     {
       "title": "Air strikes across the Middle East",
@@ -152,7 +143,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-03-11T11:02:51.000Z",
       "summary": "96 And oil prices seesaw. Daily Briefing Daily Briefing By Kate Turton Hello. Air strikes are reported across the Middle East as Iran clamps down on dissent, a foreign hacker compromised Epstein files , and here’s one big reason why prices for new cars have soared . Plus, a free comeback concert for",
-      "llmComment": "中东地区发生空袭，伊朗镇压异见。油价波动。"
+      "llmComment": "中东地区发生空袭，油价波动。伊朗镇压异见，外国黑客侵入爱泼斯坦文件。"
     },
     {
       "title": "US consumer prices likely increased in February ahead of Iran conflict",
@@ -161,7 +152,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-03-11T12:00:34.000Z",
       "summary": "96 U.S. consumer prices likely picked up in February as the cost of gasoline increased in anticipation of an escalating war in the Middle East, and with the ​conflict driving up oil prices, a further rise in inflation is expected in March. --> Reuters Business Reuters Business US consumer prices lik",
-      "llmComment": "美国2月份消费者价格可能上涨，预计3月份由于伊朗冲突导致油价上涨，进一步推高通胀。"
+      "llmComment": "美国2月消费者价格可能上涨，预计3月因伊朗冲突将进一步上升。"
     },
     {
       "title": "Small businesses sue Trump",
@@ -179,7 +170,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-03-11T12:01:30.000Z",
       "summary": "96 + The case will test the reach of an obscure law. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. Legal experts say Anthropic has a strong case against the Pentagon . Plus, a federal judge will weigh Halkbank and U.S. prosecutors' resolution",
-      "llmComment": "安θρω普公司（Anthropic）在对抗五角大楼（Pentagon）黑名单的案件中占据优势。"
+      "llmComment": "Anthropic 有强有力的理由反对五角大楼的黑名单。法律专家认为 Anthropic 的案件很有胜算。"
     },
     {
       "title": "Anthropic has strong case against Pentagon blacklisting, legal experts say ",
@@ -188,7 +179,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-03-11T15:02:03.000Z",
       "summary": "96 Anthropic's lawsuit challenging its Pentagon blacklisting is likely to test the reach of an obscure law aimed at guarding military systems against sabotage, and legal experts say the artificial intelligence lab appears to have a strong case that President Donald Trump's administration overstepped",
-      "llmComment": "人工智能实验室Anthropic因挑战五角大楼黑名单而提起诉讼。法律专家认为Anthropic的案件较强。"
+      "llmComment": "人工智能实验室Anthropic因挑战五角大楼黑名单而起诉，法律专家认为其案件较强。"
     },
     {
       "title": "Anthropic's courtroom tightrope",
@@ -197,7 +188,7 @@
       "source": "newsletter:Reuters Artificial Intelligencer",
       "pubDate": "2026-03-11T19:43:13.000Z",
       "summary": "96 Plus, Meta's curious acquisition. Artificial Intelligencer Artificial Intelligencer What matters in AI this week --> By Kenrick Cai , Technology Correspondent Meta made a curious acquisition this week in buying Moltbook, a Reddit-like site where AI agents interact with one another. More than like",
-      "llmComment": "Meta 收购了 Moltbook，一个 AI 代理互动的 Reddit 类网站。"
+      "llmComment": "Meta 收购了 Moltbook ，一个 AI 代理互动的 Reddit 类网站。"
     },
     {
       "title": "Iran widens war on shipping, Trump talks Strait",
@@ -206,7 +197,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-03-12T06:04:06.000Z",
       "summary": "96 A look at the day ahead in European and global markets Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Stella Qiu, Australia Economics & Markets Correspondent Data refreshes every time you open this email. For more European market news, click here .",
-      "llmComment": "伊朗扩大对航运的攻击，特朗普讨论霍尔木兹海峡。欧洲和全球市场等待新数据发布。"
+      "llmComment": "伊朗扩大对航运的战事，特朗普讨论霍尔木兹海峡。"
     },
     {
       "title": "Triple digit crude",
@@ -215,7 +206,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-03-12T10:31:22.000Z",
       "summary": "96 What matters in U.S. and global markets today Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-at-Large for Finance and Markets Crude oil is testing $100 per barrel once again, briefly topping that important ",
-      "llmComment": "原油价格正在测试每桶100美元。"
+      "llmComment": "原油价格正在测试每桶100美元，曾短暂突破这一重要关口。"
     },
     {
       "title": "Tankers attacked in the Gulf",
@@ -224,7 +215,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-03-12T11:01:27.000Z",
       "summary": "96 Plus, airline hedging strategies fall short as jet fuel price surges. Daily Briefing Daily Briefing By Kate Turton Hello. In the latest news from the war in the Middle East, oil tankers burn near Iraq as Iranian strikes defy Trump's claim to have won . And US intelligence says Iran's government i",
-      "llmComment": null
+      "llmComment": "中东战争爆发，伊朗袭击伊拉克附近的油轮。"
     },
     {
       "title": "Judges clash over ‘enormous’ immigration docket",
@@ -233,7 +224,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-03-12T12:00:21.000Z",
       "summary": "96 + 9th Circuit to reexamine its practices. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. The 9th Circuit will review how it manages immigration cases after Trump appointees object. Plus, the 9th Circuit will hear an appeal in a lawsuit chal",
-      "llmComment": null
+      "llmComment": "第9巡回上诉法院将重新审视其移民案件处理方式。该法院将审理一项有关移民案件的上诉。"
     },
     {
       "title": "EU urges US to view it as ally in tackling overcapacity, not source of problem",
@@ -359,6 +350,24 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-03-14T15:01:25.000Z",
       "summary": "96 The cuts could affect 20% or more of the company as ‌Meta seeks to offset artificial-intelligence infrastructure spending and prepare for the efficiency brought about by employees working with AI. --> Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Prefe",
+      "llmComment": null
+    },
+    {
+      "title": "Thiel's secretive Rome conference draws Church attention",
+      "link": "https://newslink.reuters.com/click/44705924.66120/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTAzMTUyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B113df6db",
+      "author": "Reuters Technology Roundup",
+      "source": "newsletter:Reuters Technology Roundup",
+      "pubDate": "2026-03-15T15:01:16.000Z",
+      "summary": "96 Peter Thiel, the U.S. billionaire venture capitalist and early supporter of President Donald ​Trump, launched on Sunday a series of closed-door lectures in Rome exploring the concept of the ‌Antichrist, drawing scrutiny from Catholic commentators. --> Get full access to Reuters.com for just £1/we",
+      "llmComment": null
+    },
+    {
+      "title": "Drawing to a strait is always a risky play",
+      "link": "https://newslink.reuters.com/click/44710155.22877/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTAzMTYyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158Bccd47201",
+      "author": "Reuters Morning Bid Europe",
+      "source": "newsletter:Reuters Morning Bid Europe",
+      "pubDate": "2026-03-16T06:00:25.000Z",
+      "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Wayne Cole, Chief Treasury Corres",
       "llmComment": null
     }
   ]
