@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-15T20:19:12.640Z",
+    "updatedAt": "2026-03-16T08:37:07.384Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: The 8 Moats of Enduring Software Companies: How to Analyse for Durability and Defensibility in a World of AI | Why Dropouts are \"AI Maxing\" the World & Remote Early-Stage Companies are Dying with Gokul Rajaram",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-8-moats-of-enduring-software-companies-how-to-analyse-for-durability-and-defensibility-in-a-world-of-ai-why-dropouts-are-ai-maxing-the-world-remote-early-stage-companies-are-dying-with-gokul-rajaram",
+      "pubDate": "2026-03-16T07:07:00.000Z",
+      "duration": "01:18:21",
+      "summary": "Gokul Rajaram is one of the greatest operators turned investors of the last 2 decades. He is trusted as the go to advisor for the greatest founders in the world. Today he serves as a Board Director at",
+      "art": "https://static.libsyn.com/p/assets/f/5/4/8/f5480745ceb9d8b616c3140a3186d450/WhatsApp_Image_2026-03-15_at_15.33.29.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Can anything save the news biz?",
+      "link": "https://www.npr.org/2026/03/16/nx-s1-5746826/can-anything-save-the-news-biz",
+      "pubDate": "2026-03-16T07:00:00.000Z",
+      "duration": "550",
+      "summary": "If you were in the business of making a bunch of money in 2026, you probably wouldn’t pick journalism. From social media to AI, the attention economy has upended the economic calculus for delivering n",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F83%2F43%2Ff6c1b08e4741a02f5c5bdceac337%2F60ac904d-9f7a-4c35-9b25-f55cb52b739d.jpg"
+    },
     {
       "showId": "bg2pod",
       "showName": "BG2Pod",
@@ -880,17 +902,6 @@
       "art": "https://static.libsyn.com/p/assets/c/b/4/7/cb47f1db09616e1416c3140a3186d450/WhatsApp_Image_2026-02-20_at_17.51.47.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why there are roving rotisserie chicken mobs",
-      "link": "https://www.npr.org/2026/02/23/nx-s1-5721204/why-there-are-roving-rotisserie-chicken-mobs",
-      "pubDate": "2026-02-23T08:00:02.000Z",
-      "duration": "569",
-      "summary": "You asked, we answered. On today’s show, we tackle questions from our dear listeners on whether AI interviewers are biased, what the heck M2 money supply is, and what’s up with the frenzied mobs fight",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbb%2Fcd%2F436ea4574a7d93c40b79c7f99767%2F857f296e-aacf-4e59-8bf4-07d7782adaa3.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1087,17 +1098,6 @@
       "duration": "01:57:24",
       "summary": "(0:00) From China to Canada (6:13) CZ's Early Career: Shockingly Normal (17:39) First Company in Shanghai (23:08) Discovering Bitcoin (30:11) Going All-In on Crypto (41:27) Founding Binance (1:03:57) ",
       "art": "https://static.libsyn.com/p/assets/3/9/1/e/391e389ffa39ed5b16c3140a3186d450/1_Pod_CZ.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Is SaaS Dead in a World of AI | Do Margins Matter Anymore | Is Triple, Triple, Double, Double Dead Today? | Who Wins the Dev Market: Cursor or Claude Code | Why We Are Not in an AI Bubble with Anish Acharya @ a16z",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-is-saas-dead-in-a-world-of-ai-do-margins-matter-anymore-is-triple-triple-double-double-dead-today-who-wins-the-dev-market-cursor-or-claude-code-why-we-are-not-in-an-ai-bubble-with-anish-acharya-a16z",
-      "pubDate": "2026-02-09T07:07:00.000Z",
-      "duration": "01:24:15",
-      "summary": "Anish Acharya is a General Partner at Andreessen Horowitz (a16z), where he leads consumer and fintech investing at Series A. He serves on the boards of standout portfolio companies including Deel, Mos",
-      "art": "https://static.libsyn.com/p/assets/6/f/d/0/6fd04dd168f4d95816c3140a3186d450/WhatsApp_Image_2026-02-06_at_16.24.47.jpeg"
     },
     {
       "showId": "weirdo",
