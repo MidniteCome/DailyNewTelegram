@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-17T15:03:14.082Z",
+    "updatedAt": "2026-03-17T20:30:51.179Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #176 with Dustin Poirier",
+      "link": "https://traffic.megaphone.fm/GLT5960797118.mp3?updated=1773765371",
+      "pubDate": "2026-03-17T17:00:00.000Z",
+      "duration": "10078",
+      "summary": "Joe sits down with Dustin Poirier, a mixed martial artist, entrepreneur, and philanthropist.www.ufc.com/athlete/dustin-poirierwww.thegoodfightgroup.comwww.diamondpoirier.com Perplexity: Download the a",
+      "art": "https://megaphone.imgix.net/podcasts/918a36a4-219a-11f1-bcc8-cf2633b7c80b/image/3bc7f6d5a16338b905202497cc5547fd.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -988,17 +999,6 @@
       "duration": "01:34:11",
       "summary": "AGENDA: 04:14 Anthropic's $30B Raise at $380B 06:18 Why SaaS Stocks Keep Getting Crushed 18:15 Wall Street's New Religion: AI Replaces Headcount 22:42 The Bear Case for Shopify: What Could Go Wrong? 3",
       "art": "https://static.libsyn.com/p/assets/8/9/4/c/894cc741ae5f84ff16c3140a3186d450/WhatsApp_Image_2026-02-18_at_17.39.12.jpeg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2456 - Michael Jai White",
-      "link": "https://traffic.megaphone.fm/GLT8210409209.mp3?updated=1771435754",
-      "pubDate": "2026-02-18T18:00:00.000Z",
-      "duration": "10369",
-      "summary": "Michael Jai White is an actor, director, writer, and martial artist. His latest film, “Oscar Shaw,” is available to stream on digital platforms.www.youtube.com/@RealMichaelJaiWhitewww.patreon.com/Mich",
-      "art": "https://megaphone.imgix.net/podcasts/4001764c-0c5c-11f1-9832-afb7361ad990/image/b7c2ee0fc513f194daf53ed426139180.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
