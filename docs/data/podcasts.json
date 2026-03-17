@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-17T08:07:24.908Z",
+    "updatedAt": "2026-03-17T15:03:14.082Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "460 与李菁漫谈海外「中国学」大家访谈录",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69b91dd2f8b8079bface7421?utm_source=rss",
+      "pubDate": "2026-03-17T09:43:33.000Z",
+      "duration": "01:20:29",
+      "summary": "- 导语 - 从费正清到傅高义，再到裴宜理与伊沛霞，这一长串名字构成了北美中国研究领域的「群星闪耀时」。李菁历时十余年，跨越重洋，在哈佛、在伯克利，面对面记录下这些知名学者与中国交缠一生的学术命途。裴宜理的父亲为何在抗日战争中落入上海集中营？周锡瑞的妻子叶娃女士的家庭在太平天国中经历了何种传奇迁徙？当声名显赫的学生开始反思导师费正清的学术范式时，海外中国学研究发生了怎样的转向？欢迎收听本期嘉宾李菁",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1450,17 +1461,6 @@
       "duration": "01:01:15",
       "summary": "We are one year into Trump’s second term. And it feels like so much has happened – more than the human mind, or the country, can absorb. But how much has Trump really accomplished? What policies have ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "中统局往事06｜乱世末路与特务群像：张冲、黄凯、季源溥及其他",
-      "link": "https://www.xiaoyuzhoufm.com/episode/696a0287109824f9e1d38758?utm_source=rss",
-      "pubDate": "2026-01-16T09:56:01.000Z",
-      "duration": "00:03:00",
-      "summary": "- 导语 - 在中统这台政治机器中，并非人人顺遂登顶。从才华横溢有志难酬的张冲，到派系倾轧中黯然离场的黄凯，再到被埋没的天才特工周光亚，中统的中层干部中其实存在着许多「失意者」。留美、留德、留苏的不同背景如何成为国民党派系斗争的基础？源自司法系统的「反省院」制度，如何被中统渗透掌握？上层政府改革，第三代局长季源溥如何应对中统经济危机？请听郑诗亮带来的精彩分享！ 《谍海轶闻｜中统局往事》将回溯中统局",
-      "art": "https://image.xyzcdn.net/FnrQGrCG1Qc-dgRYP0rOPm2tVpeL.png"
     },
     {
       "showId": "weirdo",
