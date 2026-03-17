@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-16T20:29:26.382Z",
+    "updatedAt": "2026-03-17T08:07:24.908Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "A trucker, a farmer, and an entrepreneur walk into a global supply shock",
+      "link": "https://www.npr.org/2026/03/17/nx-s1-5749289/a-trucker-a-farmer-and-an-entrepreneur-walk-into-a-global-supply-shock",
+      "pubDate": "2026-03-17T07:05:03.000Z",
+      "duration": "534",
+      "summary": "The U.S. and Israel war with Iran is causing a shock to the economic system. Gas prices are higher, diesel too, and even fertilizer is being affected. Today on the show, we speak to three people about",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2Fb7%2Fcd6ec09c4308a5ca1060528edbe5%2Fab32bb6c-d6f6-4cec-81ee-4234361015b1.jpg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Travis Kalanick & Michael Dell Live from Austin, Texas",
+      "link": "https://allinchamathjason.libsyn.com/travis-kalanick-michael-dell-live-from-austin-texas",
+      "pubDate": "2026-03-17T04:11:00.000Z",
+      "duration": "01:15:56",
+      "summary": "(0:00) Travis Kalanick: Officially exiting stealth mode, what he's been working on (5:52) How to automate the physical world, markets to go after (11:00) Return to self-driving: Tesla, Waymo, and the ",
+      "art": "https://static.libsyn.com/p/assets/0/a/4/e/0a4edf4c234bcad516c3140a3186d450/1_Pod_TKMD-20260317-ys2ryzxzls.png"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -880,17 +902,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Do traders who place big bets make big money?",
-      "link": "https://www.npr.org/2026/02/24/nx-s1-5723935/do-traders-who-place-big-bets-make-big-money",
-      "pubDate": "2026-02-24T08:00:00.000Z",
-      "duration": "570",
-      "summary": "We’re going whale watching today. No, not orcas or great blues, but financial traders that place big bets on something called options. On today’s show, who are these option whales and do their bets al",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F65%2Fda%2F6fc1516e40b7889afdadad49278b%2Fc914bdd1-8dfc-4474-93c6-ed5a3071f07a.png"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1340,17 +1351,6 @@
       "duration": "01:05:43",
       "summary": "(0:00) The Besties introduce Dr. Oz (3:26) Trump's vision for healthcare in America (13:26) AI & self-directed healthcare (30:10) The future of GLP-1s and affordability (35:06) The Medical Fraud Crisi",
       "art": "https://static.libsyn.com/p/assets/f/9/a/f/f9afb2c64cb8476ed959afa2a1bf1c87/1_Pod_DrOz.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Coinbase CEO's Top 3 Crypto Trends for 2026 + More from Davos!",
-      "link": "https://allinchamathjason.libsyn.com/coinbase-ceo-brian-armstrong-breaks-down-the-three-biggest-trends-in-crypto-more-from-davos",
-      "pubDate": "2026-01-23T18:37:00.000Z",
-      "duration": "01:35:15",
-      "summary": "(0:00) Intro (0:37) Coinbase CEO, Brian Armstrong on Crypto Adoption (38:51) Cerebras CEO, Andrew Feldman on Compute Power (1:18:50) Gecko Robotics CEO, Jake Loosararian on AI and Physical Robots This",
-      "art": "https://static.libsyn.com/p/assets/8/d/2/5/8d25cfe18fcfe1f7d959afa2a1bf1c87/1_Pod_BA_Davosi.png"
     },
     {
       "showId": "talksat",
