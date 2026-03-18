@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-17T20:30:51.179Z",
+    "updatedAt": "2026-03-18T08:05:53.139Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "How much is the Iran war costing us?",
+      "link": "https://www.npr.org/2026/03/18/nx-s1-5751161/how-much-is-the-iran-war-costing-us",
+      "pubDate": "2026-03-18T07:00:00.000Z",
+      "duration": "507",
+      "summary": "It’s really hard to estimate the total cost of war in the middle of one. Over the first six days of the Iran war, an estimated $11.3 billion was charged to the public purse. But long-term costs take y",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F86%2F79%2F6f1d117d4a39bf2ffe62f6970fe2%2F475c2b43-4d65-45dc-8c5c-f68d1b247b47.jpg"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -867,17 +878,6 @@
       "duration": "8172",
       "summary": "Joe sits down with retired boxer Terence Crawford, a three-division undisputed champion who retired 42–0.www.youtube.com/@TBudCrawfordOfficialwww.tbudcrawford.com Perplexity: Download the app or ask P",
       "art": "https://megaphone.imgix.net/podcasts/092ec28a-11e5-11f1-8b95-7fb90e30ebad/image/34f2d584009501cefef390893f5b31fa.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "What an Epstein recording reveals about how elites get jobs",
-      "link": "https://www.npr.org/2026/02/25/nx-s1-5725005/what-an-epstein-recording-reveals-about-how-elites-get-jobs",
-      "pubDate": "2026-02-25T08:00:00.000Z",
-      "duration": "545",
-      "summary": "What do the latest batch of documents tell us about convicted sex offender Jeffrey Epstein and elite networking? Quite a bit. Today on the show, we analyze one exchange between Epstein and a former wo",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F17%2F62%2F90218fe54c1c9d7608943770ea29%2F983b92c7-9a38-4d5a-85ca-db6d1b955a87.png"
     },
     {
       "showId": "jre",
