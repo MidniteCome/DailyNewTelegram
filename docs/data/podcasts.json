@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-18T15:10:51.779Z",
+    "updatedAt": "2026-03-18T20:27:32.607Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2469 - Brigham Buhler",
+      "link": "https://traffic.megaphone.fm/GLT6380258189.mp3?updated=1773855347",
+      "pubDate": "2026-03-18T17:00:00.000Z",
+      "duration": "8851",
+      "summary": "Brigham Buhler is the founder and CEO of Ways2Well, a functional and regenerative care clinic, and owner of ReviveRx Pharmacy.www.ways2well.comwww.reviverx.com Perplexity: Download the app or ask Perp",
+      "art": "https://megaphone.imgix.net/podcasts/b2abb190-2290-11f1-bc41-bf008ae2facb/image/f99b8dec7675ce56a02bfefa7fc3b7dd.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "talksat",
       "showName": "Talks at GS",
@@ -999,17 +1010,6 @@
       "duration": "01:11:59",
       "summary": "It has been harder to get insight into the dynamics of President Trump’s White House this term compared with the first one, partly because there have been fewer leaks. But after the attack on Venezuel",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2457 - Michael Malice",
-      "link": "https://traffic.megaphone.fm/GLT3522571789.mp3?updated=1771553043",
-      "pubDate": "2026-02-19T18:00:00.000Z",
-      "duration": "10031",
-      "summary": "Michael Malice is a cultural commentator, author, and host of the “Your Welcome” podcast. His next book is the graphic novel \"Unwanted.\"unwantedbook.comwww.youtube.com/@MichaelMaliceofficialmalice.loc",
-      "art": "https://megaphone.imgix.net/podcasts/5dc91c9c-0d48-11f1-9d84-cbfe008edf29/image/d77f8fc7a91cf3a7d032c847532a79d2.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
