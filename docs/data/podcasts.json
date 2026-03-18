@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-18T08:05:53.139Z",
+    "updatedAt": "2026-03-18T15:10:51.779Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "Wounded Warrior Project CEO on Leadership, Mental Health, and Coming Home",
+      "link": "https://traffic.megaphone.fm/GLD5207362325.mp3",
+      "pubDate": "2026-03-18T14:44:00.000Z",
+      "duration": "1226",
+      "summary": "Wounded Warrior Project brings every warrior home—mind, body, and soul—through no-cost programs spanning mental health, financial readiness, and careers. Lt. Gen. (Ret.) Walter Piatt, CEO of Wounded W",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "John Fetterman: The Rogue Democrat Who Broke Party Ranks",
+      "link": "https://allinchamathjason.libsyn.com/john-fetterman-the-rogue-democrat-who-broke-party-ranks",
+      "pubDate": "2026-03-18T11:35:00.000Z",
+      "duration": "45:27",
+      "summary": "(0:00) David Friedberg welcomes Senator John Fetterman; SAVE Act thoughts (1:08) The broken Democratic Party: TDS, what he stands for, why the party changed, losing bipartisanship, popularity with Rep",
+      "art": "https://static.libsyn.com/p/assets/d/6/0/0/d600e7bd196e13efd959afa2a1bf1c87/1_Pod_Fetterman-20260318-2m8836kv91.png"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1353,17 +1375,6 @@
       "art": "https://static.libsyn.com/p/assets/9/6/b/2/96b2ada7362760d716c3140a3186d450/1_Pod_JA_Davos.png"
     },
     {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Dr. Mehmet Oz on Fixing American Healthcare + Fraud | Live from Davos",
-      "link": "https://allinchamathjason.libsyn.com/healthcare-needs-builders-not-bureaucrats-dr-mehmet-oz-live-from-davos",
-      "pubDate": "2026-01-24T06:19:00.000Z",
-      "duration": "01:05:43",
-      "summary": "(0:00) The Besties introduce Dr. Oz (3:26) Trump's vision for healthcare in America (13:26) AI & self-directed healthcare (30:10) The future of GLP-1s and affordability (35:06) The Medical Fraud Crisi",
-      "art": "https://static.libsyn.com/p/assets/f/9/a/f/f9afb2c64cb8476ed959afa2a1bf1c87/1_Pod_DrOz.png"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1702,17 +1713,6 @@
       "pubDate": "2025-12-03T18:14:00.000Z",
       "duration": "1683",
       "summary": "Man Group is a global alternative investment management firm with approximately $213 billion in assets under management. Robyn Grew, CEO of Man Group, joins John Storey, global co-head of Equities Dis",
-      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "talksat",
-      "showName": "Talks at GS",
-      "category": "finance",
-      "title": "The Future of Global Travel: Trip.com Group CEO Jane Sun",
-      "link": "https://traffic.megaphone.fm/GLD4307243288.mp3",
-      "pubDate": "2025-12-03T00:00:00.000Z",
-      "duration": "1447",
-      "summary": "Trip.com Group has revolutionized the travel industry with its focus on the customer and innovation. CEO Jane Sun explains how the company has adapted to changing market trends and harnessed technolog",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
