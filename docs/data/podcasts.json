@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-19T14:55:06.397Z",
+    "updatedAt": "2026-03-19T20:28:24.199Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
+      "link": "https://allinchamathjason.libsyn.com/jensen-huang-live-nvidias-future-physical-ai-rise-of-the-agent-inference-explosion-ai-pr-crisis",
+      "pubDate": "2026-03-19T18:05:00.000Z",
+      "duration": "01:06:41",
+      "summary": "(0:00) Jensen Huang joins the show! (1:00) Acquiring Groq and the inference explosion (9:27) Decision making at the world's most valuable company (11:22) Physical AI's $50T market, OpenClaw's future, ",
+      "art": "https://static.libsyn.com/p/assets/5/e/7/0/5e700e85441bf0e216c3140a3186d450/1_Pod_Jensen.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2470 - Pierre Poilievre",
+      "link": "https://traffic.megaphone.fm/GLT7364954068.mp3?updated=1773938133",
+      "pubDate": "2026-03-19T17:00:00.000Z",
+      "duration": "8947",
+      "summary": "The Honourable Pierre Poilievre is a Canadian politician serving as the leader of the Conservative Party and leader of the Official Opposition. He has been the Member of Parliament for Battle River—Cr",
+      "art": "https://megaphone.imgix.net/podcasts/465f6ad6-234e-11f1-9bab-3ff4ead8d665/image/1ff7433b5b2375acca76e9936372f27e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -1012,17 +1034,6 @@
       "art": "https://static.libsyn.com/p/assets/b/9/c/2/b9c2f0717aed08bcd959afa2a1bf1c87/1x1_CLASSIC_E.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2458 - Matt McCusker",
-      "link": "https://traffic.megaphone.fm/GLT4339942079.mp3?updated=1771610771",
-      "pubDate": "2026-02-20T18:00:00.000Z",
-      "duration": "10146",
-      "summary": "Matt McCusker is a comedian, writer, actor, and co-host of “Matt and Shane’s Secret Podcast” with Shane Gillis. His most recent special, “Matt McCusker: A Humble Offering,” is streaming on Netflix.www",
-      "art": "https://megaphone.imgix.net/podcasts/6ed322c4-0e0d-11f1-abd8-c730efb6d9e8/image/47f12612493ae037ca5ba41383790cbb.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1373,17 +1384,6 @@
       "duration": "15438",
       "summary": "The NFL is nearly synonymous with America today. Practically nothing is more quintessentially and universally American than tuning in every Sunday (and Monday, and Thursday… and sometimes Saturdays an",
       "art": "https://img.transistorcdn.com/0W9LXPciU-Mg9c-bq6cYJitjm_JtnvF9S-OKbe-GC14/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hYWU0/NDEyNTY4ZmZjNzQ5/N2Y0NzdjZDdmOWRh/ZDllMC5wbmc.jpg"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "The Future of Everything: What CEOs of Circle, CrowdStrike & More See Coming in 2026",
-      "link": "https://allinchamathjason.libsyn.com/the-future-of-everything-what-ceos-of-circle-crowdstrike-more-see-coming-in-2026",
-      "pubDate": "2026-01-25T19:52:00.000Z",
-      "duration": "02:14:41",
-      "summary": "(0:00) Intro (0:50) Circle CEO Jeremy Allaire on stablecoins post-GENIUS Act, interest rate impact, growth in 2026, and the future of money in an AI world (52:33) CrowdStrike CEO George Kurtz on cyber",
-      "art": "https://static.libsyn.com/p/assets/9/6/b/2/96b2ada7362760d716c3140a3186d450/1_Pod_JA_Davos.png"
     },
     {
       "showId": "talksat",
