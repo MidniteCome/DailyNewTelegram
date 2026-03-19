@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-03-18",
+  "lastRun": "2026-03-19",
   "feeds": [
     {
       "name": "Stratechery",
@@ -89,9 +89,10 @@
     {
       "name": "Hacker News",
       "url": "https://hnrss.org/frontpage",
-      "ok": true,
-      "itemCount": 20,
-      "consecutiveFails": 0
+      "ok": false,
+      "itemCount": 0,
+      "consecutiveFails": 1,
+      "error": "fetch failed"
     },
     {
       "name": "V2EX 技术",
@@ -125,9 +126,10 @@
     {
       "name": "Dwarkesh Patel",
       "url": "https://www.dwarkeshpatel.com/feed",
-      "ok": true,
-      "itemCount": 20,
-      "consecutiveFails": 0
+      "ok": false,
+      "itemCount": 0,
+      "consecutiveFails": 1,
+      "error": "fetch failed"
     },
     {
       "name": "The Gradient",
@@ -210,7 +212,7 @@
       "name": "email",
       "url": "sources/newsletters.json",
       "ok": true,
-      "itemCount": 40,
+      "itemCount": 38,
       "consecutiveFails": 0,
       "skipped": false
     }
