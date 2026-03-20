@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-19T20:28:24.199Z",
+    "updatedAt": "2026-03-20T08:01:45.010Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,14 +165,25 @@
   ],
   "episodes": [
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Trump and truckers, Poland prospers, and a booming ant biz",
+      "link": "https://www.npr.org/2026/03/20/nx-s1-5753979/trump-and-truckers-poland-prospers-and-a-booming-ant-biz",
+      "pubDate": "2026-03-20T07:00:00.000Z",
+      "duration": "569",
+      "summary": "It’s Indicators of the Week (now on YouTube !). It’s our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: The Trump administration cracks down on immigra",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcf%2F22%2F33d9dd2247559c65ce9fd254eb69%2Fe1083f83-5b71-40e6-b574-f6edca226f39.png"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
       "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
       "link": "https://allinchamathjason.libsyn.com/jensen-huang-live-nvidias-future-physical-ai-rise-of-the-agent-inference-explosion-ai-pr-crisis",
-      "pubDate": "2026-03-19T18:05:00.000Z",
-      "duration": "01:06:41",
-      "summary": "(0:00) Jensen Huang joins the show! (1:00) Acquiring Groq and the inference explosion (9:27) Decision making at the world's most valuable company (11:22) Physical AI's $50T market, OpenClaw's future, ",
+      "pubDate": "2026-03-19T20:42:00.000Z",
+      "duration": "01:06:06",
+      "summary": "(0:00) Jensen Huang joins the show! (0:26) Acquiring Groq and the inference explosion (8:53) Decision making at the world's most valuable company (10:47) Physical AI's $50T market, OpenClaw's future, ",
       "art": "https://static.libsyn.com/p/assets/5/e/7/0/5e700e85441bf0e216c3140a3186d450/1_Pod_Jensen.png"
     },
     {
@@ -889,17 +900,6 @@
       "duration": "00:03:00",
       "summary": "- 导语 - 1918年，俄国内战激战正酣，西伯利亚成为各方角逐的战场。曾经的海军名将与北极探险家高尔察克，在乱世中被推举为俄国的「最高统治者」。然而，高尔察克这场看似拥有西方列强支持的反攻，最终却在西伯利亚的极寒荒野中演变成了一场全线崩溃的悲剧大撤退。一位科学家和海军将领，在内战期间怎样辗转成为西伯利亚的白军领袖？因「一战」而滞留俄国，捷克军团在俄国内战发挥了怎样的特殊作用？高尔察克的军队如何向",
       "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "ICE is bad for business, heat is bad for coffee, and sci-fi is bad for markets",
-      "link": "https://www.npr.org/2026/02/27/nx-s1-5728156/ice-is-bad-for-business-heat-is-bad-for-coffee-and-sci-fi-is-bad-for-markets",
-      "pubDate": "2026-02-27T08:00:00.000Z",
-      "duration": "565",
-      "summary": "It’s … Indicators of the Week (now on YouTube!), our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: How Minnesota workers were affected by Operation Me",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbe%2F9e%2Fc5c610f04028beecade33651969e%2F0a21d384-b129-453d-bc58-90c54a9295e2.png"
     },
     {
       "showId": "weirdo",
