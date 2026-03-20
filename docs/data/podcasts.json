@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-20T14:50:29.126Z",
+    "updatedAt": "2026-03-20T20:22:34.509Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,6 +165,28 @@
   ],
   "episodes": [
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2471 - Mark Normand",
+      "link": "https://traffic.megaphone.fm/GLT8510219084.mp3?updated=1774024727",
+      "pubDate": "2026-03-20T17:00:00.000Z",
+      "duration": "10147",
+      "summary": "Mark Normand is a stand-up comedian, actor, and co-host of the podcasts “Tuesdays with Stories!” and “We Might Be Drunk.” His new special, “None Too Pleased,” is now streaming on Netflix.www.netflix.c",
+      "art": "https://megaphone.imgix.net/podcasts/42dbc4f4-240c-11f1-89a6-23fb3061ef44/image/3d656b0e42090afb63ea620771d178d7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "Steven Mnuchin: Navigating Credit Cycles, AI Investment, and Fiscal Policy",
+      "link": "https://traffic.megaphone.fm/GLD9439553440.mp3",
+      "pubDate": "2026-03-20T14:52:00.000Z",
+      "duration": "1270",
+      "summary": "Steven Mnuchin, former U.S. Treasury Secretary and Goldman Sachs partner alum, brings decades of experience navigating financial markets, public policy, and economic crises. In this conversation with ",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -213,9 +235,9 @@
       "showName": "Joe Rogan Experience",
       "category": "general",
       "title": "#2470 - Pierre Poilievre",
-      "link": "https://traffic.megaphone.fm/GLT7364954068.mp3?updated=1773938133",
+      "link": "https://traffic.megaphone.fm/GLT7364954068.mp3?updated=1774034469",
       "pubDate": "2026-03-19T17:00:00.000Z",
-      "duration": "8947",
+      "duration": "8889",
       "summary": "The Honourable Pierre Poilievre is a Canadian politician serving as the leader of the Conservative Party and leader of the Official Opposition. He has been the Member of Parliament for Battle River—Cr",
       "art": "https://megaphone.imgix.net/podcasts/465f6ad6-234e-11f1-9bab-3ff4ead8d665/image/1ff7433b5b2375acca76e9936372f27e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -979,17 +1001,6 @@
       "art": "https://megaphone.imgix.net/podcasts/092ec28a-11e5-11f1-8b95-7fb90e30ebad/image/34f2d584009501cefef390893f5b31fa.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2459 - Jim Breuer",
-      "link": "https://traffic.megaphone.fm/GLT4266228236.mp3?updated=1772513097",
-      "pubDate": "2026-02-24T18:00:00.000Z",
-      "duration": "10730",
-      "summary": "Jim Breuer is a stand-up comedian, actor, and host of “The Breuniverse Podcast.” He is touring in 2026 with the “Find the Funny” tour.www.youtube.com/@JimBreuerwww.jimbreuer.com/ Perplexity: Download ",
-      "art": "https://megaphone.imgix.net/podcasts/52ac7674-1130-11f1-ac6f-47dec182ca1d/image/89aba1c16ce0424f1128181285fdc8e5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1714,17 +1725,6 @@
       "duration": "1:06:10",
       "summary": "当麦肯锡、德勤等全球大公司都在削减入门岗位，因为那些工作 AI 已比新人做得更快更好时，直接给这些公司输送人才的商学院还能教什么，怎么教？ 过去十几年里，商学院的改革基本围绕着给自己的各种课程贴上「数据分析」的标签。但当 AI 性能一日千里，原本构成商业世界入口的那套技能体系正在松动：入门岗位减少、训练路径被压缩，商学院的处境也变得尴尬。 这期节目，我们和在美国一所文理学院任教的陈燚老师一起，聊了",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "talksat",
-      "showName": "Talks at GS",
-      "category": "finance",
-      "title": "Managing the World’s Largest Publicly Traded Hedge Fund: Man Group CEO Robyn Grew",
-      "link": "https://traffic.megaphone.fm/GLD3804308392.mp3",
-      "pubDate": "2025-12-03T18:14:00.000Z",
-      "duration": "1683",
-      "summary": "Man Group is a global alternative investment management firm with approximately $213 billion in assets under management. Robyn Grew, CEO of Man Group, joins John Storey, global co-head of Equities Dis",
-      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "lexfridman",
