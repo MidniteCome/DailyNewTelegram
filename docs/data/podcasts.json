@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-20T08:01:45.010Z",
+    "updatedAt": "2026-03-20T14:50:29.126Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "继业者1918｜伊本·沙特的崛起之路：从沙漠争霸到现代石油王国",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69bd0f8a2d318777c9e2125c?utm_source=rss",
+      "pubDate": "2026-03-20T09:56:29.000Z",
+      "duration": "00:03:00",
+      "summary": "- 导语 - 位于东西方文明交汇处的阿拉伯半岛，从帝国夹缝的边陲逐渐成为全球博弈的中心。从在古罗马和波斯间的反复横跳，到近代与奥斯曼和英国人周旋，生存与发育始终是这片土地的法则。一代传奇伊本·沙特以数十骑夜袭利雅得为开端，借助瓦哈比派的力量逐步统一内陆，在第一次世界大战奥斯曼帝国崩溃的乱局中异军突起，击败诸多对手称霸半岛，最终依托石油财富建立起延续至今的沙特王国。他是如何利用地缘机遇扩张势力，又在",
+      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Naomi Klein on Trumpism and Our Age of ‘Unlikely Bedfellows’",
+      "link": "https://www.nytimes.com/2026/03/20/opinion/ezra-klein-podcast-naomi-klein.html",
+      "pubDate": "2026-03-20T09:00:00.000Z",
+      "duration": "01:20:04",
+      "summary": "Naomi Klein saw where our politics was headed before most people on the left. Her 2023 book “Doppelganger: A Trip Into the Mirror World” is hard to describe. But among other things, it traces the new ",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1452,17 +1474,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "454 对话赵鼎新：当你从干毛巾里挤出东海的水，学问才开始",
-      "link": "https://www.xiaoyuzhoufm.com/episode/696f556bef1cf272a7723adc?utm_source=rss",
-      "pubDate": "2026-01-20T12:35:19.000Z",
-      "duration": "01:42:12",
-      "summary": "- 导语 - 工厂工人、昆虫生态学博士、社会学家，赵鼎新亲历过动荡年代，也完成过从生物学到社会学的跨界。带上多重视角成为知名学者，那些从上海到宁夏的经历，如何影响了他的学术研究路径？生物学和时代的眼光如何被他带到了社会学？「儒法国家」在今天具有怎样的解释力？为什么他说「视角的改变」远比「材料的发现」更重要？请听本期嘉宾赵鼎新老师的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierG",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -1472,17 +1483,6 @@
       "duration": "32:16",
       "summary": "一位生活在首都的委内瑞拉青年，在美军突袭那晚经历了一场怎样的惊心动魄？从小到大，他又如何见证了国家从石油时代的繁荣巅峰，一步步坠入动荡与贫困的深渊 ？ 2026 年 1 月 3 号，美军突袭委内瑞拉首都并抓捕其总统马杜罗的消息震惊全球。而这场突如其来的巨变，也让这个命运多舛的国家再次被推到了命运的十字路口。 这期节目，我们采访了从小生活在首都加拉加斯的委内瑞拉青年 Andrés，他回忆了自己在 1",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Has Trump Achieved a Lot Less Than It Seems?",
-      "link": "https://www.nytimes.com/2026/01/16/opinion/ezra-klein-podcast-yuval-levin.html",
-      "pubDate": "2026-01-16T10:00:00.000Z",
-      "duration": "01:01:15",
-      "summary": "We are one year into Trump’s second term. And it feels like so much has happened – more than the human mind, or the country, can absorb. But how much has Trump really accomplished? What policies have ",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "weirdo",
