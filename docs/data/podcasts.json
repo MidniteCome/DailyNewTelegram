@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-20T20:22:34.509Z",
+    "updatedAt": "2026-03-21T07:52:59.820Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20Sales: Inside Figma's $1BN ARR Revenue Machine | Why We Do Not Have Customer Success or SDRs | Why I Do Not Believe in Sales Quotas with Shaunt Voskanian, CRO @ Figma",
+      "link": "https://thetwentyminutevc.libsyn.com/20sales-inside-figmas-1bn-arr-revenue-machine-why-we-do-not-have-customer-success-or-sdrs-why-i-do-not-believe-in-sales-quotas-with-shaunt-voskanian-cro-figma",
+      "pubDate": "2026-03-21T07:07:00.000Z",
+      "duration": "01:02:50",
+      "summary": "Shaunt Voskanian is the CRO @ Figma, where he has scaled the sales machine to over $1BN in ARR and over 400 people. Prior to Figma, Shaunt was Senior VP of Global Sales at Datadog where he scaled the ",
+      "art": "https://static.libsyn.com/p/assets/d/3/1/0/d310c52545205b2dd959afa2a1bf1c87/WhatsApp_Image_2026-03-19_at_19.05.35.jpeg"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "心流到来时，世界“暂时消失”",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69bbc9153c625cc5ae21bf5d?utm_source=rss",
+      "pubDate": "2026-03-21T00:00:00.000Z",
+      "duration": "01:15:42",
+      "summary": "【主播的话】 你或许听过“心流“的概念——在越来越快的当下，我们常常会有这样的体验：注意力被日常信息反复打断，很难获得哪怕十分钟的内心安宁。技术在发展、社会在进步，但我们的内心却常常漂浮着难以解释的空虚。有研究指出，人类最稳定、最持久的幸福体验，并不来自休息或享乐，而是一种高度专注的状态，那就是“心流”。 1970年代，心理学家米哈里·契克森米哈赖对运动员、艺术家、音乐家进行了大量深度的访谈，提出",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -1100,17 +1122,6 @@
       "art": "https://static.libsyn.com/p/assets/3/4/a/d/34adc3c3d725a40ed959afa2a1bf1c87/WhatsApp_Image_2026-02-13_at_15.41.16.jpeg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Sales: Inside ElevenLabs $330M ARR Sales Machine | The 20x Sales Comp Plan Reps Must Hit | How to Land and Expand in a World of AI | Why Product-Market-Fit is BS, Reps Should Not Be in the Office and Outbound is King with Carles Reina",
-      "link": "https://thetwentyminutevc.libsyn.com/20sales-inside-elevenlabs-330m-arr-sales-machine-the-20x-sales-comp-plan-reps-must-hit-how-to-land-and-expand-in-a-world-of-ai-why-product-market-fit-is-bs-reps-should-not-be-in-the-office-and-outbound-is-king-with-carles-reina",
-      "pubDate": "2026-02-14T12:48:00.000Z",
-      "duration": "01:14:44",
-      "summary": "Carles Reina is VP of Sales at ElevenLabs, where he was the first investor and fourth employee. Carles has scaled the revenue org from Day 1 to over $330M in just 3 years. Carles is also an active inv",
-      "art": "https://static.libsyn.com/p/assets/f/4/4/5/f445a5e88c344e9fd959afa2a1bf1c87/WhatsApp_Image_2026-02-12_at_13.13.57.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1890,17 +1901,6 @@
       "duration": "14798",
       "summary": "Google faces the greatest innovator's dilemma in history. They invented the Transformer — the breakthrough technology powering every modern AI system from ChatGPT to Claude (and, of course, Gemini). T",
       "art": "https://img.transistorcdn.com/y4nQdH_zx3Uiyr6Ege0RkhfJtRXIVZUB6JJ34AeqLko/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xOTY3/YzI4NjFjYzg4NWFl/NjY1YjZlM2E0ZDI3/MWE0OC5qcGc.jpg"
-    },
-    {
-      "showId": "weirdo",
-      "showName": "不合时宜",
-      "category": "zh",
-      "title": "印尼抗议背后：经济不平等、殖民历史及与华人的关系",
-      "link": "https://www.xiaoyuzhoufm.com/episode/68de11318e321a0d6facf10f?utm_source=rss",
-      "pubDate": "2025-10-02T05:53:23.000Z",
-      "duration": "00:34:12",
-      "summary": "【主播的话】 今年8月29日，印尼雅加达示威中，21岁网约司机 Affan Kurniawan 被装甲警车碾压致死，引爆了全国愤怒；随后印尼好几个城市都爆发了更大规模抗议——抗议浪潮很快上升为更广泛的反警暴与反特权运动。 在这期国庆加更节目中，我们邀请了历史学博士王乐之从他的视角和我们聊聊印尼这次抗议的特殊之处，以及印尼背后错综复杂的历史及其与华人社群的关系。 【本期主播】 若含 ：微博@_R若含",
-      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
       "showId": "acquired",
