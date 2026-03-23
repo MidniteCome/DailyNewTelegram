@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-23T15:02:21.868Z",
+    "updatedAt": "2026-03-23T20:30:17.787Z",
     "totalEpisodes": 165,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Four CEOs on the Future of AI: CoreWeave, Perplexity, Mistral, and IREN",
+      "link": "https://allinchamathjason.libsyn.com/four-ceos-on-the-future-of-ai-coreweave-perplexity-mistral-and-iren",
+      "pubDate": "2026-03-23T18:07:00.000Z",
+      "duration": "01:37:39",
+      "summary": "(0:00) Intro live from Nvidia GTC (0:37) CoreWeave CEO, Michael Intrator (32:58) Perplexity CEO, Aravind Srinivas (1:07:11) Mistral CEO, Arthur Mensch (1:18:57) IREN CEO, Daniel Roberts Our episode is",
+      "art": "https://static.libsyn.com/p/assets/e/a/2/d/ea2def1e26c2756716c3140a3186d450/1_Pod_BASIC.png"
+    },
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#494 – Jensen Huang: NVIDIA The $4 Trillion Company the AI Revolution",
+      "link": "https://lexfridman.com/jensen-huang/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jensen-huang",
+      "pubDate": "2026-03-23T16:28:42.000Z",
+      "duration": null,
+      "summary": "Jensen Huang is the co-founder and CEO of NVIDIA, the worlds most valuable company and the engine powering the AI computing revolution. Thank you for listening ❤ Check out our sponsors: https://lexfri",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
     {
       "showId": "weirdo",
       "showName": "不合时宜",
@@ -1078,17 +1100,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Epstein Files, Is SaaS Dead?, Moltbook Panic, SpaceX xAI Merger, Trump's Fed Pick",
-      "link": "https://allinchamathjason.libsyn.com/epstein-files-is-saas-dead-moltbook-panic-spacex-xai-merger-trumps-fed-pick-0",
-      "pubDate": "2026-02-07T04:35:00.000Z",
-      "duration": "01:19:22",
-      "summary": "(0:00) Besties intros: Brad Gerstner joins the show (3:16) Epstein Files (15:45) SaaS stocks crash out (35:11) Moltbook panic (47:37) Trump selects Kevin Warsh as new Fed Chair, replacing Jerome Powel",
-      "art": "https://static.libsyn.com/p/assets/8/4/b/9/84b98376fbde2c18d959afa2a1bf1c87/1_Pod_E260-20260207-cu0v3vcuor.png"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1801,17 +1812,6 @@
       "pubDate": "2025-09-04T20:57:38.000Z",
       "duration": "3:41:55",
       "summary": "Dave Hone is a paleontologist, expert on dinosaurs, co-host of the Terrible Lizards podcast, and author of numerous scientific papers and books on the behavior and ecology of dinosaurs. He lectures at",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#479 – Dave Plummer: Programming, Autism, and Old-School Microsoft Stories",
-      "link": "https://lexfridman.com/dave-plummer/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dave-plummer",
-      "pubDate": "2025-08-29T23:59:06.000Z",
-      "duration": null,
-      "summary": "Dave Plummer is a programmer, former Microsoft software engineer (Windows 95, NT, XP), creator of Task Manager, author of two books on autism, and host of the Daves Garage YouTube channel, where he sh",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
