@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-22T20:17:13.268Z",
+    "updatedAt": "2026-03-23T08:13:44.932Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Inside Anduril's $20BN Army Contract & Why Anduril Must Go Public | Why 99% of Drone Companies Will Die | Why There is Never an Ethical Question of How Anduril Products are Used with Matthew Steckman, President @ Anduril",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-inside-andurils-20bn-army-contract-why-anduril-must-go-public-why-99-of-drone-companies-will-die-why-there-is-never-an-ethical-question-of-how-anduril-products-are-used-with-matthew-steckman-president-anduril",
+      "pubDate": "2026-03-23T07:07:00.000Z",
+      "duration": "53:51",
+      "summary": "Matthew Steckman is the President and Chief Business Officer of Anduril. Matt played a central role in securing the $20BN contract Anduril just won with the US military. Prior to Anduril, Matt served ",
+      "art": "https://static.libsyn.com/p/assets/b/8/5/d/b85d16a07f3f9bd5d959afa2a1bf1c87/WhatsApp_Image_2026-03-20_at_19.43.39.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "The multimillion dollar Saturday Night Live UK gamble",
+      "link": "https://www.npr.org/2026/03/23/nx-s1-5754763/the-multimillion-dollar-saturday-night-live-uk-gamble",
+      "pubDate": "2026-03-23T07:00:00.000Z",
+      "duration": "570",
+      "summary": "Live from London, it’s Saturday Night? Saturday Night Live made its UK debut over the weekend after a well-hyped promotional campaign. Will this all-American sketch show translate to British audiences",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F80%2F82%2F16c0e5424a738b85d429a0e67ee0%2Fe36dbac7-f902-495b-a456-5b7e7be59834.png"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "How Matt Mahan Thinks He Can Save California",
+      "link": "https://allinchamathjason.libsyn.com/how-matt-mahan-thinks-he-can-save-california",
+      "pubDate": "2026-03-23T01:03:00.000Z",
+      "duration": "01:17:13",
+      "summary": "(0:00) Matt Mahan: Why He's Running for Governor (1:51) How California Went From Bad to Worse (12:05) Public Sector Unions & Lobbying in Sacramento (19:05) California's Housing Crisis: Regulation & Fe",
+      "art": "https://static.libsyn.com/p/assets/6/b/8/8/6b88af06c8af4151d959afa2a1bf1c87/1_Pod_Mahan.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -902,17 +935,6 @@
       "art": "https://img.transistorcdn.com/ORaQ7w0zdqAScJ9YPCf3I4RKe_muT-If0IMRT5rIuE8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS84MzRh/NWY0NDJlNzAzNDY1/OGY2NThlZDBkYmU1/NzdjMC5wbmc.jpg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Should the families of organ donors be compensated?",
-      "link": "https://www.npr.org/2026/03/02/nx-s1-5729630/should-the-families-of-organ-donors-be-compensated",
-      "pubDate": "2026-03-02T08:00:00.000Z",
-      "duration": "569",
-      "summary": "Two economists get into the business—and stakes—of organ donation, and they argue why the government should financially compensate their families. FYI, we are going on a book tour! Planet Money’s firs",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F36%2F76%2F3eab68d64abf9a69e52c9ee66cb3%2F582cc882-a321-46c0-8c62-2963f24e9c61.png"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1111,17 +1133,6 @@
       "art": "https://static.libsyn.com/p/assets/8/9/4/c/894cc741ae5f84ff16c3140a3186d450/WhatsApp_Image_2026-02-18_at_17.39.12.jpeg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: SaaS is Dead: Why Systems of Record Will Die in an Agentic World | What Revenue Multiple Will Software Companies Trade At? | From 7,000 to 3,000: We Need Less People Than Ever with Sebastian Siemiatkowski",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-saas-is-dead-why-systems-of-record-will-die-in-an-agentic-world-what-revenue-multiple-will-software-companies-trade-at-from-7000-to-3000-we-need-less-people-than-ever-with-sebastian-siemiatkowski",
-      "pubDate": "2026-02-16T07:07:00.000Z",
-      "duration": "01:27:38",
-      "summary": "Sebastian Siemiatkowski is the co-founder and CEO of Klarna, the global digital bank with over 114 million global active users and 3.4 million transactions per day. Seb is one of the leading public co",
-      "art": "https://static.libsyn.com/p/assets/3/4/a/d/34adc3c3d725a40ed959afa2a1bf1c87/WhatsApp_Image_2026-02-13_at_15.41.16.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1318,17 +1329,6 @@
       "duration": null,
       "summary": "Nathan Lambert and Sebastian Raschka are machine learning researchers, engineers, and educators. Nathan is the post-training lead at the Allen Institute for AI (Ai2) and the author of The RLHF Book. S",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "ICE Chaos in Minneapolis, Clawdbot Takeover, Why the Dollar is Dropping",
-      "link": "https://allinchamathjason.libsyn.com/ice-chaos-in-minneapolis-clawdbot-takeover-why-the-dollar-is-dropping",
-      "pubDate": "2026-01-30T23:25:00.000Z",
-      "duration": "01:30:02",
-      "summary": "(0:00) Bestie intros + quick Davos recap (9:55) ICE chaos in Minneapolis: aftermath and reactions to the two recent deaths (45:54) Clawdbot takeover: Jason demos his OpenClawd instances, Kimi K2.5, en",
-      "art": "https://static.libsyn.com/p/assets/7/f/b/3/7fb3e0d2ebe6d56416c3140a3186d450/1_Pod_259.png"
     },
     {
       "showId": "left-right",
