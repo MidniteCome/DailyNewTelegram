@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-03-23T20:30:17.787Z",
-    "totalEpisodes": 165,
+    "updatedAt": "2026-03-24T08:07:50.027Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": null,
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/11f568857987283428d892402e623b21.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -165,6 +165,17 @@
   ],
   "episodes": [
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Why hasn't the Russian economy collapsed?",
+      "link": "https://www.npr.org/2026/03/24/nx-s1-5758059/why-hasnt-the-russian-economy-collapsed",
+      "pubDate": "2026-03-24T07:00:00.000Z",
+      "duration": "571",
+      "summary": "How has Russia’s economy not completely collapsed after four years of war, sanctions and billions in debt? One economist says it is the war that has been propping up Russia's economy, not the other wa",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F88%2F5a%2F345b241d40e1bbe6b8e1091b1cdd%2F79aee1bf-f9bd-4582-b149-67a6fbffcdf1.jpg"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -231,6 +242,17 @@
       "art": "https://static.libsyn.com/p/assets/6/b/8/8/6b88af06c8af4151d959afa2a1bf1c87/1_Pod_Mahan.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "Fight Companion - March 21, 2026",
+      "link": "https://traffic.megaphone.fm/GLT6008208664.mp3",
+      "pubDate": "2026-03-22T00:34:00.000Z",
+      "duration": "12426",
+      "summary": "Joe is joined by Joey Diaz, Brendan Schaub & Eddie Bravo to watch the fights on March 21, 2026. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "art": "https://megaphone.imgix.net/podcasts/ddf4a476-2586-11f1-ab32-17229eb400f5/image/6fe2ef57e6f3a114c77ff71d83576390.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -251,6 +273,17 @@
       "duration": "01:15:42",
       "summary": "【主播的话】 你或许听过“心流“的概念——在越来越快的当下，我们常常会有这样的体验：注意力被日常信息反复打断，很难获得哪怕十分钟的内心安宁。技术在发展、社会在进步，但我们的内心却常常漂浮着难以解释的空虚。有研究指出，人类最稳定、最持久的幸福体验，并不来自休息或享乐，而是一种高度专注的状态，那就是“心流”。 1970年代，心理学家米哈里·契克森米哈赖对运动员、艺术家、音乐家进行了大量深度的访谈，提出",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2471 - Mark Normand",
+      "link": "https://traffic.megaphone.fm/GLT8510219084.mp3?updated=1774024727",
+      "pubDate": "2026-03-20T17:00:00.000Z",
+      "duration": "10147",
+      "summary": "Mark Normand is a stand-up comedian, actor, and co-host of the podcasts “Tuesdays with Stories!” and “We Might Be Drunk.” His new special, “None Too Pleased,” is now streaming on Netflix.www.netflix.c",
+      "art": "https://megaphone.imgix.net/podcasts/42dbc4f4-240c-11f1-89a6-23fb3061ef44/image/3d656b0e42090afb63ea620771d178d7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -278,7 +311,7 @@
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
-      "title": "Naomi Klein on Trumpism and Our Age of ‘Unlikely Bedfellows’",
+      "title": "We’re All Living in the ‘Mirror World’ Now",
       "link": "https://www.nytimes.com/2026/03/20/opinion/ezra-klein-podcast-naomi-klein.html",
       "pubDate": "2026-03-20T09:00:00.000Z",
       "duration": "01:20:04",
@@ -306,6 +339,17 @@
       "duration": "01:06:06",
       "summary": "(0:00) Jensen Huang joins the show! (0:26) Acquiring Groq and the inference explosion (8:53) Decision making at the world's most valuable company (10:47) Physical AI's $50T market, OpenClaw's future, ",
       "art": "https://static.libsyn.com/p/assets/5/e/7/0/5e700e85441bf0e216c3140a3186d450/1_Pod_Jensen.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2470 - Pierre Poilievre",
+      "link": "https://traffic.megaphone.fm/GLT7364954068.mp3?updated=1774034469",
+      "pubDate": "2026-03-19T17:00:00.000Z",
+      "duration": "8889",
+      "summary": "The Honourable Pierre Poilievre is a Canadian politician serving as the leader of the Conservative Party and leader of the Official Opposition. He has been the Member of Parliament for Battle River—Cr",
+      "art": "https://megaphone.imgix.net/podcasts/465f6ad6-234e-11f1-9bab-3ff4ead8d665/image/1ff7433b5b2375acca76e9936372f27e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
@@ -341,6 +385,17 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2469 - Brigham Buhler",
+      "link": "https://traffic.megaphone.fm/GLT6380258189.mp3?updated=1773855347",
+      "pubDate": "2026-03-18T17:00:00.000Z",
+      "duration": "8851",
+      "summary": "Brigham Buhler is the founder and CEO of Ways2Well, a functional and regenerative care clinic, and owner of ReviveRx Pharmacy.www.ways2well.comwww.reviverx.com Perplexity: Download the app or ask Perp",
+      "art": "https://megaphone.imgix.net/podcasts/b2abb190-2290-11f1-bc41-bf008ae2facb/image/f99b8dec7675ce56a02bfefa7fc3b7dd.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -372,6 +427,17 @@
       "duration": "507",
       "summary": "It’s really hard to estimate the total cost of war in the middle of one. Over the first six days of the Iran war, an estimated $11.3 billion was charged to the public purse. But long-term costs take y",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F86%2F79%2F6f1d117d4a39bf2ffe62f6970fe2%2F475c2b43-4d65-45dc-8c5c-f68d1b247b47.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #176 with Dustin Poirier",
+      "link": "https://traffic.megaphone.fm/GLT5960797118.mp3?updated=1773765371",
+      "pubDate": "2026-03-17T17:00:00.000Z",
+      "duration": "10078",
+      "summary": "Joe sits down with Dustin Poirier, a mixed martial artist, entrepreneur, and philanthropist.www.ufc.com/athlete/dustin-poirierwww.thegoodfightgroup.comwww.diamondpoirier.com Perplexity: Download the a",
+      "art": "https://megaphone.imgix.net/podcasts/918a36a4-219a-11f1-bcc8-cf2633b7c80b/image/3bc7f6d5a16338b905202497cc5547fd.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -473,6 +539,17 @@
       "art": "https://static.libsyn.com/p/assets/0/9/0/4/0904d896e43c983a16c3140a3186d450/1_Pod_E264-20260313-7wen55e4z1.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2468 - Luke Grimes",
+      "link": "https://traffic.megaphone.fm/GLT6232108793.mp3?updated=1773423047",
+      "pubDate": "2026-03-13T17:00:00.000Z",
+      "duration": "9932",
+      "summary": "Luke Grimes is an actor and musician who stars as Kayce Dutton in the “Yellowstone” spin-off series “Marshals,” airing Sundays at 8 PM Pacific / 7 PM Central on CBS and available to stream on Paramoun",
+      "art": "https://megaphone.imgix.net/podcasts/1700727e-1efa-11f1-a99e-1ff94ba1d0e9/image/267566941397af0f4962aeaffc6ef20f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -493,6 +570,17 @@
       "duration": "512",
       "summary": "It’s Indicators of the Week (now on YouTube !), our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: How big is this gas crisis and could releasing oil r",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F36%2F8f%2F7cb953364d14a616960681008d7f%2F90ad4da4-5da0-4bef-ae54-7b4bddc442a3.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2467 - Michael Pollan",
+      "link": "https://traffic.megaphone.fm/GLT9240266292.mp3?updated=1773332833",
+      "pubDate": "2026-03-12T17:00:00.000Z",
+      "duration": "8968",
+      "summary": "Michael Pollan is an author and journalist whose books include “The Omnivore’s Dilemma,” “In Defense of Food,” and “How to Change Your Mind.\" His most recent is “A World Appears: A Journey into Consci",
+      "art": "https://megaphone.imgix.net/podcasts/40229214-1dc3-11f1-9a66-9bdf22d08247/image/1eaaa0f2804306841810c39225ce146d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
@@ -550,6 +638,17 @@
       "art": "https://static.libsyn.com/p/assets/2/b/1/1/2b11f96acce6acefd959afa2a1bf1c87/1_Pod_SEC_CTFC.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2466 - Francis Foster & Konstantin Kisin",
+      "link": "https://traffic.megaphone.fm/GLT6188587702.mp3?updated=1773331947",
+      "pubDate": "2026-03-11T17:00:00.000Z",
+      "duration": "11716",
+      "summary": "Francis Foster is a comic and author of \"(Un)educated.\" Konstantin Kisin is a political commentator and author of \"An Immigrant's Love Letter to the West.\" Together, they host the podcast \"Triggernome",
+      "art": "https://megaphone.imgix.net/podcasts/a208aa0c-1d02-11f1-aa23-570a0b9773c2/image/4486a32c894ab9dc5cf3e85b1b9156bb.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -559,6 +658,17 @@
       "duration": "561",
       "summary": "During the pandemic, mostly unregulated lenders went after struggling restaurants and music venues, charging at times sky high rates. Now, they’ve found a new market: small businesses that desperately",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F81%2F34%2F00fab59b43df94c225274269fe69%2F5d54841b-64ea-495f-8e40-dcc0b1a38a25.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2465 - Michael Shellenberger",
+      "link": "https://traffic.megaphone.fm/GLT5167173774.mp3?updated=1773184653",
+      "pubDate": "2026-03-10T17:00:00.000Z",
+      "duration": "10970",
+      "summary": "Michael Shellenberger is an author, journalist, and founder of Civilization Works. He is the CBR Chair of Politics, Censorship, and Free Speech at the University of Austin. His books include “Apocalyp",
+      "art": "https://megaphone.imgix.net/podcasts/716eb582-1c33-11f1-b043-234795f83a6d/image/4df581ddf95a227958278cf58ba8db77.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -649,6 +759,17 @@
       "art": "https://static.libsyn.com/p/assets/b/7/3/e/b73ea6126fadf37e16c3140a3186d450/WhatsApp_Image_2026-03-06_at_19.27.35.jpeg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #175 with Shakur Stevenson",
+      "link": "https://traffic.megaphone.fm/GLT3513799155.mp3?updated=1772820744",
+      "pubDate": "2026-03-06T18:00:00.000Z",
+      "duration": "8265",
+      "summary": "Joe sits down with Shakur Stevenson, a professional boxer, four-time world champion, and Olympic medalist. https://www.youtube.com/@ShakurStevensonTV https://www.boxrec.com/en/box-pro/790719 Perplexit",
+      "art": "https://megaphone.imgix.net/podcasts/a5d23722-191d-11f1-ae5b-27ef4b14a447/image/93489171c394bb97b22f50269f5db267.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -704,6 +825,17 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2464 - Priyanka Chopra Jonas",
+      "link": "https://traffic.megaphone.fm/GLT2092384352.mp3?updated=1772732458",
+      "pubDate": "2026-03-05T18:00:00.000Z",
+      "duration": "9038",
+      "summary": "Priyanka Chopra Jonas is an actor, producer, entrepreneur and former Miss World. She stars in the ongoing series “Citadel” and the film “The Bluff,” both streaming on Prime Video.www.amazon.com/gp/vid",
+      "art": "https://megaphone.imgix.net/podcasts/1487e05a-183c-11f1-af2d-4b5ae497d50c/image/8512dfc194c488269f1db5662aa4af09.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -737,6 +869,17 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2463 - Steve-O",
+      "link": "https://traffic.megaphone.fm/GLT3708306002.mp3?updated=1772646504",
+      "pubDate": "2026-03-04T18:00:00.000Z",
+      "duration": "9825",
+      "summary": "Steve-O is a stunt performer, comedian, television personality, and host of the “Wild Ride! with Steve-O” podcast. He is currently performing live on the “Crash and Burn!” tour.www.steveo.comwww.youtu",
+      "art": "https://megaphone.imgix.net/podcasts/c03f2fa4-1790-11f1-8650-43e3ba153505/image/f28c9f2c69464a8800dd3f2045134520.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -757,6 +900,17 @@
       "duration": "1838",
       "summary": "Goldman Sachs’ culture has long been defined by its core values: partnership, client service, integrity, and excellence. Lloyd Blankfein, Senior Chairman of The Goldman Sachs Group Inc. and former Cha",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2462 - Aaron Siri",
+      "link": "https://traffic.megaphone.fm/GLT5558298469.mp3?updated=1772559919",
+      "pubDate": "2026-03-03T18:00:00.000Z",
+      "duration": "9722",
+      "summary": "Aaron Siri is an attorney and managing partner of Siri & Glimstad LLP, where he focuses on civil litigation, constitutional law, and vaccine-related injury claims. He is the host of the podcast “Infor",
+      "art": "https://megaphone.imgix.net/podcasts/b17cea7c-16b6-11f1-bec2-9f206de7600d/image/4bc9fdf8309df64f07526cd063ac88bc.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -790,17 +944,6 @@
       "duration": "01:11:47",
       "summary": "- 导语 - 从修缮村庙的法事谈起，祈福安龙、点兵放猖、游神巡境、扎禁罐，这些充满民俗特色的仪式背后，藏着哪些鲜为人知的讲究？在地的神灵可以「远洋执法」吗？梦境究竟反映了什么，又如何与现实产生联系？在风水界，为什么祠堂并非越大越好？请听本期嘉宾海伯利安带来的精彩分享。 - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 海伯利安，命理数术研习者（公众号：海公物语） - 时间轴 -",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why Paramount went looney tunes for Warner Bros.",
-      "link": "https://www.npr.org/2026/03/03/nx-s1-5732850/why-paramount-went-looney-tunes-for-warner-bros",
-      "pubDate": "2026-03-03T08:00:00.000Z",
-      "duration": "528",
-      "summary": "Paramount Skydance is making a $110 billion play for Warner Bros. Discovery, and with it intellectual property like Harry Potter, Batman, and subsidiaries HBO and CNN. On today’s show, who is the man ",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F45%2F78%2F39d7e1da474385e283d702491cb2%2Fd61d2588-2b90-479f-8064-11b2794f52d9.png"
     },
     {
       "showId": "etw",
@@ -869,6 +1012,17 @@
       "art": "https://static.libsyn.com/p/assets/8/0/4/2/8042280528f65293d959afa2a1bf1c87/1_Pod_E262-20260228-vg0iehw4vb.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2461 - Robert F. Kennedy, Jr.",
+      "link": "https://traffic.megaphone.fm/GLT2655700925.mp3?updated=1772214646",
+      "pubDate": "2026-02-27T18:00:00.000Z",
+      "duration": "9107",
+      "summary": "Robert F. Kennedy Jr. is the United States Secretary of Health and Human Services, founder of the Waterkeeper Alliance and Children’s Health Defense, and an attorney and author.www.hhs.gov/about/leade",
+      "art": "https://megaphone.imgix.net/podcasts/5bc43bae-1395-11f1-a94d-4f3c51abe2a0/image/7274ba9b36786416ad2ed729fd5615b7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -889,6 +1043,17 @@
       "duration": "01:20:02",
       "summary": "【主播的话】 俄乌战争刚刚迎来了四周年纪念日，迈入第五年。 本期节目延续我们自2022年以来的“周年传统”，邀请了老朋友路尘、公爵，从战场、外交、社会心态与舆论环境等多个层面，系统梳理这一年的关键变化。 与前三年相比，第四年的变化首先体现在外部政治环境。特朗普重返白宫后，美国对乌政策出现明显调整，停火谈判成为高频词。但，从阿布扎比到日内瓦，几轮会谈释放出不同信号，却尚未形成实质性成果。与此同时，前",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2460 - Rachel Wilson",
+      "link": "https://traffic.megaphone.fm/GLT8521906535.mp3?updated=1772127268",
+      "pubDate": "2026-02-26T18:00:00.000Z",
+      "duration": "8820",
+      "summary": "Rachel Wilson is a writer, cultural commentator, and media personality. She is the author of “Occult Feminism: The Secret History of Women’s Liberation.”www.linktr.ee/RachelLWilson Perplexity: Downloa",
+      "art": "https://megaphone.imgix.net/podcasts/ea61e582-12a0-11f1-a327-932dd954886d/image/0af12eb8c0497e72b29dd679e9dd496f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
