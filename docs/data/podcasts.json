@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-24T08:07:50.027Z",
+    "updatedAt": "2026-03-24T15:05:19.903Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "461 「货币非国家化」的中国注脚：刘愿谈民国法币改革与陕甘宁边币往事",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69c25065fdc405fbf609287d?utm_source=rss",
+      "pubDate": "2026-03-24T09:03:53.000Z",
+      "duration": "01:08:14",
+      "summary": "- 导语 - 1935年国民政府的法币改革，1937年后边币与法币的竞争，以及1948年金圆券的崩溃，共同勾勒出中国近代货币史上极具启示性的路径。从1930年代国际白银价格的剧烈波动出发，法币改革为何在诞生之初就埋下隐患？在战争与财政压力之下，它又为何一步步走向失控？当政治家宋子文取代了银行家张嘉璈，当蒋介石以手令指挥发钞，国统区的货币体系为何迅速滑向通货膨胀？而在另一侧，财政极度匮乏的陕甘宁边区",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "How Bad Could the Iran Oil Crisis Get?",
+      "link": "https://www.nytimes.com/2026/03/24/opinion/ezra-klein-podcast-jason-bordoff.html",
+      "pubDate": "2026-03-24T09:00:00.000Z",
+      "duration": "01:02:24",
+      "summary": "Iran has currently shut off more than 10 percent of the world’s oil supply. If that goes on for a lot longer — or if the war escalates to include more strikes on energy infrastructure in the region — ",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1461,28 +1483,6 @@
       "duration": "1385",
       "summary": "Sheikh Mohammed bin Abdulrahman bin Jassim Al Thani, Prime Minister and Minister of Foreign Affairs of Qatar, discusses Qatar's pivotal role in global diplomacy, and his strategic vision driving his n",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "继业者1918｜波兰国父毕苏斯基元帅：从「华沙之战」到「海间联邦」未竟之梦",
-      "link": "https://www.xiaoyuzhoufm.com/episode/697349e9109824f9e127512d?utm_source=rss",
-      "pubDate": "2026-01-23T11:02:37.000Z",
-      "duration": "00:03:00",
-      "summary": "- 导语 - 被瓜分亡国123年后奇迹般地复国，这样的例子在世界史中并不常见，波兰第二共和国却做到了。约瑟夫·毕苏斯基是这场「复活赛」的总策划与急先锋，他作为革命家缔造了新波兰，也以独裁者的身份为后世铭记；他是布尔什维克的死对头，亲手在维斯瓦河畔击碎了列宁西进的梦想，又试图建立海间联邦，最终在欧洲民族主义浪潮中举步维艰。从西伯利亚的流放者到反抗帝俄的统帅，这位强硬的波兰人如何影响了二十世纪的欧洲？",
-      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Minneapolis Reveals Where Trumps Deportation Agenda Is Going",
-      "link": "https://www.nytimes.com/2026/01/23/opinion/ezra-klein-podcast-caitlin-dickerson.html",
-      "pubDate": "2026-01-23T10:00:00.000Z",
-      "duration": "01:06:26",
-      "summary": "There’s so much more happening than what you see in online video clips. Congress gave Trump a staggering, military-size budget for immigration enforcement. And it’s hard to keep the scale of what the ",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "weirdo",
