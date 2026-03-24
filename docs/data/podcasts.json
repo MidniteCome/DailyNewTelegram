@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-24T15:05:19.903Z",
+    "updatedAt": "2026-03-24T20:32:59.614Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2472 - Jeff Ross",
+      "link": "https://traffic.megaphone.fm/GLT8163402388.mp3?updated=1774371076",
+      "pubDate": "2026-03-24T17:00:00.000Z",
+      "duration": "8398",
+      "summary": "Jeff Ross is a comic, actor, director, and producer. His new special, “Take a Banana for the Ride,” is streaming on Netflix.www.netflix.com/title/81969837www.roastmastergeneral.com Perplexity: Downloa",
+      "art": "https://megaphone.imgix.net/podcasts/de128426-2745-11f1-80cf-376f3c69f5ba/image/ec3d41f024e6e5fd3490474fcfba562c.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -1065,17 +1076,6 @@
       "duration": "01:20:02",
       "summary": "【主播的话】 俄乌战争刚刚迎来了四周年纪念日，迈入第五年。 本期节目延续我们自2022年以来的“周年传统”，邀请了老朋友路尘、公爵，从战场、外交、社会心态与舆论环境等多个层面，系统梳理这一年的关键变化。 与前三年相比，第四年的变化首先体现在外部政治环境。特朗普重返白宫后，美国对乌政策出现明显调整，停火谈判成为高频词。但，从阿布扎比到日内瓦，几轮会谈释放出不同信号，却尚未形成实质性成果。与此同时，前",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2460 - Rachel Wilson",
-      "link": "https://traffic.megaphone.fm/GLT8521906535.mp3?updated=1772127268",
-      "pubDate": "2026-02-26T18:00:00.000Z",
-      "duration": "8820",
-      "summary": "Rachel Wilson is a writer, cultural commentator, and media personality. She is the author of “Occult Feminism: The Secret History of Women’s Liberation.”www.linktr.ee/RachelLWilson Perplexity: Downloa",
-      "art": "https://megaphone.imgix.net/podcasts/ea61e582-12a0-11f1-a327-932dd954886d/image/0af12eb8c0497e72b29dd679e9dd496f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
