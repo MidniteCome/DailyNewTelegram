@@ -1,5 +1,5 @@
 {
-  "lastSent": "2026-03-23",
+  "lastSent": "2026-03-24",
   "seenLinks": [
     "https://uk.finance.yahoo.com/news/gold-prices-oil-pound-commodities-dollar-interest-rates-federal-reserve-uk-inflation-093233998.html",
     "https://uk.finance.yahoo.com/news/ftse-100-live-stock-markets-wall-street-uk-retail-sales-budget-surplus-084326165.html",
@@ -1540,6 +1540,33 @@
     "https://www.cnbc.com/2026/03/20/tim-cooks-china-visit-reinforces-countrys-importance-to-apple-.html",
     "https://stratechery.com/2026/anthropic-and-alignment/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpYy1hbmQtYWxpZ25tZW50LyJdfSwiZXhwIjoxNzc2ODQ1NTgzLCJpYXQiOjE3NzQyNTM1ODMsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.V1svwgTNCR0UpLaQjAdkDn3KXf4CkZkT2ZoOJaa9WHIc-x9dswB0blGWO8TEHfR7Tj_fXHB_-NKUjJoNrmE3vKBumoAgH9IemNAhh1p0oPHPyNKGP-5CXXdQ5ZduaIe3RVXPgy3z2Xt6-p-UKGSwscGjKiBXf2ovjzbGFyWh9vAXCwIN8QKU1OLGORFWODCobLKV2S_7enIdnQaswexp32-b6JCrfwDiTFqtSrWteOv7d7eSj9aIPOy0OXI7mSCwvOFbsZ4Uv_9gkbvDz_B7O1n-eh3lGjQ3oCZdEuLMnZXkhJE8kCon-N6t2PqlUovEsKqrknl8dg7KJqaOPizUTA",
     "https://newslink.reuters.com/click/44842188.1565/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTAzMjMyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B8df5ca14",
-    "https://truthsocial.com/@realDonaldTrump/116268334535345382"
+    "https://truthsocial.com/@realDonaldTrump/116268334535345382",
+    "https://www.cnbc.com/2026/03/23/openai-risk-factors-microsoft-reliance-elon-musk-and-xai-lawsuits.html",
+    "https://www.cnbc.com/2026/03/24/revolut-2025-earnings-record-profit.html",
+    "https://www.tomshardware.com/software/windows/microsoft-blocks-the-registry-hack-trick-that-unlocked-native-nvme-performance-on-windows-11",
+    "https://arstechnica.com/cars/2026/03/republicans-in-congress-add-250-annual-federal-ev-tax-to-transport-bill",
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc2hWel9Ld2JHTGYzRTNlZ3dzX1ZBYjZCNTF2VFJGX2pqYVEwejB0WjkyT21HS0VPaXBHUlYxdjR0bzczbmlWeFlncnY0T1plaktFcXYyam00Mm9kUGNTZXRRZXlUMHctbU8xRE42TmFyak84WUVfcHNQNGtUS2tIQ190ZzVsdmxkaUlLdHhRUi1mWU1kUFRJU2Npd0pWb0xPcFBFNjRrRzFJc0hyU1E?oc=5",
+    "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran",
+    "https://sdz-mods.com/index.php/2026/03/23/irix-3dfx-voodoo-driver-glide2x-irix-port",
+    "https://www.v2ex.com/t/1200587#reply15",
+    "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything",
+    "https://arstechnica.com/science/2026/03/trumps-latest-anti-wind-effort-pay-companies-to-abandon-offshore-leases",
+    "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSUM3ZzVESndQYmJKMlVhak5LTWFlQlJma19fM1VBa3g4WmZiX1V6UzR6ZTYxSWpTaXktS1JfbDRld05lLTFwb2laWFF0OU5Wc3pCbDQ5RDJqWGhRNHN5ekFUWnpzemRuZXZSWVdIRXc1MUFJenBxajgwRGNaV0J3UFA0Rkd5SmpzVlFoakFaTzlmeWJTd1V3U0JTUG5HT0Z1SFBwRUp2T19zcExfallsZXo5clYtWUthaTByWlRVSTc?oc=5",
+    "https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything",
+    "https://spectrum.ieee.org/in-memoriam-march-2026-remembering",
+    "https://techcrunch.com/2026/03/23/doordash-introduces-relief-payments-for-drivers-as-the-iran-us-war-drives-up-gas-prices",
+    "https://techcrunch.com/2026/03/23/zipline-snaps-up-another-200m-to-fuel-its-drone-delivery-expansion",
+    "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQa0pnZE5OWnpZaG90cnBfeTVaemc5WHJjX0lyd2RENXNQT1dPX0xYSFFJS1BWa3hGT0NjaFJpdnozZ3F0eFFLQWNjWXkzSlVjRnF3aVBTWldXS0NVOTQyVmh0eHJMTVBLY1dZR25xeS1CODhXRjY0dVkzWW5rZFBCMFg5M0RBYmt3RnNMMThkRXYtbXFWR19xYzVJSW9lTDRmeUFQcnpLV2RNQ0dvbGhyOFlQUWVDWUdjckxIYl9qLURzc09wNElYXzlOQ1YzYTJNVWdB?oc=5",
+    "https://www.v2ex.com/t/1200742#reply0",
+    "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcTQwWEZsb1gzQzQ1WXFfSDhzNUoxMkt1ZzdYU0MxZWE5aUZIcDZNcHE0bUw0Sno0RTZtamk2ODgzQ2hHV1pqZmZ3YnBmR0xNV2o1TTdQVjktSDRURmpKYlVsTUhfZGM5d3dFRm02SVo1QzRaVndSX21DOUZ4TTVTM0VhTi1Ca1F0S3RqTFNJeGx6eXM2aXN2OXdzbXRWTVJKVWhwTFFETWtjbjI0M2c2M2dxay1mM3FnbE9fbDF3Z0E1UQ?oc=5",
+    "https://thehtml.review/05",
+    "https://stratechery.com/2025/u-s-intel/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3Utcy1pbnRlbC8iXX0sImV4cCI6MTc3NjkzMTYxOSwiaWF0IjoxNzc0MzM5NjE5LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.OOTNchhDhNDyK5WoUr6gnUZY_47fPVHCRwzxxS9-F5NBpIceafKjlsvQZkui6PdLYMN_MxRN9kHs08UEq_AFRsgK4z-1rdFKy3gfAX988onH2ck1xQCTIJFz9stkbJ1UpmAlS4qup-umhT2EM5sr9DocXC6YuRMJ4ue_ZW7AoHAtbSYTGaPEHeMqMzDoUneccAulKtbXfNJjPpI96rpqpn8dAD84vUfqELUZTitqucf7OXmCTKTkbqRsR4WEqdIZc6TGCDNmQQd1Enm3iUCnxNNsLBHNw8PLxCeknA-ySSLPoRHJKQGd2C27By3K61e-ae9y8NvW8BvDb81tjJQr6w",
+    "https://news.google.com/rss/articles/CBMimgFBVV95cUxQU3FKbXIzeFpoNEJULW90aGhYYXFTd2otQmd0cDJqd2hteXU4WWVSVWNuTUtUZERvNjN4eVItTkFzTHptME5IOFR1YXYzZlpsc1RRVkY5UXduSmMxdllMOTRYamR4aVJaaWJ4R0ROdWJIMFE3S0pPMDZVOFNRZWRSUVMzcTdzRmcxZ0loLXpSalJmMVZFVzJ1aEJR?oc=5",
+    "https://news.google.com/rss/articles/CBMisAFBVV95cUxONkhOaFlGWGg1RUdoOC1IMlQzZjVHM1kyR1h3cWpkNDl4NzlNcV9SYmJwNWppU1RWNU9xUWRqZGhBSVA5Ykc3X0xnZHFEcmRqS0dxaWRRTUlWamdtNi1BNDgzN2dXZ1Zjb0lna3d2a1NnNjl2NGw0ZDREU0NocmhEektJZGNldlpxN0RRS0JjeG1WblFPQ1NlWlBmQVVKNnl1TkdPbHhfcFBZVnJkWVhTVQ?oc=5",
+    "https://stratechery.com/2026/anthropic-and-alignment/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpYy1hbmQtYWxpZ25tZW50LyJdfSwiZXhwIjoxNzc2OTMxNjE4LCJpYXQiOjE3NzQzMzk2MTgsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.JdWoTUhr8moAwZMhqeUrGJxUPVp3azaHqqwTVDOTVdond0s0_uxI9s_on1-UMZd3kpXcL_GodMg20P_A69tWfZI9l0ogHwmMtsXklM_DdKXChEPQbtRKEb-htm0NtoO5lQgO6G4Fd-AItd57H3-gzjMH8jbJyXsV35Eqq0e0zwUNtrxZegRM1CC4ZASxTaQ0SbxnfX2p7llS59AhLmtXMwD6vjjInDLt1njC-7tVhDyXexmyH-3nZ_jfXqOt3FXEL3EwfdQxvjhn6v_-af_GUJIhm3FKZv9gPHrJHTCDK7Kv-EWUKAPDeXZTuCD1JgPiwje0XQz0t7litbcJ84vJlg",
+    "https://newslink.reuters.com/click/44859126.15646/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTAzMjQyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B1b13a7fe",
+    "https://www.globalpetrolprices.com/gasoline_prices",
+    "https://newslink.reuters.com/click/44843787.38164/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDMyMzI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158Bfacc331f",
+    "https://newslink.reuters.com/click/44818503.77174/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTAzMjAyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B8ec1f8ce"
   ]
 }
