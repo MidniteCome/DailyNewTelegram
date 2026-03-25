@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-25T15:06:57.244Z",
+    "updatedAt": "2026-03-25T20:30:25.920Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2473 - Bill Thompson",
+      "link": "https://traffic.megaphone.fm/GLT1444847354.mp3?updated=1774457242",
+      "pubDate": "2026-03-25T17:00:00.000Z",
+      "duration": "8796",
+      "summary": "Bill Thompson is a retired U.S. Army Chief Warrant Officer and the founder and CEO of Spartan Forge, a company that develops AI-powered mapping and predictive tools for hunting.www.youtube.com/@sparta",
+      "art": "https://megaphone.imgix.net/podcasts/22742724-27ef-11f1-a5f7-afcbbd59e1a3/image/8ae090925306ddcca76af65b6df84372.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1043,17 +1054,6 @@
       "duration": "01:21:08",
       "summary": "(0:00) Bestie intros (1:22) Claude's hit list, SaaS crash, and Citrini's AI letter (30:39) Why Doomer narratives are more popular, valuable new AI jobs (40:19) Understanding the Rate Payer Protection ",
       "art": "https://static.libsyn.com/p/assets/8/0/4/2/8042280528f65293d959afa2a1bf1c87/1_Pod_E262-20260228-vg0iehw4vb.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2461 - Robert F. Kennedy, Jr.",
-      "link": "https://traffic.megaphone.fm/GLT2655700925.mp3?updated=1772214646",
-      "pubDate": "2026-02-27T18:00:00.000Z",
-      "duration": "9107",
-      "summary": "Robert F. Kennedy Jr. is the United States Secretary of Health and Human Services, founder of the Waterkeeper Alliance and Children’s Health Defense, and an attorney and author.www.hhs.gov/about/leade",
-      "art": "https://megaphone.imgix.net/podcasts/5bc43bae-1395-11f1-a94d-4f3c51abe2a0/image/7274ba9b36786416ad2ed729fd5615b7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
