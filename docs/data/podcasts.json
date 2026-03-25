@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-24T20:32:59.614Z",
+    "updatedAt": "2026-03-25T08:06:45.998Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Your next flight doesn't have to be so expensive. Here's why",
+      "link": "https://www.npr.org/2026/03/25/nx-s1-5759714/your-next-flight-doesnt-have-to-be-so-expensive-heres-why",
+      "pubDate": "2026-03-25T07:00:00.000Z",
+      "duration": "565",
+      "summary": "Why are flight tickets so expensive right now? Increased oil prices seems like it’d be the obvious answer. That’s mostly right. Airlines used to do some financial magic to help keep airfare down as oi",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa4%2Fb3%2F3d969f894a51b9f85e124021447a%2Fb95c3c50-8d6c-4054-b624-a089181e8bde.jpg"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -911,17 +922,6 @@
       "duration": "9825",
       "summary": "Steve-O is a stunt performer, comedian, television personality, and host of the “Wild Ride! with Steve-O” podcast. He is currently performing live on the “Crash and Burn!” tour.www.steveo.comwww.youtu",
       "art": "https://megaphone.imgix.net/podcasts/c03f2fa4-1790-11f1-8650-43e3ba153505/image/f28c9f2c69464a8800dd3f2045134520.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "The anxiety rattling China’s youth",
-      "link": "https://www.npr.org/2026/03/04/nx-s1-5734467/the-anxiety-rattling-chinas-youth",
-      "pubDate": "2026-03-04T08:00:02.000Z",
-      "duration": "569",
-      "summary": "China will soon unveil its economic blueprint for the next five years, including a target for economic growth. This comes as consumption is down, wages aren’t rising, and property prices continue to d",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F91%2F44%2Fd10a532543e6875eb16e84a4b7e5%2Fc21ac6ee-869b-49b8-8539-3fae13173b7f.jpg"
     },
     {
       "showId": "talksat",
