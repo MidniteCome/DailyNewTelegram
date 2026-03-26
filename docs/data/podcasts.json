@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-26T15:12:32.241Z",
+    "updatedAt": "2026-03-26T20:28:42.967Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2474 - Dave Smith",
+      "link": "https://traffic.megaphone.fm/GLT1007510483.mp3?updated=1774544978",
+      "pubDate": "2026-03-26T17:00:00.000Z",
+      "duration": "10698",
+      "summary": "Dave Smith is a comic, political commentator, and host of the “Part of the Problem” podcast.www.youtube.com/@PartOfTheProblemwww.partoftheproblem.comwww.comicdavesmith.com Perplexity: Download the app",
+      "art": "https://megaphone.imgix.net/podcasts/2d179660-28db-11f1-80ef-63e2b6b31318/image/ced68f07ac58c8dee83c444813faf9b5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -966,17 +977,6 @@
       "duration": "1838",
       "summary": "Goldman Sachs’ culture has long been defined by its core values: partnership, client service, integrity, and excellence. Lloyd Blankfein, Senior Chairman of The Goldman Sachs Group Inc. and former Cha",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2462 - Aaron Siri",
-      "link": "https://traffic.megaphone.fm/GLT5558298469.mp3?updated=1772559919",
-      "pubDate": "2026-03-03T18:00:00.000Z",
-      "duration": "9722",
-      "summary": "Aaron Siri is an attorney and managing partner of Siri & Glimstad LLP, where he focuses on civil litigation, constitutional law, and vaccine-related injury claims. He is the host of the podcast “Infor",
-      "art": "https://megaphone.imgix.net/podcasts/b17cea7c-16b6-11f1-bec2-9f206de7600d/image/4bc9fdf8309df64f07526cd063ac88bc.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
