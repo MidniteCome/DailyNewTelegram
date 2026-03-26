@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-25T20:30:25.920Z",
+    "updatedAt": "2026-03-26T08:11:41.493Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Why You Need a $1BN Fund To Do Series A Today | OpenAI vs Anthropic: Who Wins Enterprise | SpaceX at $2TRN and Data Centers in Space | The $20BN Groq Deal Broken Down | Jeff Bezos' $100BN New Fund",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-why-you-need-1bn-to-do-series-a-today-openai-vs-anthropic-who-wins-enterprise-spacex-at-2trn-and-data-centers-in-space-the-20bn-groq-deal-broken-down-jeff-bezos-100bn-new-fund",
+      "pubDate": "2026-03-26T07:08:00.000Z",
+      "duration": "01:18:09",
+      "summary": "AGENDA: 05:00 — Anthropic vs. OpenAI: Who Is Actually Winning the Enterprise War? 07:55 — \"Air of Desperation\": Is OpenAI Losing Its Invincibility? 18:00 — SpaceX at $2 Trillion: Elon's Insane Plan to",
+      "art": "https://static.libsyn.com/p/assets/4/5/5/d/455dd31b0fe4e2fcd959afa2a1bf1c87/WhatsApp_Image_2026-03-25_at_18.04.52.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Tracing the tax that's supposed to fund TSA",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5761359/tracing-the-tax-thats-supposed-to-fund-tsa",
+      "pubDate": "2026-03-26T07:00:00.000Z",
+      "duration": "488",
+      "summary": "Every time you buy a ticket that leaves a U.S. airport, you pay a fee that’s supposed to help fund the TSA. So why have TSA workers been working without pay? Today on the show, we explore the history ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F77%2F5d%2F02ddc9bb4216bf64f600a8614115%2Fb49589f5-4317-42db-a5d5-0cfd1b83ef41.jpg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Are Psychedelics the Key to Living Forever? (ft. Bryan Johnson)",
+      "link": "https://allinchamathjason.libsyn.com/are-psychedelics-the-key-to-living-forever-ft-bryan-johnson",
+      "pubDate": "2026-03-26T00:10:00.000Z",
+      "duration": "37:58",
+      "summary": "(0:00) David Friedberg intros Bryan Johnson (0:54) Why Bryan Johnson did 5-MeO-DMT (12:56) What brain scans actually show (18:36) Psychosis, bad trips, and life-altering decisions (26:23) The next fro",
+      "art": "https://static.libsyn.com/p/assets/d/1/d/5/d1d5cdffc4fde188d959afa2a1bf1c87/1_Pod_BJ.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -891,17 +924,6 @@
       "art": "https://megaphone.imgix.net/podcasts/1487e05a-183c-11f1-af2d-4b5ae497d50c/image/8512dfc194c488269f1db5662aa4af09.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Want a 2.5% mortgage? Buy it.",
-      "link": "https://www.npr.org/2026/03/05/nx-s1-5736530/want-a-2-5-mortgage-buy-it",
-      "pubDate": "2026-03-05T08:00:00.000Z",
-      "duration": "566",
-      "summary": "Remember those juicy mortgage rates from back in 2021? You don’t actually need a time machine to get one today. You just need to find someone willing to sell their house AND their mortgage to you. Cal",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5b%2Fa2%2F80cb5fb8439dad18e53f610c488b%2F82bb9ec0-8808-48be-89cf-c5ecb6817aba.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1177,17 +1199,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Raises $30BN at $380BN Valuation | Thrive Raises New $10BN Fund | OpenAI Buys OpenClaw | Stripe Raises at $140BN: Is Adyen Wildly Undervalued? | Monday, Figma, Shopify: Which are Buys vs Sells?",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-raises-30bn-at-380bn-valuation-thrive-raises-new-10bn-fund-openai-buys-openclaw-stripe-raises-at-140bn-is-adyen-wildly-undervalued-monday-figma-shopify-which-are-buys-vs-sells",
-      "pubDate": "2026-02-19T07:07:00.000Z",
-      "duration": "01:34:11",
-      "summary": "AGENDA: 04:14 Anthropic's $30B Raise at $380B 06:18 Why SaaS Stocks Keep Getting Crushed 18:15 Wall Street's New Religion: AI Replaces Headcount 22:42 The Bear Case for Shopify: What Could Go Wrong? 3",
-      "art": "https://static.libsyn.com/p/assets/8/9/4/c/894cc741ae5f84ff16c3140a3186d450/WhatsApp_Image_2026-02-18_at_17.39.12.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1263,17 +1274,6 @@
       "duration": "01:39:15",
       "summary": "- 导语 - 清末民初，湖州南浔的富商由丝业、地产积累财富，进而转向字画古董收藏，最终成为辛亥革命与国民政府的「天使投资人」。二陈兄弟、戴季陶、张静江与湖州籍同乡团体「湖社」有怎样的关系？抗战爆发后，湖州富人的收藏如何在日军、掮客与爱国买家之间流转？多重间谍张子羽如何周旋于各方势力，最终将国宝「毛公鼎」保全？张葱玉鉴定庞莱臣收藏仇英《江南春》为赝品的来龙去脉又是怎么一回事？请听本期嘉宾吴真的分享！",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "CZ's Untold Story: The Rise, Fall, and Redemption of Binance's Founder",
-      "link": "https://allinchamathjason.libsyn.com/czs-untold-story-the-rise-fall-and-redemption-of-binances-founder",
-      "pubDate": "2026-02-10T04:56:00.000Z",
-      "duration": "01:57:24",
-      "summary": "(0:00) From China to Canada (6:13) CZ's Early Career: Shockingly Normal (17:39) First Company in Shanghai (23:08) Discovering Bitcoin (30:11) Going All-In on Crypto (41:27) Founding Binance (1:03:57) ",
-      "art": "https://static.libsyn.com/p/assets/3/9/1/e/391e389ffa39ed5b16c3140a3186d450/1_Pod_CZ.png"
     },
     {
       "showId": "weirdo",
