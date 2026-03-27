@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-27T08:09:32.563Z",
+    "updatedAt": "2026-03-27T14:57:27.773Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#383 导弹、黑雨与撕裂的城市：一个中国人的战时德黑兰记录",
+      "link": "http://etw.fm/2204",
+      "pubDate": "2026-03-27T11:30:00.000Z",
+      "duration": "45:49",
+      "summary": "一个在德黑兰生活的中国人，在过去近四周的时间里亲历了这场至今仍未结束的美以对伊战争。他都经历了些什么？他眼中的伊朗人民与伊朗社会又是怎样的？ 今年二月二十八日，战争再次降临伊朗。这一次的烈度远超去年的十二日战争 —— 不分日夜落下的导弹，黑色的石油雨、在支持与反对之间走向撕裂的城市……而在此之前，这个国家已经经历了动荡的 2025 年：全面制裁落地，货币崩溃，街头抗议与血腥镇压接连而至。 这一期节",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Will Iran Break Trumpism?",
+      "link": "https://www.nytimes.com/2026/03/27/opinion/ezra-klein-podcast-christopher-caldwell.html",
+      "pubDate": "2026-03-27T09:00:00.000Z",
+      "duration": "01:08:27",
+      "summary": "Is Trumpism crashing on the shoals of the Iran war? That is what Christopher Caldwell thinks. Caldwell is a prominent thinker on the right. He’s a contributing editor at the conservative publication t",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "462 漫谈《猎魔人》世界观：从《巫师3》十周年音乐会聊中欧奇幻史诗的诞生",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69c63d96b977fb2c475bcf55?utm_source=rss",
+      "pubDate": "2026-03-27T08:48:50.000Z",
+      "duration": "01:06:18",
+      "summary": "- 导语 - 随着《巫师3》迎来发售十周年，这款以强叙事驱动的开放世界、有血有肉的主角塑造，以及支线如短篇小说而风靡一时的作品，至今仍是无数玩家心中难以逾越的巅峰。从猎魔人与血腥男爵的故事出发，原著作者如何将西方奇幻传统与中欧民俗历史缝合在一起？从「勿以恶小」的伦理拷问，到「意外律」所牵引的强因果命运，《巫师》的世界究竟建立在怎样的设定之上？从早期靠拉资源的小作坊，到如今的国际巨头，回溯《巫师》系",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1411,10 +1444,10 @@
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
-      "title": "#378 塔利班关闭学校之后，阿富汗女孩的四年|英文版",
-      "link": "http://etw.fm/2197",
+      "title": "#378 塔利班关闭学校之后，阿富汗女孩的四年|中文版",
+      "link": "http://etw.fm/2198",
       "pubDate": "2026-01-29T10:45:00.000Z",
-      "duration": "37:18",
+      "duration": "35:57",
       "summary": "当学校的大门向一个女孩关闭，她要如何想象自己人生的未来，又要如何在重重阻碍中继续寻找教育的可能性？ 1 月 24 日，联合国发稿敦促采取行动保护阿富汗境内的受教育权，这是因为，阿富汗是唯一一个严格禁止女孩和妇女接受中学及高等教育的国家，在这里，有 220 万女孩被剥夺了接受中学教育的权利。 这一期节目，我们就记录了这 220 万阿富汗女孩中的 2 位 —— Sophia 和 Lina，她们在本该继",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
@@ -1422,10 +1455,10 @@
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
-      "title": "#378 塔利班关闭学校之后，阿富汗女孩的四年|中文版",
-      "link": "http://etw.fm/2198",
+      "title": "#378 塔利班关闭学校之后，阿富汗女孩的四年|英文版",
+      "link": "http://etw.fm/2197",
       "pubDate": "2026-01-29T10:45:00.000Z",
-      "duration": "35:57",
+      "duration": "37:18",
       "summary": "当学校的大门向一个女孩关闭，她要如何想象自己人生的未来，又要如何在重重阻碍中继续寻找教育的可能性？ 1 月 24 日，联合国发稿敦促采取行动保护阿富汗境内的受教育权，这是因为，阿富汗是唯一一个严格禁止女孩和妇女接受中学及高等教育的国家，在这里，有 220 万女孩被剥夺了接受中学教育的权利。 这一期节目，我们就记录了这 220 万阿富汗女孩中的 2 位 —— Sophia 和 Lina，她们在本该继",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
@@ -1439,28 +1472,6 @@
       "duration": "1188",
       "summary": "Edward Norton is known for both his acclaimed film career and his experiences founding and scaling ventures like CrowdRise, Baswood, STAX, and EDO. He joins Kim Posnett, global co-head of Investment B",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "The Most Important Foreign Policy Speech in Years",
-      "link": "https://www.nytimes.com/2026/01/27/opinion/ezra-klein-podcast-henry-farrell.html",
-      "pubDate": "2026-01-27T10:00:00.000Z",
-      "duration": "01:14:35",
-      "summary": "“We are in the midst of a rupture, not a transition,” Prime Minister Mark Carney of Canada announced last week at the World Economic Forum in Davos, Switzerland. It was one of the most significant for",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "455 武官·使臣·僧人：悟空法师的大唐西域历险记",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69787ef03cf2b0c01cdd0013?utm_source=rss",
-      "pubDate": "2026-01-27T09:18:42.000Z",
-      "duration": "01:06:12",
-      "summary": "- 导语 - 孙悟空有历史原型吗？ 历史作家苗子兮在一次新疆旅行中，意外揭开了真实「悟空」的传奇人生。他并非神话中会七十二变的孙行者，而是唐朝的一位低阶武官，俗名车奉朝，他出使唐蕃对峙的中亚前线，却意外滞留几十载春秋 。出使罽宾的重任背后有哪些历史大事件？从中亚到天竺再到回鹘草原，车奉朝如何一步步成为悟空法师？唐朝、吐蕃与大食的互动如何影响了西游与返乡之旅？请听本期嘉宾苗子兮带来的精彩分享！ - ",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
       "showId": "acquired",
@@ -1769,17 +1780,6 @@
       "duration": null,
       "summary": "Michael Levin is a biologist at Tufts University working on novel ways to understand and control complex pattern formation in biological systems. Thank you for listening ❤ Check out our sponsors: http",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#370 表达从未如此容易，但为什么沟通依然如此困难",
-      "link": "http://etw.fm/2189",
-      "pubDate": "2025-11-27T09:00:00.000Z",
-      "duration": "59:46",
-      "summary": "为什么在这个看似人人都在表达的时代，真正的沟通却变得如此稀缺？好的对话又应该如何开启？ 借着《疯狂动物城 2》上映的契机，我们和参加了此次首映礼的老朋友东东枪、「声动活泼」创始人 Diane 一起，聊了聊我们从电影中看到的，存在于我们每个人日常生活中的一个重要议题 —— 沟通。 为什么社媒上的「标签」那么好用？为什么人群中的理解如此稀缺？从职场到家庭，怎样的沟通技巧能让我们更好地「听见」彼此？不同",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "weirdo",
