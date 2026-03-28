@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-27T20:28:51.395Z",
+    "updatedAt": "2026-03-28T08:00:35.348Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: The Venture Model is Broken | You Need to be Greedy and Selfish to Win Early Stage Investing | Why Margins Do Not Matter for Early-Stage Startups | The Growth Rate that is Required in a World of AI with Gili Raanan, Founder @ Cyberstarts",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-venture-model-is-broken-you-need-to-be-greedy-and-selfish-to-win-early-stage-investing-why-margins-do-not-matter-for-early-stage-startups-the-growth-rate-that-is-required-in-a-world-of-ai-with-gili-raanan-founder-cyberstarts",
+      "pubDate": "2026-03-28T07:07:00.000Z",
+      "duration": "52:37",
+      "summary": "Gili Raanan is the Founder of Cyberstarts, one of the best performing venture funds of the last decade. He is famed for being the seed investor in Wiz, Islands and Cyera, leading to multiple 10x+ fund",
+      "art": "https://static.libsyn.com/p/assets/0/3/4/8/03482505c6bf236f16c3140a3186d450/WhatsApp_Image_2026-03-26_at_18.43.00.jpeg"
+    },
     {
       "showId": "allin",
       "showName": "All-In",
@@ -1208,17 +1219,6 @@
       "duration": "01:06:43",
       "summary": "Lucas Swisher co-leads the growth fund at Coatue where he has partnered with iconic companies like OpenAI, Harvey, Deel, Canva, Openevidence, Anthropic, and others. Prior to Coatue, he was on the inve",
       "art": "https://static.libsyn.com/p/assets/c/b/4/7/cb47f1db09616e1416c3140a3186d450/WhatsApp_Image_2026-02-20_at_17.51.47.jpeg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Codex vs Claude Code vs Cursor: Who Wins, Who Loses | Will All Coding Be Automated - Do We Need PMs | The Real Bottleneck to AGI | The Three Phases of Agents and What You Need to Know with Alex Embiricos, Head of Codex at OpenAI",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-codex-vs-claude-code-vs-cursor-who-wins-who-loses-will-all-coding-be-automated-do-we-need-pms-the-real-bottleneck-to-agi-the-three-phases-of-agents-and-what-you-need-to-know-with-alex-embiricos-head-of-codex-at-openai",
-      "pubDate": "2026-02-21T07:07:00.000Z",
-      "duration": "01:03:44",
-      "summary": "Alexander Embiricos is the Head of Codex at OpenAI, leading the development of the company's flagship AI coding systems that power automated software generation, debugging and developer workflows. Und",
-      "art": "https://static.libsyn.com/p/assets/a/0/d/a/a0dadf2f3cff76d916c3140a3186d450/WhatsApp_Image_2026-02-19_at_15.39.03.jpeg"
     },
     {
       "showId": "allin",
