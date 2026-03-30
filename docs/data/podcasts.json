@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-29T20:22:10.603Z",
+    "updatedAt": "2026-03-30T08:55:24.768Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Marc Andreessen on The Future of Venture Capital: Will a16z Go Public | Why Labour Displacement with AI is Wrong | Why Introspection is Dangerous | Why \"Diamonds in the Rough\" is BS in VC | Why a16z Invested $300M into Adam Neumann",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-marc-andreessen-on-the-future-of-venture-capital-will-a16z-go-public-why-labour-displacement-with-ai-is-wrong-why-introspection-is-dangerous-why-diamonds-in-the-rough-is-bs-in-vc-why-a16z-invested-300m-into-adam-neumann",
+      "pubDate": "2026-03-30T07:07:00.000Z",
+      "duration": "01:12:16",
+      "summary": "Marc Andreessen is a Co-Founder and General Partner at Andreessen Horowitz. The firm now manages over $90BN and has invested in the likes of OpenAI, Airbnb, Coinbase, Anduril and many more. Marc is an",
+      "art": "https://static.libsyn.com/p/assets/7/e/a/f/7eaf721478e80376d959afa2a1bf1c87/WhatsApp_Image_2026-03-24_at_15.30.50.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Do school lunches really need an overhaul?",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5764304/do-school-lunches-really-need-an-overhaul",
+      "pubDate": "2026-03-30T07:00:00.000Z",
+      "duration": "544",
+      "summary": "School lunch has been revamped a ton over the last two decades. Now, the Trump administration wants to rejigger the menu once more to align with its Make America Healthy Again agenda. That means more ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F39%2F2f%2F86e5663a4b15be72bfc3c364413a%2F6cc67367-4f9e-41a7-86bd-f210bb3f04a5.jpg"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -902,17 +924,6 @@
       "art": "https://static.libsyn.com/p/assets/e/b/6/2/eb62a7ee4e4ed4f016c3140a3186d450/WhatsApp_Image_2026-03-06_at_20.35.35.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "No healthcare premiums? In this economy?! Here's how.",
-      "link": "https://www.npr.org/2026/03/09/nx-s1-5739387/no-healthcare-premiums-in-this-economy-heres-how",
-      "pubDate": "2026-03-09T07:00:00.000Z",
-      "duration": "546",
-      "summary": "It turns out healthcare in America CAN be cheaper. If your employer wants it to be. Today on the show, we speak with a Canadian-founded startup that has unusually generous benefits for their employees",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffa%2F9e%2F6b102cca4101bda2981f9e9f5bfa%2F49fd1c3f-1c61-469c-84f8-9375cb9f9089.jpg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1208,17 +1219,6 @@
       "duration": "01:38:29",
       "summary": "- 导语 - 一方水土有一方年味。从苏州到潮汕，从福州到台北，美食作家王恺多年踏访各地，深入观察形形色色的年末饮食。如今流行的地方年货背后藏着怎样的历史？潮汕鱼胶为何能成为天价年货？沈葆桢家的佛跳墙究竟包含哪四层材料？福建渔村对「本港海鲜」的执念背后有着怎样的缘由？请听本期嘉宾王恺带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 王恺，作家、资深媒体人，《三联",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Inside Coatue's $70BN Machine: Why Price Matters Least | Why Mega Markets are the Most Important | How to Assess Durability of Revenue and Margins in AI with Lucas Swisher",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-inside-coatues-7bn-growth-fund-why-price-matters-least-why-mega-markets-are-the-most-important-how-mega-funds-can-still-do-5x-returns-how-to-assess-durability-of-revenue-and-margins-in-ai-with-lucas-swisher",
-      "pubDate": "2026-02-23T20:38:00.000Z",
-      "duration": "01:06:43",
-      "summary": "Lucas Swisher co-leads the growth fund at Coatue where he has partnered with iconic companies like OpenAI, Harvey, Deel, Canva, Openevidence, Anthropic, and others. Prior to Coatue, he was on the inve",
-      "art": "https://static.libsyn.com/p/assets/c/b/4/7/cb47f1db09616e1416c3140a3186d450/WhatsApp_Image_2026-02-20_at_17.51.47.jpeg"
     },
     {
       "showId": "allin",
