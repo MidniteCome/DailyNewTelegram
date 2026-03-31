@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-31T08:37:45.494Z",
+    "updatedAt": "2026-03-31T15:09:05.014Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Michael Pollan’s Journey to the Borderlands of Consciousness",
+      "link": "https://www.nytimes.com/2026/03/26/opinion/eza-klein-podcast-michael-pollan.html",
+      "pubDate": "2026-03-31T09:00:00.000Z",
+      "duration": "01:28:12",
+      "summary": "Consciousness is this amazing, mind-bending riddle. It’s the only thing any of us truly knows. We experience everything else in life through it. And yet we barely understand it. We don’t know what it’",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1417,17 +1428,6 @@
       "duration": null,
       "summary": "Nathan Lambert and Sebastian Raschka are machine learning researchers, engineers, and educators. Nathan is the post-training lead at the Allen Institute for AI (Ai2) and the author of The RLHF Book. S",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "How the World Sees America, With Adam Tooze",
-      "link": "https://www.nytimes.com/2026/01/30/opinion/ezra-klein-podcast-adam-tooze.html",
-      "pubDate": "2026-01-30T10:00:00.000Z",
-      "duration": "01:03:59",
-      "summary": "The old world order is dying. What new world order — if any — is struggling to be born? I can’t think of a week when it felt clearer that an era was coming to an end. Whatever people thought America w",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "talksat",
