@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-03-31T15:09:05.014Z",
+    "updatedAt": "2026-03-31T20:35:11.782Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2476 - Shanna H. Swan",
+      "link": "https://traffic.megaphone.fm/GLT4372299557.mp3?updated=1774975365",
+      "pubDate": "2026-03-31T17:00:00.000Z",
+      "duration": "6964",
+      "summary": "Shanna H. Swan, PhD, is an environmental epidemiologist and author of “Count Down.” She is the director of The Action Science Initiative, a program within the Million Marker Institute, and is featured",
+      "art": "https://megaphone.imgix.net/podcasts/05def176-2cb2-11f1-b9ba-ef6387fb594d/image/54c3b1ee35cf8c054a408c049bb9d3d7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
@@ -1021,17 +1032,6 @@
       "duration": "01:10:15",
       "summary": "【主播的话】 在刚刚过去的二月份，德国总理默茨（Friedrich Merz）携代表团访华，汽车与工业巨头悉数随行。 这次访华的一些画面在社交媒体上广为流传。比如，默茨走进了宇树科技，观看机器人跳舞。在回到德国之后，他发表了一个演讲，感慨中国发展之快，暗示德国的工作生活平衡或将拖累竞争力。这个演讲在中德两国引发了非常不同的解读——中国网友津津乐道于”连德国总理都来取经”，德国国内则掀起了一场关于产",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2464 - Priyanka Chopra Jonas",
-      "link": "https://traffic.megaphone.fm/GLT2092384352.mp3?updated=1772732458",
-      "pubDate": "2026-03-05T18:00:00.000Z",
-      "duration": "9038",
-      "summary": "Priyanka Chopra Jonas is an actor, producer, entrepreneur and former Miss World. She stars in the ongoing series “Citadel” and the film “The Bluff,” both streaming on Prime Video.www.amazon.com/gp/vid",
-      "art": "https://megaphone.imgix.net/podcasts/1487e05a-183c-11f1-af2d-4b5ae497d50c/image/8512dfc194c488269f1db5662aa4af09.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
