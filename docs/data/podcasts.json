@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-03-30T20:36:18.957Z",
-    "totalEpisodes": 165,
+    "updatedAt": "2026-03-31T08:37:45.494Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
@@ -24,8 +24,8 @@
       {
         "id": "indicator",
         "name": "The Indicator",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "lexfridman",
@@ -103,8 +103,8 @@
       "id": "indicator",
       "name": "The Indicator",
       "category": "macro",
-      "art": null,
-      "link": "https://feeds.npr.org/510325/podcast.xml"
+      "art": "https://media.npr.org/assets/img/2024/03/25/the-indicator_2024_sq-121249a297878ab2327b321c997ab870300ec659.jpg?s=1400&amp;c=66&amp;f=jpg",
+      "link": "https://www.npr.org/podcasts/510325/the-indicator-from-planet-money"
     },
     {
       "id": "lexfridman",
@@ -165,6 +165,28 @@
   ],
   "episodes": [
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Who's afraid of private credit?",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5766278/whos-afraid-of-private-credit",
+      "pubDate": "2026-03-31T07:00:00.000Z",
+      "duration": "568",
+      "summary": "There is a $3 trillion dollar black box at the center of the economy. It’s called private credit. These are direct loans from private investors to private companies. They’re often riskier, less regula",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4b%2F7f%2Ff5258eaf4d4d96c48aab123b0edd%2F00b151fe-950e-4f04-8ce2-1d58bf0d859b.png"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "463 寻声入海：与李星宇漫谈追鲸、航海与环球奇遇",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69cb3770e2c8be3155f669ba?utm_source=rss",
+      "pubDate": "2026-03-31T07:00:00.000Z",
+      "duration": "01:43:40",
+      "summary": "- 导语 - 从北京到涠洲岛，从亚马逊雨林到更远的海域，李星宇带着录音设备和帆船，一次次把自己抛进自然。在涠洲岛，他和团队录下了700多段疑似布氏鲸的信号，也第一次意识到：鲸鱼的声音远不是人们想象中的「歌声」，它可能像牛蛙，也可能像蛤蟆，低沉、粗粝，却真实存在。海上的生活同样如此：他被风雨浇透，也在星空下独自值守；有时整日等待风向，有时又在失控的瞬间争分夺秒。航海改变了他对时间的感知——当鲸鱼浮出",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -174,6 +196,17 @@
       "duration": "01:12:16",
       "summary": "Marc Andreessen is a Co-Founder and General Partner at Andreessen Horowitz. The firm now manages over $90BN and has invested in the likes of OpenAI, Airbnb, Coinbase, Anduril and many more. Marc is an",
       "art": "https://static.libsyn.com/p/assets/7/e/a/f/7eaf721478e80376d959afa2a1bf1c87/WhatsApp_Image_2026-03-24_at_15.30.50.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Do school lunches really need an overhaul?",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5764304/do-school-lunches-really-need-an-overhaul",
+      "pubDate": "2026-03-30T07:00:00.000Z",
+      "duration": "544",
+      "summary": "School lunch has been revamped a ton over the last two decades. Now, the Trump administration wants to rejigger the menu once more to align with its Make America Healthy Again agenda. That means more ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F39%2F2f%2F86e5663a4b15be72bfc3c364413a%2F6cc67367-4f9e-41a7-86bd-f210bb3f04a5.jpg"
     },
     {
       "showId": "20vc",
@@ -242,6 +275,17 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "The US loses tech hires, sayonora to Sora, and Afroman's win",
+      "link": "https://www.npr.org/2026/03/27/nx-s1-5762933/the-us-loses-tech-hires-sayonora-to-sora-and-afromans-win",
+      "pubDate": "2026-03-27T07:00:00.000Z",
+      "duration": "562",
+      "summary": "It’s Indicators of the Week (now on YouTube !). It’s our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: The US ain’t doing too hot in attracting Europe",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fad%2Fe5%2Fc76a1e4146f1875ef2c444cc9491%2Fc6079fe8-38bf-40f0-b4b0-24f6f3d15a4f.png"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -264,6 +308,17 @@
       "art": "https://static.libsyn.com/p/assets/4/5/5/d/455dd31b0fe4e2fcd959afa2a1bf1c87/WhatsApp_Image_2026-03-25_at_18.04.52.jpeg"
     },
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Tracing the tax that's supposed to fund TSA",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5761359/tracing-the-tax-thats-supposed-to-fund-tsa",
+      "pubDate": "2026-03-26T07:00:00.000Z",
+      "duration": "488",
+      "summary": "Every time you buy a ticket that leaves a U.S. airport, you pay a fee that’s supposed to help fund the TSA. So why have TSA workers been working without pay? Today on the show, we explore the history ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F77%2F5d%2F02ddc9bb4216bf64f600a8614115%2Fb49589f5-4317-42db-a5d5-0cfd1b83ef41.jpg"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -284,6 +339,17 @@
       "duration": "8796",
       "summary": "Bill Thompson is a retired U.S. Army Chief Warrant Officer and the founder and CEO of Spartan Forge, a company that develops AI-powered mapping and predictive tools for hunting.www.youtube.com/@sparta",
       "art": "https://megaphone.imgix.net/podcasts/22742724-27ef-11f1-a5f7-afcbbd59e1a3/image/8ae090925306ddcca76af65b6df84372.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Your next flight doesn't have to be so expensive. Here's why",
+      "link": "https://www.npr.org/2026/03/25/nx-s1-5759714/your-next-flight-doesnt-have-to-be-so-expensive-heres-why",
+      "pubDate": "2026-03-25T07:00:00.000Z",
+      "duration": "565",
+      "summary": "Why are flight tickets so expensive right now? Increased oil prices seems like it’d be the obvious answer. That’s mostly right. Airlines used to do some financial magic to help keep airfare down as oi",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa4%2Fb3%2F3d969f894a51b9f85e124021447a%2Fb95c3c50-8d6c-4054-b624-a089181e8bde.jpg"
     },
     {
       "showId": "jre",
@@ -317,6 +383,17 @@
       "duration": "01:02:24",
       "summary": "Iran has currently shut off more than 10 percent of the world’s oil supply. If that goes on for a lot longer — or if the war escalates to include more strikes on energy infrastructure in the region — ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Why hasn't the Russian economy collapsed?",
+      "link": "https://www.npr.org/2026/03/24/nx-s1-5758059/why-hasnt-the-russian-economy-collapsed",
+      "pubDate": "2026-03-24T07:00:00.000Z",
+      "duration": "571",
+      "summary": "How has Russia’s economy not completely collapsed after four years of war, sanctions and billions in debt? One economist says it is the war that has been propping up Russia's economy, not the other wa",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F88%2F5a%2F345b241d40e1bbe6b8e1091b1cdd%2F79aee1bf-f9bd-4582-b149-67a6fbffcdf1.jpg"
     },
     {
       "showId": "allin",
@@ -361,6 +438,17 @@
       "duration": "53:51",
       "summary": "Matthew Steckman is the President and Chief Business Officer of Anduril. Matt played a central role in securing the $20BN contract Anduril just won with the US military. Prior to Anduril, Matt served ",
       "art": "https://static.libsyn.com/p/assets/b/8/5/d/b85d16a07f3f9bd5d959afa2a1bf1c87/WhatsApp_Image_2026-03-20_at_19.43.39.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "The multimillion dollar Saturday Night Live UK gamble",
+      "link": "https://www.npr.org/2026/03/23/nx-s1-5754763/the-multimillion-dollar-saturday-night-live-uk-gamble",
+      "pubDate": "2026-03-23T07:00:00.000Z",
+      "duration": "570",
+      "summary": "Live from London, it’s Saturday Night? Saturday Night Live made its UK debut over the weekend after a well-hyped promotional campaign. Will this all-American sketch show translate to British audiences",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F80%2F82%2F16c0e5424a738b85d429a0e67ee0%2Fe36dbac7-f902-495b-a456-5b7e7be59834.png"
     },
     {
       "showId": "allin",
@@ -451,6 +539,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Trump and truckers, Poland prospers, and a booming ant biz",
+      "link": "https://www.npr.org/2026/03/20/nx-s1-5753979/trump-and-truckers-poland-prospers-and-a-booming-ant-biz",
+      "pubDate": "2026-03-20T07:00:00.000Z",
+      "duration": "569",
+      "summary": "It’s Indicators of the Week (now on YouTube !). It’s our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: The Trump administration cracks down on immigra",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcf%2F22%2F33d9dd2247559c65ce9fd254eb69%2Fe1083f83-5b71-40e6-b574-f6edca226f39.png"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -482,6 +581,17 @@
       "duration": "01:15:15",
       "summary": "AGENDA: 04:02 NVIDIA's GTC: What You Need to Know 11:39 Meta's 20% Layoffs & Atlassian Lets Go of 1,600 21:42 How to Test AI Fluency in Employees 30:59 Anduril Lands $20BN Army Contract 46:46 Travis K",
       "art": "https://static.libsyn.com/p/assets/4/6/9/9/4699410afabf528c16c3140a3186d450/WhatsApp_Image_2026-03-18_at_17.35.34.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "How Iran is wasting American resources",
+      "link": "https://www.npr.org/2026/03/19/nx-s1-5752454/how-iran-is-wasting-american-resources",
+      "pubDate": "2026-03-19T07:00:05.000Z",
+      "duration": "533",
+      "summary": "Iran is using an affordable strategy to even the playing field in the war with the U.S. It’s using drones that cost in the thousands of dollars to combat American missiles that cost several million. M",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F77%2F9c%2F945cb42043f5beab3f44b98fe352%2Fff03a5d5-1c50-4074-b8fa-4b94dde4f470.jpg"
     },
     {
       "showId": "etw",
@@ -528,6 +638,17 @@
       "art": "https://static.libsyn.com/p/assets/d/6/0/0/d600e7bd196e13efd959afa2a1bf1c87/1_Pod_Fetterman-20260318-2m8836kv91.png"
     },
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "How much is the Iran war costing us?",
+      "link": "https://www.npr.org/2026/03/18/nx-s1-5751161/how-much-is-the-iran-war-costing-us",
+      "pubDate": "2026-03-18T07:00:00.000Z",
+      "duration": "507",
+      "summary": "It’s really hard to estimate the total cost of war in the middle of one. Over the first six days of the Iran war, an estimated $11.3 billion was charged to the public purse. But long-term costs take y",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F86%2F79%2F6f1d117d4a39bf2ffe62f6970fe2%2F475c2b43-4d65-45dc-8c5c-f68d1b247b47.jpg"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -550,6 +671,17 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "A trucker, a farmer, and an entrepreneur walk into a global supply shock",
+      "link": "https://www.npr.org/2026/03/17/nx-s1-5749289/a-trucker-a-farmer-and-an-entrepreneur-walk-into-a-global-supply-shock",
+      "pubDate": "2026-03-17T07:05:03.000Z",
+      "duration": "534",
+      "summary": "The U.S. and Israel war with Iran is causing a shock to the economic system. Gas prices are higher, diesel too, and even fertilizer is being affected. Today on the show, we speak to three people about",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2Fb7%2Fcd6ec09c4308a5ca1060528edbe5%2Fab32bb6c-d6f6-4cec-81ee-4234361015b1.jpg"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -570,6 +702,17 @@
       "duration": "01:18:21",
       "summary": "Gokul Rajaram is one of the greatest operators turned investors of the last 2 decades. He is trusted as the go to advisor for the greatest founders in the world. Today he serves as a Board Director at",
       "art": "https://static.libsyn.com/p/assets/f/5/4/8/f5480745ceb9d8b616c3140a3186d450/WhatsApp_Image_2026-03-15_at_15.33.29.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Can anything save the news biz?",
+      "link": "https://www.npr.org/2026/03/16/nx-s1-5746826/can-anything-save-the-news-biz",
+      "pubDate": "2026-03-16T07:00:00.000Z",
+      "duration": "550",
+      "summary": "If you were in the business of making a bunch of money in 2026, you probably wouldn’t pick journalism. From social media to AI, the attention economy has upended the economic calculus for delivering n",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F83%2F43%2Ff6c1b08e4741a02f5c5bdceac337%2F60ac904d-9f7a-4c35-9b25-f55cb52b739d.jpg"
     },
     {
       "showId": "bg2pod",
@@ -638,6 +781,17 @@
       "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
     },
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "A lot of gas trapped, oil reserves tapped, and Live Nation gets a (tiny) cap",
+      "link": "https://www.npr.org/2026/03/13/nx-s1-5746095/a-lot-of-gas-trapped-oil-reserves-tapped-and-live-nation-gets-a-tiny-cap",
+      "pubDate": "2026-03-13T07:00:00.000Z",
+      "duration": "512",
+      "summary": "It’s Indicators of the Week (now on YouTube !), our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: How big is this gas crisis and could releasing oil r",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F36%2F8f%2F7cb953364d14a616960681008d7f%2F90ad4da4-5da0-4bef-ae54-7b4bddc442a3.png"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -658,6 +812,17 @@
       "duration": "01:14:09",
       "summary": "AGENDA: 00:00 - ANTHROPIC VS. THE PENTAGON: The Billion Dollar Supply Chain War 07:11 - B2B PANIC: Why Leading Companies Are Losing Deals to OpenAI 12:19 - THE ANTHROPIC ENDGAME: Will Claude Eclipse C",
       "art": "https://static.libsyn.com/p/assets/4/6/0/3/4603e3db6f80813b16c3140a3186d450/WhatsApp_Image_2026-03-11_at_14.10.35.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Should colleges accept money from bad people?",
+      "link": "https://www.npr.org/2026/03/12/nx-s1-5745149/should-colleges-accept-money-from-bad-people",
+      "pubDate": "2026-03-12T07:00:00.000Z",
+      "duration": "507",
+      "summary": "At a dinner in 2010, physicist Sean Carroll is handed a phone. On the other end: A wealthy patron looking to potentially fund his research. Months later came an invite to a conference. It would take p",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F97%2F4d%2F4ed3db3b48c89dd67348d07882c6%2F9b19227e-67a3-413a-92c7-9face5243336.png"
     },
     {
       "showId": "etw",
@@ -702,6 +867,17 @@
       "duration": "11716",
       "summary": "Francis Foster is a comic and author of \"(Un)educated.\" Konstantin Kisin is a political commentator and author of \"An Immigrant's Love Letter to the West.\" Together, they host the podcast \"Triggernome",
       "art": "https://megaphone.imgix.net/podcasts/a208aa0c-1d02-11f1-aa23-570a0b9773c2/image/4486a32c894ab9dc5cf3e85b1b9156bb.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "The shadowy world of merchant cash advances",
+      "link": "https://www.npr.org/2026/03/11/nx-s1-5743977/the-shadowy-world-of-merchant-cash-advances",
+      "pubDate": "2026-03-11T07:00:00.000Z",
+      "duration": "561",
+      "summary": "During the pandemic, mostly unregulated lenders went after struggling restaurants and music venues, charging at times sky high rates. Now, they’ve found a new market: small businesses that desperately",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F81%2F34%2F00fab59b43df94c225274269fe69%2F5d54841b-64ea-495f-8e40-dcc0b1a38a25.png"
     },
     {
       "showId": "jre",
@@ -1241,17 +1417,6 @@
       "duration": null,
       "summary": "Nathan Lambert and Sebastian Raschka are machine learning researchers, engineers, and educators. Nathan is the post-training lead at the Allen Institute for AI (Ai2) and the author of The RLHF Book. S",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "继业者1918｜凯末尔与现代土耳其的诞生：从战争英雄到改革家",
-      "link": "https://www.xiaoyuzhoufm.com/episode/697c80472fc7f49d09088c7d?utm_source=rss",
-      "pubDate": "2026-01-30T12:24:28.000Z",
-      "duration": "00:03:00",
-      "summary": "- 导语 - 从奥斯曼帝国的废墟中缔造现代土耳其的凯末尔，是一位坚定的「世俗主义者」。他在一战后的民族存亡关头领导独立战争，击退希腊军队，废除苏丹制与哈里发制，建立了土耳其共和国；又以铁腕推行世俗化改革，从文字、服饰到法律，全面重塑社会面貌。旧体制难以为继，民族主义崛起，奥斯曼帝国如何一步步走向分崩离析？凯末尔如何在战争中威望大增，最终成为「土耳其国父」？倡导「民主实验」却又一再反复，凯末尔为现代",
-      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
     },
     {
       "showId": "ezraklein",
