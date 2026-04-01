@@ -1,5 +1,5 @@
 {
-  "lastSent": "2026-03-31",
+  "lastSent": "2026-04-01",
   "seenLinks": [
     "https://uk.finance.yahoo.com/news/gold-prices-oil-pound-commodities-dollar-interest-rates-federal-reserve-uk-inflation-093233998.html",
     "https://uk.finance.yahoo.com/news/ftse-100-live-stock-markets-wall-street-uk-retail-sales-budget-surplus-084326165.html",
@@ -1735,6 +1735,27 @@
     "https://newslink.reuters.com/click/44972228.11715/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTAzMzEyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B8cc57ec7",
     "https://newslink.reuters.com/click/44961575.68254/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249UmV1dGVycy1CdXNpbmVzcyZ1dG1fdGVybT0wMzMwMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158Bac04237a",
     "https://geohot.github.io//blog/jekyll/update/2026/03/30/two-worlds.html",
-    "https://newslink.reuters.com/click/44959229.37153/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDMzMDI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158Bdd32ff79"
+    "https://newslink.reuters.com/click/44959229.37153/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDMzMDI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158Bdd32ff79",
+    "https://www.cnbc.com/2026/03/31/crypto-asset-manager-coinshares-to-begin-trading-on-nasdaq-through-spac-merger.html",
+    "https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems",
+    "https://www.cnbc.com/2026/03/31/snap-stock-activist-irenic-value.html",
+    "https://scottlawsonbc.com/post/dot-system",
+    "https://techcrunch.com/2026/03/31/robotaxi-companies-refuse-to-say-how-often-their-avs-need-remote-help",
+    "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month",
+    "https://home.cern/news/news/engineering/cern-levels-new-superconducting-karts",
+    "https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm",
+    "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS3lfcmhzS2NaeWQ1ZVFmX0pMRDV1U29MNGJUR0ExZWhCU2JKTFUybEMwTUxUX3BkbHVCZWo2UkhHUUNGeVZ2QWNENS1qemFuNnh6OXJjSnpQbC12akVRODBBZktrbDQzQm1UeEkyQlFGeXVGS1VSNWNIRTdSVkZONWxHNm9jTWM1ZGhfT0lEZnF1cFRSYWgzNEMtYjRvU3FzajZ6SktzYzBIeU0?oc=5",
+    "https://www.v2ex.com/t/1202850#reply0",
+    "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeDFqN3BNVXRSN0l3WTlpV0w3YmlmMVZVbEpmMk1VcFJVdVFKQklQamUtbDgzekxUYXhvejZfdEFRN29Lb1pZX3gtLXpfckpialZCN3pjWFBYOGM4dW9FSjZUZjhUdWxzbDFmVXNMeWZLRVMwSkZnNS16cUZuclgxamN3M2NSdGpKZkd2VmhYX3ZLZ1N0dnFvWEVkc3Z0aWNwNzJZM1pHUWh1eFFfelE?oc=5",
+    "https://www.v2ex.com/t/1202803#reply11",
+    "https://news.google.com/rss/articles/CBMinwFBVV95cUxObWxIOHZ5Q1UxRklPR08tSFljc0ktdUJmNFdKTGozYzBBbE1wamJNanN5SWhuSjA5V0l6LTY4UG4tbVZQTy1BZmNRUm5HUkkwNHQ1WF9MM2dVSVpMSG9UOG9hOXFTWjlrY0psVVo1eXlXaHoyVGJyc2tHREEtUlFxR0FKSlBjdUNkMFFnQXQ5dnBLVWt6UWxqdlhVaVRva2M?oc=5",
+    "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQUxWaEdOTkhLZEtRa1U4LXA0Zng3U3lMcUk3MEhfOXo5ZEM5emFkUEg3RUtFVG8yZmlRbHoxU1pfTjIzdjJoaGdsMGFXcTcyUi1jcVJDRkZRUVpoR3lRMUFfaGZzeEllWGZOS2E0SWY4MlQ5UWRZc1lFdUxLMjZEVFk3NTBTMEhQQjBKTFVaZ1NPQ2g0VHhMMmJ4Y0lyUWhoUmNlNnhhcnZFU3o5SjhldTVKbzlfSVRzVWItY3k4TVRYazc0YUlqRnBCeFhyUUljbjVlUlZ2TFJ0ZlE?oc=5",
+    "https://stratechery.com/2025/u-s-intel/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3Utcy1pbnRlbC8iXX0sImV4cCI6MTc3NzYyNTA3OCwiaWF0IjoxNzc1MDMzMDc4LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.hcat1fMt_Wppnuf97RcViSxRTY3HMN9t3R_rX1Yt5Cp-n9mBsrBoMAwhJOilLNeDyWKOglUXbx5U95NrL-kNzHYWy6EbGcGj4KeyFMAoTRkL9d6GOClO4aIvRZ2MyL73Rp8hasHYVX1fZU660p6nWNxKLTG3ELM1B5SYtkbF4-X2vnoe8Q0ik9T7aTqiji5EVedcHf5viJY2pUNXkrn4Lkbq1nPa1vA9Psah7-hqVUZQDt0Eaayi0Lka3jow7CLzN-Z9WY0H6WJgOPVAFmm-9JfuF-Hlqfqpkg7bccWjLuVR-RDnXokHgzT4cKsggTQjzv4f02WcyYbPT6VWgzUwwg",
+    "https://spectrum.ieee.org/deep-sea-submersible",
+    "https://steveblank.com/2026/03/31/solving-yesterdays-problems-will-kill-you",
+    "https://stratechery.com/2026/anthropic-and-alignment/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpYy1hbmQtYWxpZ25tZW50LyJdfSwiZXhwIjoxNzc3NjI1MDc4LCJpYXQiOjE3NzUwMzMwNzgsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.DNhCnThAzLNdgGTCzv14f_zNjMA45A7UvaOGc05q-8BAaEDipXhmCk-SovzjcgIDsh_hCGRmqUQIynQMBPBDZvSuAK4SVG5XZsSHYbxR4LTl-wk6yUHRlcvKht5nuyx4pfB5qH9q16Mv24tAXMeE8fRM6i4lzCNeuN_xSczvOoDhtlSA0a5AVY8lIqY3HixRp7Gj7XSaGnREfIsMr5AIx6aZEmZN8huY8bOkdfjz9pYt0ecYiQctlmjjOOzFEg9KHQZ9fimR0-WeL9WXM7ZKLIV2TDjc4PGtt5PWU9nmoLYnyfN2Iey2NwssWfyIfStuB4lWgTFbu_UA6NBVfJQ_mQ",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbE1nTHlCRXRjYy1YQVlDcXNEbVRKMDFEWDZ4S0NYeVdUYmJiT0J5NDNrQWFSdlBwNGN4VGJtUHQ2d2tFb1FaT25DMWVtc2FyOW1aMXcyNUtqS3BCeWFHTHFLOGlwb2xsOW85NU00VkROb2cxbXNFdk5Gdm1YWXFMb1F1ZktmRWUydE5MaDhObms2aW11SGZrMUpQUGhKb0gyeXJHVFZvNHVmWnVzT0pZ?oc=5",
+    "https://newslink.reuters.com/click/44981312.48997/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDMzMTI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158Bb350a226",
+    "https://scottknaster.substack.com/p/macs-of-unusual-size"
   ]
 }
