@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-01T20:36:30.004Z",
+    "updatedAt": "2026-04-02T08:35:15.553Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Greetings from: Our favorite public goods",
+      "link": "https://www.npr.org/2026/04/02/nx-s1-5770605/greetings-from-our-favorite-public-goods",
+      "pubDate": "2026-04-02T07:00:00.000Z",
+      "duration": "413",
+      "summary": "Freedom of the Seas. GPS. The Large Hadron Collider. These are all public goods that make our world more prosperous, accurate, and knowledgeable. But we don’t always give them the attention they deser",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F72%2F4a%2F9e1ebac44a209efa7476fceafa7d%2Ffd5fda1a-9524-4586-b128-099518e83780.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -856,17 +867,6 @@
       "duration": "01:14:09",
       "summary": "AGENDA: 00:00 - ANTHROPIC VS. THE PENTAGON: The Billion Dollar Supply Chain War 07:11 - B2B PANIC: Why Leading Companies Are Losing Deals to OpenAI 12:19 - THE ANTHROPIC ENDGAME: Will Claude Eclipse C",
       "art": "https://static.libsyn.com/p/assets/4/6/0/3/4603e3db6f80813b16c3140a3186d450/WhatsApp_Image_2026-03-11_at_14.10.35.jpeg"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Should colleges accept money from bad people?",
-      "link": "https://www.npr.org/2026/03/12/nx-s1-5745149/should-colleges-accept-money-from-bad-people",
-      "pubDate": "2026-03-12T07:00:00.000Z",
-      "duration": "507",
-      "summary": "At a dinner in 2010, physicist Sean Carroll is handed a phone. On the other end: A wealthy patron looking to potentially fund his research. Months later came an invite to a conference. It would take p",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F97%2F4d%2F4ed3db3b48c89dd67348d07882c6%2F9b19227e-67a3-413a-92c7-9face5243336.png"
     },
     {
       "showId": "etw",
