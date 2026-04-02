@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-02T08:35:15.553Z",
+    "updatedAt": "2026-04-02T15:03:50.101Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#384 「龙虾」和 vibe coding 正如何改变我们的思维：一场来自小白、创业者和工程师不同视角的讨论",
+      "link": "http://etw.fm/2205",
+      "pubDate": "2026-04-02T10:15:00.000Z",
+      "duration": "1:05:46",
+      "summary": "Vibe coding 火了，open source agent 爆了，「一人公司」的概念开始被认真讨论。这一切发生在 2026 年初的几个月里 —— AI 正在改变的，究竟是写代码这件事，还是我们理解工作本身的方式？ 这不只是程序员的问题。当 AI 开始承接越来越多的执行性工作，每一个岗位都在被重新定义 —— 什么样的能力变得更稀缺，什么样的工作方式已经过时，组织的形态又将走向何方？ 这一期节目",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Anthropic's $6BN Revenue Month | OpenAI Kills Sora & Hits $100M ARR on Ads | Oura Going Public & Whoop Raises at $10BN | Manus Founders Trapped in China & The Billionaire Tax: Anyone Left in California?",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropics-6bn-revenue-month-openai-kills-sora-hits-100m-arr-on-ads-oura-going-public-whoop-raises-at-10bn-manus-founders-trapped-in-china-the-billionaire-tax-anyone-left-in-california",
+      "pubDate": "2026-04-02T08:55:00.000Z",
+      "duration": "01:09:36",
+      "summary": "AGENDA: 00:00 — Anthropic's Monster Month: 6 Billion in February Revenue 04:30 — The \"Claude Mythos\" Leak: 10 Trillion Parameters 11:50 — OpenAI Kills \"Sora\": A Massive Strategic Own Goal? 14:30 — Ope",
+      "art": "https://static.libsyn.com/p/assets/7/3/a/2/73a298c66ea9fe1f16c3140a3186d450/WhatsApp_Image_2026-04-01_at_12.30.24-20260402-l1el1ztj0c.jpeg"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1188,17 +1210,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Wipes Billions Off Markets | Citrini Research: The Ultimate Breakdown: Agents, \"Ghost GDP\", Consumer Spend etc. | Figma Earnings Beat & Four Public Stocks to Buy | Jack Altman Joins Benchmark",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-wipes-billions-off-markets-citrini-research-the-ultimate-breakdown-agents-ghost-gdp-consumer-spend-etc-figma-earnings-beat-four-public-stocks-to-buy-jack-altman-joins-benchmark",
-      "pubDate": "2026-02-26T07:07:00.000Z",
-      "duration": "01:20:09",
-      "summary": "AGENDA: 03:55 Anthropic Security Product Wipes Billions Off Public Markets 11:17 Do Agents Turn SaaS Incumbents into Valueless Databases 22:07 Anthropic Secondary Sale Makes Hundreds Decamillionaires ",
-      "art": "https://static.libsyn.com/p/assets/2/d/2/f/2d2fbe58f9250b22d959afa2a1bf1c87/WhatsApp_Image_2026-02-25_at_18.24.14.jpeg"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1758,17 +1769,6 @@
       "duration": "00:57:32",
       "summary": "【主播的话】 过去几年，我们的生活里已经不可避免地被AI所包围。AI 的迅猛发展在给人类工作和生活带来便利的同时，也给人类带来了很多焦虑。许多这些焦虑也是围绕着我们对自己，以及和这个世界的关系展开的。 每个人在面对新科技发展时，都有不同的应对机制；过去几年做科技报道的经历让我意识到要了解一个新技术的优点与局限，它的潜在不公正与威胁。首先要了解它是如何被制造出来的？在这个制造环节中涉及了哪些不同的人",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#371 与一位美国商科教授，关于 AI 时代商学院、通识教育和未来工作的讨论",
-      "link": "http://etw.fm/2190",
-      "pubDate": "2025-12-04T08:45:00.000Z",
-      "duration": "1:06:10",
-      "summary": "当麦肯锡、德勤等全球大公司都在削减入门岗位，因为那些工作 AI 已比新人做得更快更好时，直接给这些公司输送人才的商学院还能教什么，怎么教？ 过去十几年里，商学院的改革基本围绕着给自己的各种课程贴上「数据分析」的标签。但当 AI 性能一日千里，原本构成商业世界入口的那套技能体系正在松动：入门岗位减少、训练路径被压缩，商学院的处境也变得尴尬。 这期节目，我们和在美国一所文理学院任教的陈燚老师一起，聊了",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "lexfridman",
