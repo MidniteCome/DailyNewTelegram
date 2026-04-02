@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-02T15:03:50.101Z",
+    "updatedAt": "2026-04-02T20:26:43.107Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2478 - Theo Von",
+      "link": "https://traffic.megaphone.fm/GLT6518968908.mp3?updated=1775153870",
+      "pubDate": "2026-04-02T17:00:00.000Z",
+      "duration": "9987",
+      "summary": "Theo Von is a comedian and host of the podcast “This Past Weekend with Theo Von.” Tickets are on sale now for his new movie \"Busboys\" only in theaters on April 17.www.theovon.comwww.youtube.com/theovo",
+      "art": "https://megaphone.imgix.net/podcasts/7a2534e4-2e49-11f1-aa8b-d7da5b28e9c3/image/d40677418282f92b14820a04032597a5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "etw",
       "showName": "声东击西",
@@ -933,17 +944,6 @@
       "duration": "11716",
       "summary": "Francis Foster is a comic and author of \"(Un)educated.\" Konstantin Kisin is a political commentator and author of \"An Immigrant's Love Letter to the West.\" Together, they host the podcast \"Triggernome",
       "art": "https://megaphone.imgix.net/podcasts/a208aa0c-1d02-11f1-aa23-570a0b9773c2/image/4486a32c894ab9dc5cf3e85b1b9156bb.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2465 - Michael Shellenberger",
-      "link": "https://traffic.megaphone.fm/GLT5167173774.mp3?updated=1773184653",
-      "pubDate": "2026-03-10T17:00:00.000Z",
-      "duration": "10970",
-      "summary": "Michael Shellenberger is an author, journalist, and founder of Civilization Works. He is the CBR Chair of Politics, Censorship, and Free Speech at the University of Austin. His books include “Apocalyp",
-      "art": "https://megaphone.imgix.net/podcasts/716eb582-1c33-11f1-b043-234795f83a6d/image/4df581ddf95a227958278cf58ba8db77.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
