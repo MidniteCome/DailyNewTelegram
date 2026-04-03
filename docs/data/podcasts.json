@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-03T08:12:09.459Z",
+    "updatedAt": "2026-04-03T14:51:24.460Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,50 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Jobs that new college grads are and are not landing",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5771609/jobs-that-new-college-grads-are-and-are-not-landing",
+      "pubDate": "2026-04-03T14:40:08.000Z",
+      "duration": "520",
+      "summary": "Come see Planet Money live on stage in April! 12 cities. Details and tix here: https://tix.to/pm-book-tour . Economists have described the state of the jobs market as “low hire, low fire.” That means ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F53%2F51%2F640118694e67aed4f8a4b02777b0%2F86a72f18-001a-4c29-ae0b-90f323361124.png"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "穿透中东冲突的迷雾：两位异乡人所经历的伊朗社会",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69cfb0c9e2c8be31554f8c67?utm_source=rss",
+      "pubDate": "2026-04-03T12:32:49.000Z",
+      "duration": "00:54:48",
+      "summary": "【主播的话】 本期节目，我们希望继续从不同视角来了解伊朗社会最近发生的一系列动荡、冲突和抗议。本期节目的两位嘉宾，其中一位傅卓蕊，从 2017 年开始在中东地区，包括沙特，伊朗和黎巴嫩生活、工作和创业。在过去十几年，她的个人经历与情感也与伊朗这片土地交织在一起，积累了丰富的一手田野经验。另一位嘉宾 Filip，是一位成长于前苏联地区的资深媒体工作者，他从小长大的地方也与伊朗文化有着紧密联系。在节目",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "464 明清如何治理苗疆：对峙、隔阂与修筑湘黔边墙",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69cf8b7db977fb2c4706915f?utm_source=rss",
+      "pubDate": "2026-04-03T09:57:43.000Z",
+      "duration": "01:05:14",
+      "summary": "- 导语 - 在明清两代的湘黔边境，存在着一段全长数百里的「边墙」，它曾是中央王朝为了管控西南边疆而修筑的。明初借土司内斗之机实行改土归流，但此后这一地区因管理失控，逐渐陷入长期的「生苗」作乱。改土归流为何未能稳住局势，反而引发持续动乱？那些表面上效忠朝廷的地方土司，私下里是如何利用动乱来「养寇自重」的？修墙真的能解决边疆问题吗，还是仅仅是一种无奈的封堵手段？从残酷的军事对峙到后来的民苗通婚、商贸",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Why Iran Believes It Has the Upper Hand",
+      "link": "https://www.nytimes.com/2026/04/03/opinion/ezra-klein-podcast-suzanne-maloney.html",
+      "pubDate": "2026-04-03T09:00:00.000Z",
+      "duration": "01:01:34",
+      "summary": "In a prime time address on Wednesday, President Trump proclaimed that America was “on the cusp of ending Iran’s sinister threat.” But he also kept open the option of boots on the ground. The effective",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -869,17 +913,6 @@
       "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "A lot of gas trapped, oil reserves tapped, and Live Nation gets a (tiny) cap",
-      "link": "https://www.npr.org/2026/03/13/nx-s1-5746095/a-lot-of-gas-trapped-oil-reserves-tapped-and-live-nation-gets-a-tiny-cap",
-      "pubDate": "2026-03-13T07:00:00.000Z",
-      "duration": "512",
-      "summary": "It’s Indicators of the Week (now on YouTube !), our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: How big is this gas crisis and could releasing oil r",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F36%2F8f%2F7cb953364d14a616960681008d7f%2F90ad4da4-5da0-4bef-ae54-7b4bddc442a3.png"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1408,28 +1441,6 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Is Your Social Life Missing Something? This Is For You.",
-      "link": "https://www.nytimes.com/2026/01/16/opinion/ezra-klein-podcast-priya-parker.html",
-      "pubDate": "2026-02-03T10:00:00.000Z",
-      "duration": "01:31:16",
-      "summary": "My motivation for this episode is personal. One of my resolutions this year is to spend more time hosting and to make those gatherings more meaningful. I think a lot of us wish we had better social li",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "456 洪门会党、矿工械斗与拿律战争：白伟权谈19世纪马来半岛的华人移民社会",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6981bb5865d831df72382ec0?utm_source=rss",
-      "pubDate": "2026-02-03T09:27:12.000Z",
-      "duration": "01:16:56",
-      "summary": "- 导语 - 十九世纪的马来半岛，是众多华人移民眼中的「异域」，从广府人、客家人等不同群体的迁徙聚居，到洪门会党组织的械斗，南洋华人在这片土地留下了复杂而鲜活的历史印记。华工移民的社会日常生活究竟是怎样的？以海山、义兴为代表的华人会党，如何成为矿区社会的核心力量？因资源争夺引发的多次拿律战争，如何影响了马来半岛的殖民进程？请听本期嘉宾白伟权老师带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -1857,17 +1868,6 @@
       "duration": "2:54:01",
       "summary": "Dan Houser is co-founder of Rockstar Games and is a legendary creative mind behind Grand Theft Auto (GTA) and Red Dead Redemption series of video games. Thank you for listening ❤ Check out our sponsor",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "weirdo",
-      "showName": "不合时宜",
-      "category": "zh",
-      "title": "不时夜谈｜她找到了想一直干到80岁的工作：让人吃得健康、美味又公正",
-      "link": "https://www.xiaoyuzhoufm.com/episode/68ff0df9083a71a4eb6beccf?utm_source=rss",
-      "pubDate": "2025-10-28T00:00:00.000Z",
-      "duration": "01:02:52",
-      "summary": "【主播的话】 这期节目我们一起来聊聊吃饭这件事。食物在我们生活如此频繁的出现，大部分人都在意食物是否美味，但很多时候如何选择食物也关系到我们想要一个怎样的世界。 今年十月瑞典斯德哥尔摩多食物论坛转型大会（EAT）上， 柳叶刀的行星饮食法（PHD）2.0 正式发布，报告推崇一种更健康和可持续化的饮食方式，科学家们提出如果全球推广PHD饮食法，每年可预防1500万成年人过早死亡（该估算未计入该饮食法对",
-      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
       "showId": "acquired",
