@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-04T08:03:31.821Z",
+    "updatedAt": "2026-04-04T14:39:02.394Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Hims & Hers: $4.3BN Market Cap on $2.3BN of Revenue: The Comeback | Why Being Public is 10x Better | The Death of the \"Strategy\" Hire | Why Performance Marketing is Worse than Brand Marketing with Andrew Dudum",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-hims-hers-43bn-market-cap-on-23bn-of-revenue-the-comeback-why-being-public-is-10x-better-the-death-of-the-strategy-hire-why-performance-marketing-is-worse-than-brand-marketing-with-andrew-dudum",
+      "pubDate": "2026-04-04T09:25:00.000Z",
+      "duration": "59:18",
+      "summary": "Andrew Dudum is the Founder and CEO of Hims, the company reshaping consumers relationship to healthcare. It has been a rocky ride over the last 6 months, the company is down 66%, their market cap toda",
+      "art": "https://static.libsyn.com/p/assets/d/c/1/a/dc1acdcdb0434ba3d959afa2a1bf1c87/WhatsApp_Image_2026-04-02_at_16.24.17.jpeg"
+    },
     {
       "showId": "allin",
       "showName": "All-In",
@@ -1208,17 +1219,6 @@
       "duration": null,
       "summary": "Rick Beato is a music educator, interviewer, producer, songwriter, and a true multi-instrument musician, playing guitar, bass, cello piano. His incredible YouTube channel celebrates great musicians mu",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Why Cursor is Dead | An AI Tsunami is Coming & You Need to Prepare | Systems of Record Become Valueless Databases with Agents | Is This The End of Tech Private Equity with Jerry Murdock, Co-Founder of Insight Partners",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-why-cursor-is-dead-an-ai-tsunami-is-coming-you-need-to-prepare-systems-of-record-become-valueless-databases-with-agents-is-this-the-end-of-tech-private-equity-with-jerry-murdock-co-founder-of-insight-partners",
-      "pubDate": "2026-02-28T07:07:00.000Z",
-      "duration": "01:01:05",
-      "summary": "Jerry Murdock is the Co-Founder of Insight Partners, one of the most formidable growth investors of the last three decades, with over $90 billion in AUM and a portfolio that has shaped the modern soft",
-      "art": "https://static.libsyn.com/p/assets/9/f/4/9/9f491779a0794327d959afa2a1bf1c87/WhatsApp_Image_2026-02-27_at_15.16.10.jpeg"
     },
     {
       "showId": "allin",
