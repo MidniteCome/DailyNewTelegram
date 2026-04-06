@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-06T08:53:58.631Z",
+    "updatedAt": "2026-04-06T14:55:43.032Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
+      "link": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
+      "pubDate": "2026-04-06T12:51:00.000Z",
+      "duration": "01:09:22",
+      "summary": "(0:00) Friedberg Intros Palantir's Shyam Sankar and Anduril's Trae Stephens (0:56) Palantir Origins: CIA Analyst Joins 20-Person Startup (2:54) War, Deterrence & Silicon Valley's Defense Tech Taboo (8",
+      "art": "https://static.libsyn.com/p/assets/7/a/6/1/7a61a2a17e8bf93316c3140a3186d450/1_Pod_Palantir_Anduril.png"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1219,17 +1230,6 @@
       "duration": null,
       "summary": "Rick Beato is a music educator, interviewer, producer, songwriter, and a true multi-instrument musician, playing guitar, bass, cello piano. His incredible YouTube channel celebrates great musicians mu",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Software Stocks Implode, Claude's Hit List, State of the Union Reactions, Trump's Tariff Pivot",
-      "link": "https://allinchamathjason.libsyn.com/software-stocks-implode-claudes-hit-list-state-of-the-union-reactions-trumps-tariff-pivot",
-      "pubDate": "2026-02-28T00:34:00.000Z",
-      "duration": "01:21:08",
-      "summary": "(0:00) Bestie intros (1:22) Claude's hit list, SaaS crash, and Citrini's AI letter (30:39) Why Doomer narratives are more popular, valuable new AI jobs (40:19) Understanding the Rate Payer Protection ",
-      "art": "https://static.libsyn.com/p/assets/8/0/4/2/8042280528f65293d959afa2a1bf1c87/1_Pod_E262-20260228-vg0iehw4vb.png"
     },
     {
       "showId": "left-right",
