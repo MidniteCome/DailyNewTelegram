@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-06T20:30:21.528Z",
+    "updatedAt": "2026-04-07T08:43:30.466Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "午后偏见044｜书之爱：王强谈西文书籍的阅读、收藏与翻译",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69d4bc00e2c8be315592a389?utm_source=rss",
+      "pubDate": "2026-04-07T08:25:06.000Z",
+      "duration": "01:19:57",
+      "summary": "- 导语 – 从北大英文系的青春岁月，到新东方、真格基金的商业生涯，王强始终保持着对西文书籍近乎痴迷的热爱。他爱书、知书的趣闻，也在友人中广为流传。不仅如此，作为资深西文书蠹，他也热衷于书写有关藏书的故事，并动手翻译自己钟爱的作品。那么，有哪些大师引导王强走上藏书之路？他如何按图索骥，追随心仪的作家学者四处猎书？这些年来，他收获了什么珍本善本？他与英美书商之间，有哪些古风犹存的故事？他为何对《爱丽",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: DeepMind's Demis Hassabis on Why AGI is Bigger than the Industrial Revolution | Why LLMs Will Not Commoditise & We Have Not Hit Scaling Laws | Bottlenecks in AI & The Energy Crisis Caused By AI | Whether AI Will Do More to Harm or Help Inequality",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-deepminds-demis-hassabis-on-why-agi-is-bigger-than-the-industrial-revolution-why-llms-will-not-commoditise-we-have-not-hit-scaling-laws-bottlenecks-in-ai-the-energy-crisis-caused-by-ai-whether-ai-will-do-more-to-harm-or-help-inequality",
+      "pubDate": "2026-04-07T07:07:00.000Z",
+      "duration": "35:49",
+      "summary": "Demis Hassabis is the Co-Founder & CEO of Google DeepMind - working on AGI, responsible for AI breakthroughs such as AlphaGo, the first program to beat the world champion at the game of Go; and AlphaF",
+      "art": "https://static.libsyn.com/p/assets/7/a/d/f/7adf461317d8c199d959afa2a1bf1c87/8ca44342-cdea-4c24-b7f8-68bc5d04e443.jpg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Why infinite scroll's inventor wants to kill his creation",
+      "link": "https://www.npr.org/2026/04/07/nx-s1-5775917/why-infinite-scrolls-inventor-wants-to-kill-his-creation",
+      "pubDate": "2026-04-07T07:00:00.000Z",
+      "duration": "568",
+      "summary": "Come see Planet Money live on stage! 12 cities. Details and tix here: planetmoneybook.com We practically live on our phones these days. Scrolling and scrolling, endlessly. Entrepreneur Aza Raskin is r",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fac%2Fd3%2Fa4e9593640ae88d267178342f280%2F925f2be9-2076-4deb-9a19-7a1e47ac4062.png"
+    },
     {
       "showId": "allin",
       "showName": "All-In",
@@ -858,17 +891,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "A trucker, a farmer, and an entrepreneur walk into a global supply shock",
-      "link": "https://www.npr.org/2026/03/17/nx-s1-5749289/a-trucker-a-farmer-and-an-entrepreneur-walk-into-a-global-supply-shock",
-      "pubDate": "2026-03-17T07:05:03.000Z",
-      "duration": "534",
-      "summary": "The U.S. and Israel war with Iran is causing a shock to the economic system. Gas prices are higher, diesel too, and even fertilizer is being affected. Today on the show, we speak to three people about",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2Fb7%2Fcd6ec09c4308a5ca1060528edbe5%2Fab32bb6c-d6f6-4cec-81ee-4234361015b1.jpg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1210,17 +1232,6 @@
       "art": "https://img.transistorcdn.com/ORaQ7w0zdqAScJ9YPCf3I4RKe_muT-If0IMRT5rIuE8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS84MzRh/NWY0NDJlNzAzNDY1/OGY2NThlZDBkYmU1/NzdjMC5wbmc.jpg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Monday.com CEO on Is SaaS Dead: Will Everything Be Vibe Coded | Will Systems of Record Become Valueless Databases in an Agentic World | Will LLMs Own the Value in the Application Layer with Eran Zinman",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-mondaycom-ceo-on-is-saas-dead-will-everything-be-vibe-coded-will-systems-of-record-become-valueless-databases-in-an-agentic-world-will-llms-own-the-value-in-the-application-layer-with-eran-zinman",
-      "pubDate": "2026-03-02T07:07:00.000Z",
-      "duration": "01:09:55",
-      "summary": "Monday has been hit harder than almost any other public SaaS company. With $1.3BN in ARR, the company is valued at just $3.8BN; a more than 60% fall since IPO. Today, Eran Zinman, Monday's CEO joins H",
-      "art": "https://static.libsyn.com/p/assets/a/a/6/3/aa6395557b235be016c3140a3186d450/WhatsApp_Image_2026-02-27_at_15.16.27.jpeg"
-    },
-    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -1395,17 +1406,6 @@
       "duration": "01:27:00",
       "summary": "Ragebait, sponcon, A.I. slop — the internet of 2026 makes a lot of us nostalgic for the internet of 10 or 15 years ago. What exactly went wrong here? How did the early promise of the internet get so t",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "继业者1918｜曼纳海姆与芬兰的世纪突围：从考察中国西北情报到「冬季战争」",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6985a282c78b823892f0011b?utm_source=rss",
-      "pubDate": "2026-02-06T09:09:27.000Z",
-      "duration": "00:03:00",
-      "summary": "- 导语 - 从忠诚的沙俄将领，到化名「马达汉」前往中国西北搜集情报的探险家，再到在1918年乱局中奠定芬兰独立基础的开国功臣，曼纳海姆的一生是旧帝国崩塌与新国家诞生交织的缩影。面对沙俄崩溃与芬兰境内红白内战，说瑞典语的贵族曼纳海姆为何被推举为芬兰白军总司令？从依赖德国援助到巧妙周旋于苏德之间，曼纳海姆如何在冬季战争中创造奇迹，又如何在「继续战争」后带领芬兰从二战轴心国困局中全身而退？请听本期节目",
-      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
     },
     {
       "showId": "talksat",
