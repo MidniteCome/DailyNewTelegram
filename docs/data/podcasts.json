@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-08T15:17:07.410Z",
+    "updatedAt": "2026-04-08T20:34:51.785Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -138,7 +138,7 @@
       "id": "acquired",
       "name": "Acquired",
       "category": "tech",
-      "art": "https://img.transistorcdn.com/ERwaC95Hz6E804iD15qquWP1Kg7IShZgAkTYjnhmEc0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zZWVm/MzgyOGZmMzkxOWYz/YWVhNzUwMGUxMGIx/YmY3NS5wbmc.jpg",
+      "art": "https://img.transistorcdn.com/vsZU4XhW0FcJuycjWBWj6qiA0PNMw_qOgzX5nYueBKA/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lZTQz/Nzk2NjBjMjY5MzIz/NjQ2NTk1NWJkM2U5/ZDA4My5wbmc.jpg",
       "link": "https://acquired.fm"
     },
     {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2480 - Arsenio Hall",
+      "link": "https://traffic.megaphone.fm/GLT3162202677.mp3?updated=1775667417",
+      "pubDate": "2026-04-08T17:00:00.000Z",
+      "duration": "10691",
+      "summary": "Arsenio Hall is a comedian, producer, writer, and actor. He hosted “The Arsenio Hall Show” and has appeared in films including “Coming to America” and “Harlem Nights.” His new book, “Arsenio Hall: A M",
+      "art": "https://megaphone.imgix.net/podcasts/40c67136-32f4-11f1-8fff-17c75e7b3806/image/c431436ce2ac4d5b79fb3fb2e89e0a55.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Josh Shapiro on Trump, Iran War Chaos, Israel's Failure, the Economy, and 2028 Race",
+      "link": "https://allinchamathjason.libsyn.com/josh-shapiro-on-trump-iran-war-chaos-israels-failure-the-economy-and-2028-race",
+      "pubDate": "2026-04-08T15:52:00.000Z",
+      "duration": "01:01:52",
+      "summary": "(0:00) Jason intros PA Governor Josh Shapiro (1:40) Shapiro's blueprint for PA: pro-growth, pro-freedom, less red tape, prosecuting fraud (13:05) Wealth tax debate, what Dems are getting wrong on busi",
+      "art": "https://static.libsyn.com/p/assets/f/1/b/c/f1bc804150d9e1cad959afa2a1bf1c87/1_Pod_Shapiro.png"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -979,17 +1001,6 @@
       "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2467 - Michael Pollan",
-      "link": "https://traffic.megaphone.fm/GLT9240266292.mp3?updated=1773332833",
-      "pubDate": "2026-03-12T17:00:00.000Z",
-      "duration": "8968",
-      "summary": "Michael Pollan is an author and journalist whose books include “The Omnivore’s Dilemma,” “In Defense of Food,” and “How to Change Your Mind.\" His most recent is “A World Appears: A Journey into Consci",
-      "art": "https://megaphone.imgix.net/podcasts/40229214-1dc3-11f1-9a66-9bdf22d08247/image/1eaaa0f2804306841810c39225ce146d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1186,17 +1197,6 @@
       "duration": "01:10:58",
       "summary": "Two sitting heads of state, eight weeks apart. On Saturday, February 28, the United States and Israel launched a massive military assault on Iran that resulted in the death of Ayatollah Ali Khamenei, ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Ray Dalio: Our System Is in Jeopardy - Debt, AI & the Cycle That Destroyed Rome",
-      "link": "https://allinchamathjason.libsyn.com/ray-dalio-our-system-is-in-jeopardy-debt-ai-the-cycle-that-destroyed-rome",
-      "pubDate": "2026-03-03T10:00:00.000Z",
-      "duration": "49:14",
-      "summary": "(0:00) Friedberg Introduces Ray Dalio (1:29) 5 Forces That Will Decide America's Future (7:26) Why Government Reform Is Nearly Impossible (11:19) Gold vs. Bitcoin (28:16) What Economists Got Wrong Abo",
-      "art": "https://static.libsyn.com/p/assets/c/7/0/d/c70d5904e24409e816c3140a3186d450/1_Pod_Dalio.png"
     },
     {
       "showId": "left-right",
