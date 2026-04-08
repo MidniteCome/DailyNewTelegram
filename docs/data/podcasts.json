@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-08T08:43:00.796Z",
+    "updatedAt": "2026-04-08T15:17:07.410Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "How are drivers riding out the gas crisis?",
+      "link": "https://www.npr.org/2026/04/08/nx-s1-5776781/how-are-drivers-riding-out-the-gas-crisis",
+      "pubDate": "2026-04-08T09:12:00.000Z",
+      "duration": "549",
+      "summary": "Come see Planet Money live on stage! 12 cities. Details and tix here: planetmoneybook.com If you’re a commuter, gas prices may not be your friend right now. The average cost of a gallon is more than $",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd7%2F0d%2F5b6e7eb94d1da122ca03c377bf91%2F5dfbf9d8-3576-49a7-b6a7-ee4e0c4b9f05.jpg"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -856,17 +867,6 @@
       "duration": "45:27",
       "summary": "(0:00) David Friedberg welcomes Senator John Fetterman; SAVE Act thoughts (1:08) The broken Democratic Party: TDS, what he stands for, why the party changed, losing bipartisanship, popularity with Rep",
       "art": "https://static.libsyn.com/p/assets/d/6/0/0/d600e7bd196e13efd959afa2a1bf1c87/1_Pod_Fetterman-20260318-2m8836kv91.png"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "How much is the Iran war costing us?",
-      "link": "https://www.npr.org/2026/03/18/nx-s1-5751161/how-much-is-the-iran-war-costing-us",
-      "pubDate": "2026-03-18T07:00:00.000Z",
-      "duration": "507",
-      "summary": "It’s really hard to estimate the total cost of war in the middle of one. Over the first six days of the Iran war, an estimated $11.3 billion was charged to the public purse. But long-term costs take y",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F86%2F79%2F6f1d117d4a39bf2ffe62f6970fe2%2F475c2b43-4d65-45dc-8c5c-f68d1b247b47.jpg"
     },
     {
       "showId": "jre",
