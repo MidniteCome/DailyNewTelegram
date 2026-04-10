@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-10T14:54:34.615Z",
+    "updatedAt": "2026-04-10T20:26:14.560Z",
     "totalEpisodes": 165,
     "health": [
       {
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       },
       {
         "id": "indicator",
@@ -72,8 +72,8 @@
       {
         "id": "etw",
         "name": "声东击西",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       }
     ]
   },
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/11f568857987283428d892402e623b21.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "art": null,
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -159,8 +159,8 @@
       "id": "etw",
       "name": "声东击西",
       "category": "zh",
-      "art": null,
-      "link": "https://www.etw.fm/rss"
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4",
+      "link": "http://etw.fm"
     }
   ],
   "episodes": [
@@ -220,17 +220,6 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2481 - Duncan Trussell",
-      "link": "https://traffic.megaphone.fm/GLT3393412202.mp3?updated=1775753732",
-      "pubDate": "2026-04-09T17:00:00.000Z",
-      "duration": "11574",
-      "summary": "Duncan Trussell is a stand-up comedian, voice actor, and host of “The Duncan Trussell Family Hour.” He will perform live April 9–11 at Zanies Comedy Club Rosemont in Rosemont, Illinois. Tickets are on",
-      "art": "https://megaphone.imgix.net/podcasts/3ae530aa-340b-11f1-a2fc-ff8c0ea5e298/image/ba7072ca8e4dac5cc07ae17a05eaf3f1.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -262,17 +251,6 @@
       "duration": "1422",
       "summary": "London’s position as a global hub depends on staying competitive and preparing for rapid technological change. Sir Sadiq Khan, Mayor of London, joins Kunal Shah, co-chief executive officer of Goldman ",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2480 - Arsenio Hall",
-      "link": "https://traffic.megaphone.fm/GLT3162202677.mp3?updated=1775667417",
-      "pubDate": "2026-04-08T17:00:00.000Z",
-      "duration": "10691",
-      "summary": "Arsenio Hall is a comedian, producer, writer, and actor. He hosted “The Arsenio Hall Show” and has appeared in films including “Coming to America” and “Harlem Nights.” His new book, “Arsenio Hall: A M",
-      "art": "https://megaphone.imgix.net/podcasts/40c67136-32f4-11f1-8fff-17c75e7b3806/image/c431436ce2ac4d5b79fb3fb2e89e0a55.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "allin",
@@ -374,17 +352,6 @@
       "art": "https://static.libsyn.com/p/assets/4/c/6/4/4c64b40f4b8c6d6616c3140a3186d450/1_Pod_E267.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2479 - Bob Lazar & Luigi Vendittelli",
-      "link": "https://traffic.megaphone.fm/GLT6476784414.mp3?updated=1775235793",
-      "pubDate": "2026-04-03T17:00:00.000Z",
-      "duration": "11108",
-      "summary": "Bob Lazar made headlines in 1989 during an anonymous interview with journalist George Knapp, where he described working with extraterrestrial technology at a site near Area 51. He is the subject of th",
-      "art": "https://megaphone.imgix.net/podcasts/1ac15128-2f0b-11f1-8ec6-af2d607f733b/image/69e40ae0cfb55cd685ce4b6d7e0b5c84.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -429,15 +396,15 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2478 - Theo Von",
-      "link": "https://traffic.megaphone.fm/GLT6518968908.mp3?updated=1775235417",
-      "pubDate": "2026-04-02T17:00:00.000Z",
-      "duration": "9987",
-      "summary": "Theo Von is a comedian and host of the podcast “This Past Weekend with Theo Von.” Tickets are on sale now for his new movie \"Busboys\" only in theaters on April 17.www.theovon.comwww.youtube.com/theovo",
-      "art": "https://megaphone.imgix.net/podcasts/7a2534e4-2e49-11f1-aa8b-d7da5b28e9c3/image/d40677418282f92b14820a04032597a5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#384 「龙虾」和 vibe coding 正如何改变我们的思维：一场来自小白、创业者和工程师不同视角的讨论",
+      "link": "http://etw.fm/2205",
+      "pubDate": "2026-04-02T10:15:00.000Z",
+      "duration": "1:05:46",
+      "summary": "Vibe coding 火了，open source agent 爆了，「一人公司」的概念开始被认真讨论。这一切发生在 2026 年初的几个月里 —— AI 正在改变的，究竟是写代码这件事，还是我们理解工作本身的方式？ 这不只是程序员的问题。当 AI 开始承接越来越多的执行性工作，每一个岗位都在被重新定义 —— 什么样的能力变得更稀缺，什么样的工作方式已经过时，组织的形态又将走向何方？ 这一期节目",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "20vc",
@@ -462,17 +429,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F72%2F4a%2F9e1ebac44a209efa7476fceafa7d%2Ffd5fda1a-9524-4586-b128-099518e83780.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2477 - Rick Perry & W. Bryan Hubbard",
-      "link": "https://traffic.megaphone.fm/GLT6198902078.mp3?updated=1775063956",
-      "pubDate": "2026-04-01T17:00:00.000Z",
-      "duration": "8399",
-      "summary": "Rick Perry is the former Governor of Texas and former U.S. Secretary of Energy. W. Bryan Hubbard is the Chief Executive Officer of Americans for Ibogaine, a public policy education and advocacy organi",
-      "art": "https://megaphone.imgix.net/podcasts/94e8eeac-2d67-11f1-b04f-73a1aba27057/image/f8edfdef51d9cb843f1ea27158a2da8e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -482,17 +438,6 @@
       "duration": "552",
       "summary": "Pokémon cards are scorching hot right now. An index tracking the thousands of rare cards shows that valuations have increased 170% in the last year alone. Growth like that really makes you wish you ha",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffd%2Fe5%2Fed0719e54d04abe777ba7de6feed%2F96b960ec-f950-40d3-958f-489bd4be627b.jpg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2476 - Shanna H. Swan",
-      "link": "https://traffic.megaphone.fm/GLT4372299557.mp3?updated=1774975365",
-      "pubDate": "2026-03-31T17:00:00.000Z",
-      "duration": "6964",
-      "summary": "Shanna H. Swan, PhD, is an environmental epidemiologist and author of “Count Down.” She is the director of The Action Science Initiative, a program within the Million Marker Institute, and is featured",
-      "art": "https://megaphone.imgix.net/podcasts/05def176-2cb2-11f1-b9ba-ef6387fb594d/image/54c3b1ee35cf8c054a408c049bb9d3d7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -572,15 +517,15 @@
       "art": "https://static.libsyn.com/p/assets/9/7/9/6/979607b459154e0b16c3140a3186d450/1_Pod_E266.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2475 - Andrew Jarecki",
-      "link": "https://traffic.megaphone.fm/GLT9824471460.mp3?updated=1774631147",
-      "pubDate": "2026-03-27T17:00:00.000Z",
-      "duration": "9989",
-      "summary": "Andrew Jarecki is a filmmaker, musician, entrepreneur, and documentarian. His latest documentary, “The Alabama Solution,” co-directed with Charlotte Kaufman, is available to stream on HBO Max and othe",
-      "art": "https://megaphone.imgix.net/podcasts/88ce39f6-297a-11f1-b972-2b8f4b0d54f5/image/7707d7111389a31ca9f4ed94a9cf8b7d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#383 导弹、黑雨与撕裂的城市：一个中国人的战时德黑兰记录",
+      "link": "http://etw.fm/2204",
+      "pubDate": "2026-03-27T11:30:00.000Z",
+      "duration": "45:49",
+      "summary": "一个在德黑兰生活的中国人，在过去近四周的时间里亲历了这场至今仍未结束的美以对伊战争。他都经历了些什么？他眼中的伊朗人民与伊朗社会又是怎样的？ 今年二月二十八日，战争再次降临伊朗。这一次的烈度远超去年的十二日战争 —— 不分日夜落下的导弹，黑色的石油雨、在支持与反对之间走向撕裂的城市……而在此之前，这个国家已经经历了动荡的 2025 年：全面制裁落地，货币崩溃，街头抗议与血腥镇压接连而至。 这一期节",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "ezraklein",
@@ -616,17 +561,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fad%2Fe5%2Fc76a1e4146f1875ef2c444cc9491%2Fc6079fe8-38bf-40f0-b4b0-24f6f3d15a4f.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2474 - Dave Smith",
-      "link": "https://traffic.megaphone.fm/GLT1007510483.mp3?updated=1774544978",
-      "pubDate": "2026-03-26T17:00:00.000Z",
-      "duration": "10698",
-      "summary": "Dave Smith is a comic, political commentator, and host of the “Part of the Problem” podcast.www.youtube.com/@PartOfTheProblemwww.partoftheproblem.comwww.comicdavesmith.com Perplexity: Download the app",
-      "art": "https://megaphone.imgix.net/podcasts/2d179660-28db-11f1-80ef-63e2b6b31318/image/ced68f07ac58c8dee83c444813faf9b5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -660,17 +594,6 @@
       "art": "https://static.libsyn.com/p/assets/d/1/d/5/d1d5cdffc4fde188d959afa2a1bf1c87/1_Pod_BJ.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2473 - Bill Thompson",
-      "link": "https://traffic.megaphone.fm/GLT1444847354.mp3?updated=1774457242",
-      "pubDate": "2026-03-25T17:00:00.000Z",
-      "duration": "8796",
-      "summary": "Bill Thompson is a retired U.S. Army Chief Warrant Officer and the founder and CEO of Spartan Forge, a company that develops AI-powered mapping and predictive tools for hunting.www.youtube.com/@sparta",
-      "art": "https://megaphone.imgix.net/podcasts/22742724-27ef-11f1-a5f7-afcbbd59e1a3/image/8ae090925306ddcca76af65b6df84372.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -680,17 +603,6 @@
       "duration": "565",
       "summary": "Why are flight tickets so expensive right now? Increased oil prices seems like it’d be the obvious answer. That’s mostly right. Airlines used to do some financial magic to help keep airfare down as oi",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa4%2Fb3%2F3d969f894a51b9f85e124021447a%2Fb95c3c50-8d6c-4054-b624-a089181e8bde.jpg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2472 - Jeff Ross",
-      "link": "https://traffic.megaphone.fm/GLT8163402388.mp3?updated=1774371076",
-      "pubDate": "2026-03-24T17:00:00.000Z",
-      "duration": "8398",
-      "summary": "Jeff Ross is a comic, actor, director, and producer. His new special, “Take a Banana for the Ride,” is streaming on Netflix.www.netflix.com/title/81969837www.roastmastergeneral.com Perplexity: Downloa",
-      "art": "https://megaphone.imgix.net/podcasts/de128426-2745-11f1-80cf-376f3c69f5ba/image/ec3d41f024e6e5fd3490474fcfba562c.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -792,17 +704,6 @@
       "art": "https://static.libsyn.com/p/assets/6/b/8/8/6b88af06c8af4151d959afa2a1bf1c87/1_Pod_Mahan.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "Fight Companion - March 21, 2026",
-      "link": "https://traffic.megaphone.fm/GLT6008208664.mp3",
-      "pubDate": "2026-03-22T00:34:00.000Z",
-      "duration": "12426",
-      "summary": "Joe is joined by Joey Diaz, Brendan Schaub & Eddie Bravo to watch the fights on March 21, 2026. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
-      "art": "https://megaphone.imgix.net/podcasts/ddf4a476-2586-11f1-ab32-17229eb400f5/image/6fe2ef57e6f3a114c77ff71d83576390.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -823,17 +724,6 @@
       "duration": "01:15:42",
       "summary": "【主播的话】 你或许听过“心流“的概念——在越来越快的当下，我们常常会有这样的体验：注意力被日常信息反复打断，很难获得哪怕十分钟的内心安宁。技术在发展、社会在进步，但我们的内心却常常漂浮着难以解释的空虚。有研究指出，人类最稳定、最持久的幸福体验，并不来自休息或享乐，而是一种高度专注的状态，那就是“心流”。 1970年代，心理学家米哈里·契克森米哈赖对运动员、艺术家、音乐家进行了大量深度的访谈，提出",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2471 - Mark Normand",
-      "link": "https://traffic.megaphone.fm/GLT8510219084.mp3?updated=1774024727",
-      "pubDate": "2026-03-20T17:00:00.000Z",
-      "duration": "10147",
-      "summary": "Mark Normand is a stand-up comedian, actor, and co-host of the podcasts “Tuesdays with Stories!” and “We Might Be Drunk.” His new special, “None Too Pleased,” is now streaming on Netflix.www.netflix.c",
-      "art": "https://megaphone.imgix.net/podcasts/42dbc4f4-240c-11f1-89a6-23fb3061ef44/image/3d656b0e42090afb63ea620771d178d7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -880,17 +770,6 @@
       "art": "https://static.libsyn.com/p/assets/5/e/7/0/5e700e85441bf0e216c3140a3186d450/1_Pod_Jensen.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2470 - Pierre Poilievre",
-      "link": "https://traffic.megaphone.fm/GLT7364954068.mp3?updated=1774034469",
-      "pubDate": "2026-03-19T17:00:00.000Z",
-      "duration": "8889",
-      "summary": "The Honourable Pierre Poilievre is a Canadian politician serving as the leader of the Conservative Party and leader of the Official Opposition. He has been the Member of Parliament for Battle River—Cr",
-      "art": "https://megaphone.imgix.net/podcasts/465f6ad6-234e-11f1-9bab-3ff4ead8d665/image/1ff7433b5b2375acca76e9936372f27e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -902,15 +781,15 @@
       "art": "https://static.libsyn.com/p/assets/4/6/9/9/4699410afabf528c16c3140a3186d450/WhatsApp_Image_2026-03-18_at_17.35.34.jpeg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2469 - Brigham Buhler",
-      "link": "https://traffic.megaphone.fm/GLT6380258189.mp3?updated=1773855347",
-      "pubDate": "2026-03-18T17:00:00.000Z",
-      "duration": "8851",
-      "summary": "Brigham Buhler is the founder and CEO of Ways2Well, a functional and regenerative care clinic, and owner of ReviveRx Pharmacy.www.ways2well.comwww.reviverx.com Perplexity: Download the app or ask Perp",
-      "art": "https://megaphone.imgix.net/podcasts/b2abb190-2290-11f1-bc41-bf008ae2facb/image/f99b8dec7675ce56a02bfefa7fc3b7dd.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#382 推翻、改造、失控：从历史视角看美国的中东介入和事与愿违",
+      "link": "http://etw.fm/2203",
+      "pubDate": "2026-03-19T06:15:00.000Z",
+      "duration": "57:13",
+      "summary": "哈梅内伊被斩首，伊朗政权会就此崩溃吗？美国和以色列能把伊朗「改造」成一个他们想要的国家形态吗？这些问题或许历史早就给过了答案。 1953 年，美国策动政变，推翻了伊朗民选总理摩萨台，扶持巴列维国王重新掌权。二十年后，王权被霍梅尼革命推翻，伊朗从美国最重要的中东盟友，一夜变成了它最顽固的敌人。此后，阿富汗、伊拉克……每一次，美国都相信自己能从外部重塑一个国家；每一次，历史都以不同的方式进行了回应。 ",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "talksat",
@@ -933,17 +812,6 @@
       "duration": "45:27",
       "summary": "(0:00) David Friedberg welcomes Senator John Fetterman; SAVE Act thoughts (1:08) The broken Democratic Party: TDS, what he stands for, why the party changed, losing bipartisanship, popularity with Rep",
       "art": "https://static.libsyn.com/p/assets/d/6/0/0/d600e7bd196e13efd959afa2a1bf1c87/1_Pod_Fetterman-20260318-2m8836kv91.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "JRE MMA Show #176 with Dustin Poirier",
-      "link": "https://traffic.megaphone.fm/GLT5960797118.mp3?updated=1773765371",
-      "pubDate": "2026-03-17T17:00:00.000Z",
-      "duration": "10078",
-      "summary": "Joe sits down with Dustin Poirier, a mixed martial artist, entrepreneur, and philanthropist.www.ufc.com/athlete/dustin-poirierwww.thegoodfightgroup.comwww.diamondpoirier.com Perplexity: Download the a",
-      "art": "https://megaphone.imgix.net/podcasts/918a36a4-219a-11f1-bcc8-cf2633b7c80b/image/3bc7f6d5a16338b905202497cc5547fd.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -1043,6 +911,17 @@
       "duration": "01:14:09",
       "summary": "AGENDA: 00:00 - ANTHROPIC VS. THE PENTAGON: The Billion Dollar Supply Chain War 07:11 - B2B PANIC: Why Leading Companies Are Losing Deals to OpenAI 12:19 - THE ANTHROPIC ENDGAME: Will Claude Eclipse C",
       "art": "https://static.libsyn.com/p/assets/4/6/0/3/4603e3db6f80813b16c3140a3186d450/WhatsApp_Image_2026-03-11_at_14.10.35.jpeg"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#381 当AI公司Anthropic对抗五角大楼，这是 AI 的奥本海默时刻吗",
+      "link": "http://etw.fm/2202-ai-oppenheimer-moment",
+      "pubDate": "2026-03-12T06:30:00.000Z",
+      "duration": "56:14",
+      "summary": "过去两周，美以伊冲突无疑是全球最大的变数。但在硝烟之后，另一场同样深刻的冲突也正在发生，表面上这是 AI 公司 Anthropic 与五角大楼的争端，背后却隐含着更多这个时代需要回答的问题：一家提供技术的 AI 公司，有没有权利限制自己的模型被政府如何使用？当 AI 成为新的基础设施，它的边界该由谁来划定？又该由谁来承担失控之后的责任？ 本期节目是《科技早知道》与《声东击西》的串台特别版。我们从 ",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "lexfridman",
@@ -1177,6 +1056,17 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#380 从北京到华盛顿：从默茨之行看中美欧三角关系",
+      "link": "http://etw.fm/2201",
+      "pubDate": "2026-03-05T06:00:00.000Z",
+      "duration": "54:09",
+      "summary": "德国总理默茨上周刚刚结束了他的中国行程，他也是马年第一位访华的外国领导人。几乎与此同时，中东局势突然升级，美国对伊朗发动打击，也让默茨随后访美的行程处在一个颇为微妙的国际背景之下。在这样不断变化的地缘政治环境中，德国乃至欧洲正在发生哪些结构性变化？ 这一期节目，我们邀请长期观察欧洲政治经济的独立媒体人孙谦，从默茨访华的细节出发，聊一聊：德国的对华政策正在发生怎样的改变？欧洲的防务自主如今走到哪一步",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1208,6 +1098,17 @@
       "duration": "01:11:47",
       "summary": "- 导语 - 从修缮村庙的法事谈起，祈福安龙、点兵放猖、游神巡境、扎禁罐，这些充满民俗特色的仪式背后，藏着哪些鲜为人知的讲究？在地的神灵可以「远洋执法」吗？梦境究竟反映了什么，又如何与现实产生联系？在风水界，为什么祠堂并非越大越好？请听本期嘉宾海伯利安带来的精彩分享。 - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 海伯利安，命理数术研习者（公众号：海公物语） - 时间轴 -",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#加更|连线迪拜：美伊升级后的海湾困境、战火外溢和秩序挑战",
+      "link": "http://etw.fm/2200",
+      "pubDate": "2026-03-03T01:30:00.000Z",
+      "duration": "29:25",
+      "summary": "一位身在阿联酋的中国人，在刚刚过去的 72 个小时内都经历了些什么？曾被视为「投资绿洲」的海湾国家，又为何在短短几天内，就被推到了战火蔓延的边缘？ 2026 年 2 月 28 日，美以对伊朗进行军事打击的消息震惊世界。而随着哈梅内伊的身亡，伊朗的报复行动也迅速升级，这场战火也随之蔓延到了阿联酋、沙特阿拉伯、卡塔尔这些海湾国家。 这期节目，我们连线了正身处迪拜的「声东击西」后期制作人赛德，他回忆了自",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "acquired",
@@ -1386,6 +1287,17 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#379 激励还是干预：平台治理到底在「管」什么",
+      "link": "http://etw.fm/2199",
+      "pubDate": "2026-02-05T06:45:00.000Z",
+      "duration": "1:14:36",
+      "summary": "在海量内容的涌动与算法分发的复杂性面前，平台的规则制定者，应该如何在用户体验与社区生态之间寻找那条「动态平衡」线？ 平台治理不仅仅是写在后台的逻辑，它更像是一场关于数字秩序的微缩实验。比如，当「反对制造对立」被写进小红书最新的社区公约 2.0，这不仅是一个立场的更新，也引出了治理中更深层的追问：在推荐与干预之间，平台治理的刻度到底该定在哪里？它究竟是在管理内容本身，还是在试图重塑一种数字空间的相处",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1417,6 +1329,28 @@
       "duration": "1057",
       "summary": "Xaira Therapeutics is harnessing AI to fundamentally change how we discover and develop medicines, shortening the path from lab to clinic for previously \"un-druggable\" targets. Dr. Marc Tessier-Lavign",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#378 塔利班关闭学校之后，阿富汗女孩的四年|中文版",
+      "link": "http://etw.fm/2198",
+      "pubDate": "2026-01-29T10:45:00.000Z",
+      "duration": "35:57",
+      "summary": "当学校的大门向一个女孩关闭，她要如何想象自己人生的未来，又要如何在重重阻碍中继续寻找教育的可能性？ 1 月 24 日，联合国发稿敦促采取行动保护阿富汗境内的受教育权，这是因为，阿富汗是唯一一个严格禁止女孩和妇女接受中学及高等教育的国家，在这里，有 220 万女孩被剥夺了接受中学教育的权利。 这一期节目，我们就记录了这 220 万阿富汗女孩中的 2 位 —— Sophia 和 Lina，她们在本该继",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#378 塔利班关闭学校之后，阿富汗女孩的四年|英文版",
+      "link": "http://etw.fm/2197",
+      "pubDate": "2026-01-29T10:45:00.000Z",
+      "duration": "37:18",
+      "summary": "当学校的大门向一个女孩关闭，她要如何想象自己人生的未来，又要如何在重重阻碍中继续寻找教育的可能性？ 1 月 24 日，联合国发稿敦促采取行动保护阿富汗境内的受教育权，这是因为，阿富汗是唯一一个严格禁止女孩和妇女接受中学及高等教育的国家，在这里，有 220 万女孩被剥夺了接受中学教育的权利。 这一期节目，我们就记录了这 220 万阿富汗女孩中的 2 位 —— Sophia 和 Lina，她们在本该继",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "talksat",
@@ -1474,6 +1408,28 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#377 「帝国」转身时：特朗普搅动一年后国际秩序的转向",
+      "link": "http://etw.fm/2196",
+      "pubDate": "2026-01-22T08:45:00.000Z",
+      "duration": "1:11:09",
+      "summary": "特朗普再次上台已满一年，回头看他的外交政策，我们应该如何判断 —— 的确是一连串个人风格驱动的激进行动，还是美国的对外战略正在发生更深层的转向？ 这一期节目，我们邀请清华大学国际关系学者达巍教授，从特朗普这一年来的关键决策出发，试图去拆解美国外交政策背后的结构性变化：从关税、盟友关系到国际秩序，美国正在放弃什么，又正在重塑什么？那些看似出乎意料的动作，如何拼接成一个正在成形的新秩序图景？又会对身处",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#376 石油旧梦与突袭余波：一个委内瑞拉青年的二十五年",
+      "link": "http://etw.fm/2195",
+      "pubDate": "2026-01-20T08:15:00.000Z",
+      "duration": "32:16",
+      "summary": "一位生活在首都的委内瑞拉青年，在美军突袭那晚经历了一场怎样的惊心动魄？从小到大，他又如何见证了国家从石油时代的繁荣巅峰，一步步坠入动荡与贫困的深渊 ？ 2026 年 1 月 3 号，美军突袭委内瑞拉首都并抓捕其总统马杜罗的消息震惊全球。而这场突如其来的巨变，也让这个命运多舛的国家再次被推到了命运的十字路口。 这期节目，我们采访了从小生活在首都加拉加斯的委内瑞拉青年 Andrés，他回忆了自己在 1",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1483,6 +1439,17 @@
       "duration": "00:44:44",
       "summary": "【主播的话】 主流社会的想象中，生育几乎总是与亲密关系、伴侣或婚姻绑定在一起的。 然而，这是一个必须要遵从的默认前提吗？当我们怀顾四周，发现事实并非如此。今天的女性，即使没有伴侣或者婚姻，依然能拥有不同的选择和生活自由。这是我们希望制作这个迷你系列的初衷，试图回答这一种新的选择意味着什么？ 这是系列的第二期，我们和导演、艺术家阿烂聊了聊她的生育选择、创作以及国内目前单身生育的环境。在录制这期节目时",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#375 透过 2025 的内容现场，寻找通往 2026 的坐标与锚点",
+      "link": "http://etw.fm/2194",
+      "pubDate": "2026-01-15T07:30:00.000Z",
+      "duration": "1:00:02",
+      "summary": "技术在加速，规则在松动，不同代际对世界的感受也越来越不一样。当下的我们究竟正处在一个怎样的转变之中？ 这期节目，四位关注不同社会领域的节目制作人坐在一起，从科技变革引发的社会范式重构，到年轻人参与的谷子经济与情绪实感，再到青少年作为「数字原住民」的观察视角，聊聊我们在 2025 年的内容创作与对话中，捕捉到的一些关键线索。 希望这些真实而多元的体感，能为你理解 2026 带来一些判断的线索，也为浮",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "lexfridman",
@@ -1516,6 +1483,17 @@
       "duration": "1551",
       "summary": "KKR has evolved from a traditional LBO shop into a global investment powerhouse managing over $500 billion in assets. Pete Stavros, Co-Head of Global Private Equity at KKR, joins Matt McClure, Global ",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#374 AI 时代，一所大学的新闻系如何在探索中演进",
+      "link": "http://etw.fm/2193",
+      "pubDate": "2026-01-08T08:45:00.000Z",
+      "duration": "1:07:07",
+      "summary": "继数字化浪潮之后，AI 的兴起再次给传媒行业带来了冲击。在这个新技术快速迭代的时代，传媒教育究竟还应该教给学生什么？ 去年，香港大学原有的「新闻及传媒研究中心」重新更名为「未来媒体学院」。而今天这期节目的嘉宾，也是未来媒体学院的教师 Yolanda，则是学院内人工智能创新方向的主导者。 作为一线实践者，她正带着学生在变动的行业边界中寻找新的坐标。我们讨论了：新传专业正在设计哪些新课程来应对技术的变",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "weirdo",
@@ -1562,6 +1540,17 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#373 请收下这枚记录 2025 年的声音时光胶囊",
+      "link": "http://etw.fm/2192",
+      "pubDate": "2025-12-25T04:00:00.000Z",
+      "duration": "30:46",
+      "summary": "2025，我们是不是已经走进了一个临界时代？ 这一年，暖水珊瑚礁跨越了热力临界点，世界最大的冰山 A23a 解体，曾经被认为没有蚊子的冰岛也出现了嗡嗡声…… 极端气候之外，这一年，全球范围内的紧张局势持续发酵：从贸易摩擦到政治分歧，从民族到国家，人类社会中不同层面的对立似乎并未缓解，反而在一些地方变得更加尖锐。 而宏大叙事之下，身为普通人的我们，也依然要在自己具体而真实的生活中不停地应对变化、做出",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
       "showId": "bg2pod",
       "showName": "BG2Pod",
       "category": "vc",
@@ -1582,6 +1571,17 @@
       "duration": "1452",
       "summary": "Coinbase is the leading digital asset exchange and platform. Brian Armstrong, co-founder and CEO of Coinbase, joins David Solomon, Chairman and CEO of Goldman Sachs, to discuss Coinbase's founding sto",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#372 美联储半年内的第三次降息，为 2026 释放了何种信号",
+      "link": "http://etw.fm/2191",
+      "pubDate": "2025-12-18T10:30:00.000Z",
+      "duration": "49:40",
+      "summary": "在 2025 年初，市场还普遍认为美联储今年可能只会降息一次，为什么它却在下半年连续三次做出了降息的决定？ 美联储是一个怎样的机构，我们应该如何理解它的「公私」属性？降息作为一个工具，会在什么情况下被使用，以期达到怎样的目的？美联储的内部都有哪些派别和争论，作为主席的鲍威尔和曾经提名他的「伯乐」特朗普之间，又在进行怎样的博弈？ 最后，我们也对 2026 年美国经济的发展趋势，以及它可能会给中国和世",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "weirdo",
