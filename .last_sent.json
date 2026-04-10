@@ -1,5 +1,5 @@
 {
-  "lastSent": "2026-04-09",
+  "lastSent": "2026-04-10",
   "seenLinks": [
     "https://uk.finance.yahoo.com/news/gold-prices-oil-pound-commodities-dollar-interest-rates-federal-reserve-uk-inflation-093233998.html",
     "https://uk.finance.yahoo.com/news/ftse-100-live-stock-markets-wall-street-uk-retail-sales-budget-surplus-084326165.html",
@@ -1934,6 +1934,33 @@
     "https://stratechery.com/2026/anthropic-and-alignment/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI2L2FudGhyb3BpYy1hbmQtYWxpZ25tZW50LyJdfSwiZXhwIjoxNzc4MzE2NjE5LCJpYXQiOjE3NzU3MjQ2MTksImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.LEDD1nh54r8_oC1w7y-LJxXjAFJ_Puq4r38ixbCkyYYubFjqzP4UyJYx35BgR5VVqMjNEtUwTpc4flsy4KtrVcbJ1QTjF9a1Sc3wyN9MeBATCY_1FMjcHzIeVsfBoa9IrE2A0hjBCmTGCAZtvudf2Vc9cRubqTHHdrghr15xt-VvdKxtL0JNEv__bmZ_WW2V6s27Z-JO-cBv1rp1VFYOApObLCWkTU6TTUBNkfNRiyCyPLe-OJowB63xP5xgpFsM9TNCg2SixzyHeykWwML0QEaM-dGLHcvFOdPDyIhiU0b5zbQDer5ZHzBeh7hkQkcDnuB_xIK_yW_S9g7RiRM6vA",
     "https://newslink.reuters.com/click/45119055.16674/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTA0MDkyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B9a97ffad",
     "https://newslink.reuters.com/click/45106766.51548/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDQwODI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158Ba6702050",
-    "https://newslink.reuters.com/click/45086533.41276/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDQwNzI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158Be1444702"
+    "https://newslink.reuters.com/click/45086533.41276/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDQwNzI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158Be1444702",
+    "https://www.cnbc.com/2026/04/10/alibaba-cloud-invests-world-model-ai-shengshu-vidu.html",
+    "https://www.ansto.gov.au/news/artemis-ii-and-invisible-hazard-on-way-to-moon-part-1",
+    "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRllEdUpzMzhUbWFkTUZOWERIN0JuYWNHVnI4dVpsQ1ZXUmliLU1PSkpsRk9renRkVlROdWtocVlzcjNxdFFyaTJjUmFubjJKeTRyQzh1NVZnamJ5WjcwaGtnNk1SWHFUbzducFh5MmlLSjVtZ25GN0pMRURhMjl5RVNkU1IzOU50MmpNWHpRT3RmOFdhYTdlb1VpZi1ZRmlucEpsT1NFMVk2Z24waDZZ?oc=5",
+    "https://www.ucdavis.edu/health/news/penguin-toxicologists-find-pfas-chemicals-remote-patagonia",
+    "https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month",
+    "https://arstechnica.com/health/2026/04/rfk-jr-rewrites-cdc-panels-charter-opening-door-to-anti-vaccine-quacks",
+    "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd3FxeW1MQVgxMDNKNjNWbl8zSTQ3dmt3ZlNJMnhyWVJrRHhBR1d2UnVrT2kyUlR3TlNJcjBGWWNxUjVHN1N1WU1Eb1p0MnoyNGhGYjVURjAycmtBbEJESFhKbGdkYk0wV1k0WVRFRHpzbFZSSnJTRjBKT0lpODBLa0pVZXRTZk1iYU1fZkplUnliVlVCNTB3bm1mS0VjZXltQkhneWxwdngwZDJZZlBGTWJjWQ?oc=5",
+    "https://arstechnica.com/information-technology/2026/04/nutanix-claims-it-has-poached-30000-vmware-customers",
+    "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS0VvVGpBTFIwYXhRZ0FTdjhtU05oMXdweUNneUVfYkFGRlJ1NF9BUEpCQzNhNjFnTlJFUHpNcWF1blI4WGF2MElLa2RZN0xxNkdYMkRqV2M1TkduT3dBWEV0R2hUblluaHZvQm5naE9mUWE1dEhWeE5IUEhCdFdSVThQMWpkenhFWml4c3hGX3NiNnJ0alVLUmhMNjkwSjRZa0xxd0QtYUdIUVI5MHBUV2NUcjhCdHRUOWc?oc=5",
+    "https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over",
+    "https://www.v2ex.com/t/1204924#reply7",
+    "https://www.v2ex.com/t/1204876#reply7",
+    "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRXB6UHYteFl3dndYMGRMRGFXbHVRU1Y1RGZLb01aT1FjM1Y5MUxpZV8zYThoWDdvRGxuUGpHVnVHUHBhaXJvWE96Yzc5MXRCVlF4VFRsXzZEOVpxaTlPVGlXN05KYkJLQlpCMllYMWtpQ1NJMlJGd1dudHlZTGRHeldfdjkxWlJScnd0dThkSDNSWmtEeVJ0Q2E4czFFZzBPc2V2OEdtY3U5QXFaQlplY084ZV80U3Z0V1EyNjVPa2UxVEFKeU00?oc=5",
+    "https://politicalwire.com/2026/04/09/extra-bonus-quote-of-the-day-1022",
+    "https://www.cnbc.com/2026/04/08/microsoft-developer-tools-head-julia-liuson-retires.html",
+    "https://stratechery.com/2025/u-s-intel/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3Utcy1pbnRlbC8iXX0sImV4cCI6MTc3ODQwMzE0NywiaWF0IjoxNzc1ODExMTQ3LCJpc3MiOiJodHRwczovL2FwcC5wYXNzcG9ydC5vbmxpbmUvb2F1dGgiLCJzY29wZSI6ImZlZWQ6cmVhZCBhcnRpY2xlOnJlYWQgYXNzZXQ6cmVhZCBjYXRlZ29yeTpyZWFkIGVudGl0bGVtZW50cyBwb2RjYXN0IHJzcyIsInN1YiI6IjAxOWM5MTg3LTIxZTItNzFlNC1iN2NhLTNiYzdjYjllNzA0ZiIsInVzZSI6ImFjY2VzcyJ9.Rx79DUK5CWP_uSGRa6p0fXh3_u3rlhNHcvirI9iWsOgZ2KB6AR4FYk95M_rrvrAqwKx5V_veHMr_wmFk3Cq3oboUm5FL4ulkOKa6NcuUiaXa1HONOarMKTN9hJIhVt2fUd1nYKCzXGjdRjiQUQW4RUmkLNkf9LvmIro_7s7azGDJYriJqHkRyTmG9xga7BPF6DuaIIEvLUJqzjjIHeZET0YhqdIDcD3LZTUIlcbqUKeZaCWRi9FpgE4DFn2wPNUC1mdMlT18wypiu4gZrCRRJ_uLWjlIIkqX99JyzWVvhDG5QRKclPbW_LtgyZYw3vj9zCEa3U2QYrf5smrx4Q8TlQ",
+    "https://content.knowledgehub.wiley.com/goztasp-a-zero-trust-platform-for-governing-autonomous-systems-at-mission-scale",
+    "https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything",
+    "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWUZyZ29jVjVfOFdRVjd4dDlVX1FkbUpjcWhWOEZDU1NiVjdRbHRhaHpJdTBvX0hvUHpOS3pjd1plaXBuc040ZGdKZDE0Nll2TU1fU2hVMHMyMGxhTnNaeHhzR1RwcUlJS0VYUnNVWHJQYVJCRlhCQnozRjdIaFlUY1NkdmhFMHMzckc0b0RWWHZPTEtnUDNOUU5Sck5LR1djYnJWcjNXaE9LVDExcV8wbFRB?oc=5",
+    "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbnZqaTNIX2kyU2pYTTNrQUpta2J5ZXdzQlZNOU85UmU1ZkZfMlQ0cnRka2IzQ3o1T0R0THBfckxvUEhwWktQcnhHSkRIRW5fbko0cGpWOWZjd2JCQlhEemRNQWFUZ0o0eXZ1MnBBZFpYM3B4TXh0cUVReEhrQ0hBYW9SbE1Kb0NBSlRfM01FMzAxVXNKOVZWUTVvbHFqcms2bUI0NExwN1A5b0gwOXJWdU50T1JEdw?oc=5",
+    "https://www.technologyreview.com/2026/04/09/1135495/desalination-technology-numbers",
+    "https://stratechery.com/2025/the-2025-stratechery-year-in-review/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L3RoZS0yMDI1LXN0cmF0ZWNoZXJ5LXllYXItaW4tcmV2aWV3LyJdfSwiZXhwIjoxNzc4NDAzMTQ3LCJpYXQiOjE3NzU4MTExNDcsImlzcyI6Imh0dHBzOi8vYXBwLnBhc3Nwb3J0Lm9ubGluZS9vYXV0aCIsInNjb3BlIjoiZmVlZDpyZWFkIGFydGljbGU6cmVhZCBhc3NldDpyZWFkIGNhdGVnb3J5OnJlYWQgZW50aXRsZW1lbnRzIHBvZGNhc3QgcnNzIiwic3ViIjoiMDE5YzkxODctMjFlMi03MWU0LWI3Y2EtM2JjN2NiOWU3MDRmIiwidXNlIjoiYWNjZXNzIn0.A2dI_XH4wGIxWuClkKW9UVrURkDyXJFZjb5u5CFd8ufkTHWLCFpcjOL-yRQg5DRPiyfbdRwBX4ZzCPQHIELgab383ZracFGlKE9NVpCxpWb-wEtXmBqtVfECHKL7jVgMwhhPbeu8f13c6RIfywGkZdT2gcH89Z7TSvzq9RIC-awBS0eX2ryd7ULiosIjBVrkSKjDQmSOlqMDQH3dO9mrIFu6b82gVGGF8QBrT8VF-bZRdACq7i7RkWWZJENJbdskK5Eqq6ziy26PdQ2EOCoHKxc86guon92DxKxveEKpj303yqlsYO0LyxMQJW3j89ewAAqbuD1nc6xGdJ0zTb-s0Q",
+    "https://newslink.reuters.com/click/45147063.5430/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTA0MTAyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B143d47f1",
+    "https://sixcolors.com/link/2026/04/macs-crash-after-49-days-of-uptime",
+    "https://geohot.github.io//blog/jekyll/update/2026/04/09/hk-disneyland.html",
+    "https://newslink.reuters.com/click/45128070.46802/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDQwOTI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158B858fab9a",
+    "https://dynomight.net/drinking"
   ]
 }
