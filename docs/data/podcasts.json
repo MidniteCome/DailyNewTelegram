@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-09T20:40:41.603Z",
+    "updatedAt": "2026-04-10T08:53:14.197Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Class myths, an influx of e-ships, and pricey Olympics tix!",
+      "link": "https://www.npr.org/2026/04/10/nx-s1-5780040/class-myths-an-influx-of-e-ships-and-olympics-tix",
+      "pubDate": "2026-04-10T07:00:00.000Z",
+      "duration": "569",
+      "summary": "It’s Indicators of the Week, our weekly look at some of the most fascinating numbers from the news. (Now on YouTube !) On today’s episode: Is the middle class actually hollowing out ? Are more e-ships",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F93%2Fe5%2F6f53353d4824988fd41f3b777954%2F49d85b2c-e071-492c-97a3-f14265e699ca.png"
+    },
     {
       "showId": "talksat",
       "showName": "Talks at GS",
@@ -856,17 +867,6 @@
       "duration": "01:20:04",
       "summary": "Naomi Klein saw where our politics was headed before most people on the left. Her 2023 book “Doppelganger: A Trip Into the Mirror World” is hard to describe. But among other things, it traces the new ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Trump and truckers, Poland prospers, and a booming ant biz",
-      "link": "https://www.npr.org/2026/03/20/nx-s1-5753979/trump-and-truckers-poland-prospers-and-a-booming-ant-biz",
-      "pubDate": "2026-03-20T07:00:00.000Z",
-      "duration": "569",
-      "summary": "It’s Indicators of the Week (now on YouTube !). It’s our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: The Trump administration cracks down on immigra",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcf%2F22%2F33d9dd2247559c65ce9fd254eb69%2Fe1083f83-5b71-40e6-b574-f6edca226f39.png"
     },
     {
       "showId": "allin",
