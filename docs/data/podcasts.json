@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-04-10T08:53:14.197Z",
-    "totalEpisodes": 180,
+    "updatedAt": "2026-04-10T14:54:34.615Z",
+    "totalEpisodes": 165,
     "health": [
       {
         "id": "20vc",
@@ -72,8 +72,8 @@
       {
         "id": "etw",
         "name": "声东击西",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       }
     ]
   },
@@ -159,11 +159,33 @@
       "id": "etw",
       "name": "声东击西",
       "category": "zh",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4",
-      "link": "http://etw.fm"
+      "art": null,
+      "link": "https://www.etw.fm/rss"
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "465 从成化斗彩鸡缸杯到「瓷母」：刘越谈中国古瓷名品拍卖风云录",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69d8bc1de2c8be3155dccac9?utm_source=rss",
+      "pubDate": "2026-04-10T09:14:20.000Z",
+      "duration": "01:15:21",
+      "summary": "- 导语 - 从香港拍场的黄金年代到内地拍卖市场的崛起，持续半个多世纪的中国古瓷拍卖史留下了无数风云往事。刘越曾长期就职于中国嘉德国际拍卖有限公司，历任瓷器工艺品部总经理和陶瓷部总经理，经手过「清乾隆粉彩八仙过海图盘口瓶」「南宋官窑琮式瓶」等顶级瓷器名品，亲历了许多拍卖传奇。苏富比与佳士得如何开拓早期华人拍卖市场？90年代初期的北京拍卖行如何交易？著名的「成化斗彩鸡缸杯」为何能拍出天价？一位收藏者",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Fareed Zakaria on the Moral Cost of Trump’s War",
+      "link": "https://www.nytimes.com/2026/04/10/opinion/ezra-klein-podcast-fareed-zakaria.html",
+      "pubDate": "2026-04-10T09:00:00.000Z",
+      "duration": "01:07:50",
+      "summary": "When President Trump didn’t annihilate “a whole civilization” on Tuesday, as he had threatened to do, much of the world exhaled. But the damage of his statements — a U.S. president, the commander in c",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -418,17 +440,6 @@
       "art": "https://megaphone.imgix.net/podcasts/7a2534e4-2e49-11f1-aa8b-d7da5b28e9c3/image/d40677418282f92b14820a04032597a5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#384 「龙虾」和 vibe coding 正如何改变我们的思维：一场来自小白、创业者和工程师不同视角的讨论",
-      "link": "http://etw.fm/2205",
-      "pubDate": "2026-04-02T10:15:00.000Z",
-      "duration": "1:05:46",
-      "summary": "Vibe coding 火了，open source agent 爆了，「一人公司」的概念开始被认真讨论。这一切发生在 2026 年初的几个月里 —— AI 正在改变的，究竟是写代码这件事，还是我们理解工作本身的方式？ 这不只是程序员的问题。当 AI 开始承接越来越多的执行性工作，每一个岗位都在被重新定义 —— 什么样的能力变得更稀缺，什么样的工作方式已经过时，组织的形态又将走向何方？ 这一期节目",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -570,17 +581,6 @@
       "duration": "9989",
       "summary": "Andrew Jarecki is a filmmaker, musician, entrepreneur, and documentarian. His latest documentary, “The Alabama Solution,” co-directed with Charlotte Kaufman, is available to stream on HBO Max and othe",
       "art": "https://megaphone.imgix.net/podcasts/88ce39f6-297a-11f1-b972-2b8f4b0d54f5/image/7707d7111389a31ca9f4ed94a9cf8b7d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#383 导弹、黑雨与撕裂的城市：一个中国人的战时德黑兰记录",
-      "link": "http://etw.fm/2204",
-      "pubDate": "2026-03-27T11:30:00.000Z",
-      "duration": "45:49",
-      "summary": "一个在德黑兰生活的中国人，在过去近四周的时间里亲历了这场至今仍未结束的美以对伊战争。他都经历了些什么？他眼中的伊朗人民与伊朗社会又是怎样的？ 今年二月二十八日，战争再次降临伊朗。这一次的烈度远超去年的十二日战争 —— 不分日夜落下的导弹，黑色的石油雨、在支持与反对之间走向撕裂的城市……而在此之前，这个国家已经经历了动荡的 2025 年：全面制裁落地，货币崩溃，街头抗议与血腥镇压接连而至。 这一期节",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "ezraklein",
@@ -902,17 +902,6 @@
       "art": "https://static.libsyn.com/p/assets/4/6/9/9/4699410afabf528c16c3140a3186d450/WhatsApp_Image_2026-03-18_at_17.35.34.jpeg"
     },
     {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#382 推翻、改造、失控：从历史视角看美国的中东介入和事与愿违",
-      "link": "http://etw.fm/2203",
-      "pubDate": "2026-03-19T06:15:00.000Z",
-      "duration": "57:13",
-      "summary": "哈梅内伊被斩首，伊朗政权会就此崩溃吗？美国和以色列能把伊朗「改造」成一个他们想要的国家形态吗？这些问题或许历史早就给过了答案。 1953 年，美国策动政变，推翻了伊朗民选总理摩萨台，扶持巴列维国王重新掌权。二十年后，王权被霍梅尼革命推翻，伊朗从美国最重要的中东盟友，一夜变成了它最顽固的敌人。此后，阿富汗、伊拉克……每一次，美国都相信自己能从外部重塑一个国家；每一次，历史都以不同的方式进行了回应。 ",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1056,17 +1045,6 @@
       "art": "https://static.libsyn.com/p/assets/4/6/0/3/4603e3db6f80813b16c3140a3186d450/WhatsApp_Image_2026-03-11_at_14.10.35.jpeg"
     },
     {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#381 当AI公司Anthropic对抗五角大楼，这是 AI 的奥本海默时刻吗",
-      "link": "http://etw.fm/2202-ai-oppenheimer-moment",
-      "pubDate": "2026-03-12T06:30:00.000Z",
-      "duration": "56:14",
-      "summary": "过去两周，美以伊冲突无疑是全球最大的变数。但在硝烟之后，另一场同样深刻的冲突也正在发生，表面上这是 AI 公司 Anthropic 与五角大楼的争端，背后却隐含着更多这个时代需要回答的问题：一家提供技术的 AI 公司，有没有权利限制自己的模型被政府如何使用？当 AI 成为新的基础设施，它的边界该由谁来划定？又该由谁来承担失控之后的责任？ 本期节目是《科技早知道》与《声东击西》的串台特别版。我们从 ",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -1199,17 +1177,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#380 从北京到华盛顿：从默茨之行看中美欧三角关系",
-      "link": "http://etw.fm/2201",
-      "pubDate": "2026-03-05T06:00:00.000Z",
-      "duration": "54:09",
-      "summary": "德国总理默茨上周刚刚结束了他的中国行程，他也是马年第一位访华的外国领导人。几乎与此同时，中东局势突然升级，美国对伊朗发动打击，也让默茨随后访美的行程处在一个颇为微妙的国际背景之下。在这样不断变化的地缘政治环境中，德国乃至欧洲正在发生哪些结构性变化？ 这一期节目，我们邀请长期观察欧洲政治经济的独立媒体人孙谦，从默茨访华的细节出发，聊一聊：德国的对华政策正在发生怎样的改变？欧洲的防务自主如今走到哪一步",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1241,17 +1208,6 @@
       "duration": "01:11:47",
       "summary": "- 导语 - 从修缮村庙的法事谈起，祈福安龙、点兵放猖、游神巡境、扎禁罐，这些充满民俗特色的仪式背后，藏着哪些鲜为人知的讲究？在地的神灵可以「远洋执法」吗？梦境究竟反映了什么，又如何与现实产生联系？在风水界，为什么祠堂并非越大越好？请听本期嘉宾海伯利安带来的精彩分享。 - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 海伯利安，命理数术研习者（公众号：海公物语） - 时间轴 -",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#加更|连线迪拜：美伊升级后的海湾困境、战火外溢和秩序挑战",
-      "link": "http://etw.fm/2200",
-      "pubDate": "2026-03-03T01:30:00.000Z",
-      "duration": "29:25",
-      "summary": "一位身在阿联酋的中国人，在刚刚过去的 72 个小时内都经历了些什么？曾被视为「投资绿洲」的海湾国家，又为何在短短几天内，就被推到了战火蔓延的边缘？ 2026 年 2 月 28 日，美以对伊朗进行军事打击的消息震惊世界。而随着哈梅内伊的身亡，伊朗的报复行动也迅速升级，这场战火也随之蔓延到了阿联酋、沙特阿拉伯、卡塔尔这些海湾国家。 这期节目，我们连线了正身处迪拜的「声东击西」后期制作人赛德，他回忆了自",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "acquired",
@@ -1408,17 +1364,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "457 古物与政坛：从庞莱臣、张静江聊民国「湖州帮」往事",
-      "link": "https://www.xiaoyuzhoufm.com/episode/698aef71a22480add67d9f30?utm_source=rss",
-      "pubDate": "2026-02-10T09:02:01.000Z",
-      "duration": "01:39:15",
-      "summary": "- 导语 - 清末民初，湖州南浔的富商由丝业、地产积累财富，进而转向字画古董收藏，最终成为辛亥革命与国民政府的「天使投资人」。二陈兄弟、戴季陶、张静江与湖州籍同乡团体「湖社」有怎样的关系？抗战爆发后，湖州富人的收藏如何在日军、掮客与爱国买家之间流转？多重间谍张子羽如何周旋于各方势力，最终将国宝「毛公鼎」保全？张葱玉鉴定庞莱臣收藏仇英《江南春》为赝品的来龙去脉又是怎么一回事？请听本期嘉宾吴真的分享！",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1430,17 +1375,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "We Didn’t Ask for This Internet",
-      "link": "https://www.nytimes.com/2026/01/13/opinion/ezra-klein-podcast-doctorow-wu.html",
-      "pubDate": "2026-02-06T10:00:00.000Z",
-      "duration": "01:27:00",
-      "summary": "Ragebait, sponcon, A.I. slop — the internet of 2026 makes a lot of us nostalgic for the internet of 10 or 15 years ago. What exactly went wrong here? How did the early promise of the internet get so t",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1450,17 +1384,6 @@
       "duration": "1538",
       "summary": "Adyen has scaled from an Amsterdam startup to a global fintech by building every layer of payments in-house and focusing relentlessly on merchants. Pieter van der Does, co-founder and co-CEO of Adyen,",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#379 激励还是干预：平台治理到底在「管」什么",
-      "link": "http://etw.fm/2199",
-      "pubDate": "2026-02-05T06:45:00.000Z",
-      "duration": "1:14:36",
-      "summary": "在海量内容的涌动与算法分发的复杂性面前，平台的规则制定者，应该如何在用户体验与社区生态之间寻找那条「动态平衡」线？ 平台治理不仅仅是写在后台的逻辑，它更像是一场关于数字秩序的微缩实验。比如，当「反对制造对立」被写进小红书最新的社区公约 2.0，这不仅是一个立场的更新，也引出了治理中更深层的追问：在推荐与干预之间，平台治理的刻度到底该定在哪里？它究竟是在管理内容本身，还是在试图重塑一种数字空间的相处",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "talksat",
@@ -1494,28 +1417,6 @@
       "duration": "1057",
       "summary": "Xaira Therapeutics is harnessing AI to fundamentally change how we discover and develop medicines, shortening the path from lab to clinic for previously \"un-druggable\" targets. Dr. Marc Tessier-Lavign",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#378 塔利班关闭学校之后，阿富汗女孩的四年|中文版",
-      "link": "http://etw.fm/2198",
-      "pubDate": "2026-01-29T10:45:00.000Z",
-      "duration": "35:57",
-      "summary": "当学校的大门向一个女孩关闭，她要如何想象自己人生的未来，又要如何在重重阻碍中继续寻找教育的可能性？ 1 月 24 日，联合国发稿敦促采取行动保护阿富汗境内的受教育权，这是因为，阿富汗是唯一一个严格禁止女孩和妇女接受中学及高等教育的国家，在这里，有 220 万女孩被剥夺了接受中学教育的权利。 这一期节目，我们就记录了这 220 万阿富汗女孩中的 2 位 —— Sophia 和 Lina，她们在本该继",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#378 塔利班关闭学校之后，阿富汗女孩的四年|英文版",
-      "link": "http://etw.fm/2197",
-      "pubDate": "2026-01-29T10:45:00.000Z",
-      "duration": "37:18",
-      "summary": "当学校的大门向一个女孩关闭，她要如何想象自己人生的未来，又要如何在重重阻碍中继续寻找教育的可能性？ 1 月 24 日，联合国发稿敦促采取行动保护阿富汗境内的受教育权，这是因为，阿富汗是唯一一个严格禁止女孩和妇女接受中学及高等教育的国家，在这里，有 220 万女孩被剥夺了接受中学教育的权利。 这一期节目，我们就记录了这 220 万阿富汗女孩中的 2 位 —— Sophia 和 Lina，她们在本该继",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "talksat",
@@ -1573,28 +1474,6 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#377 「帝国」转身时：特朗普搅动一年后国际秩序的转向",
-      "link": "http://etw.fm/2196",
-      "pubDate": "2026-01-22T08:45:00.000Z",
-      "duration": "1:11:09",
-      "summary": "特朗普再次上台已满一年，回头看他的外交政策，我们应该如何判断 —— 的确是一连串个人风格驱动的激进行动，还是美国的对外战略正在发生更深层的转向？ 这一期节目，我们邀请清华大学国际关系学者达巍教授，从特朗普这一年来的关键决策出发，试图去拆解美国外交政策背后的结构性变化：从关税、盟友关系到国际秩序，美国正在放弃什么，又正在重塑什么？那些看似出乎意料的动作，如何拼接成一个正在成形的新秩序图景？又会对身处",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#376 石油旧梦与突袭余波：一个委内瑞拉青年的二十五年",
-      "link": "http://etw.fm/2195",
-      "pubDate": "2026-01-20T08:15:00.000Z",
-      "duration": "32:16",
-      "summary": "一位生活在首都的委内瑞拉青年，在美军突袭那晚经历了一场怎样的惊心动魄？从小到大，他又如何见证了国家从石油时代的繁荣巅峰，一步步坠入动荡与贫困的深渊 ？ 2026 年 1 月 3 号，美军突袭委内瑞拉首都并抓捕其总统马杜罗的消息震惊全球。而这场突如其来的巨变，也让这个命运多舛的国家再次被推到了命运的十字路口。 这期节目，我们采访了从小生活在首都加拉加斯的委内瑞拉青年 Andrés，他回忆了自己在 1",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1604,17 +1483,6 @@
       "duration": "00:44:44",
       "summary": "【主播的话】 主流社会的想象中，生育几乎总是与亲密关系、伴侣或婚姻绑定在一起的。 然而，这是一个必须要遵从的默认前提吗？当我们怀顾四周，发现事实并非如此。今天的女性，即使没有伴侣或者婚姻，依然能拥有不同的选择和生活自由。这是我们希望制作这个迷你系列的初衷，试图回答这一种新的选择意味着什么？ 这是系列的第二期，我们和导演、艺术家阿烂聊了聊她的生育选择、创作以及国内目前单身生育的环境。在录制这期节目时",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#375 透过 2025 的内容现场，寻找通往 2026 的坐标与锚点",
-      "link": "http://etw.fm/2194",
-      "pubDate": "2026-01-15T07:30:00.000Z",
-      "duration": "1:00:02",
-      "summary": "技术在加速，规则在松动，不同代际对世界的感受也越来越不一样。当下的我们究竟正处在一个怎样的转变之中？ 这期节目，四位关注不同社会领域的节目制作人坐在一起，从科技变革引发的社会范式重构，到年轻人参与的谷子经济与情绪实感，再到青少年作为「数字原住民」的观察视角，聊聊我们在 2025 年的内容创作与对话中，捕捉到的一些关键线索。 希望这些真实而多元的体感，能为你理解 2026 带来一些判断的线索，也为浮",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "lexfridman",
@@ -1648,17 +1516,6 @@
       "duration": "1551",
       "summary": "KKR has evolved from a traditional LBO shop into a global investment powerhouse managing over $500 billion in assets. Pete Stavros, Co-Head of Global Private Equity at KKR, joins Matt McClure, Global ",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#374 AI 时代，一所大学的新闻系如何在探索中演进",
-      "link": "http://etw.fm/2193",
-      "pubDate": "2026-01-08T08:45:00.000Z",
-      "duration": "1:07:07",
-      "summary": "继数字化浪潮之后，AI 的兴起再次给传媒行业带来了冲击。在这个新技术快速迭代的时代，传媒教育究竟还应该教给学生什么？ 去年，香港大学原有的「新闻及传媒研究中心」重新更名为「未来媒体学院」。而今天这期节目的嘉宾，也是未来媒体学院的教师 Yolanda，则是学院内人工智能创新方向的主导者。 作为一线实践者，她正带着学生在变动的行业边界中寻找新的坐标。我们讨论了：新传专业正在设计哪些新课程来应对技术的变",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "weirdo",
@@ -1705,17 +1562,6 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#373 请收下这枚记录 2025 年的声音时光胶囊",
-      "link": "http://etw.fm/2192",
-      "pubDate": "2025-12-25T04:00:00.000Z",
-      "duration": "30:46",
-      "summary": "2025，我们是不是已经走进了一个临界时代？ 这一年，暖水珊瑚礁跨越了热力临界点，世界最大的冰山 A23a 解体，曾经被认为没有蚊子的冰岛也出现了嗡嗡声…… 极端气候之外，这一年，全球范围内的紧张局势持续发酵：从贸易摩擦到政治分歧，从民族到国家，人类社会中不同层面的对立似乎并未缓解，反而在一些地方变得更加尖锐。 而宏大叙事之下，身为普通人的我们，也依然要在自己具体而真实的生活中不停地应对变化、做出",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
       "showId": "bg2pod",
       "showName": "BG2Pod",
       "category": "vc",
@@ -1736,17 +1582,6 @@
       "duration": "1452",
       "summary": "Coinbase is the leading digital asset exchange and platform. Brian Armstrong, co-founder and CEO of Coinbase, joins David Solomon, Chairman and CEO of Goldman Sachs, to discuss Coinbase's founding sto",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#372 美联储半年内的第三次降息，为 2026 释放了何种信号",
-      "link": "http://etw.fm/2191",
-      "pubDate": "2025-12-18T10:30:00.000Z",
-      "duration": "49:40",
-      "summary": "在 2025 年初，市场还普遍认为美联储今年可能只会降息一次，为什么它却在下半年连续三次做出了降息的决定？ 美联储是一个怎样的机构，我们应该如何理解它的「公私」属性？降息作为一个工具，会在什么情况下被使用，以期达到怎样的目的？美联储的内部都有哪些派别和争论，作为主席的鲍威尔和曾经提名他的「伯乐」特朗普之间，又在进行怎样的博弈？ 最后，我们也对 2026 年美国经济的发展趋势，以及它可能会给中国和世",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "weirdo",
