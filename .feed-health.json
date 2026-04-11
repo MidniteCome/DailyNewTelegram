@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-04-10",
+  "lastRun": "2026-04-11",
   "feeds": [
     {
       "name": "Stratechery",
@@ -210,7 +210,7 @@
       "name": "email",
       "url": "sources/newsletters.json",
       "ok": true,
-      "itemCount": 33,
+      "itemCount": 35,
       "consecutiveFails": 0,
       "skipped": false
     }

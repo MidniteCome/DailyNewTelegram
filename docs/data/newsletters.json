@@ -1,33 +1,6 @@
 {
-  "generatedAt": "2026-04-10T08:53:04.803Z",
+  "generatedAt": "2026-04-11T08:03:51.859Z",
   "items": [
-    {
-      "title": "Trump's anger thrusts NATO into crisis",
-      "link": "https://newslink.reuters.com/click/45046704.509888/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktQnJpZWZpbmcmdXRtX3Rlcm09MDQwMzI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158B0b84db26",
-      "author": "Reuters Daily Briefing",
-      "source": "newsletter:Reuters Daily Briefing",
-      "pubDate": "2026-04-03T11:00:59.000Z",
-      "summary": "96 Plus, India's 'Mounjaro brides'. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Daily Briefing Daily Briefing By Kate Turton Hello. Donald Trump's anger over Iran thrusts NATO into a fresh crisis , the Kremlin's drive for a state-b",
-      "llmComment": "特朗普对伊朗的愤怒使北约陷入新危机。"
-    },
-    {
-      "title": "US employment growth likely rebounded in March, war casting shadow over labor market",
-      "link": "https://newslink.reuters.com/click/45047343.65884/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249UmV1dGVycy1CdXNpbmVzcyZ1dG1fdGVybT0wNDAzMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158Bbc373d1e",
-      "author": "Reuters Business",
-      "source": "newsletter:Reuters Business",
-      "pubDate": "2026-04-03T13:02:11.000Z",
-      "summary": "96 U.S. job growth likely rebounded in March as a strike by healthcare workers ended and temperatures warmed up, but downside risks to the labor market are mounting from the dragging war ​in the Middle East. --> Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Goog",
-      "llmComment": "美国3月份就业增长可能回升，但中东战争对劳动力市场构成下行风险。"
-    },
-    {
-      "title": "Samsung Elec likely to report stupendous surge in quarterly profit to record level",
-      "link": "https://newslink.reuters.com/click/45049764.66623/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA0MDMyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158Bc6fd7476",
-      "author": "Reuters Technology Roundup",
-      "source": "newsletter:Reuters Technology Roundup",
-      "pubDate": "2026-04-03T15:02:16.000Z",
-      "summary": "96 Samsung Electronics , benefiting from red-hot chip prices stoked by the AI boom, is expected to book a six-fold jump in operating ​profit for January-March - a quarterly record and just shy of what it earned for all of the past business year. --> Get full access to Reuters.com for just £1/week. S",
-      "llmComment": "三星电子预计一季度盈利将创下记录，同比增长六倍。"
-    },
     {
       "title": "End of corporate empire",
       "link": "https://newslink.reuters.com/click/45038639.42581/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGhlLVdlZWstSW4tQnJlYWtpbmd2aWV3cyZ1dG1fdGVybT0wNDA0MjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158Ba7666b88",
@@ -35,7 +8,7 @@
       "source": "newsletter:The Week in Breakingviews",
       "pubDate": "2026-04-04T10:00:16.000Z",
       "summary": "96 Plus food inflation fears, and SoftBank’s debt dilemma Get a free trial of Breakingviews The Week in Breakingviews The Week in Breakingviews Insights from Reuters global financial commentary team --> By Peter Thal Larsen, Global Editor Welcome back! Donald Trump has promised to intensify attacks ",
-      "llmComment": "企业帝国的终结，食品通胀担忧加剧，软银面临债务困境。"
+      "llmComment": "企业帝国的终结，食品通胀担忧和软银的债务困境。"
     },
     {
       "title": "Tehran hunts missing U.S. pilot",
@@ -53,7 +26,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-04T15:01:18.000Z",
       "summary": "96 Telegram's billionaire founder, ‌Pavel Durov, said on Saturday that Russia's attempt to block Virtual Private Networks (VPN) triggered a problem with a domestic payment system, adding that tens of millions of Russians were resisting ​digital controls. --> Get full access to Reuters.com for just £",
-      "llmComment": "Telegram 创始人表示，俄罗斯封锁 VPN 引发了国内支付系统问题，数十万俄罗斯人正在抵制数字控制。"
+      "llmComment": "俄罗斯封锁VPN引发Telegram支付系统问题，数十万俄罗斯人抵制数字控制。"
     },
     {
       "title": "Telegram's Durov says Russia triggered payment system problem by blocking VPNs",
@@ -62,7 +35,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-05T15:01:18.000Z",
       "summary": "96 Telegram's billionaire founder, ‌Pavel Durov, said on Saturday that Russia's attempt to block Virtual Private Networks (VPN) triggered a problem with a domestic payment system, adding that tens of millions of Russians were resisting ​digital controls. --> Get full access to Reuters.com for just £",
-      "llmComment": "俄罗斯封锁VPN触发Telegram支付系统问题，数十万俄罗斯人抵制数字控制。"
+      "llmComment": "俄罗斯封锁VPN引发Telegram支付系统问题，数十万俄罗斯人抵制数字控制。"
     },
     {
       "title": "US and Iran receive peace proposal",
@@ -89,7 +62,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-04-06T13:01:20.000Z",
       "summary": "96 Futures tracking the S&P 500 and the Nasdaq ticked up on Monday after the main indexes marked their biggest ‌weekly jump in four months in the last session, as investors assessed prospects of an end to the Middle East conflict. --> Get full access to Reuters.com for just £1/week. Subscribe now. A",
-      "llmComment": "S&P 500 和 Nasdaq 指数小幅上涨，投资者关注中东局势发展。"
+      "llmComment": "S&P 500 和纳斯达克期货微涨，投资者关注中东局势。主要指数上周创四个月最大周涨。"
     },
     {
       "title": "Investors press Amazon, Microsoft and Google on water, power use in US data centers",
@@ -98,7 +71,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-06T15:01:18.000Z",
       "summary": "96 Amazon, Microsoft and Alphabet's Google have each recently abandoned construction of multibillion-dollar data centers over community opposition and now the companies ​are coming under shareholder pressure over the environmental impact of their projects. --> Get full access to Reuters.com for just",
-      "llmComment": "亚马逊、微软和谷歌因美国数据中心的水和电力使用问题面临股东压力。这些公司已停止建设多个数据中心。"
+      "llmComment": "亚马逊、微软和谷歌因数据中心对水和电力的使用而面临股东压力。这些公司已放弃建设多亿美元的数据中心。"
     },
     {
       "title": "A breakthrough deal or a crude awakening?",
@@ -107,7 +80,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-04-07T05:00:07.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Ankur Banerjee, Asia Finance & Ma",
-      "llmComment": "欧洲和全球市场展望。每周仅1英镑即可获取路透社全部内容。"
+      "llmComment": "欧洲和全球市场展望。每周仅需1英镑即可访问路透社全部内容。"
     },
     {
       "title": "Final countdown?",
@@ -116,7 +89,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-04-07T10:35:12.000Z",
       "summary": "96 What matters in U.S. and global markets today Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Anna Szymanski , Edi",
-      "llmComment": "今日美国和全球市场的关键事件。订阅路透社仅需每周1英镑。"
+      "llmComment": "今日美国和全球市场的重要事件。仅需每周1英镑即可获取路透社全部内容。"
     },
     {
       "title": "Clock ticks down on Trump's Iran threat",
@@ -125,7 +98,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-04-07T11:03:00.000Z",
       "summary": "96 And, TSA tips fuel over 800 ICE arrests. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Daily Briefing Daily Briefing By Anisha De Hello. Iran defiant on eve of Trump's ceasefire deadline , tips from TSA fuel more ICE arrests than ",
-      "llmComment": "特朗普对伊朗的最后通牒即将截止，伊朗态度坚决。TSA线索导致800多次ICE逮捕。"
+      "llmComment": "特朗普对伊朗的最后通牒即将截止，伊朗态度坚决。TSA的线索导致800多次ICE逮捕。"
     },
     {
       "title": "Free AI floods law schools",
@@ -134,7 +107,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-04-07T12:01:08.000Z",
       "summary": "96 + Startups vie for future lawyers. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. AI companies are courting law students . Plus",
-      "llmComment": "AI 公司正在吸引法学生。96 多家创业公司竞争未来律师。"
+      "llmComment": "AI 公司正在吸引法学生。96 多家初创公司竞争未来律师。"
     },
     {
       "title": "Blockbuster SpaceX listing could suck the oxygen out of fragile IPO market",
@@ -143,7 +116,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-04-07T13:04:01.000Z",
       "summary": "96 As Elon Musk's SpaceX closes in on a $75 billion IPO that could rewrite record books, concerns are mounting that others looking to list in 2026 may find it harder to get deals done under the shadow of the space venture's headline-grabbing debut. --> Get full access to Reuters.com for just £1/week",
-      "llmComment": "埃隆·马斯克的SpaceX即将以750亿美元IPO创纪录，可能会影响2026年其他上市公司的融资。"
+      "llmComment": "埃隆·马斯克的SpaceX即将以750亿美元IPO创造记录，可能会影响2026年其他上市公司的融资。"
     },
     {
       "title": "Intel joins Musk's Terafab AI chip project to power humanoid, data center goals",
@@ -152,7 +125,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-07T15:01:16.000Z",
       "summary": "96 Intel said on Tuesday it will partner with Elon Musk's Terafab AI chip complex project ​alongside SpaceX and Tesla to help produce processors powering the tech billionaire's robotics ‌and data center ambitions. --> Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to You",
-      "llmComment": "英特尔与埃隆·马斯克的Terafab AI芯片项目合作，共同推进人形机器人和数据中心技术。"
+      "llmComment": "英特尔将与埃隆·马斯克的Terafab AI芯片项目合作，共同推进机器人和数据中心技术。"
     },
     {
       "title": "Two weeks to breathe",
@@ -170,7 +143,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-04-08T10:35:13.000Z",
       "summary": "96 What matters in U.S. and global markets today Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Alun John , Breaking",
-      "llmComment": "美国和全球市场出现大幅反弹。今日市场重点关注点包括全球市场走势。"
+      "llmComment": "美国和全球市场出现大规模的救赎性反弹。"
     },
     {
       "title": "Two-week ceasefire in Iran",
@@ -188,7 +161,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-04-08T12:01:09.000Z",
       "summary": "96 + The ROI on law school. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. A new study shows a J.D. delivers a 59% earnings boost ",
-      "llmComment": "法学学位带来59%的收入增长。"
+      "llmComment": "法学学位可以带来59%的收入增长。"
     },
     {
       "title": "Women's elite sports revenues to reach $3 billion in 2026, Deloitte says",
@@ -206,7 +179,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-08T15:01:18.000Z",
       "summary": "96 Russia sees Chinese tech giant Tencent's WeChat messaging app and TikTok sister app Douyin as models for developing its own struggling ​Max messaging app, Vladimir Kiriyenko, CEO of state-controlled internet firm VK , ‌said on Wednesday. --> Get full access to Reuters.com for just £1/week. Subscr",
-      "llmComment": "俄罗斯将中国的微信和抖音作为其自主开发的Max信息应用的模型。"
+      "llmComment": "俄罗斯将中国的微信和抖音作为其自主开发的Max信使应用的模型。"
     },
     {
       "title": "Has Anthropic eclipsed OpenAI in revenue?",
@@ -215,7 +188,7 @@
       "source": "newsletter:Reuters Artificial Intelligencer",
       "pubDate": "2026-04-08T19:06:14.000Z",
       "summary": "96 What the revenue race means for their IPOs Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Artificial Intelligencer Artificial Intelligencer What matters in AI this week --> By Kenrick Cai , Technology Correspondent Krystal Hu has s",
-      "llmComment": "安瑟罗普的收入可能超过了OpenAI。了解其对IPO的影响。"
+      "llmComment": "人工智能公司Anthropic可能已超越OpenAI的收入。"
     },
     {
       "title": "There's a Gulf between market hopes and reality",
@@ -224,7 +197,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-04-09T06:00:09.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Wayne Cole, Chief Correspondent T",
-      "llmComment": "市场预期与现实之间存在差距。欧洲和全球市场展望。"
+      "llmComment": "市场预期与现实之间存在差距。今日欧洲和全球市场展望。"
     },
     {
       "title": "Relief rally hits pause",
@@ -233,7 +206,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-04-09T10:37:11.000Z",
       "summary": "96 What matters in U.S. and global markets today Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Amanda Cooper , Brea",
-      "llmComment": null
+      "llmComment": "美股反弹暂停。全球市场今日关键事件包括市场走势和重要数据发布。"
     },
     {
       "title": "Middle ​East ceasefire in jeopardy",
@@ -242,7 +215,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-04-09T11:03:56.000Z",
       "summary": "96 Plus, Tesla is developing a new smaller, cheaper EV. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Daily Briefing Daily Briefing By Kate Turton Hello. Israel's bombing of Lebanon puts the Middle East ceasefire in further jeopardy ",
-      "llmComment": null
+      "llmComment": "以色列对黎巴嫩的轰炸使中东停火协议面临更大威胁。特斯拉正在开发新的小型、廉价电动汽车。"
     },
     {
       "title": "Diddy’s appeal hits 2nd Circuit",
@@ -251,7 +224,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-04-09T12:00:58.000Z",
       "summary": "96 + Conviction and sentence on the line. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. Diddy brings his appeal to the 2nd Circui",
-      "llmComment": null
+      "llmComment": "Diddy 的上诉案件进入第二巡回法院。"
     },
     {
       "title": "US stock futures fall over shaky Mideast truce; inflation in focus",
@@ -296,6 +269,51 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-04-10T05:01:07.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Gregor Stuart Hunter, Asia Financ",
+      "llmComment": null
+    },
+    {
+      "title": "Back from the brink?",
+      "link": "https://newslink.reuters.com/click/45148856.67580/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDQxMDI2JnVzZXJfZW1haWw9MmZiNzYxYTRkMDU4M2IzODJmZjUzMjJhYjFiMDI2MzQwMTc2MTIzYTJlYmM3OTYxNDFiZjFlMmU3ZTA5N2E0YiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B489c7cdc",
+      "author": "Reuters Morning Bid",
+      "source": "newsletter:Reuters Morning Bid",
+      "pubDate": "2026-04-10T10:40:17.000Z",
+      "summary": "96 Everything Mike Dolan and the ROI team are excited to read, watch and listen to over the weekend. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid Weekend Morning Bid Weekend A Reuters Open Interest newsletter Everything ",
+      "llmComment": null
+    },
+    {
+      "title": "Lebanon fighting strains truce",
+      "link": "https://newslink.reuters.com/click/45148870.494816/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktQnJpZWZpbmcmdXRtX3Rlcm09MDQxMDI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158B3e69a1a2",
+      "author": "Reuters Daily Briefing",
+      "source": "newsletter:Reuters Daily Briefing",
+      "pubDate": "2026-04-10T11:00:52.000Z",
+      "summary": "96 Plus, shippers weigh unusual routes. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Daily Briefing Daily Briefing By Kate Turton Hello. The US-Iran ceasefire is under strain ahead of talks, and shippers weigh unusual routes as high",
+      "llmComment": null
+    },
+    {
+      "title": "Trump’s new tariffs head to court",
+      "link": "https://newslink.reuters.com/click/45148739.34877/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktRG9ja2V0JnV0bV90ZXJtPTA0MTAyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B79c85a6e",
+      "author": "The Daily Docket",
+      "source": "newsletter:The Daily Docket",
+      "pubDate": "2026-04-10T12:00:15.000Z",
+      "summary": "96 + Trade judges consider fresh challenges. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. Today President Trump ’s newest round ",
+      "llmComment": null
+    },
+    {
+      "title": "The unconventional logic behind SpaceX's $1.75 trillion price tag",
+      "link": "https://newslink.reuters.com/click/45149836.77133/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249UmV1dGVycy1CdXNpbmVzcyZ1dG1fdGVybT0wNDEwMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158B97fde738",
+      "author": "Reuters Business",
+      "source": "newsletter:Reuters Business",
+      "pubDate": "2026-04-10T13:02:34.000Z",
+      "summary": "96 Wall Street is reaching for some unusual yardsticks to price Elon Musk's SpaceX. --> Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Reuters Business Reuters Business The unconventional logic behind SpaceX's $1.75 trillion price tag",
+      "llmComment": null
+    },
+    {
+      "title": "Big Tech puts financial heft behind next-gen nuclear power as AI demand surges",
+      "link": "https://newslink.reuters.com/click/45152462.75062/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA0MTAyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B81d5833b",
+      "author": "Reuters Technology Roundup",
+      "source": "newsletter:Reuters Technology Roundup",
+      "pubDate": "2026-04-10T15:02:34.000Z",
+      "summary": "96 Big Tech is reshaping the funding landscape for new nuclear technologies as it seeks to bolster electricity supply for ​power-hungry AI data centers, inking deals that offer nuclear companies both funding and a clearer path to making money. --> Get full access to Reuters.com for just £1/week. Sub",
       "llmComment": null
     }
   ]
