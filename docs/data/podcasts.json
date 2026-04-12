@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-12T14:46:40.543Z",
+    "updatedAt": "2026-04-12T20:25:57.545Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -138,7 +138,7 @@
       "id": "acquired",
       "name": "Acquired",
       "category": "tech",
-      "art": "https://img.transistorcdn.com/vaBXRLjz0AtE2RZTRqynEWPxnn3JVgEDSgrNtXsSmJE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS82OTk1/ZWY0MDMxMzI1MjRj/MmM4NzNlZTlkZGVj/YmI3Ny5wbmc.jpg",
+      "art": "https://img.transistorcdn.com/LoLDL6Zo5FHLx6W2EoEiu4Q4UMWSOO6Hmc1XdsfCpyY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xMzM5/OWU3OWU5MmM1OWQ0/MjBkZDNiZTEwMjM0/ZjY2Yy5wbmc.jpg",
       "link": "https://acquired.fm"
     },
     {
