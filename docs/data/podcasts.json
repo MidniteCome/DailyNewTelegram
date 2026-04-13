@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-12T20:25:57.545Z",
+    "updatedAt": "2026-04-13T09:19:22.912Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Can you really do what you love?",
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5779993/can-you-really-do-what-you-love",
+      "pubDate": "2026-04-13T07:00:00.000Z",
+      "duration": "590",
+      "summary": "They say do what you love and you’ll never work a day in your life. But c’mon. Is that possible in this day and age? On today’s show, we speak to a tech investor who tells us the ingredients he believ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F33%2F06%2F566a36434127a76c5196a925390a%2Ffebd2f7f-9e9b-4f45-b17a-60ef77bc988d.png"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "Ferrari",
+      "link": "https://www.acquired.fm/episodes/ferrari",
+      "pubDate": "2026-04-13T03:33:59.000Z",
+      "duration": "14360",
+      "summary": "Ferrari is the pinnacle of luxury scarcity — across its entire 79-year history, the company has sold just 330,000 cars at an average price today of $500,000. For context, Hermes sells that many Birkin",
+      "art": "https://img.transistorcdn.com/0QGXNUgszcCY1ANfR29j6wYwABqNDaHjFNi3K5p7ZOw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yYjg2/ZjI2MTRkZGRhNWVl/ZjlkYjA2Zjg2ZWI0/NGVhZS5qcGc.jpg"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -823,17 +845,6 @@
       "duration": "53:51",
       "summary": "Matthew Steckman is the President and Chief Business Officer of Anduril. Matt played a central role in securing the $20BN contract Anduril just won with the US military. Prior to Anduril, Matt served ",
       "art": "https://static.libsyn.com/p/assets/b/8/5/d/b85d16a07f3f9bd5d959afa2a1bf1c87/WhatsApp_Image_2026-03-20_at_19.43.39.jpeg"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "The multimillion dollar Saturday Night Live UK gamble",
-      "link": "https://www.npr.org/2026/03/23/nx-s1-5754763/the-multimillion-dollar-saturday-night-live-uk-gamble",
-      "pubDate": "2026-03-23T07:00:00.000Z",
-      "duration": "570",
-      "summary": "Live from London, it’s Saturday Night? Saturday Night Live made its UK debut over the weekend after a well-hyped promotional campaign. Will this all-American sketch show translate to British audiences",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F80%2F82%2F16c0e5424a738b85d429a0e67ee0%2Fe36dbac7-f902-495b-a456-5b7e7be59834.png"
     },
     {
       "showId": "allin",
@@ -2132,17 +2143,6 @@
       "duration": "01:13:12",
       "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week they discuss market uncertainty, globalism and tariffs, M&A, Wiz and GOOG, N",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
-    },
-    {
-      "showId": "acquired",
-      "showName": "Acquired",
-      "category": "tech",
-      "title": "Indian Premier League Cricket",
-      "link": "https://www.acquired.fm/episodes/indian-premier-league-cricket",
-      "pubDate": "2025-03-24T01:39:34.000Z",
-      "duration": "16000",
-      "summary": "When you saw this episode pop up in your feed, you either jumped for joy and hit play immediately (in which case you’re not reading this), or you said “Huh. That’s a surprising episode.” Well, if you’",
-      "art": "https://img.transistorcdn.com/P7764OsbE5HFwEoFl-L-g4QuzNfHwT9E7IDco3xxNXM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lYzA5/ZWMzN2Q5NjMzY2Ni/ZDMwZGI0Y2FmYThh/MTIwMC5qcGc.jpg"
     }
   ]
 }
