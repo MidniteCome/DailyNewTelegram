@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updatedAt": "2026-04-13T20:43:49.912Z",
-    "totalEpisodes": 180,
+    "updatedAt": "2026-04-14T09:03:07.465Z",
+    "totalEpisodes": 165,
     "health": [
       {
         "id": "20vc",
         "name": "20VC",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       },
       {
         "id": "ezraklein",
@@ -82,8 +82,8 @@
       "id": "20vc",
       "name": "20VC",
       "category": "vc",
-      "art": "https://static.libsyn.com/p/assets/d/2/b/a/d2ba673c1d134c2be55e3c100dce7605/WhatsApp_Image_2024-10-28_at_11.39.21.jpeg",
-      "link": "http://www.thetwentyminutevc.com/"
+      "art": null,
+      "link": "https://thetwentyminutevc.libsyn.com/rss"
     },
     {
       "id": "ezraklein",
@@ -138,7 +138,7 @@
       "id": "acquired",
       "name": "Acquired",
       "category": "tech",
-      "art": "https://img.transistorcdn.com/LoLDL6Zo5FHLx6W2EoEiu4Q4UMWSOO6Hmc1XdsfCpyY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xMzM5/OWU3OWU5MmM1OWQ0/MjBkZDNiZTEwMjM0/ZjY2Yy5wbmc.jpg",
+      "art": "https://img.transistorcdn.com/wCAaKXk8FjXXOgCbJwU0L6QMWoGR3KuQ3Mqn1_U_es4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zYjQ2/ODk2Y2QyMzI2Njgz/OTJjZmNlN2YzZWJj/NTQ5My5wbmc.jpg",
       "link": "https://acquired.fm"
     },
     {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Reckoning With Israel’s ‘One-State Reality’",
+      "link": "https://www.nytimes.com/2026/04/14/opinion/ezra-klein-podcast-lynch-telhami.html",
+      "pubDate": "2026-04-14T09:00:00.000Z",
+      "duration": "01:27:28",
+      "summary": "For decades, most discussions of Israel and Palestine were framed around the eventual creation of a two-state solution. That effort has been dead for years. What has emerged in its place is what the p",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "How the workplace helps you win Survivor",
+      "link": "https://www.npr.org/2026/04/14/nx-s1-5784039/how-the-workplace-helps-you-win-survivor",
+      "pubDate": "2026-04-14T07:00:00.000Z",
+      "duration": "504",
+      "summary": "With the 50th season of Survivor underway, three former Survivor winners tell us how some of the skills they learned in their careers helped them win the show. There’s game theory, social engineering,",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F93%2F0f%2F9d6af72b4f33a5220978df942db0%2F10632507-4299-48ac-85fa-7118e6afcfdd.png"
+    },
     {
       "showId": "talksat",
       "showName": "Talks at GS",
@@ -196,17 +218,6 @@
       "duration": "14360",
       "summary": "Ferrari is the pinnacle of luxury scarcity — across its entire 79-year history, the company has sold just 330,000 cars at an average price today of $500,000. For context, Hermès sells that many Birkin",
       "art": "https://img.transistorcdn.com/0QGXNUgszcCY1ANfR29j6wYwABqNDaHjFNi3K5p7ZOw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yYjg2/ZjI2MTRkZGRhNWVl/ZjlkYjA2Zjg2ZWI0/NGVhZS5qcGc.jpg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Sales: ElevenLabs: Why We Set a 20x Sales Quota | How to Structure Sales Compensation Plans | Customer Success: 'Total BS' or Growth Engine? | Building an AI Sales Machine: What Tools & Tactics Must CROs Adopt Today with Carles Reina",
-      "link": "https://thetwentyminutevc.libsyn.com/20sales-elevenlabs-why-we-set-a-20x-sales-quota-how-to-structure-sales-compensation-plans-customer-success-total-bs-or-growth-engine-building-an-ai-sales-machine-what-tools-tactics-must-cros-adopt-today-with-carles-reina",
-      "pubDate": "2026-04-11T07:07:00.000Z",
-      "duration": "01:25:03",
-      "summary": "Carles Reina is VP of Sales at ElevenLabs, where he was the first investor and fourth employee. Carles has scaled the revenue org from Day 1 to over $350M in just 3 years. Carles is also an active inv",
-      "art": "https://static.libsyn.com/p/assets/8/6/e/b/86eb702d5ae2fdac16c3140a3186d450/WhatsApp_Image_2026-04-10_at_17.39.21.jpeg"
     },
     {
       "showId": "allin",
@@ -297,17 +308,6 @@
       "art": "https://megaphone.imgix.net/podcasts/3ae530aa-340b-11f1-a2fc-ff8c0ea5e298/image/ba7072ca8e4dac5cc07ae17a05eaf3f1.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising at $10BN & Doug Leone Returns to Sequoia",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-      "pubDate": "2026-04-09T07:07:00.000Z",
-      "duration": "01:27:16",
-      "summary": "AGENDA: 03:59 — Anthropic Surpasses OpenAI in Revenue 12:43 — OpenAI Management Reboot 18:24 — OpenAI Buys TBPN 29:00 — SpaceX Files for IPO Targeting $2 Trillion Valuation 37:21 — Doug Leone Returns ",
-      "art": "https://static.libsyn.com/p/assets/b/e/e/5/bee55635ba85ce4c16c3140a3186d450/WhatsApp_Image_2026-04-08_at_15.15.25.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -374,17 +374,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: DeepMind's Demis Hassabis on Why AGI is Bigger than the Industrial Revolution | Why LLMs Will Not Commoditise & We Have Not Hit Scaling Laws | Bottlenecks in AI & The Energy Crisis Caused By AI | Whether AI Will Do More to Harm or Help Inequality",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-deepminds-demis-hassabis-on-why-agi-is-bigger-than-the-industrial-revolution-why-llms-will-not-commoditise-we-have-not-hit-scaling-laws-bottlenecks-in-ai-the-energy-crisis-caused-by-ai-whether-ai-will-do-more-to-harm-or-help-inequality",
-      "pubDate": "2026-04-07T07:07:00.000Z",
-      "duration": "35:49",
-      "summary": "Demis Hassabis is the Co-Founder & CEO of Google DeepMind - working on AGI, responsible for AI breakthroughs such as AlphaGo, the first program to beat the world champion at the game of Go; and AlphaF",
-      "art": "https://static.libsyn.com/p/assets/7/a/d/f/7adf461317d8c199d959afa2a1bf1c87/8ca44342-cdea-4c24-b7f8-68bc5d04e443.jpg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -416,17 +405,6 @@
       "duration": "563",
       "summary": "Come see Planet Money live on stage! 12 cities. Details and tix here: planetmoneybook.com It’s not often you get to talk to a regional Fed president, let alone two at the same time! Today on the show,",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F15%2Ffd%2Fd28f21204c05be0fdb7a7ff24b97%2F7b951a10-0651-485c-8491-23287afd34ff.jpg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Hims & Hers: $4.3BN Market Cap on $2.3BN of Revenue: The Comeback | Why Being Public is 10x Better | The Death of the \"Strategy\" Hire | Why Performance Marketing is Worse than Brand Marketing with Andrew Dudum",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-hims-hers-43bn-market-cap-on-23bn-of-revenue-the-comeback-why-being-public-is-10x-better-the-death-of-the-strategy-hire-why-performance-marketing-is-worse-than-brand-marketing-with-andrew-dudum",
-      "pubDate": "2026-04-04T09:25:00.000Z",
-      "duration": "59:18",
-      "summary": "Andrew Dudum is the Founder and CEO of Hims, the company reshaping consumers relationship to healthcare. It has been a rocky ride over the last 6 months, the company is down 66%, their market cap toda",
-      "art": "https://static.libsyn.com/p/assets/d/c/1/a/dc1acdcdb0434ba3d959afa2a1bf1c87/WhatsApp_Image_2026-04-02_at_16.24.17.jpeg"
     },
     {
       "showId": "allin",
@@ -517,17 +495,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic's $6BN Revenue Month | OpenAI Kills Sora & Hits $100M ARR on Ads | Oura Going Public & Whoop Raises at $10BN | Manus Founders Trapped in China & The Billionaire Tax: Anyone Left in California?",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropics-6bn-revenue-month-openai-kills-sora-hits-100m-arr-on-ads-oura-going-public-whoop-raises-at-10bn-manus-founders-trapped-in-china-the-billionaire-tax-anyone-left-in-california",
-      "pubDate": "2026-04-02T08:55:00.000Z",
-      "duration": "01:09:36",
-      "summary": "AGENDA: 00:00 — Anthropic's Monster Month: 6 Billion in February Revenue 04:30 — The \"Claude Mythos\" Leak: 10 Trillion Parameters 11:50 — OpenAI Kills \"Sora\": A Massive Strategic Own Goal? 14:30 — Ope",
-      "art": "https://static.libsyn.com/p/assets/7/3/a/2/73a298c66ea9fe1f16c3140a3186d450/WhatsApp_Image_2026-04-01_at_12.30.24-20260402-l1el1ztj0c.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -605,17 +572,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Marc Andreessen on The Future of Venture Capital: Will a16z Go Public | Why Labour Displacement with AI is Wrong | Why Introspection is Dangerous | Why \"Diamonds in the Rough\" is BS in VC | Why a16z Invested $300M into Adam Neumann",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-marc-andreessen-on-the-future-of-venture-capital-will-a16z-go-public-why-labour-displacement-with-ai-is-wrong-why-introspection-is-dangerous-why-diamonds-in-the-rough-is-bs-in-vc-why-a16z-invested-300m-into-adam-neumann",
-      "pubDate": "2026-03-30T07:07:00.000Z",
-      "duration": "01:12:16",
-      "summary": "Marc Andreessen is a Co-Founder and General Partner at Andreessen Horowitz. The firm now manages over $90BN and has invested in the likes of OpenAI, Airbnb, Coinbase, Anduril and many more. Marc is an",
-      "art": "https://static.libsyn.com/p/assets/7/e/a/f/7eaf721478e80376d959afa2a1bf1c87/WhatsApp_Image_2026-03-24_at_15.30.50.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -625,17 +581,6 @@
       "duration": "544",
       "summary": "School lunch has been revamped a ton over the last two decades. Now, the Trump administration wants to rejigger the menu once more to align with its Make America Healthy Again agenda. That means more ",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F39%2F2f%2F86e5663a4b15be72bfc3c364413a%2F6cc67367-4f9e-41a7-86bd-f210bb3f04a5.jpg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: The Venture Model is Broken | You Need to be Greedy and Selfish to Win Early Stage Investing | Why Margins Do Not Matter for Early-Stage Startups | The Growth Rate that is Required in a World of AI with Gili Raanan, Founder @ Cyberstarts",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-venture-model-is-broken-you-need-to-be-greedy-and-selfish-to-win-early-stage-investing-why-margins-do-not-matter-for-early-stage-startups-the-growth-rate-that-is-required-in-a-world-of-ai-with-gili-raanan-founder-cyberstarts",
-      "pubDate": "2026-03-28T07:07:00.000Z",
-      "duration": "52:37",
-      "summary": "Gili Raanan is the Founder of Cyberstarts, one of the best performing venture funds of the last decade. He is famed for being the seed investor in Wiz, Islands and Cyera, leading to multiple 10x+ fund",
-      "art": "https://static.libsyn.com/p/assets/0/3/4/8/03482505c6bf236f16c3140a3186d450/WhatsApp_Image_2026-03-26_at_18.43.00.jpeg"
     },
     {
       "showId": "allin",
@@ -715,17 +660,6 @@
       "art": "https://megaphone.imgix.net/podcasts/2d179660-28db-11f1-80ef-63e2b6b31318/image/ced68f07ac58c8dee83c444813faf9b5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Why You Need a $1BN Fund To Do Series A Today | OpenAI vs Anthropic: Who Wins Enterprise | SpaceX at $2TRN and Data Centers in Space | The $20BN Groq Deal Broken Down | Jeff Bezos' $100BN New Fund",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-why-you-need-1bn-to-do-series-a-today-openai-vs-anthropic-who-wins-enterprise-spacex-at-2trn-and-data-centers-in-space-the-20bn-groq-deal-broken-down-jeff-bezos-100bn-new-fund",
-      "pubDate": "2026-03-26T07:08:00.000Z",
-      "duration": "01:18:09",
-      "summary": "AGENDA: 05:00 — Anthropic vs. OpenAI: Who Is Actually Winning the Enterprise War? 07:55 — \"Air of Desperation\": Is OpenAI Losing Its Invincibility? 18:00 — SpaceX at $2 Trillion: Elon's Insane Plan to",
-      "art": "https://static.libsyn.com/p/assets/4/5/5/d/455dd31b0fe4e2fcd959afa2a1bf1c87/WhatsApp_Image_2026-03-25_at_18.04.52.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -803,17 +737,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why hasn't the Russian economy collapsed?",
-      "link": "https://www.npr.org/2026/03/24/nx-s1-5758059/why-hasnt-the-russian-economy-collapsed",
-      "pubDate": "2026-03-24T07:00:00.000Z",
-      "duration": "571",
-      "summary": "How has Russia’s economy not completely collapsed after four years of war, sanctions and billions in debt? One economist says it is the war that has been propping up Russia's economy, not the other wa",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F88%2F5a%2F345b241d40e1bbe6b8e1091b1cdd%2F79aee1bf-f9bd-4582-b149-67a6fbffcdf1.jpg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -847,17 +770,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Inside Anduril's $20BN Army Contract & Why Anduril Must Go Public | Why 99% of Drone Companies Will Die | Why There is Never an Ethical Question of How Anduril Products are Used with Matthew Steckman, President @ Anduril",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-inside-andurils-20bn-army-contract-why-anduril-must-go-public-why-99-of-drone-companies-will-die-why-there-is-never-an-ethical-question-of-how-anduril-products-are-used-with-matthew-steckman-president-anduril",
-      "pubDate": "2026-03-23T07:07:00.000Z",
-      "duration": "53:51",
-      "summary": "Matthew Steckman is the President and Chief Business Officer of Anduril. Matt played a central role in securing the $20BN contract Anduril just won with the US military. Prior to Anduril, Matt served ",
-      "art": "https://static.libsyn.com/p/assets/b/8/5/d/b85d16a07f3f9bd5d959afa2a1bf1c87/WhatsApp_Image_2026-03-20_at_19.43.39.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -878,17 +790,6 @@
       "duration": "12426",
       "summary": "Joe is joined by Joey Diaz, Brendan Schaub & Eddie Bravo to watch the fights on March 21, 2026. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
       "art": "https://megaphone.imgix.net/podcasts/ddf4a476-2586-11f1-ab32-17229eb400f5/image/6fe2ef57e6f3a114c77ff71d83576390.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Sales: Inside Figma's $1BN ARR Revenue Machine | Why We Do Not Have Customer Success or SDRs | Why I Do Not Believe in Sales Quotas with Shaunt Voskanian, CRO @ Figma",
-      "link": "https://thetwentyminutevc.libsyn.com/20sales-inside-figmas-1bn-arr-revenue-machine-why-we-do-not-have-customer-success-or-sdrs-why-i-do-not-believe-in-sales-quotas-with-shaunt-voskanian-cro-figma",
-      "pubDate": "2026-03-21T07:07:00.000Z",
-      "duration": "01:02:50",
-      "summary": "Shaunt Voskanian is the CRO @ Figma, where he has scaled the sales machine to over $1BN in ARR and over 400 people. Prior to Figma, Shaunt was Senior VP of Global Sales at Datadog where he scaled the ",
-      "art": "https://static.libsyn.com/p/assets/d/3/1/0/d310c52545205b2dd959afa2a1bf1c87/WhatsApp_Image_2026-03-19_at_19.05.35.jpeg"
     },
     {
       "showId": "weirdo",
@@ -968,17 +869,6 @@
       "art": "https://megaphone.imgix.net/podcasts/465f6ad6-234e-11f1-9bab-3ff4ead8d665/image/1ff7433b5b2375acca76e9936372f27e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: The Return of Travis Kalanick: Uber Would Be $1TRN Today With Him | NVIDIA Predicts $1TRN in Revenue: Everything You Need to Know From GTC | Anduril Lands $20BN Army Contract | Adobe CEO Shock Exit: The Dominos Falling",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-return-of-travis-kalanick-uber-would-be-1trn-today-with-him-nvidia-predicts-1trn-in-revenue-everything-you-need-to-know-from-gtc-anduril-lands-20bn-army-contract-adobe-ceo-shock-exit-the-dominos-falling",
-      "pubDate": "2026-03-19T07:07:00.000Z",
-      "duration": "01:15:15",
-      "summary": "AGENDA: 04:02 NVIDIA's GTC: What You Need to Know 11:39 Meta's 20% Layoffs & Atlassian Lets Go of 1,600 21:42 How to Test AI Fluency in Employees 30:59 Anduril Lands $20BN Army Contract 46:46 Travis K",
-      "art": "https://static.libsyn.com/p/assets/4/6/9/9/4699410afabf528c16c3140a3186d450/WhatsApp_Image_2026-03-18_at_17.35.34.jpeg"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -1045,17 +935,6 @@
       "art": "https://static.libsyn.com/p/assets/0/a/4/e/0a4edf4c234bcad516c3140a3186d450/1_Pod_TKMD-20260317-ys2ryzxzls.png"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: The 8 Moats of Enduring Software Companies: How to Analyse for Durability and Defensibility in a World of AI | Why Dropouts are \"AI Maxing\" the World & Remote Early-Stage Companies are Dying with Gokul Rajaram",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-8-moats-of-enduring-software-companies-how-to-analyse-for-durability-and-defensibility-in-a-world-of-ai-why-dropouts-are-ai-maxing-the-world-remote-early-stage-companies-are-dying-with-gokul-rajaram",
-      "pubDate": "2026-03-16T07:07:00.000Z",
-      "duration": "01:18:21",
-      "summary": "Gokul Rajaram is one of the greatest operators turned investors of the last 2 decades. He is trusted as the go to advisor for the greatest founders in the world. Today he serves as a Board Director at",
-      "art": "https://static.libsyn.com/p/assets/f/5/4/8/f5480745ceb9d8b616c3140a3186d450/WhatsApp_Image_2026-03-15_at_15.33.29.jpeg"
-    },
-    {
       "showId": "bg2pod",
       "showName": "BG2Pod",
       "category": "vc",
@@ -1078,17 +957,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Growth: Inside Lovable's $400M ARR Growth Machine | How Lovable Does Product Launches | How Lovable Hacks Social To Make Posts Go Viral | How Lovable Makes Every Employee a Brand with Elena Verna",
-      "link": "https://thetwentyminutevc.libsyn.com/20growth-inside-lovables-400m-arr-growth-machine-how-lovable-does-product-launches-how-lovable-hacks-social-to-make-posts-go-viral-how-lovable-makes-every-employee-a-brand-with-elena-verna",
-      "pubDate": "2026-03-14T07:07:00.000Z",
-      "duration": "01:09:21",
-      "summary": "Elena Verna is the Head of Growth at Lovable, one of the fastest growing companies in the world having hit $400M in ARR in just 18 months. Prior to Lovable, Elena was Head of Growth at both Dropbox an",
-      "art": "https://static.libsyn.com/p/assets/6/b/f/b/6bfbc9a8f8be82cc16c3140a3186d450/WhatsApp_Image_2026-03-13_at_17.37.20.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1109,17 +977,6 @@
       "duration": "00:03:00",
       "summary": "- 导语 - 在两次世界大战之间的夹缝，匈牙利作为一个失去四分之三领土的内陆小国，却由一位「没有海军的海军将领」统治了二十余年。奥匈帝国的末代廷臣、海军将领霍尔蒂，如何从镇压红色革命的「白军」领袖，蜕变为匈牙利摄政王？一面镇压极右翼「箭十字党」，一面又与希特勒合作，这位独裁者如何在纳粹与苏联间周旋？东欧剧变后，他的历史又如何重塑现代匈牙利的自我认同？请听本期节目陆大鹏带来的精彩分享！ 《继业者19",
       "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic vs The Pentagon: Who Wins | The Ultimate Stock Picks: What to Buy | The Data Centre Arms Race: Is the Capex War Stalling | The Era of Public Company Deceleration is Dead",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-vs-the-pentagon-who-wins-the-ultimate-stock-picks-what-to-buy-the-data-centre-arms-race-is-the-capex-war-stalling-the-era-of-public-company-deceleration-is-dead",
-      "pubDate": "2026-03-12T07:07:00.000Z",
-      "duration": "01:14:09",
-      "summary": "AGENDA: 00:00 - ANTHROPIC VS. THE PENTAGON: The Billion Dollar Supply Chain War 07:11 - B2B PANIC: Why Leading Companies Are Losing Deals to OpenAI 12:19 - THE ANTHROPIC ENDGAME: Will Claude Eclipse C",
-      "art": "https://static.libsyn.com/p/assets/4/6/0/3/4603e3db6f80813b16c3140a3186d450/WhatsApp_Image_2026-03-11_at_14.10.35.jpeg"
     },
     {
       "showId": "etw",
@@ -1186,17 +1043,6 @@
       "duration": "01:03:26",
       "summary": "(0:00) The Besties welcome legendary Harvard professor Graham Allison (1:14) Iran Conflict: Strategy, Netanyahu's influence, Trump's motivation, redefining Middle East security (11:44) Iran endgame sc",
       "art": "https://static.libsyn.com/p/assets/9/0/1/7/9017fe4546f1ad9116c3140a3186d450/1_Pod_GrahamAllison.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Inside Accel's $4BN Growth Investing Machine | Cursor is Dead is Total BS: Here is Why | What Missing Rippling and ElevenLabs Taught Us | Are $2BN-$10BN IPOs Dead | Why Now is a Great Time to be Thoma Bravo with Miles Clements",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-inside-accels-4bn-growth-investing-machine-cursor-is-dead-is-total-bs-here-is-why-what-missing-rippling-and-elevenlabs-taught-us-are-2bn-10bn-ipos-dead-why-now-is-a-great-time-to-be-thoma-bravo-with-miles-clements",
-      "pubDate": "2026-03-09T07:07:00.000Z",
-      "duration": "01:03:02",
-      "summary": "Miles Clements is a Partner @ Accel where he helps to lead their growth fund. At Accel, Miles has led or invested in Atlassian, Cursor, Linear, and more. AGENDA: 03:38 Where is True Alpha and Value in",
-      "art": "https://static.libsyn.com/p/assets/e/b/6/2/eb62a7ee4e4ed4f016c3140a3186d450/WhatsApp_Image_2026-03-06_at_20.35.35.jpeg"
     },
     {
       "showId": "allin",
@@ -1439,17 +1285,6 @@
       "duration": null,
       "summary": "Peter Steinberger is the creator of OpenClaw, an open-source AI agent framework thats the fastest-growing project in GitHub history. Thank you for listening ❤ Check out our sponsors: https://lexfridma",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "George Saunders on Anger, Ambition and Sin",
-      "link": "https://www.nytimes.com/2026/02/10/opinion/ezra-klein-podcast-george-saunders.html",
-      "pubDate": "2026-02-10T10:00:00.000Z",
-      "duration": "01:27:05",
-      "summary": "George Saunders is tired of being the “kindness guy.” Saunders is one of my favorite fiction writers, and a friend of the pod; I talked to him back in 2021 and 2022. He also has a reputation as a kind",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "weirdo",
