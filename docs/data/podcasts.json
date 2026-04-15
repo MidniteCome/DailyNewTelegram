@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-04-14T20:43:51.275Z",
-    "totalEpisodes": 165,
+    "updatedAt": "2026-04-15T09:04:25.227Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": null,
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/11f568857987283428d892402e623b21.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Think the oil shock is bad in the US? Look here",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5785228/think-the-oil-shock-is-bad-in-the-us-look-here",
+      "pubDate": "2026-04-15T07:00:00.000Z",
+      "duration": "609",
+      "summary": "Shipping through the Strait of Hormuz is pretty slow right now. A once steady stream of global oil has been severed, and oil prices have shot into the stratosphere. Countries across the world are tryi",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb4%2Fcd%2F8ed55f574fa3ac1af380ea0a567f%2Ff4891c72-2d22-4523-b8e9-994c13f74193.jpg"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "开发商建豪宅，却必须留房给穷人？纽约城市逻辑",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69deff7de2c8be31553e4bf7?utm_source=rss",
+      "pubDate": "2026-04-15T03:25:08.000Z",
+      "duration": "01:19:55",
+      "summary": "【主播的话】 纽约是一座很难被描述的城市。无数人尝试过，但它从来没有一个统一的叙事。它脏、贵、吵、危险——混杂、流动、没有主人。但它同时又是很多人一生中感到最不孤独的地方。 它也是全球大城市中少数几个，让你感觉到它是在\"被人经营\"、而不是\"被人管理\"的地方。居民、地主、开发商、社区组织，每个人都在用自己的方式塑造它。 比如，纽约的房价贵得离谱——有一半的纽约人，把三分之一的税前工资交给了房东。但与",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2482 - Andy Stumpf",
+      "link": "https://traffic.megaphone.fm/GLT3680007995.mp3?updated=1776185129",
+      "pubDate": "2026-04-14T17:00:00.000Z",
+      "duration": "9579",
+      "summary": "Andy Stumpf is a retired Navy SEAL, entrepreneur, record-holding wingsuiter, and host of “Cleared Hot” and “Change Agents.” His new book, “Drownproof: Eight Life Lessons to Keep Your Head Above Water,",
+      "art": "https://megaphone.imgix.net/podcasts/41cef8ec-37a3-11f1-83cc-6fb93667ce7f/image/19a531a9d124570807bc495f6a1bed44.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -264,6 +297,17 @@
       "art": "https://static.libsyn.com/p/assets/9/3/b/3/93b381a492da6d06d959afa2a1bf1c87/1_Pod_E268-20260410-lusrx3kb2k.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #177 - Protect Ya Neck",
+      "link": "https://traffic.megaphone.fm/GLT7244998855.mp3?updated=1775829921",
+      "pubDate": "2026-04-10T17:00:00.000Z",
+      "duration": "11303",
+      "summary": "Joe is joined by mixed martial artists John Rallo, Matt Serra, and Din Thomas.John Rallo owns Shogun Fights and is the owner and head coach at Ground Control Mixed Martial Arts Academy.www.groundcontr",
+      "art": "https://megaphone.imgix.net/podcasts/07615520-3487-11f1-a651-832d3537b146/image/100db81302172a0484121b396a9654be.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -319,6 +363,17 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2481 - Duncan Trussell",
+      "link": "https://traffic.megaphone.fm/GLT3393412202.mp3?updated=1775753732",
+      "pubDate": "2026-04-09T17:00:00.000Z",
+      "duration": "11574",
+      "summary": "Duncan Trussell is a stand-up comedian, voice actor, and host of “The Duncan Trussell Family Hour.” He will perform live April 9–11 at Zanies Comedy Club Rosemont in Rosemont, Illinois. Tickets are on",
+      "art": "https://megaphone.imgix.net/podcasts/3ae530aa-340b-11f1-a2fc-ff8c0ea5e298/image/ba7072ca8e4dac5cc07ae17a05eaf3f1.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -350,6 +405,17 @@
       "duration": "1422",
       "summary": "London’s position as a global hub depends on staying competitive and preparing for rapid technological change. Sir Sadiq Khan, Mayor of London, joins Kunal Shah, co-chief executive officer of Goldman ",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2480 - Arsenio Hall",
+      "link": "https://traffic.megaphone.fm/GLT3162202677.mp3?updated=1776099580",
+      "pubDate": "2026-04-08T17:00:00.000Z",
+      "duration": "10691",
+      "summary": "Arsenio Hall is a comedian, producer, writer, and actor. He hosted “The Arsenio Hall Show” and has appeared in films including “Coming to America” and “Harlem Nights.” His new book, “Arsenio Hall: A M",
+      "art": "https://megaphone.imgix.net/podcasts/40c67136-32f4-11f1-8fff-17c75e7b3806/image/c431436ce2ac4d5b79fb3fb2e89e0a55.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "allin",
@@ -451,6 +517,17 @@
       "art": "https://static.libsyn.com/p/assets/4/c/6/4/4c64b40f4b8c6d6616c3140a3186d450/1_Pod_E267.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2479 - Bob Lazar & Luigi Vendittelli",
+      "link": "https://traffic.megaphone.fm/GLT6476784414.mp3?updated=1775235793",
+      "pubDate": "2026-04-03T17:00:00.000Z",
+      "duration": "11108",
+      "summary": "Bob Lazar made headlines in 1989 during an anonymous interview with journalist George Knapp, where he described working with extraterrestrial technology at a site near Area 51. He is the subject of th",
+      "art": "https://megaphone.imgix.net/podcasts/1ac15128-2f0b-11f1-8ec6-af2d607f733b/image/69e40ae0cfb55cd685ce4b6d7e0b5c84.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -495,6 +572,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2478 - Theo Von",
+      "link": "https://traffic.megaphone.fm/GLT6518968908.mp3?updated=1775235417",
+      "pubDate": "2026-04-02T17:00:00.000Z",
+      "duration": "9987",
+      "summary": "Theo Von is a comedian and host of the podcast “This Past Weekend with Theo Von.” Tickets are on sale now for his new movie \"Busboys\" only in theaters on April 17.www.theovon.comwww.youtube.com/theovo",
+      "art": "https://megaphone.imgix.net/podcasts/7a2534e4-2e49-11f1-aa8b-d7da5b28e9c3/image/d40677418282f92b14820a04032597a5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -528,6 +616,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F72%2F4a%2F9e1ebac44a209efa7476fceafa7d%2Ffd5fda1a-9524-4586-b128-099518e83780.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2477 - Rick Perry & W. Bryan Hubbard",
+      "link": "https://traffic.megaphone.fm/GLT6198902078.mp3?updated=1775063956",
+      "pubDate": "2026-04-01T17:00:00.000Z",
+      "duration": "8399",
+      "summary": "Rick Perry is the former Governor of Texas and former U.S. Secretary of Energy. W. Bryan Hubbard is the Chief Executive Officer of Americans for Ibogaine, a public policy education and advocacy organi",
+      "art": "https://megaphone.imgix.net/podcasts/94e8eeac-2d67-11f1-b04f-73a1aba27057/image/f8edfdef51d9cb843f1ea27158a2da8e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -537,6 +636,17 @@
       "duration": "552",
       "summary": "Pokémon cards are scorching hot right now. An index tracking the thousands of rare cards shows that valuations have increased 170% in the last year alone. Growth like that really makes you wish you ha",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffd%2Fe5%2Fed0719e54d04abe777ba7de6feed%2F96b960ec-f950-40d3-958f-489bd4be627b.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2476 - Shanna H. Swan",
+      "link": "https://traffic.megaphone.fm/GLT4372299557.mp3?updated=1774975365",
+      "pubDate": "2026-03-31T17:00:00.000Z",
+      "duration": "6964",
+      "summary": "Shanna H. Swan, PhD, is an environmental epidemiologist and author of “Count Down.” She is the director of The Action Science Initiative, a program within the Million Marker Institute, and is featured",
+      "art": "https://megaphone.imgix.net/podcasts/05def176-2cb2-11f1-b9ba-ef6387fb594d/image/54c3b1ee35cf8c054a408c049bb9d3d7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -616,6 +726,17 @@
       "art": "https://static.libsyn.com/p/assets/9/7/9/6/979607b459154e0b16c3140a3186d450/1_Pod_E266.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2475 - Andrew Jarecki",
+      "link": "https://traffic.megaphone.fm/GLT9824471460.mp3?updated=1774631147",
+      "pubDate": "2026-03-27T17:00:00.000Z",
+      "duration": "9989",
+      "summary": "Andrew Jarecki is a filmmaker, musician, entrepreneur, and documentarian. His latest documentary, “The Alabama Solution,” co-directed with Charlotte Kaufman, is available to stream on HBO Max and othe",
+      "art": "https://megaphone.imgix.net/podcasts/88ce39f6-297a-11f1-b972-2b8f4b0d54f5/image/7707d7111389a31ca9f4ed94a9cf8b7d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -660,6 +781,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fad%2Fe5%2Fc76a1e4146f1875ef2c444cc9491%2Fc6079fe8-38bf-40f0-b4b0-24f6f3d15a4f.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2474 - Dave Smith",
+      "link": "https://traffic.megaphone.fm/GLT1007510483.mp3?updated=1774544978",
+      "pubDate": "2026-03-26T17:00:00.000Z",
+      "duration": "10698",
+      "summary": "Dave Smith is a comic, political commentator, and host of the “Part of the Problem” podcast.www.youtube.com/@PartOfTheProblemwww.partoftheproblem.comwww.comicdavesmith.com Perplexity: Download the app",
+      "art": "https://megaphone.imgix.net/podcasts/2d179660-28db-11f1-80ef-63e2b6b31318/image/ced68f07ac58c8dee83c444813faf9b5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -693,15 +825,26 @@
       "art": "https://static.libsyn.com/p/assets/d/1/d/5/d1d5cdffc4fde188d959afa2a1bf1c87/1_Pod_BJ.png"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Your next flight doesn't have to be so expensive. Here's why",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5759714/your-next-flight-doesnt-have-to-be-so-expensive-heres-why",
-      "pubDate": "2026-03-25T07:00:00.000Z",
-      "duration": "565",
-      "summary": "Why are flight tickets so expensive right now? Increased oil prices seems like it’d be the obvious answer. That’s mostly right. Airlines used to do some financial magic to help keep airfare down as oi",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa4%2Fb3%2F3d969f894a51b9f85e124021447a%2Fb95c3c50-8d6c-4054-b624-a089181e8bde.jpg"
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2473 - Bill Thompson",
+      "link": "https://traffic.megaphone.fm/GLT1444847354.mp3?updated=1774457242",
+      "pubDate": "2026-03-25T17:00:00.000Z",
+      "duration": "8796",
+      "summary": "Bill Thompson is a retired U.S. Army Chief Warrant Officer and the founder and CEO of Spartan Forge, a company that develops AI-powered mapping and predictive tools for hunting.www.youtube.com/@sparta",
+      "art": "https://megaphone.imgix.net/podcasts/22742724-27ef-11f1-a5f7-afcbbd59e1a3/image/8ae090925306ddcca76af65b6df84372.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2472 - Jeff Ross",
+      "link": "https://traffic.megaphone.fm/GLT8163402388.mp3?updated=1774371076",
+      "pubDate": "2026-03-24T17:00:00.000Z",
+      "duration": "8398",
+      "summary": "Jeff Ross is a comic, actor, director, and producer. His new special, “Take a Banana for the Ride,” is streaming on Netflix.www.netflix.com/title/81969837www.roastmastergeneral.com Perplexity: Downloa",
+      "art": "https://megaphone.imgix.net/podcasts/de128426-2745-11f1-80cf-376f3c69f5ba/image/ec3d41f024e6e5fd3490474fcfba562c.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -781,6 +924,17 @@
       "art": "https://static.libsyn.com/p/assets/6/b/8/8/6b88af06c8af4151d959afa2a1bf1c87/1_Pod_Mahan.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "Fight Companion - March 21, 2026",
+      "link": "https://traffic.megaphone.fm/GLT6008208664.mp3",
+      "pubDate": "2026-03-22T00:34:00.000Z",
+      "duration": "12426",
+      "summary": "Joe is joined by Joey Diaz, Brendan Schaub & Eddie Bravo to watch the fights on March 21, 2026. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "art": "https://megaphone.imgix.net/podcasts/ddf4a476-2586-11f1-ab32-17229eb400f5/image/6fe2ef57e6f3a114c77ff71d83576390.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -801,6 +955,17 @@
       "duration": "01:15:42",
       "summary": "【主播的话】 你或许听过“心流“的概念——在越来越快的当下，我们常常会有这样的体验：注意力被日常信息反复打断，很难获得哪怕十分钟的内心安宁。技术在发展、社会在进步，但我们的内心却常常漂浮着难以解释的空虚。有研究指出，人类最稳定、最持久的幸福体验，并不来自休息或享乐，而是一种高度专注的状态，那就是“心流”。 1970年代，心理学家米哈里·契克森米哈赖对运动员、艺术家、音乐家进行了大量深度的访谈，提出",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2471 - Mark Normand",
+      "link": "https://traffic.megaphone.fm/GLT8510219084.mp3?updated=1774024727",
+      "pubDate": "2026-03-20T17:00:00.000Z",
+      "duration": "10147",
+      "summary": "Mark Normand is a stand-up comedian, actor, and co-host of the podcasts “Tuesdays with Stories!” and “We Might Be Drunk.” His new special, “None Too Pleased,” is now streaming on Netflix.www.netflix.c",
+      "art": "https://megaphone.imgix.net/podcasts/42dbc4f4-240c-11f1-89a6-23fb3061ef44/image/3d656b0e42090afb63ea620771d178d7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -845,6 +1010,17 @@
       "duration": "01:06:06",
       "summary": "(0:00) Jensen Huang joins the show! (0:26) Acquiring Groq and the inference explosion (8:53) Decision making at the world's most valuable company (10:47) Physical AI's $50T market, OpenClaw's future, ",
       "art": "https://static.libsyn.com/p/assets/5/e/7/0/5e700e85441bf0e216c3140a3186d450/1_Pod_Jensen.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2470 - Pierre Poilievre",
+      "link": "https://traffic.megaphone.fm/GLT7364954068.mp3?updated=1774034469",
+      "pubDate": "2026-03-19T17:00:00.000Z",
+      "duration": "8889",
+      "summary": "The Honourable Pierre Poilievre is a Canadian politician serving as the leader of the Conservative Party and leader of the Official Opposition. He has been the Member of Parliament for Battle River—Cr",
+      "art": "https://megaphone.imgix.net/podcasts/465f6ad6-234e-11f1-9bab-3ff4ead8d665/image/1ff7433b5b2375acca76e9936372f27e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
@@ -1691,17 +1867,6 @@
       "pubDate": "2025-11-13T05:28:23.000Z",
       "duration": "00:52:44",
       "summary": "【主播的话】 介绍不多写了，大家听节目吧。 【本期主播】 王磬： 微博 @王磬 【本期嘉宾】 张丰： 有杏书店主理人，独立媒体人，公众号「城市的地得」「张3丰的世界」「成都客」主理人 【相关阅读】 2025/10/29《好了，今天就告别吧》 mp.weixin.qq.com 2025/10/30《对成都的最后一点爱》 mp.weixin.qq.com 2025/11/1《这样很好》 mp.weix",
-      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "weirdo",
-      "showName": "不合时宜",
-      "category": "zh",
-      "title": "战败自杀被救之后，她成为上万个中国孩子的接生婆",
-      "link": "https://www.xiaoyuzhoufm.com/episode/690d7cbfd99642be96e0b448?utm_source=rss",
-      "pubDate": "2025-11-07T05:09:03.000Z",
-      "duration": "00:52:33",
-      "summary": "【主播的话】 在播客的世界里，爱哲为人所知的身份，是故事FM的主播。他自称，“是一个以收集故事为业的人”。在讲述了许许多多别人的故事之后，爱哲自己变成了今天这个故事的主角。 在过去的十四年里，爱哲一直在寻找一个人——他的接生婆。 她是一位日本人，1940 年来到伪满洲国，在吉林桦甸的一家医院做护士。1945 年日本战败，她的家庭选择了自尽：夫妻和两个年幼的孩子全部倒在那场历史洪流之下。只有她，被中",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
