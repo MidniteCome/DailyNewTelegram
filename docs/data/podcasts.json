@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-15T15:11:10.324Z",
+    "updatedAt": "2026-04-15T20:39:46.793Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2483 - Spencer Pratt",
+      "link": "https://traffic.megaphone.fm/GLT3041224181.mp3?updated=1776269139",
+      "pubDate": "2026-04-15T17:00:00.000Z",
+      "duration": "7552",
+      "summary": "Spencer Pratt is an entrepreneur, author, candidate for the office of Mayor of Los Angeles, and co-host of “The Fame Game” with his wife, Heidi Montag. His new memoir, “The Guy You Loved to Hate: Conf",
+      "art": "https://megaphone.imgix.net/podcasts/38a3909a-3869-11f1-94ee-8396fbb7a87c/image/b2009e27fff0e3ea17c1bc3f52350503.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1010,17 +1021,6 @@
       "duration": "01:06:06",
       "summary": "(0:00) Jensen Huang joins the show! (0:26) Acquiring Groq and the inference explosion (8:53) Decision making at the world's most valuable company (10:47) Physical AI's $50T market, OpenClaw's future, ",
       "art": "https://static.libsyn.com/p/assets/5/e/7/0/5e700e85441bf0e216c3140a3186d450/1_Pod_Jensen.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2470 - Pierre Poilievre",
-      "link": "https://traffic.megaphone.fm/GLT7364954068.mp3?updated=1774034469",
-      "pubDate": "2026-03-19T17:00:00.000Z",
-      "duration": "8889",
-      "summary": "The Honourable Pierre Poilievre is a Canadian politician serving as the leader of the Conservative Party and leader of the Official Opposition. He has been the Member of Parliament for Battle River—Cr",
-      "art": "https://megaphone.imgix.net/podcasts/465f6ad6-234e-11f1-9bab-3ff4ead8d665/image/1ff7433b5b2375acca76e9936372f27e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
