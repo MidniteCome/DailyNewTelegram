@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-16T15:45:01.085Z",
+    "updatedAt": "2026-04-16T20:40:28.035Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2484 - David Cross",
+      "link": "https://traffic.megaphone.fm/GLT8435055211.mp3?updated=1776358995",
+      "pubDate": "2026-04-16T17:00:00.000Z",
+      "duration": "8914",
+      "summary": "David Cross is a comedian, actor, writer, producer, and host of “Senses Working Overtime.” His latest special, “The End of the Beginning of the End,” is streaming on YouTube.https://youtu.be/xucCFqTbo",
+      "art": "https://megaphone.imgix.net/podcasts/5c082256-3951-11f1-9752-f7424aaf0f13/image/d6803b7b08e22101e9aaa8a6d1a7e330.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "etw",
       "showName": "声东击西",
@@ -988,17 +999,6 @@
       "duration": "01:15:42",
       "summary": "【主播的话】 你或许听过“心流“的概念——在越来越快的当下，我们常常会有这样的体验：注意力被日常信息反复打断，很难获得哪怕十分钟的内心安宁。技术在发展、社会在进步，但我们的内心却常常漂浮着难以解释的空虚。有研究指出，人类最稳定、最持久的幸福体验，并不来自休息或享乐，而是一种高度专注的状态，那就是“心流”。 1970年代，心理学家米哈里·契克森米哈赖对运动员、艺术家、音乐家进行了大量深度的访谈，提出",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2471 - Mark Normand",
-      "link": "https://traffic.megaphone.fm/GLT8510219084.mp3?updated=1774024727",
-      "pubDate": "2026-03-20T17:00:00.000Z",
-      "duration": "10147",
-      "summary": "Mark Normand is a stand-up comedian, actor, and co-host of the podcasts “Tuesdays with Stories!” and “We Might Be Drunk.” His new special, “None Too Pleased,” is now streaming on Netflix.www.netflix.c",
-      "art": "https://megaphone.imgix.net/podcasts/42dbc4f4-240c-11f1-89a6-23fb3061ef44/image/3d656b0e42090afb63ea620771d178d7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
