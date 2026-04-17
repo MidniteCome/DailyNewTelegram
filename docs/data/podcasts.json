@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-17T15:04:03.989Z",
+    "updatedAt": "2026-04-17T20:36:53.127Z",
     "totalEpisodes": 165,
     "health": [
       {
@@ -165,13 +165,24 @@
   ],
   "episodes": [
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2485 - John Fogerty",
+      "link": "https://traffic.megaphone.fm/GLT1846702753.mp3?updated=1776435206",
+      "pubDate": "2026-04-17T17:00:00.000Z",
+      "duration": "9939",
+      "summary": "John Fogerty is a Grammy-winning solo musician, former leader of Creedence Clearwater Revival, and an inductee of the Rock & Roll Hall of Fame and the Songwriters Hall of Fame. His latest album is “Le",
+      "art": "https://megaphone.imgix.net/podcasts/90196f1e-3a19-11f1-bbe7-032d1a4ac003/image/9a4e4683c4b54445cb73a8257432c24b.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
       "title": "467 霍尔木兹海峡千年史：从苏美尔文明、葡萄牙大征服到现代中东冲突",
       "link": "https://www.xiaoyuzhoufm.com/episode/69e1fb9c1e94ae69217d20ec?utm_source=rss",
       "pubDate": "2026-04-17T09:44:28.000Z",
-      "duration": "01:13:03",
+      "duration": "01:13:05",
       "summary": "- 导语 - 二月以来，世界的目光再次引向霍尔木兹海峡这片狭窄的水域。位于波斯湾咽喉的霍尔木兹岛有着怎样奇异的风土人情？发生在唐末广州的黄巢起义，如何影响了遥远的波斯湾贸易？地理大发现时代，仅有100万人口的葡萄牙王国为何能影响波斯湾长达两个半世纪？从两伊战争到当下的美伊冲突，霍尔木兹海峡的通行状态经历过怎样的变迁？请听本期嘉宾陆大鹏带来的精彩分享。 - 本期话题成员 - 程衍樑（微博@Grena",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
@@ -867,17 +878,6 @@
       "duration": "01:17:13",
       "summary": "(0:00) Matt Mahan: Why He's Running for Governor (1:51) How California Went From Bad to Worse (12:05) Public Sector Unions & Lobbying in Sacramento (19:05) California's Housing Crisis: Regulation & Fe",
       "art": "https://static.libsyn.com/p/assets/6/b/8/8/6b88af06c8af4151d959afa2a1bf1c87/1_Pod_Mahan.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "Fight Companion - March 21, 2026",
-      "link": "https://traffic.megaphone.fm/GLT6008208664.mp3",
-      "pubDate": "2026-03-22T00:34:00.000Z",
-      "duration": "12426",
-      "summary": "Joe is joined by Joey Diaz, Brendan Schaub & Eddie Bravo to watch the fights on March 21, 2026. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
-      "art": "https://megaphone.imgix.net/podcasts/ddf4a476-2586-11f1-ab32-17229eb400f5/image/6fe2ef57e6f3a114c77ff71d83576390.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "weirdo",
