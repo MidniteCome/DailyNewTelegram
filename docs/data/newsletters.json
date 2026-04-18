@@ -1,60 +1,6 @@
 {
-  "generatedAt": "2026-04-17T09:02:20.655Z",
+  "generatedAt": "2026-04-18T08:08:11.458Z",
   "items": [
-    {
-      "title": "'That is not the agreement we have!'",
-      "link": "https://newslink.reuters.com/click/45147063.5430/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTA0MTAyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B143d47f1",
-      "author": "Reuters Morning Bid Europe",
-      "source": "newsletter:Reuters Morning Bid Europe",
-      "pubDate": "2026-04-10T05:01:07.000Z",
-      "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Gregor Stuart Hunter, Asia Financ",
-      "llmComment": "欧洲和全球市场今日展望。仅需£1/周即可获取Reuters完整内容。"
-    },
-    {
-      "title": "Back from the brink?",
-      "link": "https://newslink.reuters.com/click/45148856.67580/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDQxMDI2JnVzZXJfZW1haWw9MmZiNzYxYTRkMDU4M2IzODJmZjUzMjJhYjFiMDI2MzQwMTc2MTIzYTJlYmM3OTYxNDFiZjFlMmU3ZTA5N2E0YiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B489c7cdc",
-      "author": "Reuters Morning Bid",
-      "source": "newsletter:Reuters Morning Bid",
-      "pubDate": "2026-04-10T10:40:17.000Z",
-      "summary": "96 Everything Mike Dolan and the ROI team are excited to read, watch and listen to over the weekend. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid Weekend Morning Bid Weekend A Reuters Open Interest newsletter Everything ",
-      "llmComment": "Mike Dolan 和 ROI 团队期待阅读和收听的内容。仅需 1 英镑/周即可获取 Reuters.com 的全部内容。"
-    },
-    {
-      "title": "Lebanon fighting strains truce",
-      "link": "https://newslink.reuters.com/click/45148870.494816/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktQnJpZWZpbmcmdXRtX3Rlcm09MDQxMDI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158B3e69a1a2",
-      "author": "Reuters Daily Briefing",
-      "source": "newsletter:Reuters Daily Briefing",
-      "pubDate": "2026-04-10T11:00:52.000Z",
-      "summary": "96 Plus, shippers weigh unusual routes. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Daily Briefing Daily Briefing By Kate Turton Hello. The US-Iran ceasefire is under strain ahead of talks, and shippers weigh unusual routes as high",
-      "llmComment": "黎巴嫩冲突考验停火协议，美国和伊朗停火协议面临紧张。"
-    },
-    {
-      "title": "Trump’s new tariffs head to court",
-      "link": "https://newslink.reuters.com/click/45148739.34877/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktRG9ja2V0JnV0bV90ZXJtPTA0MTAyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B79c85a6e",
-      "author": "The Daily Docket",
-      "source": "newsletter:The Daily Docket",
-      "pubDate": "2026-04-10T12:00:15.000Z",
-      "summary": "96 + Trade judges consider fresh challenges. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. Today President Trump ’s newest round ",
-      "llmComment": "特朗普的新关税案将进入法庭。贸易法官考虑新的挑战。"
-    },
-    {
-      "title": "The unconventional logic behind SpaceX's $1.75 trillion price tag",
-      "link": "https://newslink.reuters.com/click/45149836.77133/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249UmV1dGVycy1CdXNpbmVzcyZ1dG1fdGVybT0wNDEwMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158B97fde738",
-      "author": "Reuters Business",
-      "source": "newsletter:Reuters Business",
-      "pubDate": "2026-04-10T13:02:34.000Z",
-      "summary": "96 Wall Street is reaching for some unusual yardsticks to price Elon Musk's SpaceX. --> Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Reuters Business Reuters Business The unconventional logic behind SpaceX's $1.75 trillion price tag",
-      "llmComment": "SpaceX 的估值达到 1.75 万亿美元。华尔街使用非传统逻辑来评估埃隆·马斯克的公司。"
-    },
-    {
-      "title": "Big Tech puts financial heft behind next-gen nuclear power as AI demand surges",
-      "link": "https://newslink.reuters.com/click/45152462.75062/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA0MTAyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B81d5833b",
-      "author": "Reuters Technology Roundup",
-      "source": "newsletter:Reuters Technology Roundup",
-      "pubDate": "2026-04-10T15:02:34.000Z",
-      "summary": "96 Big Tech is reshaping the funding landscape for new nuclear technologies as it seeks to bolster electricity supply for ​power-hungry AI data centers, inking deals that offer nuclear companies both funding and a clearer path to making money. --> Get full access to Reuters.com for just £1/week. Sub",
-      "llmComment": "科技巨头为下一代核能提供资金支持，以满足人工智能数据中心的电力需求。"
-    },
     {
       "title": "Too big to fail again",
       "link": "https://newslink.reuters.com/click/45155220.54525/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGhlLVdlZWstSW4tQnJlYWtpbmd2aWV3cyZ1dG1fdGVybT0wNDExMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158B9a2b97bd",
@@ -62,7 +8,7 @@
       "source": "newsletter:The Week in Breakingviews",
       "pubDate": "2026-04-11T10:00:17.000Z",
       "summary": "96 Plus finding $7.5 trln for AI, and Japan’s wobbly M&A boom Get a free trial of Breakingviews The Week in Breakingviews The Week in Breakingviews Insights from Reuters global financial commentary team --> By Peter Thal Larsen, Global Editor Welcome back! A week that started with Donald Trump threa",
-      "llmComment": "96 亿美元用于人工智能投资，日本并购热潮不稳定。"
+      "llmComment": "96 亿美元用于 AI 投资，日本并购热潮动摇。"
     },
     {
       "title": "Iran demands conditions for U.S. peace talks",
@@ -71,7 +17,7 @@
       "source": "newsletter:Reuters Weekend Briefing",
       "pubDate": "2026-04-11T11:01:52.000Z",
       "summary": "96 And how do you put a price on SpaceX? Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Weekend Briefing Weekend Briefing From Reuters Daily Briefing By Robert MacMillan, Reuters.com Weekend Editor Welcome to the Weekend Briefing. We ",
-      "llmComment": "伊朗要求美国谈判条件。获取更多新闻，请订阅路透社。"
+      "llmComment": "伊朗要求美国谈判和平条件。"
     },
     {
       "title": "How the AI boom derailed clean‑air efforts in one of America's most polluted cities",
@@ -80,7 +26,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-11T15:01:16.000Z",
       "summary": "96 Barbara Johnson has been fighting coal pollution for decades in her mostly Black neighborhood of North St. Louis as an organizer with Metropolitan Congregations United – one of many activist groups campaigning for cleaner air in a city that has some of the country’s dirtiest. --> Get full access ",
-      "llmComment": "美国最污染的城市之一，北圣路易斯的空气净化努力因人工智能热潮而受阻。居民巴巴拉·约翰逊多年来一直为减少煤炭污染而斗争。"
+      "llmComment": "美国最污染城市之一的空气净化努力因人工智能热潮而受阻。北圣路易斯的居民多年来一直在与煤炭污染作斗争。"
     },
     {
       "title": "Where have you been?",
@@ -89,7 +35,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-04-12T04:13:39.000Z",
       "summary": "96 It’s been a while since you’ve opened one of our newsletters. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw Hello! It’s been a while since you’ve opened The Daily Docket. The newsletter is designed to provide you with a quick look at the day's breaking legal news and analy",
-      "llmComment": "很久没有打开每日法律快讯了。每日法律快讯旨在提供当日突发法律新闻和分析。"
+      "llmComment": "The Daily Docket 新闻快讯已有一段时间未被打开。该新闻快讯旨在提供当日突发法律新闻的简要概览。"
     },
     {
       "title": "UK financial regulators rush to assess risks of Anthropic’s latest AI model, FT reports",
@@ -98,7 +44,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-12T15:01:17.000Z",
       "summary": "96 UK financial regulators are holding urgent talks with the government's cyber security agency ​and major banks to assess risks posed by the ‌latest artificial intelligence model from Anthropic, the Financial Times reported on Sunday. --> Get full access to Reuters.com for just £1/week. Subscribe n",
-      "llmComment": "英国金融监管机构正在评估Anthropic最新AI模型的风险。他们与政府网络安全机构和主要银行进行紧急会谈。"
+      "llmComment": "英国金融监管机构正在评估Anthropic最新AI模型的风险。英国政府网络安全机构和主要银行参与了讨论。"
     },
     {
       "title": "Oil surges on US blockade of Iran",
@@ -107,7 +53,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-04-13T05:03:07.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Tom Westbrook, Deputy Financial M",
-      "llmComment": "油价因美国对伊朗的封锁而大幅上涨。欧洲和全球市场迎来新的一天。"
+      "llmComment": "油价飙升，因美国对伊朗实施封锁。"
     },
     {
       "title": "Blockade takes its toll",
@@ -116,7 +62,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-04-13T10:41:13.000Z",
       "summary": "96 What matters in U.S. and global markets today Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-",
-      "llmComment": "全球市场受到封锁影响。今日市场焦点包括美国和全球市场动态。"
+      "llmComment": "全球市场受到封锁影响。今日市场动态请访问路透社网站。"
     },
     {
       "title": "US to blockade Iranian ports",
@@ -125,7 +71,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-04-13T11:00:53.000Z",
       "summary": "96 Plus, Hungary's Orban ousted after 16 years. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Daily Briefing Daily Briefing By Claire Beers Hello. The US military says it will begin a blockade of all maritime traffic entering and exi",
-      "llmComment": "美国军方将对伊朗港口实施海上封锁。匈牙利总理奥尔班在任16年后被罢免。"
+      "llmComment": "美国将对伊朗港口实施封锁，美国军方宣布对所有进出伊朗港口的海上交通实施封锁。"
     },
     {
       "title": "Alito, Thomas, and the politics of retirement",
@@ -134,7 +80,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-04-13T12:00:20.000Z",
       "summary": "96 + SCOTUS math meets election year risks. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. For aging U.S. Supreme Court justices, ",
-      "llmComment": "美国最高法院老龄化法官退休问题引发关注。"
+      "llmComment": "美国最高法院老龄化法官面临退休压力。"
     },
     {
       "title": "Conagra Brands names J.M. Smucker executive John Brase as new CEO",
@@ -143,7 +89,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-04-13T13:01:35.000Z",
       "summary": "96 Conagra Brands named J.M. Smucker ​executive John Brase as ‌its new CEO, succeeding Sean Connolly, who will step down after ​more than a decade ​at the helm of the ⁠packaged food maker. --> Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Source",
-      "llmComment": "康纳格品牌公司任命J.M.斯莫克公司高管约翰·布雷斯为新CEO，接替肖恩·康诺利。"
+      "llmComment": "康纳格品牌公司任命J.M.斯穆克公司高管约翰·布雷斯为新任CEO，接替在位十多年的肖恩·康诺利。"
     },
     {
       "title": "TSMC likely to book fourth straight quarter of record profit on insatiable AI demand",
@@ -152,7 +98,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-13T15:01:21.000Z",
       "summary": "96 TSMC, the world's largest manufacturer of advanced artificial intelligence chips, will likely notch ‌up a fourth consecutive quarter of record earnings with a 50% surge in net profit for January-March thanks to booming demand for AI infrastructure. --> Get full access to Reuters.com for just £1/w",
-      "llmComment": "台积电预计第四个季度实现创纪录利润，净利润将增长50%。这是由于人工智能基础设施需求旺盛。"
+      "llmComment": "台积电预计第四个季度实现创纪录的盈利，净利润将增加50%。这是由于人工智能基础设施需求的激增。"
     },
     {
       "title": "Fingers crossed for a resolution",
@@ -161,7 +107,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-04-14T05:00:08.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Rae Wee, Correspondent Data refre",
-      "llmComment": "欧洲和全球市场展望。今日焦点在于市场走势和潜在解决方案。"
+      "llmComment": "欧洲和全球市场展望。今日焦点在于市场走势和可能的解决方案。"
     },
     {
       "title": "War-weary markets filter out noise",
@@ -170,7 +116,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-04-14T10:35:12.000Z",
       "summary": "96 What matters in U.S. and global markets today Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-",
-      "llmComment": "全球市场今日关注点。订阅路透社仅需每周1英镑。"
+      "llmComment": "全球市场在战争阴影下保持警惕。今日市场动态可在路透社网站获取。"
     },
     {
       "title": "Tankers defy US blockade on day one",
@@ -179,7 +125,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-04-14T11:01:02.000Z",
       "summary": "96 Plus, Trump's voting restrictions bill may fail, but parts live on. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Daily Briefing Daily Briefing By Kate Turton Hello. The US and Iran may resume war talks despite port blockade , Tru",
-      "llmComment": "美国和伊朗可能重启战争谈判。油轮无视美国封锁。"
+      "llmComment": "美国和伊朗可能重启战争谈判，尽管美国对伊朗实施港口封锁。"
     },
     {
       "title": "Another Uber assault bellwether heads to trial",
@@ -188,7 +134,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-04-14T12:00:19.000Z",
       "summary": "96 + Second trial comes after a $8.5M jury award. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. Uber will face a second driver se",
-      "llmComment": "Uber 面临第二次司机袭击案审判，之前一审判决赔偿 850 万美元。"
+      "llmComment": "Uber 面临第二次司机性侵案件审判，之前有一起案件被判赔偿850万美元。"
     },
     {
       "title": "US small business sentiment falls to 11-month low in March",
@@ -197,7 +143,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-04-14T13:02:40.000Z",
       "summary": "96 U.S. small-business sentiment dropped to an 11-month low in March as a surge in oil prices because of the ​war in Iran overshadowed the benefits from low taxes, a ‌survey showed. --> Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> R",
-      "llmComment": "美国小企业信心指数在3月份下降至11个月低点，受伊朗战争导致油价上涨的影响。"
+      "llmComment": "美国小企业信心指数在3月份跌至11个月低点，主要受伊朗战争导致油价上涨的影响。"
     },
     {
       "title": "Amazon signs $11.57 billion deal for satellite firm Globalstar to challenge Musk's Starlink",
@@ -215,7 +161,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-04-15T05:00:06.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Gregor Stuart Hunter, Asia Financ",
-      "llmComment": "欧洲和全球市场今日走势将上涨，谈判可能恢复。"
+      "llmComment": "欧洲和全球市场今日走势将继续上涨，贸易谈判可能重启。"
     },
     {
       "title": "Back to business",
@@ -224,7 +170,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-04-15T10:38:12.000Z",
       "summary": "96 What matters in U.S. and global markets today Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-",
-      "llmComment": null
+      "llmComment": "今日美国和全球市场的重要事件。订阅路透社仅需每周1英镑。"
     },
     {
       "title": "US chokehold on Iran ports tighten",
@@ -233,7 +179,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-04-15T11:00:42.000Z",
       "summary": "96 And, China seizes South China Sea entrance. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Daily Briefing Daily Briefing By Anisha De Hello. Trump says talks with Iran could resume soon, China moves to block entrance to disputed So",
-      "llmComment": null
+      "llmComment": "美国对伊朗港口的控制加紧，中国封锁南中国海入口。"
     },
     {
       "title": "D.C. Circuit panel set for Trump Big Law fight",
@@ -242,7 +188,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-04-15T12:01:11.000Z",
       "summary": "96 + Ruling could shape presidential power. Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. President Trump ’s appeal in law firm c",
-      "llmComment": null
+      "llmComment": "特朗普的诉讼案件即将在哥伦比亚特区巡回上诉法院审理，可能影响总统权力。"
     },
     {
       "title": "Bank of America beat profit estimates as trading, investment banking shine",
@@ -251,7 +197,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-04-15T13:05:00.000Z",
       "summary": "96 Bank of America beat estimates for first-quarter profit, boosted by record equities trading and higher investment banking fees from a rebound in mergers and acquisitions. --> Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Reuters B",
-      "llmComment": null
+      "llmComment": "美国银行第一季度盈利超出预期，得益于创纪录的股票交易和投资银行业务的回升。"
     },
     {
       "title": "EU age verification app ready as Europe moves to curb children's social media access",
@@ -260,7 +206,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-15T15:02:01.000Z",
       "summary": "96 The EU's age verification app for online platforms is ‌ready and will soon be available to use, European Commission President Ursula von der Leyen said on Wednesday, as member states push ahead with plans to limit children's access to social media. --> Get full access to Reuters.com for just £1/w",
-      "llmComment": null
+      "llmComment": "欧盟的年龄验证应用即将推出，旨在限制儿童访问社交媒体。欧盟委员会主席乌尔苏拉·冯·德·莱恩宣布应用即将推出。"
     },
     {
       "title": "Trump’s dealmaking boom",
@@ -269,7 +215,7 @@
       "source": "newsletter:Reuters Artificial Intelligencer",
       "pubDate": "2026-04-15T19:55:14.000Z",
       "summary": "96 Venture and M&A spike Get full access to Reuters.com for just £1/week. Subscribe now. Add Reuters to Your Google Preferred Sources --> Artificial Intelligencer Artificial Intelligencer What matters in AI this week --> By Jeffrey Dastin , Technology Correspondent The same day Anthropic sued the Tr",
-      "llmComment": null
+      "llmComment": "特朗普的交易热潮，96次风险投资和并购激增。"
     },
     {
       "title": "Truce trades ramp up as Trump touts Israel-Lebanon talks",
@@ -350,6 +296,51 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-04-17T05:04:07.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Ankur Banerjee, Asia Finance & Markets Correspondent Data refreshes every time you",
+      "llmComment": null
+    },
+    {
+      "title": "Investors give peace a chance",
+      "link": "https://newslink.reuters.com/click/45252708.68856/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDQxNzI2JnVzZXJfZW1haWw9MmZiNzYxYTRkMDU4M2IzODJmZjUzMjJhYjFiMDI2MzQwMTc2MTIzYTJlYmM3OTYxNDFiZjFlMmU3ZTA5N2E0YiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B40f374c0",
+      "author": "Reuters Morning Bid",
+      "source": "newsletter:Reuters Morning Bid",
+      "pubDate": "2026-04-17T10:33:14.000Z",
+      "summary": "96 Everything Mike Dolan and the ROI team are excited to read, watch and listen to over the weekend. Get full access to Reuters.com for just £1/week. Subscribe now. Morning Bid Weekend Morning Bid Weekend A Reuters Open Interest newsletter Everything Mike Dolan and the ROI team are excited to read, ",
+      "llmComment": null
+    },
+    {
+      "title": "Trump says Iran war should end 'soon'",
+      "link": "https://newslink.reuters.com/click/45252797.498753/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktQnJpZWZpbmcmdXRtX3Rlcm09MDQxNzI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4/699d8f6975a57008a503f158B6f03619f",
+      "author": "Reuters Daily Briefing",
+      "source": "newsletter:Reuters Daily Briefing",
+      "pubDate": "2026-04-17T11:01:32.000Z",
+      "summary": "96 Plus, China turns Taiwan’s own voices against it in information war. Get full access to Reuters.com for just £1/week. Subscribe now. Daily Briefing Daily Briefing By Kate Turton Hello. Trump says Iran war should end 'soon' , crowds gather in Cameroon for the biggest event of Pope Leo's Africa tou",
+      "llmComment": null
+    },
+    {
+      "title": "Tariff refunds start Monday",
+      "link": "https://newslink.reuters.com/click/45252641.40729/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktRG9ja2V0JnV0bV90ZXJtPTA0MTcyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B95e5ee70",
+      "author": "The Daily Docket",
+      "source": "newsletter:The Daily Docket",
+      "pubDate": "2026-04-17T12:01:00.000Z",
+      "summary": "96 + Here’s what to know. Get full access to Reuters.com for just £1/week. Subscribe now. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. Today we have a quick look at the tariff refund process that is expected to begin on Monday. Plus, the U.S",
+      "llmComment": null
+    },
+    {
+      "title": "Wall St poised for weekly gain as futures climb on Middle East peace hopes",
+      "link": "https://newslink.reuters.com/click/45254044.79775/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249UmV1dGVycy1CdXNpbmVzcyZ1dG1fdGVybT0wNDE3MjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158B2e180f60",
+      "author": "Reuters Business",
+      "source": "newsletter:Reuters Business",
+      "pubDate": "2026-04-17T13:06:02.000Z",
+      "summary": "96 U.S. stock index futures rose on ​Friday and were set for a strong weekly close as investors welcomed signs of easing Middle ‌East tensions. --> Get full access to Reuters.com for just £1/week. Subscribe now. Reuters Business Reuters Business Wall St poised for weekly gain as futures climb on Mid",
+      "llmComment": null
+    },
+    {
+      "title": "Anthropic talks to EU, including on its cyber security models, Commission says",
+      "link": "https://newslink.reuters.com/click/45257201.74673/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA0MTcyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B40dd5d7f",
+      "author": "Reuters Technology Roundup",
+      "source": "newsletter:Reuters Technology Roundup",
+      "pubDate": "2026-04-17T15:01:17.000Z",
+      "summary": "96 U.S.-based artificial intelligence company Anthropic ​is currently in discussion ‌with the European Commission on its different models, ​including its cyber ​security ones, which are ⁠not yet available ​in the EU, the ​Commission said on Friday. --> Get full access to Reuters.com for just £1/week",
       "llmComment": null
     }
   ]
