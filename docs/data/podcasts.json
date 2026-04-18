@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-18T08:08:24.571Z",
+    "updatedAt": "2026-04-18T14:47:29.830Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike Tyson | with Geoffrey Wu, Co-Founder at Anti-Fund",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-jake-paul-on-why-traditional-vc-is-toast-and-attention-is-more-valuable-than-cash-politics-willjake-paul-actually-run-for-president-inside-the-payday-of-fighting-anthony-joshua-and-mike-tyson-with-geoffrey-wu-co-founder-at-anti-fund",
+      "pubDate": "2026-04-18T12:36:00.000Z",
+      "duration": "01:00:26",
+      "summary": "Jake Paul is one of the most influential creators of the digital era, with over 70M+ followers across platforms. He transitioned from YouTube stardom to become one of the biggest pay-per-view draws in",
+      "art": "https://static.libsyn.com/p/assets/4/d/b/2/4db2623ad9683737d959afa2a1bf1c87/WhatsApp_Image_2026-04-10_at_17.40.54.jpeg"
+    },
     {
       "showId": "allin",
       "showName": "All-In",
@@ -1175,17 +1186,6 @@
       "duration": "01:31:11",
       "summary": "The Trump administration miscalculated how Iran would respond to this war. And the United States, Iran and Israel were brought to the brink of war in the first place because of a whole series of misju",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Growth: Inside Lovable's $400M ARR Growth Machine | How Lovable Does Product Launches | How Lovable Hacks Social To Make Posts Go Viral | How Lovable Makes Every Employee a Brand with Elena Verna",
-      "link": "https://thetwentyminutevc.libsyn.com/20growth-inside-lovables-400m-arr-growth-machine-how-lovable-does-product-launches-how-lovable-hacks-social-to-make-posts-go-viral-how-lovable-makes-every-employee-a-brand-with-elena-verna",
-      "pubDate": "2026-03-14T07:07:00.000Z",
-      "duration": "01:09:21",
-      "summary": "Elena Verna is the Head of Growth at Lovable, one of the fastest growing companies in the world having hit $400M in ARR in just 18 months. Prior to Lovable, Elena was Head of Growth at both Dropbox an",
-      "art": "https://static.libsyn.com/p/assets/6/b/f/b/6bfbc9a8f8be82cc16c3140a3186d450/WhatsApp_Image_2026-03-13_at_17.37.20.jpeg"
     },
     {
       "showId": "allin",
