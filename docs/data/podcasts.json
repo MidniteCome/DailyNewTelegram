@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-19T20:27:59.646Z",
+    "updatedAt": "2026-04-20T09:25:55.888Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Everyone is Wrong; We Will Have More Developers in Five Years | Why Frontier Labs Will Be Way More Valuable Than They Are Today | Are SaaS Companies Cooked: Which Thrive & Which Die with Aaron Levie, Founder at Box",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-everyone-is-wrong-we-will-have-more-developers-in-five-years-why-frontier-labs-will-be-way-more-valuable-than-they-are-today-are-saas-companies-cooked-which-thrive-which-die-with-aaron-levie-founder-at-box",
+      "pubDate": "2026-04-20T07:07:00.000Z",
+      "duration": "53:54",
+      "summary": "Aaron Levie is one of the most forward-thinking public company CEOs when it comes to enterprise adoption of AI. Aaron is the CEO of Box, the enterprise storage company that does over $1BN in revenue b",
+      "art": "https://static.libsyn.com/p/assets/c/2/a/3/c2a32135a7e43cb2d959afa2a1bf1c87/WhatsApp_Image_2026-04-17_at_12.04.35.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Is anyone gonna do anything about these Iran War trades?",
+      "link": "https://www.npr.org/2026/04/20/nx-s1-5789071/is-anyone-gonna-do-anything-about-these-iran-war-trades",
+      "pubDate": "2026-04-20T07:00:00.000Z",
+      "duration": "551",
+      "summary": "Traders have made millions betting on the Iran War. They are also suspiciously timed. No public information, then boom: a Truth Social post from President Trump. Cue fat windfalls for the traders. It’",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd1%2F6f%2F86b957c24140bfc93618de026796%2F68286e7b-68c0-47d3-8b8e-cbffdf8c76e3.jpg"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -814,17 +836,6 @@
       "art": "https://static.libsyn.com/p/assets/7/e/a/f/7eaf721478e80376d959afa2a1bf1c87/WhatsApp_Image_2026-03-24_at_15.30.50.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Do school lunches really need an overhaul?",
-      "link": "https://www.npr.org/2026/03/30/nx-s1-5764304/do-school-lunches-really-need-an-overhaul",
-      "pubDate": "2026-03-30T07:00:00.000Z",
-      "duration": "544",
-      "summary": "School lunch has been revamped a ton over the last two decades. Now, the Trump administration wants to rejigger the menu once more to align with its Make America Healthy Again agenda. That means more ",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F39%2F2f%2F86e5663a4b15be72bfc3c364413a%2F6cc67367-4f9e-41a7-86bd-f210bb3f04a5.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1153,17 +1164,6 @@
       "duration": "01:15:56",
       "summary": "(0:00) Travis Kalanick: Officially exiting stealth mode, what he's been working on (5:52) How to automate the physical world, markets to go after (11:00) Return to self-driving: Tesla, Waymo, and the ",
       "art": "https://static.libsyn.com/p/assets/0/a/4/e/0a4edf4c234bcad516c3140a3186d450/1_Pod_TKMD-20260317-ys2ryzxzls.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: The 8 Moats of Enduring Software Companies: How to Analyse for Durability and Defensibility in a World of AI | Why Dropouts are \"AI Maxing\" the World & Remote Early-Stage Companies are Dying with Gokul Rajaram",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-8-moats-of-enduring-software-companies-how-to-analyse-for-durability-and-defensibility-in-a-world-of-ai-why-dropouts-are-ai-maxing-the-world-remote-early-stage-companies-are-dying-with-gokul-rajaram",
-      "pubDate": "2026-03-16T07:07:00.000Z",
-      "duration": "01:18:21",
-      "summary": "Gokul Rajaram is one of the greatest operators turned investors of the last 2 decades. He is trusted as the go to advisor for the greatest founders in the world. Today he serves as a Board Director at",
-      "art": "https://static.libsyn.com/p/assets/f/5/4/8/f5480745ceb9d8b616c3140a3186d450/WhatsApp_Image_2026-03-15_at_15.33.29.jpeg"
     },
     {
       "showId": "bg2pod",
