@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-21T15:19:48.588Z",
+    "updatedAt": "2026-04-21T20:41:08.063Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2486 - Luis J Gomez",
+      "link": "https://traffic.megaphone.fm/GLT5826228201.mp3?updated=1776789151",
+      "pubDate": "2026-04-21T17:00:00.000Z",
+      "duration": "10029",
+      "summary": "Luis J. Gomez is a comedian, writer, and producer. He co-hosts “Legion of Skanks,” “The Regz,” “Story Warz,” and “Real Ass Podcast.” His new book, “Knives & Spoons: A Memoir,” is available now.www.sim",
+      "art": "https://megaphone.imgix.net/podcasts/eb72adac-3d3f-11f1-8058-fb9d026dcf8f/image/f629ba8eb9484b28519e370904fdc919.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -966,17 +977,6 @@
       "duration": "8796",
       "summary": "Bill Thompson is a retired U.S. Army Chief Warrant Officer and the founder and CEO of Spartan Forge, a company that develops AI-powered mapping and predictive tools for hunting.www.youtube.com/@sparta",
       "art": "https://megaphone.imgix.net/podcasts/22742724-27ef-11f1-a5f7-afcbbd59e1a3/image/8ae090925306ddcca76af65b6df84372.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2472 - Jeff Ross",
-      "link": "https://traffic.megaphone.fm/GLT8163402388.mp3?updated=1774371076",
-      "pubDate": "2026-03-24T17:00:00.000Z",
-      "duration": "8398",
-      "summary": "Jeff Ross is a comic, actor, director, and producer. His new special, “Take a Banana for the Ride,” is streaming on Netflix.www.netflix.com/title/81969837www.roastmastergeneral.com Perplexity: Downloa",
-      "art": "https://megaphone.imgix.net/podcasts/de128426-2745-11f1-80cf-376f3c69f5ba/image/ec3d41f024e6e5fd3490474fcfba562c.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
