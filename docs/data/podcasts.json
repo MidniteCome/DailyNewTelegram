@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-23T20:43:40.830Z",
+    "updatedAt": "2026-04-24T09:17:17.709Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,13 +165,35 @@
   ],
   "episodes": [
     {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Stewart Brand, Silicon Valley’s Favorite Prophet, on Life’s Most Important Principle",
+      "link": "https://www.nytimes.com/2026/04/24/opinion/ezra-klein-podcast-stewart-brand.html",
+      "pubDate": "2026-04-24T09:00:00.000Z",
+      "duration": "00:50:00",
+      "summary": "Stewart Brand might be the most influential philosopher of the internet – at least in its more idealistic era. In the 1960s, Brand was the central bridge figure between the San Francisco countercultur",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "The Devil Wears Prada Index, SNAP, and flight cancellations",
+      "link": "https://www.npr.org/2026/04/24/nx-s1-5797960/the-devil-wears-prada-index-snap-and-flight-cancellations",
+      "pubDate": "2026-04-24T07:00:00.000Z",
+      "duration": "562",
+      "summary": "It’s Indicators of the Week, our weekly look at some of the most fascinating numbers from the news! And unlike florals for spring, these numbers ARE groundbreaking. On today’s episode: A dramatic SNAP",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2Fb5%2F84b98f0c4f2a9aa1f2ab85fa1b07%2F784e6faf-ee3a-4376-87a0-e26e92e95653.png"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
       "title": "#2488 - James McCann",
-      "link": "https://traffic.megaphone.fm/GLT3044004164.mp3?updated=1776960350",
+      "link": "https://traffic.megaphone.fm/GLT3044004164.mp3?updated=1776990977",
       "pubDate": "2026-04-23T17:00:00.000Z",
-      "duration": "10332",
+      "duration": "10328",
       "summary": "James Donald Forbes McCann is a comedian, author, and host of “The James Donald Forbes McCann Catamaran Plan.” His latest special, “Island of Strangers,” is streaming on YouTube.https://youtu.be/7VfTq",
       "art": "https://megaphone.imgix.net/podcasts/b76e32c6-3eb9-11f1-907c-8b28c04c10f1/image/b5ede2c730d1a03c5b1081efd76cc964.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -779,17 +801,6 @@
       "duration": "11108",
       "summary": "Bob Lazar made headlines in 1989 during an anonymous interview with journalist George Knapp, where he described working with extraterrestrial technology at a site near Area 51. He is the subject of th",
       "art": "https://megaphone.imgix.net/podcasts/1ac15128-2f0b-11f1-8ec6-af2d607f733b/image/69e40ae0cfb55cd685ce4b6d7e0b5c84.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Jobs that new college grads are and are not landing",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5771609/jobs-that-new-college-grads-are-and-are-not-landing",
-      "pubDate": "2026-04-03T14:40:08.000Z",
-      "duration": "520",
-      "summary": "Come see Planet Money live on stage! 12 cities. Details and tix here: planetmoneybook.com Economists have described the state of the jobs market as “low hire, low fire.” That means employers are not c",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F53%2F51%2F640118694e67aed4f8a4b02777b0%2F86a72f18-001a-4c29-ae0b-90f323361124.png"
     },
     {
       "showId": "weirdo",
@@ -1450,17 +1461,6 @@
       "duration": "2031",
       "summary": "Board governance is central to how companies earn and maintain trust with shareholders and the public. Larry Cunningham, Presiding Director of the John L. Weinberg Center for Corporate Governance at t",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "How Quickly Will A.I. Agents Rip Through the Economy?",
-      "link": "https://www.nytimes.com/2026/02/24/opinion/ezra-klein-podcast-jack-clark.html",
-      "pubDate": "2026-02-24T10:00:00.000Z",
-      "duration": "01:38:17",
-      "summary": "A.I. agents are here. Have they changed your life yet? The release of agents like Claude Code marked a new pivot point in the history of A.I. We are leaving the chatbot era and entering the agentic er",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "weirdo",
