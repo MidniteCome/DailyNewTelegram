@@ -1,33 +1,6 @@
 {
-  "generatedAt": "2026-04-25T08:31:39.428Z",
+  "generatedAt": "2026-04-26T08:43:55.018Z",
   "items": [
-    {
-      "title": "Running on fumes",
-      "link": "https://newslink.reuters.com/click/45265512.33536/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGhlLVdlZWstSW4tQnJlYWtpbmd2aWV3cyZ1dG1fdGVybT0wNDE4MjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158B11c4454d",
-      "author": "The Week in Breakingviews",
-      "source": "newsletter:The Week in Breakingviews",
-      "pubDate": "2026-04-18T10:00:16.000Z",
-      "summary": "96 Plus how to bypass Hormuz, and Chinese tokenomics Get a free trial of Breakingviews The Week in Breakingviews The Week in Breakingviews Insights from Reuters global financial commentary team --> By Peter Thal Larsen, Global Editor Welcome back! I spent the past week in Hong Kong, talking to senio",
-      "llmComment": "全球金融评论团队分享了过去一周的观察。编辑在香港与高层人士讨论了当前的经济形势。"
-    },
-    {
-      "title": "The heat that Donald Trump can’t ignore",
-      "link": "https://newslink.reuters.com/click/45267238.573847/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249V2Vla2VuZC1CcmllZmluZyZ1dG1fdGVybT0wNDE4MjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158B81e6ed0b",
-      "author": "Reuters Weekend Briefing",
-      "source": "newsletter:Reuters Weekend Briefing",
-      "pubDate": "2026-04-18T11:01:49.000Z",
-      "summary": "96 And the scandal that won’t let Keir Starmer rest Get full access to Reuters.com for just £1/week. Subscribe now. Weekend Briefing Weekend Briefing From Reuters Daily Briefing By Robert MacMillan, Reuters.com Weekend Editor Welcome to the Weekend Briefing. Our On Assignment podcast features Beirut",
-      "llmComment": "特朗普难以忽视的压力，英国工党领袖基尔·斯塔默难以摆脱的丑闻。"
-    },
-    {
-      "title": "US Justice Department refuses to assist French probe into Musk’s X, WSJ reports",
-      "link": "https://newslink.reuters.com/click/45269448.67595/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA0MTgyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B4818a1c3",
-      "author": "Reuters Technology Roundup",
-      "source": "newsletter:Reuters Technology Roundup",
-      "pubDate": "2026-04-18T15:01:17.000Z",
-      "summary": "96 The U.S. Justice Department ​has told French ‌law enforcement it will not ​help with ​efforts to investigate ⁠Elon Musk’s ​social media platform ​X, after a raid on its ​Paris office ​earlier this year, the ‌Wall ⁠Street Journal reported on Saturday, citing a ​letter ​from ⁠the DOJ's Office of ​I",
-      "llmComment": "美国司法部拒绝协助法国对埃隆·马斯克的社交媒体平台X进行调查。"
-    },
     {
       "title": "Humanoid robots race past humans in Beijing half-marathon, showing rapid advances",
       "link": "https://newslink.reuters.com/click/45274884.65587/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA0MTkyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B0cf8d421",
@@ -35,7 +8,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-19T15:01:16.000Z",
       "summary": "96 This year's race showed a big advancement over last year's, which was riddled with mishaps. --> Get full access to Reuters.com for just £1/week. Subscribe now. Technology Roundup Technology Roundup Humanoid robots race past humans in Beijing half-marathon, showing rapid advances Meta targets May ",
-      "llmComment": "北京半马拉松比赛中，人形机器人超越人类选手，展现快速进步。"
+      "llmComment": "北京半马拉松比赛中，类人形机器人超越人类，展示了快速进步。"
     },
     {
       "title": "Markets light on volume and high on hopes",
@@ -44,7 +17,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-04-20T05:00:09.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Tom Westbrook, Deputy Financial Markets Editor Data refreshes every time you open ",
-      "llmComment": "欧洲和全球市场展望轻松，充满希望。今日市场数据即将更新。"
+      "llmComment": "欧洲和全球市场展望轻松，充满希望。今日市场数据将随时更新。"
     },
     {
       "title": "Green light, red light",
@@ -53,7 +26,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-04-20T10:33:13.000Z",
       "summary": "96 What matters in U.S. and global markets today Get full access to Reuters.com for just £1/week. Subscribe now. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-at-Large, Finance & Markets Stop-go, stop-go. Fri",
-      "llmComment": "全球和美国市场今日关键事件。每周仅需1英镑即可访问路透社网站。"
+      "llmComment": "今日美国和全球市场的重要事件。订阅路透社仅需每周1英镑。"
     },
     {
       "title": "World awaits fate of ceasefire",
@@ -62,7 +35,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-04-20T11:00:32.000Z",
       "summary": "96 Plus, EV sales soar in Europe as drivers shun expensive petrol. Get full access to Reuters.com for just £1/week. Subscribe now. Daily Briefing Daily Briefing By Claire Beers Hello. The world awaits the fate of a ceasefire after the US seizes an Iranian ship, UK's Starmer faces parliament over Man",
-      "llmComment": "世界等待停火协议的命运。欧洲电动汽车销量激增。"
+      "llmComment": "世界等待停火协议的命运，美国扣押伊朗船只。"
     },
     {
       "title": "SCOTUS eyes key SEC power",
@@ -71,7 +44,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-04-20T12:00:56.000Z",
       "summary": "96 + Billions at stake. Get full access to Reuters.com for just £1/week. Subscribe now. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. Today the U.S. Supreme Court will consider a challenge to a key SEC enforcement weapon . Plus, the 9th Circu",
-      "llmComment": "美国最高法院将审议挑战证券交易委员会的一项关键执法权力，涉及960亿美元。"
+      "llmComment": "美国最高法院将审议挑战证券交易委员会的执法权。96亿美元的利益悬而未决。"
     },
     {
       "title": "Fed nominee Warsh prepares for monetary policy road test before Senate panel",
@@ -98,7 +71,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-04-21T05:00:06.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Gregor Stuart Hunter, Asia Finance & Markets Correspondent Data refreshes every ti",
-      "llmComment": "欧洲和全球市场展望。市场期待和平，但也准备应对可能的冲突。"
+      "llmComment": "欧洲和全球市场展望。市场期待和平，但也准备应对沃什带来的变化。"
     },
     {
       "title": "Tech overwhelms Iran tension",
@@ -116,7 +89,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-04-21T10:58:30.000Z",
       "summary": "96 Plus, many Americans question Trump’s temperament. Get full access to Reuters.com for just £1/week. Subscribe now. Daily Briefing Daily Briefing By Kate Turton Hello. The US is positive on an Iran deal but talks are still uncertain as the ceasefire deadline looms, many Americans question Trump’s ",
-      "llmComment": "美国对伊朗协议持积极态度，但谈判仍不确定，停火截止日期临近。"
+      "llmComment": "美国对伊朗协议持积极态度，但谈判仍不确定，停火截止日期临近。许多美国人质疑特朗普的性格。"
     },
     {
       "title": "Musk slammed tax loopholes. Tesla likely used them.",
@@ -125,7 +98,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-04-21T12:01:10.000Z",
       "summary": "96 + Offshore tactics may have saved hundreds of millions. Get full access to Reuters.com for just £1/week. Subscribe now. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. Elon Musk scorned “shady” tax loopholes, but offshore tax tricks likely s",
-      "llmComment": "埃隆·马斯克批评“可疑”的税收漏洞，但特斯拉可能利用了这些漏洞。"
+      "llmComment": "埃隆·马斯克批评“可疑”的税收漏洞，但特斯拉可能使用了这些漏洞。可能节省了数亿美元。"
     },
     {
       "title": "BoE to hold interest rates through 2026 despite inflation threat: Reuters poll",
@@ -134,7 +107,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-04-21T13:01:24.000Z",
       "summary": "96 The Bank of England will hold interest rates steady next week and likely through the rest of the year, according to a Reuters poll of economists, who broadly stuck to the same steady policy views as last month but revised up their inflation ​outlook. --> Get full access to Reuters.com for just £1",
-      "llmComment": "英格兰银行将保持利率不变，预计2026年仍将维持稳定。经济学家预计今年剩余时间内利率不会变化。"
+      "llmComment": "英格兰银行将在2026年保持利率不变，尽管通胀压力增大。"
     },
     {
       "title": "Apple turns to hardware veteran Ternus as CEO to succeed Cook in AI age",
@@ -143,7 +116,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-21T15:01:59.000Z",
       "summary": "96 John Ternus, who joined Apple in 2001, has played a central role in reviving products such as the Mac and has been deeply involved in shaping Apple's biggest products such as iPads and AirPods. --> Get full access to Reuters.com for just £1/week. Subscribe now. Technology Roundup Technology Round",
-      "llmComment": "苹果公司任命硬件资深专家约翰·特尔纳斯为新CEO。特尔纳斯自2001年加入苹果，曾参与Mac、iPad和AirPods等产品的开发。"
+      "llmComment": "苹果公司任命约翰·特尔纳斯为新任CEO，接替库克。特尔纳斯自2001年加入苹果，曾参与Mac、iPad和AirPods等产品的开发。"
     },
     {
       "title": "Indefinite ceasefire, markets unbothered",
@@ -152,7 +125,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-04-22T05:05:06.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Ankur Banerjee, Asia Finance & Markets Breaking News Correspondent Data refreshes ",
-      "llmComment": "欧洲和全球市场展望。无限期停火，市场反应平淡。"
+      "llmComment": "欧洲和全球市场即将迎来新的一天。无限期停火，市场反应平淡。"
     },
     {
       "title": "Another deadline dodged",
@@ -161,7 +134,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-04-22T10:38:11.000Z",
       "summary": "96 What matters in U.S. and global markets today Get full access to Reuters.com for just £1/week. Subscribe now. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-at-Large for Finance & Markets President Donald T",
-      "llmComment": "美国和全球市场今日焦点。订阅获取完整的路透社新闻。"
+      "llmComment": "美国和全球市场今日关注点。美国总统特朗普相关新闻。"
     },
     {
       "title": "Trump declares Iran ceasefire extension",
@@ -170,7 +143,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-04-22T11:00:38.000Z",
       "summary": "96 Plus, Apple's strengths may become its constraints. Get full access to Reuters.com for just £1/week. Subscribe now. Daily Briefing Daily Briefing By Kate Turton Hello. Trump declares an Iran ceasefire extension with the Hormuz strait still blocked, and the US turns to Ukrainian counter-drone tech",
-      "llmComment": "特朗普宣布伊朗停火延长，霍尔木兹海峡仍被封锁。美国转向乌克兰的反无人机技术。"
+      "llmComment": "特朗普宣布伊朗停火延长，霍尔木兹海峡仍被封锁。"
     },
     {
       "title": "The next crypto test",
@@ -179,7 +152,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-04-22T12:00:21.000Z",
       "summary": "96 + Perpetual futures may soon get CFTC clarity. Get full access to Reuters.com for just £1/week. Subscribe now. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. Crypto exchanges gear up to launch perpetual futures in the U.S. ahead of a CFTC r",
-      "llmComment": "美国加密货币交易所即将推出永续合约。美国商品期货交易委员会（CFTC）可能会对此提供明确指导。"
+      "llmComment": "美国的加密货币交易所即将推出永续合约。美国商品期货交易委员会（CFTC）可能会对此提供明确的指导。"
     },
     {
       "title": "US stock index futures climb after Trump extends Iran truce",
@@ -197,7 +170,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-22T15:03:27.000Z",
       "summary": "96 Alphabet CEO Sundar Pichai is deepening a push into enterprise ​software, signaling to investors at Google's annual cloud conference that AI agents — human-like digital assistants — are a lynchpin of its strategy ‌to monetize artificial intelligence. --> Get full access to Reuters.com for just £1",
-      "llmComment": "谷歌将人工智能代理放在企业软件的核心。CEO Sundar Pichai 正在推动企业软件业务发展，依靠人工智能代理赚取利润。"
+      "llmComment": "谷歌将人工智能代理放在企业软件的核心。CEO Sundar Pichai 正在推动企业软件业务发展。"
     },
     {
       "title": "Google Cloud’s enterprise focus",
@@ -215,7 +188,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-04-23T05:01:06.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get full access to Reuters.com for just £1/week. Subscribe now. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Rae Wee, Correspondent Data refreshes every time you open this email. For more Eur",
-      "llmComment": "欧洲和全球市场风险承受能力面临考验。今日市场走势将受到数据更新的影响。"
+      "llmComment": "欧洲和全球市场风险承受能力面临考验。今日市场将迎来新数据发布。"
     },
     {
       "title": "Tech checked as oil boils",
@@ -224,7 +197,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-04-23T10:33:13.000Z",
       "summary": "96 What matters in U.S. and global markets today Get full access to Reuters.com for just £1/week. Subscribe now. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-at-Large for Finance & Markets While stock market",
-      "llmComment": null
+      "llmComment": "科技股走低，油价上涨。全球市场今日焦点。"
     },
     {
       "title": "Iran tightens control of Hormuz",
@@ -233,7 +206,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-04-23T10:59:40.000Z",
       "summary": "96 Plus, Trump’s DOJ has cut thousands of law-enforcement jobs. Get full access to Reuters.com for just £1/week. Subscribe now. Daily Briefing Daily Briefing By Kate Turton Hello. Iran tightens control of Hormuz after the US calls off renewed attacks, sources say US Navy Secretary Phelan has been fi",
-      "llmComment": null
+      "llmComment": "伊朗加紧控制霍尔木兹海峡。美国海军部长菲兰已被解职。"
     },
     {
       "title": "Inside the White House ballroom deal",
@@ -242,7 +215,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-04-23T12:00:26.000Z",
       "summary": "96 + Anonymous donors and limited ethics reviews. Get full access to Reuters.com for just £1/week. Subscribe now. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. President Trump ’s ballroom deal shields donor identities and limits conflict safe",
-      "llmComment": null
+      "llmComment": "特朗普的白宫舞厅协议保护了96多位匿名捐赠者的身份，且审查不严格。"
     },
     {
       "title": "Wall St futures slip as investors pause for clarity on US-Iran war; earnings mixed",
@@ -332,6 +305,42 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-04-24T15:01:50.000Z",
       "summary": "96 U.S. chip stocks soared to record highs on Friday as Intel's unexpectedly strong revenue forecast reinforced ​confidence that the AI boom powering this year's rally in the semiconductor sector is showing no signs ‌of slowing down. --> Get full access to Reuters.com for just £1/week. Subscribe now",
+      "llmComment": null
+    },
+    {
+      "title": "The summer of SpaceX",
+      "link": "https://newslink.reuters.com/click/45374358.48550/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGhlLVdlZWstSW4tQnJlYWtpbmd2aWV3cyZ1dG1fdGVybT0wNDI1MjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158B0f8422f2",
+      "author": "The Week in Breakingviews",
+      "source": "newsletter:The Week in Breakingviews",
+      "pubDate": "2026-04-25T10:00:18.000Z",
+      "summary": "96 Plus US farmers and China, and the return of DeepSeek Get a free trial of Breakingviews The Week in Breakingviews The Week in Breakingviews Insights from Reuters global financial commentary team --> By Peter Thal Larsen, Global Editor Welcome back! The glorious weather in London in the past few d",
+      "llmComment": null
+    },
+    {
+      "title": "US negotiators to go to Islamabad",
+      "link": "https://newslink.reuters.com/click/45381747.568338/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249V2Vla2VuZC1CcmllZmluZyZ1dG1fdGVybT0wNDI1MjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTg/699d8f6975a57008a503f158Bd6434af4",
+      "author": "Reuters Weekend Briefing",
+      "source": "newsletter:Reuters Weekend Briefing",
+      "pubDate": "2026-04-25T10:59:41.000Z",
+      "summary": "96 Plus, Republicans retool midterm strategy. Stay informed with Reuters. Subscribe for £1/week. Subscribe now. Weekend Briefing Weekend Briefing From Reuters Daily Briefing By Kate Turton, Newsletter Editor Welcome to the Weekend Briefing. Today's On Assignment podcast features Vatican corresponden",
+      "llmComment": null
+    },
+    {
+      "title": "Help improve The Daily Docket",
+      "link": "https://newslink.reuters.com/click/45357981.42869/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktRG9ja2V0JnV0bV90ZXJtPTA0MjUyNg/699d8f6975a57008a503f158Ba9b8c46e",
+      "author": "The Daily Docket",
+      "source": "newsletter:The Daily Docket",
+      "pubDate": "2026-04-25T13:01:42.000Z",
+      "summary": "96 Take a few minutes to respond to our survey. Hello, Thanks for reading the Daily Docket. We're always working to make sure our newsletters meet your expectations. Please take 5 minutes to respond to our survey by clicking on the button below. We appreciate your feedback. Click here to take the su",
+      "llmComment": null
+    },
+    {
+      "title": "US State Dept orders global warning about alleged AI thefts by DeepSeek, other Chinese firms",
+      "link": "https://newslink.reuters.com/click/45383410.79840/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA0MjUyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158Bf6aa0cfa",
+      "author": "Reuters Technology Roundup",
+      "source": "newsletter:Reuters Technology Roundup",
+      "pubDate": "2026-04-25T15:01:18.000Z",
+      "summary": "96 The U.S. State Department ​has ordered a global push to bring attention to what it says are widespread efforts by Chinese companies, including AI ‌startup DeepSeek, to steal intellectual property from U.S. artificial intelligence labs, according to a diplomatic cable seen by Reuters. --> From bre",
       "llmComment": null
     }
   ]
