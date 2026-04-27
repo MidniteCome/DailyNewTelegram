@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-27T09:38:37.588Z",
+    "updatedAt": "2026-04-27T15:51:49.580Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "470 爪哇国探奇：从婆罗浮屠、科莫多龙到歹土传说",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69ef29a21e94ae69214537df?utm_source=rss",
+      "pubDate": "2026-04-27T09:52:36.000Z",
+      "duration": "02:29:47",
+      "summary": "- 导语 - 忽左忽右印尼旅行团归来！在日惹，发现最后的印尼苏丹领土；在科莫多岛，近距离观察巨蜥与四色沙滩；在雅加达，听导游讲述都市里的歹土传说。从踏入印尼的第一站说起，为何在泗水机场的标牌上，完全找不到对应的汉译地名？郑和的身份如何成为印尼华人争取民族地位的叙事资源？爪哇居民的日常生活里还留存着怎样的传统？苏加诺与苏哈托两代统治者为印尼留下了怎样的不同遗产？请听本期嘉宾王恺、许振华带来的精彩分享",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -1340,17 +1351,6 @@
       "duration": "01:09:58",
       "summary": "Last Friday, Secretary of Defense Pete Hegseth announced that he was breaking the Pentagon’s contract with the A.I. company Anthropic and would declare the company a supply chain risk — a designation ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "继业者1918｜「疯男爵」温甘伦的奇幻漂流与谢苗诺夫匪帮的末日",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69aa8ceec8cdeb38c21ce8db?utm_source=rss",
-      "pubDate": "2026-03-06T09:17:54.000Z",
-      "duration": "00:03:00",
-      "summary": "俄国内战进入尾声，信仰藏传佛教的德意志族男爵温甘伦，却怀揣着复兴成吉思汗帝国的狂想，率领「亚洲骑兵师」闯入蒙古高原，最终被苏俄红军俘获。一战前夜，圣彼得堡的俄国上流社会为何迷恋东方神秘思想？被称为「疯男爵」的温甘伦精神是否正常？日本扶持的傀儡谢苗诺夫在远东如何给高尔察克拆台，又如何与温甘伦分道扬镳？请听本期节目陆大鹏带来的精彩分享！ 《继业者1918》讲述一战结束后那个风云突变的年代，聚焦于在帝国",
-      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
     },
     {
       "showId": "weirdo",
