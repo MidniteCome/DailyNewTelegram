@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-26T20:29:44.406Z",
+    "updatedAt": "2026-04-27T09:38:37.588Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Applovin: $160BN Market Cap, $5.48BN Revenue, $10M EBITDA Per Head | Why the Best Do Not Need Mentorship | Why Founders Should Not Angel Invest | Why Kindness in Business Will Slow You Down with Adam Foroughi",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-applovin-160bn-market-cap-548bn-revenue-10m-ebitda-per-head-why-the-best-do-not-need-mentorship-why-founders-should-not-angel-invest-why-kindness-in-business-will-slow-you-down-with-adam-foroughi",
+      "pubDate": "2026-04-27T07:07:00.000Z",
+      "duration": "01:20:46",
+      "summary": "Adam Foroughi is the Co-Founder and CEO @ Applovin, one of the most underdiscussed but incredible businesses. Applovin has a market cap of $160BN, the company does $5.48BN in revenue and has an astoni",
+      "art": "https://static.libsyn.com/p/assets/2/9/d/7/29d70302cdc94a35d959afa2a1bf1c87/WhatsApp_Image_2026-04-24_at_17.00.13.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Premium and affordable products are having a moment",
+      "link": "https://www.npr.org/2026/04/27/nx-s1-5798906/premium-and-affordable-products-are-having-a-moment",
+      "pubDate": "2026-04-27T07:00:00.000Z",
+      "duration": "501",
+      "summary": "It’s the Beigie awards! Our less than ten times a year salute to the art and science of telling stories about the economy. Today on the show, Kevin Dancy, vice president and regional executive at the ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcd%2Ff8%2F295fe17846ba8b47e7cf44dd1514%2Fdf69379b-5f7b-463e-a50e-cc789798e2e2.jpg"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -803,17 +825,6 @@
       "art": "https://static.libsyn.com/p/assets/7/a/6/1/7a61a2a17e8bf93316c3140a3186d450/1_Pod_Palantir_Anduril.png"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Is the economy red, orange, yellow or green?",
-      "link": "https://www.npr.org/2026/04/06/nx-s1-5773393/is-the-economy-red-orange-yellow-or-green",
-      "pubDate": "2026-04-06T07:00:00.000Z",
-      "duration": "563",
-      "summary": "Come see Planet Money live on stage! 12 cities. Details and tix here: planetmoneybook.com It’s not often you get to talk to a regional Fed president, let alone two at the same time! Today on the show,",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F15%2Ffd%2Fd28f21204c05be0fdb7a7ff24b97%2F7b951a10-0651-485c-8491-23287afd34ff.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1098,17 +1109,6 @@
       "duration": "01:07:01",
       "summary": "【主播的话】 本期节目被我们笑称为单身生育系列之“西天取精”，也是单身生育系列的第三期。这期节目中，我的朋友李彩玲分享了她在准备一个人生个孩子前这段时间的感受，以及当她面对具体的精子库选择时，所遭遇到的一系列啼笑皆非的田野故事；你也会更加深入地了解到精子库的运作方式，以及养育的多种可能性。 如果你对前两期节目也感兴趣，欢迎收听： 单身生育：一场关于自由、自我与爱的实验 www.xiaoyuzhou",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Inside Anduril's $20BN Army Contract & Why Anduril Must Go Public | Why 99% of Drone Companies Will Die | Why There is Never an Ethical Question of How Anduril Products are Used with Matthew Steckman, President @ Anduril",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-inside-andurils-20bn-army-contract-why-anduril-must-go-public-why-99-of-drone-companies-will-die-why-there-is-never-an-ethical-question-of-how-anduril-products-are-used-with-matthew-steckman-president-anduril",
-      "pubDate": "2026-03-23T07:07:00.000Z",
-      "duration": "53:51",
-      "summary": "Matthew Steckman is the President and Chief Business Officer of Anduril. Matt played a central role in securing the $20BN contract Anduril just won with the US military. Prior to Anduril, Matt served ",
-      "art": "https://static.libsyn.com/p/assets/b/8/5/d/b85d16a07f3f9bd5d959afa2a1bf1c87/WhatsApp_Image_2026-03-20_at_19.43.39.jpeg"
     },
     {
       "showId": "allin",
