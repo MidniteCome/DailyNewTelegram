@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-27T15:51:49.580Z",
+    "updatedAt": "2026-04-27T20:53:49.487Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "Winning the Right to Invest: 20VC’s Harry Stebbings",
+      "link": "https://traffic.megaphone.fm/GLD3050822972.mp3",
+      "pubDate": "2026-04-27T16:28:00.000Z",
+      "duration": "1130",
+      "summary": "Harry Stebbings has transformed a bedroom podcast into a media and investment conglomerate, leveraging that platform to back ten unicorns. In conversation with Bobby Molavi, head of EMEA execution ser",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -1694,17 +1705,6 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "talksat",
-      "showName": "Talks at GS",
-      "category": "finance",
-      "title": "Transforming Private Equity Through Employee Ownership: KKR's Pete Stavros",
-      "link": "https://traffic.megaphone.fm/GLD4827011327.mp3",
-      "pubDate": "2026-01-09T17:52:00.000Z",
-      "duration": "1551",
-      "summary": "KKR has evolved from a traditional LBO shop into a global investment powerhouse managing over $500 billion in assets. Pete Stavros, Co-Head of Global Private Equity at KKR, joins Matt McClure, Global ",
-      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -1898,7 +1898,7 @@
       "title": "Trader Joe’s",
       "link": "https://www.acquired.fm/episodes/trader-joes",
       "pubDate": "2025-10-27T03:07:10.000Z",
-      "duration": "12501",
+      "duration": "12393",
       "summary": "Trader Joe's breaks every rule of modern retail. They don't do e-commerce. They don't do delivery. No sales, coupons, or loyalty programs. They only stock 4,000 SKUs versus 50,000+ at normal supermark",
       "art": "https://img.transistorcdn.com/mq0lgrSm6fJKRP39Oi5lgpBWo-rigMKrTI-LKVI16UE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zOGIx/MmQwYmNlNjEyZGFj/YWVhOTA5NDY1MGZi/ZWEyMC5qcGc.jpg"
     },
