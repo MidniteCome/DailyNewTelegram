@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-27T20:53:49.487Z",
+    "updatedAt": "2026-04-28T09:42:01.655Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "What We Got Right — and Wrong — in ‘Abundance’",
+      "link": "https://www.nytimes.com/2026/04/24/opinion/ezra-klein-podcast-thompson-dunkelman.html",
+      "pubDate": "2026-04-28T09:00:00.000Z",
+      "duration": "02:02:50",
+      "summary": "“Abundance” came out a little over a year ago. It’s been exciting — and a little disorienting — seeing how it’s rippled out into the world, and the ways it’s been embraced and debated and critiqued. S",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Jan. 6ers already got pardoned. Will they get their money back too?",
+      "link": "https://www.npr.org/2026/04/28/nx-s1-5801633/jan-6ers-already-got-pardoned-will-they-get-their-money-back-too",
+      "pubDate": "2026-04-28T07:00:03.000Z",
+      "duration": "519",
+      "summary": "In 2025, President Trump pardoned more than 1,500 of the Jan.6 rioters who ransacked the U.S. Capitol in an attempt to overturn the results of the 2020 election. In addition to being convicted of crim",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F73%2Fe0%2F21663f9242bd9016d0f70757762a%2F71cb5977-1207-4daa-87e3-ef1c8d99b0a2.jpg"
+    },
     {
       "showId": "talksat",
       "showName": "Talks at GS",
@@ -825,17 +847,6 @@
       "art": "https://static.libsyn.com/p/assets/7/a/d/f/7adf461317d8c199d959afa2a1bf1c87/8ca44342-cdea-4c24-b7f8-68bc5d04e443.jpg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why infinite scroll's inventor wants to kill his creation",
-      "link": "https://www.npr.org/2026/04/07/nx-s1-5775917/why-infinite-scrolls-inventor-wants-to-kill-his-creation",
-      "pubDate": "2026-04-07T07:00:00.000Z",
-      "duration": "568",
-      "summary": "We practically live on our phones these days. Scrolling and scrolling, endlessly. Entrepreneur Aza Raskin is responsible for creating this infinite scroll. He also testified against Meta, who have bee",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fac%2Fd3%2Fa4e9593640ae88d267178342f280%2F925f2be9-2076-4deb-9a19-7a1e47ac4062.png"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1452,17 +1463,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Trump’s Fantasy State of the Union",
-      "link": "https://www.nytimes.com/2026/02/25/opinion/ezra-klein-podcast-sotu-2026.html",
-      "pubDate": "2026-02-25T22:17:28.000Z",
-      "duration": "00:46:43",
-      "summary": "President Trump’s approval ratings on the economy, immigration and trade are deep in the red. But in Tuesday night’s State of the Union address, he decided to tell the American people: You don’t know ",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1790,7 +1790,7 @@
       "pubDate": "2025-12-15T04:19:45.000Z",
       "duration": "10057",
       "summary": "Why has Acquired — seemingly against all odds — “worked”? It's a puzzling question: episodes are four hours long, they come out infrequently, and they usually don’t have guests or video. Hardly the st",
-      "art": "https://img.transistorcdn.com/hFchaBginILRtJ-OJh7pCtQUmZfQsKIqWO2EWVLMVeM/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xYzE1/NzFmNjBhOGI3MTUw/YWZlYTQzYzhkOTMz/MWIzZi5qcGc.jpg"
+      "art": "https://img.transistorcdn.com/f3mD-GFEd3Zlv0WKplxuSk1C_DRVQ3Xu-hdJnevbLu8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lNWQw/NzI2ZTQwZDc2OTI0/MGQ5ZTIwMDI5Yjcy/ZjA0Ni5qcGc.jpg"
     },
     {
       "showId": "lexfridman",
@@ -1845,7 +1845,7 @@
       "pubDate": "2025-11-24T03:00:17.000Z",
       "duration": "14668",
       "summary": "Coca-Cola is… sugar water. And somehow it’s also America, Christmas, summertime, friendship and happiness. Today we tell the story of how The Coca-Cola Company amazingly transmogrified a beverage into",
-      "art": "https://img.transistorcdn.com/5nqbUmBNhEvT2AIM87VA5K_4YbydTAXrqlr60RYN-w4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zMmQz/ZDNiZjJlMjhiZWNh/N2Q3NzA2NzEzMzVl/ZDAwOS5qcGc.jpg"
+      "art": "https://img.transistorcdn.com/39-V6NdO6ZaVaMH9TAU7sm7gqZF16IvTl0NGCOQ5nDo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zM2Q5/OTdkNDY1NWU1YTZk/N2FmNDVkNzk5M2Jl/NjYzZC5qcGc.jpg"
     },
     {
       "showId": "lexfridman",
