@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-04-29T15:58:05.513Z",
+    "updatedAt": "2026-04-29T20:54:21.530Z",
     "totalEpisodes": 165,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2491 - Brian Simpson",
+      "link": "https://traffic.megaphone.fm/GLT8544541239.mp3?updated=1777480862",
+      "pubDate": "2026-04-29T17:00:00.000Z",
+      "duration": "9470",
+      "summary": "Brian Simpson is a comedian, writer, host of the “Bottom of the Barrel” comedy show at The Comedy Mothership, and his own podcast, “BS with Brian Simpson.” His most recent special, “Live from The Come",
+      "art": "https://megaphone.imgix.net/podcasts/ada2b96e-436a-11f1-be06-7ff08097d2d1/image/6a5cbaf722d0e31ca328d2f0d6d93d14.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "allin",
       "showName": "All-In",
@@ -845,17 +856,6 @@
       "duration": "1:05:46",
       "summary": "Vibe coding 火了，open source agent 爆了，「一人公司」的概念开始被认真讨论。这一切发生在 2026 年初的几个月里 —— AI 正在改变的，究竟是写代码这件事，还是我们理解工作本身的方式？ 这不只是程序员的问题。当 AI 开始承接越来越多的执行性工作，每一个岗位都在被重新定义 —— 什么样的能力变得更稀缺，什么样的工作方式已经过时，组织的形态又将走向何方？ 这一期节目",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2477 - Rick Perry & W. Bryan Hubbard",
-      "link": "https://traffic.megaphone.fm/GLT6198902078.mp3?updated=1775063956",
-      "pubDate": "2026-04-01T17:00:00.000Z",
-      "duration": "8399",
-      "summary": "Rick Perry is the former Governor of Texas and former U.S. Secretary of Energy. W. Bryan Hubbard is the Chief Executive Officer of Americans for Ibogaine, a public policy education and advocacy organi",
-      "art": "https://megaphone.imgix.net/podcasts/94e8eeac-2d67-11f1-b04f-73a1aba27057/image/f8edfdef51d9cb843f1ea27158a2da8e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -1568,7 +1568,7 @@
       "title": "Rolex",
       "link": "https://www.acquired.fm/episodes/rolex",
       "pubDate": "2026-01-03T04:34:00.000Z",
-      "duration": "18010",
+      "duration": "18006",
       "summary": "Rolex is a series of paradoxes. They sell obsolete and objectively inferior mechanical devices for 10-1000x the price of their superior digital successors… and demand is stronger than ever in history!",
       "art": "https://img.transistorcdn.com/gx6fhYO1SXMFGcVkU0FWykOtdtd5kMbwLFJMSN3_WZ4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zMWQ4/NjUxMmJkYTUxMzRh/Mzk4ZWYwM2UwYWNk/M2Q2Ny5wbmc.jpg"
     },
@@ -1579,7 +1579,7 @@
       "title": "Costco",
       "link": "https://www.acquired.fm/episodes/costco",
       "pubDate": "2026-01-02T05:46:00.000Z",
-      "duration": "10934",
+      "duration": "10930",
       "summary": "Costco is not only Charlie Munger’s favorite company of all time (plus he’s on the board, natch), it’s an absolutely fascinating study in how seemingly opposite characteristics can combine to create i",
       "art": "https://img.transistorcdn.com/jFPz1nSL8JfyAmY8ab_xqfZWEVOQ1VqoHhJKdxvzTEY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hMWI0/NTE4ZGMzNWQ2ODli/ZTExZDkwNjBmZjVl/ZmQ1OS5wbmc.jpg"
     },
@@ -1733,7 +1733,7 @@
       "title": "Trader Joe’s",
       "link": "https://www.acquired.fm/episodes/trader-joes",
       "pubDate": "2025-10-27T03:07:10.000Z",
-      "duration": "12393",
+      "duration": "12389",
       "summary": "Trader Joe's breaks every rule of modern retail. They don't do e-commerce. They don't do delivery. No sales, coupons, or loyalty programs. They only stock 4,000 SKUs versus 50,000+ at normal supermark",
       "art": "https://img.transistorcdn.com/mq0lgrSm6fJKRP39Oi5lgpBWo-rigMKrTI-LKVI16UE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zOGIx/MmQwYmNlNjEyZGFj/YWVhOTA5NDY1MGZi/ZWEyMC5qcGc.jpg"
     },
@@ -1766,7 +1766,7 @@
       "title": "Google Part III: The AI Company",
       "link": "https://www.acquired.fm/episodes/google-the-ai-company",
       "pubDate": "2025-10-06T01:35:54.000Z",
-      "duration": "14690",
+      "duration": "14686",
       "summary": "Google faces the greatest innovator's dilemma in history. They invented the Transformer — the breakthrough technology powering every modern AI system from ChatGPT to Claude (and, of course, Gemini). T",
       "art": "https://img.transistorcdn.com/y4nQdH_zx3Uiyr6Ege0RkhfJtRXIVZUB6JJ34AeqLko/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xOTY3/YzI4NjFjYzg4NWFl/NjY1YjZlM2E0ZDI3/MWE0OC5qcGc.jpg"
     },
@@ -1843,7 +1843,7 @@
       "title": "Google Part II: Alphabet",
       "link": "https://www.acquired.fm/episodes/alphabet-inc",
       "pubDate": "2025-08-26T10:19:06.000Z",
-      "duration": "15059",
+      "duration": "15055",
       "summary": "In its first six years from 1998 to 2004, Google built one of the greatest products of all time (and certainly the greatest business of all time) with Search. Then in its next six years from 2005 to 2",
       "art": "https://img.transistorcdn.com/gLaKE9vfu-tPCSV5766PrXGWFO95TCIXYYRQvaTrgPs/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yNzY2/ZTU5NWQyM2ZhZWZk/ZThlZTAxNTYyZTQz/YWMzOS5qcGc.jpg"
     },
@@ -1865,7 +1865,7 @@
       "title": "The Jamie Dimon Interview",
       "link": "https://www.acquired.fm/episodes/the-jamie-dimon-interview",
       "pubDate": "2025-07-16T14:18:04.000Z",
-      "duration": "4139",
+      "duration": "4135",
       "summary": "We sit down with Jamie Dimon for a live conversation at Radio City Music Hall, covering the incredible journey from his 1998 firing at Citgroup (where he was widely expected to become CEO) to building",
       "art": "https://img.transistorcdn.com/cy5c8cYm3Mif1hAX53cvNupzpgVSO5vERlobaDDdECo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xNTU3/NTA0NTEzMTE2NzBj/NGRjNTY5NGI3MjU2/ZWYzMi5qcGc.jpg"
     },
@@ -1887,7 +1887,7 @@
       "title": "Google Part I: Origins of Search",
       "link": "https://www.acquired.fm/episodes/google",
       "pubDate": "2025-06-30T03:11:14.000Z",
-      "duration": "13085",
+      "duration": "13081",
       "summary": "We tell the story of the single greatest business ever created: Google search. From its origins as a Stanford research project called BackRub, Google became the front door to the internet. Today it’s ",
       "art": "https://img.transistorcdn.com/AIk_95Gy1RKYk2QVkS2VQVKpZd30JmUJb3cV4VmNY0s/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNDE4/MGJjZWJjMDgzMjBh/YjY1MzZmOTk3Yjk5/N2M3OC5qcGc.jpg"
     },
@@ -1931,7 +1931,7 @@
       "title": "The Steve Ballmer Interview",
       "link": "https://www.acquired.fm/episodes/the-steve-ballmer-interview",
       "pubDate": "2025-06-02T01:54:06.000Z",
-      "duration": "10645",
+      "duration": "10641",
       "summary": "We sit down with Steve Ballmer, the legendary former Microsoft CEO and owner of the LA Clippers, for an epic conversation covering his 34 years at Microsoft. Steve listened to our Microsoft episodes a",
       "art": "https://img.transistorcdn.com/nlEyqUXOU914UwjwrayeOmgMmfLh8qGrdXGXEfHTp0g/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNjli/ZDk5NTRlY2FjZTdk/NjM4NmVjZDYzNzgw/ZmEyMi5qcGc.jpg"
     },
@@ -1964,7 +1964,7 @@
       "title": "Epic Systems (MyChart)",
       "link": "https://www.acquired.fm/episodes/epic-systems-mychart",
       "pubDate": "2025-04-21T02:04:52.000Z",
-      "duration": "14125",
+      "duration": "14121",
       "summary": "What if we told you that the most important company in US healthcare was run from a farm in rural Wisconsin? And that farm contained the world’s largest subterranean auditorium, as well as Disneyland—",
       "art": "https://img.transistorcdn.com/vZ8_8iXPbKD-misy2I84tm0vU9lSJyFCsVM6KYcQP0Y/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9kM2Q0/MDhhNGI2OGEzMTNm/NmQxNjc2ZmE0MmRl/OTVjNi5wbmc.jpg"
     },
