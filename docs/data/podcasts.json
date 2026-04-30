@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updatedAt": "2026-04-30T15:48:32.107Z",
+    "updatedAt": "2026-04-30T20:51:47.416Z",
     "totalEpisodes": 165,
     "health": [
       {
         "id": "20vc",
         "name": "20VC",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       },
       {
         "id": "ezraklein",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "indicator",
@@ -82,8 +82,8 @@
       "id": "20vc",
       "name": "20VC",
       "category": "vc",
-      "art": "https://static.libsyn.com/p/assets/d/2/b/a/d2ba673c1d134c2be55e3c100dce7605/WhatsApp_Image_2024-10-28_at_11.39.21.jpeg",
-      "link": "http://www.thetwentyminutevc.com/"
+      "art": null,
+      "link": "https://thetwentyminutevc.libsyn.com/rss"
     },
     {
       "id": "ezraklein",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": null,
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/11f568857987283428d892402e623b21.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -165,6 +165,17 @@
   ],
   "episodes": [
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2492 - Ari Shaffir",
+      "link": "https://traffic.megaphone.fm/GLT1035374307.mp3?updated=1777566754",
+      "pubDate": "2026-04-30T17:00:00.000Z",
+      "duration": "9665",
+      "summary": "Ari Shaffir is a comedian, writer, and host of “You Be Trippin’.” His seven-episode live storytelling series, “The End,” is available now from YMH Studios.https://theend.ymhstudios.comwww.youtube.com/",
+      "art": "https://megaphone.imgix.net/podcasts/4ecd300a-443b-11f1-bc0d-0febb072d159/image/c4e5cfb867116b00ae3305b8d944b6c3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -176,17 +187,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Raises $45BN but Falls Short on Compute | OpenAI Crushes with GPT5.5 and Codex: Back in the Game? | China Blocks Manus $2BN Deal to Meta | Thoma Bravo Hand Back Medallia Keys to Creditors | Why Google is a Bigger Buy Than Ever Before",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-raises-45bn-but-falls-short-on-compute-openai-crushes-with-gpt55-and-codex-back-in-the-game-china-blocks-manus-2bn-deal-to-meta-thoma-bravo-hand-back-medallia-keys-to-creditors-why-google-is-a-bigger-buy-than-ever-before",
-      "pubDate": "2026-04-30T07:07:00.000Z",
-      "duration": "01:25:50",
-      "summary": "AGENDA: 00:00 $45B Floods into Anthropic from Google & Amazon 05:10 OpenAI Misses Growth Targets — Is This a Real Problem? 08:40 The Rise of AI Agents: Why Humans No Longer Pick Models 12:05 \"Compute ",
-      "art": "https://static.libsyn.com/p/assets/d/9/7/2/d972b15e2de60354d959afa2a1bf1c87/ChatGPT_Image_Apr_29_2026_11_27_19_PM.png"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -196,6 +196,17 @@
       "duration": "514",
       "summary": "With the Iran War underway, the United Arab Emirates is looking for some economic certainty. The rich Arab nation is home to a lot of foreign-held deposits, and they’re worried investors will pull tho",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2F67%2F7a7f3d9f45d3869c6ca760a5613a%2Fc4cbb373-d441-4a6f-aa96-79a400a09697.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2491 - Brian Simpson",
+      "link": "https://traffic.megaphone.fm/GLT8544541239.mp3?updated=1777480862",
+      "pubDate": "2026-04-29T17:00:00.000Z",
+      "duration": "9470",
+      "summary": "Brian Simpson is a comedian, writer, host of the “Bottom of the Barrel” comedy show at The Comedy Mothership, and his own podcast, “BS with Brian Simpson.” His most recent special, “Live from The Come",
+      "art": "https://megaphone.imgix.net/podcasts/ada2b96e-436a-11f1-be06-7ff08097d2d1/image/6a5cbaf722d0e31ca328d2f0d6d93d14.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "allin",
@@ -218,6 +229,17 @@
       "duration": "560",
       "summary": "Iran’s weaponization of the Strait of Hormuz is the perfect example of how modern warfare is increasingly waged, not only with drones and bombs, but also through the weaponization of economic choke po",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdf%2F11%2Fc8b5580f41b494b6842816d8468d%2F78b5149f-a98b-47d7-a55c-e28b99e6f127.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2490 - RZA",
+      "link": "https://traffic.megaphone.fm/GLT7621675173.mp3?updated=1777394383",
+      "pubDate": "2026-04-28T17:00:00.000Z",
+      "duration": "10648",
+      "summary": "RZA is a rapper, producer, composer, filmmaker, and founding member of the multimedia hip-hop collective and 2026 Rock and Roll Hall of Fame inductees The Wu-Tang Clan. His new film, “One Spoon of Cho",
+      "art": "https://megaphone.imgix.net/podcasts/f3a22480-428f-11f1-9c77-ffdfa7bd2815/image/28206bc6280c12251968697909c2b3f0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -264,17 +286,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Applovin: $160BN Market Cap, $5.48BN Revenue, $10M EBITDA Per Head | Why the Best Do Not Need Mentorship | Why Founders Should Not Angel Invest | Why Kindness in Business Will Slow You Down with Adam Foroughi",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-applovin-160bn-market-cap-548bn-revenue-10m-ebitda-per-head-why-the-best-do-not-need-mentorship-why-founders-should-not-angel-invest-why-kindness-in-business-will-slow-you-down-with-adam-foroughi",
-      "pubDate": "2026-04-27T07:07:00.000Z",
-      "duration": "01:20:46",
-      "summary": "Adam Foroughi is the Co-Founder and CEO @ Applovin, one of the most underdiscussed but incredible businesses. Applovin has a market cap of $160BN, the company does $5.48BN in revenue and has an astoni",
-      "art": "https://static.libsyn.com/p/assets/2/9/d/7/29d70302cdc94a35d959afa2a1bf1c87/WhatsApp_Image_2026-04-24_at_17.00.13.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -286,17 +297,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcd%2Ff8%2F295fe17846ba8b47e7cf44dd1514%2Fdf69379b-5f7b-463e-a50e-cc789798e2e2.jpg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Product: Replit CEO on Why Coding Models Are Plateauing | Why the SaaS Apocalypse is Justified: Will Incumbents Be Replaced? | Why IDEs Are Dead and Do PMs Survive the Next 3-5 Years with Amjad Masad",
-      "link": "https://thetwentyminutevc.libsyn.com/20product-replit-ceo-on-why-coding-models-are-plateauing-why-the-saas-apocalypse-is-justified-will-incumbents-be-replaced-why-ides-are-dead-and-do-pms-survive-the-next-3-5-years-with-amjad-masad",
-      "pubDate": "2026-04-25T07:07:00.000Z",
-      "duration": "46:51",
-      "summary": "Amjad Masad is the Co-Founder and CEO of Replit, one of the leading \"vibe-coding\" platforms. Under his leadership, Replit has raised a total of $922 million in funding, recently raising at a whopping ",
-      "art": "https://static.libsyn.com/p/assets/2/9/4/e/294e3ca831b49fbc16c3140a3186d450/WhatsApp_Image_2026-04-23_at_17.36.06.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -306,6 +306,17 @@
       "duration": "01:30:42",
       "summary": "(0:00) Bestie intros! (4:55) SpaceX-Cursor deal, compute as leverage (18:33) SaaS bloodbath, debt bomb incoming, buy the dip? (46:20) New Apple CEO: John Ternus succeeds Tim Cook, what's next for Appl",
       "art": "https://static.libsyn.com/p/assets/7/f/3/7/7f37881ac06392f216c3140a3186d450/1_Pod_E270.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2489 - Ryan Bingham",
+      "link": "https://traffic.megaphone.fm/GLT2851956686.mp3?updated=1777048261",
+      "pubDate": "2026-04-24T17:00:00.000Z",
+      "duration": "8866",
+      "summary": "Ryan Bingham is an actor and musician. See Ryan Bingham and the Texas Gentlemen on tour this year, and look for their next album, “They Call Us the Lucky Ones,” on May 15.www.youtube.com/@ryanbinghamw",
+      "art": "https://megaphone.imgix.net/podcasts/f4bbbb36-3f85-11f1-98f8-538a9d2d7656/image/82793664950f873bb92772673b09d987.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -341,6 +352,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2Fb5%2F84b98f0c4f2a9aa1f2ab85fa1b07%2F784e6faf-ee3a-4376-87a0-e26e92e95653.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2488 - James McCann",
+      "link": "https://traffic.megaphone.fm/GLT3044004164.mp3?updated=1776990977",
+      "pubDate": "2026-04-23T17:00:00.000Z",
+      "duration": "10328",
+      "summary": "James Donald Forbes McCann is a comedian, author, and host of “The James Donald Forbes McCann Catamaran Plan.” His latest special, “Island of Strangers,” is streaming on YouTube.https://youtu.be/7VfTq",
+      "art": "https://megaphone.imgix.net/podcasts/b76e32c6-3eb9-11f1-907c-8b28c04c10f1/image/b5ede2c730d1a03c5b1081efd76cc964.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -350,17 +372,6 @@
       "duration": "39:57",
       "summary": "两周前的那场美伊谈判 —— 也是两国自 1979 年以来级别最高的直接接触 —— 地点选在了巴基斯坦的首都伊斯兰堡。于是我们就产生了一个好奇：为什么是巴基斯坦？ 在大多数人的印象里，巴基斯坦「经济脆弱、内政动荡」，在国际舞台上的存在感似乎并不高。但就是这样一个国家，为什么能获得美伊双方的信任？巴基斯坦又是出于什么样的动机在积极地做斡旋？在传统国际秩序已经逐步失效的当下，这又意味着一个怎样的转变？ ",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Cursor Acquired for $60BN by xAI | Anthropic Hits $1TRN in Secondary Markets | Did Anthropic Just Kill Figma, Adobe and Canva | Rippling Hits $1BN in ARR | Salesforce Goes Headless: Smart or Stupid | Cerebras IPO 2.0",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-cursor-acquired-for-60bn-by-xai-anthropic-hits-1trn-in-secondary-markets-did-anthropic-just-kill-figma-adobe-and-canva-rippling-hits-1bn-in-arr-salesforce-goes-headless-smart-or-stupid-cerebras-ipo-20",
-      "pubDate": "2026-04-23T07:07:00.000Z",
-      "duration": "01:40:59",
-      "summary": "AGENDA: 04:00 — 🤯 Cursor Acquired for $60B?! Breaking down the mind-blowing deal with xAI/SpaceX. 07:00 — 🤝 A Marriage Made in Heaven: Why Cursor and Elon Musk actually make perfect sense. 11:00 — \ud83c",
-      "art": "https://static.libsyn.com/p/assets/5/1/7/c/517cd13aaa0347fb16c3140a3186d450/WhatsApp_Image_2026-04-22_at_16.12.18.jpeg"
     },
     {
       "showId": "indicator",
@@ -374,6 +385,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd3%2Fd1%2F84534d08496c81434ecd6618b21a%2F9be5a1da-664b-4c56-b6a8-56abde3feeba.jpg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2487 - Action Bronson",
+      "link": "https://traffic.megaphone.fm/GLT5505192695.mp3?updated=1776874815",
+      "pubDate": "2026-04-22T17:00:00.000Z",
+      "duration": "9594",
+      "summary": "Action Bronson is a musician, chef, artist, and host of “Fuck That’s Delicious.” His next album, “Planet Frog,” is expected later this year.www.youtube.com/@ActionBronsonMusicwww.actionbronson.com Per",
+      "art": "https://megaphone.imgix.net/podcasts/72c240ca-3df3-11f1-8e44-db5b3a3561aa/image/b12d3197ced3bb4496e3e74278913dda.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -383,6 +405,17 @@
       "duration": "551",
       "summary": "The global oil market has supported the U.S. dollar for more than 50 years. But the system has shown signs of cracking. Amidst the Iran war, Iran has reportedly been collecting some tolls in yuan. Tod",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4d%2Ff5%2Fe232e72a492f869c92f0f88746a1%2Fd4b0aa0a-1327-4d1c-b19d-bc6fa4e7982f.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2486 - Luis J Gomez",
+      "link": "https://traffic.megaphone.fm/GLT5826228201.mp3?updated=1776789151",
+      "pubDate": "2026-04-21T17:00:00.000Z",
+      "duration": "10029",
+      "summary": "Luis J. Gomez is a comedian, writer, and producer. He co-hosts “Legion of Skanks,” “The Regz,” “Story Warz,” and “Real Ass Podcast.” His new book, “Knives & Spoons: A Memoir,” is available now.www.sim",
+      "art": "https://megaphone.imgix.net/podcasts/eb72adac-3d3f-11f1-8058-fb9d026dcf8f/image/f629ba8eb9484b28519e370904fdc919.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -418,17 +451,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fac%2Feb%2F62e184ae4ecd90c4e59d925ccb97%2F28f0a4fe-6f5b-4136-8346-a71801de6174.jpg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Everyone is Wrong; We Will Have More Developers in Five Years | Why Frontier Labs Will Be Way More Valuable Than They Are Today | Are SaaS Companies Cooked: Which Thrive & Which Die with Aaron Levie, Founder at Box",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-everyone-is-wrong-we-will-have-more-developers-in-five-years-why-frontier-labs-will-be-way-more-valuable-than-they-are-today-are-saas-companies-cooked-which-thrive-which-die-with-aaron-levie-founder-at-box",
-      "pubDate": "2026-04-20T07:07:00.000Z",
-      "duration": "53:54",
-      "summary": "Aaron Levie is one of the most forward-thinking public company CEOs when it comes to enterprise adoption of AI. Aaron is the CEO of Box, the enterprise storage company that does over $1BN in revenue b",
-      "art": "https://static.libsyn.com/p/assets/c/2/a/3/c2a32135a7e43cb2d959afa2a1bf1c87/WhatsApp_Image_2026-04-17_at_12.04.35.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -440,17 +462,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd1%2F6f%2F86b957c24140bfc93618de026796%2F68286e7b-68c0-47d3-8b8e-cbffdf8c76e3.jpg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike Tyson | with Geoffrey Wu, Co-Founder at Anti-Fund",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-jake-paul-on-why-traditional-vc-is-toast-and-attention-is-more-valuable-than-cash-politics-willjake-paul-actually-run-for-president-inside-the-payday-of-fighting-anthony-joshua-and-mike-tyson-with-geoffrey-wu-co-founder-at-anti-fund",
-      "pubDate": "2026-04-18T12:36:00.000Z",
-      "duration": "01:00:26",
-      "summary": "Jake Paul is one of the most influential creators of the digital era, with over 70M+ followers across platforms. He transitioned from YouTube stardom to become one of the biggest pay-per-view draws in",
-      "art": "https://static.libsyn.com/p/assets/4/d/b/2/4db2623ad9683737d959afa2a1bf1c87/WhatsApp_Image_2026-04-10_at_17.40.54.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -460,6 +471,17 @@
       "duration": "01:30:57",
       "summary": "(0:00) Bestie intros: Travis Kalanick joins the show! (0:42) Mamdani taxes the rich: new pied-à-terre tax coming to NYC (11:23) OpenAI's identity crisis: Leaked memo, enterprise pivot, Anhropic valuat",
       "art": "https://static.libsyn.com/p/assets/4/a/4/7/4a47e010a4064246d959afa2a1bf1c87/1_Pod_E269.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2485 - John Fogerty",
+      "link": "https://traffic.megaphone.fm/GLT1846702753.mp3?updated=1776435206",
+      "pubDate": "2026-04-17T17:00:00.000Z",
+      "duration": "9939",
+      "summary": "John Fogerty is a Grammy-winning solo musician, former leader of Creedence Clearwater Revival, and an inductee of the Rock & Roll Hall of Fame and the Songwriters Hall of Fame. His latest album is “Le",
+      "art": "https://megaphone.imgix.net/podcasts/90196f1e-3a19-11f1-bbe7-032d1a4ac003/image/9a4e4683c4b54445cb73a8257432c24b.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -495,6 +517,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc4%2Ff7%2F88e0018c4376bcf47a36b7f3d436%2F8630b577-73af-4e2b-a861-24a1b2ae33a8.jpg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2484 - David Cross",
+      "link": "https://traffic.megaphone.fm/GLT8435055211.mp3?updated=1776472896",
+      "pubDate": "2026-04-16T17:00:00.000Z",
+      "duration": "8910",
+      "summary": "David Cross is a comedian, actor, writer, producer, and host of “Senses Working Overtime.” His latest special, “The End of the Beginning of the End,” is streaming on YouTube.https://youtu.be/OfqMkJwVg",
+      "art": "https://megaphone.imgix.net/podcasts/5c082256-3951-11f1-9752-f7424aaf0f13/image/d6803b7b08e22101e9aaa8a6d1a7e330.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -506,17 +539,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Unveils Mythos | SpaceX's Financials Leaked: Is it Worth $2TRN | Meta Debuts Muse Spark: Are They Back in the AI Race | Jason's Critique of Dario Amodei & How OpenAI Could Win the Enterprise Game",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-unveils-mythos-spacexs-financials-leaked-is-it-worth-2trn-meta-debuts-muse-spark-are-they-back-in-the-ai-race-jasons-critique-of-dario-amodei-how-openai-could-win-the-enterprise-game",
-      "pubDate": "2026-04-16T07:07:00.000Z",
-      "duration": "01:26:20",
-      "summary": "AGENDA: 00:00 — Anthropic Unveils Mythos: The Model \"Too Good at Hacking\" to Release 05:56 — Why Mythos is a Quantum Leap in Cyber Risk 10:11 — The \"Boy Who Cried Wolf\": Jason's Critique of Dario Amod",
-      "art": "https://static.libsyn.com/p/assets/8/7/2/5/87255511f72e20dbd959afa2a1bf1c87/WhatsApp_Image_2026-04-15_at_14.25.30.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -526,6 +548,17 @@
       "duration": "538",
       "summary": "If the Strait of Hormuz completely reopens, it still might not be enough to restart the economies in the Persian Gulf. Many countries there have been hammered by the oil crisis. And although allowing ",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F52%2Fa3%2Faa84bb3d4ddbb49a485c6c72653d%2Fb18ed163-71cb-4513-8e98-62f936759b35.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2483 - Spencer Pratt",
+      "link": "https://traffic.megaphone.fm/GLT3041224181.mp3?updated=1776269139",
+      "pubDate": "2026-04-15T17:00:00.000Z",
+      "duration": "7552",
+      "summary": "Spencer Pratt is an entrepreneur, author, candidate for the office of Mayor of Los Angeles, and co-host of “The Fame Game” with his wife, Heidi Montag. His new memoir, “The Guy You Loved to Hate: Conf",
+      "art": "https://megaphone.imgix.net/podcasts/38a3909a-3869-11f1-94ee-8396fbb7a87c/image/b2009e27fff0e3ea17c1bc3f52350503.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "indicator",
@@ -550,6 +583,17 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2482 - Andy Stumpf",
+      "link": "https://traffic.megaphone.fm/GLT3680007995.mp3?updated=1776185129",
+      "pubDate": "2026-04-14T17:00:00.000Z",
+      "duration": "9579",
+      "summary": "Andy Stumpf is a retired Navy SEAL, entrepreneur, record-holding wingsuiter, and host of “Cleared Hot” and “Change Agents.” His new book, “Drownproof: Eight Life Lessons to Keep Your Head Above Water,",
+      "art": "https://megaphone.imgix.net/podcasts/41cef8ec-37a3-11f1-83cc-6fb93667ce7f/image/19a531a9d124570807bc495f6a1bed44.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -559,17 +603,6 @@
       "duration": "01:16:10",
       "summary": "- 导语 - 抗战时期，中国空军与援华外籍飞行员共同留下了血火长空的悲壮篇章，这些故事被影像定格，从航校学员的私人相册，到驼峰航线的铝谷残骸，再到中国首支伞兵部队旧影，逐步拼凑出被尘封的抗战故事。《无问西东》主角原型沈崇诲是怎样牺牲的？一位美籍华人女性成为战斗机飞行员要经历什么？飞虎队早期的缔造者鲍利为何被选择性遗忘？请听本期嘉宾邹德怀带来的精彩讲述。 - 本期话题成员 - 程衍樑（微博@Gren",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Worried",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-      "pubDate": "2026-04-14T09:24:00.000Z",
-      "duration": "01:08:49",
-      "summary": "Anj Midha is the founder of AMP, and a founding investor in Anthropic. Most recently, Anj was General Partner at Andreessen Horowitz, leading frontier AI investments. He serves on the boards of Mistra",
-      "art": "https://static.libsyn.com/p/assets/b/2/b/a/b2ba7adfaa361c08d959afa2a1bf1c87/anjney.png"
     },
     {
       "showId": "ezraklein",
@@ -627,17 +660,6 @@
       "art": "https://img.transistorcdn.com/0QGXNUgszcCY1ANfR29j6wYwABqNDaHjFNi3K5p7ZOw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yYjg2/ZjI2MTRkZGRhNWVl/ZjlkYjA2Zjg2ZWI0/NGVhZS5qcGc.jpg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Sales: ElevenLabs: Why We Set a 20x Sales Quota | How to Structure Sales Compensation Plans | Customer Success: 'Total BS' or Growth Engine? | Building an AI Sales Machine: What Tools & Tactics Must CROs Adopt Today with Carles Reina",
-      "link": "https://thetwentyminutevc.libsyn.com/20sales-elevenlabs-why-we-set-a-20x-sales-quota-how-to-structure-sales-compensation-plans-customer-success-total-bs-or-growth-engine-building-an-ai-sales-machine-what-tools-tactics-must-cros-adopt-today-with-carles-reina",
-      "pubDate": "2026-04-11T07:07:00.000Z",
-      "duration": "01:25:03",
-      "summary": "Carles Reina is VP of Sales at ElevenLabs, where he was the first investor and fourth employee. Carles has scaled the revenue org from Day 1 to over $350M in just 3 years. Carles is also an active inv",
-      "art": "https://static.libsyn.com/p/assets/8/6/e/b/86eb702d5ae2fdac16c3140a3186d450/WhatsApp_Image_2026-04-10_at_17.39.21.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -647,6 +669,17 @@
       "duration": "01:29:18",
       "summary": "(0:00) Bestie intros: Brad Gerstner joins the show! (4:22) Anthropic blocks Mythos release for security concerns: serious or marketing stunt? (24:07) Are OpenAI and Anthropic trying to kill OpenClaw? ",
       "art": "https://static.libsyn.com/p/assets/9/3/b/3/93b381a492da6d06d959afa2a1bf1c87/1_Pod_E268-20260410-lusrx3kb2k.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #177 - Protect Ya Neck",
+      "link": "https://traffic.megaphone.fm/GLT7244998855.mp3?updated=1775829921",
+      "pubDate": "2026-04-10T17:00:00.000Z",
+      "duration": "11303",
+      "summary": "Joe is joined by mixed martial artists John Rallo, Matt Serra, and Din Thomas.John Rallo owns Shogun Fights and is the owner and head coach at Ground Control Mixed Martial Arts Academy.www.groundcontr",
+      "art": "https://megaphone.imgix.net/podcasts/07615520-3487-11f1-a651-832d3537b146/image/100db81302172a0484121b396a9654be.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -704,15 +737,15 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising at $10BN & Doug Leone Returns to Sequoia",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-      "pubDate": "2026-04-09T07:07:00.000Z",
-      "duration": "01:27:16",
-      "summary": "AGENDA: 03:59 — Anthropic Surpasses OpenAI in Revenue 12:43 — OpenAI Management Reboot 18:24 — OpenAI Buys TBPN 29:00 — SpaceX Files for IPO Targeting $2 Trillion Valuation 37:21 — Doug Leone Returns ",
-      "art": "https://static.libsyn.com/p/assets/b/e/e/5/bee55635ba85ce4c16c3140a3186d450/WhatsApp_Image_2026-04-08_at_15.15.25.jpeg"
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2481 - Duncan Trussell",
+      "link": "https://traffic.megaphone.fm/GLT3393412202.mp3?updated=1775753732",
+      "pubDate": "2026-04-09T17:00:00.000Z",
+      "duration": "11574",
+      "summary": "Duncan Trussell is a stand-up comedian, voice actor, and host of “The Duncan Trussell Family Hour.” He will perform live April 9–11 at Zanies Comedy Club Rosemont in Rosemont, Illinois. Tickets are on",
+      "art": "https://megaphone.imgix.net/podcasts/3ae530aa-340b-11f1-a2fc-ff8c0ea5e298/image/ba7072ca8e4dac5cc07ae17a05eaf3f1.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -724,6 +757,17 @@
       "duration": "1422",
       "summary": "London’s position as a global hub depends on staying competitive and preparing for rapid technological change. Sir Sadiq Khan, Mayor of London, joins Kunal Shah, co-chief executive officer of Goldman ",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2480 - Arsenio Hall",
+      "link": "https://traffic.megaphone.fm/GLT3162202677.mp3?updated=1776099580",
+      "pubDate": "2026-04-08T17:00:00.000Z",
+      "duration": "10691",
+      "summary": "Arsenio Hall is a comedian, producer, writer, and actor. He hosted “The Arsenio Hall Show” and has appeared in films including “Coming to America” and “Harlem Nights.” His new book, “Arsenio Hall: A M",
+      "art": "https://megaphone.imgix.net/podcasts/40c67136-32f4-11f1-8fff-17c75e7b3806/image/c431436ce2ac4d5b79fb3fb2e89e0a55.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "allin",
@@ -748,17 +792,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: DeepMind's Demis Hassabis on Why AGI is Bigger than the Industrial Revolution | Why LLMs Will Not Commoditise & We Have Not Hit Scaling Laws | Bottlenecks in AI & The Energy Crisis Caused By AI | Whether AI Will Do More to Harm or Help Inequality",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-deepminds-demis-hassabis-on-why-agi-is-bigger-than-the-industrial-revolution-why-llms-will-not-commoditise-we-have-not-hit-scaling-laws-bottlenecks-in-ai-the-energy-crisis-caused-by-ai-whether-ai-will-do-more-to-harm-or-help-inequality",
-      "pubDate": "2026-04-07T07:07:00.000Z",
-      "duration": "35:49",
-      "summary": "Demis Hassabis is the Co-Founder & CEO of Google DeepMind - working on AGI, responsible for AI breakthroughs such as AlphaGo, the first program to beat the world champion at the game of Go; and AlphaF",
-      "art": "https://static.libsyn.com/p/assets/7/a/d/f/7adf461317d8c199d959afa2a1bf1c87/8ca44342-cdea-4c24-b7f8-68bc5d04e443.jpg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -770,17 +803,6 @@
       "art": "https://static.libsyn.com/p/assets/7/a/6/1/7a61a2a17e8bf93316c3140a3186d450/1_Pod_Palantir_Anduril.png"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Hims & Hers: $4.3BN Market Cap on $2.3BN of Revenue: The Comeback | Why Being Public is 10x Better | The Death of the \"Strategy\" Hire | Why Performance Marketing is Worse than Brand Marketing with Andrew Dudum",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-hims-hers-43bn-market-cap-on-23bn-of-revenue-the-comeback-why-being-public-is-10x-better-the-death-of-the-strategy-hire-why-performance-marketing-is-worse-than-brand-marketing-with-andrew-dudum",
-      "pubDate": "2026-04-04T09:25:00.000Z",
-      "duration": "59:18",
-      "summary": "Andrew Dudum is the Founder and CEO of Hims, the company reshaping consumers relationship to healthcare. It has been a rocky ride over the last 6 months, the company is down 66%, their market cap toda",
-      "art": "https://static.libsyn.com/p/assets/d/c/1/a/dc1acdcdb0434ba3d959afa2a1bf1c87/WhatsApp_Image_2026-04-02_at_16.24.17.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -790,6 +812,17 @@
       "duration": "01:20:32",
       "summary": "(0:00) Bestie intros! (0:12) SpaceX IPO, the economic opportunity of space: a new industrial frontier (21:00) 2026 IPO explosion, OpenAI down round? (36:33) Iran War costs, fertilizer crisis, downstre",
       "art": "https://static.libsyn.com/p/assets/4/c/6/4/4c64b40f4b8c6d6616c3140a3186d450/1_Pod_E267.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2479 - Bob Lazar & Luigi Vendittelli",
+      "link": "https://traffic.megaphone.fm/GLT6476784414.mp3?updated=1775235793",
+      "pubDate": "2026-04-03T17:00:00.000Z",
+      "duration": "11108",
+      "summary": "Bob Lazar made headlines in 1989 during an anonymous interview with journalist George Knapp, where he described working with extraterrestrial technology at a site near Area 51. He is the subject of th",
+      "art": "https://megaphone.imgix.net/podcasts/1ac15128-2f0b-11f1-8ec6-af2d607f733b/image/69e40ae0cfb55cd685ce4b6d7e0b5c84.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "weirdo",
@@ -836,17 +869,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic's $6BN Revenue Month | OpenAI Kills Sora & Hits $100M ARR on Ads | Oura Going Public & Whoop Raises at $10BN | Manus Founders Trapped in China & The Billionaire Tax: Anyone Left in California?",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropics-6bn-revenue-month-openai-kills-sora-hits-100m-arr-on-ads-oura-going-public-whoop-raises-at-10bn-manus-founders-trapped-in-china-the-billionaire-tax-anyone-left-in-california",
-      "pubDate": "2026-04-02T08:55:00.000Z",
-      "duration": "01:09:36",
-      "summary": "AGENDA: 00:00 — Anthropic's Monster Month: 6 Billion in February Revenue 04:30 — The \"Claude Mythos\" Leak: 10 Trillion Parameters 11:50 — OpenAI Kills \"Sora\": A Massive Strategic Own Goal? 14:30 — Ope",
-      "art": "https://static.libsyn.com/p/assets/7/3/a/2/73a298c66ea9fe1f16c3140a3186d450/WhatsApp_Image_2026-04-01_at_12.30.24-20260402-l1el1ztj0c.jpeg"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -867,28 +889,6 @@
       "duration": "01:43:40",
       "summary": "- 导语 - 从北京到涠洲岛，从亚马逊雨林到更远的海域，李星宇带着录音设备和帆船，一次次把自己抛进自然。在涠洲岛，他和团队录下了700多段疑似布氏鲸的信号，也第一次意识到：鲸鱼的声音远不是人们想象中的「歌声」，它可能像牛蛙，也可能像蛤蟆，低沉、粗粝，却真实存在。海上的生活同样如此：他被风雨浇透，也在星空下独自值守；有时整日等待风向，有时又在失控的瞬间争分夺秒。航海改变了他对时间的感知——当鲸鱼浮出",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Marc Andreessen on The Future of Venture Capital: Will a16z Go Public | Why Labour Displacement with AI is Wrong | Why Introspection is Dangerous | Why \"Diamonds in the Rough\" is BS in VC | Why a16z Invested $300M into Adam Neumann",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-marc-andreessen-on-the-future-of-venture-capital-will-a16z-go-public-why-labour-displacement-with-ai-is-wrong-why-introspection-is-dangerous-why-diamonds-in-the-rough-is-bs-in-vc-why-a16z-invested-300m-into-adam-neumann",
-      "pubDate": "2026-03-30T07:07:00.000Z",
-      "duration": "01:12:16",
-      "summary": "Marc Andreessen is a Co-Founder and General Partner at Andreessen Horowitz. The firm now manages over $90BN and has invested in the likes of OpenAI, Airbnb, Coinbase, Anduril and many more. Marc is an",
-      "art": "https://static.libsyn.com/p/assets/7/e/a/f/7eaf721478e80376d959afa2a1bf1c87/WhatsApp_Image_2026-03-24_at_15.30.50.jpeg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: The Venture Model is Broken | You Need to be Greedy and Selfish to Win Early Stage Investing | Why Margins Do Not Matter for Early-Stage Startups | The Growth Rate that is Required in a World of AI with Gili Raanan, Founder @ Cyberstarts",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-venture-model-is-broken-you-need-to-be-greedy-and-selfish-to-win-early-stage-investing-why-margins-do-not-matter-for-early-stage-startups-the-growth-rate-that-is-required-in-a-world-of-ai-with-gili-raanan-founder-cyberstarts",
-      "pubDate": "2026-03-28T07:07:00.000Z",
-      "duration": "52:37",
-      "summary": "Gili Raanan is the Founder of Cyberstarts, one of the best performing venture funds of the last decade. He is famed for being the seed investor in Wiz, Islands and Cyera, leading to multiple 10x+ fund",
-      "art": "https://static.libsyn.com/p/assets/0/3/4/8/03482505c6bf236f16c3140a3186d450/WhatsApp_Image_2026-03-26_at_18.43.00.jpeg"
     },
     {
       "showId": "allin",
