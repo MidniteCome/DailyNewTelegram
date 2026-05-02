@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-01T20:41:43.949Z",
+    "updatedAt": "2026-05-02T08:49:53.476Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,6 +165,28 @@
   ],
   "episodes": [
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Inside Clay's Sales Playbook Scaling to $100M ARR | How to Set Sales Comp Plans | How to Read Sales Talent Linkedin Profiles | What Profiles to Hire & Fire | How to Increase Performance and Speed in Sales Teams with Becca Lindquist",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-inside-clays-sales-playbook-scaling-to-100m-arr-how-to-set-sales-comp-plans-how-to-read-sales-talent-linkedin-profiles-what-profiles-to-hire-fire-how-to-increase-performance-and-speed-in-sales-teams-with-becca-lindquist",
+      "pubDate": "2026-05-02T07:07:00.000Z",
+      "duration": "01:13:20",
+      "summary": "Becca Lindquist is Head of Sales at Clay, one of the fastest-growing AI companies to reach $100M+ ARR. She previously helped scale dbt Labs into a category-defining data platform, building and leading",
+      "art": "https://static.libsyn.com/p/assets/5/0/f/9/50f9f72fbcc103d916c3140a3186d450/WhatsApp_Image_2026-04-30_at_17.28.41.jpeg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
+      "link": "https://allinchamathjason.libsyn.com/openai-misses-targets-codex-vs-claude-elon-vs-sam-trial-big-hyperscaler-beats-peptide-craze",
+      "pubDate": "2026-05-01T21:37:00.000Z",
+      "duration": "01:20:58",
+      "summary": "(0:00) Bestie intros (3:05) OpenAI misses targets, Codex gains on Claude (20:02) AI cybersecurity: a market that's about to explode (31:03) Elon vs Sam Altman lawsuit (41:00) Big tech smashes earnings",
+      "art": "https://static.libsyn.com/p/assets/b/1/8/6/b1862c7e177b0d2a16c3140a3186d450/1_Pod_E271.png"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -212,8 +234,8 @@
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
-      "title": "#387 当公益遇上道德哲学：一场关于「如何做好事」的思想实验",
-      "link": "http://etw.fm/2208",
+      "title": "#387 一场影响了一众 AI 大佬的「思想实验」：从道德哲学开始的思辨、落地、演变和影响",
+      "link": "http://etw.fm/2208-effectivealtruism-impact",
       "pubDate": "2026-04-30T10:00:00.000Z",
       "duration": "1:14:37",
       "summary": "每次看到天灾人祸相关的新闻，你是否也会陷入同样的困境：捐多少？捐给谁？捐出去的钱真的有用吗？ 1972 年，哲学家彼得·辛格（Peter Singer）提出了一个思想实验：如果你路过一个浅水池，看到一个孩子溺水，你会不会下去救他？几乎所有人的答案是会。那么远方正在挨饿的那些孩子与眼前这个落水的孩子，有什么本质区别？这个追问，似乎让「公益捐赠」从一件可做可不做的好事，变成了一种道德义务。由此出发，一",
@@ -1056,17 +1078,6 @@
       "art": "https://static.libsyn.com/p/assets/7/e/a/f/7eaf721478e80376d959afa2a1bf1c87/WhatsApp_Image_2026-03-24_at_15.30.50.jpeg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: The Venture Model is Broken | You Need to be Greedy and Selfish to Win Early Stage Investing | Why Margins Do Not Matter for Early-Stage Startups | The Growth Rate that is Required in a World of AI with Gili Raanan, Founder @ Cyberstarts",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-venture-model-is-broken-you-need-to-be-greedy-and-selfish-to-win-early-stage-investing-why-margins-do-not-matter-for-early-stage-startups-the-growth-rate-that-is-required-in-a-world-of-ai-with-gili-raanan-founder-cyberstarts",
-      "pubDate": "2026-03-28T07:07:00.000Z",
-      "duration": "52:37",
-      "summary": "Gili Raanan is the Founder of Cyberstarts, one of the best performing venture funds of the last decade. He is famed for being the seed investor in Wiz, Islands and Cyera, leading to multiple 10x+ fund",
-      "art": "https://static.libsyn.com/p/assets/0/3/4/8/03482505c6bf236f16c3140a3186d450/WhatsApp_Image_2026-03-26_at_18.43.00.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1318,17 +1329,6 @@
       "duration": "01:31:11",
       "summary": "The Trump administration miscalculated how Iran would respond to this war. And the United States, Iran and Israel were brought to the brink of war in the first place because of a whole series of misju",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Iran War, Oil Shock, Off Ramps, AI's Revenue Explosion and PR Nightmare",
-      "link": "https://allinchamathjason.libsyn.com/iran-war-oil-shock-off-ramps-ais-revenue-explosion-and-pr-nightmare",
-      "pubDate": "2026-03-13T17:53:00.000Z",
-      "duration": "01:20:23",
-      "summary": "(0:00) The Besties welcome Brad Gerstner! (3:48) Economic fallout of the Iran War, escalation scenarios, impact on midterms (19:18) Off ramp strategies, Gulf state involvement, the China angle (27:05)",
-      "art": "https://static.libsyn.com/p/assets/0/9/0/4/0904d896e43c983a16c3140a3186d450/1_Pod_E264-20260313-7wen55e4z1.png"
     },
     {
       "showId": "left-right",
