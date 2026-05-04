@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updatedAt": "2026-05-03T20:33:57.944Z",
-    "totalEpisodes": 180,
+    "updatedAt": "2026-05-04T09:37:22.235Z",
+    "totalEpisodes": 165,
     "health": [
       {
         "id": "20vc",
         "name": "20VC",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       },
       {
         "id": "ezraklein",
@@ -82,8 +82,8 @@
       "id": "20vc",
       "name": "20VC",
       "category": "vc",
-      "art": "https://static.libsyn.com/p/assets/d/2/b/a/d2ba673c1d134c2be55e3c100dce7605/WhatsApp_Image_2024-10-28_at_11.39.21.jpeg",
-      "link": "http://www.thetwentyminutevc.com/"
+      "art": null,
+      "link": "https://thetwentyminutevc.libsyn.com/rss"
     },
     {
       "id": "ezraklein",
@@ -165,15 +165,15 @@
   ],
   "episodes": [
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Inside Clay's Sales Playbook Scaling to $100M ARR | How to Set Sales Comp Plans | How to Read Sales Talent Linkedin Profiles | What Profiles to Hire & Fire | How to Increase Performance and Speed in Sales Teams with Becca Lindquist",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-inside-clays-sales-playbook-scaling-to-100m-arr-how-to-set-sales-comp-plans-how-to-read-sales-talent-linkedin-profiles-what-profiles-to-hire-fire-how-to-increase-performance-and-speed-in-sales-teams-with-becca-lindquist",
-      "pubDate": "2026-05-02T07:07:00.000Z",
-      "duration": "01:13:20",
-      "summary": "Becca Lindquist is Head of Sales at Clay, one of the fastest-growing AI companies to reach $100M+ ARR. She previously helped scale dbt Labs into a category-defining data platform, building and leading",
-      "art": "https://static.libsyn.com/p/assets/5/0/f/9/50f9f72fbcc103d916c3140a3186d450/WhatsApp_Image_2026-04-30_at_17.28.41.jpeg"
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "How taxing the wealthy could work",
+      "link": "https://www.npr.org/2026/05/04/nx-s1-5808343/how-taxing-the-wealthy-could-work",
+      "pubDate": "2026-05-04T07:00:00.000Z",
+      "duration": "506",
+      "summary": "Tax cuts for the middle and working classes, and tax hikes for the rich. What's behind this trend? We ask Democratic Senator Chris Van Hollen to explain his bill that eliminates federal income tax for",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb3%2F31%2Faeb0f2cb4c1bbad96a28226358d4%2Fad023c2a-3190-4313-89f4-d4d878cef484.png"
     },
     {
       "showId": "allin",
@@ -240,17 +240,6 @@
       "duration": "1:14:37",
       "summary": "每次看到天灾人祸相关的新闻，你是否也会陷入同样的困境：捐多少？捐给谁？捐出去的钱真的有用吗？ 1972 年，哲学家彼得·辛格（Peter Singer）提出了一个思想实验：如果你路过一个浅水池，看到一个孩子溺水，你会不会下去救他？几乎所有人的答案是会。那么远方正在挨饿的那些孩子与眼前这个落水的孩子，有什么本质区别？这个追问，似乎让「公益捐赠」从一件可做可不做的好事，变成了一种道德义务。由此出发，一",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Raises $45BN but Falls Short on Compute | OpenAI Crushes with GPT5.5 and Codex: Back in the Game? | China Blocks Manus $2BN Deal to Meta | Thoma Bravo Hand Back Medallia Keys to Creditors | Why Google is a Bigger Buy Than Ever Before",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-raises-45bn-but-falls-short-on-compute-openai-crushes-with-gpt55-and-codex-back-in-the-game-china-blocks-manus-2bn-deal-to-meta-thoma-bravo-hand-back-medallia-keys-to-creditors-why-google-is-a-bigger-buy-than-ever-before",
-      "pubDate": "2026-04-30T07:07:00.000Z",
-      "duration": "01:25:50",
-      "summary": "AGENDA: 00:00 $45B Floods into Anthropic from Google & Amazon 05:10 OpenAI Misses Growth Targets — Is This a Real Problem? 08:40 The Rise of AI Agents: Why Humans No Longer Pick Models 12:05 \"Compute ",
-      "art": "https://static.libsyn.com/p/assets/d/9/7/2/d972b15e2de60354d959afa2a1bf1c87/ChatGPT_Image_Apr_29_2026_11_27_19_PM.png"
     },
     {
       "showId": "indicator",
@@ -352,17 +341,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Applovin: $160BN Market Cap, $5.48BN Revenue, $10M EBITDA Per Head | Why the Best Do Not Need Mentorship | Why Founders Should Not Angel Invest | Why Kindness in Business Will Slow You Down with Adam Foroughi",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-applovin-160bn-market-cap-548bn-revenue-10m-ebitda-per-head-why-the-best-do-not-need-mentorship-why-founders-should-not-angel-invest-why-kindness-in-business-will-slow-you-down-with-adam-foroughi",
-      "pubDate": "2026-04-27T07:07:00.000Z",
-      "duration": "01:20:46",
-      "summary": "Adam Foroughi is the Co-Founder and CEO @ Applovin, one of the most underdiscussed but incredible businesses. Applovin has a market cap of $160BN, the company does $5.48BN in revenue and has an astoni",
-      "art": "https://static.libsyn.com/p/assets/2/9/d/7/29d70302cdc94a35d959afa2a1bf1c87/WhatsApp_Image_2026-04-24_at_17.00.13.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -372,17 +350,6 @@
       "duration": "501",
       "summary": "It’s the Beigie awards! Our less than ten times a year salute to the art and science of telling stories about the economy. Today on the show, Kevin Dancy, vice president and regional executive at the ",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcd%2Ff8%2F295fe17846ba8b47e7cf44dd1514%2Fdf69379b-5f7b-463e-a50e-cc789798e2e2.jpg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Product: Replit CEO on Why Coding Models Are Plateauing | Why the SaaS Apocalypse is Justified: Will Incumbents Be Replaced? | Why IDEs Are Dead and Do PMs Survive the Next 3-5 Years with Amjad Masad",
-      "link": "https://thetwentyminutevc.libsyn.com/20product-replit-ceo-on-why-coding-models-are-plateauing-why-the-saas-apocalypse-is-justified-will-incumbents-be-replaced-why-ides-are-dead-and-do-pms-survive-the-next-3-5-years-with-amjad-masad",
-      "pubDate": "2026-04-25T07:07:00.000Z",
-      "duration": "46:51",
-      "summary": "Amjad Masad is the Co-Founder and CEO of Replit, one of the leading \"vibe-coding\" platforms. Under his leadership, Replit has raised a total of $922 million in funding, recently raising at a whopping ",
-      "art": "https://static.libsyn.com/p/assets/2/9/4/e/294e3ca831b49fbc16c3140a3186d450/WhatsApp_Image_2026-04-23_at_17.36.06.jpeg"
     },
     {
       "showId": "allin",
@@ -462,17 +429,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Cursor Acquired for $60BN by xAI | Anthropic Hits $1TRN in Secondary Markets | Did Anthropic Just Kill Figma, Adobe and Canva | Rippling Hits $1BN in ARR | Salesforce Goes Headless: Smart or Stupid | Cerebras IPO 2.0",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-cursor-acquired-for-60bn-by-xai-anthropic-hits-1trn-in-secondary-markets-did-anthropic-just-kill-figma-adobe-and-canva-rippling-hits-1bn-in-arr-salesforce-goes-headless-smart-or-stupid-cerebras-ipo-20",
-      "pubDate": "2026-04-23T07:07:00.000Z",
-      "duration": "01:40:59",
-      "summary": "AGENDA: 04:00 — 🤯 Cursor Acquired for $60B?! Breaking down the mind-blowing deal with xAI/SpaceX. 07:00 — 🤝 A Marriage Made in Heaven: Why Cursor and Elon Musk actually make perfect sense. 11:00 — \ud83c",
-      "art": "https://static.libsyn.com/p/assets/5/1/7/c/517cd13aaa0347fb16c3140a3186d450/WhatsApp_Image_2026-04-22_at_16.12.18.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -550,17 +506,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fac%2Feb%2F62e184ae4ecd90c4e59d925ccb97%2F28f0a4fe-6f5b-4136-8346-a71801de6174.jpg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Everyone is Wrong; We Will Have More Developers in Five Years | Why Frontier Labs Will Be Way More Valuable Than They Are Today | Are SaaS Companies Cooked: Which Thrive & Which Die with Aaron Levie, Founder at Box",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-everyone-is-wrong-we-will-have-more-developers-in-five-years-why-frontier-labs-will-be-way-more-valuable-than-they-are-today-are-saas-companies-cooked-which-thrive-which-die-with-aaron-levie-founder-at-box",
-      "pubDate": "2026-04-20T07:07:00.000Z",
-      "duration": "53:54",
-      "summary": "Aaron Levie is one of the most forward-thinking public company CEOs when it comes to enterprise adoption of AI. Aaron is the CEO of Box, the enterprise storage company that does over $1BN in revenue b",
-      "art": "https://static.libsyn.com/p/assets/c/2/a/3/c2a32135a7e43cb2d959afa2a1bf1c87/WhatsApp_Image_2026-04-17_at_12.04.35.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -570,17 +515,6 @@
       "duration": "551",
       "summary": "Traders have made millions betting on the Iran War. They are also suspiciously timed. No public information, then boom: a Truth Social post from President Trump. Cue fat windfalls for the traders. It’",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd1%2F6f%2F86b957c24140bfc93618de026796%2F68286e7b-68c0-47d3-8b8e-cbffdf8c76e3.jpg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Jake Paul on Why Traditional VC is Toast and Attention is More Valuable Than Cash | Politics: Will Jake Paul Actually Run for President? | Inside the Payday of Fighting Anthony Joshua and Mike Tyson | with Geoffrey Wu, Co-Founder at Anti-Fund",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-jake-paul-on-why-traditional-vc-is-toast-and-attention-is-more-valuable-than-cash-politics-willjake-paul-actually-run-for-president-inside-the-payday-of-fighting-anthony-joshua-and-mike-tyson-with-geoffrey-wu-co-founder-at-anti-fund",
-      "pubDate": "2026-04-18T12:36:00.000Z",
-      "duration": "01:00:26",
-      "summary": "Jake Paul is one of the most influential creators of the digital era, with over 70M+ followers across platforms. He transitioned from YouTube stardom to become one of the biggest pay-per-view draws in",
-      "art": "https://static.libsyn.com/p/assets/4/d/b/2/4db2623ad9683737d959afa2a1bf1c87/WhatsApp_Image_2026-04-10_at_17.40.54.jpeg"
     },
     {
       "showId": "allin",
@@ -660,17 +594,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Unveils Mythos | SpaceX's Financials Leaked: Is it Worth $2TRN | Meta Debuts Muse Spark: Are They Back in the AI Race | Jason's Critique of Dario Amodei & How OpenAI Could Win the Enterprise Game",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-unveils-mythos-spacexs-financials-leaked-is-it-worth-2trn-meta-debuts-muse-spark-are-they-back-in-the-ai-race-jasons-critique-of-dario-amodei-how-openai-could-win-the-enterprise-game",
-      "pubDate": "2026-04-16T07:07:00.000Z",
-      "duration": "01:26:20",
-      "summary": "AGENDA: 00:00 — Anthropic Unveils Mythos: The Model \"Too Good at Hacking\" to Release 05:56 — Why Mythos is a Quantum Leap in Cyber Risk 10:11 — The \"Boy Who Cried Wolf\": Jason's Critique of Dario Amod",
-      "art": "https://static.libsyn.com/p/assets/8/7/2/5/87255511f72e20dbd959afa2a1bf1c87/WhatsApp_Image_2026-04-15_at_14.25.30.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -737,17 +660,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Worried",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-      "pubDate": "2026-04-14T09:24:00.000Z",
-      "duration": "01:08:49",
-      "summary": "Anj Midha is the founder of AMP, and a founding investor in Anthropic. Most recently, Anj was General Partner at Andreessen Horowitz, leading frontier AI investments. He serves on the boards of Mistra",
-      "art": "https://static.libsyn.com/p/assets/b/2/b/a/b2ba7adfaa361c08d959afa2a1bf1c87/anjney.png"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -781,17 +693,6 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Can you really do what you love?",
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5779993/can-you-really-do-what-you-love",
-      "pubDate": "2026-04-13T07:00:00.000Z",
-      "duration": "590",
-      "summary": "They say do what you love and you’ll never work a day in your life. But c’mon. Is that possible in this day and age? On today’s show, we speak to a tech investor who tells us the ingredients he believ",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F33%2F06%2F566a36434127a76c5196a925390a%2Ffebd2f7f-9e9b-4f45-b17a-60ef77bc988d.png"
-    },
-    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -801,17 +702,6 @@
       "duration": "14360",
       "summary": "Ferrari is the pinnacle of luxury scarcity — across its entire 79-year history, the company has sold just 330,000 cars at an average price today of $500,000. For context, Hermès sells that many Birkin",
       "art": "https://img.transistorcdn.com/0QGXNUgszcCY1ANfR29j6wYwABqNDaHjFNi3K5p7ZOw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yYjg2/ZjI2MTRkZGRhNWVl/ZjlkYjA2Zjg2ZWI0/NGVhZS5qcGc.jpg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Sales: ElevenLabs: Why We Set a 20x Sales Quota | How to Structure Sales Compensation Plans | Customer Success: 'Total BS' or Growth Engine? | Building an AI Sales Machine: What Tools & Tactics Must CROs Adopt Today with Carles Reina",
-      "link": "https://thetwentyminutevc.libsyn.com/20sales-elevenlabs-why-we-set-a-20x-sales-quota-how-to-structure-sales-compensation-plans-customer-success-total-bs-or-growth-engine-building-an-ai-sales-machine-what-tools-tactics-must-cros-adopt-today-with-carles-reina",
-      "pubDate": "2026-04-11T07:07:00.000Z",
-      "duration": "01:25:03",
-      "summary": "Carles Reina is VP of Sales at ElevenLabs, where he was the first investor and fourth employee. Carles has scaled the revenue org from Day 1 to over $350M in just 3 years. Carles is also an active inv",
-      "art": "https://static.libsyn.com/p/assets/8/6/e/b/86eb702d5ae2fdac16c3140a3186d450/WhatsApp_Image_2026-04-10_at_17.39.21.jpeg"
     },
     {
       "showId": "allin",
@@ -891,17 +781,6 @@
       "art": "https://megaphone.imgix.net/podcasts/3ae530aa-340b-11f1-a2fc-ff8c0ea5e298/image/ba7072ca8e4dac5cc07ae17a05eaf3f1.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising at $10BN & Doug Leone Returns to Sequoia",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-      "pubDate": "2026-04-09T07:07:00.000Z",
-      "duration": "01:27:16",
-      "summary": "AGENDA: 03:59 — Anthropic Surpasses OpenAI in Revenue 12:43 — OpenAI Management Reboot 18:24 — OpenAI Buys TBPN 29:00 — SpaceX Files for IPO Targeting $2 Trillion Valuation 37:21 — Doug Leone Returns ",
-      "art": "https://static.libsyn.com/p/assets/b/e/e/5/bee55635ba85ce4c16c3140a3186d450/WhatsApp_Image_2026-04-08_at_15.15.25.jpeg"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -946,17 +825,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: DeepMind's Demis Hassabis on Why AGI is Bigger than the Industrial Revolution | Why LLMs Will Not Commoditise & We Have Not Hit Scaling Laws | Bottlenecks in AI & The Energy Crisis Caused By AI | Whether AI Will Do More to Harm or Help Inequality",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-deepminds-demis-hassabis-on-why-agi-is-bigger-than-the-industrial-revolution-why-llms-will-not-commoditise-we-have-not-hit-scaling-laws-bottlenecks-in-ai-the-energy-crisis-caused-by-ai-whether-ai-will-do-more-to-harm-or-help-inequality",
-      "pubDate": "2026-04-07T07:07:00.000Z",
-      "duration": "35:49",
-      "summary": "Demis Hassabis is the Co-Founder & CEO of Google DeepMind - working on AGI, responsible for AI breakthroughs such as AlphaGo, the first program to beat the world champion at the game of Go; and AlphaF",
-      "art": "https://static.libsyn.com/p/assets/7/a/d/f/7adf461317d8c199d959afa2a1bf1c87/8ca44342-cdea-4c24-b7f8-68bc5d04e443.jpg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -966,17 +834,6 @@
       "duration": "01:09:22",
       "summary": "(0:00) Friedberg Intros Palantir's Shyam Sankar and Anduril's Trae Stephens (0:56) Palantir Origins: CIA Analyst Joins 20-Person Startup (2:54) War, Deterrence & Silicon Valley's Defense Tech Taboo (8",
       "art": "https://static.libsyn.com/p/assets/7/a/6/1/7a61a2a17e8bf93316c3140a3186d450/1_Pod_Palantir_Anduril.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Hims & Hers: $4.3BN Market Cap on $2.3BN of Revenue: The Comeback | Why Being Public is 10x Better | The Death of the \"Strategy\" Hire | Why Performance Marketing is Worse than Brand Marketing with Andrew Dudum",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-hims-hers-43bn-market-cap-on-23bn-of-revenue-the-comeback-why-being-public-is-10x-better-the-death-of-the-strategy-hire-why-performance-marketing-is-worse-than-brand-marketing-with-andrew-dudum",
-      "pubDate": "2026-04-04T09:25:00.000Z",
-      "duration": "59:18",
-      "summary": "Andrew Dudum is the Founder and CEO of Hims, the company reshaping consumers relationship to healthcare. It has been a rocky ride over the last 6 months, the company is down 66%, their market cap toda",
-      "art": "https://static.libsyn.com/p/assets/d/c/1/a/dc1acdcdb0434ba3d959afa2a1bf1c87/WhatsApp_Image_2026-04-02_at_16.24.17.jpeg"
     },
     {
       "showId": "allin",
@@ -1034,17 +891,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic's $6BN Revenue Month | OpenAI Kills Sora & Hits $100M ARR on Ads | Oura Going Public & Whoop Raises at $10BN | Manus Founders Trapped in China & The Billionaire Tax: Anyone Left in California?",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropics-6bn-revenue-month-openai-kills-sora-hits-100m-arr-on-ads-oura-going-public-whoop-raises-at-10bn-manus-founders-trapped-in-china-the-billionaire-tax-anyone-left-in-california",
-      "pubDate": "2026-04-02T08:55:00.000Z",
-      "duration": "01:09:36",
-      "summary": "AGENDA: 00:00 — Anthropic's Monster Month: 6 Billion in February Revenue 04:30 — The \"Claude Mythos\" Leak: 10 Trillion Parameters 11:50 — OpenAI Kills \"Sora\": A Massive Strategic Own Goal? 14:30 — Ope",
-      "art": "https://static.libsyn.com/p/assets/7/3/a/2/73a298c66ea9fe1f16c3140a3186d450/WhatsApp_Image_2026-04-01_at_12.30.24-20260402-l1el1ztj0c.jpeg"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1065,17 +911,6 @@
       "duration": "01:43:40",
       "summary": "- 导语 - 从北京到涠洲岛，从亚马逊雨林到更远的海域，李星宇带着录音设备和帆船，一次次把自己抛进自然。在涠洲岛，他和团队录下了700多段疑似布氏鲸的信号，也第一次意识到：鲸鱼的声音远不是人们想象中的「歌声」，它可能像牛蛙，也可能像蛤蟆，低沉、粗粝，却真实存在。海上的生活同样如此：他被风雨浇透，也在星空下独自值守；有时整日等待风向，有时又在失控的瞬间争分夺秒。航海改变了他对时间的感知——当鲸鱼浮出",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Marc Andreessen on The Future of Venture Capital: Will a16z Go Public | Why Labour Displacement with AI is Wrong | Why Introspection is Dangerous | Why \"Diamonds in the Rough\" is BS in VC | Why a16z Invested $300M into Adam Neumann",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-marc-andreessen-on-the-future-of-venture-capital-will-a16z-go-public-why-labour-displacement-with-ai-is-wrong-why-introspection-is-dangerous-why-diamonds-in-the-rough-is-bs-in-vc-why-a16z-invested-300m-into-adam-neumann",
-      "pubDate": "2026-03-30T07:07:00.000Z",
-      "duration": "01:12:16",
-      "summary": "Marc Andreessen is a Co-Founder and General Partner at Andreessen Horowitz. The firm now manages over $90BN and has invested in the likes of OpenAI, Airbnb, Coinbase, Anduril and many more. Marc is an",
-      "art": "https://static.libsyn.com/p/assets/7/e/a/f/7eaf721478e80376d959afa2a1bf1c87/WhatsApp_Image_2026-03-24_at_15.30.50.jpeg"
     },
     {
       "showId": "allin",
