@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-05T15:56:38.584Z",
+    "updatedAt": "2026-05-05T20:54:56.212Z",
     "totalEpisodes": 165,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2494 - Chamath Palihapitiya",
+      "link": "https://traffic.megaphone.fm/GLT8247158814.mp3?updated=1777998506",
+      "pubDate": "2026-05-05T17:00:00.000Z",
+      "duration": "10284",
+      "summary": "Chamath Palihapitiya is a venture capitalist, engineer, founder of Social Capital, and a co-host of the podcast “All-In.”www.youtube.com/@allinhttps://www.youtube.com/@chamathhttps://chamath.substack.",
+      "art": "https://megaphone.imgix.net/podcasts/468336ba-482d-11f1-ba09-2b315b76916a/image/20caedbdb66ee55e325f5aa52a38c891.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -812,17 +823,6 @@
       "duration": "1422",
       "summary": "London’s position as a global hub depends on staying competitive and preparing for rapid technological change. Sir Sadiq Khan, Mayor of London, joins Kunal Shah, co-chief executive officer of Goldman ",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2480 - Arsenio Hall",
-      "link": "https://traffic.megaphone.fm/GLT3162202677.mp3?updated=1776099580",
-      "pubDate": "2026-04-08T17:00:00.000Z",
-      "duration": "10691",
-      "summary": "Arsenio Hall is a comedian, producer, writer, and actor. He hosted “The Arsenio Hall Show” and has appeared in films including “Coming to America” and “Harlem Nights.” His new book, “Arsenio Hall: A M",
-      "art": "https://megaphone.imgix.net/podcasts/40c67136-32f4-11f1-8fff-17c75e7b3806/image/c431436ce2ac4d5b79fb3fb2e89e0a55.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "allin",
