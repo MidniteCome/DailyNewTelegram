@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-05T09:28:12.980Z",
+    "updatedAt": "2026-05-05T15:56:38.584Z",
     "totalEpisodes": 165,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "471 当江户幕府开始「性转」：漫画《大奥》的历史想象与权力书写",
+      "link": "https://www.xiaoyuzhoufm.com/episode/69f9ba3cf93890ea81422b32?utm_source=rss",
+      "pubDate": "2026-05-05T10:05:08.000Z",
+      "duration": "01:09:09",
+      "summary": "- 导语 - 如果一场只感染男性的疫情席卷日本，女性成为了家族继承人、政府官员和最高执政者，历史会怎样改写？漫画家吉永史用这样一个性转设定，在《大奥》中构建起一个架空的江户时代。大奥究竟是怎样一套制度？表、中奥与大奥之间，上演着怎样复杂精密的权力平衡？性转后的幕府，如何在外交中隐藏性别失衡的秘密？兰学医者又如何潜入大奥，试图攻克那场致命的疫情？本期节目请听王侃良与Nelly的分享！ - 本期话题成",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
     {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
@@ -1175,17 +1186,6 @@
       "duration": "01:31:11",
       "summary": "The Trump administration miscalculated how Iran would respond to this war. And the United States, Iran and Israel were brought to the brink of war in the first place because of a whole series of misju",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "继业者1918｜匈牙利摄政王霍尔蒂的两战沉浮：从奥匈帝国解体到踏上希特勒的战车",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69b3ca2db715a238c072c8cf?utm_source=rss",
-      "pubDate": "2026-03-13T08:55:20.000Z",
-      "duration": "00:03:00",
-      "summary": "- 导语 - 在两次世界大战之间的夹缝，匈牙利作为一个失去四分之三领土的内陆小国，却由一位「没有海军的海军将领」统治了二十余年。奥匈帝国的末代廷臣、海军将领霍尔蒂，如何从镇压红色革命的「白军」领袖，蜕变为匈牙利摄政王？一面镇压极右翼「箭十字党」，一面又与希特勒合作，这位独裁者如何在纳粹与苏联间周旋？东欧剧变后，他的历史又如何重塑现代匈牙利的自我认同？请听本期节目陆大鹏带来的精彩分享！ 《继业者19",
-      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
     },
     {
       "showId": "etw",
