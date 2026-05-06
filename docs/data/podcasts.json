@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-05-06T09:42:31.950Z",
-    "totalEpisodes": 180,
+    "updatedAt": "2026-05-06T16:03:56.927Z",
+    "totalEpisodes": 165,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/11f568857987283428d892402e623b21.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "art": null,
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -187,17 +187,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2494 - Chamath Palihapitiya",
-      "link": "https://traffic.megaphone.fm/GLT8247158814.mp3?updated=1777998506",
-      "pubDate": "2026-05-05T17:00:00.000Z",
-      "duration": "10284",
-      "summary": "Chamath Palihapitiya is a venture capitalist, engineer, founder of Social Capital, and a co-host of the podcast “All-In.”www.youtube.com/@allinhttps://www.youtube.com/@chamathhttps://chamath.substack.",
-      "art": "https://megaphone.imgix.net/podcasts/468336ba-482d-11f1-ba09-2b315b76916a/image/20caedbdb66ee55e325f5aa52a38c891.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -275,17 +264,6 @@
       "art": "https://static.libsyn.com/p/assets/b/1/8/6/b1862c7e177b0d2a16c3140a3186d450/1_Pod_E271.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2493 - Protect Our Parks 16",
-      "link": "https://traffic.megaphone.fm/GLT1105574712.mp3?updated=1777655527",
-      "pubDate": "2026-05-01T17:00:00.000Z",
-      "duration": "12206",
-      "summary": "Shane Gillis is the co-host of “Matt and Shane’s Secret Podcast,” a creator and star of Netflix’s comedy series “Tires,” and one half of the sketch comedy duo “Gilly and Keeves.” His most recent speci",
-      "art": "https://megaphone.imgix.net/podcasts/ae65c5d0-450e-11f1-9052-470cd9d9bdf0/image/dd575cf33376ac916a6e7e2d290d758a.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -306,17 +284,6 @@
       "duration": "535",
       "summary": "It’s Indicators of the Week (now on YouTube !). It’s our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: who wins and loses their Polymarket bets , an A",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Feb%2F62%2Fe0e05de343d292f0701a8a5e911a%2Fc8564dfc-725b-4325-ae0e-b5733ca3d409.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2492 - Ari Shaffir",
-      "link": "https://traffic.megaphone.fm/GLT1035374307.mp3?updated=1777566754",
-      "pubDate": "2026-04-30T17:00:00.000Z",
-      "duration": "9665",
-      "summary": "Ari Shaffir is a comedian, writer, and host of “You Be Trippin’.” His seven-episode live storytelling series, “The End,” is available now from YMH Studios.https://theend.ymhstudios.comwww.youtube.com/",
-      "art": "https://megaphone.imgix.net/podcasts/4ecd300a-443b-11f1-bc0d-0febb072d159/image/c4e5cfb867116b00ae3305b8d944b6c3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -352,17 +319,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2F67%2F7a7f3d9f45d3869c6ca760a5613a%2Fc4cbb373-d441-4a6f-aa96-79a400a09697.jpg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2491 - Brian Simpson",
-      "link": "https://traffic.megaphone.fm/GLT8544541239.mp3?updated=1777480862",
-      "pubDate": "2026-04-29T17:00:00.000Z",
-      "duration": "9470",
-      "summary": "Brian Simpson is a comedian, writer, host of the “Bottom of the Barrel” comedy show at The Comedy Mothership, and his own podcast, “BS with Brian Simpson.” His most recent special, “Live from The Come",
-      "art": "https://megaphone.imgix.net/podcasts/ada2b96e-436a-11f1-be06-7ff08097d2d1/image/6a5cbaf722d0e31ca328d2f0d6d93d14.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -383,17 +339,6 @@
       "duration": "560",
       "summary": "Iran’s weaponization of the Strait of Hormuz is the perfect example of how modern warfare is increasingly waged, not only with drones and bombs, but also through the weaponization of economic choke po",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdf%2F11%2Fc8b5580f41b494b6842816d8468d%2F78b5149f-a98b-47d7-a55c-e28b99e6f127.jpg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2490 - RZA",
-      "link": "https://traffic.megaphone.fm/GLT7621675173.mp3?updated=1777394383",
-      "pubDate": "2026-04-28T17:00:00.000Z",
-      "duration": "10648",
-      "summary": "RZA is a rapper, producer, composer, filmmaker, and founding member of the multimedia hip-hop collective and 2026 Rock and Roll Hall of Fame inductees The Wu-Tang Clan. His new film, “One Spoon of Cho",
-      "art": "https://megaphone.imgix.net/podcasts/f3a22480-428f-11f1-9c77-ffdfa7bd2815/image/28206bc6280c12251968697909c2b3f0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -484,17 +429,6 @@
       "art": "https://static.libsyn.com/p/assets/7/f/3/7/7f37881ac06392f216c3140a3186d450/1_Pod_E270.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2489 - Ryan Bingham",
-      "link": "https://traffic.megaphone.fm/GLT2851956686.mp3?updated=1777048261",
-      "pubDate": "2026-04-24T17:00:00.000Z",
-      "duration": "8866",
-      "summary": "Ryan Bingham is an actor and musician. See Ryan Bingham and the Texas Gentlemen on tour this year, and look for their next album, “They Call Us the Lucky Ones,” on May 15.www.youtube.com/@ryanbinghamw",
-      "art": "https://megaphone.imgix.net/podcasts/f4bbbb36-3f85-11f1-98f8-538a9d2d7656/image/82793664950f873bb92772673b09d987.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -526,17 +460,6 @@
       "duration": "562",
       "summary": "It’s Indicators of the Week, our weekly look at some of the most fascinating numbers from the news! And unlike florals for spring, these numbers ARE groundbreaking. On today’s episode: A dramatic SNAP",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2Fb5%2F84b98f0c4f2a9aa1f2ab85fa1b07%2F784e6faf-ee3a-4376-87a0-e26e92e95653.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2488 - James McCann",
-      "link": "https://traffic.megaphone.fm/GLT3044004164.mp3?updated=1776990977",
-      "pubDate": "2026-04-23T17:00:00.000Z",
-      "duration": "10328",
-      "summary": "James Donald Forbes McCann is a comedian, author, and host of “The James Donald Forbes McCann Catamaran Plan.” His latest special, “Island of Strangers,” is streaming on YouTube.https://youtu.be/7VfTq",
-      "art": "https://megaphone.imgix.net/podcasts/b76e32c6-3eb9-11f1-907c-8b28c04c10f1/image/b5ede2c730d1a03c5b1081efd76cc964.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -572,17 +495,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd3%2Fd1%2F84534d08496c81434ecd6618b21a%2F9be5a1da-664b-4c56-b6a8-56abde3feeba.jpg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2487 - Action Bronson",
-      "link": "https://traffic.megaphone.fm/GLT5505192695.mp3?updated=1776874815",
-      "pubDate": "2026-04-22T17:00:00.000Z",
-      "duration": "9594",
-      "summary": "Action Bronson is a musician, chef, artist, and host of “Fuck That’s Delicious.” His next album, “Planet Frog,” is expected later this year.www.youtube.com/@ActionBronsonMusicwww.actionbronson.com Per",
-      "art": "https://megaphone.imgix.net/podcasts/72c240ca-3df3-11f1-8e44-db5b3a3561aa/image/b12d3197ced3bb4496e3e74278913dda.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -592,17 +504,6 @@
       "duration": "551",
       "summary": "The global oil market has supported the U.S. dollar for more than 50 years. But the system has shown signs of cracking. Amidst the Iran war, Iran has reportedly been collecting some tolls in yuan. Tod",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4d%2Ff5%2Fe232e72a492f869c92f0f88746a1%2Fd4b0aa0a-1327-4d1c-b19d-bc6fa4e7982f.jpg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2486 - Luis J Gomez",
-      "link": "https://traffic.megaphone.fm/GLT5826228201.mp3?updated=1776789151",
-      "pubDate": "2026-04-21T17:00:00.000Z",
-      "duration": "10029",
-      "summary": "Luis J. Gomez is a comedian, writer, and producer. He co-hosts “Legion of Skanks,” “The Regz,” “Story Warz,” and “Real Ass Podcast.” His new book, “Knives & Spoons: A Memoir,” is available now.www.sim",
-      "art": "https://megaphone.imgix.net/podcasts/eb72adac-3d3f-11f1-8058-fb9d026dcf8f/image/f629ba8eb9484b28519e370904fdc919.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -682,17 +583,6 @@
       "art": "https://static.libsyn.com/p/assets/4/a/4/7/4a47e010a4064246d959afa2a1bf1c87/1_Pod_E269.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2485 - John Fogerty",
-      "link": "https://traffic.megaphone.fm/GLT1846702753.mp3?updated=1776435206",
-      "pubDate": "2026-04-17T17:00:00.000Z",
-      "duration": "9939",
-      "summary": "John Fogerty is a Grammy-winning solo musician, former leader of Creedence Clearwater Revival, and an inductee of the Rock & Roll Hall of Fame and the Songwriters Hall of Fame. His latest album is “Le",
-      "art": "https://megaphone.imgix.net/podcasts/90196f1e-3a19-11f1-bbe7-032d1a4ac003/image/9a4e4683c4b54445cb73a8257432c24b.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -724,17 +614,6 @@
       "duration": "565",
       "summary": "It’s Indicators of the Week. Our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: the drama behind the Fed Chair nominee’s wealth; the shoe company Allbi",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc4%2Ff7%2F88e0018c4376bcf47a36b7f3d436%2F8630b577-73af-4e2b-a861-24a1b2ae33a8.jpg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2484 - David Cross",
-      "link": "https://traffic.megaphone.fm/GLT8435055211.mp3?updated=1776472896",
-      "pubDate": "2026-04-16T17:00:00.000Z",
-      "duration": "8910",
-      "summary": "David Cross is a comedian, actor, writer, producer, and host of “Senses Working Overtime.” His latest special, “The End of the Beginning of the End,” is streaming on YouTube.https://youtu.be/OfqMkJwVg",
-      "art": "https://megaphone.imgix.net/podcasts/5c082256-3951-11f1-9752-f7424aaf0f13/image/d6803b7b08e22101e9aaa8a6d1a7e330.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -770,17 +649,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F52%2Fa3%2Faa84bb3d4ddbb49a485c6c72653d%2Fb18ed163-71cb-4513-8e98-62f936759b35.jpg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2483 - Spencer Pratt",
-      "link": "https://traffic.megaphone.fm/GLT3041224181.mp3?updated=1776269139",
-      "pubDate": "2026-04-15T17:00:00.000Z",
-      "duration": "7552",
-      "summary": "Spencer Pratt is an entrepreneur, author, candidate for the office of Mayor of Los Angeles, and co-host of “The Fame Game” with his wife, Heidi Montag. His new memoir, “The Guy You Loved to Hate: Conf",
-      "art": "https://megaphone.imgix.net/podcasts/38a3909a-3869-11f1-94ee-8396fbb7a87c/image/b2009e27fff0e3ea17c1bc3f52350503.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -790,17 +658,6 @@
       "duration": "01:19:55",
       "summary": "【主播的话】 纽约是一座很难被描述的城市。无数人尝试过，但它从来没有一个统一的叙事。它脏、贵、吵、危险——混杂、流动、没有主人。但它同时又是很多人一生中感到最不孤独的地方。 它也是全球大城市中少数几个，让你感觉到它是在\"被人经营\"、而不是\"被人管理\"的地方。居民、地主、开发商、社区组织，每个人都在用自己的方式塑造它。 比如，纽约的房价贵得离谱——有一半的纽约人，把三分之一的税前工资交给了房东。但与",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2482 - Andy Stumpf",
-      "link": "https://traffic.megaphone.fm/GLT3680007995.mp3?updated=1776185129",
-      "pubDate": "2026-04-14T17:00:00.000Z",
-      "duration": "9579",
-      "summary": "Andy Stumpf is a retired Navy SEAL, entrepreneur, record-holding wingsuiter, and host of “Cleared Hot” and “Change Agents.” His new book, “Drownproof: Eight Life Lessons to Keep Your Head Above Water,",
-      "art": "https://megaphone.imgix.net/podcasts/41cef8ec-37a3-11f1-83cc-6fb93667ce7f/image/19a531a9d124570807bc495f6a1bed44.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -880,17 +737,6 @@
       "art": "https://static.libsyn.com/p/assets/9/3/b/3/93b381a492da6d06d959afa2a1bf1c87/1_Pod_E268-20260410-lusrx3kb2k.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "JRE MMA Show #177 - Protect Ya Neck",
-      "link": "https://traffic.megaphone.fm/GLT7244998855.mp3?updated=1775829921",
-      "pubDate": "2026-04-10T17:00:00.000Z",
-      "duration": "11303",
-      "summary": "Joe is joined by mixed martial artists John Rallo, Matt Serra, and Din Thomas.John Rallo owns Shogun Fights and is the owner and head coach at Ground Control Mixed Martial Arts Academy.www.groundcontr",
-      "art": "https://megaphone.imgix.net/podcasts/07615520-3487-11f1-a651-832d3537b146/image/100db81302172a0484121b396a9654be.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -933,17 +779,6 @@
       "duration": "2:09:56",
       "summary": "Lars Brownworth is a historian, teacher, podcaster, and author specializing in Viking history, medieval Europe, and the Byzantine Empire. Thank you for listening ❤ Check out our sponsors: https://lexf",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2481 - Duncan Trussell",
-      "link": "https://traffic.megaphone.fm/GLT3393412202.mp3?updated=1775753732",
-      "pubDate": "2026-04-09T17:00:00.000Z",
-      "duration": "11574",
-      "summary": "Duncan Trussell is a stand-up comedian, voice actor, and host of “The Duncan Trussell Family Hour.” He will perform live April 9–11 at Zanies Comedy Club Rosemont in Rosemont, Illinois. Tickets are on",
-      "art": "https://megaphone.imgix.net/podcasts/3ae530aa-340b-11f1-a2fc-ff8c0ea5e298/image/ba7072ca8e4dac5cc07ae17a05eaf3f1.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
