@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-08T15:27:34.467Z",
+    "updatedAt": "2026-05-08T20:49:25.338Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2496 - Julia Mossbridge",
+      "link": "https://traffic.megaphone.fm/GLT4115426558.mp3?updated=1778259761",
+      "pubDate": "2026-05-08T17:00:00.000Z",
+      "duration": "10092",
+      "summary": "Julia Mossbridge, PhD, is a cognitive neuroscientist, author, and educator. She is the founder and president of American Electrodynamics, the co-founder and chief science officer of The Institute for ",
+      "art": "https://megaphone.imgix.net/podcasts/4b891a70-4a7c-11f1-bb87-5bc29315a15e/image/cc4515b6ca5b07e4016effb6cac2d5ee.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -856,17 +867,6 @@
       "duration": "01:19:55",
       "summary": "【主播的话】 纽约是一座很难被描述的城市。无数人尝试过，但它从来没有一个统一的叙事。它脏、贵、吵、危险——混杂、流动、没有主人。但它同时又是很多人一生中感到最不孤独的地方。 它也是全球大城市中少数几个，让你感觉到它是在\"被人经营\"、而不是\"被人管理\"的地方。居民、地主、开发商、社区组织，每个人都在用自己的方式塑造它。 比如，纽约的房价贵得离谱——有一半的纽约人，把三分之一的税前工资交给了房东。但与",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2482 - Andy Stumpf",
-      "link": "https://traffic.megaphone.fm/GLT3680007995.mp3?updated=1776185129",
-      "pubDate": "2026-04-14T17:00:00.000Z",
-      "duration": "9579",
-      "summary": "Andy Stumpf is a retired Navy SEAL, entrepreneur, record-holding wingsuiter, and host of “Cleared Hot” and “Change Agents.” His new book, “Drownproof: Eight Life Lessons to Keep Your Head Above Water,",
-      "art": "https://megaphone.imgix.net/podcasts/41cef8ec-37a3-11f1-83cc-6fb93667ce7f/image/19a531a9d124570807bc495f6a1bed44.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
