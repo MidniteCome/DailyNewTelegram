@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-05-12T16:24:47.464Z",
-    "totalEpisodes": 165,
+    "updatedAt": "2026-05-12T21:10:14.727Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": null,
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/960dbd4db6da0505f83006c5b4136fd6.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2497 - Gad Saad",
+      "link": "https://traffic.megaphone.fm/GLT9625231635.mp3?updated=1778602743",
+      "pubDate": "2026-05-12T17:00:00.000Z",
+      "duration": "9768",
+      "summary": "Gad Saad, PhD, is an evolutionary behavioral scientist, a professor of marketing at Concordia University, and host of “The Saad Truth.” His new book, “Suicidal Empathy: Dying to Be Kind,” is available",
+      "art": "https://megaphone.imgix.net/podcasts/e306b85e-4deb-11f1-93b5-733d950b1692/image/07e9f9771d17478a44000bc0bfb0efb7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -253,6 +264,17 @@
       "art": "https://static.libsyn.com/p/assets/c/4/4/d/c44ded9277e66f66d959afa2a1bf1c87/1_Pod_E272.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2496 - Julia Mossbridge",
+      "link": "https://traffic.megaphone.fm/GLT4115426558.mp3?updated=1778288535",
+      "pubDate": "2026-05-08T17:00:00.000Z",
+      "duration": "10092",
+      "summary": "Julia Mossbridge, PhD, is a cognitive neuroscientist, author, and educator. She is the founder and president of American Electrodynamics, the co-founder and chief science officer of Applied Love Labs,",
+      "art": "https://megaphone.imgix.net/podcasts/4b891a70-4a7c-11f1-bb87-5bc29315a15e/image/cc4515b6ca5b07e4016effb6cac2d5ee.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -284,6 +306,17 @@
       "duration": "01:13:57",
       "summary": "Here’s a shocking number: One out of eight American adults is taking a GLP-1, like Ozempic or Zepbound, according to a KFF poll. GLP-1s are the biggest pharmaceutical story since antidepressants. But ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2495 - Tim Burchett",
+      "link": "https://traffic.megaphone.fm/GLT4340239159.mp3?updated=1778171703",
+      "pubDate": "2026-05-07T17:00:00.000Z",
+      "duration": "9389",
+      "summary": "Tim Burchett represents Tennessee’s 2nd District and is a member of the Republican Party. Rep. Burchett is a member of the UAP Caucus, chairman of the DOGE Subcommittee, and serves on the House Commit",
+      "art": "https://megaphone.imgix.net/podcasts/8e7ce89a-49d5-11f1-87a7-fbdab5dea703/image/d76f46a926ed9bb5c5b0eb9189a90f40.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
@@ -319,6 +352,17 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #178 with Dan Hardy",
+      "link": "https://traffic.megaphone.fm/GLT6608842902.mp3?updated=1778084286",
+      "pubDate": "2026-05-06T17:00:00.000Z",
+      "duration": "10355",
+      "summary": "Joe sits down with Dan Hardy, a mixed martial artist, host of the “Full Reptile” podcast, and commentator for the Professional Fighters League.www.youtube.com/@DanHardyFRwww.pflmma.com Perplexity: Dow",
+      "art": "https://megaphone.imgix.net/podcasts/a49891a2-4902-11f1-ba85-fb40caef1595/image/f7dd029b6676e5d0bfc590c225c85340.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -339,6 +383,17 @@
       "duration": "01:03:52",
       "summary": "【主播的话】 去年一个偶然的机会，我在纽约认识了高琴教授，还发现我们是邻居。 在那之前，我已经对高琴教授的有所耳闻。她是著作丰硕的社会政策学者，在哥伦比亚大学社会工作学院任教，是讲席教授，同时担任博士项目主管副院长，以研究中国贫困问题见长。她常年组织大规模的社会调查，用数据来研究贫困的根源、影响与政策应对。她同时还是哥大“亚裔美国人”项目主任。在哥大——一个竞争激烈、精英云集、以全球化和多元化闻名",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2494 - Chamath Palihapitiya",
+      "link": "https://traffic.megaphone.fm/GLT8247158814.mp3?updated=1777998506",
+      "pubDate": "2026-05-05T17:00:00.000Z",
+      "duration": "10284",
+      "summary": "Chamath Palihapitiya is a venture capitalist, engineer, founder of Social Capital, and a co-host of the podcast “All-In.”www.youtube.com/@allinhttps://www.youtube.com/@chamathhttps://chamath.substack.",
+      "art": "https://megaphone.imgix.net/podcasts/468336ba-482d-11f1-ba09-2b315b76916a/image/20caedbdb66ee55e325f5aa52a38c891.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -418,6 +473,17 @@
       "art": "https://static.libsyn.com/p/assets/b/1/8/6/b1862c7e177b0d2a16c3140a3186d450/1_Pod_E271.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2493 - Protect Our Parks 16",
+      "link": "https://traffic.megaphone.fm/GLT1105574712.mp3?updated=1777655527",
+      "pubDate": "2026-05-01T17:00:00.000Z",
+      "duration": "12206",
+      "summary": "Shane Gillis is the co-host of “Matt and Shane’s Secret Podcast,” a creator and star of Netflix’s comedy series “Tires,” and one half of the sketch comedy duo “Gilly and Keeves.” His most recent speci",
+      "art": "https://megaphone.imgix.net/podcasts/ae65c5d0-450e-11f1-9052-470cd9d9bdf0/image/dd575cf33376ac916a6e7e2d290d758a.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -438,6 +504,17 @@
       "duration": "535",
       "summary": "It’s Indicators of the Week (now on YouTube !). It’s our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: who wins and loses their Polymarket bets , an A",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Feb%2F62%2Fe0e05de343d292f0701a8a5e911a%2Fc8564dfc-725b-4325-ae0e-b5733ca3d409.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2492 - Ari Shaffir",
+      "link": "https://traffic.megaphone.fm/GLT1035374307.mp3?updated=1777566754",
+      "pubDate": "2026-04-30T17:00:00.000Z",
+      "duration": "9665",
+      "summary": "Ari Shaffir is a comedian, writer, and host of “You Be Trippin’.” His seven-episode live storytelling series, “The End,” is available now from YMH Studios.https://theend.ymhstudios.comwww.youtube.com/",
+      "art": "https://megaphone.imgix.net/podcasts/4ecd300a-443b-11f1-bc0d-0febb072d159/image/c4e5cfb867116b00ae3305b8d944b6c3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -473,6 +550,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2F67%2F7a7f3d9f45d3869c6ca760a5613a%2Fc4cbb373-d441-4a6f-aa96-79a400a09697.jpg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2491 - Brian Simpson",
+      "link": "https://traffic.megaphone.fm/GLT8544541239.mp3?updated=1777480862",
+      "pubDate": "2026-04-29T17:00:00.000Z",
+      "duration": "9470",
+      "summary": "Brian Simpson is a comedian, writer, host of the “Bottom of the Barrel” comedy show at The Comedy Mothership, and his own podcast, “BS with Brian Simpson.” His most recent special, “Live from The Come",
+      "art": "https://megaphone.imgix.net/podcasts/ada2b96e-436a-11f1-be06-7ff08097d2d1/image/6a5cbaf722d0e31ca328d2f0d6d93d14.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -493,6 +581,17 @@
       "duration": "560",
       "summary": "Iran’s weaponization of the Strait of Hormuz is the perfect example of how modern warfare is increasingly waged, not only with drones and bombs, but also through the weaponization of economic choke po",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdf%2F11%2Fc8b5580f41b494b6842816d8468d%2F78b5149f-a98b-47d7-a55c-e28b99e6f127.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2490 - RZA",
+      "link": "https://traffic.megaphone.fm/GLT7621675173.mp3?updated=1777394383",
+      "pubDate": "2026-04-28T17:00:00.000Z",
+      "duration": "10648",
+      "summary": "RZA is a rapper, producer, composer, filmmaker, and founding member of the multimedia hip-hop collective and 2026 Rock and Roll Hall of Fame inductees The Wu-Tang Clan. His new film, “One Spoon of Cho",
+      "art": "https://megaphone.imgix.net/podcasts/f3a22480-428f-11f1-9c77-ffdfa7bd2815/image/28206bc6280c12251968697909c2b3f0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -583,6 +682,17 @@
       "art": "https://static.libsyn.com/p/assets/7/f/3/7/7f37881ac06392f216c3140a3186d450/1_Pod_E270.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2489 - Ryan Bingham",
+      "link": "https://traffic.megaphone.fm/GLT2851956686.mp3?updated=1777048261",
+      "pubDate": "2026-04-24T17:00:00.000Z",
+      "duration": "8866",
+      "summary": "Ryan Bingham is an actor and musician. See Ryan Bingham and the Texas Gentlemen on tour this year, and look for their next album, “They Call Us the Lucky Ones,” on May 15.www.youtube.com/@ryanbinghamw",
+      "art": "https://megaphone.imgix.net/podcasts/f4bbbb36-3f85-11f1-98f8-538a9d2d7656/image/82793664950f873bb92772673b09d987.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -614,6 +724,17 @@
       "duration": "562",
       "summary": "It’s Indicators of the Week, our weekly look at some of the most fascinating numbers from the news! And unlike florals for spring, these numbers ARE groundbreaking. On today’s episode: A dramatic SNAP",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2Fb5%2F84b98f0c4f2a9aa1f2ab85fa1b07%2F784e6faf-ee3a-4376-87a0-e26e92e95653.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2488 - James McCann",
+      "link": "https://traffic.megaphone.fm/GLT3044004164.mp3?updated=1776990977",
+      "pubDate": "2026-04-23T17:00:00.000Z",
+      "duration": "10328",
+      "summary": "James Donald Forbes McCann is a comedian, author, and host of “The James Donald Forbes McCann Catamaran Plan.” His latest special, “Island of Strangers,” is streaming on YouTube.https://youtu.be/7VfTq",
+      "art": "https://megaphone.imgix.net/podcasts/b76e32c6-3eb9-11f1-907c-8b28c04c10f1/image/b5ede2c730d1a03c5b1081efd76cc964.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -649,6 +770,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd3%2Fd1%2F84534d08496c81434ecd6618b21a%2F9be5a1da-664b-4c56-b6a8-56abde3feeba.jpg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2487 - Action Bronson",
+      "link": "https://traffic.megaphone.fm/GLT5505192695.mp3?updated=1776874815",
+      "pubDate": "2026-04-22T17:00:00.000Z",
+      "duration": "9594",
+      "summary": "Action Bronson is a musician, chef, artist, and host of “Fuck That’s Delicious.” His next album, “Planet Frog,” is expected later this year.www.youtube.com/@ActionBronsonMusicwww.actionbronson.com Per",
+      "art": "https://megaphone.imgix.net/podcasts/72c240ca-3df3-11f1-8e44-db5b3a3561aa/image/b12d3197ced3bb4496e3e74278913dda.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -658,6 +790,17 @@
       "duration": "551",
       "summary": "The global oil market has supported the U.S. dollar for more than 50 years. But the system has shown signs of cracking. Amidst the Iran war, Iran has reportedly been collecting some tolls in yuan. Tod",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4d%2Ff5%2Fe232e72a492f869c92f0f88746a1%2Fd4b0aa0a-1327-4d1c-b19d-bc6fa4e7982f.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2486 - Luis J Gomez",
+      "link": "https://traffic.megaphone.fm/GLT5826228201.mp3?updated=1776789151",
+      "pubDate": "2026-04-21T17:00:00.000Z",
+      "duration": "10029",
+      "summary": "Luis J. Gomez is a comedian, writer, and producer. He co-hosts “Legion of Skanks,” “The Regz,” “Story Warz,” and “Real Ass Podcast.” His new book, “Knives & Spoons: A Memoir,” is available now.www.sim",
+      "art": "https://megaphone.imgix.net/podcasts/eb72adac-3d3f-11f1-8058-fb9d026dcf8f/image/f629ba8eb9484b28519e370904fdc919.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -715,6 +858,17 @@
       "art": "https://static.libsyn.com/p/assets/4/a/4/7/4a47e010a4064246d959afa2a1bf1c87/1_Pod_E269.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2485 - John Fogerty",
+      "link": "https://traffic.megaphone.fm/GLT1846702753.mp3?updated=1776435206",
+      "pubDate": "2026-04-17T17:00:00.000Z",
+      "duration": "9939",
+      "summary": "John Fogerty is a Grammy-winning solo musician, former leader of Creedence Clearwater Revival, and an inductee of the Rock & Roll Hall of Fame and the Songwriters Hall of Fame. His latest album is “Le",
+      "art": "https://megaphone.imgix.net/podcasts/90196f1e-3a19-11f1-bbe7-032d1a4ac003/image/9a4e4683c4b54445cb73a8257432c24b.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -735,6 +889,17 @@
       "duration": "01:05:45",
       "summary": "Jeff Bezos, Michael Bloomberg and Warren Buffett are three of the richest people in the world, but they pay little in income tax relative to their wealth. In 2021, ProPublica published an investigatio",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2484 - David Cross",
+      "link": "https://traffic.megaphone.fm/GLT8435055211.mp3?updated=1776472896",
+      "pubDate": "2026-04-16T17:00:00.000Z",
+      "duration": "8910",
+      "summary": "David Cross is a comedian, actor, writer, producer, and host of “Senses Working Overtime.” His latest special, “The End of the Beginning of the End,” is streaming on YouTube.https://youtu.be/OfqMkJwVg",
+      "art": "https://megaphone.imgix.net/podcasts/5c082256-3951-11f1-9752-f7424aaf0f13/image/d6803b7b08e22101e9aaa8a6d1a7e330.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
