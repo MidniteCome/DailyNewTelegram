@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-11T21:10:58.658Z",
+    "updatedAt": "2026-05-12T10:05:01.190Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/11f568857987283428d892402e623b21.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/960dbd4db6da0505f83006c5b4136fd6.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "472 港英「政治部」轶闻：冷战前线的谍都香港与英国殖民地情报网",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a02efd51b7bd50295fed4de?utm_source=rss",
+      "pubDate": "2026-05-12T09:53:57.000Z",
+      "duration": "01:24:10",
+      "summary": "- 导语 - 《寒战1994》的热映，让港英时代一个特殊部门走入公众视野。它在编制上隶属香港警队，事务上却直接听命于英国军情五处，这便是「政治部」。起源于19世纪末苏格兰场应对爱尔兰独立运动的特别分部，「政治部」如何借鉴上海公共租界经验，依托殖民体系搭建远东情报网络？从应对码头工运、监控国共博弈，到冷战时期成为窥探内地的情报窗口，港英「政治部」的核心职能究竟是什么？临近九七，政治部的解散如何呼应了",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "I Have Some Questions for the Democrats Who Want to Run California",
+      "link": "https://www.nytimes.com/2026/05/08/opinion/ezra-klein-podcast-housing-forum.html",
+      "pubDate": "2026-05-12T09:00:00.000Z",
+      "duration": "01:32:28",
+      "summary": "On Friday, I moderated a forum with the top Democratic candidates for California governor, focusing on the state’s housing crisis. California’s current governor, Gavin Newsom, came into office in 2019",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Prediction markets are threatening national security. Who's gonna fix it?",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5818480/prediction-markets-are-threatening-national-security-whos-gonna-fix-it",
+      "pubDate": "2026-05-12T07:00:00.000Z",
+      "duration": "534",
+      "summary": "It’s the Wild West of online betting. Prediction markets have been plagued by insider trading allegations, ethical questions and even national security concerns. Today on the show, what are sites like",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2Fea%2Fef7433104bb892f93b593df109fe%2F1781e9f8-1814-42c5-9a1d-64c1e5b4ac35.jpg"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -781,17 +814,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Corporate landlords aren't the real villain",
-      "link": "https://www.npr.org/2026/04/21/nx-s1-5792868/corporate-landlords-arent-the-real-villain",
-      "pubDate": "2026-04-21T07:05:02.000Z",
-      "duration": "519",
-      "summary": "So you want to buy a house. You MIGHT notice that the owner isn’t a neighbor in your town, but a large corporation. A recent housing bill that passed the Senate wants to change that. This bill would r",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fac%2Feb%2F62e184ae4ecd90c4e59d925ccb97%2F28f0a4fe-6f5b-4136-8346-a71801de6174.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1309,17 +1331,6 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "继业者1918｜伊本·沙特的崛起之路：从沙漠争霸到现代石油王国",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69bd0f8a2d318777c9e2125c?utm_source=rss",
-      "pubDate": "2026-03-20T09:56:29.000Z",
-      "duration": "00:03:00",
-      "summary": "- 导语 - 位于东西方文明交汇处的阿拉伯半岛，从帝国夹缝的边陲逐渐成为全球博弈的中心。从在古罗马和波斯间的反复横跳，到近代与奥斯曼和英国人周旋，生存与发育始终是这片土地的法则。一代传奇伊本·沙特以数十骑夜袭利雅得为开端，借助瓦哈比派的力量逐步统一内陆，在第一次世界大战奥斯曼帝国崩溃的乱局中异军突起，击败诸多对手称霸半岛，最终依托石油财富建立起延续至今的沙特王国。他是如何利用地缘机遇扩张势力，又在",
-      "art": "https://image.xyzcdn.net/FoiN_dWq9q3K2piqq_dEZ7ypSIpp.png"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1406,17 +1417,6 @@
       "duration": null,
       "summary": "Jeff Kaplan is a legendary Blizzard game designer of World of Warcraft and Overwatch, now preparing to launch a new game, The Legend of California, from his new studio Kintsugiyama available to wishli",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "I Asked a Former Trump Official to Justify This War",
-      "link": "https://www.nytimes.com/2026/03/10/opinion/ezra-klein-podcast-nadia-schadlow.html",
-      "pubDate": "2026-03-10T09:00:00.000Z",
-      "duration": "01:00:46",
-      "summary": "I’m opposed to this war. The Trump administration did not consult the American public or try to persuade Congress before authorizing the strikes on Iran. I don’t think the administration is prepared f",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "weirdo",
