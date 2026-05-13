@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-12T21:10:14.727Z",
+    "updatedAt": "2026-05-13T10:04:13.676Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,14 +165,36 @@
   ],
   "episodes": [
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Should NATO be pay-to-protect?",
+      "link": "https://www.npr.org/2026/05/13/nx-s1-5819871/should-nato-be-pay-to-protect",
+      "pubDate": "2026-05-13T07:00:00.000Z",
+      "duration": "555",
+      "summary": "NATO was formed after World War 2 as a collective security alliance that would prevent future world wars. But President Trump sees NATO more like a transaction between countries where allies have to p",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ffd%2Faa%2Fba94b5b74ad38691f53dffb249e4%2Fc3efc586-e563-41d6-8278-ae194d604221.jpg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Charles & Chase Koch on How They Quietly Built a $150B Empire",
+      "link": "https://allinchamathjason.libsyn.com/charles-chase-koch-on-how-they-quietly-built-a-150b-empire",
+      "pubDate": "2026-05-12T21:03:00.000Z",
+      "duration": "01:35:27",
+      "summary": "(0:00) David Friedberg welcomes Charles & Chase Koch (1:04) Koch Inc. Overview: Scale, Business Lines & History (2:21) Building the Business: Early Days & Charles Koch Joins (1961) (11:31) Failures, C",
+      "art": "https://static.libsyn.com/p/assets/0/a/f/e/0afe1ed26eaee8a516c3140a3186d450/1_Koch_Pod.png"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
       "title": "#2497 - Gad Saad",
-      "link": "https://traffic.megaphone.fm/GLT9625231635.mp3?updated=1778602743",
+      "link": "https://traffic.megaphone.fm/GLT9625231635.mp3?updated=1778626262",
       "pubDate": "2026-05-12T17:00:00.000Z",
       "duration": "9768",
-      "summary": "Gad Saad, PhD, is an evolutionary behavioral scientist, a professor of marketing at Concordia University, and host of “The Saad Truth.” His new book, “Suicidal Empathy: Dying to Be Kind,” is available",
+      "summary": "Dr. Gad Saad is a scholar at the Declaration of Independence Center for the Study of American Freedom at the University of Mississippi and host of “The Saad Truth.” His new book, “Suicidal Empathy: Dy",
       "art": "https://megaphone.imgix.net/podcasts/e306b85e-4deb-11f1-93b5-733d950b1692/image/07e9f9771d17478a44000bc0bfb0efb7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
@@ -781,17 +803,6 @@
       "art": "https://megaphone.imgix.net/podcasts/72c240ca-3df3-11f1-8e44-db5b3a3561aa/image/b12d3197ced3bb4496e3e74278913dda.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "The Iran war puts the petrodollar regime to the test",
-      "link": "https://www.npr.org/2026/04/22/nx-s1-5794608/the-iran-war-puts-the-petrodollar-regime-to-the-test",
-      "pubDate": "2026-04-22T07:05:02.000Z",
-      "duration": "551",
-      "summary": "The global oil market has supported the U.S. dollar for more than 50 years. But the system has shown signs of cracking. Amidst the Iran war, Iran has reportedly been collecting some tolls in yuan. Tod",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4d%2Ff5%2Fe232e72a492f869c92f0f88746a1%2Fd4b0aa0a-1327-4d1c-b19d-bc6fa4e7982f.jpg"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1340,17 +1351,6 @@
       "duration": "01:20:04",
       "summary": "Naomi Klein saw where our politics was headed before most people on the left. Her 2023 book “Doppelganger: A Trip Into the Mirror World” is hard to describe. But among other things, it traces the new ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Jensen Huang LIVE: Nvidia's Future, Physical AI, Rise of the Agent, Inference Explosion, AI PR Crisis",
-      "link": "https://allinchamathjason.libsyn.com/jensen-huang-live-nvidias-future-physical-ai-rise-of-the-agent-inference-explosion-ai-pr-crisis",
-      "pubDate": "2026-03-19T20:42:00.000Z",
-      "duration": "01:06:06",
-      "summary": "(0:00) Jensen Huang joins the show! (0:26) Acquiring Groq and the inference explosion (8:53) Decision making at the world's most valuable company (10:47) Physical AI's $50T market, OpenClaw's future, ",
-      "art": "https://static.libsyn.com/p/assets/5/e/7/0/5e700e85441bf0e216c3140a3186d450/1_Pod_Jensen.png"
     },
     {
       "showId": "etw",
