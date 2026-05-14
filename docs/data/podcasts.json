@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-13T21:18:38.456Z",
+    "updatedAt": "2026-05-14T09:56:21.099Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#388 从铁路大亨到科技巨头：镀金时代的喧嚣与困境，正在重演吗？",
+      "link": "http://etw.fm/2209",
+      "pubDate": "2026-05-14T08:00:00.000Z",
+      "duration": "1:03:14",
+      "summary": "铁路、钢铁、石油 —— 150年前，一批工业大亨用这些东西重塑了美国。今天，换成了算法、平台和 AI，历史的剧情，是否真的在重演？ 19 世纪末，跨大陆铁路的出现彻底改变了美国：统一的市场、标准时区、现代公司制度、金融市场的崛起，还有财富向少数人的剧烈集中。那是一个被称为「镀金时代」的年代 —— 表面金光闪闪，内里却也有赤裸裸的政商勾连、劳工剥削，以及一场迟来的社会反弹。它最终推动了反垄断立法、参",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Anthropic Buys Compute From Elon & Commits $200BN to Google | Cerebras IPO: The Breakdown | Ramp's $40BN Latest Valuation | Hubspot Tanks, Monday Rockets: WTF is Happening in Public Markets",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-buys-compute-from-elon-commits-200bn-to-google-cerebras-ipo-the-breakdown-ramps-40bn-latest-valuation-hubspot-tanks-monday-rockets-wtf-is-happening-in-public-markets",
+      "pubDate": "2026-05-14T07:07:00.000Z",
+      "duration": "01:18:25",
+      "summary": "AGENDA: 00:05:11 — Anthropic freezes secondary sales, requiring board approval for all transfers. 00:10:45 — Why Anthropic is buying capacity from Elon Musk. 00:15:35 — Anthropic's massive $200B reven",
+      "art": "https://static.libsyn.com/p/assets/6/e/3/8/6e38a44866cc579f16c3140a3186d450/WhatsApp_Image_2026-05-13_at_14.07.02.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "How Trump's central bank beef could hurt the economy",
+      "link": "https://www.npr.org/2026/05/14/nx-s1-5821650/how-trumps-central-bank-beef-could-hurt-the-economy",
+      "pubDate": "2026-05-14T07:00:05.000Z",
+      "duration": "569",
+      "summary": "A new documentary from Frontline PBS, called “The President vs. the Fed”, helps us make sense of the unprecedented power struggle between the world’s most powerful politician and the world’s most powe",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F8d%2F043fbfc2489cb9a9c79a1f9b5f7c%2F9709f87a-2b29-46b8-b403-14aa2929316a.jpg"
+    },
     {
       "showId": "talksat",
       "showName": "Talks at GS",
@@ -803,17 +836,6 @@
       "art": "https://static.libsyn.com/p/assets/5/1/7/c/517cd13aaa0347fb16c3140a3186d450/WhatsApp_Image_2026-04-22_at_16.12.18.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "How to get your tariff cash back",
-      "link": "https://www.npr.org/2026/04/23/nx-s1-5795914/how-to-get-your-tariff-cash-back",
-      "pubDate": "2026-04-23T07:00:00.000Z",
-      "duration": "566",
-      "summary": "Businesses might finally see some tariff money refunded to them. That’s because this week, the federal government officially rolled out a process that allows businesses to apply for a refund. Today on",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd3%2Fd1%2F84534d08496c81434ecd6618b21a%2F9be5a1da-664b-4c56-b6a8-56abde3feeba.jpg"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1076,17 +1098,6 @@
       "duration": "2:09:56",
       "summary": "Lars Brownworth is a historian, teacher, podcaster, and author specializing in Viking history, medieval Europe, and the Byzantine Empire. Thank you for listening ❤ Check out our sponsors: https://lexf",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Surpasses OpenAI Revenue | OpenAI Acquisition of TBPN: Analysed | OpenAI Management Team Reboot | YC Kicks Delve Out | Mercor Hack and Why Now is the Time for Cyber | Supabase Raising at $10BN & Doug Leone Returns to Sequoia",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-surpasses-openai-revenue-openai-acquisition-of-tbpn-analysed-openai-management-team-reboot-yc-kicks-delve-out-mercor-hack-and-why-now-is-the-time-for-cyber-supabase-raising-at-10bn-doug-leone-returns-to-sequoia",
-      "pubDate": "2026-04-09T07:07:00.000Z",
-      "duration": "01:27:16",
-      "summary": "AGENDA: 03:59 — Anthropic Surpasses OpenAI in Revenue 12:43 — OpenAI Management Reboot 18:24 — OpenAI Buys TBPN 29:00 — SpaceX Files for IPO Targeting $2 Trillion Valuation 37:21 — Doug Leone Returns ",
-      "art": "https://static.libsyn.com/p/assets/b/e/e/5/bee55635ba85ce4c16c3140a3186d450/WhatsApp_Image_2026-04-08_at_15.15.25.jpeg"
     },
     {
       "showId": "talksat",
@@ -1714,17 +1725,6 @@
       "duration": "00:44:44",
       "summary": "【主播的话】 主流社会的想象中，生育几乎总是与亲密关系、伴侣或婚姻绑定在一起的。 然而，这是一个必须要遵从的默认前提吗？当我们怀顾四周，发现事实并非如此。今天的女性，即使没有伴侣或者婚姻，依然能拥有不同的选择和生活自由。这是我们希望制作这个迷你系列的初衷，试图回答这一种新的选择意味着什么？ 这是系列的第二期，我们和导演、艺术家阿烂聊了聊她的生育选择、创作以及国内目前单身生育的环境。在录制这期节目时",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#375 透过 2025 的内容现场，寻找通往 2026 的坐标与锚点",
-      "link": "http://etw.fm/2194",
-      "pubDate": "2026-01-15T07:30:00.000Z",
-      "duration": "1:00:02",
-      "summary": "技术在加速，规则在松动，不同代际对世界的感受也越来越不一样。当下的我们究竟正处在一个怎样的转变之中？ 这期节目，四位关注不同社会领域的节目制作人坐在一起，从科技变革引发的社会范式重构，到年轻人参与的谷子经济与情绪实感，再到青少年作为「数字原住民」的观察视角，聊聊我们在 2025 年的内容创作与对话中，捕捉到的一些关键线索。 希望这些真实而多元的体感，能为你理解 2026 带来一些判断的线索，也为浮",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "lexfridman",
