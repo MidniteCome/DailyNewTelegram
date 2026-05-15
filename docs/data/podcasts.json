@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-15T16:05:54.314Z",
+    "updatedAt": "2026-05-15T20:55:18.569Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,6 +165,17 @@
   ],
   "episodes": [
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2500 - Scott Horton",
+      "link": "https://traffic.megaphone.fm/GLT9667446181.mp3",
+      "pubDate": "2026-05-15T17:00:00.000Z",
+      "duration": "9684",
+      "summary": "Scott Horton is the director of the Libertarian Institute, host of “The Scott Horton Show,” co-host of “Provoked” with Darryl Cooper, and author of several books, the most recent of which is “Provoked",
+      "art": "https://megaphone.imgix.net/podcasts/5b779a24-4fea-11f1-831f-5bde17471e54/image/fddbac935ab75fc06f928a972f674458.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -195,7 +206,7 @@
       "pubDate": "2026-05-15T07:00:00.000Z",
       "duration": "544",
       "summary": "On today’s Indicators of the Week: the Gamestop and eBay romance that never was, more and more people are taking out loans for everyday things, and no, everyday people can’t invest in OpenAI and Anthr",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1463x1463+569+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F35%2F4a%2F7655ee294f1ebb18cf7895fd1196%2Fd46fe87a-67a0-4d25-ab00-fd5aa39081b4.png"
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc6%2F7d%2F16dfdc9444fc96908a6de6fbbbd9%2F3eda5a34-580d-4b74-bb19-25fd76bae025.jpg"
     },
     {
       "showId": "jre",
@@ -878,17 +889,6 @@
       "duration": "9594",
       "summary": "Action Bronson is a musician, chef, artist, and host of “Fuck That’s Delicious.” His next album, “Planet Frog,” is expected later this year.www.youtube.com/@ActionBronsonMusicwww.actionbronson.com Per",
       "art": "https://megaphone.imgix.net/podcasts/72c240ca-3df3-11f1-8e44-db5b3a3561aa/image/b12d3197ced3bb4496e3e74278913dda.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2486 - Luis J Gomez",
-      "link": "https://traffic.megaphone.fm/GLT5826228201.mp3?updated=1776789151",
-      "pubDate": "2026-04-21T17:00:00.000Z",
-      "duration": "10029",
-      "summary": "Luis J. Gomez is a comedian, writer, and producer. He co-hosts “Legion of Skanks,” “The Regz,” “Story Warz,” and “Real Ass Podcast.” His new book, “Knives & Spoons: A Memoir,” is available now.www.sim",
-      "art": "https://megaphone.imgix.net/podcasts/eb72adac-3d3f-11f1-8058-fb9d026dcf8f/image/f629ba8eb9484b28519e370904fdc919.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
