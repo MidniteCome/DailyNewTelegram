@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-14T21:03:23.362Z",
+    "updatedAt": "2026-05-15T10:03:13.452Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "473 漫谈卢梭：是革命恐怖师爷还是启蒙民权先驱？",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a06e8f1e1eb34a9397689ea?utm_source=rss",
+      "pubDate": "2026-05-15T09:57:32.000Z",
+      "duration": "01:09:28",
+      "summary": "- 导语 - 卢梭，作为启蒙时代最具争议的思想家，既是人民主权理论的奠基者，也被视为激进政治的源头。从日内瓦的印刷业学徒，变成风靡巴黎的文化偶像，他的个人生活与思想遗产同样充满戏剧性。卢梭的畅销爱情小说讲述了怎样的故事？罗素为何评价卢梭是「伪民主、真独裁」？对直接民主的进一步思考，卢梭「公意」与「众意」理论为何在实践中容易滑入独裁？卢梭的道德教化观又如何影响了法国与美国大革命的走向？请听本期节目姜",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "This Is Why I Find Pema Chödrön So Essential",
+      "link": "https://www.nytimes.com/2026/05/15/opinion/ezra-klein-podcast-pema-chodron.html",
+      "pubDate": "2026-05-15T09:00:00.000Z",
+      "duration": "01:13:16",
+      "summary": "What do you do when you feel anxious or insecure? Many of us try to push the feeling away, or we ruminate on it, or try to solve it, or avoid the thought altogether. But what would happen if we did th",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "GameStop rejected, a troubling loan trend, and no to pre-IPO AI shares",
+      "link": "https://www.npr.org/2026/05/15/nx-s1-5822603/gamestop-rejected-a-troubling-loan-trend-and-no-to-pre-ipo-ai-shares",
+      "pubDate": "2026-05-15T07:00:00.000Z",
+      "duration": "544",
+      "summary": "On today’s Indicators of the Week: the Gamestop and eBay romance that never was, more and more people are taking out loans for everyday things, and no, everyday people can’t invest in OpenAI and Anthr",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1463x1463+569+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F35%2F4a%2F7655ee294f1ebb18cf7895fd1196%2Fd46fe87a-67a0-4d25-ab00-fd5aa39081b4.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -803,17 +836,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "The Devil Wears Prada Index, SNAP, and flight cancellations",
-      "link": "https://www.npr.org/2026/04/24/nx-s1-5797960/the-devil-wears-prada-index-snap-and-flight-cancellations",
-      "pubDate": "2026-04-24T07:00:00.000Z",
-      "duration": "562",
-      "summary": "It’s Indicators of the Week, our weekly look at some of the most fascinating numbers from the news! And unlike florals for spring, these numbers ARE groundbreaking. On today’s episode: A dramatic SNAP",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff3%2Fb5%2F84b98f0c4f2a9aa1f2ab85fa1b07%2F784e6faf-ee3a-4376-87a0-e26e92e95653.png"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1276,17 +1298,6 @@
       "art": "https://static.libsyn.com/p/assets/d/1/d/5/d1d5cdffc4fde188d959afa2a1bf1c87/1_Pod_BJ.png"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "461 「货币非国家化」的中国注脚：刘愿谈民国法币改革与陕甘宁边币往事",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69c25065fdc405fbf609287d?utm_source=rss",
-      "pubDate": "2026-03-24T09:03:53.000Z",
-      "duration": "01:08:14",
-      "summary": "- 导语 - 1935年国民政府的法币改革，1937年后边币与法币的竞争，以及1948年金圆券的崩溃，共同勾勒出中国近代货币史上极具启示性的路径。从1930年代国际白银价格的剧烈波动出发，法币改革为何在诞生之初就埋下隐患？在战争与财政压力之下，它又为何一步步走向失控？当政治家宋子文取代了银行家张嘉璈，当蒋介石以手令指挥发钞，国统区的货币体系为何迅速滑向通货膨胀？而在另一侧，财政极度匮乏的陕甘宁边区",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1406,17 +1417,6 @@
       "duration": "01:03:40",
       "summary": "In this BG2 guest interview, Altimeter Partner Apoorv Agrawal sits down with Nick Turley of OpenAI for a deep dive into how ChatGPT became one of the fastest-growing products in history—and what comes",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "What Trump Didn’t Know About Iran",
-      "link": "https://www.nytimes.com/2026/03/13/opinion/ezra-klein-podcast-ali-vaez.html",
-      "pubDate": "2026-03-14T11:00:00.000Z",
-      "duration": "01:31:11",
-      "summary": "The Trump administration miscalculated how Iran would respond to this war. And the United States, Iran and Israel were brought to the brink of war in the first place because of a whole series of misju",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "etw",
