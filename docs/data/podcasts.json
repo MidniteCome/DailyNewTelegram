@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-15T20:55:18.569Z",
+    "updatedAt": "2026-05-16T09:11:15.874Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Lessons from Jensen Huang on \"Founder Mode\" | How to Know if OpenAI or Anthropic Will Kill your Company | How USV Liking Music Made Them $1BN on an Investment | The Five Year Desert to Product Market Fit & a $5.3BN Valuation with Shiv Rao @ Abridge",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-lessons-from-jensen-huang-on-founder-mode-how-to-know-if-openai-or-anthropic-will-kill-your-company-how-usv-liking-music-made-them-1bn-on-an-investment-the-five-year-desert-to-product-market-fit-a-53bn-valuation-with-shiv-rao-abridge",
+      "pubDate": "2026-05-16T07:07:00.000Z",
+      "duration": "01:04:37",
+      "summary": "Shiv Rao is the CEO and Co-Founder of Abridge, a leader in generative AI for healthcare. The company reached a $5.3 billion valuation following a $300 million funding round with investors including Je",
+      "art": "https://static.libsyn.com/p/assets/b/7/6/5/b765cb30db423ca416c3140a3186d450/WhatsApp_Image_2026-05-14_at_18.27.22.jpeg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Trump-Xi Summit, Benioff: \"Not My First SaaSpocalypse,\" OpenAI vs Apple, Multi-Sensory AI, El Niño",
+      "link": "https://allinchamathjason.libsyn.com/trump-xi-summit-benioff-not-my-first-saaspocalypse-openai-vs-apple-multi-sensory-ai-el-nio",
+      "pubDate": "2026-05-15T21:21:00.000Z",
+      "duration": "01:16:31",
+      "summary": "(0:00) Salesforce CEO Marc Benioff joins the show! (1:14) Trump-Xi summit, doing business in China as a US company, impact on Americans and the midterms (18:46) Taiwan, chips, AI models, and peace thr",
+      "art": "https://static.libsyn.com/p/assets/1/b/2/7/1b271d367e0c2334d959afa2a1bf1c87/1_Pod_E273.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -1056,17 +1078,6 @@
       "art": "https://img.transistorcdn.com/0QGXNUgszcCY1ANfR29j6wYwABqNDaHjFNi3K5p7ZOw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yYjg2/ZjI2MTRkZGRhNWVl/ZjlkYjA2Zjg2ZWI0/NGVhZS5qcGc.jpg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Sales: ElevenLabs: Why We Set a 20x Sales Quota | How to Structure Sales Compensation Plans | Customer Success: 'Total BS' or Growth Engine? | Building an AI Sales Machine: What Tools & Tactics Must CROs Adopt Today with Carles Reina",
-      "link": "https://thetwentyminutevc.libsyn.com/20sales-elevenlabs-why-we-set-a-20x-sales-quota-how-to-structure-sales-compensation-plans-customer-success-total-bs-or-growth-engine-building-an-ai-sales-machine-what-tools-tactics-must-cros-adopt-today-with-carles-reina",
-      "pubDate": "2026-04-11T07:07:00.000Z",
-      "duration": "01:25:03",
-      "summary": "Carles Reina is VP of Sales at ElevenLabs, where he was the first investor and fourth employee. Carles has scaled the revenue org from Day 1 to over $350M in just 3 years. Carles is also an active inv",
-      "art": "https://static.libsyn.com/p/assets/8/6/e/b/86eb702d5ae2fdac16c3140a3186d450/WhatsApp_Image_2026-04-10_at_17.39.21.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1340,17 +1351,6 @@
       "duration": "01:07:01",
       "summary": "【主播的话】 本期节目被我们笑称为单身生育系列之“西天取精”，也是单身生育系列的第三期。这期节目中，我的朋友李彩玲分享了她在准备一个人生个孩子前这段时间的感受，以及当她面对具体的精子库选择时，所遭遇到的一系列啼笑皆非的田野故事；你也会更加深入地了解到精子库的运作方式，以及养育的多种可能性。 如果你对前两期节目也感兴趣，欢迎收听： 单身生育：一场关于自由、自我与爱的实验 www.xiaoyuzhou",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "How Matt Mahan Thinks He Can Save California",
-      "link": "https://allinchamathjason.libsyn.com/how-matt-mahan-thinks-he-can-save-california",
-      "pubDate": "2026-03-23T01:03:00.000Z",
-      "duration": "01:17:13",
-      "summary": "(0:00) Matt Mahan: Why He's Running for Governor (1:51) How California Went From Bad to Worse (12:05) Public Sector Unions & Lobbying in Sacramento (19:05) California's Housing Crisis: Regulation & Fe",
-      "art": "https://static.libsyn.com/p/assets/6/b/8/8/6b88af06c8af4151d959afa2a1bf1c87/1_Pod_Mahan.png"
     },
     {
       "showId": "weirdo",
