@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-05-17T20:40:04.667Z",
-    "totalEpisodes": 165,
+    "updatedAt": "2026-05-18T11:31:53.646Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": null,
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/960dbd4db6da0505f83006c5b4136fd6.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -168,6 +168,39 @@
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
+      "title": "20VC: Turning Peter Thiel's $100K into $10M Angel Portfolio | The One Man Accelerator at The Four Seasons | Why VCs Can Be Sharks and What Founders Need to Know | Why Stocks and Cash are BS and You Should Invest in Land with Josh Browder",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-turning-peter-thiels-100k-into-10m-angel-portfolio-the-one-man-accelerator-at-the-four-seasons-why-vcs-can-be-sharks-and-what-founders-need-to-know-why-stocks-and-cash-are-bs-and-you-should-invest-in-land-with-josh-browder",
+      "pubDate": "2026-05-18T07:07:00.000Z",
+      "duration": "01:29:01",
+      "summary": "Josh Browder is my favourite emerging manager. As the Founder of Browder Capital he has been the first check into unicorns like Micro1, Owner.com and Yuzu Health to name a few. He turned his Thiel Fel",
+      "art": "https://static.libsyn.com/p/assets/0/5/8/f/058fa5cd8b44d46f16c3140a3186d450/WhatsApp_Image_2026-05-15_at_15.50.26.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Taiwan arms sales, Board of Trade, and Chinamaxxing",
+      "link": "https://www.npr.org/2026/05/18/nx-s1-5823900/taiwan-arms-sales-board-of-trade-and-chinamaxxing",
+      "pubDate": "2026-05-18T07:00:00.000Z",
+      "duration": "564",
+      "summary": "Unpacking Donald Trump’s trip to China: arms sales to Taiwan, the Board of Trade proposal and China’s growing soft power. Fact checking by Sierra Juarez . Your Next Listen — What might save China's ec",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8b%2F95%2F0c08a60c4e0d93307ea6869b8128%2F5ffe9900-e468-451b-88ac-0361ef7070ed.jpg"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "Vanguard",
+      "link": "https://www.acquired.fm/episodes/vanguard",
+      "pubDate": "2026-05-18T03:26:52.000Z",
+      "duration": "13685",
+      "summary": "Vanguard is the most effective vehicle ever created for participating in the fruits of American capitalism. Today it’s the single largest equity owner of the majority of corporations in the S&P 500, o",
+      "art": "https://img.transistorcdn.com/G48S8ousdgdlTFU686aTV1C24y-DL5ua-Ih2SyRvqb0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83Nzk4/Y2M5MDcyN2EzZTM3/NjQzYjI1YTBhOTIz/ZjM0NS5qcGc.jpg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
       "title": "20VC: Lessons from Jensen Huang on \"Founder Mode\" | How to Know if OpenAI or Anthropic Will Kill your Company | How USV Liking Music Made Them $1BN on an Investment | The Five Year Desert to Product Market Fit & a $5.3BN Valuation with Shiv Rao @ Abridge",
       "link": "https://thetwentyminutevc.libsyn.com/20vc-lessons-from-jensen-huang-on-founder-mode-how-to-know-if-openai-or-anthropic-will-kill-your-company-how-usv-liking-music-made-them-1bn-on-an-investment-the-five-year-desert-to-product-market-fit-a-53bn-valuation-with-shiv-rao-abridge",
       "pubDate": "2026-05-16T07:07:00.000Z",
@@ -185,6 +218,17 @@
       "duration": "01:16:31",
       "summary": "(0:00) Salesforce CEO Marc Benioff joins the show! (1:14) Trump-Xi summit, doing business in China as a US company, impact on Americans and the midterms (18:46) Taiwan, chips, AI models, and peace thr",
       "art": "https://static.libsyn.com/p/assets/1/b/2/7/1b271d367e0c2334d959afa2a1bf1c87/1_Pod_E273.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2500 - Scott Horton",
+      "link": "https://traffic.megaphone.fm/GLT9667446181.mp3",
+      "pubDate": "2026-05-15T17:00:00.000Z",
+      "duration": "9684",
+      "summary": "Scott Horton is the director of the Libertarian Institute, host of “The Scott Horton Show,” co-host of “Provoked” with Darryl Cooper, and author of several books, the most recent of which is “Provoked",
+      "art": "https://megaphone.imgix.net/podcasts/5b779a24-4fea-11f1-831f-5bde17471e54/image/fddbac935ab75fc06f928a972f674458.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -218,6 +262,17 @@
       "duration": "544",
       "summary": "On today’s Indicators of the Week: the Gamestop and eBay romance that never was, more and more people are taking out loans for everyday things, and no, everyday people can’t invest in OpenAI and Anthr",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc6%2F7d%2F16dfdc9444fc96908a6de6fbbbd9%2F3eda5a34-580d-4b74-bb19-25fd76bae025.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2499 - Marcus King",
+      "link": "https://traffic.megaphone.fm/GLT6739360165.mp3",
+      "pubDate": "2026-05-14T17:00:00.000Z",
+      "duration": "10382",
+      "summary": "Marcus King is the lead singer, guitarist, and founder of The Marcus King Band. His most recent album is “Darling Blue.” https://marcusking.komi.iowww.youtube.com/@RealMarcusKingwww.marcuskingofficial",
+      "art": "https://megaphone.imgix.net/podcasts/600dc11c-4f31-11f1-bccd-c7e184fd1c90/image/afb298a0f8443bf5e68682e10772c201.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -264,6 +319,17 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2498 - Brendan Schaub",
+      "link": "https://traffic.megaphone.fm/GLT7316273414.mp3?updated=1778687080",
+      "pubDate": "2026-05-13T17:00:00.000Z",
+      "duration": "10066",
+      "summary": "Brendan Schaub is the host of “Big Brown Breakdown” as well as the Tubi series “Gear Heads Gone Wild.” https://tubitv.com/series/300019796/gear-heads-gone-wildwww.youtube.com/@ThicccBoy Learn more abo",
+      "art": "https://megaphone.imgix.net/podcasts/9d83e436-4e69-11f1-a5d3-4b18893718bc/image/b85383507c7ab82d9b2e2b7d6b3d33c4.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -284,6 +350,17 @@
       "duration": "01:35:27",
       "summary": "(0:00) David Friedberg welcomes Charles & Chase Koch (1:04) Koch Inc. Overview: Scale, Business Lines & History (2:21) Building the Business: Early Days & Charles Koch Joins (1961) (11:31) Failures, C",
       "art": "https://static.libsyn.com/p/assets/0/a/f/e/0afe1ed26eaee8a516c3140a3186d450/1_Koch_Pod.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2497 - Gad Saad",
+      "link": "https://traffic.megaphone.fm/GLT9625231635.mp3?updated=1778626262",
+      "pubDate": "2026-05-12T17:00:00.000Z",
+      "duration": "9768",
+      "summary": "Dr. Gad Saad is a scholar at the Declaration of Independence Center for the Study of American Freedom at the University of Mississippi and host of “The Saad Truth.” His new book, “Suicidal Empathy: Dy",
+      "art": "https://megaphone.imgix.net/podcasts/e306b85e-4deb-11f1-93b5-733d950b1692/image/07e9f9771d17478a44000bc0bfb0efb7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -374,6 +451,17 @@
       "art": "https://static.libsyn.com/p/assets/c/4/4/d/c44ded9277e66f66d959afa2a1bf1c87/1_Pod_E272.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2496 - Julia Mossbridge",
+      "link": "https://traffic.megaphone.fm/GLT4115426558.mp3?updated=1778288535",
+      "pubDate": "2026-05-08T17:00:00.000Z",
+      "duration": "10092",
+      "summary": "Julia Mossbridge, PhD, is a cognitive neuroscientist, author, and educator. She is the founder and president of American Electrodynamics, the co-founder and chief science officer of Applied Love Labs,",
+      "art": "https://megaphone.imgix.net/podcasts/4b891a70-4a7c-11f1-bb87-5bc29315a15e/image/cc4515b6ca5b07e4016effb6cac2d5ee.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -405,6 +493,17 @@
       "duration": "01:13:57",
       "summary": "Here’s a shocking number: One out of eight American adults is taking a GLP-1, like Ozempic or Zepbound, according to a KFF poll. GLP-1s are the biggest pharmaceutical story since antidepressants. But ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2495 - Tim Burchett",
+      "link": "https://traffic.megaphone.fm/GLT4340239159.mp3?updated=1778171703",
+      "pubDate": "2026-05-07T17:00:00.000Z",
+      "duration": "9389",
+      "summary": "Tim Burchett represents Tennessee’s 2nd District and is a member of the Republican Party. Rep. Burchett is a member of the UAP Caucus, chairman of the DOGE Subcommittee, and serves on the House Commit",
+      "art": "https://megaphone.imgix.net/podcasts/8e7ce89a-49d5-11f1-87a7-fbdab5dea703/image/d76f46a926ed9bb5c5b0eb9189a90f40.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
@@ -440,6 +539,17 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #178 with Dan Hardy",
+      "link": "https://traffic.megaphone.fm/GLT6608842902.mp3?updated=1778084286",
+      "pubDate": "2026-05-06T17:00:00.000Z",
+      "duration": "10355",
+      "summary": "Joe sits down with Dan Hardy, a mixed martial artist, host of the “Full Reptile” podcast, and commentator for the Professional Fighters League.www.youtube.com/@DanHardyFRwww.pflmma.com Perplexity: Dow",
+      "art": "https://megaphone.imgix.net/podcasts/a49891a2-4902-11f1-ba85-fb40caef1595/image/f7dd029b6676e5d0bfc590c225c85340.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -460,6 +570,17 @@
       "duration": "01:03:52",
       "summary": "【主播的话】 去年一个偶然的机会，我在纽约认识了高琴教授，还发现我们是邻居。 在那之前，我已经对高琴教授的有所耳闻。她是著作丰硕的社会政策学者，在哥伦比亚大学社会工作学院任教，是讲席教授，同时担任博士项目主管副院长，以研究中国贫困问题见长。她常年组织大规模的社会调查，用数据来研究贫困的根源、影响与政策应对。她同时还是哥大“亚裔美国人”项目主任。在哥大——一个竞争激烈、精英云集、以全球化和多元化闻名",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2494 - Chamath Palihapitiya",
+      "link": "https://traffic.megaphone.fm/GLT8247158814.mp3?updated=1777998506",
+      "pubDate": "2026-05-05T17:00:00.000Z",
+      "duration": "10284",
+      "summary": "Chamath Palihapitiya is a venture capitalist, engineer, founder of Social Capital, and a co-host of the podcast “All-In.”www.youtube.com/@allinhttps://www.youtube.com/@chamathhttps://chamath.substack.",
+      "art": "https://megaphone.imgix.net/podcasts/468336ba-482d-11f1-ba09-2b315b76916a/image/20caedbdb66ee55e325f5aa52a38c891.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -539,6 +660,17 @@
       "art": "https://static.libsyn.com/p/assets/b/1/8/6/b1862c7e177b0d2a16c3140a3186d450/1_Pod_E271.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2493 - Protect Our Parks 16",
+      "link": "https://traffic.megaphone.fm/GLT1105574712.mp3?updated=1777655527",
+      "pubDate": "2026-05-01T17:00:00.000Z",
+      "duration": "12206",
+      "summary": "Shane Gillis is the co-host of “Matt and Shane’s Secret Podcast,” a creator and star of Netflix’s comedy series “Tires,” and one half of the sketch comedy duo “Gilly and Keeves.” His most recent speci",
+      "art": "https://megaphone.imgix.net/podcasts/ae65c5d0-450e-11f1-9052-470cd9d9bdf0/image/dd575cf33376ac916a6e7e2d290d758a.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -559,6 +691,17 @@
       "duration": "535",
       "summary": "It’s Indicators of the Week (now on YouTube !). It’s our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: who wins and loses their Polymarket bets , an A",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Feb%2F62%2Fe0e05de343d292f0701a8a5e911a%2Fc8564dfc-725b-4325-ae0e-b5733ca3d409.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2492 - Ari Shaffir",
+      "link": "https://traffic.megaphone.fm/GLT1035374307.mp3?updated=1777566754",
+      "pubDate": "2026-04-30T17:00:00.000Z",
+      "duration": "9665",
+      "summary": "Ari Shaffir is a comedian, writer, and host of “You Be Trippin’.” His seven-episode live storytelling series, “The End,” is available now from YMH Studios.https://theend.ymhstudios.comwww.youtube.com/",
+      "art": "https://megaphone.imgix.net/podcasts/4ecd300a-443b-11f1-bc0d-0febb072d159/image/c4e5cfb867116b00ae3305b8d944b6c3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -594,6 +737,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2F67%2F7a7f3d9f45d3869c6ca760a5613a%2Fc4cbb373-d441-4a6f-aa96-79a400a09697.jpg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2491 - Brian Simpson",
+      "link": "https://traffic.megaphone.fm/GLT8544541239.mp3?updated=1777480862",
+      "pubDate": "2026-04-29T17:00:00.000Z",
+      "duration": "9470",
+      "summary": "Brian Simpson is a comedian, writer, host of the “Bottom of the Barrel” comedy show at The Comedy Mothership, and his own podcast, “BS with Brian Simpson.” His most recent special, “Live from The Come",
+      "art": "https://megaphone.imgix.net/podcasts/ada2b96e-436a-11f1-be06-7ff08097d2d1/image/6a5cbaf722d0e31ca328d2f0d6d93d14.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -614,6 +768,17 @@
       "duration": "560",
       "summary": "Iran’s weaponization of the Strait of Hormuz is the perfect example of how modern warfare is increasingly waged, not only with drones and bombs, but also through the weaponization of economic choke po",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fdf%2F11%2Fc8b5580f41b494b6842816d8468d%2F78b5149f-a98b-47d7-a55c-e28b99e6f127.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2490 - RZA",
+      "link": "https://traffic.megaphone.fm/GLT7621675173.mp3?updated=1777394383",
+      "pubDate": "2026-04-28T17:00:00.000Z",
+      "duration": "10648",
+      "summary": "RZA is a rapper, producer, composer, filmmaker, and founding member of the multimedia hip-hop collective and 2026 Rock and Roll Hall of Fame inductees The Wu-Tang Clan. His new film, “One Spoon of Cho",
+      "art": "https://megaphone.imgix.net/podcasts/f3a22480-428f-11f1-9c77-ffdfa7bd2815/image/28206bc6280c12251968697909c2b3f0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -671,17 +836,6 @@
       "art": "https://static.libsyn.com/p/assets/2/9/d/7/29d70302cdc94a35d959afa2a1bf1c87/WhatsApp_Image_2026-04-24_at_17.00.13.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Premium and affordable products are having a moment",
-      "link": "https://www.npr.org/2026/04/27/nx-s1-5798906/premium-and-affordable-products-are-having-a-moment",
-      "pubDate": "2026-04-27T07:00:00.000Z",
-      "duration": "501",
-      "summary": "It’s the Beigie awards! Our less than ten times a year salute to the art and science of telling stories about the economy. Today on the show, Kevin Dancy, vice president and regional executive at the ",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcd%2Ff8%2F295fe17846ba8b47e7cf44dd1514%2Fdf69379b-5f7b-463e-a50e-cc789798e2e2.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -702,6 +856,17 @@
       "duration": "01:30:42",
       "summary": "(0:00) Bestie intros! (4:55) SpaceX-Cursor deal, compute as leverage (18:33) SaaS bloodbath, debt bomb incoming, buy the dip? (46:20) New Apple CEO: John Ternus succeeds Tim Cook, what's next for Appl",
       "art": "https://static.libsyn.com/p/assets/7/f/3/7/7f37881ac06392f216c3140a3186d450/1_Pod_E270.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2489 - Ryan Bingham",
+      "link": "https://traffic.megaphone.fm/GLT2851956686.mp3?updated=1777048261",
+      "pubDate": "2026-04-24T17:00:00.000Z",
+      "duration": "8866",
+      "summary": "Ryan Bingham is an actor and musician. See Ryan Bingham and the Texas Gentlemen on tour this year, and look for their next album, “They Call Us the Lucky Ones,” on May 15.www.youtube.com/@ryanbinghamw",
+      "art": "https://megaphone.imgix.net/podcasts/f4bbbb36-3f85-11f1-98f8-538a9d2d7656/image/82793664950f873bb92772673b09d987.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -726,6 +891,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2488 - James McCann",
+      "link": "https://traffic.megaphone.fm/GLT3044004164.mp3?updated=1776990977",
+      "pubDate": "2026-04-23T17:00:00.000Z",
+      "duration": "10328",
+      "summary": "James Donald Forbes McCann is a comedian, author, and host of “The James Donald Forbes McCann Catamaran Plan.” His latest special, “Island of Strangers,” is streaming on YouTube.https://youtu.be/7VfTq",
+      "art": "https://megaphone.imgix.net/podcasts/b76e32c6-3eb9-11f1-907c-8b28c04c10f1/image/b5ede2c730d1a03c5b1081efd76cc964.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -746,6 +922,17 @@
       "duration": "01:40:59",
       "summary": "AGENDA: 04:00 — 🤯 Cursor Acquired for $60B?! Breaking down the mind-blowing deal with xAI/SpaceX. 07:00 — 🤝 A Marriage Made in Heaven: Why Cursor and Elon Musk actually make perfect sense. 11:00 — \ud83c",
       "art": "https://static.libsyn.com/p/assets/5/1/7/c/517cd13aaa0347fb16c3140a3186d450/WhatsApp_Image_2026-04-22_at_16.12.18.jpeg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2487 - Action Bronson",
+      "link": "https://traffic.megaphone.fm/GLT5505192695.mp3?updated=1776874815",
+      "pubDate": "2026-04-22T17:00:00.000Z",
+      "duration": "9594",
+      "summary": "Action Bronson is a musician, chef, artist, and host of “Fuck That’s Delicious.” His next album, “Planet Frog,” is expected later this year.www.youtube.com/@ActionBronsonMusicwww.actionbronson.com Per",
+      "art": "https://megaphone.imgix.net/podcasts/72c240ca-3df3-11f1-8e44-db5b3a3561aa/image/b12d3197ced3bb4496e3e74278913dda.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -867,17 +1054,6 @@
       "duration": "01:16:10",
       "summary": "- 导语 - 抗战时期，中国空军与援华外籍飞行员共同留下了血火长空的悲壮篇章，这些故事被影像定格，从航校学员的私人相册，到驼峰航线的铝谷残骸，再到中国首支伞兵部队旧影，逐步拼凑出被尘封的抗战故事。《无问西东》主角原型沈崇诲是怎样牺牲的？一位美籍华人女性成为战斗机飞行员要经历什么？飞虎队早期的缔造者鲍利为何被选择性遗忘？请听本期嘉宾邹德怀带来的精彩讲述。 - 本期话题成员 - 程衍樑（微博@Gren",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anj Midha on Investing $300M into Anthropic | The Early Days of Anthropic & How 21 of 22 VCs Turned it Down | The Four Bottlenecks to Compute | What the China Has Smashed and Why We Should Be Worried",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anj-midha-on-investing-300m-into-anthropic-the-early-days-of-anthropic-how-21-of-22-vcs-turned-it-down-the-four-bottlenecks-to-compute-what-the-china-has-smashed-and-why-we-should-be-worried",
-      "pubDate": "2026-04-14T09:24:00.000Z",
-      "duration": "01:08:49",
-      "summary": "Anj Midha is the founder of AMP, and a founding investor in Anthropic. Most recently, Anj was General Partner at Andreessen Horowitz, leading frontier AI investments. He serves on the boards of Mistra",
-      "art": "https://static.libsyn.com/p/assets/b/2/b/a/b2ba7adfaa361c08d959afa2a1bf1c87/anjney.png"
     },
     {
       "showId": "ezraklein",
@@ -1956,17 +2132,6 @@
       "duration": "01:02:36",
       "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week they revisit arguments about free trade, and discuss updates on tariff negot",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
-    },
-    {
-      "showId": "acquired",
-      "showName": "Acquired",
-      "category": "tech",
-      "title": "Epic Systems (MyChart)",
-      "link": "https://www.acquired.fm/episodes/epic-systems-mychart",
-      "pubDate": "2025-04-21T02:04:52.000Z",
-      "duration": "14098",
-      "summary": "What if we told you that the most important company in US healthcare was run from a farm in rural Wisconsin? And that farm contained the world’s largest subterranean auditorium, as well as Disneyland—",
-      "art": "https://img.transistorcdn.com/vZ8_8iXPbKD-misy2I84tm0vU9lSJyFCsVM6KYcQP0Y/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9kM2Q0/MDhhNGI2OGEzMTNm/NmQxNjc2ZmE0MmRl/OTVjNi5wbmc.jpg"
     },
     {
       "showId": "bg2pod",
