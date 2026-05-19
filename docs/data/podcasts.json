@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-19T16:51:41.094Z",
+    "updatedAt": "2026-05-19T21:12:27.773Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2501 - Marc Andreessen",
+      "link": "https://traffic.megaphone.fm/GLT4222257548.mp3",
+      "pubDate": "2026-05-19T17:00:00.000Z",
+      "duration": "12350",
+      "summary": "Marc Andreessen is a co-founder and general partner at the venture capital firm Andreessen Horowitz, co-creator of the Mosaic internet browser and co-founder of Netscape, and author of “The Techno-Opt",
+      "art": "https://megaphone.imgix.net/podcasts/6e105d8e-5318-11f1-9ed5-9321e601ba7a/image/7532be1b508f1bbcc1793cdd57991e3f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -944,17 +955,6 @@
       "duration": "01:40:59",
       "summary": "AGENDA: 04:00 — 🤯 Cursor Acquired for $60B?! Breaking down the mind-blowing deal with xAI/SpaceX. 07:00 — 🤝 A Marriage Made in Heaven: Why Cursor and Elon Musk actually make perfect sense. 11:00 — \ud83c",
       "art": "https://static.libsyn.com/p/assets/5/1/7/c/517cd13aaa0347fb16c3140a3186d450/WhatsApp_Image_2026-04-22_at_16.12.18.jpeg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2487 - Action Bronson",
-      "link": "https://traffic.megaphone.fm/GLT5505192695.mp3?updated=1776874815",
-      "pubDate": "2026-04-22T17:00:00.000Z",
-      "duration": "9594",
-      "summary": "Action Bronson is a musician, chef, artist, and host of “Fuck That’s Delicious.” His next album, “Planet Frog,” is expected later this year.www.youtube.com/@ActionBronsonMusicwww.actionbronson.com Per",
-      "art": "https://megaphone.imgix.net/podcasts/72c240ca-3df3-11f1-8e44-db5b3a3561aa/image/b12d3197ced3bb4496e3e74278913dda.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
