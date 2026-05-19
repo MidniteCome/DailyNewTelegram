@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-05-18",
+  "lastRun": "2026-05-19",
   "feeds": [
     {
       "name": "Stratechery",
@@ -110,10 +110,9 @@
     {
       "name": "Paul Graham Essays",
       "url": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
-      "ok": false,
+      "ok": true,
       "itemCount": 0,
-      "consecutiveFails": 1,
-      "error": "fetch failed"
+      "consecutiveFails": 0
     },
     {
       "name": "Gwern",
@@ -211,7 +210,7 @@
       "name": "email",
       "url": "sources/newsletters.json",
       "ok": true,
-      "itemCount": 40,
+      "itemCount": 39,
       "consecutiveFails": 0,
       "skipped": false
     }
