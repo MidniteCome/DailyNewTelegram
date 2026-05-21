@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-20T21:43:44.817Z",
+    "updatedAt": "2026-05-21T10:52:36.760Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Andrej Karpathy Joins Anthropic & Anthropic Raises $30BN at $900BN Price | SpaceX Files S1: How Does it Trade | Cerebras Smashes Day 1: What it Means for IPOs | Why Mass Layoffs Are More Worrying Than Anyone Sees",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-andrej-karpathy-joins-anthropic-anthropic-raises-30bn-at-900bn-price-spacex-files-s1-how-does-it-trade-cerebras-smashes-day-1-what-it-means-for-ipos-why-mass-layoffs-are-more-worrying-than-anyone-sees",
+      "pubDate": "2026-05-21T07:07:00.000Z",
+      "duration": "01:21:53",
+      "summary": "AGENDA: 00:00 – Anthropic Eyes $900B Valuation & Andre Karpathy's Shock Move 04:46 – Unpacking Anthropic's $30 Billion War Chest 10:52 – The True Cost of AI Tokens: Is Salesforce Spending Too Much? 15",
+      "art": "https://static.libsyn.com/p/assets/9/d/d/9/9dd934d9ff086139d959afa2a1bf1c87/WhatsApp_Image_2026-05-20_at_20.01.36.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "So ... how long until these oil prices get REALLY bad",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5829129/so-how-long-until-these-oil-prices-get-really-bad",
+      "pubDate": "2026-05-21T07:00:00.000Z",
+      "duration": "439",
+      "summary": "The US-Israel War in Iran is almost three months in and oil prices have risen, but they’re not catastrophic … yet. Why isn't the price of oil even higher? We learn about how the world is adapting to t",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1463x1463+569+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0f%2F1e%2Fd88776804e81ac7bc19a1404b929%2F75a93156-84dc-49ae-b801-ce1d1af888f1.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -792,17 +814,6 @@
       "art": "https://static.libsyn.com/p/assets/d/9/7/2/d972b15e2de60354d959afa2a1bf1c87/ChatGPT_Image_Apr_29_2026_11_27_19_PM.png"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "The UAE wants a dollar lifeline",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5804702/the-uae-wants-a-dollar-lifeline",
-      "pubDate": "2026-04-30T07:05:01.000Z",
-      "duration": "514",
-      "summary": "With the Iran War underway, the United Arab Emirates is looking for some economic certainty. The rich Arab nation is home to a lot of foreign-held deposits, and they’re worried investors will pull tho",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F6f%2F67%2F7a7f3d9f45d3869c6ca760a5613a%2Fc4cbb373-d441-4a6f-aa96-79a400a09697.jpg"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1043,17 +1054,6 @@
       "duration": "1:11:07",
       "summary": "1969 年，人类第一次踏上月球。半个多世纪过去了，为什么人类想要「重返月球」依然如此费力？现在的登月和 50 年前的登月是同一回事吗？ 2026 年 4 月，阿尔忒弥斯 2 号（Artemis II）搭载四名宇航员完成绕月之旅，顺利返航。这是人类时隔 50 余年再次将宇航员送往月球轨道。但这次任务背后，是一个全新的工程逻辑：不是尝试去复刻阿波罗的政治短跑，而是在商业航天、新材料、新技术的基础上，",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Unveils Mythos | SpaceX's Financials Leaked: Is it Worth $2TRN | Meta Debuts Muse Spark: Are They Back in the AI Race | Jason's Critique of Dario Amodei & How OpenAI Could Win the Enterprise Game",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-unveils-mythos-spacexs-financials-leaked-is-it-worth-2trn-meta-debuts-muse-spark-are-they-back-in-the-ai-race-jasons-critique-of-dario-amodei-how-openai-could-win-the-enterprise-game",
-      "pubDate": "2026-04-16T07:07:00.000Z",
-      "duration": "01:26:20",
-      "summary": "AGENDA: 00:00 — Anthropic Unveils Mythos: The Model \"Too Good at Hacking\" to Release 05:56 — Why Mythos is a Quantum Leap in Cyber Risk 10:11 — The \"Boy Who Cried Wolf\": Jason's Critique of Dario Amod",
-      "art": "https://static.libsyn.com/p/assets/8/7/2/5/87255511f72e20dbd959afa2a1bf1c87/WhatsApp_Image_2026-04-15_at_14.25.30.jpeg"
     },
     {
       "showId": "weirdo",
