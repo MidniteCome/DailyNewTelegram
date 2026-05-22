@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-22T16:30:02.337Z",
+    "updatedAt": "2026-05-22T21:03:41.354Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2504 - Skylar Grey",
+      "link": "https://traffic.megaphone.fm/GLT6877232671.mp3",
+      "pubDate": "2026-05-22T17:00:00.000Z",
+      "duration": "7475",
+      "summary": "Skylar Grey is a Grammy Award-nominated singer, songwriter, and producer. Her new album, “Wasted Potential,” is available now.https://empire.ffm.to/skylarcomewww.youtube.com/@SkylarGreywww.skylargreym",
+      "art": "https://megaphone.imgix.net/podcasts/66dfc50c-5572-11f1-bfc8-23863e30930c/image/bdf8e2f45f40c24b5e34b570f9847d50.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -878,17 +889,6 @@
       "duration": "01:08:45",
       "summary": "(0:00) Intro: Steve Hilton is a Republican Brit Running for CA Governor (8:34) Zero Tax Under $100K and a 7.5% Flat Rate: Is It Fiscally Possible? (27:52) Why CA Homes Cost 3x More to Build (Unions, C",
       "art": "https://static.libsyn.com/p/assets/d/5/2/2/d522b7c8e6966438d959afa2a1bf1c87/1_Pod_Hilton.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2490 - RZA",
-      "link": "https://traffic.megaphone.fm/GLT7621675173.mp3?updated=1777394383",
-      "pubDate": "2026-04-28T17:00:00.000Z",
-      "duration": "10648",
-      "summary": "RZA is a rapper, producer, composer, filmmaker, and founding member of the multimedia hip-hop collective and 2026 Rock and Roll Hall of Fame inductees The Wu-Tang Clan. His new film, “One Spoon of Cho",
-      "art": "https://megaphone.imgix.net/podcasts/f3a22480-428f-11f1-9c77-ffdfa7bd2815/image/28206bc6280c12251968697909c2b3f0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
