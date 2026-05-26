@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-05-25T20:57:20.632Z",
-    "totalEpisodes": 165,
+    "updatedAt": "2026-05-26T17:29:17.044Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": null,
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/c11b76739bb6de385633d5bc4ff0845b.jpeg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -165,6 +165,61 @@
   ],
   "episodes": [
     {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Yuval Noah Harari on the Mistake Strongmen Keep Making",
+      "link": "https://www.nytimes.com/2026/05/26/opinion/ezra-klein-podcast-yuval-noah-harari.html",
+      "pubDate": "2026-05-26T09:00:00.000Z",
+      "duration": "01:53:11",
+      "summary": "What are the conditions that enable a country to become great — or great again? The Trump administration — and other right-wing movements in other countries — offers a vision of greatness based on pow",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "午后偏见045｜拉美是一种命运：被遮蔽的思想、抗争与另一种现代性",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a1547aa13abca418579b4b2?utm_source=rss",
+      "pubDate": "2026-05-26T07:47:22.000Z",
+      "duration": "01:16:41",
+      "summary": "- 导语 - 拉美有思想吗？对很多人来说，这个问题的答案或许是否定的。思想、思想家，似乎总是与法国、德国，乃至更广义上的“西方”联系在一起；而拉美这片大陆，则更多让人想到足球、魔幻现实主义，或者“中等收入陷阱”这样的标签。但两位长期深耕拉美思想研究的学者，滕威与魏然，却给出了截然不同的回答：拉美当然有思想，只是长期处在遮蔽之中。从马克思主义与原住民传统的结合，到女性主义与去殖民运动的实践，许多拉美",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Cerebras CEO on the Future of Data Centres, Token Costs and Memory | We are Not in an Infra Bubble & Dario Got a Bad Deal with Elon for Compute | Should US Companies Sell to China & Why Most Layoffs are AI Washed with Andrew Feldman",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-cerebras-ceo-on-the-future-of-data-centres-token-costs-and-memory-we-are-not-in-an-infra-bubble-dario-got-a-bad-deal-with-elon-for-compute-should-us-companies-sell-to-china-why-most-layoffs-are-ai-washed-with-andrew-feldman",
+      "pubDate": "2026-05-26T07:07:00.000Z",
+      "duration": "01:01:38",
+      "summary": "Andrew Feldman is the co-founder and CEO of Cerebras Systems. This month, Cerebras went public achieving a market cap of $70BN, the largest semiconductor IPO in history. Cerebras has a massive commerc",
+      "art": "https://static.libsyn.com/p/assets/4/c/e/3/4ce344aeabe664f516c3140a3186d450/WhatsApp_Image_2026-05-22_at_17.04.13.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Who’s behind that shell company? We may never know",
+      "link": "https://www.npr.org/2026/05/26/nx-s1-5831356/whos-behind-that-shell-company-we-may-never-know",
+      "pubDate": "2026-05-26T07:00:00.000Z",
+      "duration": "560",
+      "summary": "Why is a law to reign in shell companies getting shelved by the Trump administration? The Corporate Transparency Act had bipartisan support, until it didn’t. We explain what the law was designed to do",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2Fda%2F38d0c7154734b327de1579b59e1b%2F62a3e1ea-da13-4a41-8384-ec41b94692f7.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2505 - Tom Segura",
+      "link": "https://traffic.megaphone.fm/GLT2820142649.mp3",
+      "pubDate": "2026-05-25T23:39:00.000Z",
+      "duration": "10198",
+      "summary": "Tom Segura is a comedian, actor, author, and restaurateur. He hosts “Your Mom’s House” with his wife, comedian Christina Pazsitzky, and “Two Bears, One Cave” with comedian Bert Kreischer. He is also t",
+      "art": "https://megaphone.imgix.net/podcasts/18b33436-588d-11f1-bd69-4b50659ad7ad/image/5517f0f66165c535b74ee785730ad963.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -198,6 +253,17 @@
       "art": "https://static.libsyn.com/p/assets/c/3/2/1/c321969eb8898bf116c3140a3186d450/1_Pod_E274.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2504 - Skylar Grey",
+      "link": "https://traffic.megaphone.fm/GLT6877232671.mp3",
+      "pubDate": "2026-05-22T17:00:00.000Z",
+      "duration": "7475",
+      "summary": "Skylar Grey is a Grammy Award-nominated singer, songwriter, and producer. Her new album, “Wasted Potential,” is available now.https://ffm.to/sg_wastedpotential.OPRwww.youtube.com/@SkylarGreywww.skylar",
+      "art": "https://megaphone.imgix.net/podcasts/66dfc50c-5572-11f1-bfc8-23863e30930c/image/bdf8e2f45f40c24b5e34b570f9847d50.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -218,6 +284,17 @@
       "duration": "546",
       "summary": "Diving deep into President Trump’s many stock trades , a peptide business posing as a sporting event and a new breakthrough in Shakira’s ongoing tax drama. Fact checking by Sierra Juarez . Your Next L",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F97%2F2b%2Fde681ff2497890e646ee1228831c%2Febb2a3ca-7bfe-4ebf-bbdc-703bb729eaf7.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2503 - Eric Weinstein",
+      "link": "https://traffic.megaphone.fm/GLT2235835292.mp3",
+      "pubDate": "2026-05-21T17:00:00.000Z",
+      "duration": "10742",
+      "summary": "Eric Weinstein, PhD, is a mathematician, former managing director of Thiel Capital, and a manager of the Galileo Project research team. He is the originator of the Intellectual Dark Web and creator of",
+      "art": "https://megaphone.imgix.net/podcasts/365312f8-54a1-11f1-bffe-e722e4e55eb4/image/58768c38fac83b661d07ee5ad63da26e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -264,6 +341,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff4%2F6c%2F11c40a614bb78cdc3616c6990456%2F06e75c96-627e-4983-9957-a0c3aaeca956.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2502 - David Paulides",
+      "link": "https://traffic.megaphone.fm/GLT9926666486.mp3",
+      "pubDate": "2026-05-20T17:00:00.000Z",
+      "duration": "8754",
+      "summary": "David Paulides is a writer, investigator, filmmaker, and former law enforcement officer. He is the author of the “Missing 411” series, which explores unexplained disappearances in North American wilde",
+      "art": "https://megaphone.imgix.net/podcasts/2cc305a6-53dc-11f1-aaca-0b2a12a0aa49/image/d7e526bf6cc6f697d9b3d93b2598e316.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -273,6 +361,17 @@
       "duration": "572",
       "summary": "In an era of AI slop, we find out how some artists are seeking out human verification for their work. Plus, we prove our own episode is 100% human-made. Fact checking by Sierra Juarez . Your Next List",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff4%2Fa6%2F68e16aac480cb018f63a36ec4f30%2F3118fd5b-9ce8-4ddd-832f-bbcfdb3a0906.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2501 - Marc Andreessen",
+      "link": "https://traffic.megaphone.fm/GLT4222257548.mp3",
+      "pubDate": "2026-05-19T17:00:00.000Z",
+      "duration": "12350",
+      "summary": "Marc Andreessen is a co-founder and general partner at the venture capital firm Andreessen Horowitz, co-creator of the Mosaic internet browser and co-founder of Netscape, and author of “The Techno-Opt",
+      "art": "https://megaphone.imgix.net/podcasts/6e105d8e-5318-11f1-9ed5-9321e601ba7a/image/7532be1b508f1bbcc1793cdd57991e3f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -363,6 +462,17 @@
       "art": "https://static.libsyn.com/p/assets/1/b/2/7/1b271d367e0c2334d959afa2a1bf1c87/1_Pod_E273.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2500 - Scott Horton",
+      "link": "https://traffic.megaphone.fm/GLT9667446181.mp3",
+      "pubDate": "2026-05-15T17:00:00.000Z",
+      "duration": "9684",
+      "summary": "Scott Horton is the director of the Libertarian Institute, host of “The Scott Horton Show,” co-host of “Provoked” with Darryl Cooper, and author of several books, the most recent of which is “Provoked",
+      "art": "https://megaphone.imgix.net/podcasts/5b779a24-4fea-11f1-831f-5bde17471e54/image/fddbac935ab75fc06f928a972f674458.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -394,6 +504,17 @@
       "duration": "544",
       "summary": "On today’s Indicators of the Week: the Gamestop and eBay romance that never was, more and more people are taking out loans for everyday things, and no, everyday people can’t invest in OpenAI and Anthr",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc6%2F7d%2F16dfdc9444fc96908a6de6fbbbd9%2F3eda5a34-580d-4b74-bb19-25fd76bae025.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2499 - Marcus King",
+      "link": "https://traffic.megaphone.fm/GLT6739360165.mp3",
+      "pubDate": "2026-05-14T17:00:00.000Z",
+      "duration": "10382",
+      "summary": "Marcus King is the lead singer, guitarist, and founder of The Marcus King Band. His most recent album is “Darling Blue.” https://marcusking.komi.iowww.youtube.com/@RealMarcusKingwww.marcuskingofficial",
+      "art": "https://megaphone.imgix.net/podcasts/600dc11c-4f31-11f1-bccd-c7e184fd1c90/image/afb298a0f8443bf5e68682e10772c201.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -440,6 +561,17 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2498 - Brendan Schaub",
+      "link": "https://traffic.megaphone.fm/GLT7316273414.mp3?updated=1778687080",
+      "pubDate": "2026-05-13T17:00:00.000Z",
+      "duration": "10066",
+      "summary": "Brendan Schaub is the host of “Big Brown Breakdown” as well as the Tubi series “Gear Heads Gone Wild.” https://tubitv.com/series/300019796/gear-heads-gone-wildwww.youtube.com/@ThicccBoy Learn more abo",
+      "art": "https://megaphone.imgix.net/podcasts/9d83e436-4e69-11f1-a5d3-4b18893718bc/image/b85383507c7ab82d9b2e2b7d6b3d33c4.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -460,6 +592,17 @@
       "duration": "01:35:27",
       "summary": "(0:00) David Friedberg welcomes Charles & Chase Koch (1:04) Koch Inc. Overview: Scale, Business Lines & History (2:21) Building the Business: Early Days & Charles Koch Joins (1961) (11:31) Failures, C",
       "art": "https://static.libsyn.com/p/assets/0/a/f/e/0afe1ed26eaee8a516c3140a3186d450/1_Koch_Pod.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2497 - Gad Saad",
+      "link": "https://traffic.megaphone.fm/GLT9625231635.mp3?updated=1778626262",
+      "pubDate": "2026-05-12T17:00:00.000Z",
+      "duration": "9768",
+      "summary": "Dr. Gad Saad is a scholar at the Declaration of Independence Center for the Study of American Freedom at the University of Mississippi and host of “The Saad Truth.” His new book, “Suicidal Empathy: Dy",
+      "art": "https://megaphone.imgix.net/podcasts/e306b85e-4deb-11f1-93b5-733d950b1692/image/07e9f9771d17478a44000bc0bfb0efb7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -550,6 +693,17 @@
       "art": "https://static.libsyn.com/p/assets/c/4/4/d/c44ded9277e66f66d959afa2a1bf1c87/1_Pod_E272.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2496 - Julia Mossbridge",
+      "link": "https://traffic.megaphone.fm/GLT4115426558.mp3?updated=1778288535",
+      "pubDate": "2026-05-08T17:00:00.000Z",
+      "duration": "10092",
+      "summary": "Julia Mossbridge, PhD, is a cognitive neuroscientist, author, and educator. She is the founder and president of American Electrodynamics, the co-founder and chief science officer of Applied Love Labs,",
+      "art": "https://megaphone.imgix.net/podcasts/4b891a70-4a7c-11f1-bb87-5bc29315a15e/image/cc4515b6ca5b07e4016effb6cac2d5ee.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -581,6 +735,17 @@
       "duration": "01:13:57",
       "summary": "Here’s a shocking number: One out of eight American adults is taking a GLP-1, like Ozempic or Zepbound, according to a KFF poll. GLP-1s are the biggest pharmaceutical story since antidepressants. But ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2495 - Tim Burchett",
+      "link": "https://traffic.megaphone.fm/GLT4340239159.mp3?updated=1778171703",
+      "pubDate": "2026-05-07T17:00:00.000Z",
+      "duration": "9389",
+      "summary": "Tim Burchett represents Tennessee’s 2nd District and is a member of the Republican Party. Rep. Burchett is a member of the UAP Caucus, chairman of the DOGE Subcommittee, and serves on the House Commit",
+      "art": "https://megaphone.imgix.net/podcasts/8e7ce89a-49d5-11f1-87a7-fbdab5dea703/image/d76f46a926ed9bb5c5b0eb9189a90f40.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
@@ -616,6 +781,17 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #178 with Dan Hardy",
+      "link": "https://traffic.megaphone.fm/GLT6608842902.mp3?updated=1778084286",
+      "pubDate": "2026-05-06T17:00:00.000Z",
+      "duration": "10355",
+      "summary": "Joe sits down with Dan Hardy, a mixed martial artist, host of the “Full Reptile” podcast, and commentator for the Professional Fighters League.www.youtube.com/@DanHardyFRwww.pflmma.com Perplexity: Dow",
+      "art": "https://megaphone.imgix.net/podcasts/a49891a2-4902-11f1-ba85-fb40caef1595/image/f7dd029b6676e5d0bfc590c225c85340.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -636,6 +812,17 @@
       "duration": "01:03:52",
       "summary": "【主播的话】 去年一个偶然的机会，我在纽约认识了高琴教授，还发现我们是邻居。 在那之前，我已经对高琴教授的有所耳闻。她是著作丰硕的社会政策学者，在哥伦比亚大学社会工作学院任教，是讲席教授，同时担任博士项目主管副院长，以研究中国贫困问题见长。她常年组织大规模的社会调查，用数据来研究贫困的根源、影响与政策应对。她同时还是哥大“亚裔美国人”项目主任。在哥大——一个竞争激烈、精英云集、以全球化和多元化闻名",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2494 - Chamath Palihapitiya",
+      "link": "https://traffic.megaphone.fm/GLT8247158814.mp3?updated=1777998506",
+      "pubDate": "2026-05-05T17:00:00.000Z",
+      "duration": "10284",
+      "summary": "Chamath Palihapitiya is a venture capitalist, engineer, founder of Social Capital, and a co-host of the podcast “All-In.”www.youtube.com/@allinhttps://www.youtube.com/@chamathhttps://chamath.substack.",
+      "art": "https://megaphone.imgix.net/podcasts/468336ba-482d-11f1-ba09-2b315b76916a/image/20caedbdb66ee55e325f5aa52a38c891.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -682,17 +869,6 @@
       "art": "https://static.libsyn.com/p/assets/b/6/4/5/b6454fa5372e8960d959afa2a1bf1c87/WhatsApp_Image_2026-05-01_at_17.59.44.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "How taxing the wealthy could work",
-      "link": "https://www.npr.org/2026/05/04/nx-s1-5808343/how-taxing-the-wealthy-could-work",
-      "pubDate": "2026-05-04T07:00:00.000Z",
-      "duration": "506",
-      "summary": "Tax cuts for the middle and working classes, and tax hikes for the rich. What's behind this trend? We ask Democratic Senator Chris Van Hollen to explain his bill that eliminates federal income tax for",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb3%2F31%2Faeb0f2cb4c1bbad96a28226358d4%2Fad023c2a-3190-4313-89f4-d4d878cef484.png"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -715,6 +891,17 @@
       "art": "https://static.libsyn.com/p/assets/b/1/8/6/b1862c7e177b0d2a16c3140a3186d450/1_Pod_E271.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2493 - Protect Our Parks 16",
+      "link": "https://traffic.megaphone.fm/GLT1105574712.mp3?updated=1777655527",
+      "pubDate": "2026-05-01T17:00:00.000Z",
+      "duration": "12206",
+      "summary": "Shane Gillis is the co-host of “Matt and Shane’s Secret Podcast,” a creator and star of Netflix’s comedy series “Tires,” and one half of the sketch comedy duo “Gilly and Keeves.” His most recent speci",
+      "art": "https://megaphone.imgix.net/podcasts/ae65c5d0-450e-11f1-9052-470cd9d9bdf0/image/dd575cf33376ac916a6e7e2d290d758a.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -724,6 +911,17 @@
       "duration": "00:03:00",
       "summary": "- 导语 - 从江户时代的「风说书」，到甲午前后大陆浪人的活跃，再到陆军参谋本部和大本营体系的构建，日本早期的情报体系兼有民间与官方色彩。锁国时期，日本幕府怎样通过港口与商人获取外界知识？以药房为名加以掩护，荒尾精如何用「汉口乐善堂」在华建立初代间谍网络？甲午战争前，日本海军是如何通过「正规渠道」刺探情报的？重新复盘甲午战争，晚清的信息传递机制为何完全失效？请听本期嘉宾沙青青带来的精彩分享！ 《谍",
       "art": "https://image.xyzcdn.net/Fkt1UqNqcfMQLc-90msKo0OgECcC.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2492 - Ari Shaffir",
+      "link": "https://traffic.megaphone.fm/GLT1035374307.mp3?updated=1777566754",
+      "pubDate": "2026-04-30T17:00:00.000Z",
+      "duration": "9665",
+      "summary": "Ari Shaffir is a comedian, writer, and host of “You Be Trippin’.” His seven-episode live storytelling series, “The End,” is available now from YMH Studios.https://theend.ymhstudios.comwww.youtube.com/",
+      "art": "https://megaphone.imgix.net/podcasts/4ecd300a-443b-11f1-bc0d-0febb072d159/image/c4e5cfb867116b00ae3305b8d944b6c3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -889,17 +1087,6 @@
       "duration": "01:32:46",
       "summary": "Leading the Future, a super PAC whose funders include the founders of companies like Palantir and OpenAI, is spending millions of dollars this election cycle, and a considerable amount of that money i",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Everyone is Wrong; We Will Have More Developers in Five Years | Why Frontier Labs Will Be Way More Valuable Than They Are Today | Are SaaS Companies Cooked: Which Thrive & Which Die with Aaron Levie, Founder at Box",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-everyone-is-wrong-we-will-have-more-developers-in-five-years-why-frontier-labs-will-be-way-more-valuable-than-they-are-today-are-saas-companies-cooked-which-thrive-which-die-with-aaron-levie-founder-at-box",
-      "pubDate": "2026-04-20T07:07:00.000Z",
-      "duration": "53:54",
-      "summary": "Aaron Levie is one of the most forward-thinking public company CEOs when it comes to enterprise adoption of AI. Aaron is the CEO of Box, the enterprise storage company that does over $1BN in revenue b",
-      "art": "https://static.libsyn.com/p/assets/c/2/a/3/c2a32135a7e43cb2d959afa2a1bf1c87/WhatsApp_Image_2026-04-17_at_12.04.35.jpeg"
     },
     {
       "showId": "allin",
@@ -1122,17 +1309,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "464 明清如何治理苗疆：对峙、隔阂与修筑湘黔边墙",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69cf8b7db977fb2c4706915f?utm_source=rss",
-      "pubDate": "2026-04-03T09:57:43.000Z",
-      "duration": "01:05:14",
-      "summary": "- 导语 - 在明清两代的湘黔边境，存在着一段全长数百里的「边墙」，它曾是中央王朝为了管控西南边疆而修筑的。明初借土司内斗之机实行改土归流，但此后这一地区因管理失控，逐渐陷入长期的「生苗」作乱。改土归流为何未能稳住局势，反而引发持续动乱？那些表面上效忠朝廷的地方土司，私下里是如何利用动乱来「养寇自重」的？修墙真的能解决边疆问题吗，还是仅仅是一种无奈的封堵手段？从残酷的军事对峙到后来的民苗通婚、商贸",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1208,17 +1384,6 @@
       "duration": "37:58",
       "summary": "(0:00) David Friedberg intros Bryan Johnson (0:54) Why Bryan Johnson did 5-MeO-DMT (12:56) What brain scans actually show (18:36) Psychosis, bad trips, and life-altering decisions (26:23) The next fro",
       "art": "https://static.libsyn.com/p/assets/d/1/d/5/d1d5cdffc4fde188d959afa2a1bf1c87/1_Pod_BJ.png"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "How Bad Could the Iran Oil Crisis Get?",
-      "link": "https://www.nytimes.com/2026/03/24/opinion/ezra-klein-podcast-jason-bordoff.html",
-      "pubDate": "2026-03-24T09:00:00.000Z",
-      "duration": "01:02:24",
-      "summary": "Iran has currently shut off more than 10 percent of the world’s oil supply. If that goes on for a lot longer — or if the war escalates to include more strikes on energy infrastructure in the region — ",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "lexfridman",
