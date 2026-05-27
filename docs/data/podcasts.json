@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-26T21:29:05.077Z",
+    "updatedAt": "2026-05-27T11:04:35.890Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,10 +165,21 @@
   ],
   "episodes": [
     {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "What the movies teach us about recessions, memestocks and gold",
+      "link": "https://www.npr.org/2026/05/27/nx-s1-5835727/what-the-movies-teach-us-about-recessions-memestocks-and-gold",
+      "pubDate": "2026-05-27T07:00:00.000Z",
+      "duration": "541",
+      "summary": "The Indicator hosts Adrian Ma and Wailin Wong discuss their favorite econ and business movies. Fact checking by Sierra Juarez . Your Next Listen — Before La La Land, there was Fort Lee, New Jersey Con",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd5%2F14%2Ffd6574ee4d30bc78ba9fa778693d%2F4ca5f7be-47f2-4911-bad6-095a2bc99757.png"
+    },
+    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
-      "title": "Yuval Noah Harari on the Mistake Strongmen Keep Making",
+      "title": "Yuval Noah Harari on Donald Trump’s Core Delusion",
       "link": "https://www.nytimes.com/2026/05/26/opinion/ezra-klein-podcast-yuval-noah-harari.html",
       "pubDate": "2026-05-26T09:00:00.000Z",
       "duration": "01:53:11",
@@ -845,17 +856,6 @@
       "duration": "01:05:00",
       "summary": "In the U.S., illiberalism is in power. I don’t think anybody really argues against that. But I’ve been surprised by how weak liberalism has felt in response. Donald Trump isn’t a popular president; he",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "How your bank account might predict dementia",
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5810956/how-your-bank-account-might-predict-dementia",
-      "pubDate": "2026-05-05T07:00:04.000Z",
-      "duration": "592",
-      "summary": "Some of the earliest signs of dementia can show up in your financial portfolio. Missed bill payments and erratic investments could be indicators, and they can happen years before an official diagnosis",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F06%2F6b%2F315097da45c09899eca045611fc7%2F3615d715-28ff-44a3-9ef1-a78ff26761e7.jpg"
     },
     {
       "showId": "20vc",
