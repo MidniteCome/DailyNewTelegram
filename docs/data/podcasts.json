@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-27T11:04:35.890Z",
+    "updatedAt": "2026-05-27T17:24:05.299Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #179 with Josh Thompson & \"Big\" John McCarthy",
+      "link": "https://traffic.megaphone.fm/GLT9400073467.mp3",
+      "pubDate": "2026-05-27T17:00:00.000Z",
+      "duration": "10266",
+      "summary": "Joe sits down with Josh Thompson, a retired champion mixed martial artist and fight analyst, and Big John McCarthy, a veteran mixed martial arts referee, Professional Fighters League commentator, and ",
+      "art": "https://megaphone.imgix.net/podcasts/b9a851aa-5969-11f1-b610-5b89e07e9b01/image/fd78de4e035bd06624f0ea03dd51aa1e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -911,17 +922,6 @@
       "duration": "00:03:00",
       "summary": "- 导语 - 从江户时代的「风说书」，到甲午前后大陆浪人的活跃，再到陆军参谋本部和大本营体系的构建，日本早期的情报体系兼有民间与官方色彩。锁国时期，日本幕府怎样通过港口与商人获取外界知识？以药房为名加以掩护，荒尾精如何用「汉口乐善堂」在华建立初代间谍网络？甲午战争前，日本海军是如何通过「正规渠道」刺探情报的？重新复盘甲午战争，晚清的信息传递机制为何完全失效？请听本期嘉宾沙青青带来的精彩分享！ 《谍",
       "art": "https://image.xyzcdn.net/Fkt1UqNqcfMQLc-90msKo0OgECcC.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2492 - Ari Shaffir",
-      "link": "https://traffic.megaphone.fm/GLT1035374307.mp3?updated=1777566754",
-      "pubDate": "2026-04-30T17:00:00.000Z",
-      "duration": "9665",
-      "summary": "Ari Shaffir is a comedian, writer, and host of “You Be Trippin’.” His seven-episode live storytelling series, “The End,” is available now from YMH Studios.https://theend.ymhstudios.comwww.youtube.com/",
-      "art": "https://megaphone.imgix.net/podcasts/4ecd300a-443b-11f1-bc0d-0febb072d159/image/c4e5cfb867116b00ae3305b8d944b6c3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
