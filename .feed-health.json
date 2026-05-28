@@ -1,13 +1,12 @@
 {
-  "lastRun": "2026-05-27",
+  "lastRun": "2026-05-28",
   "feeds": [
     {
       "name": "Stratechery",
       "url": "https://stratechery.passport.online/feed/rss/CYTbSebmyaKYnjBgSNwoG",
-      "ok": false,
-      "itemCount": 0,
-      "consecutiveFails": 1,
-      "error": "HTTP 502 for https://stratechery.passport.online/feed/rss/CYTbSebmyaKYnjBgSNwoG"
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
     },
     {
       "name": "CNBC Technology",
