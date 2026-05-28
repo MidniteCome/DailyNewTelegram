@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-28T11:06:03.298Z",
+    "updatedAt": "2026-05-28T17:36:19.559Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2506 - Michelle Thaller",
+      "link": "https://traffic.megaphone.fm/GLT2663008219.mp3",
+      "pubDate": "2026-05-28T17:00:00.000Z",
+      "duration": "9781",
+      "summary": "Michelle Thaller, PhD, is an astrophysicist, award-winning science communicator, and retired NASA executive who worked at NASA’s Goddard Space Flight Center and NASA Headquarters. Her work has appeare",
+      "art": "https://megaphone.imgix.net/podcasts/c9848b58-5a58-11f1-af46-1791c124921c/image/c68a8f811cb24486b2f4db238a0ddac7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Saudi’s LIV golf exit is just the start",
+      "link": "https://www.npr.org/2026/05/28/nx-s1-5836550/saudis-liv-golf-exit-is-just-the-start",
+      "pubDate": "2026-05-28T14:52:24.000Z",
+      "duration": "565",
+      "summary": "Is Saudi Arabia no longer a golf state? The Saudi sovereign wealth fund poured billions into culture and sports in the last decade, none more high profile than LIV Golf, a rival to the PGA. So why is ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F35%2F5f%2F3e5a90354a7189cae5e7fe2b59fa%2F1f67898f-3405-4836-b7fe-3047b4190029.jpg"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -836,17 +858,6 @@
       "art": "https://megaphone.imgix.net/podcasts/a49891a2-4902-11f1-ba85-fb40caef1595/image/f7dd029b6676e5d0bfc590c225c85340.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "When will the Iran war hit food prices?",
-      "link": "https://www.npr.org/2026/05/06/nx-s1-5812907/when-will-the-iran-war-hit-food-prices",
-      "pubDate": "2026-05-06T07:00:00.000Z",
-      "duration": "469",
-      "summary": "The US-Israel war in Iran is already being felt by American consumers at the gas pump, but when — and how badly — could it be felt at the supermarket? Today on the show, a food economist takes a crack",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe3%2Faf%2F6ab280a14763aba734fbcbf7251f%2F2ab48e60-74d3-4dea-983a-43caad46458e.png"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -922,17 +933,6 @@
       "duration": "01:20:58",
       "summary": "(0:00) Bestie intros (3:05) OpenAI misses targets, Codex gains on Claude (20:02) AI cybersecurity: a market that's about to explode (31:03) Elon vs Sam Altman lawsuit (41:00) Big tech smashes earnings",
       "art": "https://static.libsyn.com/p/assets/b/1/8/6/b1862c7e177b0d2a16c3140a3186d450/1_Pod_E271.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2493 - Protect Our Parks 16",
-      "link": "https://traffic.megaphone.fm/GLT1105574712.mp3?updated=1777655527",
-      "pubDate": "2026-05-01T17:00:00.000Z",
-      "duration": "12206",
-      "summary": "Shane Gillis is the co-host of “Matt and Shane’s Secret Podcast,” a creator and star of Netflix’s comedy series “Tires,” and one half of the sketch comedy duo “Gilly and Keeves.” His most recent speci",
-      "art": "https://megaphone.imgix.net/podcasts/ae65c5d0-450e-11f1-9052-470cd9d9bdf0/image/dd575cf33376ac916a6e7e2d290d758a.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
