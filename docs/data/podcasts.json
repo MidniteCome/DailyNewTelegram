@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-27T21:46:46.067Z",
+    "updatedAt": "2026-05-28T11:06:03.298Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: OpenAI & SpaceX S1 Drops | NVIDIA's $81BN Revenue Quarter | Cloudlfare and ClickUp Do Controversial Layoffs | Exa, OpenRouter and Polsia Raise Mega Rounds | Uber and Microsoft Declare AI ROI for Developers is Questionable",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-openai-spacex-s1-drops-nvidias-81bn-revenue-quarter-cloudlfare-and-clickup-do-controversial-layoffs-exa-openrouter-and-polsia-raise-mega-rounds-uber-and-microsoft-declare-ai-roi-for-developers-is-questionable",
+      "pubDate": "2026-05-28T07:07:00.000Z",
+      "duration": "01:25:19",
+      "summary": "AGENDA: 05:16 Nvidia Blowout Quarter: $81BN Revenues and Stock… Flat! 10:39 Uber and Microsoft Declare Productivity Gains Questionable from AI 25:26 The Layoffs Continue: ClickUp and Cloudflare 34:39 ",
+      "art": "https://static.libsyn.com/p/assets/c/1/8/d/c18dfb802c5bce2f16c3140a3186d450/WhatsApp_Image_2026-05-27_at_17.22.38.jpeg"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "在德国法庭见证华人迷奸案的审判，我感到一种集体的愤怒",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a17c96fac7bdb080c31fe3c?utm_source=rss",
+      "pubDate": "2026-05-28T06:31:48.000Z",
+      "duration": "01:18:29",
+      "summary": "【主播的话】 （本期节目涉及性暴力与性犯罪的讨论，可能引起部分听众不适，请你斟酌收听。） 上周，我们走进了柏林的法院，在现场见证了近来引发高度关注的华人迷奸案庭审。被审理的是核心八人群组里的邵姓嫌疑人，这个网络里的成员散布在德国、美国、荷兰等地，通过一个 Telegram 群组彼此相连——他们用药物迷昏女性后实施性侵，并把过程拍下来，在群里分享。受害者大多是他们身边的华人女性：留学生、房东、邻居、",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -1056,17 +1078,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Cursor Acquired for $60BN by xAI | Anthropic Hits $1TRN in Secondary Markets | Did Anthropic Just Kill Figma, Adobe and Canva | Rippling Hits $1BN in ARR | Salesforce Goes Headless: Smart or Stupid | Cerebras IPO 2.0",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-cursor-acquired-for-60bn-by-xai-anthropic-hits-1trn-in-secondary-markets-did-anthropic-just-kill-figma-adobe-and-canva-rippling-hits-1bn-in-arr-salesforce-goes-headless-smart-or-stupid-cerebras-ipo-20",
-      "pubDate": "2026-04-23T07:07:00.000Z",
-      "duration": "01:40:59",
-      "summary": "AGENDA: 04:00 — 🤯 Cursor Acquired for $60B?! Breaking down the mind-blowing deal with xAI/SpaceX. 07:00 — 🤝 A Marriage Made in Heaven: Why Cursor and Elon Musk actually make perfect sense. 11:00 — \ud83c",
-      "art": "https://static.libsyn.com/p/assets/5/1/7/c/517cd13aaa0347fb16c3140a3186d450/WhatsApp_Image_2026-04-22_at_16.12.18.jpeg"
-    },
-    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -1857,17 +1868,6 @@
       "duration": null,
       "summary": "Michael Levin is a biologist at Tufts University working on novel ways to understand and control complex pattern formation in biological systems. Thank you for listening ❤ Check out our sponsors: http",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "weirdo",
-      "showName": "不合时宜",
-      "category": "zh",
-      "title": "对话“中国发展学之父”李小云：发展难有绝对公平，关键是不让弱者被甩下车",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6926af06f8a9e1d162827317?utm_source=rss",
-      "pubDate": "2025-11-27T00:00:00.000Z",
-      "duration": "00:50:57",
-      "summary": "【主播的话】 今年夏天，我去了云南西双版纳的一个小村子，观摩了一场关于“发展”的社会实验：一个资源匮乏、交通不便、族群杂居的边缘村庄，如何找到自己的位置？它的市场逻辑、政府逻辑、文化逻辑分别是什么？ 这场实验的主导者，是中国农业大学的李小云教授和他的团队。自上世纪90年代留学归国后，李小云长期研究贫困问题：一边在书斋里写论文，一边在田间地头，与农民一起种粮、盖房。许多贫困村在他的介入下重获新生，最",
-      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
       "showId": "acquired",
