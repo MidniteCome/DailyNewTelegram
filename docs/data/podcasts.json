@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-28T21:50:00.284Z",
+    "updatedAt": "2026-05-29T10:56:37.631Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "日本谍报物语04｜战时日军情报网：华北治安战、太平洋情报战与终战媾和工作的成败",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a195674ac7bdb080c32bcb8?utm_source=rss",
+      "pubDate": "2026-05-29T09:30:35.000Z",
+      "duration": "00:03:00",
+      "summary": "- 导语 - 从九一八事变到太平洋战争，日本情报机器在战术层面展现出惊人成果，但在宏观战略上屡屡陷入误判。由满铁调查部、东亚同文书院构建的信息网络，如何支撑日军对华北的渗透？「梅兰竹菊」等特务机关针对中国各派势力的诱降工作，为何只在拉拢汪精卫上「成功」？张鼓峰、诺门坎的惨败背后，日本对苏情报如何充斥着白俄流亡者的一厢情愿？珍珠港战术奇袭、中途岛情报溃败，日美情报战争如何改变了太平洋战局？请听本期嘉",
+      "art": "https://image.xyzcdn.net/FvZfckFcavT1CgwW_gSQp3JEC9Xz.png"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Does Trump Want to Lose the Midterms?",
+      "link": "https://www.nytimes.com/2026/05/29/opinion/ezra-klein-podcast-liam-donovan.html",
+      "pubDate": "2026-05-29T09:00:00.000Z",
+      "duration": "01:14:55",
+      "summary": "President Trump doesn’t seem to care that much about winning the midterms. He’s more unpopular at this point in his second term than basically any of his modern predecessors. Democrats seem poised to ",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Obsession, the most fun job in China, and a new green card policy",
+      "link": "https://www.npr.org/2026/05/29/nx-s1-5838005/obsession-the-most-fun-job-in-china-and-a-new-green-card-policy",
+      "pubDate": "2026-05-29T07:00:00.000Z",
+      "duration": "550",
+      "summary": "It’s Indicators of the Week (now on YouTube !). It’s our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: China’s baaaaad job market has led to an intere",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2b%2F75%2Fbb86192e4fa59f7c320977cfbdb0%2F548a3028-a17b-4ae1-8fd3-356955dc5bc3.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -825,17 +858,6 @@
       "art": "https://static.libsyn.com/p/assets/d/b/5/f/db5fbd177c5a69f416c3140a3186d450/WhatsApp_Image_2026-05-06_at_17.46.40.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Trump crypto, Trump ballroom and Trump drones",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5813760/trump-crypto-trump-ballroom-and-trump-drones",
-      "pubDate": "2026-05-07T07:00:00.000Z",
-      "duration": "566",
-      "summary": "What do a Florida-based drone company, a crypto billionaire, and a European steelmaker have in common? Ties to President Trump. Since returning to office, the president, as well as his family and frie",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc0%2F57%2F8fb7f95f43389370ffa49fbd6681%2Fa84b85af-a042-4cb8-afb3-e3f9be01ccf3.jpg"
-    },
-    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -1276,17 +1298,6 @@
       "art": "https://static.libsyn.com/p/assets/f/1/b/c/f1bc804150d9e1cad959afa2a1bf1c87/1_Pod_Shapiro.png"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "午后偏见044｜书之爱：王强谈西文书籍的阅读、收藏与翻译",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69d4bc00e2c8be315592a389?utm_source=rss",
-      "pubDate": "2026-04-07T08:25:06.000Z",
-      "duration": "01:19:57",
-      "summary": "- 导语 – 从北大英文系的青春岁月，到新东方、真格基金的商业生涯，王强始终保持着对西文书籍近乎痴迷的热爱。他爱书、知书的趣闻，也在友人中广为流传。不仅如此，作为资深西文书蠹，他也热衷于书写有关藏书的故事，并动手翻译自己钟爱的作品。那么，有哪些大师引导王强走上藏书之路？他如何按图索骥，追随心仪的作家学者四处猎书？这些年来，他收获了什么珍本善本？他与英美书商之间，有哪些古风犹存的故事？他为何对《爱丽",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1373,17 +1384,6 @@
       "duration": "45:49",
       "summary": "一个在德黑兰生活的中国人，在过去近四周的时间里亲历了这场至今仍未结束的美以对伊战争。他都经历了些什么？他眼中的伊朗人民与伊朗社会又是怎样的？ 今年二月二十八日，战争再次降临伊朗。这一次的烈度远超去年的十二日战争 —— 不分日夜落下的导弹，黑色的石油雨、在支持与反对之间走向撕裂的城市……而在此之前，这个国家已经经历了动荡的 2025 年：全面制裁落地，货币崩溃，街头抗议与血腥镇压接连而至。 这一期节",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Will Iran Break Trumpism?",
-      "link": "https://www.nytimes.com/2026/03/27/opinion/ezra-klein-podcast-christopher-caldwell.html",
-      "pubDate": "2026-03-27T09:00:00.000Z",
-      "duration": "01:08:27",
-      "summary": "Is Trumpism crashing on the shoals of the Iran war? That is what Christopher Caldwell thinks. Caldwell is a prominent thinker on the right. He’s a contributing editor at the conservative publication t",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "allin",
@@ -1777,7 +1777,7 @@
       "title": "Rolex",
       "link": "https://www.acquired.fm/episodes/rolex",
       "pubDate": "2026-01-03T04:34:00.000Z",
-      "duration": "17983",
+      "duration": "17966",
       "summary": "Rolex is a series of paradoxes. They sell obsolete and objectively inferior mechanical devices for 10-1000x the price of their superior digital successors… and demand is stronger than ever in history!",
       "art": "https://img.transistorcdn.com/gx6fhYO1SXMFGcVkU0FWykOtdtd5kMbwLFJMSN3_WZ4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zMWQ4/NjUxMmJkYTUxMzRh/Mzk4ZWYwM2UwYWNk/M2Q2Ny5wbmc.jpg"
     },
@@ -1788,7 +1788,7 @@
       "title": "Costco",
       "link": "https://www.acquired.fm/episodes/costco",
       "pubDate": "2026-01-02T05:46:00.000Z",
-      "duration": "10907",
+      "duration": "10890",
       "summary": "Costco is not only Charlie Munger’s favorite company of all time (plus he’s on the board, natch), it’s an absolutely fascinating study in how seemingly opposite characteristics can combine to create i",
       "art": "https://img.transistorcdn.com/jFPz1nSL8JfyAmY8ab_xqfZWEVOQ1VqoHhJKdxvzTEY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hMWI0/NTE4ZGMzNWQ2ODli/ZTExZDkwNjBmZjVl/ZmQ1OS5wbmc.jpg"
     },
@@ -1876,7 +1876,7 @@
       "title": "Coca-Cola",
       "link": "https://www.acquired.fm/episodes/coca-cola",
       "pubDate": "2025-11-24T03:00:17.000Z",
-      "duration": "14513",
+      "duration": "14496",
       "summary": "Coca-Cola is… sugar water. And somehow it’s also America, Christmas, summertime, friendship and happiness. Today we tell the story of how The Coca-Cola Company amazingly transmogrified a beverage into",
       "art": "https://img.transistorcdn.com/39-V6NdO6ZaVaMH9TAU7sm7gqZF16IvTl0NGCOQ5nDo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zM2Q5/OTdkNDY1NWU1YTZk/N2FmNDVkNzk5M2Jl/NjYzZC5qcGc.jpg"
     },
@@ -1920,7 +1920,7 @@
       "title": "Trader Joe’s",
       "link": "https://www.acquired.fm/episodes/trader-joes",
       "pubDate": "2025-10-27T03:07:10.000Z",
-      "duration": "12367",
+      "duration": "12349",
       "summary": "Trader Joe's breaks every rule of modern retail. They don't do e-commerce. They don't do delivery. No sales, coupons, or loyalty programs. They only stock 4,000 SKUs versus 50,000+ at normal supermark",
       "art": "https://img.transistorcdn.com/mq0lgrSm6fJKRP39Oi5lgpBWo-rigMKrTI-LKVI16UE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zOGIx/MmQwYmNlNjEyZGFj/YWVhOTA5NDY1MGZi/ZWEyMC5qcGc.jpg"
     },
@@ -1953,7 +1953,7 @@
       "title": "Google Part III: The AI Company",
       "link": "https://www.acquired.fm/episodes/google-the-ai-company",
       "pubDate": "2025-10-06T01:35:54.000Z",
-      "duration": "14663",
+      "duration": "14646",
       "summary": "Google faces the greatest innovator's dilemma in history. They invented the Transformer — the breakthrough technology powering every modern AI system from ChatGPT to Claude (and, of course, Gemini). T",
       "art": "https://img.transistorcdn.com/y4nQdH_zx3Uiyr6Ege0RkhfJtRXIVZUB6JJ34AeqLko/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xOTY3/YzI4NjFjYzg4NWFl/NjY1YjZlM2E0ZDI3/MWE0OC5qcGc.jpg"
     },
@@ -2019,7 +2019,7 @@
       "title": "Google Part II: Alphabet",
       "link": "https://www.acquired.fm/episodes/alphabet-inc",
       "pubDate": "2025-08-26T10:19:06.000Z",
-      "duration": "15032",
+      "duration": "15015",
       "summary": "In its first six years from 1998 to 2004, Google built one of the greatest products of all time (and certainly the greatest business of all time) with Search. Then in its next six years from 2005 to 2",
       "art": "https://img.transistorcdn.com/gLaKE9vfu-tPCSV5766PrXGWFO95TCIXYYRQvaTrgPs/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yNzY2/ZTU5NWQyM2ZhZWZk/ZThlZTAxNTYyZTQz/YWMzOS5qcGc.jpg"
     },
@@ -2041,7 +2041,7 @@
       "title": "The Jamie Dimon Interview",
       "link": "https://www.acquired.fm/episodes/the-jamie-dimon-interview",
       "pubDate": "2025-07-16T14:18:04.000Z",
-      "duration": "4112",
+      "duration": "4095",
       "summary": "We sit down with Jamie Dimon for a live conversation at Radio City Music Hall, covering the incredible journey from his 1998 firing at Citgroup (where he was widely expected to become CEO) to building",
       "art": "https://img.transistorcdn.com/cy5c8cYm3Mif1hAX53cvNupzpgVSO5vERlobaDDdECo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xNTU3/NTA0NTEzMTE2NzBj/NGRjNTY5NGI3MjU2/ZWYzMi5qcGc.jpg"
     },
@@ -2063,7 +2063,7 @@
       "title": "Google Part I: Origins of Search",
       "link": "https://www.acquired.fm/episodes/google",
       "pubDate": "2025-06-30T03:11:14.000Z",
-      "duration": "13058",
+      "duration": "13041",
       "summary": "We tell the story of the single greatest business ever created: Google search. From its origins as a Stanford research project called BackRub, Google became the front door to the internet. Today it’s ",
       "art": "https://img.transistorcdn.com/AIk_95Gy1RKYk2QVkS2VQVKpZd30JmUJb3cV4VmNY0s/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNDE4/MGJjZWJjMDgzMjBh/YjY1MzZmOTk3Yjk5/N2M3OC5qcGc.jpg"
     },
@@ -2107,7 +2107,7 @@
       "title": "The Steve Ballmer Interview",
       "link": "https://www.acquired.fm/episodes/the-steve-ballmer-interview",
       "pubDate": "2025-06-02T01:54:06.000Z",
-      "duration": "10618",
+      "duration": "10601",
       "summary": "We sit down with Steve Ballmer, the legendary former Microsoft CEO and owner of the LA Clippers, for an epic conversation covering his 34 years at Microsoft. Steve listened to our Microsoft episodes a",
       "art": "https://img.transistorcdn.com/nlEyqUXOU914UwjwrayeOmgMmfLh8qGrdXGXEfHTp0g/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNjli/ZDk5NTRlY2FjZTdk/NjM4NmVjZDYzNzgw/ZmEyMi5qcGc.jpg"
     },
