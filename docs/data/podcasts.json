@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-05-29T21:45:53.277Z",
+    "updatedAt": "2026-05-30T09:30:24.617Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Corgi Insurance: The Most Intense Workplace Culture in America: 7 Days Per Week, Founder Sleeps in Office, Corgi Cafe Open 24 Hours a Day, 60% of First 30 Employees Have Corgi Tattoos | The Journey from $0 to $2.6BN Valuation in Just 2 Years",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-corgi-insurance-the-most-intense-workplace-culture-in-america-7-days-per-week-founder-sleeps-in-office-corgi-cafe-open-24-hours-a-day-60-of-first-30-employees-have-corgi-tattoos-the-journey-from-0-to-26bn-valuation-in-just-2-years",
+      "pubDate": "2026-05-30T07:07:00.000Z",
+      "duration": "53:18",
+      "summary": "Nico Laqua is the Co-Founder and CEO of Corgi Insurance, an AI-native insurance carrier built for startups. Corgi is the most intense workplace culture in America. The team works 7 days per week. The ",
+      "art": "https://static.libsyn.com/p/assets/5/d/9/3/5d9380c850e2a0fbd959afa2a1bf1c87/WhatsApp_Image_2026-05-29_at_13.13.59.jpeg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "link": "https://allinchamathjason.libsyn.com/pope-vs-ai-anthropics-digital-god-ai-job-loss-narrative-flips-open-source-crackdown-coming",
+      "pubDate": "2026-05-29T22:23:00.000Z",
+      "duration": "01:34:57",
+      "summary": "(0:00) Bill Gurley joins the show! (6:00) Making yourself valuable in the age of AI, first class of \"AI Natives\" (17:37) Reacting to Pope Leo's AI encyclical: Who guards the guardians? (26:54) Anthrop",
+      "art": "https://static.libsyn.com/p/assets/e/b/d/f/ebdfe17be5b4c02ad959afa2a1bf1c87/1_Pod_E275.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -1056,17 +1078,6 @@
       "art": "https://static.libsyn.com/p/assets/2/9/d/7/29d70302cdc94a35d959afa2a1bf1c87/WhatsApp_Image_2026-04-24_at_17.00.13.jpeg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Product: Replit CEO on Why Coding Models Are Plateauing | Why the SaaS Apocalypse is Justified: Will Incumbents Be Replaced? | Why IDEs Are Dead and Do PMs Survive the Next 3-5 Years with Amjad Masad",
-      "link": "https://thetwentyminutevc.libsyn.com/20product-replit-ceo-on-why-coding-models-are-plateauing-why-the-saas-apocalypse-is-justified-will-incumbents-be-replaced-why-ides-are-dead-and-do-pms-survive-the-next-3-5-years-with-amjad-masad",
-      "pubDate": "2026-04-25T07:07:00.000Z",
-      "duration": "46:51",
-      "summary": "Amjad Masad is the Co-Founder and CEO of Replit, one of the leading \"vibe-coding\" platforms. Under his leadership, Replit has raised a total of $922 million in funding, recently raising at a whopping ",
-      "art": "https://static.libsyn.com/p/assets/2/9/4/e/294e3ca831b49fbc16c3140a3186d450/WhatsApp_Image_2026-04-23_at_17.36.06.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1395,17 +1406,6 @@
       "duration": "45:49",
       "summary": "一个在德黑兰生活的中国人，在过去近四周的时间里亲历了这场至今仍未结束的美以对伊战争。他都经历了些什么？他眼中的伊朗人民与伊朗社会又是怎样的？ 今年二月二十八日，战争再次降临伊朗。这一次的烈度远超去年的十二日战争 —— 不分日夜落下的导弹，黑色的石油雨、在支持与反对之间走向撕裂的城市……而在此之前，这个国家已经经历了动荡的 2025 年：全面制裁落地，货币崩溃，街头抗议与血腥镇压接连而至。 这一期节",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Bryan Johnson: I Just Took the Most Powerful Dose of DMT in the World... Here's What It Was Like",
-      "link": "https://allinchamathjason.libsyn.com/are-psychedelics-the-key-to-living-forever-ft-bryan-johnson",
-      "pubDate": "2026-03-26T00:10:00.000Z",
-      "duration": "37:58",
-      "summary": "(0:00) David Friedberg intros Bryan Johnson (0:54) Why Bryan Johnson did 5-MeO-DMT (12:56) What brain scans actually show (18:36) Psychosis, bad trips, and life-altering decisions (26:23) The next fro",
-      "art": "https://static.libsyn.com/p/assets/d/1/d/5/d1d5cdffc4fde188d959afa2a1bf1c87/1_Pod_BJ.png"
     },
     {
       "showId": "lexfridman",
