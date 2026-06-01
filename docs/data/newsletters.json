@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-05-31T10:00:58.021Z",
+  "generatedAt": "2026-06-01T13:11:37.105Z",
   "items": [
-    {
-      "title": "Nvidia says its forecast for $200 billion CPU market includes China",
-      "link": "https://newslink.reuters.com/click/45855491.44321/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA1MjQyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OCZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158B865c21d4",
-      "author": "Reuters Technology Roundup",
-      "source": "newsletter:Reuters Technology Roundup",
-      "pubDate": "2026-05-24T15:00:56.000Z",
-      "summary": "96 CEO Jensen Huang aimed to assure investors that it can keep up its ​growth. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to Reuters.com for £1/week. Subscribe now. Technology Roundup Technology Roundup Nvidia says its forecast for $200 billion CPU ma",
-      "llmComment": "Nvidia 预测CPU市场规模将达2000亿美元，包括中国。"
-    },
     {
       "title": "Will they or won't they?",
       "link": "https://newslink.reuters.com/click/45857865.5806/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTA1MjUyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B9e1e6520",
@@ -17,7 +8,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-05-25T05:00:12.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Subscribe now. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Ankur Banerjee, Asia Finance & Markets Breaking News Cor",
-      "llmComment": "欧洲和全球市场即将开盘，今日焦点在于市场走势。"
+      "llmComment": "欧洲和全球市场即将开市，今日焦点在于市场走势。"
     },
     {
       "title": "Iran-US talks continue, no breakthrough yet on war",
@@ -26,7 +17,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-05-25T10:59:15.000Z",
       "summary": "96 And Russia uses an Oreshnik missile in a massive strike on Kyiv. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Subscribe now. Daily Briefing Daily Briefing By Claire Beers Hello. Iran and the US play down hopes for an imminent breakthrough in the war,",
-      "llmComment": "伊朗和美国的谈判仍在继续，但尚未取得突破。俄罗斯使用奥列什尼克导弹对基辅发动大规模袭击。"
+      "llmComment": "伊朗和美国的谈判仍在继续，但尚未取得突破。俄罗斯对基辅发动大规模袭击。"
     },
     {
       "title": "Trump and Warsh's fates are now tied, for better or worse",
@@ -44,7 +35,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-05-25T15:02:16.000Z",
       "summary": "96 The company's co-founder urged greater oversight from religious leaders, governments and civil society. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to Reuters.com for £1/week. Subscribe now. Technology Roundup Technology Roundup Anthropic's Olah say",
-      "llmComment": "人工智能公司Anthropic的联合创始人呼吁宗教领袖、政府和民间社会加强对人工智能的监督。"
+      "llmComment": "人工智能公司Anthropic的联合创始人呼吁宗教领袖、政府和民间社会对人工智能进行监管。"
     },
     {
       "title": "Peace talks hit turbulence",
@@ -53,7 +44,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-05-26T05:02:05.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Subscribe now. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Rae Wee, Correspondent Data refreshes every time you ope",
-      "llmComment": "和平谈判遇到波折，欧洲和全球市场迎来新的一天。"
+      "llmComment": "欧洲和全球市场的日前展望。每周仅1英镑订阅。和平谈判遇到波折。"
     },
     {
       "title": "Wrong sort of 'boom' to start the week",
@@ -62,7 +53,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-05-26T10:31:11.000Z",
       "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Subscribe now. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-a",
-      "llmComment": "本周以错误的“繁荣”开始。全球市场今日焦点包括重要经济数据和市场动态。"
+      "llmComment": "今日美国和全球市场的重要事件。每周£1订阅新闻。"
     },
     {
       "title": "US-Iran talks stalls as US launch new strikes",
@@ -71,7 +62,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-05-26T10:59:25.000Z",
       "summary": "96 Plus, Ebola patients flee in attacks on Congo health facilities. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Subscribe now. Daily Briefing Daily Briefing By Claire Beers Hello. The US has launched new strikes on Iran as talks stall, Russia urged for",
-      "llmComment": "美国对伊朗发动新一轮袭击，谈判陷入僵局。"
+      "llmComment": "美国与伊朗的谈判停滞，美国发动新一轮打击。"
     },
     {
       "title": "What’s next at SCOTUS?",
@@ -80,7 +71,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-05-26T12:02:07.000Z",
       "summary": "96 + An end-of-term preview. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. Subscribe now. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. Today we kick off with a look at which ",
-      "llmComment": "最高法院即将结束本期审判，预计有重大发展。报道关注法院、律师事务所和法律实践的最新动态。"
+      "llmComment": "最高法院即将结束本期审判，预计有重大发展。"
     },
     {
       "title": "Pentagon spars with SpaceX over Starlink price hike during Iran war",
@@ -89,7 +80,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-05-26T13:03:42.000Z",
       "summary": "96 As U.S. kamikaze drones guided by Elon Musk’s Starlink network began to make visible gains in the war against Iran, senior SpaceX officials reached a conclusion: The Pentagon should be paying more for access to their satellite Wi-Fi network. --> Follow the biggest business stories of the day with",
-      "llmComment": "美国国防部与SpaceX因伊朗战争期间Starlink价格上涨而产生争议。SpaceX认为应提高对其卫星Wi-Fi网络的付费。"
+      "llmComment": "美国国防部与SpaceX因伊朗战争期间Starlink价格上涨而发生争执。SpaceX认为美国军方应为使用其卫星Wi-Fi网络支付更多费用。"
     },
     {
       "title": "Starlink and Amazon may be able to buy into EU mobile satellite spectrum plan",
@@ -98,7 +89,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-05-26T15:01:52.000Z",
       "summary": "96 Elon Musk's Starlink and Amazon's low-earth-orbit satellite business may be able ​to acquire some European mobile satellite spectrum next year, two ‌people with direct knowledge of the matter said on Tuesday. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscr",
-      "llmComment": "马斯克的Starlink和亚马逊的低轨道卫星业务可能能获得欧洲的移动卫星频谱。"
+      "llmComment": "埃隆·马斯克的Starlink和亚马逊的低轨卫星业务可能能够购买欧洲移动卫星频谱。"
     },
     {
       "title": "Markets cheer, central banks warn",
@@ -107,7 +98,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-05-27T05:00:03.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Subscribe now. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Rocky Swift, Correspondent Data refreshes every time you",
-      "llmComment": "市场欢迎，但央行发出警告。欧洲和全球市场即将迎来新的一天。"
+      "llmComment": "欧洲和全球市场展望。市场欢迎，但央行发出警告。"
     },
     {
       "title": "Out of the blue chips",
@@ -116,7 +107,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-05-27T10:31:10.000Z",
       "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Subscribe now. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-a",
-      "llmComment": "今日美国和全球市场的重要事件。每周仅1英镑即可订阅相关新闻。"
+      "llmComment": "今日美国和全球市场的重要事件。每周仅需£1即可订阅相关新闻。"
     },
     {
       "title": "Ukrainian commander sees imminent 'turning point' in war",
@@ -125,7 +116,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-05-27T10:59:14.000Z",
       "summary": "96 Plus, the paper trail linking a US fuel trader to a notorious Mexican cartel. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Subscribe now. Daily Briefing Daily Briefing By Claire Beers Hello. A senior Ukrainian commander sees an imminent 'turning poin",
-      "llmComment": "乌克兰高级指挥官预计战争即将迎来转折点。"
+      "llmComment": "乌克兰高级指挥官预计战争即将出现转折点。"
     },
     {
       "title": "Redistricting fights heat up",
@@ -134,7 +125,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-05-27T12:02:42.000Z",
       "summary": "96 + Alabama map tossed—for now. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. Subscribe now. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. Redistricting battles are heating u",
-      "llmComment": "红istricting 战争升级，阿拉巴马州地图被暂时驳回。"
+      "llmComment": "重新划分选区的争议升温，阿拉巴马州的地图暂时被驳回。"
     },
     {
       "title": "Nvidia to spend $150 billion a year in Taiwan, 'epicentre' of AI revolution, says CEO",
@@ -152,7 +143,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-05-27T15:02:07.000Z",
       "summary": "96 Strong demand for high-end memory ​chips used in AI chipsets like those designed by Nvidia has tightened supply and driven up prices, benefiting the world's biggest makers of the semiconductors. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to Reuters",
-      "llmComment": "SK Hynix 加入1万亿美元俱乐部，得益于AI芯片需求强劲。"
+      "llmComment": "SK Hynix 加入 1 万亿美元俱乐部，受益于 AI 芯片需求。"
     },
     {
       "title": "Huawei’s world",
@@ -161,7 +152,7 @@
       "source": "newsletter:Reuters Artificial Intelligencer",
       "pubDate": "2026-05-27T18:02:47.000Z",
       "summary": "96 Beyond Moore’s Law Keep pace with AI breakthroughs and what they mean for business and society with unlimited access to Reuters.com. Subscribe for £1/week. Subscribe now. Artificial Intelligencer Artificial Intelligencer What matters in AI this week --> By Eduardo Baptista, Senior Correspondent i",
-      "llmComment": "华为的世界。关注人工智能的突破和对商业、社会的影响。"
+      "llmComment": "华为的世界。关注人工智能突破和商业社会影响。"
     },
     {
       "title": "The US-Iran ceasefire is unravelling",
@@ -170,7 +161,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-05-28T05:00:21.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Subscribe now. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Gregor Stuart Hunter, Asia Markets and Finance Correspon",
-      "llmComment": "美国和伊朗的停火协议正在瓦解。欧洲和全球市场迎来新的一天。"
+      "llmComment": "美国与伊朗的停火协议正在解体。欧洲和全球市场将受到影响。"
     },
     {
       "title": "Three months, and counting",
@@ -179,7 +170,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-05-28T10:30:13.000Z",
       "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Subscribe now. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-a",
-      "llmComment": "今日美国和全球市场的重要事件。每周仅1英镑即可订阅相关新闻。"
+      "llmComment": "全球市场今日焦点。每周仅1英镑订阅。"
     },
     {
       "title": "US and Iran exchange strikes",
@@ -197,7 +188,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-05-28T12:02:20.000Z",
       "summary": "96 + Laterals favored over grads. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. Subscribe now. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. There’s been a shift in law firm h",
-      "llmComment": "律师事务所招聘策略发生转变，96%以上的侧招优于应届毕业生。"
+      "llmComment": "法律事务所招聘策略发生转变，侧重于吸纳经验丰富的律师而非新毕业生。"
     },
     {
       "title": "It’s hot out there",
@@ -206,7 +197,7 @@
       "source": "newsletter:Reuters Econ World",
       "pubDate": "2026-05-28T13:00:13.000Z",
       "summary": "96 And getting hotter Make sense of global economic trends and what they mean for the world. Subscribe to Reuters.com for £1/week. Subscribe now. Econ World Econ World --> By Carmel Crimmins, Reuters Econ World podcast host Hello there, Life on the northwestern edge of Europe in Dublin means escapin",
-      "llmComment": "全球经济趋势日益升温，96度的高温预计还会继续上升。"
+      "llmComment": "全球经济趋势日益升温，订阅Reuters.com了解更多。"
     },
     {
       "title": "Stocks dip below record highs as Gulf tensions flare",
@@ -215,7 +206,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-05-28T13:01:47.000Z",
       "summary": "96 Stocks slipped from record highs on Thursday after a fresh U.S. ​military strike on Iran and Kuwaiti reports of missile attacks dented investor confidence in a peace deal that many see as ‌key to easing global inflation risks. --> Follow the biggest business stories of the day with Reuters. Subsc",
-      "llmComment": "股市从纪录高点下跌，因美国对伊朗的军事打击和科威特的导弹袭击报告损害了投资者对和平协议的信心。"
+      "llmComment": "股市下跌，美伊紧张局势加剧。投资者信心受损。"
     },
     {
       "title": "Temu fined $232 million for breaching EU rules on sale of illegal products",
@@ -224,7 +215,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-05-28T15:01:06.000Z",
       "summary": "96 Chinese online retailer Temu has been fined €200 million ($232 million) for not doing ​enough to stop the sale of illegal products, European Union tech regulators said on Thursday, ‌following the first part of a wide investigation. --> From breakthrough startups to Big Tech moves, stay ahead of i",
-      "llmComment": null
+      "llmComment": "中国在线零售商Temu被罚2.32亿美元，原因是未能阻止非法产品的销售。欧盟科技监管机构对其进行了罚款。"
     },
     {
       "title": "DOJ antitrust exits fuel Big Law hiring",
@@ -314,6 +305,60 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-05-30T15:01:26.000Z",
       "summary": "96 The ‌mishap comes at a critical time for Jeff Bezos as Amazon and Blue Origin try to establish themselves as viable challengers to Elon Musk's SpaceX. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to Reuters.com for £1/week. Subscribe now. Technology ",
+      "llmComment": null
+    },
+    {
+      "title": "Blue Origin faces months of delays after rocket explosion damages launch pad",
+      "link": "https://newslink.reuters.com/click/45950165.63073/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA1MzEyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OCZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158B7d6e0e29",
+      "author": "Reuters Technology Roundup",
+      "source": "newsletter:Reuters Technology Roundup",
+      "pubDate": "2026-05-31T15:01:12.000Z",
+      "summary": "96 The ‌mishap comes at a critical time for Jeff Bezos as Amazon and Blue Origin try to establish themselves as viable challengers to Elon Musk's SpaceX. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to Reuters.com for £1/week. Subscribe now. Technology ",
+      "llmComment": null
+    },
+    {
+      "title": "Who needs oil when there's AI to buy?",
+      "link": "https://newslink.reuters.com/click/45952413.4267/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTA2MDEyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158Be4b5bbed",
+      "author": "Reuters Morning Bid Europe",
+      "source": "newsletter:Reuters Morning Bid Europe",
+      "pubDate": "2026-06-01T05:01:05.000Z",
+      "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Subscribe now. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Wayne Cole, Chief Correspondent, Treasury Data refreshes",
+      "llmComment": null
+    },
+    {
+      "title": "AI and 1984",
+      "link": "https://newslink.reuters.com/click/45953921.44953/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDYwMTI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4JnVzZXJfZW1haWw9MmZiNzYxYTRkMDU4M2IzODJmZjUzMjJhYjFiMDI2MzQwMTc2MTIzYTJlYmM3OTYxNDFiZjFlMmU3ZTA5N2E0Yg/699d8f6975a57008a503f158Ba1d7b913",
+      "author": "Morning Bid U.S.",
+      "source": "newsletter:Morning Bid U.S.",
+      "pubDate": "2026-06-01T10:30:02.000Z",
+      "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Subscribe now. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-a",
+      "llmComment": null
+    },
+    {
+      "title": "Iran respond to US strikes",
+      "link": "https://newslink.reuters.com/click/45954029.427498/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktQnJpZWZpbmcmdXRtX3Rlcm09MDYwMTI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4JnVzZXJfZW1haWw9MmZiNzYxYTRkMDU4M2IzODJmZjUzMjJhYjFiMDI2MzQwMTc2MTIzYTJlYmM3OTYxNDFiZjFlMmU3ZTA5N2E0Yg/699d8f6975a57008a503f158B554d8832",
+      "author": "Reuters Daily Briefing",
+      "source": "newsletter:Reuters Daily Briefing",
+      "pubDate": "2026-06-01T10:59:20.000Z",
+      "summary": "96 Plus, how Trump’s Ukraine aid cuts undermine justice for Russian war crimes. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Subscribe now. Daily Briefing Daily Briefing By Claire Beers Hello. The US says it struck Iranian military sites, Tehran respond",
+      "llmComment": null
+    },
+    {
+      "title": "Blanches’s bid for AG tested by ‘weaponization’ fund",
+      "link": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap",
+      "author": "The Daily Docket",
+      "source": "newsletter:The Daily Docket",
+      "pubDate": "2026-06-01T12:00:12.000Z",
+      "summary": "96 + Senate Republicans balk at DOJ payout plan. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. Subscribe now. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. Today we have a loo",
+      "llmComment": null
+    },
+    {
+      "title": "Berkshire Hathaway to buy Taylor Morrison for $6.8 billion in cash to expand in housing",
+      "link": "https://newslink.reuters.com/click/45954933.44282/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249UmV1dGVycy1CdXNpbmVzcyZ1dG1fdGVybT0wNjAxMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTgmdXNlcl9lbWFpbD0yZmI3NjFhNGQwNTgzYjM4MmZmNTMyMmFiMWIwMjYzNDAxNzYxMjNhMmViYzc5NjE0MWJmMWUyZTdlMDk3YTRi/699d8f6975a57008a503f158B79dd0cb0",
+      "author": "Reuters Business",
+      "source": "newsletter:Reuters Business",
+      "pubDate": "2026-06-01T13:02:25.000Z",
+      "summary": "96 The transaction is Berkshire's first multi-billion-dollar acquisition since Greg Abel became CEO. --> Follow the biggest business stories of the day with Reuters. Subscribe for £1/week. Subscribe now. Reuters Business Reuters Business Berkshire Hathaway to buy Taylor Morrison for $6.8 billion in ",
       "llmComment": null
     }
   ]
