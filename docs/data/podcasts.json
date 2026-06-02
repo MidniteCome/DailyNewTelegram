@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-02T11:50:20.471Z",
+    "updatedAt": "2026-06-02T18:06:51.541Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #180 with Daniel Rodriguez",
+      "link": "https://traffic.megaphone.fm/GLT5622841708.mp3",
+      "pubDate": "2026-06-02T17:00:00.000Z",
+      "duration": "8526",
+      "summary": "Joe sits down with Daniel Rodriguez, a professional mixed martial artist competing in the Ultimate Fighting Championship’s welterweight division.www.ufc.com/athlete/daniel-rodriguez Learn more about y",
+      "art": "https://megaphone.imgix.net/podcasts/61bd0b4c-5e0b-11f1-b4b2-837f481d7600/image/78839ccb873938b9ebaa0dc6168a6c93.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+      "link": "https://allinchamathjason.libsyn.com/openai-cfo-sarah-friar-on-ipo-ai-rivalries-new-device-and-spending-100b-on-compute",
+      "pubDate": "2026-06-02T14:31:00.000Z",
+      "duration": "32:02",
+      "summary": "(0:00) OpenAI CFO Sarah Friar joins the show! (0:31) How OpenAI thinks about its IPO timeline (3:31) OpenAI, Anthropic, Google: The AI arms race (7:43) Navigating the compute crunch and AI bottlenecks",
+      "art": "https://static.libsyn.com/p/assets/9/a/8/6/9a861765145d0ed816c3140a3186d450/Podcast_Graphic_-_Events-20260602-2k2rv3vqe5.png"
+    },
     {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
@@ -946,17 +968,6 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "JRE MMA Show #178 with Dan Hardy",
-      "link": "https://traffic.megaphone.fm/GLT6608842902.mp3?updated=1778084286",
-      "pubDate": "2026-05-06T17:00:00.000Z",
-      "duration": "10385",
-      "summary": "Joe sits down with Dan Hardy, a mixed martial artist, host of the “Full Reptile” podcast, and commentator for the Professional Fighters League.www.youtube.com/@DanHardyFRwww.pflmma.com Perplexity: Dow",
-      "art": "https://megaphone.imgix.net/podcasts/a49891a2-4902-11f1-ba85-fb40caef1595/image/f7dd029b6676e5d0bfc590c225c85340.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1384,17 +1395,6 @@
       "duration": "1:05:46",
       "summary": "Vibe coding 火了，open source agent 爆了，「一人公司」的概念开始被认真讨论。这一切发生在 2026 年初的几个月里 —— AI 正在改变的，究竟是写代码这件事，还是我们理解工作本身的方式？ 这不只是程序员的问题。当 AI 开始承接越来越多的执行性工作，每一个岗位都在被重新定义 —— 什么样的能力变得更稀缺，什么样的工作方式已经过时，组织的形态又将走向何方？ 这一期节目",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Anthropic's Generational Run, OpenAI Panics, AI Moats, Meta Loses Lawsuits",
-      "link": "https://allinchamathjason.libsyn.com/anthropics-generational-run-openai-panics-ai-moats-meta-loses-lawsuits",
-      "pubDate": "2026-03-27T20:03:00.000Z",
-      "duration": "01:20:11",
-      "summary": "(0:00) Bestie intros!: Friedberg for Governor of California? (2:25) Anthropic's generational run (15:45) OpenAI: getting focused or panic mode? (36:56) AI valuation impacts, moats, and disruption (43:",
-      "art": "https://static.libsyn.com/p/assets/9/7/9/6/979607b459154e0b16c3140a3186d450/1_Pod_E266.png"
     },
     {
       "showId": "etw",
