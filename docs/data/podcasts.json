@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-02T22:17:46.896Z",
+    "updatedAt": "2026-06-03T12:20:47.059Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Can the internet be reclaimed from Big Tech?",
+      "link": "https://www.npr.org/2026/06/03/nx-s1-5844226/can-the-internet-be-reclaimed-from-big-tech",
+      "pubDate": "2026-06-03T07:00:00.000Z",
+      "duration": "549",
+      "summary": "Why one former senior advisor of the FTC thinks a libertarian myth of the internet has given Big Tech too much power. Fact checking by Vito Emanuel. Your Next Listen — Why infinite scroll's inventor w",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5a%2Fee%2Ffe8d444b4bd2b551fb7d97413c1d%2F471bcf01-c462-48d8-b32a-ed0c6a706852.png"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+      "link": "https://allinchamathjason.libsyn.com/bill-ackman-investment-strategy-what-the-market-is-missing-how-ai-breaks-businesses",
+      "pubDate": "2026-06-03T03:06:00.000Z",
+      "duration": "29:59",
+      "summary": "(0:00) Bill Ackman joins the show! (0:30) Evolving investment philosophy: What's changed over 20 years? (4:40) AI: Greatest time to build a business, and a major threat to portfolios (7:50) Predicting",
+      "art": "https://static.libsyn.com/p/assets/4/1/1/6/41169b7d3e7667d4d959afa2a1bf1c87/Podcast_Graphic_-_Liquidity.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -847,17 +869,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Prediction markets are threatening national security. Who's gonna fix it?",
-      "link": "https://www.npr.org/2026/05/12/nx-s1-5818480/prediction-markets-are-threatening-national-security-whos-gonna-fix-it",
-      "pubDate": "2026-05-12T07:00:00.000Z",
-      "duration": "534",
-      "summary": "It’s the Wild West of online betting. Prediction markets have been plagued by insider trading allegations, ethical questions and even national security concerns. Today on the show, what are sites like",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd8%2Fea%2Fef7433104bb892f93b593df109fe%2F1781e9f8-1814-42c5-9a1d-64c1e5b4ac35.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1351,17 +1362,6 @@
       "duration": "01:09:22",
       "summary": "(0:00) Friedberg Intros Palantir's Shyam Sankar and Anduril's Trae Stephens (0:56) Palantir Origins: CIA Analyst Joins 20-Person Startup (2:54) War, Deterrence & Silicon Valley's Defense Tech Taboo (8",
       "art": "https://static.libsyn.com/p/assets/7/a/6/1/7a61a2a17e8bf93316c3140a3186d450/1_Pod_Palantir_Anduril.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "SpaceX IPO, Iran War Fallout, Quantum Bitcoin Hack, The Space Opportunity",
-      "link": "https://allinchamathjason.libsyn.com/spacex-ipo-iran-war-fallout-quantum-bitcoin-hack-the-space-opportunity",
-      "pubDate": "2026-04-03T21:08:00.000Z",
-      "duration": "01:20:32",
-      "summary": "(0:00) Bestie intros! (0:12) SpaceX IPO, the economic opportunity of space: a new industrial frontier (21:00) 2026 IPO explosion, OpenAI down round? (36:33) Iran War costs, fertilizer crisis, downstre",
-      "art": "https://static.libsyn.com/p/assets/4/c/6/4/4c64b40f4b8c6d6616c3140a3186d450/1_Pod_E267.png"
     },
     {
       "showId": "weirdo",
