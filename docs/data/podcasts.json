@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-04T16:56:40.882Z",
+    "updatedAt": "2026-06-04T21:24:50.916Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,6 +165,28 @@
   ],
   "episodes": [
     {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
+      "link": "https://allinchamathjason.libsyn.com/thomas-laffont-the-4t-ai-ipo-wave-2026s-unicorn-economy-and-the-10x-paradox",
+      "pubDate": "2026-06-04T18:23:00.000Z",
+      "duration": "32:45",
+      "summary": "(0:00) Coatue's Thomas Laffont joins the Besties! (0:30) Public markets are back as AI is dominates the \"Unicorn Economy\" (5:15) The $4T AI IPO explosion (7:48) The case for SpaceX: Compounding launch",
+      "art": "https://static.libsyn.com/p/assets/4/c/3/0/4c300253a3ce6f7516c3140a3186d450/Podcast_Graphic_-_Liquidity-20260604-rdp09014pn.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2509 - Caleb Hammer",
+      "link": "https://traffic.megaphone.fm/GLT4890761896.mp3",
+      "pubDate": "2026-06-04T17:00:00.000Z",
+      "duration": "8463",
+      "summary": "Caleb Hammer is a YouTuber and host of the program “Financial Audit.”www.youtube.com/c/calebhammerwww.patreon.com/calebhammerwww.calebhammer.com Learn more about your ad choices. Visit podcastchoices.",
+      "art": "https://megaphone.imgix.net/podcasts/2f365426-5f9b-11f1-8433-9fabe6f521e9/image/1998e991549064f65d92e4ffd2baa669.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -256,7 +278,7 @@
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
-      "title": "OpenAI CFO Sarah Friar on IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+      "title": "OpenAI CFO Sarah Friar: IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
       "link": "https://allinchamathjason.libsyn.com/openai-cfo-sarah-friar-on-ipo-ai-rivalries-new-device-and-spending-100b-on-compute",
       "pubDate": "2026-06-02T14:31:00.000Z",
       "duration": "32:02",
@@ -957,17 +979,6 @@
       "art": "https://static.libsyn.com/p/assets/c/4/4/d/c44ded9277e66f66d959afa2a1bf1c87/1_Pod_E272.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2496 - Julia Mossbridge",
-      "link": "https://traffic.megaphone.fm/GLT4115426558.mp3?updated=1778288535",
-      "pubDate": "2026-05-08T17:00:00.000Z",
-      "duration": "10122",
-      "summary": "Julia Mossbridge, PhD, is a cognitive neuroscientist, author, and educator. She is the founder and president of American Electrodynamics, the co-founder and chief science officer of Applied Love Labs,",
-      "art": "https://megaphone.imgix.net/podcasts/4b891a70-4a7c-11f1-bb87-5bc29315a15e/image/cc4515b6ca5b07e4016effb6cac2d5ee.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -1373,17 +1384,6 @@
       "duration": "01:01:52",
       "summary": "(0:00) Jason intros PA Governor Josh Shapiro (1:40) Shapiro's blueprint for PA: pro-growth, pro-freedom, less red tape, prosecuting fraud (13:05) Wealth tax debate, what Dems are getting wrong on busi",
       "art": "https://static.libsyn.com/p/assets/f/1/b/c/f1bc804150d9e1cad959afa2a1bf1c87/1_Pod_Shapiro.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "The Companies Changing Warfare Forever: Palantir & Anduril Execs on Drones, AI & the Future of War",
-      "link": "https://allinchamathjason.libsyn.com/the-state-of-modern-war-palantir-anduril-execs-on-drones-ai-and-the-end-of-traditional-warfare",
-      "pubDate": "2026-04-06T12:51:00.000Z",
-      "duration": "01:09:22",
-      "summary": "(0:00) Friedberg Intros Palantir's Shyam Sankar and Anduril's Trae Stephens (0:56) Palantir Origins: CIA Analyst Joins 20-Person Startup (2:54) War, Deterrence & Silicon Valley's Defense Tech Taboo (8",
-      "art": "https://static.libsyn.com/p/assets/7/a/6/1/7a61a2a17e8bf93316c3140a3186d450/1_Pod_Palantir_Anduril.png"
     },
     {
       "showId": "weirdo",
