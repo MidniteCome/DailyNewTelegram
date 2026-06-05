@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-05T10:58:31.984Z",
+    "updatedAt": "2026-06-05T16:32:33.177Z",
     "totalEpisodes": 165,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Who should new grads boo more? AI or remote work?",
+      "link": "https://www.npr.org/2026/06/05/nx-s1-5847004/who-should-new-grads-boo-more-ai-or-remote-work",
+      "pubDate": "2026-06-05T16:06:42.000Z",
+      "duration": "546",
+      "summary": "Is AI really to blame for young people finding it hard to land first jobs ? Is Black unemployment a leading indicator for the rest of the economy? Here’s what the hosts of our Ambies award-winning bus",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcb%2F58%2Feb079d974a3da7c01c693a4d1aa2%2Fad048da9-4e6f-402f-a0df-25e583cb2982.jpg"
+    },
     {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
@@ -768,17 +779,6 @@
       "duration": "1:03:14",
       "summary": "铁路、钢铁、石油 —— 150年前，一批工业大亨用这些东西重塑了美国。今天，换成了算法、平台和 AI，历史的剧情，是否真的在重演？ 19 世纪末，跨大陆铁路的出现彻底改变了美国：统一的市场、标准时区、现代公司制度、金融市场的崛起，还有财富向少数人的剧烈集中。那是一个被称为「镀金时代」的年代 —— 表面金光闪闪，内里却也有赤裸裸的政商勾连、劳工剥削，以及一场迟来的社会反弹。它最终推动了反垄断立法、参",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "How Trump's central bank beef could hurt the economy",
-      "link": "https://www.npr.org/2026/05/14/nx-s1-5821650/how-trumps-central-bank-beef-could-hurt-the-economy",
-      "pubDate": "2026-05-14T07:00:05.000Z",
-      "duration": "569",
-      "summary": "A new documentary from Frontline PBS, called “The President vs. the Fed”, helps us make sense of the unprecedented power struggle between the world’s most powerful politician and the world’s most powe",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F8d%2F043fbfc2489cb9a9c79a1f9b5f7c%2F9709f87a-2b29-46b8-b403-14aa2929316a.jpg"
     },
     {
       "showId": "talksat",
