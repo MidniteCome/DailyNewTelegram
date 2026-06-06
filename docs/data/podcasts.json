@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-05T21:17:41.102Z",
+    "updatedAt": "2026-06-06T09:34:04.291Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20Product: Inside Legora's Tech Stack: Why Token Maxing is Failing Enterprise Startups with Jacob Lauritzen, CTO @ Legora",
+      "link": "https://thetwentyminutevc.libsyn.com/20productinside-legoras-tech-stack-why-token-maxing-is-failing-enterprise-startups-with-jacob-lauritzen-cto-legora",
+      "pubDate": "2026-06-06T07:07:00.000Z",
+      "duration": "54:31",
+      "summary": "Jacob Lauritzen serves as the CTO at Legora , the fastest growing B2B enterprise company in history; hitting $100 million in ARR in just 18 months . Legora boasts a valuation of $5.6BN and has raised ",
+      "art": "https://static.libsyn.com/p/assets/9/c/f/5/9cf501071f9171bad959afa2a1bf1c87/WhatsApp_Image_2026-06-05_at_11.52.29.jpeg"
+    },
     {
       "showId": "allin",
       "showName": "All-In",
@@ -1098,17 +1109,6 @@
       "duration": "01:13:49",
       "summary": "Tobi Lütke is the co-founder and CEO of Shopify, the global e-commerce titan with a $160 billion market cap. Under his leadership, the company generates over $7 billion in annual revenue and has seen ",
       "art": "https://static.libsyn.com/p/assets/b/6/4/5/b6454fa5372e8960d959afa2a1bf1c87/WhatsApp_Image_2026-05-01_at_17.59.44.jpeg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Inside Clay's Sales Playbook Scaling to $100M ARR | How to Set Sales Comp Plans | How to Read Sales Talent Linkedin Profiles | What Profiles to Hire & Fire | How to Increase Performance and Speed in Sales Teams with Becca Lindquist",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-inside-clays-sales-playbook-scaling-to-100m-arr-how-to-set-sales-comp-plans-how-to-read-sales-talent-linkedin-profiles-what-profiles-to-hire-fire-how-to-increase-performance-and-speed-in-sales-teams-with-becca-lindquist",
-      "pubDate": "2026-05-02T07:07:00.000Z",
-      "duration": "01:13:20",
-      "summary": "Becca Lindquist is Head of Sales at Clay, one of the fastest-growing AI companies to reach $100M+ ARR. She previously helped scale dbt Labs into a category-defining data platform, building and leading",
-      "art": "https://static.libsyn.com/p/assets/5/0/f/9/50f9f72fbcc103d916c3140a3186d450/WhatsApp_Image_2026-04-30_at_17.28.41.jpeg"
     },
     {
       "showId": "allin",
