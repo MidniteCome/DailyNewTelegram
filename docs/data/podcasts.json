@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-06-06T20:54:56.791Z",
-    "totalEpisodes": 165,
+    "updatedAt": "2026-06-07T10:12:56.869Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
@@ -72,8 +72,8 @@
       {
         "id": "etw",
         "name": "声东击西",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       }
     ]
   },
@@ -159,8 +159,8 @@
       "id": "etw",
       "name": "声东击西",
       "category": "zh",
-      "art": null,
-      "link": "https://www.etw.fm/rss"
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4",
+      "link": "http://etw.fm"
     }
   ],
   "episodes": [
@@ -262,6 +262,17 @@
       "duration": "8463",
       "summary": "Caleb Hammer is a YouTuber and host of the program “Financial Audit.”www.youtube.com/c/calebhammerwww.patreon.com/calebhammerwww.calebhammer.com Learn more about your ad choices. Visit podcastchoices.",
       "art": "https://megaphone.imgix.net/podcasts/2f365426-5f9b-11f1-8433-9fabe6f521e9/image/1998e991549064f65d92e4ffd2baa669.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#391 阿联酋与沙特：从亲密盟友到分道扬镳的 55 年",
+      "link": "http://etw.fm/2212",
+      "pubDate": "2026-06-04T09:30:00.000Z",
+      "duration": "56:55",
+      "summary": "6 月，美伊战争进入新一轮谈判，和平似有一线希望。但与此同时，海湾地区一对曾经的兄弟国家——沙特与阿联酋——却似乎渐行渐远，这一切究竟是怎么发生的？ 4 月 28 日，阿联酋宣布退出由沙特主导的 OPEC（欧佩克），这场看似突然的分手，背后却是一场 50 余年的关系演变：他们曾以小弟与大哥的姿态相处，曾在战场上并肩出兵，但近十年来，经济上的竞争、外交上的分歧、甚至军事上的正面对抗，已经让这对盟友走",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "20vc",
@@ -605,6 +616,17 @@
       "art": "https://megaphone.imgix.net/podcasts/18b33436-588d-11f1-bd69-4b50659ad7ad/image/5517f0f66165c535b74ee785730ad963.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#390 从「关税战」到接受「战略稳定」，特朗普变了吗？",
+      "link": "http://etw.fm/2211",
+      "pubDate": "2026-05-25T11:45:00.000Z",
+      "duration": "1:01:47",
+      "summary": "这是一场全世界都关注的最高礼仪的会面，每个动作和肢体语言都被媒体所解读。 过去 9 年，中美之间鲜有如此规格的元首互访，双边关系长期在技术遏制与战略竞争的语境中艰难拉扯。在这样的背景下，这次特朗普为何接受了中国提出的「建设性战略稳定关系」这一关系框架；这体现了哪些变化正在发生，我们又可以如何理解这样的变化。 这一期节目，我们邀请了老朋友达巍教授，从一位国际关系学者的角度出发来进行解读。 本期人物 ",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -680,6 +702,17 @@
       "duration": "995",
       "summary": "Caitlin Clark has become a sports and cultural icon, but her success is rooted in a grounded upbringing and a relentless focus on basketball fundamentals. She joins John Mallory, global co-head of Wea",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#389 美元霸权正在走弱吗：从荷兰、英国到美国，货币霸权如何兴衰",
+      "link": "http://etw.fm/2210",
+      "pubDate": "2026-05-21T11:30:00.000Z",
+      "duration": "1:03:09",
+      "summary": "本月，执掌美联储八年的鲍威尔卸任，特朗普支持的沃什接棒；世界各国银行也在近期纷纷表示对美元的担忧：美元正在失去它的货币霸权地位吗？新一轮的货币替代会发生吗？ 过去 500 年，世界货币霸权先后在荷兰、英国、美国间流转，每一次交替，都伴随着战争、财政危机与信用崩塌。今天，美国国债占 GDP 已经高达 100%，各国央行的美元储备持续减少，全球的非美元结算却在逐步提升…… 这一期节目，我们邀请到美国凯",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "20vc",
@@ -878,6 +911,17 @@
       "duration": "10382",
       "summary": "Marcus King is the lead singer, guitarist, and founder of The Marcus King Band. His most recent album is “Darling Blue.” https://marcusking.komi.iowww.youtube.com/@RealMarcusKingwww.marcuskingofficial",
       "art": "https://megaphone.imgix.net/podcasts/600dc11c-4f31-11f1-bccd-c7e184fd1c90/image/afb298a0f8443bf5e68682e10772c201.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#388 从铁路大亨到科技巨头：镀金时代的喧嚣与困境，正在重演吗？",
+      "link": "http://etw.fm/2209",
+      "pubDate": "2026-05-14T08:00:00.000Z",
+      "duration": "1:03:14",
+      "summary": "铁路、钢铁、石油 —— 150年前，一批工业大亨用这些东西重塑了美国。今天，换成了算法、平台和 AI，历史的剧情，是否真的在重演？ 19 世纪末，跨大陆铁路的出现彻底改变了美国：统一的市场、标准时区、现代公司制度、金融市场的崛起，还有财富向少数人的剧烈集中。那是一个被称为「镀金时代」的年代 —— 表面金光闪闪，内里却也有赤裸裸的政商勾连、劳工剥削，以及一场迟来的社会反弹。它最终推动了反垄断立法、参",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "20vc",
@@ -1100,6 +1144,17 @@
       "art": "https://image.xyzcdn.net/Fkt1UqNqcfMQLc-90msKo0OgECcC.png"
     },
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#387 一场影响了一众 AI 大佬的「思想实验」：从道德哲学开始的思辨、落地、演变和影响",
+      "link": "http://etw.fm/2208-effectivealtruism-impact",
+      "pubDate": "2026-04-30T10:00:00.000Z",
+      "duration": "1:14:37",
+      "summary": "每次看到天灾人祸相关的新闻，你是否也会陷入同样的困境：捐多少？捐给谁？捐出去的钱真的有用吗？ 1972 年，哲学家彼得·辛格（Peter Singer）提出了一个思想实验：如果你路过一个浅水池，看到一个孩子溺水，你会不会下去救他？几乎所有人的答案是会。那么远方正在挨饿的那些孩子与眼前这个落水的孩子，有什么本质区别？这个追问，似乎让「公益捐赠」从一件可做可不做的好事，变成了一种道德义务。由此出发，一",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1177,6 +1232,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#386 为什么是巴基斯坦：美伊谈判背后那个意料之外的调停者",
+      "link": "http://etw.fm/2207",
+      "pubDate": "2026-04-23T09:30:00.000Z",
+      "duration": "39:57",
+      "summary": "两周前的那场美伊谈判 —— 也是两国自 1979 年以来级别最高的直接接触 —— 地点选在了巴基斯坦的首都伊斯兰堡。于是我们就产生了一个好奇：为什么是巴基斯坦？ 在大多数人的印象里，巴基斯坦「经济脆弱、内政动荡」，在国际舞台上的存在感似乎并不高。但就是这样一个国家，为什么能获得美伊双方的信任？巴基斯坦又是出于什么样的动机在积极地做斡旋？在传统国际秩序已经逐步失效的当下，这又意味着一个怎样的转变？ ",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -1230,6 +1296,17 @@
       "duration": "01:05:45",
       "summary": "Jeff Bezos, Michael Bloomberg and Warren Buffett are three of the richest people in the world, but they pay little in income tax relative to their wealth. In 2021, ProPublica published an investigatio",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#385 半个世纪后，人类重返月球的艰难、野心和新逻辑",
+      "link": "http://etw.fm/2206",
+      "pubDate": "2026-04-16T11:00:00.000Z",
+      "duration": "1:11:07",
+      "summary": "1969 年，人类第一次踏上月球。半个多世纪过去了，为什么人类想要「重返月球」依然如此费力？现在的登月和 50 年前的登月是同一回事吗？ 2026 年 4 月，阿尔忒弥斯 2 号（Artemis II）搭载四名宇航员完成绕月之旅，顺利返航。这是人类时隔 50 余年再次将宇航员送往月球轨道。但这次任务背后，是一个全新的工程逻辑：不是尝试去复刻阿波罗的政治短跑，而是在商业航天、新材料、新技术的基础上，",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "weirdo",
@@ -1331,6 +1408,28 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#384 「龙虾」和 vibe coding 正如何改变我们的思维：一场来自小白、创业者和工程师不同视角的讨论",
+      "link": "http://etw.fm/2205",
+      "pubDate": "2026-04-02T10:15:00.000Z",
+      "duration": "1:05:46",
+      "summary": "Vibe coding 火了，open source agent 爆了，「一人公司」的概念开始被认真讨论。这一切发生在 2026 年初的几个月里 —— AI 正在改变的，究竟是写代码这件事，还是我们理解工作本身的方式？ 这不只是程序员的问题。当 AI 开始承接越来越多的执行性工作，每一个岗位都在被重新定义 —— 什么样的能力变得更稀缺，什么样的工作方式已经过时，组织的形态又将走向何方？ 这一期节目",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#383 导弹、黑雨与撕裂的城市：一个中国人的战时德黑兰记录",
+      "link": "http://etw.fm/2204",
+      "pubDate": "2026-03-27T11:30:00.000Z",
+      "duration": "45:49",
+      "summary": "一个在德黑兰生活的中国人，在过去近四周的时间里亲历了这场至今仍未结束的美以对伊战争。他都经历了些什么？他眼中的伊朗人民与伊朗社会又是怎样的？ 今年二月二十八日，战争再次降临伊朗。这一次的烈度远超去年的十二日战争 —— 不分日夜落下的导弹，黑色的石油雨、在支持与反对之间走向撕裂的城市……而在此之前，这个国家已经经历了动荡的 2025 年：全面制裁落地，货币崩溃，街头抗议与血腥镇压接连而至。 这一期节",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -1375,6 +1474,17 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#382 推翻、改造、失控：从历史视角看美国的中东介入和事与愿违",
+      "link": "http://etw.fm/2203",
+      "pubDate": "2026-03-19T06:15:00.000Z",
+      "duration": "57:13",
+      "summary": "哈梅内伊被斩首，伊朗政权会就此崩溃吗？美国和以色列能把伊朗「改造」成一个他们想要的国家形态吗？这些问题或许历史早就给过了答案。 1953 年，美国策动政变，推翻了伊朗民选总理摩萨台，扶持巴列维国王重新掌权。二十年后，王权被霍梅尼革命推翻，伊朗从美国最重要的中东盟友，一夜变成了它最顽固的敌人。此后，阿富汗、伊拉克……每一次，美国都相信自己能从外部重塑一个国家；每一次，历史都以不同的方式进行了回应。 ",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1395,6 +1505,17 @@
       "duration": "01:03:40",
       "summary": "In this BG2 guest interview, Altimeter Partner Apoorv Agrawal sits down with Nick Turley of OpenAI for a deep dive into how ChatGPT became one of the fastest-growing products in history—and what comes",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#381 当AI公司Anthropic对抗五角大楼，这是 AI 的奥本海默时刻吗",
+      "link": "http://etw.fm/2202-ai-oppenheimer-moment",
+      "pubDate": "2026-03-12T06:30:00.000Z",
+      "duration": "56:14",
+      "summary": "过去两周，美以伊冲突无疑是全球最大的变数。但在硝烟之后，另一场同样深刻的冲突也正在发生，表面上这是 AI 公司 Anthropic 与五角大楼的争端，背后却隐含着更多这个时代需要回答的问题：一家提供技术的 AI 公司，有没有权利限制自己的模型被政府如何使用？当 AI 成为新的基础设施，它的边界该由谁来划定？又该由谁来承担失控之后的责任？ 本期节目是《科技早知道》与《声东击西》的串台特别版。我们从 ",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "lexfridman",
@@ -1419,6 +1540,17 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#380 从北京到华盛顿：从默茨之行看中美欧三角关系",
+      "link": "http://etw.fm/2201",
+      "pubDate": "2026-03-05T06:00:00.000Z",
+      "duration": "54:09",
+      "summary": "德国总理默茨上周刚刚结束了他的中国行程，他也是马年第一位访华的外国领导人。几乎与此同时，中东局势突然升级，美国对伊朗发动打击，也让默茨随后访美的行程处在一个颇为微妙的国际背景之下。在这样不断变化的地缘政治环境中，德国乃至欧洲正在发生哪些结构性变化？ 这一期节目，我们邀请长期观察欧洲政治经济的独立媒体人孙谦，从默茨访华的细节出发，聊一聊：德国的对华政策正在发生怎样的改变？欧洲的防务自主如今走到哪一步",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1428,6 +1560,17 @@
       "duration": "1838",
       "summary": "Goldman Sachs’ culture has long been defined by its core values: partnership, client service, integrity, and excellence. Lloyd Blankfein, Senior Chairman of The Goldman Sachs Group Inc. and former Cha",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#加更|连线迪拜：美伊升级后的海湾困境、战火外溢和秩序挑战",
+      "link": "http://etw.fm/2200",
+      "pubDate": "2026-03-03T01:30:00.000Z",
+      "duration": "29:25",
+      "summary": "一位身在阿联酋的中国人，在刚刚过去的 72 个小时内都经历了些什么？曾被视为「投资绿洲」的海湾国家，又为何在短短几天内，就被推到了战火蔓延的边缘？ 2026 年 2 月 28 日，美以对伊朗进行军事打击的消息震惊世界。而随着哈梅内伊的身亡，伊朗的报复行动也迅速升级，这场战火也随之蔓延到了阿联酋、沙特阿拉伯、卡塔尔这些海湾国家。 这期节目，我们连线了正身处迪拜的「声东击西」后期制作人赛德，他回忆了自",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "acquired",
@@ -1518,6 +1661,17 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#379 激励还是干预：平台治理到底在「管」什么",
+      "link": "http://etw.fm/2199",
+      "pubDate": "2026-02-05T06:45:00.000Z",
+      "duration": "1:14:36",
+      "summary": "在海量内容的涌动与算法分发的复杂性面前，平台的规则制定者，应该如何在用户体验与社区生态之间寻找那条「动态平衡」线？ 平台治理不仅仅是写在后台的逻辑，它更像是一场关于数字秩序的微缩实验。比如，当「反对制造对立」被写进小红书最新的社区公约 2.0，这不仅是一个立场的更新，也引出了治理中更深层的追问：在推荐与干预之间，平台治理的刻度到底该定在哪里？它究竟是在管理内容本身，还是在试图重塑一种数字空间的相处",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1549,6 +1703,17 @@
       "duration": "1057",
       "summary": "Xaira Therapeutics is harnessing AI to fundamentally change how we discover and develop medicines, shortening the path from lab to clinic for previously \"un-druggable\" targets. Dr. Marc Tessier-Lavign",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#378 塔利班关闭学校之后，阿富汗女孩的四年|中文版",
+      "link": "http://etw.fm/2198",
+      "pubDate": "2026-01-29T10:45:00.000Z",
+      "duration": "35:57",
+      "summary": "当学校的大门向一个女孩关闭，她要如何想象自己人生的未来，又要如何在重重阻碍中继续寻找教育的可能性？ 1 月 24 日，联合国发稿敦促采取行动保护阿富汗境内的受教育权，这是因为，阿富汗是唯一一个严格禁止女孩和妇女接受中学及高等教育的国家，在这里，有 220 万女孩被剥夺了接受中学教育的权利。 这一期节目，我们就记录了这 220 万阿富汗女孩中的 2 位 —— Sophia 和 Lina，她们在本该继",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "talksat",
