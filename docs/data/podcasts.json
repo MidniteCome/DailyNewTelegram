@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-08T17:25:21.351Z",
+    "updatedAt": "2026-06-08T21:45:21.979Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,10 +165,21 @@
   ],
   "episodes": [
     {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
+      "link": "https://allinchamathjason.libsyn.com/nikesh-arora-mythos-is-real-analytical-saas-is-dead-and-google-can-be-a-10t-company",
+      "pubDate": "2026-06-08T19:34:00.000Z",
+      "duration": "31:22",
+      "summary": "(0:00) Palo Alto Networks CEO Nikesh Arora joins the Besties! (0:47) Claude Mythos found years of vulnerabilities in Palo Alto's code in weeks (5:15) Are cyber defenders losing the race against AI att",
+      "art": "https://static.libsyn.com/p/assets/0/5/a/7/05a74d617c0bcc8fd959afa2a1bf1c87/Podcast_Graphic_-_Liquidity-20260608-lk81fi9xgm.png"
+    },
+    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
-      "title": "Leading Through Complexity: EY’s Janet Truncale on Leadership, AI and the Modern Boardroom",
+      "title": "Leading Through Complexity: EY’s Janet Truncale on Leadership, AI, and the Modern Boardroom",
       "link": "https://traffic.megaphone.fm/GLD7615987056.mp3",
       "pubDate": "2026-06-08T17:23:00.000Z",
       "duration": "1251",
@@ -1219,17 +1230,6 @@
       "duration": "02:29:47",
       "summary": "- 导语 - 忽左忽右印尼旅行团归来！在日惹，发现最后的印尼苏丹领土；在科莫多岛，近距离观察巨蜥与四色沙滩；在雅加达，听导游讲述都市里的歹土传说。从踏入印尼的第一站说起，为何在泗水机场的标牌上，完全找不到对应的汉译地名？郑和的身份如何成为印尼华人争取民族地位的叙事资源？爪哇居民的日常生活里还留存着怎样的传统？苏加诺与苏哈托两代统治者为印尼留下了怎样的不同遗产？请听本期嘉宾王恺、许振华带来的精彩分享",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "SpaceX-Cursor Deal, SaaS Debt Bomb, New Apple CEO, SPLC Indictment, Colon Cancer Spike",
-      "link": "https://allinchamathjason.libsyn.com/spacex-cursor-deal-saas-debt-bomb-new-apple-ceo-splc-indictment-colon-cancer-spike",
-      "pubDate": "2026-04-24T21:20:00.000Z",
-      "duration": "01:30:42",
-      "summary": "(0:00) Bestie intros! (4:55) SpaceX-Cursor deal, compute as leverage (18:33) SaaS bloodbath, debt bomb incoming, buy the dip? (46:20) New Apple CEO: John Ternus succeeds Tim Cook, what's next for Appl",
-      "art": "https://static.libsyn.com/p/assets/7/f/3/7/7f37881ac06392f216c3140a3186d450/1_Pod_E270.png"
     },
     {
       "showId": "left-right",
