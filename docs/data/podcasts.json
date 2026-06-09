@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-09T10:46:13.565Z",
+    "updatedAt": "2026-06-09T16:33:38.720Z",
     "totalEpisodes": 165,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+      "link": "https://allinchamathjason.libsyn.com/bill-maris-how-google-could-crush-ai-competitors-why-small-funds-win-and-ais-atari-stage",
+      "pubDate": "2026-06-09T15:07:00.000Z",
+      "duration": "28:42",
+      "summary": "(0:00) Bill Maris joins the Besties! (0:33) Four critical lessons from a career in technology (5:58) Building Google Ventures with data and machine learning (9:51) Why small VC funds beat big ones on ",
+      "art": "https://static.libsyn.com/p/assets/7/c/f/3/7cf3ef13223aeeca16c3140a3186d450/Podcast_Graphic_-_Liquidity-20260609-mkb9i4z9uf.png"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -1043,17 +1054,6 @@
       "duration": "1:14:37",
       "summary": "每次看到天灾人祸相关的新闻，你是否也会陷入同样的困境：捐多少？捐给谁？捐出去的钱真的有用吗？ 1972 年，哲学家彼得·辛格（Peter Singer）提出了一个思想实验：如果你路过一个浅水池，看到一个孩子溺水，你会不会下去救他？几乎所有人的答案是会。那么远方正在挨饿的那些孩子与眼前这个落水的孩子，有什么本质区别？这个追问，似乎让「公益捐赠」从一件可做可不做的好事，变成了一种道德义务。由此出发，一",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "CA Governor Candidate Steve Hilton on Why California is Destroying Itself & How a Republican Can Win",
-      "link": "https://allinchamathjason.libsyn.com/ca-governor-candidate-steve-hilton-on-why-california-is-destroying-itself-how-a-republican-can-win",
-      "pubDate": "2026-04-29T15:14:00.000Z",
-      "duration": "01:08:45",
-      "summary": "(0:00) Intro: Steve Hilton is a Republican Brit Running for CA Governor (8:34) Zero Tax Under $100K and a 7.5% Flat Rate: Is It Fiscally Possible? (27:52) Why CA Homes Cost 3x More to Build (Unions, C",
-      "art": "https://static.libsyn.com/p/assets/d/5/2/2/d522b7c8e6966438d959afa2a1bf1c87/1_Pod_Hilton.png"
     },
     {
       "showId": "ezraklein",
