@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updatedAt": "2026-06-08T21:45:21.979Z",
-    "totalEpisodes": 180,
+    "updatedAt": "2026-06-09T10:46:13.565Z",
+    "totalEpisodes": 165,
     "health": [
       {
         "id": "20vc",
         "name": "20VC",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       },
       {
         "id": "ezraklein",
@@ -82,8 +82,8 @@
       "id": "20vc",
       "name": "20VC",
       "category": "vc",
-      "art": "https://static.libsyn.com/p/assets/d/2/b/a/d2ba673c1d134c2be55e3c100dce7605/WhatsApp_Image_2024-10-28_at_11.39.21.jpeg",
-      "link": "http://www.thetwentyminutevc.com/"
+      "art": null,
+      "link": "https://thetwentyminutevc.libsyn.com/rss"
     },
     {
       "id": "ezraklein",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/7190613c58bad86913afb6991d842e2f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/12492dbe94d6e28ada07555f699f778a.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -165,6 +165,39 @@
   ],
   "episodes": [
     {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "476 学者如何研究土匪：马丹丹谈豫北「百里王」王自全与人类学视角下的民国匪患",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a27d09e7444b5722235f9a2?utm_source=rss",
+      "pubDate": "2026-06-09T09:02:00.000Z",
+      "duration": "01:09:09",
+      "summary": "- 导语 - 在地方社会的崩溃下，民国匪患遍布南北，豫北土匪的生存状况尤其典型：民与匪之间共生、转换，暴力成为个体最可能抓住的生存机遇。生态环境失衡、鸦片流通、权力腐败如何一步步加剧豫北匪患？兵匪身份不断流转，土匪如何在多方势力暗中往来中谋取生存？河南乡土间盛行的「拜朋友」仪式在匪帮群体中扮演着怎样的作用？请听本期节目马丹丹老师带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@Grenadie",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "What’s the Left’s Vision for Foreign Policy After Trump?",
+      "link": "https://www.nytimes.com/2026/06/09/opinion/ezra-klein-podcast-matt-duss.html",
+      "pubDate": "2026-06-09T09:00:00.000Z",
+      "duration": "01:33:49",
+      "summary": "The Democratic Party is in the middle of a rupture over foreign policy – with Israel and Palestine at the center. In recent weeks, the Democratic senators Brian Schatz and Chris Van Hollen both called",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "U OK, UK?",
+      "link": "https://www.npr.org/2026/06/09/nx-s1-5850410/u-ok-uk",
+      "pubDate": "2026-06-09T07:00:04.000Z",
+      "duration": "566",
+      "summary": "In the United Kingdom, young people are out of work, government borrowing costs are high, and the nation is burning through PM’s like yesterday’s leftovers. A lot of countries are feeling the economic",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F95%2F7d%2Fc42b408f4f2c91da8553ea0b54ee%2F3e5a0f69-dbe2-4e2f-ab68-481c328a9582.jpg"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -185,17 +218,6 @@
       "duration": "1251",
       "summary": "EY operates as one of the world’s largest and most globally connected professional services firms, employing 400,000 people across more than 150 countries. EY Global Chair and CEO Janet Truncale joins",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Nebius Co-Founder on AI Infrastructure Bubbles | The Real Impact of Open Source on OpenAI & Anthropic | How Price Elastic is Demand for Compute | Could Nebius Sell 10x More Compute If They Had It & more with Roman Chernin",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-nebius-co-founder-on-ai-infrastructure-bubbles-the-real-impact-of-open-source-on-openai-anthropic-how-price-elastic-is-demand-for-compute-could-nebius-sell-10x-more-compute-if-they-had-it-more-with-roman-chernin",
-      "pubDate": "2026-06-08T07:07:00.000Z",
-      "duration": "01:06:40",
-      "summary": "Roman Chernin is Co-Founder and Chief Business Officer of Nebius , one of the fastest-growing AI infrastructure companies in the world. Today, Nebius operates some of the largest AI compute clusters g",
-      "art": "https://static.libsyn.com/p/assets/d/2/3/a/d23a4d33e9fb562dd959afa2a1bf1c87/WhatsApp_Image_2026-06-05_at_11.53.03.jpeg"
     },
     {
       "showId": "indicator",
@@ -229,17 +251,6 @@
       "duration": "32:29",
       "summary": "(0:00) CEOs Andrew Feldman (Cerebras) and Will Marshall (Planet Labs) join the Besties! (2:05) Both CEOs on going public: Impact on employees, customers, and business operations (13:18) Timelines for ",
       "art": "https://static.libsyn.com/p/assets/6/8/9/f/689f9ef1c2ea7e5d16c3140a3186d450/Podcast_Graphic_-_Liquidity-20260606-tsajt9noo2.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Product: Inside Legora's Tech Stack: Why Token Maxing is Failing Enterprise Startups with Jacob Lauritzen, CTO @ Legora",
-      "link": "https://thetwentyminutevc.libsyn.com/20productinside-legoras-tech-stack-why-token-maxing-is-failing-enterprise-startups-with-jacob-lauritzen-cto-legora",
-      "pubDate": "2026-06-06T07:07:00.000Z",
-      "duration": "54:31",
-      "summary": "Jacob Lauritzen serves as the CTO at Legora , the fastest growing B2B enterprise company in history; hitting $100 million in ARR in just 18 months . Legora boasts a valuation of $5.6BN and has raised ",
-      "art": "https://static.libsyn.com/p/assets/9/c/f/5/9cf501071f9171bad959afa2a1bf1c87/WhatsApp_Image_2026-06-05_at_11.52.29.jpeg"
     },
     {
       "showId": "allin",
@@ -328,17 +339,6 @@
       "duration": "56:55",
       "summary": "6 月，美伊战争进入新一轮谈判，和平似有一线希望。但与此同时，海湾地区一对曾经的兄弟国家——沙特与阿联酋——却似乎渐行渐远，这一切究竟是怎么发生的？ 4 月 28 日，阿联酋宣布退出由沙特主导的 OPEC（欧佩克），这场看似突然的分手，背后却是一场 50 余年的关系演变：他们曾以小弟与大哥的姿态相处，曾在战场上并肩出兵，但近十年来，经济上的竞争、外交上的分歧、甚至军事上的正面对抗，已经让这对盟友走",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Files to Go Public | Token Budgeting Panic Hits Corporate America | Cognition Raises $1BN at $26BN Valuation | Apollo Warns PE Software Returns Will be Disastrous | The 9-9-6 Work Ethic: Performative Theatre or Startup Reality?",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-files-to-go-public-token-budgeting-panic-hits-corporate-america-cognition-raises-1bn-at-26bn-valuation-apollo-warns-pe-software-returns-will-be-disastrous-the-9-9-6-work-ethic-performative-theatre-or-startup-reality",
-      "pubDate": "2026-06-04T07:07:00.000Z",
-      "duration": "01:34:04",
-      "summary": "AGENDA: 00:00:00 — Private Markets Are \"F***ing Done\" & The Shift to Heavy CapEx 00:00:46 — Anthropic Files to Go Public 00:04:59 — Will the Anthropic IPO Break the Startup Ecosystem? 00:06:22 — The \"",
-      "art": "https://static.libsyn.com/p/assets/8/2/b/1/82b1d38b62903812d959afa2a1bf1c87/WhatsApp_Image_2026-06-03_at_13.44.08.jpeg"
     },
     {
       "showId": "indicator",
@@ -451,17 +451,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fee%2F6a%2Fcf20b1ff4109879b71013333a44a%2Fb98147c0-3dcd-44a0-9052-2b5e38c57b58.jpg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Mercor CEO on Why Application Layer Companies Have No Defensibility, The Model is the Product | Token Spend Will Exceed Headcount Spend in 5 Years | The True Cost of Hiring AI Researchers in the Valley Today with Brendan Foody",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-mercor-ceo-on-why-application-layer-companies-have-no-defensibility-the-model-is-the-product-token-spend-will-exceed-headcount-spend-in-5-years-the-true-cost-of-hiring-ai-researchers-in-the-valley-today-with-brendan-foody",
-      "pubDate": "2026-06-01T07:07:00.000Z",
-      "duration": "01:15:23",
-      "summary": "Brendan Foody is the Founder and CEO @ Mercor, one of the leading data providers to the largest labs on the planet including OpenAI. In the last two years, Brendan has scaled the company to $1.5BN in ",
-      "art": "https://static.libsyn.com/p/assets/c/5/e/d/c5edad8e5dfb94b1d959afa2a1bf1c87/WhatsApp_Image_2026-05-29_at_14.30.03.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -471,17 +460,6 @@
       "duration": "563",
       "summary": "AI has made it infinitely easier for anyone who can’t afford a lawyer, can’t get one, or doesn't want one to file a lawsuit and pro se cases are skyrocketing. But the wins haven’t followed and courts ",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F47%2Fe2%2F7d7269f64d8b879f910b4f47b721%2Ff36c87d8-4907-4365-9bcc-c1a3e64ae617.jpg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Corgi Insurance: The Most Intense Workplace Culture in America: 7 Days Per Week, Founder Sleeps in Office, Corgi Cafe Open 24 Hours a Day, 60% of First 30 Employees Have Corgi Tattoos | The Journey from $0 to $2.6BN Valuation in Just 2 Years",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-corgi-insurance-the-most-intense-workplace-culture-in-america-7-days-per-week-founder-sleeps-in-office-corgi-cafe-open-24-hours-a-day-60-of-first-30-employees-have-corgi-tattoos-the-journey-from-0-to-26bn-valuation-in-just-2-years",
-      "pubDate": "2026-05-30T07:07:00.000Z",
-      "duration": "53:18",
-      "summary": "Nico Laqua is the Co-Founder and CEO of Corgi Insurance, an AI-native insurance carrier built for startups. Corgi is the most intense workplace culture in America. The team works 7 days per week. The ",
-      "art": "https://static.libsyn.com/p/assets/5/d/9/3/5d9380c850e2a0fbd959afa2a1bf1c87/WhatsApp_Image_2026-05-29_at_13.13.59.jpeg"
     },
     {
       "showId": "allin",
@@ -572,17 +550,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F35%2F5f%2F3e5a90354a7189cae5e7fe2b59fa%2F1f67898f-3405-4836-b7fe-3047b4190029.jpg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: OpenAI & SpaceX S1 Drops | NVIDIA's $81BN Revenue Quarter | Cloudflare and ClickUp Do Controversial Layoffs | Exa, OpenRouter and Polsia Raise Mega Rounds | Uber and Microsoft Declare AI ROI for Developers is Questionable",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-openai-spacex-s1-drops-nvidias-81bn-revenue-quarter-cloudlfare-and-clickup-do-controversial-layoffs-exa-openrouter-and-polsia-raise-mega-rounds-uber-and-microsoft-declare-ai-roi-for-developers-is-questionable",
-      "pubDate": "2026-05-28T07:07:00.000Z",
-      "duration": "01:25:19",
-      "summary": "AGENDA: 05:16 Nvidia Blowout Quarter: $81BN Revenues and Stock… Flat! 10:39 Uber and Microsoft Declare Productivity Gains Questionable from AI 25:26 The Layoffs Continue: ClickUp and Cloudflare 34:39 ",
-      "art": "https://static.libsyn.com/p/assets/c/1/8/d/c18dfb802c5bce2f16c3140a3186d450/WhatsApp_Image_2026-05-27_at_17.22.38.jpeg"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -638,17 +605,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Cerebras CEO on the Future of Data Centres, Token Costs and Memory | We are Not in an Infra Bubble & Dario Got a Bad Deal with Elon for Compute | Should US Companies Sell to China & Why Most Layoffs are AI Washed with Andrew Feldman",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-cerebras-ceo-on-the-future-of-data-centres-token-costs-and-memory-we-are-not-in-an-infra-bubble-dario-got-a-bad-deal-with-elon-for-compute-should-us-companies-sell-to-china-why-most-layoffs-are-ai-washed-with-andrew-feldman",
-      "pubDate": "2026-05-26T07:07:00.000Z",
-      "duration": "01:01:38",
-      "summary": "Andrew Feldman is the co-founder and CEO of Cerebras Systems. This month, Cerebras went public achieving a market cap of $70BN, the largest semiconductor IPO in history. Cerebras has a massive commerc",
-      "art": "https://static.libsyn.com/p/assets/4/c/e/3/4ce344aeabe664f516c3140a3186d450/WhatsApp_Image_2026-05-22_at_17.04.13.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -680,17 +636,6 @@
       "duration": "1:01:47",
       "summary": "这是一场全世界都关注的最高礼仪的会面，每个动作和肢体语言都被媒体所解读。 过去 9 年，中美之间鲜有如此规格的元首互访，双边关系长期在技术遏制与战略竞争的语境中艰难拉扯。在这样的背景下，这次特朗普为何接受了中国提出的「建设性战略稳定关系」这一关系框架；这体现了哪些变化正在发生，我们又可以如何理解这样的变化。 这一期节目，我们邀请了老朋友达巍教授，从一位国际关系学者的角度出发来进行解读。 本期人物 ",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20Sales: The $100M CRO Bubble: Why Anthropic Are Causing a Comp Crisis | Why You Should Never Hire From Salesforce or Service Now | How to Hire, Train and Forecase in a World of AI with Chad Peets and Chris Degnan",
-      "link": "https://thetwentyminutevc.libsyn.com/20sales-the-100m-cro-bubble-why-anthropic-are-causing-a-comp-crisis-why-you-should-never-hire-from-salesforce-or-service-now-how-to-hire-train-and-forecase-in-a-world-of-ai-with-chad-peets-and-chris-degnan",
-      "pubDate": "2026-05-23T07:07:00.000Z",
-      "duration": "01:19:42",
-      "summary": "Chad Peets is one of the most straight-talking, no BS sales leaders of our time. Today, he partners with founders of the fastest growing companies in the world, like Harvey, Factory to build the best ",
-      "art": "https://static.libsyn.com/p/assets/4/e/9/9/4e996c028d9a5489d959afa2a1bf1c87/WhatsApp_Image_2026-05-22_at_16.43.34.jpeg"
     },
     {
       "showId": "allin",
@@ -770,17 +715,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Andrej Karpathy Joins Anthropic & Anthropic Raises $30BN at $900BN Price | SpaceX Files S1: How Does it Trade | Cerebras Smashes Day 1: What it Means for IPOs | Why Mass Layoffs Are More Worrying Than Anyone Sees",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-andrej-karpathy-joins-anthropic-anthropic-raises-30bn-at-900bn-price-spacex-files-s1-how-does-it-trade-cerebras-smashes-day-1-what-it-means-for-ipos-why-mass-layoffs-are-more-worrying-than-anyone-sees",
-      "pubDate": "2026-05-21T07:07:00.000Z",
-      "duration": "01:21:53",
-      "summary": "AGENDA: 00:00 – Anthropic Eyes $900B Valuation & Andre Karpathy's Shock Move 04:46 – Unpacking Anthropic's $30 Billion War Chest 10:52 – The True Cost of AI Tokens: Is Salesforce Spending Too Much? 15",
-      "art": "https://static.libsyn.com/p/assets/9/d/d/9/9dd934d9ff086139d959afa2a1bf1c87/WhatsApp_Image_2026-05-20_at_20.01.36.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -858,28 +792,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F64%2Fb7%2F92b4cecc4a7e8a6bcc8ba767f94b%2F1fe6a044-dd30-44fe-b4ae-6049fd992cfb.jpg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Turning Peter Thiel's $100K into $10M Angel Portfolio | The One Man Accelerator at The Four Seasons | Why VCs Can Be Sharks and What Founders Need to Know | Why Stocks and Cash are BS and You Should Invest in Land with Josh Browder",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-turning-peter-thiels-100k-into-10m-angel-portfolio-the-one-man-accelerator-at-the-four-seasons-why-vcs-can-be-sharks-and-what-founders-need-to-know-why-stocks-and-cash-are-bs-and-you-should-invest-in-land-with-josh-browder",
-      "pubDate": "2026-05-18T07:07:00.000Z",
-      "duration": "01:29:01",
-      "summary": "Josh Browder is my favourite emerging manager. As the Founder of Browder Capital he has been the first check into unicorns like Micro1, Owner.com and Yuzu Health to name a few. He turned his Thiel Fel",
-      "art": "https://static.libsyn.com/p/assets/0/5/8/f/058fa5cd8b44d46f16c3140a3186d450/WhatsApp_Image_2026-05-15_at_15.50.26.jpeg"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Taiwan arms sales, Board of Trade, and Chinamaxxing",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5823900/taiwan-arms-sales-board-of-trade-and-chinamaxxing",
-      "pubDate": "2026-05-18T07:00:00.000Z",
-      "duration": "564",
-      "summary": "Unpacking Donald Trump’s trip to China: arms sales to Taiwan, the Board of Trade proposal and China’s growing soft power. Fact checking by Sierra Juarez . Your Next Listen — What might save China's ec",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F8b%2F95%2F0c08a60c4e0d93307ea6869b8128%2F5ffe9900-e468-451b-88ac-0361ef7070ed.jpg"
-    },
-    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -889,17 +801,6 @@
       "duration": "13685",
       "summary": "Vanguard is the most effective vehicle ever created for participating in the fruits of American capitalism. Today it’s the single largest equity owner of the majority of corporations in the S&P 500, o",
       "art": "https://img.transistorcdn.com/G48S8ousdgdlTFU686aTV1C24y-DL5ua-Ih2SyRvqb0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83Nzk4/Y2M5MDcyN2EzZTM3/NjQzYjI1YTBhOTIz/ZjM0NS5qcGc.jpg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Lessons from Jensen Huang on \"Founder Mode\" | How to Know if OpenAI or Anthropic Will Kill your Company | How USV Liking Music Made Them $1BN on an Investment | The Five Year Desert to Product Market Fit & a $5.3BN Valuation with Shiv Rao @ Abridge",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-lessons-from-jensen-huang-on-founder-mode-how-to-know-if-openai-or-anthropic-will-kill-your-company-how-usv-liking-music-made-them-1bn-on-an-investment-the-five-year-desert-to-product-market-fit-a-53bn-valuation-with-shiv-rao-abridge",
-      "pubDate": "2026-05-16T07:07:00.000Z",
-      "duration": "01:04:46",
-      "summary": "Shiv Rao is the CEO and Co-Founder of Abridge, a leader in generative AI for healthcare. The company reached a $5.3 billion valuation following a $300 million funding round with investors including Je",
-      "art": "https://static.libsyn.com/p/assets/b/7/6/5/b765cb30db423ca416c3140a3186d450/WhatsApp_Image_2026-05-14_at_18.27.22.jpeg"
     },
     {
       "showId": "allin",
@@ -968,17 +869,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Buys Compute From Elon & Commits $200BN to Google | Cerebras IPO: The Breakdown | Ramp's $40BN Latest Valuation | Hubspot Tanks, Monday Rockets: WTF is Happening in Public Markets",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-buys-compute-from-elon-commits-200bn-to-google-cerebras-ipo-the-breakdown-ramps-40bn-latest-valuation-hubspot-tanks-monday-rockets-wtf-is-happening-in-public-markets",
-      "pubDate": "2026-05-14T07:07:00.000Z",
-      "duration": "01:18:25",
-      "summary": "AGENDA: 00:05:11 — Anthropic freezes secondary sales, requiring board approval for all transfers. 00:10:45 — Why Anthropic is buying capacity from Elon Musk. 00:15:35 — Anthropic's massive $200B reven",
-      "art": "https://static.libsyn.com/p/assets/6/e/3/8/6e38a44866cc579f16c3140a3186d450/WhatsApp_Image_2026-05-13_at_14.07.02.jpeg"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1034,17 +924,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Inside Legora: $100M ARR in 18 Months | Jude Law Generated $50M in Sales Pipeline: The Economics Broken Down | Competing Against Harvey, the 800 Pound Gorilla | Why Legora is Undervalued at $5.5BN with Patrick Forquer, CRO @ Legora",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-inside-legora-100m-arr-in-18-months-jude-law-generated-50m-in-sales-pipeline-the-economics-broken-down-competing-against-harvey-the-800-pound-gorilla-why-legora-is-undervalued-at-55bn-with-patrick-forquer-cro-legora",
-      "pubDate": "2026-05-11T07:07:00.000Z",
-      "duration": "01:14:17",
-      "summary": "Patrick Forquer is the Chief Revenue Officer at Legora , the fastest growing enterprise business to ever hit $100M in ARR and now on track to hit over $250M in ARR by the end of the year. They recentl",
-      "art": "https://static.libsyn.com/p/assets/e/9/3/f/e93fcf4e9127c638d959afa2a1bf1c87/WhatsApp_Image_2026-05-08_at_17.26.07.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1054,17 +933,6 @@
       "duration": "01:11:19",
       "summary": "(0:00) Spencer Pratt vs. the Machine (3:01) Inside the Palisades Fire: Drained Reservoirs, No Sirens & Watching His House Burn on His Phone (14:03) Why He's Running for Mayor: FireAid's $100M Scandal ",
       "art": "https://static.libsyn.com/p/assets/1/7/a/2/17a21271097a60eed959afa2a1bf1c87/1_Pod_Pratt.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: What I Learned from 100 of the Best CEOs in the World | What I Learned from Staying with Mr Beast for 3 Weeks | How We Will Spend More on Tokens than Salaries with Cliff Weitzman, Speechify",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-what-i-learned-from-100-of-the-best-ceos-in-the-world-what-i-learned-from-staying-with-mr-beast-for-3-weeks-how-we-will-spend-more-on-tokens-than-salaries-with-cliff-weitzman-speechify",
-      "pubDate": "2026-05-09T07:07:00.000Z",
-      "duration": "01:46:40",
-      "summary": "Cliff Weitzman is the Founder & CEO of Speechify AI. He solved his dyslexia and ADHD in college by building a Voice AI agent that's now used by over 60 million people and has over 1 million five-star ",
-      "art": "https://static.libsyn.com/p/assets/9/4/9/f/949ff49eaa149a49d959afa2a1bf1c87/WhatsApp_Image_2026-05-08_at_17.25.12.jpeg"
     },
     {
       "showId": "allin",
@@ -1098,17 +966,6 @@
       "duration": "01:13:57",
       "summary": "Here’s a shocking number: One out of eight American adults is taking a GLP-1, like Ozempic or Zepbound, according to a KFF poll. GLP-1s are the biggest pharmaceutical story since antidepressants. But ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Mag7 Earnings: Google & Amazon Win - Meta and Microsoft Falter | Anthropic's $50BN Raise & What it Means for a Potential IPO | Atlassian, Twilio and Five9 Beat: The SaaS Apocalypse Over? | Sierra's $15B Valuation: Peak or Potential",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-mag7-earnings-google-amazon-win-meta-and-microsoft-falter-anthropics-50bn-raise-what-it-means-for-a-potential-ipo-atlassian-twilio-and-five9-beat-the-saas-apocalypse-over-sierras-15b-valuation-peak-or-potential",
-      "pubDate": "2026-05-07T07:07:00.000Z",
-      "duration": "01:31:10",
-      "summary": "AGENDA: 00:00 – Mag Seven Earnings: The \"Super Bowl\" of Tech Results 04:45 – Google's Cloud Explosion & The AI Search \"Disruption\" That Never Came 15:53 – Microsoft's $190B Bet: Is AI the Only Thing K",
-      "art": "https://static.libsyn.com/p/assets/d/b/5/f/db5fbd177c5a69f416c3140a3186d450/WhatsApp_Image_2026-05-06_at_17.46.40.jpeg"
     },
     {
       "showId": "lexfridman",
@@ -1287,17 +1144,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "467 霍尔木兹海峡千年史：从苏美尔文明、葡萄牙大征服到现代中东冲突",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69e1fb9c1e94ae69217d20ec?utm_source=rss",
-      "pubDate": "2026-04-17T09:44:28.000Z",
-      "duration": "01:13:05",
-      "summary": "- 导语 - 二月以来，世界的目光再次引向霍尔木兹海峡这片狭窄的水域。位于波斯湾咽喉的霍尔木兹岛有着怎样奇异的风土人情？发生在唐末广州的黄巢起义，如何影响了遥远的波斯湾贸易？地理大发现时代，仅有100万人口的葡萄牙王国为何能影响波斯湾长达两个半世纪？从两伊战争到当下的美伊冲突，霍尔木兹海峡的通行状态经历过怎样的变迁？请听本期嘉宾陆大鹏带来的精彩分享。 - 本期话题成员 - 程衍樑（微博@Grena",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1362,17 +1208,6 @@
       "duration": "14360",
       "summary": "Ferrari is the pinnacle of luxury scarcity — across its entire 79-year history, the company has sold just 330,000 cars at an average price today of $500,000. For context, Hermès sells that many Birkin",
       "art": "https://img.transistorcdn.com/0QGXNUgszcCY1ANfR29j6wYwABqNDaHjFNi3K5p7ZOw/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yYjg2/ZjI2MTRkZGRhNWVl/ZjlkYjA2Zjg2ZWI0/NGVhZS5qcGc.jpg"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Fareed Zakaria on the Moral Cost of Trump’s War",
-      "link": "https://www.nytimes.com/2026/04/10/opinion/ezra-klein-podcast-fareed-zakaria.html",
-      "pubDate": "2026-04-10T09:00:00.000Z",
-      "duration": "01:07:50",
-      "summary": "When President Trump didn’t annihilate “a whole civilization” on Tuesday, as he had threatened to do, much of the world exhaled. But the damage of his statements — a U.S. president, the commander in c",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "talksat",
