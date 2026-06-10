@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-10T17:25:00.203Z",
+    "updatedAt": "2026-06-10T21:51:14.679Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
+      "link": "https://allinchamathjason.libsyn.com/senators-john-fetterman-and-dave-mccormick-bipartisanship-money-in-dc-datacenters-graham-platner",
+      "pubDate": "2026-06-10T18:05:00.000Z",
+      "duration": "43:23",
+      "summary": "(0:00) PA Senators Fetterman and McCormick join the Besties (0:33) Bipartisanship in 2026, rejecting extremism (6:37) All-time unpopularity in the Senate, the filibuster question, tribalism (13:33) Fi",
+      "art": "https://static.libsyn.com/p/assets/f/0/b/3/f0b30d692ad9524d16c3140a3186d450/Podcast_Graphic_-_Liquidity-20260610-mm1ibd72q7.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -1120,17 +1131,6 @@
       "duration": "01:46:40",
       "summary": "Cliff Weitzman is the Founder & CEO of Speechify AI. He solved his dyslexia and ADHD in college by building a Voice AI agent that's now used by over 60 million people and has over 1 million five-star ",
       "art": "https://static.libsyn.com/p/assets/9/4/9/f/949ff49eaa149a49d959afa2a1bf1c87/WhatsApp_Image_2026-05-08_at_17.25.12.jpeg"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Elon's Anthropic Deal, The Next AI Monopoly?, \"FDA for AI\" Panic, Trading the AI Boom",
-      "link": "https://allinchamathjason.libsyn.com/elons-anthropic-deal-the-next-ai-monopoly-fda-for-ai-panic-trading-the-ai-boom",
-      "pubDate": "2026-05-08T22:16:00.000Z",
-      "duration": "01:22:02",
-      "summary": "(0:00) Bestie intros! Thoughts on the LA mayor election (4:38) SpaceX-Anthropic deal, Elon Web Services, SpaceX IPO valuation, Anthropic's insane growth trajectory (26:48) Is Anthropic the next great ",
-      "art": "https://static.libsyn.com/p/assets/c/4/4/d/c44ded9277e66f66d959afa2a1bf1c87/1_Pod_E272.png"
     },
     {
       "showId": "left-right",
