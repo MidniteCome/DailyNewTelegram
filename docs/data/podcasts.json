@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-09T21:41:53.422Z",
+    "updatedAt": "2026-06-10T11:09:24.859Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Should we tax AI?",
+      "link": "https://www.npr.org/2026/06/10/nx-s1-5852230/should-we-tax-ai",
+      "pubDate": "2026-06-10T07:00:00.000Z",
+      "duration": "550",
+      "summary": "Should we tax AI? The AI race has made a lot of people richer … but most of those gains seem to have gone to the wealthy while everyday workers aren't seeing their incomes go up. We speak with Democra",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4f%2F83%2F01dd0e98415aa5068121e33a1bac%2F3ba09a00-312c-44da-9ed9-3d2643e63f78.png"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "如何在不确定的时代中安排人生？一个资产配置的视角",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a28e6c3dbccffcfa9c68f77?utm_source=rss",
+      "pubDate": "2026-06-10T04:31:25.000Z",
+      "duration": "01:27:36",
+      "summary": "【主播的话】 今年五月，我去了一趟奥马哈，参加了一年一度的巴菲特股东大会。 作为一个平日里并不算关注投资的人，去参会纯粹是记者的好奇心作祟：我想看看，这个每年让几万人专程飞来朝圣的地方，究竟供着什么“神”？现场的第一印象，像是一个巨大的县城大卖场，人声鼎沸，摩肩接踵，中国投资者组团涌入，对着一个九十多岁的老人的照片虔诚地举起手机。那种氛围也让人深思：他们在这里寻找的，究竟是财富密码，还是某种更难言",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
+      "link": "https://allinchamathjason.libsyn.com/dan-dreyfus-americas-critical-minerals-crisis-is-here",
+      "pubDate": "2026-06-10T03:04:00.000Z",
+      "duration": "24:37",
+      "summary": "(0:00) Dan Dreyfus Presents: The Future of Critical Minerals (0:33) America's \"Capital Light Era\" is over, rapid supply/demand shocks (5:40) Impact of China cutting off the US from critical minerals (",
+      "art": "https://static.libsyn.com/p/assets/b/3/0/0/b300a1698fd66e4516c3140a3186d450/Podcast_Graphic_-_Liquidity-20260610-0jeiy2jpei.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -902,17 +935,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why GLP-1s aren't lowering employers' costs",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5826016/why-glp-1s-arent-lowering-employers-costs",
-      "pubDate": "2026-05-19T07:00:00.000Z",
-      "duration": "604",
-      "summary": "The vast majority of employer health plans do not cover GLP-1s for weight loss. But roughly 20% do, many believing it will help their bottom line. Perhaps when employees take Wegovy or Zepbound, they’",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F64%2Fb7%2F92b4cecc4a7e8a6bcc8ba767f94b%2F1fe6a044-dd30-44fe-b4ae-6049fd992cfb.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1186,17 +1208,6 @@
       "duration": "01:05:00",
       "summary": "In the U.S., illiberalism is in power. I don’t think anybody really argues against that. But I’ve been surprised by how weak liberalism has felt in response. Donald Trump isn’t a popular president; he",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "OpenAI Misses Targets, Codex vs Claude, Elon vs Sam Trial, Big Hyperscaler Beats, Peptide Craze",
-      "link": "https://allinchamathjason.libsyn.com/openai-misses-targets-codex-vs-claude-elon-vs-sam-trial-big-hyperscaler-beats-peptide-craze",
-      "pubDate": "2026-05-01T21:37:00.000Z",
-      "duration": "01:20:58",
-      "summary": "(0:00) Bestie intros (3:05) OpenAI misses targets, Codex gains on Claude (20:02) AI cybersecurity: a market that's about to explode (31:03) Elon vs Sam Altman lawsuit (41:00) Big tech smashes earnings",
-      "art": "https://static.libsyn.com/p/assets/b/1/8/6/b1862c7e177b0d2a16c3140a3186d450/1_Pod_E271.png"
     },
     {
       "showId": "left-right",
@@ -1835,17 +1846,6 @@
       "duration": "00:45:00",
       "summary": "In this BG2 guest interview, Altimeter partner Apoorv Agrawal sits down with Ali Ghodsi (Databricks) and Arvind Jain (Glean) for a candid, operator-level discussion on what’s actually working in enter",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
-    },
-    {
-      "showId": "weirdo",
-      "showName": "不合时宜",
-      "category": "zh",
-      "title": "单身生育：一场关于自由、自我与爱的实验",
-      "link": "https://www.xiaoyuzhoufm.com/episode/694229525e8cb26fdf424d4f?utm_source=rss",
-      "pubDate": "2025-12-17T04:16:16.000Z",
-      "duration": "01:15:05",
-      "summary": "【主播的话】 在主流社会的想象中，生育几乎总是与亲密关系、伴侣或婚姻绑定在一起的。 然而，这是一个必须要遵从的默认前提吗？当我们怀顾四周，发现事实并非如此。今天的女性，即使没有伴侣或者婚姻，依然能拥有成为志愿单身母亲的自由。这是我们希望制作这个迷你系列的初衷，试图回答这一种新的选择意味着什么？ 今天的节目里，嘉宾西柚是一位通过精子库和 IVF （辅助生育技术）成为母亲的单身妈妈，她也是一位优秀的写",
-      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
       "showId": "acquired",
