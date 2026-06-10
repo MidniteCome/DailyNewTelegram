@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-10T11:09:24.859Z",
+    "updatedAt": "2026-06-10T17:25:00.203Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2512 - Joey Diaz",
+      "link": "https://traffic.megaphone.fm/GLT1423641866.mp3",
+      "pubDate": "2026-06-10T17:00:00.000Z",
+      "duration": "10112",
+      "summary": "Joey Diaz is a stand-up comedian, actor, and writer. He is the host of the podcast “The Church of What’s Happening Now: The New Testament” and the author of “Tremendous: The Life of a Comedy Savage.”w",
+      "art": "https://megaphone.imgix.net/podcasts/4ad4246e-6456-11f1-a4da-aff897fdf12f/image/50778c3292dc81e0b565980c3d92b31d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1010,17 +1021,6 @@
       "duration": "01:13:51",
       "summary": "What do you do when you feel anxious or insecure? Many of us try to push the feeling away, or we ruminate on it, or try to solve it, or avoid the thought altogether. But what would happen if we did th",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2499 - Marcus King",
-      "link": "https://traffic.megaphone.fm/GLT6739360165.mp3",
-      "pubDate": "2026-05-14T17:00:00.000Z",
-      "duration": "10382",
-      "summary": "Marcus King is the lead singer, guitarist, and founder of The Marcus King Band. His most recent album is “Darling Blue.” https://marcusking.komi.iowww.youtube.com/@RealMarcusKingwww.marcuskingofficial",
-      "art": "https://megaphone.imgix.net/podcasts/600dc11c-4f31-11f1-bccd-c7e184fd1c90/image/afb298a0f8443bf5e68682e10772c201.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
