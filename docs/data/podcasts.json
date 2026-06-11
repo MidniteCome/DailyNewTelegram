@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-06-11T11:54:58.927Z",
-    "totalEpisodes": 180,
+    "updatedAt": "2026-06-11T17:38:13.486Z",
+    "totalEpisodes": 165,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/12492dbe94d6e28ada07555f699f778a.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "art": null,
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -209,17 +209,6 @@
       "art": "https://static.libsyn.com/p/assets/f/0/b/3/f0b30d692ad9524d16c3140a3186d450/Podcast_Graphic_-_Liquidity-20260610-mm1ibd72q7.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2512 - Joey Diaz",
-      "link": "https://traffic.megaphone.fm/GLT1423641866.mp3",
-      "pubDate": "2026-06-10T17:00:00.000Z",
-      "duration": "10112",
-      "summary": "Joey Diaz is a stand-up comedian, actor, and writer. He is the host of the podcast “The Church of What’s Happening Now: The New Testament” and the author of “Tremendous: The Life of a Comedy Savage.”w",
-      "art": "https://megaphone.imgix.net/podcasts/4ad4246e-6456-11f1-a4da-aff897fdf12f/image/50778c3292dc81e0b565980c3d92b31d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -251,17 +240,6 @@
       "duration": "24:37",
       "summary": "(0:00) Dan Dreyfus Presents: The Future of Critical Minerals (0:33) America's \"Capital Light Era\" is over, rapid supply/demand shocks (5:40) Impact of China cutting off the US from critical minerals (",
       "art": "https://static.libsyn.com/p/assets/b/3/0/0/b300a1698fd66e4516c3140a3186d450/Podcast_Graphic_-_Liquidity-20260610-0jeiy2jpei.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2511 - Terry Bradshaw",
-      "link": "https://traffic.megaphone.fm/GLT1002417746.mp3",
-      "pubDate": "2026-06-09T17:00:00.000Z",
-      "duration": "9816",
-      "summary": "Terry Bradshaw is a retired NFL quarterback whose 14 seasons with the Pittsburgh Steelers included four Super Bowl wins, leading to his induction into the Pro Football Hall of Fame. Bradshaw is also a",
-      "art": "https://megaphone.imgix.net/podcasts/2812b022-639c-11f1-a977-ef24292591fb/image/74e33920a0b31998160b2437a0bdff98.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "allin",
@@ -396,17 +374,6 @@
       "art": "https://static.libsyn.com/p/assets/c/d/6/3/cd63021a3fb09aa116c3140a3186d450/Podcast_Graphic_-_Liquidity-20260605-15v4uqzq7e.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2510 - Devon Larratt",
-      "link": "https://traffic.megaphone.fm/GLT7596740308.mp3",
-      "pubDate": "2026-06-05T17:00:00.000Z",
-      "duration": "10129",
-      "summary": "Devon Larratt is a veteran of the Canadian Armed Forces and a professional arm wrestler who is widely considered one of the sport’s greatest competitors.www.youtube.com/@devlarratthttps://armbet.netht",
-      "art": "https://megaphone.imgix.net/podcasts/b9344b74-6072-11f1-989b-97b7029632d7/image/05185c599a32524b3890926299c4fe99.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -449,17 +416,6 @@
       "duration": "32:45",
       "summary": "(0:00) Coatue's Thomas Laffont joins the Besties! (0:30) Public markets are back as AI is dominates the \"Unicorn Economy\" (5:15) The $4T AI IPO explosion (7:48) The case for SpaceX: Compounding launch",
       "art": "https://static.libsyn.com/p/assets/4/c/3/0/4c300253a3ce6f7516c3140a3186d450/Podcast_Graphic_-_Liquidity-20260604-rdp09014pn.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2509 - Caleb Hammer",
-      "link": "https://traffic.megaphone.fm/GLT4890761896.mp3",
-      "pubDate": "2026-06-04T17:00:00.000Z",
-      "duration": "8463",
-      "summary": "Caleb Hammer is a YouTuber and host of the program “Financial Audit.”www.youtube.com/c/calebhammerwww.patreon.com/calebhammerwww.calebhammer.com Perplexity: Download the app or ask Perplexity anything",
-      "art": "https://megaphone.imgix.net/podcasts/2f365426-5f9b-11f1-8433-9fabe6f521e9/image/1998e991549064f65d92e4ffd2baa669.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -506,17 +462,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2508 - Joe Eszterhas",
-      "link": "https://traffic.megaphone.fm/GLT5133709752.mp3",
-      "pubDate": "2026-06-03T17:00:00.000Z",
-      "duration": "8279",
-      "summary": "Joe Eszterhas is an author, former journalist for “Rolling Stone,” and screenwriter known for films such as “Basic Instinct,” “Sliver,” “Showgirls,” and “Flashdance.”www.imdb.com/name/nm0000390/ Perpl",
-      "art": "https://megaphone.imgix.net/podcasts/e03b5594-5ed0-11f1-9ce3-2f5146ba6398/image/e47e931549fbe01a8c3c585b3edea4a2.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -537,17 +482,6 @@
       "duration": "29:59",
       "summary": "(0:00) Bill Ackman joins the show! (0:30) Evolving investment philosophy: What's changed over 20 years? (4:40) AI: Greatest time to build a business, and a major threat to portfolios (7:50) Predicting",
       "art": "https://static.libsyn.com/p/assets/4/1/1/6/41169b7d3e7667d4d959afa2a1bf1c87/Podcast_Graphic_-_Liquidity.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "JRE MMA Show #180 with Daniel Rodriguez",
-      "link": "https://traffic.megaphone.fm/GLT5622841708.mp3",
-      "pubDate": "2026-06-02T17:00:00.000Z",
-      "duration": "8526",
-      "summary": "Joe sits down with Daniel Rodriguez, a professional mixed martial artist competing in the Ultimate Fighting Championship’s welterweight division.www.ufc.com/athlete/daniel-rodriguez Learn more about y",
-      "art": "https://megaphone.imgix.net/podcasts/61bd0b4c-5e0b-11f1-b4b2-837f481d7600/image/78839ccb873938b9ebaa0dc6168a6c93.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "allin",
@@ -638,17 +572,6 @@
       "art": "https://static.libsyn.com/p/assets/e/b/d/f/ebdfe17be5b4c02ad959afa2a1bf1c87/1_Pod_E275.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2507 - Harland Williams",
-      "link": "https://traffic.megaphone.fm/GLT5813764141.mp3",
-      "pubDate": "2026-05-29T17:00:00.000Z",
-      "duration": "11973",
-      "summary": "Harland Williams is a comedian, author, actor, musician, filmmaker, and host of “The Harland Highway” podcast. His new movie, “Wingman,” is available now on all streaming services.www.youtube.com/@Har",
-      "art": "https://megaphone.imgix.net/podcasts/cb188274-5b04-11f1-ab08-73f69a0b7be3/image/ff240514dc767ed640a152bd6e9656ab.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -693,17 +616,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2b%2F75%2Fbb86192e4fa59f7c320977cfbdb0%2F548a3028-a17b-4ae1-8fd3-356955dc5bc3.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2506 - Michelle Thaller",
-      "link": "https://traffic.megaphone.fm/GLT2663008219.mp3",
-      "pubDate": "2026-05-28T17:00:00.000Z",
-      "duration": "9811",
-      "summary": "Michelle Thaller, PhD, is an astrophysicist, award-winning science communicator, and retired NASA executive who worked at NASA’s Goddard Space Flight Center and NASA Headquarters. Her work has appeare",
-      "art": "https://megaphone.imgix.net/podcasts/c9848b58-5a58-11f1-af46-1791c124921c/image/c68a8f811cb24486b2f4db238a0ddac7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -735,17 +647,6 @@
       "duration": "01:18:29",
       "summary": "【主播的话】 （本期节目涉及性暴力与性犯罪的讨论，可能引起部分听众不适，请你斟酌收听。） 上周，我们走进了柏林的法院，在现场见证了近来引发高度关注的华人迷奸案庭审。被审理的是核心八人群组里的邵姓嫌疑人，这个网络里的成员散布在德国、美国、荷兰等地，通过一个 Telegram 群组彼此相连——他们用药物迷昏女性后实施性侵，并把过程拍下来，在群里分享。受害者大多是他们身边的华人女性：留学生、房东、邻居、",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "JRE MMA Show #179 with Josh Thompson & \"Big\" John McCarthy",
-      "link": "https://traffic.megaphone.fm/GLT9400073467.mp3",
-      "pubDate": "2026-05-27T17:00:00.000Z",
-      "duration": "10296",
-      "summary": "Joe sits down with Josh Thompson, a retired champion mixed martial artist and fight analyst, and Big John McCarthy, a veteran mixed martial arts referee, Professional Fighters League commentator, and ",
-      "art": "https://megaphone.imgix.net/podcasts/b9a851aa-5969-11f1-b610-5b89e07e9b01/image/fd78de4e035bd06624f0ea03dd51aa1e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "indicator",
@@ -803,17 +704,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2Fda%2F38d0c7154734b327de1579b59e1b%2F62a3e1ea-da13-4a41-8384-ec41b94692f7.jpg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2505 - Tom Segura",
-      "link": "https://traffic.megaphone.fm/GLT2820142649.mp3",
-      "pubDate": "2026-05-25T23:39:00.000Z",
-      "duration": "10228",
-      "summary": "Tom Segura is a comedian, actor, author, and restaurateur. He hosts “Your Mom’s House” with his wife, comedian Christina Pazsitzky, and “Two Bears, One Cave” with comedian Bert Kreischer. He is also t",
-      "art": "https://megaphone.imgix.net/podcasts/18b33436-588d-11f1-bd69-4b50659ad7ad/image/5517f0f66165c535b74ee785730ad963.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -847,17 +737,6 @@
       "art": "https://static.libsyn.com/p/assets/c/3/2/1/c321969eb8898bf116c3140a3186d450/1_Pod_E274.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2504 - Skylar Grey",
-      "link": "https://traffic.megaphone.fm/GLT6877232671.mp3",
-      "pubDate": "2026-05-22T17:00:00.000Z",
-      "duration": "7505",
-      "summary": "Skylar Grey is a Grammy Award-nominated singer, songwriter, and producer. Her new album, “Wasted Potential,” is available now.https://ffm.to/sg_wastedpotential.OPRwww.youtube.com/@SkylarGreywww.skylar",
-      "art": "https://megaphone.imgix.net/podcasts/66dfc50c-5572-11f1-bfc8-23863e30930c/image/bdf8e2f45f40c24b5e34b570f9847d50.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -878,17 +757,6 @@
       "duration": "546",
       "summary": "Diving deep into President Trump’s many stock trades , a peptide business posing as a sporting event and a new breakthrough in Shakira’s ongoing tax drama. Fact checking by Sierra Juarez . Your Next L",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F97%2F2b%2Fde681ff2497890e646ee1228831c%2Febb2a3ca-7bfe-4ebf-bbdc-703bb729eaf7.jpg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2503 - Eric Weinstein",
-      "link": "https://traffic.megaphone.fm/GLT2235835292.mp3",
-      "pubDate": "2026-05-21T17:00:00.000Z",
-      "duration": "10772",
-      "summary": "Eric Weinstein, PhD, is a mathematician, former managing director of Thiel Capital, and a manager of the Galileo Project research team. He is the originator of the Intellectual Dark Web and creator of",
-      "art": "https://megaphone.imgix.net/podcasts/365312f8-54a1-11f1-bffe-e722e4e55eb4/image/58768c38fac83b661d07ee5ad63da26e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -933,28 +801,6 @@
       "duration": "439",
       "summary": "The US-Israel War in Iran is almost three months in and oil prices have risen, but they’re not catastrophic … yet. Why isn't the price of oil even higher? We learn about how the world is adapting to t",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff4%2F6c%2F11c40a614bb78cdc3616c6990456%2F06e75c96-627e-4983-9957-a0c3aaeca956.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2502 - David Paulides",
-      "link": "https://traffic.megaphone.fm/GLT9926666486.mp3",
-      "pubDate": "2026-05-20T17:00:00.000Z",
-      "duration": "8784",
-      "summary": "David Paulides is a writer, investigator, filmmaker, and former law enforcement officer. He is the author of the “Missing 411” series, which explores unexplained disappearances in North American wilde",
-      "art": "https://megaphone.imgix.net/podcasts/2cc305a6-53dc-11f1-aaca-0b2a12a0aa49/image/d7e526bf6cc6f697d9b3d93b2598e316.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2501 - Marc Andreessen",
-      "link": "https://traffic.megaphone.fm/GLT4222257548.mp3",
-      "pubDate": "2026-05-19T17:00:00.000Z",
-      "duration": "12380",
-      "summary": "Marc Andreessen is a co-founder and general partner at the venture capital firm Andreessen Horowitz, co-creator of the Mosaic internet browser and co-founder of Netscape, and author of “The Techno-Opt",
-      "art": "https://megaphone.imgix.net/podcasts/6e105d8e-5318-11f1-9ed5-9321e601ba7a/image/7532be1b508f1bbcc1793cdd57991e3f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -1021,17 +867,6 @@
       "duration": "01:16:31",
       "summary": "(0:00) Salesforce CEO Marc Benioff joins the show! (1:14) Trump-Xi summit, doing business in China as a US company, impact on Americans and the midterms (18:46) Taiwan, chips, AI models, and peace thr",
       "art": "https://static.libsyn.com/p/assets/1/b/2/7/1b271d367e0c2334d959afa2a1bf1c87/1_Pod_E273.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2500 - Scott Horton",
-      "link": "https://traffic.megaphone.fm/GLT9667446181.mp3",
-      "pubDate": "2026-05-15T17:00:00.000Z",
-      "duration": "9684",
-      "summary": "Scott Horton is the director of the Libertarian Institute, host of “The Scott Horton Show,” co-host of “Provoked” with Darryl Cooper, and author of several books, the most recent of which is “Provoked",
-      "art": "https://megaphone.imgix.net/podcasts/5b779a24-4fea-11f1-831f-5bde17471e54/image/fddbac935ab75fc06f928a972f674458.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -1810,7 +1645,7 @@
       "title": "Rolex",
       "link": "https://www.acquired.fm/episodes/rolex",
       "pubDate": "2026-01-03T04:34:00.000Z",
-      "duration": "17952",
+      "duration": "17958",
       "summary": "Rolex is a series of paradoxes. They sell obsolete and objectively inferior mechanical devices for 10-1000x the price of their superior digital successors… and demand is stronger than ever in history!",
       "art": "https://img.transistorcdn.com/gx6fhYO1SXMFGcVkU0FWykOtdtd5kMbwLFJMSN3_WZ4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zMWQ4/NjUxMmJkYTUxMzRh/Mzk4ZWYwM2UwYWNk/M2Q2Ny5wbmc.jpg"
     },
@@ -1821,7 +1656,7 @@
       "title": "Costco",
       "link": "https://www.acquired.fm/episodes/costco",
       "pubDate": "2026-01-02T05:46:00.000Z",
-      "duration": "10876",
+      "duration": "10882",
       "summary": "Costco is not only Charlie Munger’s favorite company of all time (plus he’s on the board, natch), it’s an absolutely fascinating study in how seemingly opposite characteristics can combine to create i",
       "art": "https://img.transistorcdn.com/jFPz1nSL8JfyAmY8ab_xqfZWEVOQ1VqoHhJKdxvzTEY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hMWI0/NTE4ZGMzNWQ2ODli/ZTExZDkwNjBmZjVl/ZmQ1OS5wbmc.jpg"
     },
@@ -1887,7 +1722,7 @@
       "title": "Coca-Cola",
       "link": "https://www.acquired.fm/episodes/coca-cola",
       "pubDate": "2025-11-24T03:00:17.000Z",
-      "duration": "14482",
+      "duration": "14488",
       "summary": "Coca-Cola is… sugar water. And somehow it’s also America, Christmas, summertime, friendship and happiness. Today we tell the story of how The Coca-Cola Company amazingly transmogrified a beverage into",
       "art": "https://img.transistorcdn.com/39-V6NdO6ZaVaMH9TAU7sm7gqZF16IvTl0NGCOQ5nDo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zM2Q5/OTdkNDY1NWU1YTZk/N2FmNDVkNzk5M2Jl/NjYzZC5qcGc.jpg"
     },
@@ -1931,7 +1766,7 @@
       "title": "Trader Joe’s",
       "link": "https://www.acquired.fm/episodes/trader-joes",
       "pubDate": "2025-10-27T03:07:10.000Z",
-      "duration": "12336",
+      "duration": "12341",
       "summary": "Trader Joe's breaks every rule of modern retail. They don't do e-commerce. They don't do delivery. No sales, coupons, or loyalty programs. They only stock 4,000 SKUs versus 50,000+ at normal supermark",
       "art": "https://img.transistorcdn.com/mq0lgrSm6fJKRP39Oi5lgpBWo-rigMKrTI-LKVI16UE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zOGIx/MmQwYmNlNjEyZGFj/YWVhOTA5NDY1MGZi/ZWEyMC5qcGc.jpg"
     },
@@ -1964,7 +1799,7 @@
       "title": "Google Part III: The AI Company",
       "link": "https://www.acquired.fm/episodes/google-the-ai-company",
       "pubDate": "2025-10-06T01:35:54.000Z",
-      "duration": "14632",
+      "duration": "14638",
       "summary": "Google faces the greatest innovator's dilemma in history. They invented the Transformer — the breakthrough technology powering every modern AI system from ChatGPT to Claude (and, of course, Gemini). T",
       "art": "https://img.transistorcdn.com/y4nQdH_zx3Uiyr6Ege0RkhfJtRXIVZUB6JJ34AeqLko/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xOTY3/YzI4NjFjYzg4NWFl/NjY1YjZlM2E0ZDI3/MWE0OC5qcGc.jpg"
     },
@@ -2019,7 +1854,7 @@
       "title": "Google Part II: Alphabet",
       "link": "https://www.acquired.fm/episodes/alphabet-inc",
       "pubDate": "2025-08-26T10:19:06.000Z",
-      "duration": "15001",
+      "duration": "15006",
       "summary": "In its first six years from 1998 to 2004, Google built one of the greatest products of all time (and certainly the greatest business of all time) with Search. Then in its next six years from 2005 to 2",
       "art": "https://img.transistorcdn.com/gLaKE9vfu-tPCSV5766PrXGWFO95TCIXYYRQvaTrgPs/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yNzY2/ZTU5NWQyM2ZhZWZk/ZThlZTAxNTYyZTQz/YWMzOS5qcGc.jpg"
     },
@@ -2041,7 +1876,7 @@
       "title": "The Jamie Dimon Interview",
       "link": "https://www.acquired.fm/episodes/the-jamie-dimon-interview",
       "pubDate": "2025-07-16T14:18:04.000Z",
-      "duration": "4081",
+      "duration": "4086",
       "summary": "We sit down with Jamie Dimon for a live conversation at Radio City Music Hall, covering the incredible journey from his 1998 firing at Citgroup (where he was widely expected to become CEO) to building",
       "art": "https://img.transistorcdn.com/cy5c8cYm3Mif1hAX53cvNupzpgVSO5vERlobaDDdECo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xNTU3/NTA0NTEzMTE2NzBj/NGRjNTY5NGI3MjU2/ZWYzMi5qcGc.jpg"
     },
@@ -2063,7 +1898,7 @@
       "title": "Google Part I: Origins of Search",
       "link": "https://www.acquired.fm/episodes/google",
       "pubDate": "2025-06-30T03:11:14.000Z",
-      "duration": "13027",
+      "duration": "13033",
       "summary": "We tell the story of the single greatest business ever created: Google search. From its origins as a Stanford research project called BackRub, Google became the front door to the internet. Today it’s ",
       "art": "https://img.transistorcdn.com/AIk_95Gy1RKYk2QVkS2VQVKpZd30JmUJb3cV4VmNY0s/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNDE4/MGJjZWJjMDgzMjBh/YjY1MzZmOTk3Yjk5/N2M3OC5qcGc.jpg"
     },
@@ -2107,7 +1942,7 @@
       "title": "The Steve Ballmer Interview",
       "link": "https://www.acquired.fm/episodes/the-steve-ballmer-interview",
       "pubDate": "2025-06-02T01:54:06.000Z",
-      "duration": "10587",
+      "duration": "10593",
       "summary": "We sit down with Steve Ballmer, the legendary former Microsoft CEO and owner of the LA Clippers, for an epic conversation covering his 34 years at Microsoft. Steve listened to our Microsoft episodes a",
       "art": "https://img.transistorcdn.com/nlEyqUXOU914UwjwrayeOmgMmfLh8qGrdXGXEfHTp0g/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNjli/ZDk5NTRlY2FjZTdk/NjM4NmVjZDYzNzgw/ZmEyMi5qcGc.jpg"
     },
