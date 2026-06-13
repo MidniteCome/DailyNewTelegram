@@ -1,51 +1,6 @@
 {
-  "generatedAt": "2026-06-12T11:13:00.542Z",
+  "generatedAt": "2026-06-13T10:12:34.852Z",
   "items": [
-    {
-      "title": "Small miss, big hit",
-      "link": "https://newslink.reuters.com/click/46028684.19044/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTA2MDUyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B1faeb5c2",
-      "author": "Reuters Morning Bid Europe",
-      "source": "newsletter:Reuters Morning Bid Europe",
-      "pubDate": "2026-06-05T05:00:08.000Z",
-      "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Tom Westbrook, Chief Asia Markets Correspondent Data refreshes every ti",
-      "llmComment": "欧洲和全球市场即将开市。每周仅需1英镑即可订阅相关资讯。"
-    },
-    {
-      "title": "House backs Russia sanctions",
-      "link": "https://newslink.reuters.com/click/46030535.431435/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktQnJpZWZpbmcmdXRtX3Rlcm09MDYwNTI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4JnVzZXJfZW1haWw9MmZiNzYxYTRkMDU4M2IzODJmZjUzMjJhYjFiMDI2MzQwMTc2MTIzYTJlYmM3OTYxNDFiZjFlMmU3ZTA5N2E0Yg/699d8f6975a57008a503f158B3b6439c4",
-      "author": "Reuters Daily Briefing",
-      "source": "newsletter:Reuters Daily Briefing",
-      "pubDate": "2026-06-05T10:59:40.000Z",
-      "summary": "96 Plus, the race to contain flesh-eating parasite screwworm. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Kate Turton Hello. In the US, the House backs Russia sanctions and Ukraine aid as the Senate passes a $70 billion",
-      "llmComment": "美国众议院通过对俄罗斯的制裁和对乌克兰的援助。参议院通过了700亿美元的援助计划。"
-    },
-    {
-      "title": "A ballroom and a constitutional clash",
-      "link": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap",
-      "author": "The Daily Docket",
-      "source": "newsletter:The Daily Docket",
-      "pubDate": "2026-06-05T12:00:46.000Z",
-      "summary": "96 + D.C. Circuit showdown over executive power. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. Today the D.C. Circuit will weigh ",
-      "llmComment": "今日美国哥伦比亚特区巡回上诉法院将审理一项与行政权力相关的案件。"
-    },
-    {
-      "title": "Sika targets growth from China renovation market, global data centres",
-      "link": "https://newslink.reuters.com/click/46031468.51553/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249UmV1dGVycy1CdXNpbmVzcyZ1dG1fdGVybT0wNjA1MjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTgmdXNlcl9lbWFpbD0yZmI3NjFhNGQwNTgzYjM4MmZmNTMyMmFiMWIwMjYzNDAxNzYxMjNhMmViYzc5NjE0MWJmMWUyZTdlMDk3YTRi/699d8f6975a57008a503f158B6b70f29c",
-      "author": "Reuters Business",
-      "source": "newsletter:Reuters Business",
-      "pubDate": "2026-06-05T13:03:15.000Z",
-      "summary": "96 Sika sees growth opportunities in China's renovation market and infrastructure construction in the U.S., the Swiss construction ​chemicals manufacturer's CEO Thomas Hasler said in an ‌interview with Finanz und Wirtschaft published on Friday. --> Follow the biggest business stories of the day with",
-      "llmComment": "西卡公司瞄准中国装修市场和全球数据中心寻求增长机会。"
-    },
-    {
-      "title": "Russia plans to launch its smaller version of Starlink next year",
-      "link": "https://newslink.reuters.com/click/46033880.61860/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA2MDUyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OCZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158B7f927ac1",
-      "author": "Reuters Technology Roundup",
-      "source": "newsletter:Reuters Technology Roundup",
-      "pubDate": "2026-06-05T15:01:10.000Z",
-      "summary": "96 Russia plans to launch its own, smaller version of Elon Musk's Starlink ​satellite broadband system next year, Alexei Shelobkov, CEO ‌of Iks Holding, the company developing the service, said on Friday. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to ",
-      "llmComment": "俄罗斯计划明年推出自己的卫星宽带系统，模仿埃隆·马斯克的Starlink。"
-    },
     {
       "title": "Where have you been?",
       "link": "https://newslink.reuters.com/click/6a239e6d95b0e856669f7035/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktRG9ja2V0JnV0bV90ZXJtPTA2MDYyNiZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158B1c7a3917",
@@ -53,7 +8,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-06-06T04:13:33.000Z",
       "summary": "96 It’s been a while since you’ve opened one of our newsletters. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw Hello! It’s been a while since you’ve opened The Daily Docket. The newsletter is designed to provide you with a quick look at the day's breaking legal news and analy",
-      "llmComment": "The Daily Docket 新闻通讯已经有一段时间没有被打开。该通讯旨在提供当日的突发法律新闻。"
+      "llmComment": "很久没有打开《每日法律快讯》了。《每日法律快讯》旨在提供当日突发法律新闻和分析。"
     },
     {
       "title": "Big Tech’s rash rivalry",
@@ -71,7 +26,7 @@
       "source": "newsletter:Reuters Weekend Briefing",
       "pubDate": "2026-06-06T11:01:11.000Z",
       "summary": "96 And more on the screwworm’s new U.S. tour Stay informed with Reuters. Subscribe for £1/week. Weekend Briefing Weekend Briefing From Reuters Daily Briefing By Robert MacMillan, Reuters.com Weekend Editor Thanks for reading the Weekend Briefing. The U.S. struck Iranian radar sites , complicating ef",
-      "llmComment": "人工智能将耗用更多水资源。美国袭击了伊朗的雷达设施。"
+      "llmComment": "人工智能将消耗更多水资源。美国袭击伊朗雷达站点。"
     },
     {
       "title": "SpaceX lands Google AI compute deal after Anthropic pact ahead of IPO",
@@ -80,7 +35,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-06-06T15:02:07.000Z",
       "summary": "96 SpaceX said on Friday it has entered into a multi-year cloud services agreement with Alphabet's Google, locking ​in computing capacity as it prepares for its highly anticipated ‌U.S. stock market debut next week. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Su",
-      "llmComment": "SpaceX 与谷歌签订了多年云服务协议。该协议将在 SpaceX 即将上市之际提供计算能力。"
+      "llmComment": "SpaceX 与谷歌签订多年云服务协议。该协议是在 SpaceX 即将上市之前达成的。"
     },
     {
       "title": "SpaceX lands Google AI compute deal after Anthropic pact ahead of IPO",
@@ -89,7 +44,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-06-07T15:00:21.000Z",
       "summary": "96 SpaceX said on Friday it has entered into a multi-year cloud services agreement with Alphabet's Google, locking ​in computing capacity as it prepares for its highly anticipated ‌U.S. stock market debut next week. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Su",
-      "llmComment": "SpaceX 与谷歌签订多年云服务协议。该协议将在其上市前锁定计算能力。"
+      "llmComment": "SpaceX 与谷歌签订了多年云服务协议。该协议将在 SpaceX 即将上市之际提供计算能力。"
     },
     {
       "title": "Blistering AI rally turns ugly",
@@ -98,7 +53,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-06-08T05:01:06.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Rae Wee, Correspondent Data refreshes every time you open this email. F",
-      "llmComment": "人工智能激进上涨后趋于恶化，欧洲和全球市场迎来新的一天。"
+      "llmComment": "人工智能激进上涨突然转为下跌。欧洲和全球市场今日走势可关注。"
     },
     {
       "title": "Chip chill, jobs heat and war",
@@ -107,7 +62,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-06-08T10:30:09.000Z",
       "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-at-Large, Financ",
-      "llmComment": "今日美国和全球市场的重要事件包括芯片行业的发展、就业市场的热点和战争等因素。"
+      "llmComment": "今日市场焦点包括芯片行业、就业市场和战争等。全球市场新闻简报提供每日更新。"
     },
     {
       "title": "Israel and Iran exchange attacks",
@@ -116,7 +71,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-06-08T10:59:23.000Z",
       "summary": "96 Plus, Broadway's Tony Awards winners. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Claire Beers Hello. Israel and Iran have attacked each other for the first time since the ceasefire, a 7.8 magnitude earthquake strike",
-      "llmComment": "以色列和伊朗互相攻击，地震发生。"
+      "llmComment": "以色列和伊朗互相攻击，7.8级地震发生。"
     },
     {
       "title": "At SCOTUS, agencies win. Culture wars next.",
@@ -125,7 +80,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-06-08T12:01:11.000Z",
       "summary": "96 + FCC, SEC prevail as the court gears up for term-ending showdowns. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. The FCC and ",
-      "llmComment": "美国最高法院支持FCC和SEC。法院即将迎来收官之战。"
+      "llmComment": "FCC 和 SEC 在最高法院赢得胜诉。最高法院即将迎来期末大战。"
     },
     {
       "title": "Morning Bid: Chip chill, jobs heat and war",
@@ -134,7 +89,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-06-08T13:05:38.000Z",
       "summary": "96 What matters in U.S. and global markets today --> Follow the biggest business stories of the day with Reuters. Subscribe for £1/week. Reuters Business Reuters Business Morning Bid: Chip chill, jobs heat and war Nvidia clinches deals with South Korean giants including SK Group to advance AI boom S",
-      "llmComment": "Nvidia 与韩国企业合作推进 AI 发展。全球市场关注美国和全球市场的重要商业故事。"
+      "llmComment": "Nvidia 与韩国巨头SK Group合作推进AI发展。"
     },
     {
       "title": "Nvidia's AI PC push banks on unproven demand beyond niche users",
@@ -143,7 +98,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-06-08T15:01:10.000Z",
       "summary": "96 Nvidia's entry into the AI PC market with its RTX Spark superchip last week is less a breakthrough for regular users than a high-stakes bet that a largely unproven concept can find wider appeal, analysts said. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subsc",
-      "llmComment": "Nvidia 推出 RTX Spark 超级芯片，试图开拓 AI 电脑市场。分析师认为，这一举动是对未经验证的需求的高风险赌注。"
+      "llmComment": "Nvidia 推出 RTX Spark 超级芯片，试图开拓 AI PC 市场。分析师认为，这一举动是对未经验证的需求的高风险赌注。"
     },
     {
       "title": "Fortune really had better favour the brave",
@@ -152,7 +107,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-06-09T05:00:10.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Wayne Cole, Chief Correspondent, Treasury Data refreshes every time you",
-      "llmComment": "欧洲和全球市场即将开市，提供每日市场前瞻。订阅可获取更多信息。"
+      "llmComment": "欧洲和全球市场即将开市，今日焦点包括财经和科技新闻。每周仅1英镑即可订阅相关资讯。"
     },
     {
       "title": "Buy the chip",
@@ -161,7 +116,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-06-09T10:30:08.000Z",
       "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-at-Large, Financ",
-      "llmComment": "今日美国和全球市场的重要事件。由迈克·多兰编辑的晨间简报。"
+      "llmComment": "今日美国和全球市场的重要事件。由迈克·多兰编辑的《晨间投标》新闻简报。"
     },
     {
       "title": "Why Israel defied Trump",
@@ -170,7 +125,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-06-09T11:00:42.000Z",
       "summary": "96 Plus, the US says Chinese companies are aiding Beijing military. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Kate Turton Hello. Israel's renewed strikes on Iran were aimed at having a say at ‌the peace negotiating ta",
-      "llmComment": "以色列对伊朗发动新一轮袭击，旨在影响和平谈判。美国指责中国公司协助北京军事行动。"
+      "llmComment": "以色列对伊朗发动新一轮袭击，意在谈判中发表意见。美国指责中国公司协助北京军事行动。"
     },
     {
       "title": "Tariff refunds phase 2",
@@ -206,7 +161,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-06-10T05:00:13.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Ankur Banerjee, Asia Finance & Markets Breaking News Correspondent Data",
-      "llmComment": "欧洲和全球市场展望。每周£1订阅获取欧洲交易日的前瞻信息。"
+      "llmComment": "欧洲和全球市场展望。每周£1订阅即可获取欧洲交易日的先机。"
     },
     {
       "title": "The chips are blue",
@@ -215,7 +170,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-06-10T10:30:09.000Z",
       "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-at-Large, Financ",
-      "llmComment": "今日美国和全球市场的重要事件。每周仅需1英镑即可订阅相关新闻。"
+      "llmComment": "全球市场今日焦点。每周仅1英镑订阅。"
     },
     {
       "title": "Trump setbacks fuel lame-duck talk",
@@ -224,7 +179,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-06-10T10:59:20.000Z",
       "summary": "96 Plus, how Paris suburbs became France's football factory. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Kate Turton Hello. The biggest story today is Iran and the US exchanging attacks . Elsewhere, anti-immigrant viole",
-      "llmComment": null
+      "llmComment": "伊朗和美国交换攻击，成为今日最大新闻。"
     },
     {
       "title": "Trump’s legal network",
@@ -233,7 +188,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-06-10T12:02:05.000Z",
       "summary": "96 Former personal lawyers keep landing key jobs. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. Todd Blanche ’s AG nomination hig",
-      "llmComment": null
+      "llmComment": "特朗普的96名前个人律师获得关键职位。报道关注法院、律师事务所和法律实践的最新发展。"
     },
     {
       "title": "Wall St futures slip as tech losses mount ahead of key inflation data",
@@ -242,7 +197,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-06-10T13:07:22.000Z",
       "summary": "96 U.S. stock index futures fell on ​Wednesday as technology stocks extended losses, while renewed tensions between the U.S. and Iran weighed on sentiment ahead ‌of a key inflation report that could alter the interest rate path. --> Follow the biggest business stories of the day with Reuters. Subscr",
-      "llmComment": null
+      "llmComment": "美国股指期货下跌，科技股延续亏损，美伊紧张局势加剧，投资者等待关键通胀数据发布。"
     },
     {
       "title": "World markets walk a tightrope between AI stocks and oil shocks",
@@ -251,7 +206,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-06-10T15:01:20.000Z",
       "summary": "96 Tumult on world markets in the past week shows the economic outlook is now on a knife edge, investors said, with equal odds of an AI boom lifting ​growth or oil shocks from the U.S.-Iran war pushing stocks and bonds into a tailspin. --> From breakthrough startups to Big Tech moves, stay ahead of ",
-      "llmComment": null
+      "llmComment": "全球市场在人工智能股票和油价冲击之间保持微妙平衡，经济前景不确定。"
     },
     {
       "title": "Tech and war jitters sap confidence",
@@ -260,7 +215,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-06-11T05:00:09.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Gregor Stuart Hunter, Asia Finance & Markets Breaking News Corresponden",
-      "llmComment": null
+      "llmComment": "科技和战争担忧影响市场信心。欧洲和全球市场迎来新的一天。"
     },
     {
       "title": "Learning to love the inflation",
@@ -350,6 +305,42 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-06-12T11:06:34.000Z",
       "summary": "96 Plus, Trump says an Iran war deal is close. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Kate Turton Hello. Elon Musk becomes the world's first trillionaire as SpaceX demolishes IPO records. Elsewhere, Trump says an I",
+      "llmComment": null
+    },
+    {
+      "title": "Are LL.M. programs losing appeal?",
+      "link": "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap",
+      "author": "The Daily Docket",
+      "source": "newsletter:The Daily Docket",
+      "pubDate": "2026-06-12T12:00:45.000Z",
+      "summary": "96 + U.S. law schools see steep drops in international applicants. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. U.S. law schools",
+      "llmComment": null
+    },
+    {
+      "title": "How Musk's tactics left investors clamoring for SpaceX stock and ignoring risks",
+      "link": "https://newslink.reuters.com/click/46130576.52681/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249UmV1dGVycy1CdXNpbmVzcyZ1dG1fdGVybT0wNjEyMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTgmdXNlcl9lbWFpbD0yZmI3NjFhNGQwNTgzYjM4MmZmNTMyMmFiMWIwMjYzNDAxNzYxMjNhMmViYzc5NjE0MWJmMWUyZTdlMDk3YTRi/699d8f6975a57008a503f158Be82d0367",
+      "author": "Reuters Business",
+      "source": "newsletter:Reuters Business",
+      "pubDate": "2026-06-12T13:02:44.000Z",
+      "summary": "96 As SpaceX debuts on public markets, Elon Musk is dictating terms at every stage of the initial public offering process. --> Follow the biggest business stories of the day with Reuters. Subscribe for £1/week. Reuters Business Reuters Business How Musk's tactics left investors clamoring for SpaceX ",
+      "llmComment": null
+    },
+    {
+      "title": "How Musk's tactics left investors clamoring for SpaceX stock and ignoring risks",
+      "link": "https://newslink.reuters.com/click/46132937.56384/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA2MTIyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OCZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158B99a47173",
+      "author": "Reuters Technology Roundup",
+      "source": "newsletter:Reuters Technology Roundup",
+      "pubDate": "2026-06-12T15:01:15.000Z",
+      "summary": "96 Elon Musk is dictating the terms through every stage of his company's giant IPO. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to Reuters.com for £1/week. Technology Roundup Technology Roundup How Musk's tactics left investors clamoring for SpaceX sto",
+      "llmComment": null
+    },
+    {
+      "title": "Italy’s bank soap opera",
+      "link": "https://newslink.reuters.com/click/46134281.35651/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGhlLVdlZWstSW4tQnJlYWtpbmd2aWV3cyZ1dG1fdGVybT0wNjEzMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTgmdXNlcl9lbWFpbD0yZmI3NjFhNGQwNTgzYjM4MmZmNTMyMmFiMWIwMjYzNDAxNzYxMjNhMmViYzc5NjE0MWJmMWUyZTdlMDk3YTRi/699d8f6975a57008a503f158Bb30f5c47",
+      "author": "The Week in Breakingviews",
+      "source": "newsletter:The Week in Breakingviews",
+      "pubDate": "2026-06-13T10:00:08.000Z",
+      "summary": "96 Plus locked-up SpaceX insiders, and private capital’s blamefest Get a free trial of Breakingviews The Week in Breakingviews The Week in Breakingviews Insights from Reuters global financial commentary team --> By Peter Thal Larsen, Global Editor Welcome back! After months of hype, SpaceX shares fi",
       "llmComment": null
     }
   ]
