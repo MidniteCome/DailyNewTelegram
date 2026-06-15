@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-15T13:30:28.705Z",
+    "updatedAt": "2026-06-15T18:42:39.488Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/12492dbe94d6e28ada07555f699f778a.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/7190613c58bad86913afb6991d842e2f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -239,7 +239,7 @@
       "pubDate": "2026-06-12T07:00:00.000Z",
       "duration": "569",
       "summary": "It’s Indicators of the Week (now on YouTube !). It’s our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: Inflation is back, working from home is making ",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1463x1463+569+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F96%2F2b%2Fad9bed5f44b68184d65afabfb525%2Findicator-video-thumbnail-1-16.png"
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F32%2Fc5%2F8c0d04be40f3949791b298f3962d%2Fec0b5a2c-5b11-4e76-80fc-19c41b5430d7.png"
     },
     {
       "showId": "allin",
