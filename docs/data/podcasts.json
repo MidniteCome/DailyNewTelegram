@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-15T22:10:58.589Z",
+    "updatedAt": "2026-06-16T12:26:52.680Z",
     "totalEpisodes": 165,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "线下录音｜对谈朱宁、黄子函：从行为经济学看金融危机与股民投资偏好",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a3112e043a22a695584bb18?utm_source=rss",
+      "pubDate": "2026-06-16T09:39:35.000Z",
+      "duration": "01:24:01",
+      "summary": "- 导语 - 从千禧年的互联网泡沫，到2008年金融危机，再到当下的AI热潮，贪婪与恐惧总是在市场中反复上演。金融危机频发如何催生了行为经济学的诞生？在雷曼兄弟亲历2008金融危机，流动性为何对金融体系如此重要？中美之间的股票市场差异何在？面对复杂环境，年轻一代是否还有积累财富的时代机遇？本期节目来自《忽左忽右》与天弘基金 《人间钱话》 特别企划的一场线下播客录音，欢迎收听嘉宾著名经济学家朱宁教授",
+      "art": "https://image.xyzcdn.net/FmWBNgtJJTN7KDh0ga-CKdbpHU7K.png"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Graham Platner, Jon Ossoff and the New Rules of Political Attention",
+      "link": "https://www.nytimes.com/2026/06/13/opinion/ezra-klein-podcast-chris-hayes-2026.html",
+      "pubDate": "2026-06-16T09:00:00.000Z",
+      "duration": "01:18:22",
+      "summary": "Attention is working in really unusual ways this election cycle. Graham Platner, a political unknown a year ago, ended up dominating his Senate primary against Maine’s sitting governor – even as his c",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Your American Dream is pending review",
+      "link": "https://www.npr.org/2026/06/16/nx-s1-5859411/your-american-dream-is-pending-review",
+      "pubDate": "2026-06-16T07:00:06.000Z",
+      "duration": "471",
+      "summary": "The Trump Administration recently announced changes to how would-be immigrants get green cards. And it’s causing a lot of confusion, fear and even panic. Today on the show, we hear firsthand from peop",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fac%2Fe2%2F038e78eb48c98ae028273b2488de%2F6a6becad-ceb4-4fc3-9e18-c176abffa4b2.jpg"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -792,17 +825,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Who’s behind that shell company? We may never know",
-      "link": "https://www.npr.org/2026/05/26/nx-s1-5831356/whos-behind-that-shell-company-we-may-never-know",
-      "pubDate": "2026-05-26T07:00:00.000Z",
-      "duration": "560",
-      "summary": "Why is a law to reign in shell companies getting shelved by the Trump administration? The Corporate Transparency Act had bipartisan support, until it didn’t. We explain what the law was designed to do",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1a%2Fda%2F38d0c7154734b327de1579b59e1b%2F62a3e1ea-da13-4a41-8384-ec41b94692f7.jpg"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1133,17 +1155,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "469 五胡之外：丁零、稽胡、中古弥勒信仰与华北胡人入塞",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69eb37411e94ae69210f14ab?utm_source=rss",
-      "pubDate": "2026-04-24T10:00:09.000Z",
-      "duration": "01:06:58",
-      "summary": "- 导语 - 在五胡十六国的纷乱中，匈奴、鲜卑声名显赫，而同时入塞的丁零与稽胡却往往处于历史叙述边缘。它们均来自草原，跨越阴山进入中原腹地，并与其他族群不断交融。与敕勒同宗，丁零为何会在漫长的迁徙中分化为不同支系，以至于难以辨认？作为南匈奴后裔，稽胡为何能在族群交融中长期坚守文化特性？黄巾军余部真的是稽胡的来源之一吗？乱世之中，具有末世观的「弥勒信仰」又如何成为稽胡百姓逃避统治的精神工具？欢迎收听",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1208,17 +1219,6 @@
       "duration": "01:19:55",
       "summary": "【主播的话】 纽约是一座很难被描述的城市。无数人尝试过，但它从来没有一个统一的叙事。它脏、贵、吵、危险——混杂、流动、没有主人。但它同时又是很多人一生中感到最不孤独的地方。 它也是全球大城市中少数几个，让你感觉到它是在\"被人经营\"、而不是\"被人管理\"的地方。居民、地主、开发商、社区组织，每个人都在用自己的方式塑造它。 比如，纽约的房价贵得离谱——有一半的纽约人，把三分之一的税前工资交给了房东。但与",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Reckoning With Israel’s ‘One-State Reality’",
-      "link": "https://www.nytimes.com/2026/04/14/opinion/ezra-klein-podcast-lynch-telhami.html",
-      "pubDate": "2026-04-14T09:00:00.000Z",
-      "duration": "01:27:28",
-      "summary": "For decades, most discussions of Israel and Palestine were framed around the eventual creation of a two-state solution. That effort has been dead for years. What has emerged in its place is what the p",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "talksat",
