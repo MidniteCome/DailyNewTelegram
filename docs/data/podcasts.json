@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updatedAt": "2026-06-16T12:26:52.680Z",
+    "updatedAt": "2026-06-16T18:30:15.613Z",
     "totalEpisodes": 165,
     "health": [
       {
         "id": "20vc",
         "name": "20VC",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "ezraklein",
@@ -30,8 +30,8 @@
       {
         "id": "lexfridman",
         "name": "Lex Fridman Podcast",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       },
       {
         "id": "talksat",
@@ -82,8 +82,8 @@
       "id": "20vc",
       "name": "20VC",
       "category": "vc",
-      "art": null,
-      "link": "https://thetwentyminutevc.libsyn.com/rss"
+      "art": "https://static.libsyn.com/p/assets/d/2/b/a/d2ba673c1d134c2be55e3c100dce7605/WhatsApp_Image_2024-10-28_at_11.39.21.jpeg",
+      "link": "http://www.thetwentyminutevc.com/"
     },
     {
       "id": "ezraklein",
@@ -110,8 +110,8 @@
       "id": "lexfridman",
       "name": "Lex Fridman Podcast",
       "category": "tech",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
-      "link": "https://lexfridman.com/"
+      "art": null,
+      "link": "https://lexfridman.com/feed/podcast/"
     },
     {
       "id": "talksat",
@@ -198,6 +198,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fac%2Fe2%2F038e78eb48c98ae028273b2488de%2F6a6becad-ceb4-4fc3-9e18-c176abffa4b2.jpg"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Micron Will Be More Valuable Than Meta | How Export Controls Helped Not Hurt China | Power is the Bottleneck to AI | Why Dario Has Done a Disservice to AI with his Labour Replacement Messaging with Aravind Srinivas, Founder @ Perplexity",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-micron-will-be-more-valuable-than-meta-how-export-controls-helped-not-hurt-china-power-is-the-bottleneck-to-ai-why-dario-has-done-a-disservice-to-ai-with-his-labour-replacement-messaging-with-aravind-srinivas-founder-perplexity",
+      "pubDate": "2026-06-15T07:09:00.000Z",
+      "duration": "01:20:56",
+      "summary": "Aravind Srinivas is the Founder and CEO of Perplexity, one of the fastest-growing AI companies in the world. Since the start of the year, Perplexity has tripled revenue to well over $500M in ARR. Arav",
+      "art": "https://static.libsyn.com/p/assets/c/2/1/9/c219b489d7b36186d959afa2a1bf1c87/WhatsApp_Image_2026-06-12_at_17.35.18.jpeg"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -207,6 +218,17 @@
       "duration": "488",
       "summary": "Community college is an increasingly popular hack for those who want to change their career. Here’s what you should know about this gateway to economic mobility. Fact checking by Sierra Juarez . Your ",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0d%2Ffc%2Fc92c03574265bd07b6230b5b90ea%2F4ad23965-6bb2-4bc7-a453-bd022a761cd9.jpg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Who Wins the Model War: OpenAI, Anthropic or Open-Source | Token Maxing, AI Hangovers & The Coming ROI Reckoning | Labour Displacement Fears are BS & Overblown | From Physicist to Sequoia Founder with Matan Grinberg, Founder @ Factory",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-who-wins-the-model-war-openai-anthropic-or-open-source-token-maxing-ai-hangovers-the-coming-roi-reckoning-labour-displacement-fears-are-bs-overblown-from-physicist-to-sequoia-founder-with-matan-grinberg-founder-factory",
+      "pubDate": "2026-06-13T07:07:00.000Z",
+      "duration": "01:21:24",
+      "summary": "Matan Grinberg is the Founder and CEO @ Factory, an AI research lab, bringing autonomy to software engineering. Matan has raised over $220M for the company from the likes of Sequoia, Khosla, NEA, Evan",
+      "art": "https://static.libsyn.com/p/assets/8/1/a/0/81a09f7309604f98d959afa2a1bf1c87/WhatsApp_Image_2026-06-12_at_17.34.22.jpeg"
     },
     {
       "showId": "allin",
@@ -295,6 +317,17 @@
       "duration": "1:00:36",
       "summary": "「美国例外论」如何体现在正在进行的「美加墨世界杯」中？2026 男子足球世界杯正在美国、加拿大、墨西哥三国联合举办的赛场上开幕。但在开赛之前一周，最大的东道主城市洛杉矶街头却依然找不到太多世界杯的痕迹。一届史上规模最大的世界杯，为什么在它最重要的承办城市如此安静？ 9 年前，三国联合申办时向外界传递的信息是合作、开放、团结如一。但 9 年之后的今天，美国的对外政策显然已经走向了另一个方向，并且作为",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: SpaceX Launches Largest Ever IPO | OpenAI Files to Go Public | Uber Cuts 23% of HR | Lovable Hits $500M ARR | Founders Revolt Against VCs: The Fundraising Horror Stories Going Viral",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-spacex-launches-largest-ever-ipo-openai-files-to-go-public-uber-cuts-23-of-hr-lovable-hits-500m-arr-founders-revolt-against-vcs-the-fundraising-horror-stories-going-viral",
+      "pubDate": "2026-06-11T07:07:00.000Z",
+      "duration": "01:13:26",
+      "summary": "AGENDA: 00:00 – SpaceX Launches the Largest IPO Roadshow in History at $1.77T Valuation 05:00 – Did Elon Break the IPO Playbook? The High-Risk Pricing Strategy Explained 12:00 – Will SpaceX Create a N",
+      "art": "https://static.libsyn.com/p/assets/5/b/b/8/5bb89601bca7530116c3140a3186d450/WhatsApp_Image_2026-06-10_at_14.37.27.jpeg"
     },
     {
       "showId": "indicator",
@@ -440,6 +473,17 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Nebius Co-Founder on AI Infrastructure Bubbles | The Real Impact of Open Source on OpenAI & Anthropic | How Price Elastic is Demand for Compute | Could Nebius Sell 10x More Compute If They Had It & more with Roman Chernin",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-nebius-co-founder-on-ai-infrastructure-bubbles-the-real-impact-of-open-source-on-openai-anthropic-how-price-elastic-is-demand-for-compute-could-nebius-sell-10x-more-compute-if-they-had-it-more-with-roman-chernin",
+      "pubDate": "2026-06-08T07:07:00.000Z",
+      "duration": "01:06:40",
+      "summary": "Roman Chernin is Co-Founder and Chief Business Officer of Nebius , one of the fastest-growing AI infrastructure companies in the world. Today, Nebius operates some of the largest AI compute clusters g",
+      "art": "https://static.libsyn.com/p/assets/d/2/3/a/d23a4d33e9fb562dd959afa2a1bf1c87/WhatsApp_Image_2026-06-05_at_11.53.03.jpeg"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -471,6 +515,17 @@
       "duration": "32:29",
       "summary": "(0:00) CEOs Andrew Feldman (Cerebras) and Will Marshall (Planet Labs) join the Besties! (2:05) Both CEOs on going public: Impact on employees, customers, and business operations (13:18) Timelines for ",
       "art": "https://static.libsyn.com/p/assets/6/8/9/f/689f9ef1c2ea7e5d16c3140a3186d450/Podcast_Graphic_-_Liquidity-20260606-tsajt9noo2.png"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20Product: Inside Legora's Tech Stack: Why Token Maxing is Failing Enterprise Startups with Jacob Lauritzen, CTO @ Legora",
+      "link": "https://thetwentyminutevc.libsyn.com/20productinside-legoras-tech-stack-why-token-maxing-is-failing-enterprise-startups-with-jacob-lauritzen-cto-legora",
+      "pubDate": "2026-06-06T07:07:00.000Z",
+      "duration": "54:31",
+      "summary": "Jacob Lauritzen serves as the CTO at Legora , the fastest growing B2B enterprise company in history; hitting $100 million in ARR in just 18 months . Legora boasts a valuation of $5.6BN and has raised ",
+      "art": "https://static.libsyn.com/p/assets/9/c/f/5/9cf501071f9171bad959afa2a1bf1c87/WhatsApp_Image_2026-06-05_at_11.52.29.jpeg"
     },
     {
       "showId": "allin",
@@ -559,6 +614,17 @@
       "duration": "56:55",
       "summary": "6 月，美伊战争进入新一轮谈判，和平似有一线希望。但与此同时，海湾地区一对曾经的兄弟国家——沙特与阿联酋——却似乎渐行渐远，这一切究竟是怎么发生的？ 4 月 28 日，阿联酋宣布退出由沙特主导的 OPEC（欧佩克），这场看似突然的分手，背后却是一场 50 余年的关系演变：他们曾以小弟与大哥的姿态相处，曾在战场上并肩出兵，但近十年来，经济上的竞争、外交上的分歧、甚至军事上的正面对抗，已经让这对盟友走",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Anthropic Files to Go Public | Token Budgeting Panic Hits Corporate America | Cognition Raises $1BN at $26BN Valuation | Apollo Warns PE Software Returns Will be Disastrous | The 9-9-6 Work Ethic: Performative Theatre or Startup Reality?",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-files-to-go-public-token-budgeting-panic-hits-corporate-america-cognition-raises-1bn-at-26bn-valuation-apollo-warns-pe-software-returns-will-be-disastrous-the-9-9-6-work-ethic-performative-theatre-or-startup-reality",
+      "pubDate": "2026-06-04T07:07:00.000Z",
+      "duration": "01:34:04",
+      "summary": "AGENDA: 00:00:00 — Private Markets Are \"F***ing Done\" & The Shift to Heavy CapEx 00:00:46 — Anthropic Files to Go Public 00:04:59 — Will the Anthropic IPO Break the Startup Ecosystem? 00:06:22 — The \"",
+      "art": "https://static.libsyn.com/p/assets/8/2/b/1/82b1d38b62903812d959afa2a1bf1c87/WhatsApp_Image_2026-06-03_at_13.44.08.jpeg"
     },
     {
       "showId": "indicator",
@@ -671,6 +737,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fee%2F6a%2Fcf20b1ff4109879b71013333a44a%2Fb98147c0-3dcd-44a0-9052-2b5e38c57b58.jpg"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Mercor CEO on Why Application Layer Companies Have No Defensibility, The Model is the Product | Token Spend Will Exceed Headcount Spend in 5 Years | The True Cost of Hiring AI Researchers in the Valley Today with Brendan Foody",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-mercor-ceo-on-why-application-layer-companies-have-no-defensibility-the-model-is-the-product-token-spend-will-exceed-headcount-spend-in-5-years-the-true-cost-of-hiring-ai-researchers-in-the-valley-today-with-brendan-foody",
+      "pubDate": "2026-06-01T07:07:00.000Z",
+      "duration": "01:15:23",
+      "summary": "Brendan Foody is the Founder and CEO @ Mercor, one of the leading data providers to the largest labs on the planet including OpenAI. In the last two years, Brendan has scaled the company to $1.5BN in ",
+      "art": "https://static.libsyn.com/p/assets/c/5/e/d/c5edad8e5dfb94b1d959afa2a1bf1c87/WhatsApp_Image_2026-05-29_at_14.30.03.jpeg"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -680,6 +757,17 @@
       "duration": "563",
       "summary": "AI has made it infinitely easier for anyone who can’t afford a lawyer, can’t get one, or doesn't want one to file a lawsuit and pro se cases are skyrocketing. But the wins haven’t followed and courts ",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F47%2Fe2%2F7d7269f64d8b879f910b4f47b721%2Ff36c87d8-4907-4365-9bcc-c1a3e64ae617.jpg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Corgi Insurance: The Most Intense Workplace Culture in America: 7 Days Per Week, Founder Sleeps in Office, Corgi Cafe Open 24 Hours a Day, 60% of First 30 Employees Have Corgi Tattoos | The Journey from $0 to $2.6BN Valuation in Just 2 Years",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-corgi-insurance-the-most-intense-workplace-culture-in-america-7-days-per-week-founder-sleeps-in-office-corgi-cafe-open-24-hours-a-day-60-of-first-30-employees-have-corgi-tattoos-the-journey-from-0-to-26bn-valuation-in-just-2-years",
+      "pubDate": "2026-05-30T07:07:00.000Z",
+      "duration": "53:18",
+      "summary": "Nico Laqua is the Co-Founder and CEO of Corgi Insurance, an AI-native insurance carrier built for startups. Corgi is the most intense workplace culture in America. The team works 7 days per week. The ",
+      "art": "https://static.libsyn.com/p/assets/5/d/9/3/5d9380c850e2a0fbd959afa2a1bf1c87/WhatsApp_Image_2026-05-29_at_13.13.59.jpeg"
     },
     {
       "showId": "allin",
@@ -702,17 +790,6 @@
       "duration": "11973",
       "summary": "Harland Williams is a comedian, author, actor, musician, filmmaker, and host of “The Harland Highway” podcast. His new movie, “Wingman,” is available now on all streaming services.www.youtube.com/@Har",
       "art": "https://megaphone.imgix.net/podcasts/cb188274-5b04-11f1-ab08-73f69a0b7be3/image/ff240514dc767ed640a152bd6e9656ab.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#497 – Biggest Mysteries in Physics: Antimatter, Dark Energy ToE Don Lincoln",
-      "link": "https://lexfridman.com/don-lincoln/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=don-lincoln",
-      "pubDate": "2026-05-29T16:22:02.000Z",
-      "duration": "3:01:52",
-      "summary": "Don Lincoln is a particle physicist at Fermilab who has spent decades working at the frontiers of high energy physics. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
       "showId": "left-right",
@@ -770,6 +847,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F35%2F5f%2F3e5a90354a7189cae5e7fe2b59fa%2F1f67898f-3405-4836-b7fe-3047b4190029.jpg"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: OpenAI & SpaceX S1 Drops | NVIDIA's $81BN Revenue Quarter | Cloudflare and ClickUp Do Controversial Layoffs | Exa, OpenRouter and Polsia Raise Mega Rounds | Uber and Microsoft Declare AI ROI for Developers is Questionable",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-openai-spacex-s1-drops-nvidias-81bn-revenue-quarter-cloudlfare-and-clickup-do-controversial-layoffs-exa-openrouter-and-polsia-raise-mega-rounds-uber-and-microsoft-declare-ai-roi-for-developers-is-questionable",
+      "pubDate": "2026-05-28T07:07:00.000Z",
+      "duration": "01:25:19",
+      "summary": "AGENDA: 05:16 Nvidia Blowout Quarter: $81BN Revenues and Stock… Flat! 10:39 Uber and Microsoft Declare Productivity Gains Questionable from AI 25:26 The Layoffs Continue: ClickUp and Cloudflare 34:39 ",
+      "art": "https://static.libsyn.com/p/assets/c/1/8/d/c18dfb802c5bce2f16c3140a3186d450/WhatsApp_Image_2026-05-27_at_17.22.38.jpeg"
+    },
+    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -825,6 +913,17 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Cerebras CEO on the Future of Data Centres, Token Costs and Memory | We are Not in an Infra Bubble & Dario Got a Bad Deal with Elon for Compute | Should US Companies Sell to China & Why Most Layoffs are AI Washed with Andrew Feldman",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-cerebras-ceo-on-the-future-of-data-centres-token-costs-and-memory-we-are-not-in-an-infra-bubble-dario-got-a-bad-deal-with-elon-for-compute-should-us-companies-sell-to-china-why-most-layoffs-are-ai-washed-with-andrew-feldman",
+      "pubDate": "2026-05-26T07:07:00.000Z",
+      "duration": "01:01:38",
+      "summary": "Andrew Feldman is the co-founder and CEO of Cerebras Systems. This month, Cerebras went public achieving a market cap of $70BN, the largest semiconductor IPO in history. Cerebras has a massive commerc",
+      "art": "https://static.libsyn.com/p/assets/4/c/e/3/4ce344aeabe664f516c3140a3186d450/WhatsApp_Image_2026-05-22_at_17.04.13.jpeg"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -845,6 +944,17 @@
       "duration": "1:01:47",
       "summary": "这是一场全世界都关注的最高礼仪的会面，每个动作和肢体语言都被媒体所解读。 过去 9 年，中美之间鲜有如此规格的元首互访，双边关系长期在技术遏制与战略竞争的语境中艰难拉扯。在这样的背景下，这次特朗普为何接受了中国提出的「建设性战略稳定关系」这一关系框架；这体现了哪些变化正在发生，我们又可以如何理解这样的变化。 这一期节目，我们邀请了老朋友达巍教授，从一位国际关系学者的角度出发来进行解读。 本期人物 ",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20Sales: The $100M CRO Bubble: Why Anthropic Are Causing a Comp Crisis | Why You Should Never Hire From Salesforce or Service Now | How to Hire, Train and Forecase in a World of AI with Chad Peets and Chris Degnan",
+      "link": "https://thetwentyminutevc.libsyn.com/20sales-the-100m-cro-bubble-why-anthropic-are-causing-a-comp-crisis-why-you-should-never-hire-from-salesforce-or-service-now-how-to-hire-train-and-forecase-in-a-world-of-ai-with-chad-peets-and-chris-degnan",
+      "pubDate": "2026-05-23T07:07:00.000Z",
+      "duration": "01:19:42",
+      "summary": "Chad Peets is one of the most straight-talking, no BS sales leaders of our time. Today, he partners with founders of the fastest growing companies in the world, like Harvey, Factory to build the best ",
+      "art": "https://static.libsyn.com/p/assets/4/e/9/9/4e996c028d9a5489d959afa2a1bf1c87/WhatsApp_Image_2026-05-22_at_16.43.34.jpeg"
     },
     {
       "showId": "allin",
@@ -913,6 +1023,17 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Andrej Karpathy Joins Anthropic & Anthropic Raises $30BN at $900BN Price | SpaceX Files S1: How Does it Trade | Cerebras Smashes Day 1: What it Means for IPOs | Why Mass Layoffs Are More Worrying Than Anyone Sees",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-andrej-karpathy-joins-anthropic-anthropic-raises-30bn-at-900bn-price-spacex-files-s1-how-does-it-trade-cerebras-smashes-day-1-what-it-means-for-ipos-why-mass-layoffs-are-more-worrying-than-anyone-sees",
+      "pubDate": "2026-05-21T07:07:00.000Z",
+      "duration": "01:21:53",
+      "summary": "AGENDA: 00:00 – Anthropic Eyes $900B Valuation & Andre Karpathy's Shock Move 04:46 – Unpacking Anthropic's $30 Billion War Chest 10:52 – The True Cost of AI Tokens: Is Salesforce Spending Too Much? 15",
+      "art": "https://static.libsyn.com/p/assets/9/d/d/9/9dd934d9ff086139d959afa2a1bf1c87/WhatsApp_Image_2026-05-20_at_20.01.36.jpeg"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -946,6 +1067,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Turning Peter Thiel's $100K into $10M Angel Portfolio | The One Man Accelerator at The Four Seasons | Why VCs Can Be Sharks and What Founders Need to Know | Why Stocks and Cash are BS and You Should Invest in Land with Josh Browder",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-turning-peter-thiels-100k-into-10m-angel-portfolio-the-one-man-accelerator-at-the-four-seasons-why-vcs-can-be-sharks-and-what-founders-need-to-know-why-stocks-and-cash-are-bs-and-you-should-invest-in-land-with-josh-browder",
+      "pubDate": "2026-05-18T07:07:00.000Z",
+      "duration": "01:29:01",
+      "summary": "Josh Browder is my favourite emerging manager. As the Founder of Browder Capital he has been the first check into unicorns like Micro1, Owner.com and Yuzu Health to name a few. He turned his Thiel Fel",
+      "art": "https://static.libsyn.com/p/assets/0/5/8/f/058fa5cd8b44d46f16c3140a3186d450/WhatsApp_Image_2026-05-15_at_15.50.26.jpeg"
+    },
+    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -955,6 +1087,17 @@
       "duration": "13685",
       "summary": "Vanguard is the most effective vehicle ever created for participating in the fruits of American capitalism. Today it’s the single largest equity owner of the majority of corporations in the S&P 500, o",
       "art": "https://img.transistorcdn.com/G48S8ousdgdlTFU686aTV1C24y-DL5ua-Ih2SyRvqb0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83Nzk4/Y2M5MDcyN2EzZTM3/NjQzYjI1YTBhOTIz/ZjM0NS5qcGc.jpg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Lessons from Jensen Huang on \"Founder Mode\" | How to Know if OpenAI or Anthropic Will Kill your Company | How USV Liking Music Made Them $1BN on an Investment | The Five Year Desert to Product Market Fit & a $5.3BN Valuation with Shiv Rao @ Abridge",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-lessons-from-jensen-huang-on-founder-mode-how-to-know-if-openai-or-anthropic-will-kill-your-company-how-usv-liking-music-made-them-1bn-on-an-investment-the-five-year-desert-to-product-market-fit-a-53bn-valuation-with-shiv-rao-abridge",
+      "pubDate": "2026-05-16T07:07:00.000Z",
+      "duration": "01:04:46",
+      "summary": "Shiv Rao is the CEO and Co-Founder of Abridge, a leader in generative AI for healthcare. The company reached a $5.3 billion valuation following a $300 million funding round with investors including Je",
+      "art": "https://static.libsyn.com/p/assets/b/7/6/5/b765cb30db423ca416c3140a3186d450/WhatsApp_Image_2026-05-14_at_18.27.22.jpeg"
     },
     {
       "showId": "allin",
@@ -999,6 +1142,17 @@
       "duration": "1:03:14",
       "summary": "铁路、钢铁、石油 —— 150年前，一批工业大亨用这些东西重塑了美国。今天，换成了算法、平台和 AI，历史的剧情，是否真的在重演？ 19 世纪末，跨大陆铁路的出现彻底改变了美国：统一的市场、标准时区、现代公司制度、金融市场的崛起，还有财富向少数人的剧烈集中。那是一个被称为「镀金时代」的年代 —— 表面金光闪闪，内里却也有赤裸裸的政商勾连、劳工剥削，以及一场迟来的社会反弹。它最终推动了反垄断立法、参",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Anthropic Buys Compute From Elon & Commits $200BN to Google | Cerebras IPO: The Breakdown | Ramp's $40BN Latest Valuation | Hubspot Tanks, Monday Rockets: WTF is Happening in Public Markets",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-buys-compute-from-elon-commits-200bn-to-google-cerebras-ipo-the-breakdown-ramps-40bn-latest-valuation-hubspot-tanks-monday-rockets-wtf-is-happening-in-public-markets",
+      "pubDate": "2026-05-14T07:07:00.000Z",
+      "duration": "01:18:25",
+      "summary": "AGENDA: 00:05:11 — Anthropic freezes secondary sales, requiring board approval for all transfers. 00:10:45 — Why Anthropic is buying capacity from Elon Musk. 00:15:35 — Anthropic's massive $200B reven",
+      "art": "https://static.libsyn.com/p/assets/6/e/3/8/6e38a44866cc579f16c3140a3186d450/WhatsApp_Image_2026-05-13_at_14.07.02.jpeg"
     },
     {
       "showId": "talksat",
@@ -1054,17 +1208,6 @@
       "duration": "01:13:57",
       "summary": "Here’s a shocking number: One out of eight American adults is taking a GLP-1, like Ozempic or Zepbound, according to a KFF poll. GLP-1s are the biggest pharmaceutical story since antidepressants. But ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#496 – FFmpeg: The Incredible Technology Behind Video on the Internet",
-      "link": "https://lexfridman.com/ffmpeg/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ffmpeg",
-      "pubDate": "2026-05-06T22:06:47.000Z",
-      "duration": "4:23:41",
-      "summary": "Jean-Baptiste Kempf is lead developer of VLC and president of VideoLAN. Kieran Kunhya is a longtime FFmpeg contributor, codec engineer, and the person behind the now-infamous FFmpeg account on X. Than",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
       "showId": "weirdo",
@@ -1254,17 +1397,6 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#495 – Vikings, Ragnar, Berserkers, Valhalla the Warriors of the Viking Age",
-      "link": "https://lexfridman.com/lars-brownworth/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=lars-brownworth",
-      "pubDate": "2026-04-09T17:43:17.000Z",
-      "duration": "2:09:56",
-      "summary": "Lars Brownworth is a historian, teacher, podcaster, and author specializing in Viking history, medieval Europe, and the Byzantine Empire. Thank you for listening ❤ Check out our sponsors: https://lexf",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1307,17 +1439,6 @@
       "duration": "45:49",
       "summary": "一个在德黑兰生活的中国人，在过去近四周的时间里亲历了这场至今仍未结束的美以对伊战争。他都经历了些什么？他眼中的伊朗人民与伊朗社会又是怎样的？ 今年二月二十八日，战争再次降临伊朗。这一次的烈度远超去年的十二日战争 —— 不分日夜落下的导弹，黑色的石油雨、在支持与反对之间走向撕裂的城市……而在此之前，这个国家已经经历了动荡的 2025 年：全面制裁落地，货币崩溃，街头抗议与血腥镇压接连而至。 这一期节",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#494 – Jensen Huang: NVIDIA The $4 Trillion Company the AI Revolution",
-      "link": "https://lexfridman.com/jensen-huang/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jensen-huang",
-      "pubDate": "2026-03-23T16:28:42.000Z",
-      "duration": null,
-      "summary": "Jensen Huang is the co-founder and CEO of NVIDIA, the worlds most valuable company and the engine powering the AI computing revolution. Thank you for listening ❤ Check out our sponsors: https://lexfri",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
       "showId": "weirdo",
@@ -1397,17 +1518,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#493 – Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming",
-      "link": "https://lexfridman.com/jeff-kaplan/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=jeff-kaplan",
-      "pubDate": "2026-03-11T20:37:33.000Z",
-      "duration": null,
-      "summary": "Jeff Kaplan is a legendary Blizzard game designer of World of Warcraft and Overwatch, now preparing to launch a new game, The Legend of California, from his new studio Kintsugiyama available to wishli",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1463,17 +1573,6 @@
       "art": "https://img.transistorcdn.com/ORaQ7w0zdqAScJ9YPCf3I4RKe_muT-If0IMRT5rIuE8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS84MzRh/NWY0NDJlNzAzNDY1/OGY2NThlZDBkYmU1/NzdjMC5wbmc.jpg"
     },
     {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#492 – Rick Beato: Greatest Guitarists of All Time, History Future of Music",
-      "link": "https://lexfridman.com/rick-beato/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=rick-beato",
-      "pubDate": "2026-03-01T04:33:22.000Z",
-      "duration": null,
-      "summary": "Rick Beato is a music educator, interviewer, producer, songwriter, and a true multi-instrument musician, playing guitar, bass, cello piano. His incredible YouTube channel celebrates great musicians mu",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1505,17 +1604,6 @@
       "duration": "01:18:11",
       "summary": "【主播的话】 不合时宜的听友们，祝大家春节快乐。 这是一期新春特辑节目，我们与相识多年的好友小堡畅聊了那些过去看过，想要再度重温的影视剧和电影，以及我们如何在看这些片子中感受过去一年自己身上所发生的变化。它是一期以影视剧作为载体的年终总结，虽然无法保证充足的信息量，以及专业影评水准。但保证轻松、愉快！希望能给你在春节的闲暇时间里带去一点欢乐。 【本期主播】 若含 ：小红书@若含 王磬： 微博@王磬",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#491 – OpenClaw: The Viral AI Agent that Broke the Internet Peter Steinberger",
-      "link": "https://lexfridman.com/peter-steinberger/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=peter-steinberger",
-      "pubDate": "2026-02-12T03:10:39.000Z",
-      "duration": null,
-      "summary": "Peter Steinberger is the creator of OpenClaw, an open-source AI agent framework thats the fastest-growing project in GitHub history. Thank you for listening ❤ Check out our sponsors: https://lexfridma",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
       "showId": "weirdo",
@@ -1560,17 +1648,6 @@
       "duration": "988",
       "summary": "Poppi began as a kitchen experiment with apple cider vinegar and has grown into a leading beverage brand, which was recently acquired by PepsiCo for nearly $2 billion. Allison and Stephen Ellsworth, c",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#490 – State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI",
-      "link": "https://lexfridman.com/ai-sota-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ai-sota-2026",
-      "pubDate": "2026-02-01T02:46:43.000Z",
-      "duration": null,
-      "summary": "Nathan Lambert and Sebastian Raschka are machine learning researchers, engineers, and educators. Nathan is the post-training lead at the Allen Institute for AI (Ai2) and the author of The RLHF Book. S",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
       "showId": "talksat",
@@ -1628,17 +1705,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#489 – Paul Rosolie: Uncontacted Tribes in the Amazon Jungle",
-      "link": "https://lexfridman.com/paul-rosolie-3/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=paul-rosolie-3",
-      "pubDate": "2026-01-13T20:15:15.000Z",
-      "duration": "3:14:26",
-      "summary": "Paul Rosolie is a naturalist, explorer, author of a new book titled Junglekeeper, and is someone who has dedicated his life to protecting the Amazon rainforest. Thank you for listening ❤ Check out our",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1672,17 +1738,6 @@
       "art": "https://img.transistorcdn.com/jFPz1nSL8JfyAmY8ab_xqfZWEVOQ1VqoHhJKdxvzTEY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hMWI0/NTE4ZGMzNWQ2ODli/ZTExZDkwNjBmZjVl/ZmQ1OS5wbmc.jpg"
     },
     {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#488 – Infinity, Paradoxes that Broke Mathematics, Gödel Incompleteness the Multiverse Joel David Hamkins",
-      "link": "https://lexfridman.com/joel-david-hamkins/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=joel-david-hamkins",
-      "pubDate": "2025-12-31T21:24:33.000Z",
-      "duration": null,
-      "summary": "Joel David Hamkins is a mathematician and philosopher specializing in set theory, the foundations of mathematics, and the nature of infinity, and hes the #1 highest-rated user on MathOverflow. He is a",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
       "showId": "bg2pod",
       "showName": "BG2Pod",
       "category": "vc",
@@ -1705,28 +1760,6 @@
       "art": "https://img.transistorcdn.com/f3mD-GFEd3Zlv0WKplxuSk1C_DRVQ3Xu-hdJnevbLu8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lNWQw/NzI2ZTQwZDc2OTI0/MGQ5ZTIwMDI5Yjcy/ZjA0Ni5qcGc.jpg"
     },
     {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#487 – Irving Finkel: Deciphering Secrets of Ancient Civilizations Flood Myths",
-      "link": "https://lexfridman.com/irving-finkel/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=irving-finkel",
-      "pubDate": "2025-12-12T20:04:16.000Z",
-      "duration": null,
-      "summary": "Irving Finkel is a scholar of ancient languages and a longtime curator at the British Museum, renowned for his expertise in Mesopotamian history and cuneiform writing. He specializes in reading and in",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#486 – Michael Levin: Hidden Reality of Alien Intelligence Biological Life",
-      "link": "https://lexfridman.com/michael-levin-2/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=michael-levin-2",
-      "pubDate": "2025-11-30T19:40:53.000Z",
-      "duration": null,
-      "summary": "Michael Levin is a biologist at Tufts University working on novel ways to understand and control complex pattern formation in biological systems. Thank you for listening ❤ Check out our sponsors: http",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -1738,17 +1771,6 @@
       "art": "https://img.transistorcdn.com/39-V6NdO6ZaVaMH9TAU7sm7gqZF16IvTl0NGCOQ5nDo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zM2Q5/OTdkNDY1NWU1YTZk/N2FmNDVkNzk5M2Jl/NjYzZC5qcGc.jpg"
     },
     {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#485 – David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy",
-      "link": "https://lexfridman.com/david-kirtley/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=david-kirtley",
-      "pubDate": "2025-11-17T18:55:13.000Z",
-      "duration": null,
-      "summary": "David Kirtley is a nuclear fusion engineer and CEO of Helion Energy, a company working on building the worlds first commercial fusion power plant by 2028. Thank you for listening ❤ Check out our spons",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
       "showId": "bg2pod",
       "showName": "BG2Pod",
       "category": "vc",
@@ -1758,17 +1780,6 @@
       "duration": "01:14:20",
       "summary": "Brad Gerstner sits down with Satya Nadella (Microsoft) and Sam Altman (OpenAI) to unpack the $3 trillion AI buildout transforming technology, business, and the global economy. They dive deep into the ",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
-    },
-    {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#484 – Dan Houser: GTA, Red Dead Redemption, Rockstar, Absurd Future of Gaming",
-      "link": "https://lexfridman.com/dan-houser/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dan-houser",
-      "pubDate": "2025-10-31T20:53:37.000Z",
-      "duration": "2:54:01",
-      "summary": "Dan Houser is co-founder of Rockstar Games and is a legendary creative mind behind Grand Theft Auto (GTA) and Red Dead Redemption series of video games. Thank you for listening ❤ Check out our sponsor",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
       "showId": "acquired",
@@ -1791,17 +1802,6 @@
       "duration": "01:01:49",
       "summary": "Pre-Order Runnin' Down a Dream now: https://a.co/d/0oIPPve Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week, they unpack the ",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
-    },
-    {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#483 – Julia Shaw: Criminal Psychology of Murder, Serial Killers, Memory Sex",
-      "link": "https://lexfridman.com/julia-shaw/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=julia-shaw",
-      "pubDate": "2025-10-14T17:32:37.000Z",
-      "duration": "2:48:50",
-      "summary": "Julia Shaw is a criminal psychologist and author who in her books explores human nature, including psychopathy, violent crime, the psychology of evil, police interrogation, false memory manipulation, ",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
       "showId": "acquired",
