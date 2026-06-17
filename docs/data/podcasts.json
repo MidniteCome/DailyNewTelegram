@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-16T22:05:53.538Z",
+    "updatedAt": "2026-06-17T12:05:03.876Z",
     "totalEpisodes": 165,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Is gambling the reason we have pro sports?",
+      "link": "https://www.npr.org/2026/06/17/nx-s1-5860672/is-gambling-the-reason-we-have-pro-sports",
+      "pubDate": "2026-06-17T07:00:00.000Z",
+      "duration": "544",
+      "summary": "To hear author David Bockino tell it, gambling has always been a key ingredient of pro sports in the U.S.—it’s as American as apple pie. Bockino is the author of the new book Over/Under: An Unexpected",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1b%2F04%2F31248bea4a66861486fe1f9c8b46%2F57016c9a-9a58-4cf7-9afb-f2769243281f.jpg"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -790,17 +801,6 @@
       "duration": "10296",
       "summary": "Joe sits down with Josh Thompson, a retired champion mixed martial artist and fight analyst, and Big John McCarthy, a veteran mixed martial arts referee, Professional Fighters League commentator, and ",
       "art": "https://megaphone.imgix.net/podcasts/b9a851aa-5969-11f1-b610-5b89e07e9b01/image/fd78de4e035bd06624f0ea03dd51aa1e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "What the movies teach us about recessions, memestocks and gold",
-      "link": "https://www.npr.org/2026/05/27/nx-s1-5835727/what-the-movies-teach-us-about-recessions-memestocks-and-gold",
-      "pubDate": "2026-05-27T07:00:00.000Z",
-      "duration": "541",
-      "summary": "The Indicator hosts Adrian Ma and Wailin Wong discuss their favorite econ and business movies. Fact checking by Sierra Juarez . Your Next Listen — Before La La Land, there was Fort Lee, New Jersey Con",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd5%2F14%2Ffd6574ee4d30bc78ba9fa778693d%2F4ca5f7be-47f2-4911-bad6-095a2bc99757.png"
     },
     {
       "showId": "ezraklein",
