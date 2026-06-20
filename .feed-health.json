@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-06-19",
+  "lastRun": "2026-06-20",
   "feeds": [
     {
       "name": "Stratechery",
@@ -47,7 +47,7 @@
       "name": "Reuters Funding (Google News)",
       "url": "https://news.google.com/rss/search?q=site:reuters.com+(funding+OR+valuation+OR+%22Series+A%22+OR+%22Series+B%22)+when:3d&hl=en-GB&gl=GB&ceid=GB:en",
       "ok": true,
-      "itemCount": 1,
+      "itemCount": 20,
       "consecutiveFails": 0
     },
     {
@@ -210,7 +210,7 @@
       "name": "email",
       "url": "sources/newsletters.json",
       "ok": true,
-      "itemCount": 38,
+      "itemCount": 35,
       "consecutiveFails": 0,
       "skipped": false
     }
