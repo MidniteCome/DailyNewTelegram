@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-06-20",
+  "lastRun": "2026-06-21",
   "feeds": [
     {
       "name": "Stratechery",
@@ -33,7 +33,7 @@
       "name": "Reuters M&A (Google News)",
       "url": "https://news.google.com/rss/search?q=site:reuters.com+(acquisition+OR+merger+OR+takeover)+when:3d&hl=en-GB&gl=GB&ceid=GB:en",
       "ok": true,
-      "itemCount": 20,
+      "itemCount": 2,
       "consecutiveFails": 0
     },
     {
@@ -210,7 +210,7 @@
       "name": "email",
       "url": "sources/newsletters.json",
       "ok": true,
-      "itemCount": 35,
+      "itemCount": 34,
       "consecutiveFails": 0,
       "skipped": false
     }
