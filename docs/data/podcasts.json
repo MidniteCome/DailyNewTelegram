@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-06-20T21:05:44.716Z",
-    "totalEpisodes": 165,
+    "updatedAt": "2026-06-21T10:52:43.492Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": null,
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/7190613c58bad86913afb6991d842e2f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -165,6 +165,17 @@
   ],
   "episodes": [
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #181 with Justin Gaethje & Trevor Wittman",
+      "link": "https://traffic.megaphone.fm/GLT1314948676.mp3",
+      "pubDate": "2026-06-20T17:00:00.000Z",
+      "duration": "8619",
+      "summary": "Joe is joined by UFC Lightweight Champion Justin Gaethje & boxing and MMA trainer Trevor Wittman. https://www.youtube.com/@justin_gaethje https://onxsports.com/ Perplexity: Download the app or ask Per",
+      "art": "https://megaphone.imgix.net/podcasts/c02c1d02-6c3a-11f1-9abf-470c52089759/image/ede67c34735f33ef01819adae0265eca.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -220,6 +231,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fea%2Fa4%2F6fc67b9a44aa9893692ea8a8b44e%2F7299474b-636c-4612-be4d-e31bb4cef3ab.jpg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2516 - Rowan Jacobsen",
+      "link": "https://traffic.megaphone.fm/GLT3995715859.mp3",
+      "pubDate": "2026-06-18T17:00:00.000Z",
+      "duration": "7606",
+      "summary": "Rowan Jacobsen is an award-winning science and nature writer. His new book, “In Defense of Sunlight: The Surprising Science of Sun Exposure,” is available now.www.simonandschuster.com/books/In-Defense",
+      "art": "https://megaphone.imgix.net/podcasts/04cb4c58-6aab-11f1-908a-ab69dccb621b/image/af988ac23c611415132d37439ec0c7d8.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -251,6 +273,17 @@
       "duration": "1:02:39",
       "summary": "当屏幕、AI 甚至算法越来越多地进入孩子们的生活，现在的「玩」和我们儿时的「玩」还是一个概念吗？ 《玩具总动员》系列从 1995 年走到今天，30 年间，它讨论过友谊、成长、告别……这一次，它把目光投向了一个非常当下的问题 —— 数字时代的童年，「玩」这件事正在发生怎样的改变，今天的我们又应该如何看待「玩」在人类成长过程中扮演的角色？ 这期节目，我们想借《玩具总动员 5》的上映来认真聊一聊：从儿童",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2515 - Chase Hughes",
+      "link": "https://traffic.megaphone.fm/GLT3525009015.mp3",
+      "pubDate": "2026-06-17T17:00:00.000Z",
+      "duration": "9480",
+      "summary": "Chase Hughes is an expert in behavioral profiling, influence, and persuasion. He is the creator of the Neuro-Cognitive Intelligence system, founder of the “Station One” YouTube channel, and the author",
+      "art": "https://megaphone.imgix.net/podcasts/38a59f2e-69ed-11f1-979c-7f087c850f79/image/6e9ff39f757235fd3940f4b3644740ed.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "indicator",
@@ -341,6 +374,17 @@
       "art": "https://static.libsyn.com/p/assets/6/7/e/c/67ec7acb0cac9bead959afa2a1bf1c87/1_Pod_E276.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2514 - Cameron Hanes",
+      "link": "https://traffic.megaphone.fm/GLT5962536956.mp3",
+      "pubDate": "2026-06-12T17:00:00.000Z",
+      "duration": "10786",
+      "summary": "Cameron Hanes is a bowhunter, outdoorsman, endurance athlete, author, and host of the podcasts “Keep Hammering Collective,” “Sh*t Talkers Weekly,” and “Lift. Run. Shoot.” His most recent book is “Unde",
+      "art": "https://megaphone.imgix.net/podcasts/100d3320-65f5-11f1-aef9-83438d6ed8f3/image/3c8a40b8f1e41bacd1bac5db29cefa55.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -383,6 +427,17 @@
       "duration": "01:20:47",
       "summary": "Brad Gerstner sits down with Gavin Baker and Andrew Fox of Atreides Management, alongside Altimeter partner Clark Tang, to break down one of the biggest questions in tech and markets: how should inves",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2513 - Dean Radin",
+      "link": "https://traffic.megaphone.fm/GLT4705922379.mp3",
+      "pubDate": "2026-06-11T17:00:00.000Z",
+      "duration": "9834",
+      "summary": "Dean Radin, PhD, is Chief Scientist at the Institute of Noetic Sciences (IONS), Associate Distinguished Professor at the California Institute of Integral Studies, and co-founder and chairman of the ne",
+      "art": "https://megaphone.imgix.net/podcasts/85128b08-6518-11f1-8ac2-33b58404e123/image/8cea23fbcb8622a31e1152dc27538fe5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -429,6 +484,17 @@
       "art": "https://static.libsyn.com/p/assets/f/0/b/3/f0b30d692ad9524d16c3140a3186d450/Podcast_Graphic_-_Liquidity-20260610-mm1ibd72q7.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2512 - Joey Diaz",
+      "link": "https://traffic.megaphone.fm/GLT1423641866.mp3",
+      "pubDate": "2026-06-10T17:00:00.000Z",
+      "duration": "10352",
+      "summary": "Joey Diaz is a stand-up comedian, actor, and writer. He is the host of the podcast “The Church of What’s Happening Now: The New Testament” and the author of “Tremendous: The Life of a Comedy Savage.”w",
+      "art": "https://megaphone.imgix.net/podcasts/4ad4246e-6456-11f1-a4da-aff897fdf12f/image/50778c3292dc81e0b565980c3d92b31d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -460,6 +526,17 @@
       "duration": "24:37",
       "summary": "(0:00) Dan Dreyfus Presents: The Future of Critical Minerals (0:33) America's \"Capital Light Era\" is over, rapid supply/demand shocks (5:40) Impact of China cutting off the US from critical minerals (",
       "art": "https://static.libsyn.com/p/assets/b/3/0/0/b300a1698fd66e4516c3140a3186d450/Podcast_Graphic_-_Liquidity-20260610-0jeiy2jpei.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2511 - Terry Bradshaw",
+      "link": "https://traffic.megaphone.fm/GLT1002417746.mp3",
+      "pubDate": "2026-06-09T17:00:00.000Z",
+      "duration": "9816",
+      "summary": "Terry Bradshaw is a retired NFL quarterback whose 14 seasons with the Pittsburgh Steelers included four Super Bowl wins, leading to his induction into the Pro Football Hall of Fame. Bradshaw is also a",
+      "art": "https://megaphone.imgix.net/podcasts/2812b022-639c-11f1-a977-ef24292591fb/image/74e33920a0b31998160b2437a0bdff98.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "allin",
@@ -594,6 +671,17 @@
       "art": "https://static.libsyn.com/p/assets/c/d/6/3/cd63021a3fb09aa116c3140a3186d450/Podcast_Graphic_-_Liquidity-20260605-15v4uqzq7e.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2510 - Devon Larratt",
+      "link": "https://traffic.megaphone.fm/GLT7596740308.mp3",
+      "pubDate": "2026-06-05T17:00:00.000Z",
+      "duration": "10129",
+      "summary": "Devon Larratt is a veteran of the Canadian Armed Forces and a professional arm wrestler who is widely considered one of the sport’s greatest competitors.www.youtube.com/@devlarratthttps://armbet.netht",
+      "art": "https://megaphone.imgix.net/podcasts/b9344b74-6072-11f1-989b-97b7029632d7/image/05185c599a32524b3890926299c4fe99.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -636,6 +724,17 @@
       "duration": "32:45",
       "summary": "(0:00) Coatue's Thomas Laffont joins the Besties! (0:30) Public markets are back as AI is dominates the \"Unicorn Economy\" (5:15) The $4T AI IPO explosion (7:48) The case for SpaceX: Compounding launch",
       "art": "https://static.libsyn.com/p/assets/4/c/3/0/4c300253a3ce6f7516c3140a3186d450/Podcast_Graphic_-_Liquidity-20260604-rdp09014pn.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2509 - Caleb Hammer",
+      "link": "https://traffic.megaphone.fm/GLT4890761896.mp3",
+      "pubDate": "2026-06-04T17:00:00.000Z",
+      "duration": "8463",
+      "summary": "Caleb Hammer is a YouTuber and host of the program “Financial Audit.”www.youtube.com/c/calebhammerwww.patreon.com/calebhammerwww.calebhammer.com Perplexity: Download the app or ask Perplexity anything",
+      "art": "https://megaphone.imgix.net/podcasts/2f365426-5f9b-11f1-8433-9fabe6f521e9/image/1998e991549064f65d92e4ffd2baa669.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -682,6 +781,17 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2508 - Joe Eszterhas",
+      "link": "https://traffic.megaphone.fm/GLT5133709752.mp3",
+      "pubDate": "2026-06-03T17:00:00.000Z",
+      "duration": "8279",
+      "summary": "Joe Eszterhas is an author, former journalist for “Rolling Stone,” and screenwriter known for films such as “Basic Instinct,” “Sliver,” “Showgirls,” and “Flashdance.”www.imdb.com/name/nm0000390/ Perpl",
+      "art": "https://megaphone.imgix.net/podcasts/e03b5594-5ed0-11f1-9ce3-2f5146ba6398/image/e47e931549fbe01a8c3c585b3edea4a2.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -702,6 +812,17 @@
       "duration": "29:59",
       "summary": "(0:00) Bill Ackman joins the show! (0:30) Evolving investment philosophy: What's changed over 20 years? (4:40) AI: Greatest time to build a business, and a major threat to portfolios (7:50) Predicting",
       "art": "https://static.libsyn.com/p/assets/4/1/1/6/41169b7d3e7667d4d959afa2a1bf1c87/Podcast_Graphic_-_Liquidity.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #180 with Daniel Rodriguez",
+      "link": "https://traffic.megaphone.fm/GLT5622841708.mp3",
+      "pubDate": "2026-06-02T17:00:00.000Z",
+      "duration": "8526",
+      "summary": "Joe sits down with Daniel Rodriguez, a professional mixed martial artist competing in the Ultimate Fighting Championship’s welterweight division.www.ufc.com/athlete/daniel-rodriguez Learn more about y",
+      "art": "https://megaphone.imgix.net/podcasts/61bd0b4c-5e0b-11f1-b4b2-837f481d7600/image/78839ccb873938b9ebaa0dc6168a6c93.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "allin",
@@ -792,6 +913,17 @@
       "art": "https://static.libsyn.com/p/assets/e/b/d/f/ebdfe17be5b4c02ad959afa2a1bf1c87/1_Pod_E275.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2507 - Harland Williams",
+      "link": "https://traffic.megaphone.fm/GLT5813764141.mp3",
+      "pubDate": "2026-05-29T17:00:00.000Z",
+      "duration": "11973",
+      "summary": "Harland Williams is a comedian, author, actor, musician, filmmaker, and host of “The Harland Highway” podcast. His new movie, “Wingman,” is available now on all streaming services.www.youtube.com/@Har",
+      "art": "https://megaphone.imgix.net/podcasts/cb188274-5b04-11f1-ab08-73f69a0b7be3/image/ff240514dc767ed640a152bd6e9656ab.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -825,6 +957,17 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2506 - Michelle Thaller",
+      "link": "https://traffic.megaphone.fm/GLT2663008219.mp3",
+      "pubDate": "2026-05-28T17:00:00.000Z",
+      "duration": "9811",
+      "summary": "Michelle Thaller, PhD, is an astrophysicist, award-winning science communicator, and retired NASA executive who worked at NASA’s Goddard Space Flight Center and NASA Headquarters. Her work has appeare",
+      "art": "https://megaphone.imgix.net/podcasts/c9848b58-5a58-11f1-af46-1791c124921c/image/c68a8f811cb24486b2f4db238a0ddac7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -845,6 +988,17 @@
       "duration": "01:18:29",
       "summary": "【主播的话】 （本期节目涉及性暴力与性犯罪的讨论，可能引起部分听众不适，请你斟酌收听。） 上周，我们走进了柏林的法院，在现场见证了近来引发高度关注的华人迷奸案庭审。被审理的是核心八人群组里的邵姓嫌疑人，这个网络里的成员散布在德国、美国、荷兰等地，通过一个 Telegram 群组彼此相连——他们用药物迷昏女性后实施性侵，并把过程拍下来，在群里分享。受害者大多是他们身边的华人女性：留学生、房东、邻居、",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #179 with Josh Thompson & \"Big\" John McCarthy",
+      "link": "https://traffic.megaphone.fm/GLT9400073467.mp3",
+      "pubDate": "2026-05-27T17:00:00.000Z",
+      "duration": "10296",
+      "summary": "Joe sits down with Josh Thompson, a retired champion mixed martial artist and fight analyst, and Big John McCarthy, a veteran mixed martial arts referee, Professional Fighters League commentator, and ",
+      "art": "https://megaphone.imgix.net/podcasts/b9a851aa-5969-11f1-b610-5b89e07e9b01/image/fd78de4e035bd06624f0ea03dd51aa1e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -878,6 +1032,17 @@
       "duration": "01:01:38",
       "summary": "Andrew Feldman is the co-founder and CEO of Cerebras Systems. This month, Cerebras went public achieving a market cap of $70BN, the largest semiconductor IPO in history. Cerebras has a massive commerc",
       "art": "https://static.libsyn.com/p/assets/4/c/e/3/4ce344aeabe664f516c3140a3186d450/WhatsApp_Image_2026-05-22_at_17.04.13.jpeg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2505 - Tom Segura",
+      "link": "https://traffic.megaphone.fm/GLT2820142649.mp3",
+      "pubDate": "2026-05-25T23:39:00.000Z",
+      "duration": "10228",
+      "summary": "Tom Segura is a comedian, actor, author, and restaurateur. He hosts “Your Mom’s House” with his wife, comedian Christina Pazsitzky, and “Two Bears, One Cave” with comedian Bert Kreischer. He is also t",
+      "art": "https://megaphone.imgix.net/podcasts/18b33436-588d-11f1-bd69-4b50659ad7ad/image/5517f0f66165c535b74ee785730ad963.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
