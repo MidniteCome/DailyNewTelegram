@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-23T16:28:40.575Z",
+    "updatedAt": "2026-06-23T21:24:17.246Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
+      "link": "https://allinchamathjason.libsyn.com/gamestop-ceo-ryan-cohens-56b-plan-to-take-over-ebay",
+      "pubDate": "2026-06-23T20:52:00.000Z",
+      "duration": "01:03:03",
+      "summary": "(0:00) David Friedberg intros GameStop CEO Ryan Cohen! (1:56) Building and selling Chewy for $3.35B, how to compete with Amazon in e-commerce (11:58) Post-Chewy life, activist investing, the road to G",
+      "art": "https://static.libsyn.com/p/assets/9/3/1/3/93138d0f7fcef9b816c3140a3186d450/1_Pod_Cohen.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2517 - Taylor Sheridan",
+      "link": "https://traffic.megaphone.fm/GLT1253733274.mp3",
+      "pubDate": "2026-06-23T17:00:00.000Z",
+      "duration": "10187",
+      "summary": "Taylor Sheridan is a writer, director, and producer of multiple series and films, including “Landman,” “Lioness,” “The Madison,” “Sicario,” and “Hell or High Water.” He is also a restaurateur, rancher",
+      "art": "https://megaphone.imgix.net/podcasts/1e41120c-6e99-11f1-ba79-179f81c1fdeb/image/2d31a45cb096385143ce6df38d6404c7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -1078,17 +1100,6 @@
       "art": "https://static.libsyn.com/p/assets/4/c/e/3/4ce344aeabe664f516c3140a3186d450/WhatsApp_Image_2026-05-22_at_17.04.13.jpeg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2505 - Tom Segura",
-      "link": "https://traffic.megaphone.fm/GLT2820142649.mp3",
-      "pubDate": "2026-05-25T23:39:00.000Z",
-      "duration": "10228",
-      "summary": "Tom Segura is a comedian, actor, author, and restaurateur. He hosts “Your Mom’s House” with his wife, comedian Christina Pazsitzky, and “Two Bears, One Cave” with comedian Bert Kreischer. He is also t",
-      "art": "https://megaphone.imgix.net/podcasts/18b33436-588d-11f1-bd69-4b50659ad7ad/image/5517f0f66165c535b74ee785730ad963.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -1109,17 +1120,6 @@
       "duration": "01:19:42",
       "summary": "Chad Peets is one of the most straight-talking, no BS sales leaders of our time. Today, he partners with founders of the fastest growing companies in the world, like Harvey, Factory to build the best ",
       "art": "https://static.libsyn.com/p/assets/4/e/9/9/4e996c028d9a5489d959afa2a1bf1c87/WhatsApp_Image_2026-05-22_at_16.43.34.jpeg"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "SpaceX's $2T Case, Nvidia's Shock Selloff, America Turns on AI, Trump Pulls AI Order, Bond Crisis?",
-      "link": "https://allinchamathjason.libsyn.com/spacexs-2t-case-nvidias-shock-selloff-america-turns-on-ai-trump-pulls-ai-order-bond-crisis",
-      "pubDate": "2026-05-22T22:46:00.000Z",
-      "duration": "01:42:00",
-      "summary": "(0:00) Gavin Baker joins the show! (0:30) Andrej Karpathy joins Anthropic; hypergrowth and profitability (12:42) Why Americans have turned on AI, anti-human perception (27:22) Trump pulls AI EO, US-Ch",
-      "art": "https://static.libsyn.com/p/assets/c/3/2/1/c321969eb8898bf116c3140a3186d450/1_Pod_E274.png"
     },
     {
       "showId": "left-right",
