@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-22T21:56:00.207Z",
+    "updatedAt": "2026-06-23T10:47:00.084Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "478 北洋漫游记：军阀、考古与瑞典王储的中国之旅",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a3a57bc2e335a35a808135e?utm_source=rss",
+      "pubDate": "2026-06-23T10:07:15.000Z",
+      "duration": "01:26:00",
+      "summary": "- 导语 - 1926年，瑞典王储、未来的古斯塔夫六世国王跨越重洋到访中国，在北洋混战的动荡时局里开启了一场横跨北京、山西、上海的考察之行。这段经历被随行人员收录在三本相册中，留下500多张照片和大量珍贵实物，并在百年后被收藏家邹德怀购得并整理，许多鲜为人知的历史细节得以重现。百年前的瑞典王室为何热衷中国文化与考古事业？在东方的军阀、学者与退位皇帝之间，瑞典王储见证了哪些插曲？从田黄印章、北京城墙",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Why the $250 bill would be good … For criminals!",
+      "link": "https://www.npr.org/2026/06/23/nx-s1-5866762/why-the-250-bill-would-be-good-for-criminals",
+      "pubDate": "2026-06-23T07:00:00.000Z",
+      "duration": "528",
+      "summary": "A plan to create a new $250—with President Donald Trump’s face on it—has created a lot of pushback. Who probably won’t be pushing back, though? Criminals. On today’s show, we explain why. Fact checkin",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F74%2F8c%2F90eebf4848eeb6633b9b4652ea32%2Fb5cc149c-11e5-40d9-a33d-940ff1eebb21.png"
+    },
     {
       "showId": "talksat",
       "showName": "Talks at GS",
@@ -902,17 +924,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why boardinghouses could make a comeback",
-      "link": "https://www.npr.org/2026/06/02/nx-s1-5839207/why-boardinghouses-could-make-a-comeback",
-      "pubDate": "2026-06-02T07:00:00.000Z",
-      "duration": "563",
-      "summary": "There is a burgeoning effort across the U.S. to revive boardinghouses, aka single room occupancy units or SROs, as a solution to the housing crisis. But what happened to them in the first place? We tr",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fee%2F6a%2Fcf20b1ff4109879b71013333a44a%2Fb98147c0-3dcd-44a0-9052-2b5e38c57b58.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1318,17 +1329,6 @@
       "duration": "01:05:00",
       "summary": "In the U.S., illiberalism is in power. I don’t think anybody really argues against that. But I’ve been surprised by how weak liberalism has felt in response. Donald Trump isn’t a popular president; he",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "日本谍报物语01｜明治对华特务潮：倒幕开国、大陆政策与甲午战争",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69f47a4978d33cb2c4f8a38d?utm_source=rss",
-      "pubDate": "2026-05-01T10:33:48.000Z",
-      "duration": "00:03:00",
-      "summary": "- 导语 - 从江户时代的「风说书」，到甲午前后大陆浪人的活跃，再到陆军参谋本部和大本营体系的构建，日本早期的情报体系兼有民间与官方色彩。锁国时期，日本幕府怎样通过港口与商人获取外界知识？以药房为名加以掩护，荒尾精如何用「汉口乐善堂」在华建立初代间谍网络？甲午战争前，日本海军是如何通过「正规渠道」刺探情报的？重新复盘甲午战争，晚清的信息传递机制为何完全失效？请听本期嘉宾沙青青带来的精彩分享！ 《谍",
-      "art": "https://image.xyzcdn.net/Fkt1UqNqcfMQLc-90msKo0OgECcC.png"
     },
     {
       "showId": "etw",
@@ -1832,7 +1832,7 @@
       "title": "Rolex",
       "link": "https://www.acquired.fm/episodes/rolex",
       "pubDate": "2026-01-03T04:34:00.000Z",
-      "duration": "17958",
+      "duration": "17947",
       "summary": "Rolex is a series of paradoxes. They sell obsolete and objectively inferior mechanical devices for 10-1000x the price of their superior digital successors… and demand is stronger than ever in history!",
       "art": "https://img.transistorcdn.com/gx6fhYO1SXMFGcVkU0FWykOtdtd5kMbwLFJMSN3_WZ4/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zMWQ4/NjUxMmJkYTUxMzRh/Mzk4ZWYwM2UwYWNk/M2Q2Ny5wbmc.jpg"
     },
@@ -1843,7 +1843,7 @@
       "title": "Costco",
       "link": "https://www.acquired.fm/episodes/costco",
       "pubDate": "2026-01-02T05:46:00.000Z",
-      "duration": "10882",
+      "duration": "10871",
       "summary": "Costco is not only Charlie Munger’s favorite company of all time (plus he’s on the board, natch), it’s an absolutely fascinating study in how seemingly opposite characteristics can combine to create i",
       "art": "https://img.transistorcdn.com/jFPz1nSL8JfyAmY8ab_xqfZWEVOQ1VqoHhJKdxvzTEY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9hMWI0/NTE4ZGMzNWQ2ODli/ZTExZDkwNjBmZjVl/ZmQ1OS5wbmc.jpg"
     },
@@ -1876,7 +1876,7 @@
       "title": "10 Years of Acquired (with Michael Lewis)",
       "link": "https://www.acquired.fm/episodes/10-years-of-acquired-with-michael-lewis",
       "pubDate": "2025-12-15T04:19:45.000Z",
-      "duration": "9946",
+      "duration": "9936",
       "summary": "Why has Acquired — seemingly against all odds — “worked”? It's a puzzling question: episodes are four hours long, they come out infrequently, and they usually don’t have guests or video. Hardly the st",
       "art": "https://img.transistorcdn.com/f3mD-GFEd3Zlv0WKplxuSk1C_DRVQ3Xu-hdJnevbLu8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9lNWQw/NzI2ZTQwZDc2OTI0/MGQ5ZTIwMDI5Yjcy/ZjA0Ni5qcGc.jpg"
     },
@@ -1909,7 +1909,7 @@
       "title": "Coca-Cola",
       "link": "https://www.acquired.fm/episodes/coca-cola",
       "pubDate": "2025-11-24T03:00:17.000Z",
-      "duration": "14488",
+      "duration": "14477",
       "summary": "Coca-Cola is… sugar water. And somehow it’s also America, Christmas, summertime, friendship and happiness. Today we tell the story of how The Coca-Cola Company amazingly transmogrified a beverage into",
       "art": "https://img.transistorcdn.com/39-V6NdO6ZaVaMH9TAU7sm7gqZF16IvTl0NGCOQ5nDo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zM2Q5/OTdkNDY1NWU1YTZk/N2FmNDVkNzk5M2Jl/NjYzZC5qcGc.jpg"
     },
@@ -1953,7 +1953,7 @@
       "title": "Trader Joe’s",
       "link": "https://www.acquired.fm/episodes/trader-joes",
       "pubDate": "2025-10-27T03:07:10.000Z",
-      "duration": "12341",
+      "duration": "12331",
       "summary": "Trader Joe's breaks every rule of modern retail. They don't do e-commerce. They don't do delivery. No sales, coupons, or loyalty programs. They only stock 4,000 SKUs versus 50,000+ at normal supermark",
       "art": "https://img.transistorcdn.com/mq0lgrSm6fJKRP39Oi5lgpBWo-rigMKrTI-LKVI16UE/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zOGIx/MmQwYmNlNjEyZGFj/YWVhOTA5NDY1MGZi/ZWEyMC5qcGc.jpg"
     },
@@ -1986,7 +1986,7 @@
       "title": "Google Part III: The AI Company",
       "link": "https://www.acquired.fm/episodes/google-the-ai-company",
       "pubDate": "2025-10-06T01:35:54.000Z",
-      "duration": "14638",
+      "duration": "14627",
       "summary": "Google faces the greatest innovator's dilemma in history. They invented the Transformer — the breakthrough technology powering every modern AI system from ChatGPT to Claude (and, of course, Gemini). T",
       "art": "https://img.transistorcdn.com/y4nQdH_zx3Uiyr6Ege0RkhfJtRXIVZUB6JJ34AeqLko/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xOTY3/YzI4NjFjYzg4NWFl/NjY1YjZlM2E0ZDI3/MWE0OC5qcGc.jpg"
     },
@@ -2041,7 +2041,7 @@
       "title": "Google Part II: Alphabet",
       "link": "https://www.acquired.fm/episodes/alphabet-inc",
       "pubDate": "2025-08-26T10:19:06.000Z",
-      "duration": "15006",
+      "duration": "14996",
       "summary": "In its first six years from 1998 to 2004, Google built one of the greatest products of all time (and certainly the greatest business of all time) with Search. Then in its next six years from 2005 to 2",
       "art": "https://img.transistorcdn.com/gLaKE9vfu-tPCSV5766PrXGWFO95TCIXYYRQvaTrgPs/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yNzY2/ZTU5NWQyM2ZhZWZk/ZThlZTAxNTYyZTQz/YWMzOS5qcGc.jpg"
     },
@@ -2063,7 +2063,7 @@
       "title": "The Jamie Dimon Interview",
       "link": "https://www.acquired.fm/episodes/the-jamie-dimon-interview",
       "pubDate": "2025-07-16T14:18:04.000Z",
-      "duration": "4086",
+      "duration": "4076",
       "summary": "We sit down with Jamie Dimon for a live conversation at Radio City Music Hall, covering the incredible journey from his 1998 firing at Citgroup (where he was widely expected to become CEO) to building",
       "art": "https://img.transistorcdn.com/cy5c8cYm3Mif1hAX53cvNupzpgVSO5vERlobaDDdECo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8xNTU3/NTA0NTEzMTE2NzBj/NGRjNTY5NGI3MjU2/ZWYzMi5qcGc.jpg"
     },
@@ -2085,7 +2085,7 @@
       "title": "Google Part I: Origins of Search",
       "link": "https://www.acquired.fm/episodes/google",
       "pubDate": "2025-06-30T03:11:14.000Z",
-      "duration": "13033",
+      "duration": "13022",
       "summary": "We tell the story of the single greatest business ever created: Google search. From its origins as a Stanford research project called BackRub, Google became the front door to the internet. Today it’s ",
       "art": "https://img.transistorcdn.com/AIk_95Gy1RKYk2QVkS2VQVKpZd30JmUJb3cV4VmNY0s/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNDE4/MGJjZWJjMDgzMjBh/YjY1MzZmOTk3Yjk5/N2M3OC5qcGc.jpg"
     },
