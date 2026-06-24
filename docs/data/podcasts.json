@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-24T16:25:38.489Z",
+    "updatedAt": "2026-06-24T21:17:03.438Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2518 - Tim Dillon",
+      "link": "https://traffic.megaphone.fm/GLT2211636736.mp3",
+      "pubDate": "2026-06-24T17:00:00.000Z",
+      "duration": "9902",
+      "summary": "Tim Dillon is a stand-up comic, actor, and host of “The Tim Dillon Show” podcast. His latest comedy special, “Tim Dillon: I’m Your Mother,” is available on Netflix.www.youtube.com/@TimDillonShowwww.pa",
+      "art": "https://megaphone.imgix.net/podcasts/231bd648-6f6d-11f1-a048-3b077aa29ad3/image/3b17cdbc50e914c56886cd487f79c693.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1054,17 +1065,6 @@
       "duration": "01:18:29",
       "summary": "【主播的话】 （本期节目涉及性暴力与性犯罪的讨论，可能引起部分听众不适，请你斟酌收听。） 上周，我们走进了柏林的法院，在现场见证了近来引发高度关注的华人迷奸案庭审。被审理的是核心八人群组里的邵姓嫌疑人，这个网络里的成员散布在德国、美国、荷兰等地，通过一个 Telegram 群组彼此相连——他们用药物迷昏女性后实施性侵，并把过程拍下来，在群里分享。受害者大多是他们身边的华人女性：留学生、房东、邻居、",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "JRE MMA Show #179 with Josh Thompson & \"Big\" John McCarthy",
-      "link": "https://traffic.megaphone.fm/GLT9400073467.mp3",
-      "pubDate": "2026-05-27T17:00:00.000Z",
-      "duration": "10296",
-      "summary": "Joe sits down with Josh Thompson, a retired champion mixed martial artist and fight analyst, and Big John McCarthy, a veteran mixed martial arts referee, Professional Fighters League commentator, and ",
-      "art": "https://megaphone.imgix.net/podcasts/b9a851aa-5969-11f1-b610-5b89e07e9b01/image/fd78de4e035bd06624f0ea03dd51aa1e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
