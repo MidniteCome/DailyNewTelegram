@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-24T21:17:03.438Z",
+    "updatedAt": "2026-06-25T10:25:07.305Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,50 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#394 从追星之爱，看这个时代爱的结构性变化",
+      "link": "https://etw.fm/2214",
+      "pubDate": "2026-06-25T09:30:00.000Z",
+      "duration": "1:19:14",
+      "summary": "为什么磕 cp 比谈恋爱更快乐？为什么追星让人上头欲罢不能？为什么说这种现象，正展现出我们这个时代「爱」这种最私人的感情也正在发生结构性变化？ 在社交媒体、流量算法与情感商品化的层层作用下，「爱」这个原本属于私人领域的情感，正在被一步步地公共化、量化，乃至商品化 —— 从磕 CP 到情感专制，从乙女游戏到 AI 恋人，爱的形式与爱的能力似乎都在被重新定义。 这一期节目，我们邀请到复旦大学社会学系副",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Deepseek Raises $50BN | Wall St's $725BN AI Question | The Rise of Open Source & How it Threatens OpenAI & Anthropic | OpenAI Builds it's Own Chip: Jalapeno | The Death of Moats & The New AI Software Winners",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-deepseek-raises-50bn-wall-sts-725bn-ai-question-the-rise-of-open-source-how-it-threatens-openai-anthropic-openai-builds-its-own-chip-jalapeno-the-death-of-moats-the-new-ai-software-winners",
+      "pubDate": "2026-06-25T07:07:00.000Z",
+      "duration": "01:24:22",
+      "summary": "AGENDA: 00:00 – Google Loses Two AI Legends as Anthropic Wins the Talent War 14:45 – China's $50B DeepSeek Bet Changes the AI Power Balance 27:15 – AI's Memory Crisis Has Begun — Apple Warns of a '100",
+      "art": "https://static.libsyn.com/p/assets/c/d/6/7/cd67e676f84c3026d959afa2a1bf1c87/WhatsApp_Image_2026-06-24_at_19.19.09.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "AI is pumping out books. Are they any good?",
+      "link": "https://www.npr.org/2026/06/25/nx-s1-5869549/ai-is-pumping-out-books-are-they-any-good",
+      "pubDate": "2026-06-25T07:00:00.000Z",
+      "duration": "526",
+      "summary": "Are all these AI books any good? And by good, we mean are people willing to buy them — not whether the prose is singing. We talk to two researchers who’ve got some answers and a travel guide expert on",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe6%2F16%2Fb84f718a4dc6b9889b74ccb8d22f%2Fe3bdd632-63dc-4eec-8097-42c07f4b28b1.jpg"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "跨世代的女性友谊，在创造中一起度过漫长",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a3ca7889d2f5743683d8c96?utm_source=rss",
+      "pubDate": "2026-06-25T04:18:48.000Z",
+      "duration": "01:36:30",
+      "summary": "【主播的话】 本期节目是不合时宜的系列节目——跨世代女性对话。这是不合时宜策划的一档栏目，我们收集了来自不同世代女性所面对的困惑和思考，通过与嘉宾深入对谈的方式展开回应这些困惑。 本期节目中时隔两年，我们又和闾丘露薇在播客中重聚了。这次她还带来了大学同学以及播客伙伴 Helen。我们这期节目里聊了聊对于工作、友谊和创作的理解与困惑，不同阶段的女性与自己身体的关系。想起一个好玩的插曲，在准备这期节目",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -869,17 +913,6 @@
       "art": "https://static.libsyn.com/p/assets/8/2/b/1/82b1d38b62903812d959afa2a1bf1c87/WhatsApp_Image_2026-06-03_at_13.44.08.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Equinomics, bag fees, and leftover campaign dollars",
-      "link": "https://www.npr.org/2026/06/04/nx-s1-5844212/equinomics-bag-fees-and-leftover-campaign-dollars",
-      "pubDate": "2026-06-04T07:00:01.000Z",
-      "duration": "517",
-      "summary": "Our listeners have QUESTIONS about the economy. And we have answers. Today on the show, we look at why horse breeding might be slowing down, why airlines charge baggage fees, and where campaign cash a",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff1%2F32%2Fbd7207654ceaab509692e93f58ac%2F22adbe3b-d341-4716-8bd9-1b6f3a06d3dd.jpg"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1153,17 +1186,6 @@
       "duration": "1:03:09",
       "summary": "本月，执掌美联储八年的鲍威尔卸任，特朗普支持的沃什接棒；世界各国银行也在近期纷纷表示对美元的担忧：美元正在失去它的货币霸权地位吗？新一轮的货币替代会发生吗？ 过去 500 年，世界货币霸权先后在荷兰、英国、美国间流转，每一次交替，都伴随着战争、财政危机与信用崩塌。今天，美国国债占 GDP 已经高达 100%，各国央行的美元储备持续减少，全球的非美元结算却在逐步提升…… 这一期节目，我们邀请到美国凯",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Andrej Karpathy Joins Anthropic & Anthropic Raises $30BN at $900BN Price | SpaceX Files S1: How Does it Trade | Cerebras Smashes Day 1: What it Means for IPOs | Why Mass Layoffs Are More Worrying Than Anyone Sees",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-andrej-karpathy-joins-anthropic-anthropic-raises-30bn-at-900bn-price-spacex-files-s1-how-does-it-trade-cerebras-smashes-day-1-what-it-means-for-ipos-why-mass-layoffs-are-more-worrying-than-anyone-sees",
-      "pubDate": "2026-05-21T07:07:00.000Z",
-      "duration": "01:21:53",
-      "summary": "AGENDA: 00:00 – Anthropic Eyes $900B Valuation & Andre Karpathy's Shock Move 04:46 – Unpacking Anthropic's $30 Billion War Chest 10:52 – The True Cost of AI Tokens: Is Salesforce Spending Too Much? 15",
-      "art": "https://static.libsyn.com/p/assets/9/d/d/9/9dd934d9ff086139d959afa2a1bf1c87/WhatsApp_Image_2026-05-20_at_20.01.36.jpeg"
     },
     {
       "showId": "left-right",
@@ -1639,17 +1661,6 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#加更|连线迪拜：美伊升级后的海湾困境、战火外溢和秩序挑战",
-      "link": "https://etw.fm/2200",
-      "pubDate": "2026-03-03T01:30:00.000Z",
-      "duration": "29:25",
-      "summary": "一位身在阿联酋的中国人，在刚刚过去的 72 个小时内都经历了些什么？曾被视为「投资绿洲」的海湾国家，又为何在短短几天内，就被推到了战火蔓延的边缘？ 2026 年 2 月 28 日，美以对伊朗进行军事打击的消息震惊世界。而随着哈梅内伊的身亡，伊朗的报复行动也迅速升级，这场战火也随之蔓延到了阿联酋、沙特阿拉伯、卡塔尔这些海湾国家。 这期节目，我们连线了正身处迪拜的「声东击西」后期制作人赛德，他回忆了自",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -1813,17 +1824,6 @@
       "duration": "3:14:26",
       "summary": "Paul Rosolie is a naturalist, explorer, author of a new book titled Junglekeeper, and is someone who has dedicated his life to protecting the Amazon rainforest. Thank you for listening ❤ Check out our",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "weirdo",
-      "showName": "不合时宜",
-      "category": "zh",
-      "title": "石油、毒品与马杜罗：委内瑞拉的漫长坠落",
-      "link": "https://www.xiaoyuzhoufm.com/episode/695f1c35973648a0a60bec20?utm_source=rss",
-      "pubDate": "2026-01-08T03:11:23.000Z",
-      "duration": "00:48:55",
-      "summary": "【主播的话】 马杜罗，委内瑞拉现任总统，在一场由美国发起的特别行动中，被美军抓获。 这种抓捕行动充满了戏剧性。当地时间1月3日的凌晨，美军对委内瑞拉首都加拉加斯发起了空袭，地面部队闯入了总统住所，将马杜罗夫妇从熟睡中抓走。随后，特朗普召开了新闻发布会，表示这场行动已经策划了数月，马杜罗夫妇将被押至美国受审，美国将“接管”委内瑞拉直至权力的“安全过渡”。 一方面，过去十几年以来，委内瑞拉都被认为是一",
-      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
       "showId": "acquired",
