@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-25T21:22:55.660Z",
+    "updatedAt": "2026-06-26T10:36:42.692Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "特番｜染料、合成氨与塑料：化工如何塑造20世纪人类历史",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a3e1fa82e335a35a809b669?utm_source=rss",
+      "pubDate": "2026-06-26T08:51:37.000Z",
+      "duration": "01:03:19",
+      "summary": "- 导语 - 19世纪以来，化工行业经历了染料、合成氨、高分子材料等一系列革新，化工材料早已渗透现代产业与日常的每一处角落。AI正在如何改变材料研发？精细化工的护城河有多深？新能源、电子电气材料是否能为化工产业带来新的需求增长点？从晚清全面落后到成为全球最大供给国，中国化工产业经历了怎样的发展历程？想要进入当下的新材料赛道，需要打磨哪些本领？欢迎收听本期嘉宾中欧基金周期组基金经理王习带来的精彩分享",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "GLP-1 and women, the AI office boom, and RTO: CEO ego?",
+      "link": "https://www.npr.org/2026/06/26/nx-s1-5871378/glp-1-and-women-the-ai-office-boom-and-rto-ceo-ego",
+      "pubDate": "2026-06-26T07:00:00.000Z",
+      "duration": "523",
+      "summary": "It’s Indicators of the Week (now on YouTube !). On today’s episode: The effect of GLP-1s on women and the workplace ; NYC’s once flailing office space is BACK; your boss asking you to come back to the",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F24%2F99%2F6c3eb3284483bf18911b3521379c%2F353ddcd4-890d-44f7-a939-758f185068a4.png"
+    },
     {
       "showId": "etw",
       "showName": "声东击西",
@@ -836,17 +858,6 @@
       "art": "https://megaphone.imgix.net/podcasts/b9344b74-6072-11f1-989b-97b7029632d7/image/05185c599a32524b3890926299c4fe99.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Who should new grads boo more? AI or remote work?",
-      "link": "https://www.npr.org/2026/06/05/nx-s1-5847004/who-should-new-grads-boo-more-ai-or-remote-work",
-      "pubDate": "2026-06-05T16:06:42.000Z",
-      "duration": "546",
-      "summary": "Is AI really to blame for young people finding it hard to land first jobs ? Is Black unemployment a leading indicator for the rest of the economy? Here’s what the hosts of our Ambies award-winning bus",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcb%2F58%2Feb079d974a3da7c01c693a4d1aa2%2Fad048da9-4e6f-402f-a0df-25e583cb2982.jpg"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1329,17 +1340,6 @@
       "duration": "01:03:52",
       "summary": "【主播的话】 去年一个偶然的机会，我在纽约认识了高琴教授，还发现我们是邻居。 在那之前，我已经对高琴教授的有所耳闻。她是著作丰硕的社会政策学者，在哥伦比亚大学社会工作学院任教，是讲席教授，同时担任博士项目主管副院长，以研究中国贫困问题见长。她常年组织大规模的社会调查，用数据来研究贫困的根源、影响与政策应对。她同时还是哥大“亚裔美国人”项目主任。在哥大——一个竞争激烈、精英云集、以全球化和多元化闻名",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "471 当江户幕府开始「性转」：漫画《大奥》的历史想象与权力书写",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69f9ba3cf93890ea81422b32?utm_source=rss",
-      "pubDate": "2026-05-05T10:05:08.000Z",
-      "duration": "01:09:09",
-      "summary": "- 导语 - 如果一场只感染男性的疫情席卷日本，女性成为了家族继承人、政府官员和最高执政者，历史会怎样改写？漫画家吉永史用这样一个性转设定，在《大奥》中构建起一个架空的江户时代。大奥究竟是怎样一套制度？表、中奥与大奥之间，上演着怎样复杂精密的权力平衡？性转后的幕府，如何在外交中隐藏性别失衡的秘密？兰学医者又如何潜入大奥，试图攻克那场致命的疫情？本期节目请听王侃良与Nelly的分享！ - 本期话题成",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
       "showId": "ezraklein",
