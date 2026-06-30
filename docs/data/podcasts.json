@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-06-30T16:24:45.380Z",
+    "updatedAt": "2026-06-30T21:22:49.437Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "The Future of Industrial AI with Honeywell Technologies Chairman and CEO Vimal Kapur",
+      "link": "https://traffic.megaphone.fm/GLD1896665660.mp3",
+      "pubDate": "2026-06-30T20:33:00.000Z",
+      "duration": "1431",
+      "summary": "Honeywell Technologies Chairman and CEO Vimal Kapur joined John Waldron to discuss the organizations transformation into a more focused automation company and its strategy to unlock growth through inn",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2520 - Tommy Lee",
+      "link": "https://traffic.megaphone.fm/GLT2102720692.mp3",
+      "pubDate": "2026-06-30T17:00:00.000Z",
+      "duration": "8952",
+      "summary": "Tommy Lee is a genre-spanning solo musician, producer, and songwriter as well as the drummer and co-founder of Mötley Crüe. His latest album is “Tommyland Rides Again.” See him live with Mötley Crüe o",
+      "art": "https://megaphone.imgix.net/podcasts/21b93c20-7420-11f1-83c5-df47138ce738/image/5878c251c6b6c7090e4e0a039b075238.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -1100,17 +1122,6 @@
       "art": "https://static.libsyn.com/p/assets/5/d/9/3/5d9380c850e2a0fbd959afa2a1bf1c87/WhatsApp_Image_2026-05-29_at_13.13.59.jpeg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2507 - Harland Williams",
-      "link": "https://traffic.megaphone.fm/GLT5813764141.mp3",
-      "pubDate": "2026-05-29T17:00:00.000Z",
-      "duration": "11973",
-      "summary": "Harland Williams is a comedian, author, actor, musician, filmmaker, and host of “The Harland Highway” podcast. His new movie, “Wingman,” is available now on all streaming services.www.youtube.com/@Har",
-      "art": "https://megaphone.imgix.net/podcasts/cb188274-5b04-11f1-ab08-73f69a0b7be3/image/ff240514dc767ed640a152bd6e9656ab.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -1757,17 +1768,6 @@
       "pubDate": "2026-02-05T15:02:00.000Z",
       "duration": "1538",
       "summary": "Adyen has scaled from an Amsterdam startup to a global fintech by building every layer of payments in-house and focusing relentlessly on merchants. Pieter van der Does, co-founder and co-CEO of Adyen,",
-      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "talksat",
-      "showName": "Talks at GS",
-      "category": "finance",
-      "title": "Poppi Founders: Disrupting the Beverage Industry",
-      "link": "https://traffic.megaphone.fm/GLD8537081452.mp3",
-      "pubDate": "2026-02-03T17:49:00.000Z",
-      "duration": "988",
-      "summary": "Poppi began as a kitchen experiment with apple cider vinegar and has grown into a leading beverage brand, which was recently acquired by PepsiCo for nearly $2 billion. Allison and Stephen Ellsworth, c",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
