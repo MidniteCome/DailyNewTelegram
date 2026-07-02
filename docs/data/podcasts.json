@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-01T21:19:22.981Z",
+    "updatedAt": "2026-07-02T10:18:05.690Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#395 四面谴责，但以色列的战争机器为何依然难以停下？",
+      "link": "https://etw.fm/2215",
+      "pubDate": "2026-07-02T08:30:00.000Z",
+      "duration": "1:02:31",
+      "summary": "以色列的多面战线正越扩越大。在刚刚过去的 6 月 30 日，以色列总理内塔尼亚胡在采访中赞扬以色列「近年来取得的军事成就」，坦言这场战斗「永无止境」。而仅仅一周前，联合国人权理事会发布的最新报告显示，自 2023 年 10 月以来，因为以色列的行动，加沙已有近 7.5 万人非正常死亡，其中儿童约 2 万人。 如果仔细盘点，以色列同时深陷加沙、黎巴嫩、叙利亚、也门、伊朗、约旦河西岸等多条战线。战争之",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Dario and Anthropic Declare War on Open-Source | Coinbase Slash AI Spend by 50% | Kalshi's $40BN Valuation and Impending IPO | Bending Spoons: Smartest IPO of 2026 and the Year for SaaS Roll-Ups",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-dario-and-anthropic-declare-war-on-open-source-coinbase-slash-ai-spend-by-50-kalshis-40bn-valuation-and-impending-ipo-bending-spoons-smartest-ipo-of-2026-and-the-year-for-saas-roll-ups",
+      "pubDate": "2026-07-02T07:07:00.000Z",
+      "duration": "01:17:10",
+      "summary": "AGENDA: 00:00 Coinbase Slashes AI Spend 50%—Is the AI Token Bubble Bursting? 12:55 Anthropic Warns Open Source Could Destroy the AI Business Model 18:10 Dario Escalates the AI War with China & Open-So",
+      "art": "https://static.libsyn.com/p/assets/1/e/d/5/1ed5e07edcebeb0cd959afa2a1bf1c87/WhatsApp_Image_2026-07-01_at_16.27.05.jpeg"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -1177,17 +1199,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: OpenAI & SpaceX S1 Drops | NVIDIA's $81BN Revenue Quarter | Cloudflare and ClickUp Do Controversial Layoffs | Exa, OpenRouter and Polsia Raise Mega Rounds | Uber and Microsoft Declare AI ROI for Developers is Questionable",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-openai-spacex-s1-drops-nvidias-81bn-revenue-quarter-cloudlfare-and-clickup-do-controversial-layoffs-exa-openrouter-and-polsia-raise-mega-rounds-uber-and-microsoft-declare-ai-roi-for-developers-is-questionable",
-      "pubDate": "2026-05-28T07:07:00.000Z",
-      "duration": "01:25:19",
-      "summary": "AGENDA: 05:16 Nvidia Blowout Quarter: $81BN Revenues and Stock… Flat! 10:39 Uber and Microsoft Declare Productivity Gains Questionable from AI 25:26 The Layoffs Continue: ClickUp and Cloudflare 34:39 ",
-      "art": "https://static.libsyn.com/p/assets/c/1/8/d/c18dfb802c5bce2f16c3140a3186d450/WhatsApp_Image_2026-05-27_at_17.22.38.jpeg"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1681,17 +1692,6 @@
       "duration": "01:10:15",
       "summary": "【主播的话】 在刚刚过去的二月份，德国总理默茨（Friedrich Merz）携代表团访华，汽车与工业巨头悉数随行。 这次访华的一些画面在社交媒体上广为流传。比如，默茨走进了宇树科技，观看机器人跳舞。在回到德国之后，他发表了一个演讲，感慨中国发展之快，暗示德国的工作生活平衡或将拖累竞争力。这个演讲在中德两国引发了非常不同的解读——中国网友津津乐道于”连德国总理都来取经”，德国国内则掀起了一场关于产",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#380 从北京到华盛顿：从默茨之行看中美欧三角关系",
-      "link": "https://etw.fm/2201",
-      "pubDate": "2026-03-05T06:00:00.000Z",
-      "duration": "54:09",
-      "summary": "德国总理默茨上周刚刚结束了他的中国行程，他也是马年第一位访华的外国领导人。几乎与此同时，中东局势突然升级，美国对伊朗发动打击，也让默茨随后访美的行程处在一个颇为微妙的国际背景之下。在这样不断变化的地缘政治环境中，德国乃至欧洲正在发生哪些结构性变化？ 这一期节目，我们邀请长期观察欧洲政治经济的独立媒体人孙谦，从默茨访华的细节出发，聊一聊：德国的对华政策正在发生怎样的改变？欧洲的防务自主如今走到哪一步",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "talksat",
