@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-02T20:55:13.926Z",
+    "updatedAt": "2026-07-03T10:14:37.617Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,50 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "480 从「西印度毁灭述略」到冷战核危机：漫谈古巴与加勒比海五百年",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a4779e19d2f57436841fe89?utm_source=rss",
+      "pubDate": "2026-07-03T09:15:19.000Z",
+      "duration": "01:36:59",
+      "summary": "- 导语 - 北望佛罗里达，南接加勒比海。西班牙人驱使黑奴种植甘蔗和烟草。美国人实行经济殖民。从美西战争到冷战争霸，古巴的命运总是勾连着大国棋局。西班牙殖民时期，古巴原住民经历了怎样的消亡，种植园奴隶制又如何塑造当地社会分层？咫尺之遥，数百年来为何古巴始终被美国虎视眈眈？巴蒂斯塔时期，看似亮眼的经济数据背后藏着怎样深重的贫富割裂？卡斯特罗推翻巴蒂斯塔独裁政权，古巴怎样一步步与苏联走近，并激发猪湾事",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "The America That’s Still Possible",
+      "link": "https://www.nytimes.com/2026/07/03/opinion/ezra-klein-podcast-bryan-stevenson.html",
+      "pubDate": "2026-07-03T09:00:00.000Z",
+      "duration": "01:45:37",
+      "summary": "What does it mean to celebrate America on its 250th anniversary? The Trump administration’s festivities — from the U.F.C. fight on the White House lawn to the Great American State Fair — have centered",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Obama's new Presidential Center and his tricky relationship with the South Side",
+      "link": "https://www.npr.org/2026/07/03/nx-s1-5877728/obamas-new-presidential-center-and-his-tricky-relationship-with-the-south-side",
+      "pubDate": "2026-07-03T07:00:00.000Z",
+      "duration": "2071",
+      "summary": "How do residents of the South Side of Chicago feel about their new neighbor: the Obama Presidential Center? A mixture of pride and excitement, tempered with some concerns about what it could do to hou",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F10%2F6c%2F7c071cef4bf89ca2fe91ec8c0a06%2F25577df2-f249-4eea-ae3c-bb1442fc8bad.jpg"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "漫谈世界杯：梅罗之争、拉美神话与运动科学",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a4732032e335a35a80d5b83?utm_source=rss",
+      "pubDate": "2026-07-03T04:07:44.000Z",
+      "duration": "01:22:50",
+      "summary": "【主播的话】 2026年6-7月，美墨加三国首次联合举办世界杯。这场足球盛事的意义也早已溢出球场之外。本期节目，我们连线正在墨西哥前线报道的资深足球记者王勤伯，与身处美国西岸的政治学者林垚，从拉美足球的“酒神精神”聊起，谈到梅罗之争如何成为年轻一代进步派与保守派的价值符号之争，谈到运动科学如何为球星续命、也谈到巴西足球史上关于人种与临门一脚的“杂种狗”心结。 视野拉回国内，我们讨论董路的青训实验能",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -792,17 +836,6 @@
       "art": "https://image.xyzcdn.net/FvZfckFcavT1CgwW_gSQp3JEC9Xz.png"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Inflation is bad, work from home sad, FIFA World Cup tix NOT deal to be had",
-      "link": "https://www.npr.org/2026/06/12/nx-s1-5855738/inflation-is-bad-work-from-home-sad-fifa-world-cup-tix-not-a-deal-to-be-had",
-      "pubDate": "2026-06-12T07:00:00.000Z",
-      "duration": "569",
-      "summary": "It’s Indicators of the Week (now on YouTube !). It’s our weekly look at some of the most fascinating economic numbers from the news. On today’s episode: Inflation is back, working from home is making ",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F32%2Fc5%2F8c0d04be40f3949791b298f3962d%2Fec0b5a2c-5b11-4e76-80fc-19c41b5430d7.png"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1353,17 +1386,6 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "472 港英「政治部」轶闻：冷战前线的谍都香港与英国殖民地情报网",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a02efd51b7bd50295fed4de?utm_source=rss",
-      "pubDate": "2026-05-12T09:53:57.000Z",
-      "duration": "01:24:10",
-      "summary": "- 导语 - 《寒战1994》的热映，让港英时代一个特殊部门走入公众视野。它在编制上隶属香港警队，事务上却直接听命于英国军情五处，这便是「政治部」。起源于19世纪末苏格兰场应对爱尔兰独立运动的特别分部，「政治部」如何借鉴上海公共租界经验，依托殖民体系搭建远东情报网络？从应对码头工运、监控国共博弈，到冷战时期成为窥探内地的情报窗口，港英「政治部」的核心职能究竟是什么？临近九七，政治部的解散如何呼应了",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1450,17 +1472,6 @@
       "duration": "1130",
       "summary": "Harry Stebbings has transformed a bedroom podcast into a media and investment conglomerate, leveraging that platform to back ten unicorns. In conversation with Bobby Molavi, head of EMEA execution ser",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Stewart Brand, Silicon Valley’s Favorite Prophet, on Life’s Most Important Principle",
-      "link": "https://www.nytimes.com/2026/04/24/opinion/ezra-klein-podcast-stewart-brand.html",
-      "pubDate": "2026-04-24T09:00:00.000Z",
-      "duration": "00:50:00",
-      "summary": "Stewart Brand might be the most influential philosopher of the internet – at least in its more idealistic era. In the 1960s, Brand was the central bridge figure between the San Francisco countercultur",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "etw",
@@ -1812,17 +1823,6 @@
       "pubDate": "2026-01-23T09:25:57.000Z",
       "duration": "00:51:28",
       "summary": "【主播的话】 2025年12月以来，一场由德黑兰大巴扎商贩发起的抗议，很快席卷了伊朗全境。经济急剧恶化，里亚尔对美元暴跌、通胀飙升、食品与燃料价格激增，普通人维生艰难。很快，经济抗议转向了政治诉求，示威者要求改变政治体制，对伊斯兰共和国统治合法性提出了质疑，甚至出现了“回到巴列维”的口号。伊朗政府于 1 月 8 日开始实施全面的互联网封锁，试图切断国内外信息流通。国家安全力量进行了大规模镇压，根据",
-      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "weirdo",
-      "showName": "不合时宜",
-      "category": "zh",
-      "title": "当婚姻和生育分离，女性选择的多种可能",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6968fe86109824f9e1aeb1c6?utm_source=rss",
-      "pubDate": "2026-01-16T00:00:00.000Z",
-      "duration": "00:44:44",
-      "summary": "【主播的话】 主流社会的想象中，生育几乎总是与亲密关系、伴侣或婚姻绑定在一起的。 然而，这是一个必须要遵从的默认前提吗？当我们怀顾四周，发现事实并非如此。今天的女性，即使没有伴侣或者婚姻，依然能拥有不同的选择和生活自由。这是我们希望制作这个迷你系列的初衷，试图回答这一种新的选择意味着什么？ 这是系列的第二期，我们和导演、艺术家阿烂聊了聊她的生育选择、创作以及国内目前单身生育的环境。在录制这期节目时",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
