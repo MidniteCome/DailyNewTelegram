@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-03T20:54:15.691Z",
+    "updatedAt": "2026-07-04T09:37:38.817Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Open Models vs Frontier Models: Who Actually Wins? | The $100,000 Token Budget Every Engineer Will Need | Why Forward-Deployed Engineers Are the Future of Enterprise AI with Clay Bavor, Co-Founder of Sierra",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-open-models-vs-frontier-models-who-actually-wins-the-100000-token-budget-every-engineer-will-need-why-forward-deployed-engineers-are-the-future-of-enterprise-ai-with-clay-bavor-co-founder-of-sierra",
+      "pubDate": "2026-07-04T07:07:00.000Z",
+      "duration": "01:08:48",
+      "summary": "Clay Bavor is the Co-Founder of Sierra, one of the world's fastest-growing enterprise AI companies. Sierra is valued at approximately $15.8 billion, has raised more than $1.5BN from leading investors ",
+      "art": "https://static.libsyn.com/p/assets/7/3/9/5/7395da7b1a2742d516c3140a3186d450/WhatsApp_Image_2026-07-02_at_15.03.48.jpeg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "AI Sovereignty Wars, Palantir-Nvidia Deal, SCOTUS Birthright Ruling, Newsom's CA Budget Lie",
+      "link": "https://allinchamathjason.libsyn.com/ai-sovereignty-wars-palantir-nvidia-deal-scotus-birthright-ruling-newsoms-ca-budget-lie",
+      "pubDate": "2026-07-03T22:12:00.000Z",
+      "duration": "01:42:11",
+      "summary": "(0:00) Bestie intros: Happy Fourth of July! (0:21) Palantir-Nvidia open source deal, Alex Karp's CNBC \"Crashout\" (33:52) Update on the AI jobs debate (50:24) Anthropic's Fable 5 available after export",
+      "art": "https://static.libsyn.com/p/assets/d/8/7/f/d87f00a1f440bb8ed959afa2a1bf1c87/1_Pod_E279.png"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -1144,17 +1166,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
-      "link": "https://allinchamathjason.libsyn.com/bill-ackman-investment-strategy-what-the-market-is-missing-how-ai-breaks-businesses",
-      "pubDate": "2026-06-03T03:06:00.000Z",
-      "duration": "29:59",
-      "summary": "(0:00) Bill Ackman joins the show! (0:30) Evolving investment philosophy: What's changed over 20 years? (4:40) AI: Greatest time to build a business, and a major threat to portfolios (7:50) Predicting",
-      "art": "https://static.libsyn.com/p/assets/4/1/1/6/41169b7d3e7667d4d959afa2a1bf1c87/Podcast_Graphic_-_Liquidity.png"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1186,17 +1197,6 @@
       "duration": "01:15:23",
       "summary": "Brendan Foody is the Founder and CEO @ Mercor, one of the leading data providers to the largest labs on the planet including OpenAI. In the last two years, Brendan has scaled the company to $1.5BN in ",
       "art": "https://static.libsyn.com/p/assets/c/5/e/d/c5edad8e5dfb94b1d959afa2a1bf1c87/WhatsApp_Image_2026-05-29_at_14.30.03.jpeg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Corgi Insurance: The Most Intense Workplace Culture in America: 7 Days Per Week, Founder Sleeps in Office, Corgi Cafe Open 24 Hours a Day, 60% of First 30 Employees Have Corgi Tattoos | The Journey from $0 to $2.6BN Valuation in Just 2 Years",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-corgi-insurance-the-most-intense-workplace-culture-in-america-7-days-per-week-founder-sleeps-in-office-corgi-cafe-open-24-hours-a-day-60-of-first-30-employees-have-corgi-tattoos-the-journey-from-0-to-26bn-valuation-in-just-2-years",
-      "pubDate": "2026-05-30T07:07:00.000Z",
-      "duration": "53:18",
-      "summary": "Nico Laqua is the Co-Founder and CEO of Corgi Insurance, an AI-native insurance carrier built for startups. Corgi is the most intense workplace culture in America. The team works 7 days per week. The ",
-      "art": "https://static.libsyn.com/p/assets/5/d/9/3/5d9380c850e2a0fbd959afa2a1bf1c87/WhatsApp_Image_2026-05-29_at_13.13.59.jpeg"
     },
     {
       "showId": "lexfridman",
