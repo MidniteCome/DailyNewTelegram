@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-07-05T09:54:54.802Z",
+  "generatedAt": "2026-07-06T11:47:52.412Z",
   "items": [
-    {
-      "title": "Australia toughens kids' social media ban, doubles potential penalties for tech firms",
-      "link": "https://newslink.reuters.com/click/46343870.61835/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA2MjgyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OCZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158B25ec381d",
-      "author": "Reuters Technology Roundup",
-      "source": "newsletter:Reuters Technology Roundup",
-      "pubDate": "2026-06-28T15:01:05.000Z",
-      "summary": "96 Australia said on Saturday it would double the ​maximum penalty it can impose on tech firms that fail to uphold a ground-breaking social media ban for children, as evidence mounts that the ‌ban has had little effect on teen use. --> From breakthrough startups to Big Tech moves, stay ahead of indu",
-      "llmComment": "澳大利亚加强对儿童社交媒体禁令，违规科技公司的最大罚款将加倍。"
-    },
     {
       "title": "Markets swivel on tech, Mideast angst",
       "link": "https://newslink.reuters.com/click/46346639.20694/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTA2MjkyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158Be9415225",
@@ -17,7 +8,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-06-29T05:00:05.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Ankur Banerjee, Asia Finance & Markets Breaking News Correspondent Data",
-      "llmComment": "欧洲和全球市场因科技和中东问题而波动。"
+      "llmComment": "欧洲和全球市场的走势受到科技和中东局势的影响。今日市场展望可通过订阅每周1英镑的服务获取。"
     },
     {
       "title": "Weekend wars",
@@ -26,7 +17,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-06-29T10:30:05.000Z",
       "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-at-Large, Financ",
-      "llmComment": "晨间财经简报介绍了美国和全球市场的重要新闻。每周仅1英镑即可订阅。"
+      "llmComment": "全球市场今日关注点。每周仅1英镑订阅。"
     },
     {
       "title": "Is America too divided to celebrate as one?",
@@ -44,7 +35,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-06-29T11:30:15.000Z",
       "summary": "96 + Birthright, firings and election fights loom. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. We’ve got more U.S. Supreme Cour",
-      "llmComment": "美国最高法院重返工作，96岁高龄、出生权和解雇案等事件即将发生。"
+      "llmComment": "美国最高法院即将审理96+ Birthright、解雇和选举纠纷等案件。"
     },
     {
       "title": "Comcast to split cable business from media in NBCUniversal, Sky spinoff",
@@ -53,7 +44,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-06-29T13:03:22.000Z",
       "summary": "96 Comcast will split into two publicly traded companies through a spinoff of ​NBCUniversal and Sky, separating its cash-generating broadband arm from a media and entertainment business under pressure from streaming rivals and industry consolidation. --> Follow the biggest business stories of the da",
-      "llmComment": "康卡斯特将分拆有线电视业务和媒体业务，通过分拆NBCUniversal和Sky。"
+      "llmComment": "康卡斯特将分拆有线电视业务和媒体业务，NBCUniversal和Sky将分离出来。"
     },
     {
       "title": "SCOTUS allows Lisa Cook to stay at Fed",
@@ -62,7 +53,7 @@
       "source": "newsletter:The Afternoon Docket",
       "pubDate": "2026-06-29T14:46:04.000Z",
       "summary": "96 But Trump can fire FTC member. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Afternoon Docket The Afternoon Docket A weekly newsletter by Reuters and Westlaw By Caitlin Tremblay U.S. Supreme Court rejects Trump's unprecedented bid",
-      "llmComment": "美国最高法院拒绝特朗普的不寻常请求，允许丽莎·库克留任美联储。特朗普可以解除联邦贸易委员会成员职务。"
+      "llmComment": "美国最高法院拒绝特朗普的请求，允许丽莎·库克留任美联储。特朗普可以解除联邦贸易委员会成员职务。"
     },
     {
       "title": "NBCUniversal to be split from Comcast in latest media shakeup",
@@ -89,7 +80,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-06-30T10:30:22.000Z",
       "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-at-Large, Financ",
-      "llmComment": "今日美国和全球市场的重要事件。每周仅1英镑即可订阅相关新闻。"
+      "llmComment": "今日美国和全球市场的重要事件。每周仅需1英镑即可订阅相关新闻。"
     },
     {
       "title": "US and Iran meeting uncertain",
@@ -98,7 +89,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-06-30T10:59:23.000Z",
       "summary": "96 Plus, Supreme Court to rule on birthright citizenship. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Kate Turton Hello. A meeting between US and Iran negotiators is uncertain , the US Supreme Court strengthens Trump's ",
-      "llmComment": "美国与伊朗谈判会议不确定，美国最高法院将裁决出生权公民身份。"
+      "llmComment": "美国与伊朗谈判代表会面存在不确定性，美国最高法院即将就出生公民权做出裁决。"
     },
     {
       "title": "SCOTUS to decide birthright case today",
@@ -107,7 +98,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-06-30T11:30:08.000Z",
       "summary": "96 + Campaign finance and transgender athlete cases also remain. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. This is just a U.S",
-      "llmComment": "美国最高法院将决定出生权案。今日还有选举财务和变性运动员案件等待裁决。"
+      "llmComment": "美国最高法院将决定出生权案件。还有其他案件包括竞选财务和变性运动员案件。"
     },
     {
       "title": "US stock futures tick up as strong quarter nears end",
@@ -116,7 +107,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-06-30T13:02:00.000Z",
       "summary": "96 Wall Street futures ticked higher on Tuesday, ​during the final trading day of a quarter that saw equities post the biggest ‌gains in years. --> Follow the biggest business stories of the day with Reuters. Subscribe for £1/week. Reuters Business Reuters Business US stock futures tick up as strong",
-      "llmComment": "美国股指期货微涨，今年以来股市大幅上涨。"
+      "llmComment": "美股期货微涨，强劲的季度即将结束。美股本季度将创下多年来最大涨幅。"
     },
     {
       "title": "SCOTUS upholds birthright citizenship",
@@ -125,7 +116,7 @@
       "source": "newsletter:The Afternoon Docket",
       "pubDate": "2026-06-30T14:51:02.000Z",
       "summary": "96 + Campaign finance and trans athlete rulings. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Afternoon Docket The Afternoon Docket A weekly newsletter by Reuters and Westlaw By Caitlin Tremblay U.S. Supreme Court rejects Trump bid ",
-      "llmComment": "美国最高法院维护出生权公民身份。最高法院拒绝特朗普的申请。"
+      "llmComment": "美国最高法院维护了出生权公民身份，拒绝了特朗普的请求。"
     },
     {
       "title": "Samsung, SK Hynix mega South Korea chips gamble tests optimism of AI cycle",
@@ -134,7 +125,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-06-30T15:02:41.000Z",
       "summary": "96 Samsung Electronics and SK Hynix are making one of the biggest bets yet on the artificial intelligence boom with investments worth hundreds of billions of dollars, ​but the planned capacity buildout is stoking fears of a painful reckoning if AI spending cools. --> From breakthrough startups to Bi",
-      "llmComment": "三星和SK Hynix投资数百亿美元发展AI芯片，但过度扩张可能导致痛苦的调整。"
+      "llmComment": "三星和SK海力士在韩国投资数千亿美元发展芯片产业，押注人工智能热潮，但过度扩张可能导致痛苦的调整。"
     },
     {
       "title": "That's a lot of meat to digest",
@@ -143,7 +134,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-07-01T05:01:03.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Wayne Cole, Chief Correspondent, Treasury Data refreshes every time you",
-      "llmComment": "欧洲和全球市场即将开盘，96位专家为您提供市场前瞻。每周仅1英镑即可订阅。"
+      "llmComment": "欧洲和全球市场即将开市，提供每日资讯。仅需每周1英镑即可订阅。"
     },
     {
       "title": "Kicking off H2",
@@ -152,7 +143,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-07-01T10:37:12.000Z",
       "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Mike Dolan , Editor-at-Large, Financ",
-      "llmComment": "今日美国和全球市场的重要事件。每周仅需1英镑即可订阅。"
+      "llmComment": "今日美国和全球市场的重要事件。每周仅1英镑订阅即可获取最新资讯。"
     },
     {
       "title": "Trump's $1.4 billion crypto payday",
@@ -161,7 +152,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-07-01T10:59:27.000Z",
       "summary": "96 Plus, US and Iran enter technical talks to secure peace deal, restart shipping. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Claire Beers Hello. Trump reports over $1.4 billion in income from crypto ventures, the US a",
-      "llmComment": "特朗普的加密货币投资收益超过14亿美元。美国和伊朗进行技术谈判以达成和平协议。"
+      "llmComment": "特朗普的加密货币投资收益超过14亿美元。美国和伊朗进入技术谈判阶段，旨在达成和平协议并重启航运。"
     },
     {
       "title": "Where Trump won—and lost—at SCOTUS",
@@ -170,7 +161,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-07-01T12:01:51.000Z",
       "summary": "96 + The court’s biggest rulings at a glance. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. Today we have a look back at some of ",
-      "llmComment": "特朗普在最高法院赢得和输掉的案件回顾。报道法院最大判决。"
+      "llmComment": "特朗普在最高法院的胜败。报道了法院的重大判决。"
     },
     {
       "title": "Dollar bulls gain ground even as most FX strategists still expect weakness: Reuters poll",
@@ -179,7 +170,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-07-01T13:04:53.000Z",
       "summary": "96 The U.S. dollar’s recent rebound will fade in coming months as cooling oil prices temper inflation fears and Federal Reserve rate hike bets, a majority of FX strategists said in a Reuters poll, though a sizable minority say the strength is here to ​stay. --> Follow the biggest business stories of",
-      "llmComment": "美元近期反弹将会消退，多数外汇策略师预计未来几个月美元会走弱。"
+      "llmComment": "美元近期反弹将会逐渐消退，多数外汇策略师预计未来几个月美元会走弱。"
     },
     {
       "title": "Wayve courts automakers with AI driving system that learns like humans",
@@ -188,7 +179,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-07-01T15:02:05.000Z",
       "summary": "96 Autonomous-driving startup Wayve is riding a tide of investor interest. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to Reuters.com for £1/week. Technology Roundup Technology Roundup Wayve courts automakers with AI driving system that learns like hum",
-      "llmComment": "自动驾驶初创公司Wayve开发出类似人类学习的AI驾驶系统。该公司吸引了投资者的兴趣。"
+      "llmComment": "Wayve 的 AI 驾驶系统吸引了投资者和汽车制造商的关注。该系统能够像人类一样学习。"
     },
     {
       "title": "Shares pull back as markets await likely payrolls beat",
@@ -197,7 +188,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-07-02T05:00:15.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Stella Qui, Australia Economics & Markets Correspondent Data refreshes ",
-      "llmComment": "欧洲股市回调，市场等待就业数据。今日焦点关注欧洲和全球市场走势。"
+      "llmComment": "欧洲股市回调，市场等待就业数据。"
     },
     {
       "title": "Churning chips",
@@ -224,7 +215,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-07-02T12:01:25.000Z",
       "summary": "96 + Critics warn of a more politicized federal government. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. Today we’re kicking off",
-      "llmComment": null
+      "llmComment": "每周1英镑订阅，关注法院、律师事务所和法律实践的重大发展。"
     },
     {
       "title": "Morning Bid: Churning chips",
@@ -323,6 +314,33 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-07-04T15:01:06.000Z",
       "summary": "96 Here Now Health isn't an AI-based company, but its quick path from an idea in founder Michelle Turner's mind to an operating mental health platform for foster children relied deeply on the technology now restructuring the U.S. economy. --> From breakthrough startups to Big Tech moves, stay ahead ",
+      "llmComment": null
+    },
+    {
+      "title": "For one small business, AI was key to a quick start and expansion",
+      "link": "https://newslink.reuters.com/click/46444683.63303/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA3MDUyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OCZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158B54f92fba",
+      "author": "Reuters Technology Roundup",
+      "source": "newsletter:Reuters Technology Roundup",
+      "pubDate": "2026-07-05T15:01:05.000Z",
+      "summary": "96 Michelle Turner had no experience with startup culture so she developed her funding pitch with AI guidance. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to Reuters.com for £1/week. Technology Roundup Technology Roundup For one small business, AI was ",
+      "llmComment": null
+    },
+    {
+      "title": "From payrolls to profits",
+      "link": "https://newslink.reuters.com/click/46448031.43017/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtVVMmdXRtX3Rlcm09MDcwNjI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4JnVzZXJfZW1haWw9MmZiNzYxYTRkMDU4M2IzODJmZjUzMjJhYjFiMDI2MzQwMTc2MTIzYTJlYmM3OTYxNDFiZjFlMmU3ZTA5N2E0Yg/699d8f6975a57008a503f158B01d872f5",
+      "author": "Morning Bid U.S.",
+      "source": "newsletter:Morning Bid U.S.",
+      "pubDate": "2026-07-06T10:31:11.000Z",
+      "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Anna Szymanski , Editor-in-Charge, R",
+      "llmComment": null
+    },
+    {
+      "title": "Khamenei's successor not at funeral service",
+      "link": "https://newslink.reuters.com/click/46449162.472288/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktQnJpZWZpbmcmdXRtX3Rlcm09MDcwNjI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4JnVzZXJfZW1haWw9MmZiNzYxYTRkMDU4M2IzODJmZjUzMjJhYjFiMDI2MzQwMTc2MTIzYTJlYmM3OTYxNDFiZjFlMmU3ZTA5N2E0Yg/699d8f6975a57008a503f158B6b44f288",
+      "author": "Reuters Daily Briefing",
+      "source": "newsletter:Reuters Daily Briefing",
+      "pubDate": "2026-07-06T10:59:20.000Z",
+      "summary": "96 Plus, Trump's FIFA intervention causes World Cup storm. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Claire Beers Hello. The funeral for Iran's slain leader Khamenei goes ahead without his successor, Trump intervenes ",
       "llmComment": null
     }
   ]
