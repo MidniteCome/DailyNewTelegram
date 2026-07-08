@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-07T21:16:08.577Z",
+    "updatedAt": "2026-07-08T09:55:09.616Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Cracking down on egg prices",
+      "link": "https://www.npr.org/2026/07/08/nx-s1-5884996/cracking-down-on-egg-prices",
+      "pubDate": "2026-07-08T07:00:00.000Z",
+      "duration": "593",
+      "summary": "Too much news, there’s just too much news. Today on the show, we tackle three big stories we’re following: Venezuela’s ever-increasing debt problem, the real story behind high egg prices, and how gami",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F10%2F7f%2F803ceb174a20b4d8f06f93bd1187%2F0c20d3ea-03eb-4543-b414-5f10b9c8bd40.jpg"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -812,17 +823,6 @@
       "duration": "9480",
       "summary": "Chase Hughes is an expert in behavioral profiling, influence, and persuasion. He is the creator of the Neuro-Cognitive Intelligence system, founder of the “Station One” YouTube channel, and the author",
       "art": "https://megaphone.imgix.net/podcasts/38a59f2e-69ed-11f1-979c-7f087c850f79/image/6e9ff39f757235fd3940f4b3644740ed.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Is gambling the reason we have pro sports?",
-      "link": "https://www.npr.org/2026/06/17/nx-s1-5860672/is-gambling-the-reason-we-have-pro-sports",
-      "pubDate": "2026-06-17T07:00:00.000Z",
-      "duration": "544",
-      "summary": "To hear author David Bockino tell it, gambling has always been a key ingredient of pro sports in the U.S.—it’s as American as apple pie. Bockino is the author of the new book Over/Under: An Unexpected",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1b%2F04%2F31248bea4a66861486fe1f9c8b46%2F57016c9a-9a58-4cf7-9afb-f2769243281f.jpg"
     },
     {
       "showId": "left-right",
