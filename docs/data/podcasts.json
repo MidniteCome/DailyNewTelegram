@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-09T16:30:23.197Z",
+    "updatedAt": "2026-07-09T21:13:50.008Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #182 - Protect Ya Neck",
+      "link": "https://traffic.megaphone.fm/GLT1118485865.mp3",
+      "pubDate": "2026-07-09T17:00:00.000Z",
+      "duration": "9903",
+      "summary": "Joe is joined by mixed martial artists John Rallo, Matt Serra, and Din Thomas. John Rallo owns Shogun Fights and is the owner and head coach of Ground Control Mixed Martial Arts Academy.www.groundcont",
+      "art": "https://megaphone.imgix.net/podcasts/34453dce-7b20-11f1-92f8-4f32c8ca28d7/image/1c87b5e21277836f5982efcd7d18609c.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "etw",
       "showName": "声东击西",
@@ -1032,17 +1043,6 @@
       "duration": "24:37",
       "summary": "(0:00) Dan Dreyfus Presents: The Future of Critical Minerals (0:33) America's \"Capital Light Era\" is over, rapid supply/demand shocks (5:40) Impact of China cutting off the US from critical minerals (",
       "art": "https://static.libsyn.com/p/assets/b/3/0/0/b300a1698fd66e4516c3140a3186d450/Podcast_Graphic_-_Liquidity-20260610-0jeiy2jpei.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2511 - Terry Bradshaw",
-      "link": "https://traffic.megaphone.fm/GLT1002417746.mp3",
-      "pubDate": "2026-06-09T17:00:00.000Z",
-      "duration": "9816",
-      "summary": "Terry Bradshaw is a retired NFL quarterback whose 14 seasons with the Pittsburgh Steelers included four Super Bowl wins, leading to his induction into the Pro Football Hall of Fame. Bradshaw is also a",
-      "art": "https://megaphone.imgix.net/podcasts/2812b022-639c-11f1-a977-ef24292591fb/image/74e33920a0b31998160b2437a0bdff98.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "allin",
