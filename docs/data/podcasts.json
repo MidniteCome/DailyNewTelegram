@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-07-08T20:57:46.613Z",
-    "totalEpisodes": 165,
+    "updatedAt": "2026-07-09T16:30:23.197Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": null,
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/7190613c58bad86913afb6991d842e2f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -165,6 +165,50 @@
   ],
   "episodes": [
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#396 脱欧十年：当经济撑不起身份叙事，英国还剩什么？",
+      "link": "https://etw.fm/2216",
+      "pubDate": "2026-07-09T09:30:00.000Z",
+      "duration": "59:18",
+      "summary": "十年前的 6 月 23 日，英国以 51.9% 对 48.1% 的公投结果决定退出欧盟，十年后的当下，这个国家却似乎比任何时候都要显得迷茫。 来自工党的基尔·斯塔默宣布辞去首相职务，英国将在 10 年间迎来第 7 位首相。从穿衣的仪式感、王室的余晖，到「拿回控制权」的脱欧口号，英国一直在用各种方式证明自己“与众不同”——可当经济基础再也撑不起这套身份叙事，这个曾经的日不落帝国，究竟还能靠什么找到自",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Sam Altman Offers Trump 5% of OpenAI: Fool or Genius? | Alex Karp Sounds the Alarm: Enterprises Fear Frontier Models & Questionable ROI of AI | The Rise of Chinese Open Source: Deepseek Building Own Chips",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-sam-altman-offers-trump-5-of-openai-fool-or-genius-alex-karp-sounds-the-alarm-enterprises-fear-frontier-models-questionable-roi-of-ai-the-rise-of-chinese-open-source-deepseek-building-own-chips",
+      "pubDate": "2026-07-09T07:07:00.000Z",
+      "duration": "01:23:32",
+      "summary": "AGENDA: 05:00 Washington Just Put Frontier AI on a Leash 06:30 Sam Altman's Wild 5% Government Stake Idea 19:00 The AI Funding Bubble: Why Founders No Longer Fear Dilution 28:00 Alex Karp's Brutal War",
+      "art": "https://static.libsyn.com/p/assets/3/d/d/4/3dd475bc8de360c716c3140a3186d450/WhatsApp_Image_2026-07-08_at_13.10.54.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Why Google fell behind in the AI race",
+      "link": "https://www.npr.org/2026/07/09/nx-s1-5885026/why-google-fell-behind-in-the-ai-race",
+      "pubDate": "2026-07-09T07:00:00.000Z",
+      "duration": "567",
+      "summary": "When it comes to AI, Google’s Gemini does not have the same household recognition that Claude and ChatGPT do. One big explanation: the innovator’s dilemma. We explain how Google DeepMind CEO Demis Has",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F46%2F47%2Fdcfaac7945fb8f3ad23eb63bc047%2Fa1e49d02-33c0-447b-9f54-ee5301e45703.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2524 - Rupert Lowe",
+      "link": "https://traffic.megaphone.fm/GLT2768068918.mp3",
+      "pubDate": "2026-07-08T17:00:00.000Z",
+      "duration": "7806",
+      "summary": "Rupert Lowe is a British politician who has served as the member of Parliament for Great Yarmouth since 2024 and the leader of Restore Britain. Perplexity: Download the app or ask Perplexity anything ",
+      "art": "https://megaphone.imgix.net/podcasts/91f58b9e-7a68-11f1-b64d-b7a9d3eaf022/image/71afd8c144033650bec3ce8d5039a8ce.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -174,6 +218,17 @@
       "duration": "593",
       "summary": "Too much news, there’s just too much news. Today on the show, we tackle three big stories we’re following: Venezuela’s ever-increasing debt problem, the real story behind high egg prices, and how gami",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F10%2F7f%2F803ceb174a20b4d8f06f93bd1187%2F0c20d3ea-03eb-4543-b414-5f10b9c8bd40.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2523 - Ali Siddiq",
+      "link": "https://traffic.megaphone.fm/GLT2738913736.mp3",
+      "pubDate": "2026-07-07T17:00:00.000Z",
+      "duration": "10030",
+      "summary": "Ali Siddiq is a comedian, author, and public speaker. His new special, \"My Father,\" is now streaming on YouTube. See him live on the \"Custom Fit\" Tour.https://youtu.be/XiSewRUOVygwww.youtube.com/@AliS",
+      "art": "https://megaphone.imgix.net/podcasts/20c24484-7992-11f1-a40e-3f6b34f7c121/image/8d291f84318b393b58150b567becafaf.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -297,6 +352,17 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2522 - Tony Hinchcliffe",
+      "link": "https://traffic.megaphone.fm/GLT9450539163.mp3",
+      "pubDate": "2026-07-02T17:00:00.000Z",
+      "duration": "10478",
+      "summary": "Tony Hinchcliffe is a comedian, writer, actor, and host of the podcast and live show “Kill Tony.” His new special, \"Man of the People,\" is now streaming on Netflix.www.youtube.com/@killtonyhttps://ton",
+      "art": "https://megaphone.imgix.net/podcasts/254816ac-75d0-11f1-bc38-8bc518292219/image/742fc54b89a0240534c8e0eef21dcca6.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -328,6 +394,17 @@
       "duration": "01:17:10",
       "summary": "AGENDA: 00:00 Coinbase Slashes AI Spend 50%—Is the AI Token Bubble Bursting? 12:55 Anthropic Warns Open Source Could Destroy the AI Business Model 18:10 Dario Escalates the AI War with China & Open-So",
       "art": "https://static.libsyn.com/p/assets/1/e/d/5/1ed5e07edcebeb0cd959afa2a1bf1c87/WhatsApp_Image_2026-07-01_at_16.27.05.jpeg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2521 - Aravind Srinivas",
+      "link": "https://traffic.megaphone.fm/GLT7312775809.mp3",
+      "pubDate": "2026-07-01T17:00:00.000Z",
+      "duration": "9429",
+      "summary": "Aravind Srinivas, PhD, is the co-founder and CEO of Perplexity AI, creator of the AI-powered search and answer engine Perplexity.www.perplexity.ai Perplexity: Download the app or ask Perplexity anythi",
+      "art": "https://megaphone.imgix.net/podcasts/cff13406-751e-11f1-8cb0-d7b1301ef48c/image/03740dc0c8a9a2775f8650e080c0061c.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -372,6 +449,17 @@
       "duration": "1431",
       "summary": "Honeywell Technologies Chairman and CEO Vimal Kapur joined John Waldron to discuss the organization's transformation into a more focused automation company and its strategy to unlock growth through in",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2520 - Tommy Lee",
+      "link": "https://traffic.megaphone.fm/GLT2102720692.mp3",
+      "pubDate": "2026-06-30T17:00:00.000Z",
+      "duration": "8952",
+      "summary": "Tommy Lee is a genre-spanning solo musician, producer, and songwriter as well as the drummer and co-founder of Mötley Crüe. His latest album is “Tommyland Rides Again.” See him live with Mötley Crüe o",
+      "art": "https://megaphone.imgix.net/podcasts/21b93c20-7420-11f1-83c5-df47138ce738/image/5878c251c6b6c7090e4e0a039b075238.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -462,6 +550,17 @@
       "art": "https://static.libsyn.com/p/assets/c/b/e/9/cbe9070445114b7416c3140a3186d450/1_Pod_E278.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2519 - Scott Eastwood",
+      "link": "https://traffic.megaphone.fm/GLT2167530910.mp3",
+      "pubDate": "2026-06-26T17:00:00.000Z",
+      "duration": "9257",
+      "summary": "Scott Eastwood is an actor and producer known for his roles in films including “Fury,” “The Fate of the Furious,” and “Outpost.” His new film, “Lucky Strike,” will be released June 26.https://youtu.be",
+      "art": "https://megaphone.imgix.net/podcasts/f613449c-70e8-11f1-8b42-c7b7016e25ae/image/ec4642142ad707175f7baf49a7febd34.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -539,6 +638,17 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2518 - Tim Dillon",
+      "link": "https://traffic.megaphone.fm/GLT2211636736.mp3",
+      "pubDate": "2026-06-24T17:00:00.000Z",
+      "duration": "9902",
+      "summary": "Tim Dillon is a stand-up comic, actor, and host of “The Tim Dillon Show” podcast. His latest comedy special, “Tim Dillon: I’m Your Mother,” is available on Netflix.www.youtube.com/@TimDillonShowwww.pa",
+      "art": "https://megaphone.imgix.net/podcasts/231bd648-6f6d-11f1-a048-3b077aa29ad3/image/3b17cdbc50e914c56886cd487f79c693.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -559,6 +669,17 @@
       "duration": "01:03:03",
       "summary": "(0:00) David Friedberg intros GameStop CEO Ryan Cohen! (1:56) Building and selling Chewy for $3.35B, how to compete with Amazon in e-commerce (11:58) Post-Chewy life, activist investing, the road to G",
       "art": "https://static.libsyn.com/p/assets/9/3/1/3/93138d0f7fcef9b816c3140a3186d450/1_Pod_Cohen.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2517 - Taylor Sheridan",
+      "link": "https://traffic.megaphone.fm/GLT1253733274.mp3",
+      "pubDate": "2026-06-23T17:00:00.000Z",
+      "duration": "10187",
+      "summary": "Taylor Sheridan is a writer, director, and producer of multiple series and films, including “Landman,” “Lioness,” “The Madison,” “Sicario,” and “Hell or High Water.” He is also a restaurateur, rancher",
+      "art": "https://megaphone.imgix.net/podcasts/1e41120c-6e99-11f1-ba79-179f81c1fdeb/image/2d31a45cb096385143ce6df38d6404c7.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -627,6 +748,17 @@
       "art": "https://img.transistorcdn.com/kCB3B2iISM-bCdDu6pysFaFa0p3IYktCnNb8Q5VFycc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS85MmI3/Mjg0MDI2MWU4ZDc4/M2YyOGZjMzllNjll/ODBlYi5qcGc.jpg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #181 with Justin Gaethje & Trevor Wittman",
+      "link": "https://traffic.megaphone.fm/GLT1314948676.mp3",
+      "pubDate": "2026-06-20T17:00:00.000Z",
+      "duration": "8619",
+      "summary": "Joe is joined by UFC Lightweight Champion Justin Gaethje & boxing and MMA trainer Trevor Wittman. https://www.youtube.com/@justin_gaethje https://onxsports.com/ Perplexity: Download the app or ask Per",
+      "art": "https://megaphone.imgix.net/podcasts/c02c1d02-6c3a-11f1-9abf-470c52089759/image/ede67c34735f33ef01819adae0265eca.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -682,6 +814,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fea%2Fa4%2F6fc67b9a44aa9893692ea8a8b44e%2F7299474b-636c-4612-be4d-e31bb4cef3ab.jpg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2516 - Rowan Jacobsen",
+      "link": "https://traffic.megaphone.fm/GLT3995715859.mp3",
+      "pubDate": "2026-06-18T17:00:00.000Z",
+      "duration": "7606",
+      "summary": "Rowan Jacobsen is an award-winning science and nature writer. His new book, “In Defense of Sunlight: The Surprising Science of Sun Exposure,” is available now.www.simonandschuster.com/books/In-Defense",
+      "art": "https://megaphone.imgix.net/podcasts/04cb4c58-6aab-11f1-908a-ab69dccb621b/image/af988ac23c611415132d37439ec0c7d8.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -693,17 +836,6 @@
       "art": "https://static.libsyn.com/p/assets/a/c/d/6/acd65f142e61da0116c3140a3186d450/WhatsApp_Image_2026-06-17_at_15.08.44.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Are we in a new era of permanently higher prices?",
-      "link": "https://www.npr.org/2026/06/18/nx-s1-5861870/are-we-in-a-new-era-of-permanently-higher-prices",
-      "pubDate": "2026-06-18T07:00:00.000Z",
-      "duration": "566",
-      "summary": "Inflation is at a three-year high. That’s a problem for the Fed. Yet, under the leadership of new chair Kevin Warsh, it opted yesterday not to hike interest rates. So today on the show, who are the wi",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F0c%2F02%2F05e09291474ab176ce98eff8ad7c%2F54d746cd-c8c1-49ae-8fcb-866408231a71.jpg"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -713,6 +845,17 @@
       "duration": "1:02:39",
       "summary": "当屏幕、AI 甚至算法越来越多地进入孩子们的生活，现在的「玩」和我们儿时的「玩」还是一个概念吗？ 《玩具总动员》系列从 1995 年走到今天，30 年间，它讨论过友谊、成长、告别……这一次，它把目光投向了一个非常当下的问题 —— 数字时代的童年，「玩」这件事正在发生怎样的改变，今天的我们又应该如何看待「玩」在人类成长过程中扮演的角色？ 这期节目，我们想借《玩具总动员 5》的上映来认真聊一聊：从儿童",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2515 - Chase Hughes",
+      "link": "https://traffic.megaphone.fm/GLT3525009015.mp3",
+      "pubDate": "2026-06-17T17:00:00.000Z",
+      "duration": "9480",
+      "summary": "Chase Hughes is an expert in behavioral profiling, influence, and persuasion. He is the creator of the Neuro-Cognitive Intelligence system, founder of the “Station One” YouTube channel, and the author",
+      "art": "https://megaphone.imgix.net/podcasts/38a59f2e-69ed-11f1-979c-7f087c850f79/image/6e9ff39f757235fd3940f4b3644740ed.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -770,6 +913,17 @@
       "art": "https://static.libsyn.com/p/assets/6/7/e/c/67ec7acb0cac9bead959afa2a1bf1c87/1_Pod_E276.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2514 - Cameron Hanes",
+      "link": "https://traffic.megaphone.fm/GLT5962536956.mp3",
+      "pubDate": "2026-06-12T17:00:00.000Z",
+      "duration": "10786",
+      "summary": "Cameron Hanes is a bowhunter, outdoorsman, endurance athlete, author, and host of the podcasts “Keep Hammering Collective,” “Sh*t Talkers Weekly,” and “Lift. Run. Shoot.” His most recent book is “Unde",
+      "art": "https://megaphone.imgix.net/podcasts/100d3320-65f5-11f1-aef9-83438d6ed8f3/image/3c8a40b8f1e41bacd1bac5db29cefa55.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -801,6 +955,17 @@
       "duration": "01:20:47",
       "summary": "Brad Gerstner sits down with Gavin Baker and Andrew Fox of Atreides Management, alongside Altimeter partner Clark Tang, to break down one of the biggest questions in tech and markets: how should inves",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2513 - Dean Radin",
+      "link": "https://traffic.megaphone.fm/GLT4705922379.mp3",
+      "pubDate": "2026-06-11T17:00:00.000Z",
+      "duration": "9834",
+      "summary": "Dean Radin, PhD, is Chief Scientist at the Institute of Noetic Sciences (IONS), Associate Distinguished Professor at the California Institute of Integral Studies, and co-founder and chairman of the ne",
+      "art": "https://megaphone.imgix.net/podcasts/85128b08-6518-11f1-8ac2-33b58404e123/image/8cea23fbcb8622a31e1152dc27538fe5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -836,6 +1001,17 @@
       "art": "https://static.libsyn.com/p/assets/f/0/b/3/f0b30d692ad9524d16c3140a3186d450/Podcast_Graphic_-_Liquidity-20260610-mm1ibd72q7.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2512 - Joey Diaz",
+      "link": "https://traffic.megaphone.fm/GLT1423641866.mp3",
+      "pubDate": "2026-06-10T17:00:00.000Z",
+      "duration": "10352",
+      "summary": "Joey Diaz is a stand-up comedian, actor, and writer. He is the host of the podcast “The Church of What’s Happening Now: The New Testament” and the author of “Tremendous: The Life of a Comedy Savage.”w",
+      "art": "https://megaphone.imgix.net/podcasts/4ad4246e-6456-11f1-a4da-aff897fdf12f/image/50778c3292dc81e0b565980c3d92b31d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -856,6 +1032,17 @@
       "duration": "24:37",
       "summary": "(0:00) Dan Dreyfus Presents: The Future of Critical Minerals (0:33) America's \"Capital Light Era\" is over, rapid supply/demand shocks (5:40) Impact of China cutting off the US from critical minerals (",
       "art": "https://static.libsyn.com/p/assets/b/3/0/0/b300a1698fd66e4516c3140a3186d450/Podcast_Graphic_-_Liquidity-20260610-0jeiy2jpei.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2511 - Terry Bradshaw",
+      "link": "https://traffic.megaphone.fm/GLT1002417746.mp3",
+      "pubDate": "2026-06-09T17:00:00.000Z",
+      "duration": "9816",
+      "summary": "Terry Bradshaw is a retired NFL quarterback whose 14 seasons with the Pittsburgh Steelers included four Super Bowl wins, leading to his induction into the Pro Football Hall of Fame. Bradshaw is also a",
+      "art": "https://megaphone.imgix.net/podcasts/2812b022-639c-11f1-a977-ef24292591fb/image/74e33920a0b31998160b2437a0bdff98.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "allin",
@@ -1010,17 +1197,6 @@
       "duration": "56:55",
       "summary": "6 月，美伊战争进入新一轮谈判，和平似有一线希望。但与此同时，海湾地区一对曾经的兄弟国家——沙特与阿联酋——却似乎渐行渐远，这一切究竟是怎么发生的？ 4 月 28 日，阿联酋宣布退出由沙特主导的 OPEC（欧佩克），这场看似突然的分手，背后却是一场 50 余年的关系演变：他们曾以小弟与大哥的姿态相处，曾在战场上并肩出兵，但近十年来，经济上的竞争、外交上的分歧、甚至军事上的正面对抗，已经让这对盟友走",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Anthropic Files to Go Public | Token Budgeting Panic Hits Corporate America | Cognition Raises $1BN at $26BN Valuation | Apollo Warns PE Software Returns Will be Disastrous | The 9-9-6 Work Ethic: Performative Theatre or Startup Reality?",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-files-to-go-public-token-budgeting-panic-hits-corporate-america-cognition-raises-1bn-at-26bn-valuation-apollo-warns-pe-software-returns-will-be-disastrous-the-9-9-6-work-ethic-performative-theatre-or-startup-reality",
-      "pubDate": "2026-06-04T07:07:00.000Z",
-      "duration": "01:34:04",
-      "summary": "AGENDA: 00:00:00 — Private Markets Are \"F***ing Done\" & The Shift to Heavy CapEx 00:00:46 — Anthropic Files to Go Public 00:04:59 — Will the Anthropic IPO Break the Startup Ecosystem? 00:06:22 — The \"",
-      "art": "https://static.libsyn.com/p/assets/8/2/b/1/82b1d38b62903812d959afa2a1bf1c87/WhatsApp_Image_2026-06-03_at_13.44.08.jpeg"
     },
     {
       "showId": "weirdo",
@@ -1505,17 +1681,6 @@
       "duration": "01:03:40",
       "summary": "In this BG2 guest interview, Altimeter Partner Apoorv Agrawal sits down with Nick Turley of OpenAI for a deep dive into how ChatGPT became one of the fastest-growing products in history—and what comes",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#381 当AI公司Anthropic对抗五角大楼，这是 AI 的奥本海默时刻吗",
-      "link": "https://etw.fm/2202-ai-oppenheimer-moment",
-      "pubDate": "2026-03-12T06:30:00.000Z",
-      "duration": "56:14",
-      "summary": "过去两周，美以伊冲突无疑是全球最大的变数。但在硝烟之后，另一场同样深刻的冲突也正在发生，表面上这是 AI 公司 Anthropic 与五角大楼的争端，背后却隐含着更多这个时代需要回答的问题：一家提供技术的 AI 公司，有没有权利限制自己的模型被政府如何使用？当 AI 成为新的基础设施，它的边界该由谁来划定？又该由谁来承担失控之后的责任？ 本期节目是《科技早知道》与《声东击西》的串台特别版。我们从 ",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "lexfridman",
