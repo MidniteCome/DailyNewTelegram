@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-09T21:13:50.008Z",
+    "updatedAt": "2026-07-10T10:34:49.755Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,50 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "482 「推广国音」与「收听敌台」：王雨谈20世纪中国的广播技术政治史",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a50b52d4adef2b36561d95e?utm_source=rss",
+      "pubDate": "2026-07-10T09:26:10.000Z",
+      "duration": "01:11:50",
+      "summary": "- 导语 - 在20世纪的中国，广播不只是一种技术媒介。从1923年首家电台在上海诞生，到延安窑洞里女播音员的声音穿越战火，再到大喇叭成为一代人的集体记忆，广播的发展始终与政治、技术与日常生活紧密交织。外资林立，国民政府如何在30年代治理城市公共广播电台？为何延安的早期广播偏好女播音员？生产收音机、培养收音员下乡，新中国是怎样改造和搭建全国广播体系的？方言播音又如何在地方平衡统一与多元的需求？欢迎",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "The Very Good and Very Bad News on Climate",
+      "link": "https://www.nytimes.com/2026/07/10/opinion/ezra-klein-podcast-bill-mckibben.html",
+      "pubDate": "2026-07-10T09:00:00.000Z",
+      "duration": "01:25:22",
+      "summary": "Already this summer, there have been huge wildfires in the Southwest and Great Plains and an extraordinary heat wave in Europe, as the world stares down the barrel of a powerful El Niño. Climate chang",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "SK Hynix to the moon, Gen-Z to their rooms, and Connecticut tax reform looms",
+      "link": "https://www.npr.org/2026/07/10/nx-s1-5887680/sk-hynix-to-the-moon-gen-z-to-their-rooms-and-connecticut-tax-reform-looms",
+      "pubDate": "2026-07-10T07:00:00.000Z",
+      "duration": "532",
+      "summary": "It’s Indicators of the Week (now on YouTube !). On today’s episode: You could’ve septupled your money if you invested in this scalding-hot South Korean memory chip stock; nearly half of all adults und",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc5%2F6c%2Fe3a2d84e4331ad5f97be33f59893%2F9f9ca096-e02b-4eb8-89ee-6544737973b8.png"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+      "link": "https://allinchamathjason.libsyn.com/open-source-wins-agi-is-here-and-scorseses-ai-toolkit-with-ceos-of-cerebras-black-forest-labs",
+      "pubDate": "2026-07-10T01:26:00.000Z",
+      "duration": "01:03:57",
+      "summary": "(0:00) The AI Buildout: Datacenters Bigger Than Cities (Andrew Feldman) (1:50) Reasoning, Inference, and Breaking Moore's Law (16:28) Open Source, AI Sovereignty, and the Road to AGI (40:54) The Innov",
+      "art": "https://static.libsyn.com/p/assets/d/1/d/d/d1dd2623c0e3ae6a16c3140a3186d450/1_Pod_Versailles-20260710-0sxlqfsd3j.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -814,17 +858,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "How your phone keeps you scrolling ... even when you want to stop",
-      "link": "https://www.npr.org/2026/06/19/nx-s1-5863554/how-your-phone-keeps-you-scrolling-even-when-you-want-to-stop",
-      "pubDate": "2026-06-19T07:00:00.000Z",
-      "duration": "548",
-      "summary": "You pick up your phone to do one quick task, and suddenly 20 minutes have flown by without you even noticing. How do apps do that to you? Today on the show, we bring you an episode of Short Wave that ",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fea%2Fa4%2F6fc67b9a44aa9893692ea8a8b44e%2F7299474b-636c-4612-be4d-e31bb4cef3ab.jpg"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1177,17 +1210,6 @@
       "art": "https://image.xyzcdn.net/FvZfckFcavT1CgwW_gSQp3JEC9Xz.png"
     },
     {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
-      "link": "https://allinchamathjason.libsyn.com/thomas-laffont-the-4t-ai-ipo-wave-2026s-unicorn-economy-and-the-10x-paradox",
-      "pubDate": "2026-06-04T18:23:00.000Z",
-      "duration": "32:45",
-      "summary": "(0:00) Coatue's Thomas Laffont joins the Besties! (0:30) Public markets are back as AI is dominates the \"Unicorn Economy\" (5:15) The $4T AI IPO explosion (7:48) The case for SpaceX: Compounding launch",
-      "art": "https://static.libsyn.com/p/assets/4/c/3/0/4c300253a3ce6f7516c3140a3186d450/Podcast_Graphic_-_Liquidity-20260604-rdp09014pn.png"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -1342,17 +1364,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "474 三百年细说从头：孙立天谈传教士档案视角的康熙废储与夺嫡疑云",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a0c256be1eb34a939b0cb35?utm_source=rss",
-      "pubDate": "2026-05-19T09:21:09.000Z",
-      "duration": "02:03:15",
-      "summary": "- 导语 - 1726年，雍正帝最为痛恨的罪人年羹尧、皇八子、皇九子均死于这一年。300年后，历史学者孙立天结合新发现的拉丁文史料《北京纪事》，以及2019年出版《本朝题驳公案》中康熙朝晚期邸报内容，重新梳理康熙朝接班人冲突的全过程，为这段历史提供了新的解读视角。从内廷传教士和包衣的观察切入两次废太子事件，是康熙蓄谋已久还是突生变故？崇尚武力的康熙帝在皇四子、皇八子、皇十四子中究竟偏爱谁？年羹尧与",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1450,17 +1461,6 @@
       "duration": "01:03:52",
       "summary": "【主播的话】 去年一个偶然的机会，我在纽约认识了高琴教授，还发现我们是邻居。 在那之前，我已经对高琴教授的有所耳闻。她是著作丰硕的社会政策学者，在哥伦比亚大学社会工作学院任教，是讲席教授，同时担任博士项目主管副院长，以研究中国贫困问题见长。她常年组织大规模的社会调查，用数据来研究贫困的根源、影响与政策应对。她同时还是哥大“亚裔美国人”项目主任。在哥大——一个竞争激烈、精英云集、以全球化和多元化闻名",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "The Book That Changed How I Think About Liberalism",
-      "link": "https://www.nytimes.com/2026/05/05/opinion/ezra-klein-podcast-helena-rosenblatt.html",
-      "pubDate": "2026-05-05T09:00:00.000Z",
-      "duration": "01:05:00",
-      "summary": "In the U.S., illiberalism is in power. I don’t think anybody really argues against that. But I’ve been surprised by how weak liberalism has felt in response. Donald Trump isn’t a popular president; he",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "etw",
