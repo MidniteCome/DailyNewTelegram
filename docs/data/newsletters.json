@@ -1,42 +1,6 @@
 {
-  "generatedAt": "2026-07-10T10:34:38.579Z",
+  "generatedAt": "2026-07-11T09:07:14.285Z",
   "items": [
-    {
-      "title": "Stocks shake it off",
-      "link": "https://newslink.reuters.com/click/46423164.4367/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTA3MDMyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B8b734f6e",
-      "author": "Reuters Morning Bid Europe",
-      "source": "newsletter:Reuters Morning Bid Europe",
-      "pubDate": "2026-07-03T05:00:08.000Z",
-      "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Gregor Stuart Hunter, Asia Finance & Markets Breaking News Corresponden",
-      "llmComment": "欧洲和全球市场即将开盘。每周仅需1英镑即可订阅获取最新资讯。"
-    },
-    {
-      "title": "Iran prepares to bury slain supreme leader",
-      "link": "https://newslink.reuters.com/click/46428581.417411/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktQnJpZWZpbmcmdXRtX3Rlcm09MDcwMzI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4JnVzZXJfZW1haWw9MmZiNzYxYTRkMDU4M2IzODJmZjUzMjJhYjFiMDI2MzQwMTc2MTIzYTJlYmM3OTYxNDFiZjFlMmU3ZTA5N2E0Yg/699d8f6975a57008a503f158B856f1555",
-      "author": "Reuters Daily Briefing",
-      "source": "newsletter:Reuters Daily Briefing",
-      "pubDate": "2026-07-03T10:59:16.000Z",
-      "summary": "96 Plus, New York City prepares for a busy weekend. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Claire Beers Hello. Iran prepares to bury slain supreme leader with week of mass mourning, Meta's Zuckerberg acknowledges s",
-      "llmComment": "伊朗准备为遇刺的最高领袖举行国葬，并将举行一周的哀悼活动。"
-    },
-    {
-      "title": "US oil companies see big profit jump, gird for clash over pump prices with Trump",
-      "link": "https://newslink.reuters.com/click/46429475.50911/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249UmV1dGVycy1CdXNpbmVzcyZ1dG1fdGVybT0wNzAzMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTgmdXNlcl9lbWFpbD0yZmI3NjFhNGQwNTgzYjM4MmZmNTMyMmFiMWIwMjYzNDAxNzYxMjNhMmViYzc5NjE0MWJmMWUyZTdlMDk3YTRi/699d8f6975a57008a503f158B8cc03dcf",
-      "author": "Reuters Business",
-      "source": "newsletter:Reuters Business",
-      "pubDate": "2026-07-03T13:04:27.000Z",
-      "summary": "96 U.S. oil companies are set to report their strongest quarterly profits in years, courting a possible clash with President Donald Trump, who has been pressing his ​longtime ally Big Oil to bring down gasoline prices before midterm elections in November. --> Follow the biggest business stories of t",
-      "llmComment": "96家美国石油公司将报告多年来最强劲的季度利润。特朗普总统可能会与石油公司发生冲突，要求降低汽油价格。"
-    },
-    {
-      "title": "Argentina's plan for AI-run companies can't avoid humans",
-      "link": "https://newslink.reuters.com/click/46431121.46085/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA3MDMyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OCZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158B5fd6ab95",
-      "author": "Reuters Technology Roundup",
-      "source": "newsletter:Reuters Technology Roundup",
-      "pubDate": "2026-07-03T15:01:09.000Z",
-      "summary": "96 Argentine President Javier Milei generated both excitement and fear last month when he announced a congressional bill to create “non-human corporations” run by AI, but the companies would actually require ​human involvement. --> From breakthrough startups to Big Tech moves, stay ahead of industry",
-      "llmComment": "阿根廷总统哈维尔·米莱伊提出了一项国会法案，创建由人工智能运营的“非人类公司”。然而，这些公司实际上仍需要人类的参与。"
-    },
     {
       "title": "Cleaving the colossus",
       "link": "https://newslink.reuters.com/click/46429349.34800/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGhlLVdlZWstSW4tQnJlYWtpbmd2aWV3cyZ1dG1fdGVybT0wNzA0MjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTgmdXNlcl9lbWFpbD0yZmI3NjFhNGQwNTgzYjM4MmZmNTMyMmFiMWIwMjYzNDAxNzYxMjNhMmViYzc5NjE0MWJmMWUyZTdlMDk3YTRi/699d8f6975a57008a503f158Bc6f78340",
@@ -44,7 +8,7 @@
       "source": "newsletter:The Week in Breakingviews",
       "pubDate": "2026-07-04T10:00:38.000Z",
       "summary": "96 Plus: the limits of yuan revaluation, and the US at 250 Subscribe to Breakingviews The Week in Breakingviews The Week in Breakingviews Insights from Reuters global financial commentary team --> By Peter Thal Larsen, Global Editor Welcome back! One of the dubious benefits of covering business and ",
-      "llmComment": "全球金融评论团队提供见解。美国即将迎来250岁生日，人民币升值存在局限。"
+      "llmComment": "96 Plus：人民币升值的局限，美国250周年。全球金融评论团队提供见解。"
     },
     {
       "title": "July 4: U.S. history in dispute",
@@ -62,7 +26,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-07-04T15:01:06.000Z",
       "summary": "96 Here Now Health isn't an AI-based company, but its quick path from an idea in founder Michelle Turner's mind to an operating mental health platform for foster children relied deeply on the technology now restructuring the U.S. economy. --> From breakthrough startups to Big Tech moves, stay ahead ",
-      "llmComment": "96 Here Now Health 公司利用人工智能技术快速发展，成为为寄养儿童提供心理健康服务的平台。"
+      "llmComment": "96 Here Now Health 公司利用人工智能技术快速发展，成为为寄养儿童提供心理健康服务的平台。人工智能技术促进了公司的快速成长和扩张。"
     },
     {
       "title": "For one small business, AI was key to a quick start and expansion",
@@ -71,7 +35,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-07-05T15:01:05.000Z",
       "summary": "96 Michelle Turner had no experience with startup culture so she developed her funding pitch with AI guidance. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to Reuters.com for £1/week. Technology Roundup Technology Roundup For one small business, AI was ",
-      "llmComment": "一家小企业利用AI实现快速启动和扩张。Michelle Turner 利用AI指导开发了资金推介。"
+      "llmComment": "一家小企业通过人工智能实现快速启动和扩张。创始人在没有创业经验的情况下，利用人工智能指导制定了融资方案。"
     },
     {
       "title": "From payrolls to profits",
@@ -80,7 +44,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-07-06T10:31:11.000Z",
       "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Anna Szymanski , Editor-in-Charge, R",
-      "llmComment": "今日美国和全球市场的重要事件包括薪酬和利润。"
+      "llmComment": "今日美国和全球市场的重要事件包括就业和利润数据。"
     },
     {
       "title": "Khamenei's successor not at funeral service",
@@ -89,7 +53,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-07-06T10:59:20.000Z",
       "summary": "96 Plus, Trump's FIFA intervention causes World Cup storm. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Claire Beers Hello. The funeral for Iran's slain leader Khamenei goes ahead without his successor, Trump intervenes ",
-      "llmComment": "伊朗前领导人卡梅内伊的葬礼举行，但其继任者未出席。特朗普干预国际足联事务引发争议。"
+      "llmComment": "伊朗前领导人卡梅尼的葬礼举行，其继任者未出席。特朗普干预国际足联引发争议。"
     },
     {
       "title": "SCOTUS divided over ‘shadow docket’",
@@ -98,7 +62,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-07-06T12:00:19.000Z",
       "summary": "96 + Fed case fuels debate over emergency orders. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay --> Good morning. Let’s kick off with the U.S. Supr",
-      "llmComment": "美国最高法院内部对“影子日程”存在分歧。96件联邦案件引发了对紧急命令的争论。"
+      "llmComment": "美国最高法院内部对“暗影法庭”存在分歧。96件与美联储相关的案件引发了对紧急命令的争论。"
     },
     {
       "title": "South Korea's SK Hynix launches $28 billion US listing to ride global AI wave",
@@ -107,7 +71,7 @@
       "source": "newsletter:Reuters Business",
       "pubDate": "2026-07-06T13:01:19.000Z",
       "summary": "96 South Korean chipmaker SK Hynix on Monday launched a U.S. share sale to raise 43 trillion won ($28.07 billion) and drew indications of interest for up to $7 billion from major investors, ​as it capitalises on the global AI boom with one of the world's largest new share sales. --> Follow the bigge",
-      "llmComment": "韩国芯片制造商SK Hynix启动美国股权发行，拟筹资43万亿韩元（280.7亿美元）。"
+      "llmComment": "韩国芯片制造商SK Hynix启动28亿美元美国上市计划，吸引投资者7亿美元认购。"
     },
     {
       "title": "South Korea's SK Hynix launches $28 billion US listing to ride global AI wave",
@@ -143,7 +107,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-07-07T10:58:21.000Z",
       "summary": "96 Plus, Big Tech data centers drive up power bills in America's Rust Belt. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Kate Turton Hello. Bombs explode near a hotel ‌in Damascus where French President Emmanuel Macron h",
-      "llmComment": "北约展示大型军火交易，美国铁锈地带的大型科技数据中心推高电费。"
+      "llmComment": "北约展示大型武器交易。美国铁锈地带的大型科技数据中心推高电费。"
     },
     {
       "title": "Wall Street warms to SpaceX ahead of Nasdaq 100 index inclusion",
@@ -161,7 +125,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-07-07T15:02:35.000Z",
       "summary": "96 Chinese startup DeepSeek is developing its own AI chip, according to three people familiar with the matter, a ​push that could reduce its reliance on Nvidia and Huawei chips, which it has depended on to train and run its globally popular models. --> From breakthrough startups to Big Tech moves, s",
-      "llmComment": "中国初创公司DeepSeek正在开发自己的AI芯片，减少对Nvidia和华为芯片的依赖。"
+      "llmComment": "中国初创公司DeepSeek正在开发自己的AI芯片，以减少对Nvidia和华为芯片的依赖。"
     },
     {
       "title": "Ceasefire? What ceasefire?",
@@ -170,7 +134,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-07-08T05:16:04.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Ankur Banerjee, Asia Finance & Markets Breaking News Correspondent Data",
-      "llmComment": "欧洲和全球市场即将开盘，今日焦点事件包括停火协议等。每周仅需1英镑即可订阅相关新闻。"
+      "llmComment": "欧洲和全球市场即将开盘。每周仅1英镑即可订阅。"
     },
     {
       "title": "Is it 'over'?",
@@ -179,7 +143,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-07-08T10:39:05.000Z",
       "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Anna Szymanski , Editor-in-Charge, R",
-      "llmComment": "今日美国和全球市场的重要事件。每周仅1英镑订阅即可了解市场动态。"
+      "llmComment": "今日美国和全球市场的重要事件。每周仅需1英镑即可订阅。"
     },
     {
       "title": "Iran deal is 'over'",
@@ -188,7 +152,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-07-08T11:01:25.000Z",
       "summary": "96 Plus, OpenAI's new GPT-5.6 is here. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Anisha De Hello. At NATO, Trump says deal with Iran is 'over' and orders cutoff of US trade with Spain . Plus, OpenAI set to launch most",
-      "llmComment": "伊朗协议已结束，特朗普下令停止与西班牙的美国贸易。OpenAI 即将推出新版 GPT-5.6。"
+      "llmComment": "伊朗协议已经结束，特朗普下令停止与西班牙的贸易。OpenAI 即将推出新版 GPT-5.6。"
     },
     {
       "title": "Apple to spend $30 billion in Broadcom chips deal that will see Colorado factory expand",
@@ -206,7 +170,7 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-07-08T15:01:29.000Z",
       "summary": "96 Apple plans to spend more than $30 ​billion under a multi-year chip supply deal with Broadcom, bolstering ‌its U.S. sourcing as President Donald Trump's administration pushes to expand domestic chip manufacturing. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. S",
-      "llmComment": "苹果将与Broadcom签订芯片供应协议，计划花费超过300亿美元。"
+      "llmComment": "苹果计划在多年内向Broadcom购买超过300亿美元的芯片，增强美国采购。"
     },
     {
       "title": "Geopolitical risks",
@@ -215,7 +179,7 @@
       "source": "newsletter:Reuters Econ World",
       "pubDate": "2026-07-08T15:32:05.000Z",
       "summary": "96 And the yen Make sense of global economic trends and what they mean for the world. Subscribe to Reuters.com for £1/week. Econ World Econ World --> By Carmel Crimmins, Reuters Econ World podcast host Hi there, Well, the geopolitical cards have been thrown back up into the air. U.S. President Donal",
-      "llmComment": "全球经济趋势面临地缘政治风险。美国总统的举动使得局势再次变得不确定。"
+      "llmComment": "全球经济趋势面临地缘政治风险。美国总统的举动使得局势再次不确定。"
     },
     {
       "title": "China shows its hand",
@@ -224,7 +188,7 @@
       "source": "newsletter:Reuters Artificial Intelligencer",
       "pubDate": "2026-07-08T19:01:14.000Z",
       "summary": "96 Beijing weighs its own silicon curtain Keep pace with AI breakthroughs and what they mean for business and society with unlimited access to Reuters.com. Subscribe for £1/week. Artificial Intelligencer Artificial Intelligencer What matters in AI this week --> By Kenrick Cai , Technology Correspond",
-      "llmComment": "中国展示其在人工智能领域的实力。北京考虑建立自己的“硅幕”。"
+      "llmComment": "中国展示了自己的实力，北京正在权衡自己的“硅幕”。"
     },
     {
       "title": "Chip euphoria vies with war weariness",
@@ -233,7 +197,7 @@
       "source": "newsletter:Reuters Morning Bid Europe",
       "pubDate": "2026-07-09T05:00:24.000Z",
       "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for £1/week. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Stella Qiu, Australia Economics & Markets Correspondent Data refreshes ",
-      "llmComment": null
+      "llmComment": "欧洲和全球市场展望。每周仅需1英镑订阅即可获取欧洲交易日的前瞻信息。"
     },
     {
       "title": "Markets remain long TACO",
@@ -242,7 +206,7 @@
       "source": "newsletter:Morning Bid U.S.",
       "pubDate": "2026-07-09T10:35:12.000Z",
       "summary": "96 What matters in U.S. and global markets today Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Morning Bid U.S. Morning Bid U.S. A Reuters Open Interest newsletter What matters in U.S. and global markets today By Anna Szymanski , Editor-in-Charge, R",
-      "llmComment": null
+      "llmComment": "市场仍看好TACO。今日全球市场的重要事件包括相关新闻和市场动态。"
     },
     {
       "title": "Putin likely to escalate Ukraine war",
@@ -251,7 +215,7 @@
       "source": "newsletter:Reuters Daily Briefing",
       "pubDate": "2026-07-09T11:02:32.000Z",
       "summary": "96 Plus, Trump has few good options in Iran. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Kate Turton Hello. The US military carries out fresh strikes on Iran , continuing a war that could lead to a global food crisis . ",
-      "llmComment": null
+      "llmComment": "普京可能升级乌克兰战争，美国军队对伊朗发动新一轮袭击。"
     },
     {
       "title": "What’s next for law school diversity rules?",
@@ -260,7 +224,7 @@
       "source": "newsletter:The Daily Docket",
       "pubDate": "2026-07-09T12:00:13.000Z",
       "summary": "96 + ABA weighs further rollbacks. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Megha L Good morning. The ABA is poised to roll back more diversity rules for law s",
-      "llmComment": null
+      "llmComment": "美国律师协会（ABA）即将进一步放松法学院多样性规则。"
     },
     {
       "title": "SpaceX and AI startup wealth fuels demand for private jets",
@@ -305,6 +269,42 @@
       "source": "newsletter:Reuters Morning Bid",
       "pubDate": "2026-07-10T10:32:07.000Z",
       "summary": "96 Everything Mike Dolan and the ROI team are excited to read, watch and listen to over the weekend. Start the day with Reuters on the stories moving U.S. and global markets. Subscribe for £1/week. Morning Bid Weekend Morning Bid Weekend A Reuters Open Interest newsletter Everything the ROI team is ",
+      "llmComment": null
+    },
+    {
+      "title": "Trump makes stock market his scoreboard",
+      "link": "https://newslink.reuters.com/click/46523074.429607/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktQnJpZWZpbmcmdXRtX3Rlcm09MDcxMDI2JmxjdGc9Njk5ZDhmNjk3NWE1NzAwOGE1MDNmMTU4JnVzZXJfZW1haWw9MmZiNzYxYTRkMDU4M2IzODJmZjUzMjJhYjFiMDI2MzQwMTc2MTIzYTJlYmM3OTYxNDFiZjFlMmU3ZTA5N2E0Yg/699d8f6975a57008a503f158Bb30e776c",
+      "author": "Reuters Daily Briefing",
+      "source": "newsletter:Reuters Daily Briefing",
+      "pubDate": "2026-07-10T10:59:25.000Z",
+      "summary": "96 Plus, at least eleven killed in one of Spain's deadliest wildfires. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for £1/week. Daily Briefing Daily Briefing By Kate Turton Hello. At least eleven people have died and 19 are missing in one of Spain's deadliest wildf",
+      "llmComment": null
+    },
+    {
+      "title": "Why associates are ditching Big Law",
+      "link": "https://newslink.reuters.com/click/46521495.41497/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktRG9ja2V0JnV0bV90ZXJtPTA3MTAyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OCZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158B9756fbc0",
+      "author": "The Daily Docket",
+      "source": "newsletter:The Daily Docket",
+      "pubDate": "2026-07-10T12:00:33.000Z",
+      "summary": "96 + Boutiques lure talent with bigger roles. Follow the biggest developments in courts, law firms and legal practice with Reuters. Subscribe for £1/week. The Daily Docket The Daily Docket A newsletter by Reuters and Westlaw By Caitlin Tremblay Good morning. As law firm salary races heat up, small f",
+      "llmComment": null
+    },
+    {
+      "title": "SK Hynix's marquee US debut to test AI appetite",
+      "link": "https://newslink.reuters.com/click/46523904.40879/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249UmV1dGVycy1CdXNpbmVzcyZ1dG1fdGVybT0wNzEwMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTgmdXNlcl9lbWFpbD0yZmI3NjFhNGQwNTgzYjM4MmZmNTMyMmFiMWIwMjYzNDAxNzYxMjNhMmViYzc5NjE0MWJmMWUyZTdlMDk3YTRi/699d8f6975a57008a503f158B9cb64bce",
+      "author": "Reuters Business",
+      "source": "newsletter:Reuters Business",
+      "pubDate": "2026-07-10T13:04:54.000Z",
+      "summary": "96 SK Hynix's U.S. trading debut on Friday following a $26.5 billion share sale will be a key test of ​investors' belief in the durability of the AI boom, coming after a recent pullback in semiconductor stocks. --> Follow the biggest business stories of the day with Reuters. Subscribe for £1/week. R",
+      "llmComment": null
+    },
+    {
+      "title": "SK Hynix's shares indicated to jump 20% in marquee US debut",
+      "link": "https://newslink.reuters.com/click/46526251.60840/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA3MTAyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OCZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158B0ffa65f3",
+      "author": "Reuters Technology Roundup",
+      "source": "newsletter:Reuters Technology Roundup",
+      "pubDate": "2026-07-10T15:01:51.000Z",
+      "summary": "96 SK Hynix's U.S.-listed shares were indicated to jump 20% in their Nasdaq ​debut following its $26.5 billion share sale, signalling strong enthusiasm in semiconductor stocks despite a recent pullback. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to Re",
       "llmComment": null
     }
   ]
