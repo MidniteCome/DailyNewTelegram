@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T20:36:04.876Z",
+    "updatedAt": "2026-07-13T10:39:12.023Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Wix's Founder on What Wall St Gets Wrong About AI and Wix | Will Base44 Win the Vibe Coding Wars | The Truth About the Economics of Vibe-Coding | The Buyback Disaster: Lessons Learned with Avishai Abrahami",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-wixs-founder-on-what-wall-st-gets-wrong-about-ai-and-wix-will-base44-win-the-vibe-coding-wars-the-truth-about-the-economics-of-vibe-coding-the-buyback-disaster-lessons-learned-with-avishai-abrahami",
+      "pubDate": "2026-07-13T07:07:00.000Z",
+      "duration": "57:20",
+      "summary": "Avishai Abrahami is the Co-Founder and CEO of Wix, the NASDAQ-listed website creation platform serving millions of businesses worldwide. Today, Wix generates more than $2BN in ARR and has a market cap",
+      "art": "https://static.libsyn.com/p/assets/0/1/5/1/0151f98d6bf5e1ac16c3140a3186d450/WhatsApp_Image_2026-07-10_at_14.41.49.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Young people aren’t paying their car loans. We can help.",
+      "link": "https://www.npr.org/2026/07/13/nx-s1-5891491/young-people-arent-paying-their-car-loans-we-can-help",
+      "pubDate": "2026-07-13T07:00:00.000Z",
+      "duration": "553",
+      "summary": "About one in 20 car loans made to young people are in serious delinquency. That’s the highest rate since the global financial crisis. Today on the show, former FDIC chair Sheila Bair answers young lis",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc7%2F36%2Fb12b1be642389d5b7f06d87559c9%2Fc6f6f843-239f-4129-b14b-7ae6f7aa8ceb.png"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -803,17 +825,6 @@
       "art": "https://static.libsyn.com/p/assets/4/a/1/6/4a16862aec4fcd63d959afa2a1bf1c87/WhatsApp_Image_2026-06-19_at_16.25.14.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "An urban planner, infinite scroll, and … what is a public good?",
-      "link": "https://www.npr.org/2026/06/22/nx-s1-5863543/an-urban-planner-infinite-scroll-and-what-is-a-public-good",
-      "pubDate": "2026-06-22T07:00:00.000Z",
-      "duration": "577",
-      "summary": "It’s time for The Indicator Quiz! We test you, dear listener, on your knowledge of topics that we’ve covered on The Indicator. For today's quiz show, we are putting an urban planner from Nevada to the",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F52%2F33%2Fad8f4d054fec8d7b50d1f0dab2f8%2F6935411d-b0ec-459d-bb72-c755d8e00b65.png"
-    },
-    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -1153,17 +1164,6 @@
       "duration": "1251",
       "summary": "EY operates as one of the world’s largest and most globally connected professional services firms, employing 400,000 people across more than 150 countries. EY Global Chair and CEO Janet Truncale joins",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Nebius Co-Founder on AI Infrastructure Bubbles | The Real Impact of Open Source on OpenAI & Anthropic | How Price Elastic is Demand for Compute | Could Nebius Sell 10x More Compute If They Had It & more with Roman Chernin",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-nebius-co-founder-on-ai-infrastructure-bubbles-the-real-impact-of-open-source-on-openai-anthropic-how-price-elastic-is-demand-for-compute-could-nebius-sell-10x-more-compute-if-they-had-it-more-with-roman-chernin",
-      "pubDate": "2026-06-08T07:07:00.000Z",
-      "duration": "01:06:40",
-      "summary": "Roman Chernin is Co-Founder and Chief Business Officer of Nebius , one of the fastest-growing AI infrastructure companies in the world. Today, Nebius operates some of the largest AI compute clusters g",
-      "art": "https://static.libsyn.com/p/assets/d/2/3/a/d23a4d33e9fb562dd959afa2a1bf1c87/WhatsApp_Image_2026-06-05_at_11.53.03.jpeg"
     },
     {
       "showId": "allin",
