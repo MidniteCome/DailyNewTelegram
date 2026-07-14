@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-14T09:25:38.801Z",
+    "updatedAt": "2026-07-14T15:26:33.755Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "483 郦菁、赵鼎新谈《大转型》与「波兰尼时刻」",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a56091127a4eec16c4088da?utm_source=rss",
+      "pubDate": "2026-07-14T10:40:47.000Z",
+      "duration": "01:08:47",
+      "summary": "- 导语 - 面对20世纪两次世界大战与社会危机，思想家波兰尼曾提出了市场-社会双重运动和「大转型」的剖析，影响至今。从19世纪的维也纳文化氛围中走来，波兰尼为何用「嵌入」与「脱嵌」的理论解释市场社会带来的冲击？「双向运动」概念如何帮助我们理解二战、冷战乃至当下的全球化退潮？如何在一个框架下理解哈耶克与波兰尼的不同预言？人类是否正处在一个新的「波兰尼时刻」？请听社会学家赵鼎新与郦菁老师带来的精彩分",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "What Xi Jinping Wants",
+      "link": "https://www.nytimes.com/2026/07/14/opinion/ezra-klein-podcast-kevin-rudd.html",
+      "pubDate": "2026-07-14T09:00:00.000Z",
+      "duration": "01:43:53",
+      "summary": "You can’t understand China today without understanding its president, Xi Jinping. Since coming to power in 2012, Xi has doubled down on communist ideology and significantly consolidated his own power ",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1342,17 +1364,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "日本谍报物语03｜特高课、满铁调查部与昭和时代对内情报控制的升级",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a101a7f8b5c94538e8ba1a6?utm_source=rss",
-      "pubDate": "2026-05-22T09:23:39.000Z",
-      "duration": "00:03:00",
-      "summary": "- 导语 - 在大正时代民主、思潮百花齐放的浪漫表象下，社会矛盾实则暗流涌动，直至引发了昭和时代的极右崛起与政治动荡，日本情报机关的触角也随之深入内政。特高课如何依托《治安维持法》成为镇压异见的工具？小林多喜二遇害背后，藏着怎样的秘密警察暴行？关东军特务机关如何与地方势力合作，在东北布局情报网络？从上海到东京，佐尔格的跨国情报小组做了哪些工作，又为何并不受斯大林信任？战争时期，鹤见俊辅、丸山真男等",
-      "art": "https://image.xyzcdn.net/FvZfckFcavT1CgwW_gSQp3JEC9Xz.png"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1438,17 +1449,6 @@
       "pubDate": "2026-05-12T09:00:00.000Z",
       "duration": "01:32:28",
       "summary": "On Friday, I moderated a forum with the top Democratic candidates for California governor, focusing on the state’s housing crisis. California’s current governor, Gavin Newsom, came into office in 2019",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "GLP-1s and the ‘Wild West’ of Wellness",
-      "link": "https://www.nytimes.com/2026/05/08/opinion/ezra-klein-podcast-julia-belluz.html",
-      "pubDate": "2026-05-08T09:00:00.000Z",
-      "duration": "01:13:57",
-      "summary": "Here’s a shocking number: One out of eight American adults is taking a GLP-1, like Ozempic or Zepbound, according to a KFF poll. GLP-1s are the biggest pharmaceutical story since antidepressants. But ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
