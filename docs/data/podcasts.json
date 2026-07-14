@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-13T20:50:41.876Z",
+    "updatedAt": "2026-07-14T09:25:38.801Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Can the internet survive AI summaries?",
+      "link": "https://www.npr.org/2026/07/14/nx-s1-5891958/can-the-internet-survive-ai-summaries",
+      "pubDate": "2026-07-14T07:00:00.000Z",
+      "duration": "597",
+      "summary": "AI summaries are gaining traction and making the potential for a “zero click web” increasingly real. What does that mean for the internet as we know it today? Fact checking by Sierra Juarez . Your Nex",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb5%2Fd6%2Fb1b982cf48d7879f10a9a8452362%2F7946d04a-b045-4ef2-a4af-4679dd9df80d.jpg"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#397 从「责任分担」到「责任转移」：欧洲为何难以真正与美国「分道扬镳」？",
+      "link": "https://etw.fm/2217",
+      "pubDate": "2026-07-14T07:00:00.000Z",
+      "duration": "53:20",
+      "summary": "7 月 7 日至 8 日，北约峰会在土耳其安卡拉举行。美国总统特朗普在会议开场就因为军费问题向盟友施压，威胁切断与西班牙的贸易，甚至再次提起格陵兰岛的主权归属。随着「美国优先」与「欧洲自主」理念的碰撞，本次会议成了我们观察「北约是否已经脑死亡？」争论的关键窗口。 从会议内容上看，理念的碰撞似乎并不意味着联盟走向瓦解。从人工智能与军事能力的进一步结合，到美欧围绕防务支出、军工产业和全球责任展开新的博",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
+      "link": "https://allinchamathjason.libsyn.com/the-trillion-dollar-industries-ai-is-disrupting-voice-law-the-end-of-the-billable-hour",
+      "pubDate": "2026-07-13T22:07:00.000Z",
+      "duration": "51:33",
+      "summary": "(0:00) ElevenLabs' $600M ARR Ramp, 600 Employees & Life Without PMs (15:34) Celebrity Voice Deals, Deepfake Impersonation & Racing OpenAI and Anthropic (31:42) Legora's Hypergrowth, Disrupting Law Fir",
+      "art": "https://static.libsyn.com/p/assets/f/e/0/e/fe0e7bc7041988a5d959afa2a1bf1c87/1_Pod_France.png"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -792,17 +825,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why the $250 bill would be good … For criminals!",
-      "link": "https://www.npr.org/2026/06/23/nx-s1-5866762/why-the-250-bill-would-be-good-for-criminals",
-      "pubDate": "2026-06-23T07:00:00.000Z",
-      "duration": "528",
-      "summary": "A plan to create a new $250—with President Donald Trump’s face on it—has created a lot of pushback. Who probably won’t be pushing back, though? Criminals. On today’s show, we explain why. Fact checkin",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F74%2F8c%2F90eebf4848eeb6633b9b4652ea32%2Fb5cc149c-11e5-40d9-a33d-940ff1eebb21.png"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1175,17 +1197,6 @@
       "duration": "39:38",
       "summary": "(0:00) Brad Gerstner, Gavin Baker, and Kelly Rodriques join the Besties! (0:47) Secondary Markets are Booming & Competing with IPOs (3:10) Why Companies are Staying Private So Long? (9:22) SPVs, the F",
       "art": "https://static.libsyn.com/p/assets/3/6/6/8/366880b96b0acaabd959afa2a1bf1c87/Podcast_Graphic_-_Liquidity-20260607-ckyabry2wz.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "The IPO Comeback: Why Tech Giants Are Finally Going Public | All-In Liquidity IPO Panel",
-      "link": "https://allinchamathjason.libsyn.com/the-ipo-comeback-why-tech-giants-are-finally-going-public-all-in-liquidity-ipo-panel",
-      "pubDate": "2026-06-06T16:30:00.000Z",
-      "duration": "32:29",
-      "summary": "(0:00) CEOs Andrew Feldman (Cerebras) and Will Marshall (Planet Labs) join the Besties! (2:05) Both CEOs on going public: Impact on employees, customers, and business operations (13:18) Timelines for ",
-      "art": "https://static.libsyn.com/p/assets/6/8/9/f/689f9ef1c2ea7e5d16c3140a3186d450/Podcast_Graphic_-_Liquidity-20260606-tsajt9noo2.png"
     },
     {
       "showId": "ezraklein",
@@ -1648,17 +1659,6 @@
       "duration": "1270",
       "summary": "Steven Mnuchin, former U.S. Treasury Secretary and Goldman Sachs partner alum, brings decades of experience navigating financial markets, public policy, and economic crises. In this conversation with ",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#382 推翻、改造、失控：从历史视角看美国的中东介入和事与愿违",
-      "link": "https://etw.fm/2203",
-      "pubDate": "2026-03-19T06:15:00.000Z",
-      "duration": "57:13",
-      "summary": "哈梅内伊被斩首，伊朗政权会就此崩溃吗？美国和以色列能把伊朗「改造」成一个他们想要的国家形态吗？这些问题或许历史早就给过了答案。 1953 年，美国策动政变，推翻了伊朗民选总理摩萨台，扶持巴列维国王重新掌权。二十年后，王权被霍梅尼革命推翻，伊朗从美国最重要的中东盟友，一夜变成了它最顽固的敌人。此后，阿富汗、伊拉克……每一次，美国都相信自己能从外部重塑一个国家；每一次，历史都以不同的方式进行了回应。 ",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "talksat",
