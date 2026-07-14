@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-13",
+  "lastRun": "2026-07-14",
   "feeds": [
     {
       "name": "Stratechery",
@@ -174,10 +174,9 @@
     {
       "name": "Krebs on Security",
       "url": "https://krebsonsecurity.com/feed/",
-      "ok": false,
-      "itemCount": 0,
-      "consecutiveFails": 1,
-      "error": "HTTP 403 for https://krebsonsecurity.com/feed/"
+      "ok": true,
+      "itemCount": 10,
+      "consecutiveFails": 0
     },
     {
       "name": "Steve Blank",
