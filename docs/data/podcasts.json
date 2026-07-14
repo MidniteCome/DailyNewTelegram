@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-14T15:26:33.755Z",
+    "updatedAt": "2026-07-14T20:51:01.277Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2525 - Nick Bostrom",
+      "link": "https://traffic.megaphone.fm/GLT1555016650.mp3",
+      "pubDate": "2026-07-14T17:00:00.000Z",
+      "duration": "8411",
+      "summary": "Nick Bostrom is a philosopher whose work focuses on artificial intelligence, existential risk, and the future of humanity. He is Principal Researcher at the Macrostrategy Research Initiative and the a",
+      "art": "https://megaphone.imgix.net/podcasts/709f4dec-7f16-11f1-ae05-dbca289f806f/image/d2a48ed6017333a6b91a9c56be513ebb.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -1120,17 +1131,6 @@
       "duration": "43:23",
       "summary": "(0:00) PA Senators Fetterman and McCormick join the Besties (0:33) Bipartisanship in 2026, rejecting extremism (6:37) All-time unpopularity in the Senate, the filibuster question, tribalism (13:33) Fi",
       "art": "https://static.libsyn.com/p/assets/f/0/b/3/f0b30d692ad9524d16c3140a3186d450/Podcast_Graphic_-_Liquidity-20260610-mm1ibd72q7.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2512 - Joey Diaz",
-      "link": "https://traffic.megaphone.fm/GLT1423641866.mp3",
-      "pubDate": "2026-06-10T17:00:00.000Z",
-      "duration": "10329",
-      "summary": "Joey Diaz is a stand-up comedian, actor, and writer. He is the host of the podcast “The Church of What’s Happening Now: The New Testament” and the author of “Tremendous: The Life of a Comedy Savage.”w",
-      "art": "https://megaphone.imgix.net/podcasts/4ad4246e-6456-11f1-a4da-aff897fdf12f/image/50778c3292dc81e0b565980c3d92b31d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "weirdo",
