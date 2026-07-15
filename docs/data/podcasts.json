@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-15T15:37:39.321Z",
+    "updatedAt": "2026-07-15T20:50:51.231Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2526 - JD Vance",
+      "link": "https://traffic.megaphone.fm/GLT1308255264.mp3",
+      "pubDate": "2026-07-15T17:00:00.000Z",
+      "duration": "10744",
+      "summary": "JD Vance is the Vice President of the United States, a Marine Corps veteran, former U.S. Senator from Ohio, and author. His latest book, “Communion: Finding My Way Back to Faith,” is available now.www",
+      "art": "https://megaphone.imgix.net/podcasts/03cad5ca-7ffb-11f1-a84e-db74b0b2b17c/image/e455871b997b5c9d1d184dafad5fa25e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1087,17 +1098,6 @@
       "duration": "01:20:47",
       "summary": "Brad Gerstner sits down with Gavin Baker and Andrew Fox of Atreides Management, alongside Altimeter partner Clark Tang, to break down one of the biggest questions in tech and markets: how should inves",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2513 - Dean Radin",
-      "link": "https://traffic.megaphone.fm/GLT4705922379.mp3",
-      "pubDate": "2026-06-11T17:00:00.000Z",
-      "duration": "9804",
-      "summary": "Dean Radin, PhD, is Chief Scientist at the Institute of Noetic Sciences (IONS), Associate Distinguished Professor at the California Institute of Integral Studies, and co-founder and chairman of the ne",
-      "art": "https://megaphone.imgix.net/podcasts/85128b08-6518-11f1-8ac2-33b58404e123/image/8cea23fbcb8622a31e1152dc27538fe5.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
