@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-14T20:51:01.277Z",
+    "updatedAt": "2026-07-15T09:29:20.366Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Why your neighbor might be paying less for their car",
+      "link": "https://www.npr.org/2026/07/15/nx-s1-5893745/less-oil-more-soybeans-and-car-junk-fees",
+      "pubDate": "2026-07-15T07:00:02.000Z",
+      "duration": "537",
+      "summary": "Many Gulf states like the United Arab Emirates are diversifying away from oil, but how do you actually measure that? After China resumed buying American soybeans, what are farmers doing now? And is yo",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd5%2Fc6%2Fb12afeb74afcae1ef344419af6a9%2Fafc7ba24-8ab4-4a73-9955-f535422d659f.jpg"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -812,17 +823,6 @@
       "duration": "9872",
       "summary": "Tim Dillon is a stand-up comic, actor, and host of “The Tim Dillon Show” podcast. His latest comedy special, “Tim Dillon: I’m Your Mother,” is available on Netflix.www.youtube.com/@TimDillonShowwww.pa",
       "art": "https://megaphone.imgix.net/podcasts/231bd648-6f6d-11f1-a048-3b077aa29ad3/image/3b17cdbc50e914c56886cd487f79c693.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "How stock options made him an overnight millionaire",
-      "link": "https://www.npr.org/2026/06/24/nx-s1-5868593/how-stock-options-made-him-an-overnight-millionaire",
-      "pubDate": "2026-06-24T07:00:00.000Z",
-      "duration": "594",
-      "summary": "In 2019, Juan Hernandez was laid off from SpaceX. Luckily, he still had the opportunity to buy $50K - $60K of the company’s stock and, years later, it’s safe to say the risk was worth it. Today on the",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F5a%2F9c%2Fa53301724a79801c3bb6280996c9%2Fbc292258-186f-4fef-81be-33fc90dea1d8.jpg"
     },
     {
       "showId": "allin",
