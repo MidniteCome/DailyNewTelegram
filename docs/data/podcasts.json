@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-15T20:50:51.231Z",
+    "updatedAt": "2026-07-16T09:35:09.550Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Apple Sues OpenAI | Zuckerberg Back on X and Challenging Codex and Claude Code | SK Hynix's $26BN IPO | Is Seed Investing Dead: Jason Calacanis Departs Seed for Growth | Greylock Raises New $1.5BN Fund",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-apple-sues-openai-zuckerberg-back-on-x-and-challenging-codex-and-claude-code-sk-hynixs-26bn-ipo-is-seed-investing-dead-jason-calacanis-departs-seed-for-growth-greylock-raises-new-15bn-fund",
+      "pubDate": "2026-07-16T07:07:00.000Z",
+      "duration": "01:22:51",
+      "summary": "AGENDA: 00:00 – Apple SUES OpenAI: Did They Steal Apple's Biggest Secrets? 05:10 – Is OpenAI's $6BN Hardware Bet Already Dead? 12:50 – Zuckerberg Is Back: Meta Finally Takes On OpenAI 18:05 – The AI S",
+      "art": "https://static.libsyn.com/p/assets/7/7/5/7/77574f71c9c00b0816c3140a3186d450/WhatsApp_Image_2026-07-15_at_16.40.20.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Why the Pope wants to disarm AI",
+      "link": "https://www.npr.org/2026/07/16/nx-s1-5895130/why-the-pope-wants-to-disarm-ai",
+      "pubDate": "2026-07-16T07:00:00.000Z",
+      "duration": "488",
+      "summary": "Over 100 years ago, Pope Leo XIII wrote a seminal letter encouraging workers to unionize in the face of industrialization. The current Pope Leo XIV in his seminal letter warned of an economic disrupti",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2c%2F03%2F1ab8547a499587c41df147afaa2d%2F3200f246-ca38-403f-a781-8df0d6ba6122.jpg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
+      "link": "https://allinchamathjason.libsyn.com/former-intel-ceo-on-what-went-wrong-whats-next-lovable-ceo-on-the-real-promise-of-vibe-coding",
+      "pubDate": "2026-07-15T20:55:00.000Z",
+      "duration": "49:44",
+      "summary": "(0:00) Former Intel CEO Pat Gelsinger joins Jason! (1:41) What Went Wrong at Intel (15:19) Why a Taiwan Blockade Would Cripple the US Economy (25:00) Lovable's Anton Osika: One Million New Apps a Week",
+      "art": "https://static.libsyn.com/p/assets/c/a/6/d/ca6d45b31e10bd7516c3140a3186d450/1_Pod_Paris_2.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -803,17 +836,6 @@
       "art": "https://static.libsyn.com/p/assets/c/d/6/7/cd67e676f84c3026d959afa2a1bf1c87/WhatsApp_Image_2026-06-24_at_19.19.09.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "AI is pumping out books. Are they any good?",
-      "link": "https://www.npr.org/2026/06/25/nx-s1-5869549/ai-is-pumping-out-books-are-they-any-good",
-      "pubDate": "2026-06-25T07:00:00.000Z",
-      "duration": "526",
-      "summary": "Are all these AI books any good? And by good, we mean are people willing to buy them — not whether the prose is singing. We talk to two researchers who’ve got some answers and a travel guide expert on",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe6%2F16%2Fb84f718a4dc6b9889b74ccb8d22f%2Fe3bdd632-63dc-4eec-8097-42c07f4b28b1.jpg"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1111,17 +1133,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: SpaceX Launches Largest Ever IPO | OpenAI Files to Go Public | Uber Cuts 23% of HR | Lovable Hits $500M ARR | Founders Revolt Against VCs: The Fundraising Horror Stories Going Viral",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-spacex-launches-largest-ever-ipo-openai-files-to-go-public-uber-cuts-23-of-hr-lovable-hits-500m-arr-founders-revolt-against-vcs-the-fundraising-horror-stories-going-viral",
-      "pubDate": "2026-06-11T07:07:00.000Z",
-      "duration": "01:13:26",
-      "summary": "AGENDA: 00:00 – SpaceX Launches the Largest IPO Roadshow in History at $1.77T Valuation 05:00 – Did Elon Break the IPO Playbook? The High-Risk Pricing Strategy Explained 12:00 – Will SpaceX Create a N",
-      "art": "https://static.libsyn.com/p/assets/5/b/b/8/5bb89601bca7530116c3140a3186d450/WhatsApp_Image_2026-06-10_at_14.37.27.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1208,17 +1219,6 @@
       "duration": "1251",
       "summary": "EY operates as one of the world’s largest and most globally connected professional services firms, employing 400,000 people across more than 150 countries. EY Global Chair and CEO Janet Truncale joins",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
-      "link": "https://allinchamathjason.libsyn.com/inside-the-private-stock-market-boom-spacex-anthropic-openai-the-rise-of-secondaries",
-      "pubDate": "2026-06-07T18:14:00.000Z",
-      "duration": "39:38",
-      "summary": "(0:00) Brad Gerstner, Gavin Baker, and Kelly Rodriques join the Besties! (0:47) Secondary Markets are Booming & Competing with IPOs (3:10) Why Companies are Staying Private So Long? (9:22) SPVs, the F",
-      "art": "https://static.libsyn.com/p/assets/3/6/6/8/366880b96b0acaabd959afa2a1bf1c87/Podcast_Graphic_-_Liquidity-20260607-ckyabry2wz.png"
     },
     {
       "showId": "ezraklein",
