@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-16T20:46:51.480Z",
+    "updatedAt": "2026-07-17T09:27:49.674Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "484 与许子东漫谈世界杯：四十年观赛史里的中国、美国与欧洲",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a59ed61a3fec224d59f16f2?utm_source=rss",
+      "pubDate": "2026-07-17T08:58:46.000Z",
+      "duration": "00:49:31",
+      "summary": "- 导语 - 美加墨世界杯决赛在即，而围绕着这届世界杯热议的票价暴涨与规则变化等争议，又不断反映着美式资本主义对这项运动的重塑。为什么美国人对足球始终提不起兴趣？一张山顶座位票价格涨到近万美元，这背后是纯粹的生意还是全新的文化心态？世界杯如何成为中国人开眼看世界的窗口，又怎样折射出殖民主义的后遗症与民族国家的戏剧化竞争？请听本期嘉宾许子东和郑诗亮带来的精彩分享！ - 本期话题成员 - 程衍樑（微博",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "The Strait of Hormuz no-fee, China cuts down on pollution and IMAX's economic Odyssey",
+      "link": "https://www.npr.org/2026/07/17/nx-s1-5896492/the-strait-of-hormuz-no-fee-china-cuts-down-on-pollution-and-imaxs-economic-odyssey",
+      "pubDate": "2026-07-17T07:00:00.000Z",
+      "duration": "621",
+      "summary": "It’s Indicators of the Week (now on YouTube !). On today’s episode: What happened to Trump’s proposed Strait of Hormuz fee?; China’s pollution takes a dip … and maybe solves a mystery?; IMAX is expens",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1463x1463+569+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbd%2F43%2F4abca0b24de2b2f0f6650baaad57%2F8f4ee331-0378-4804-b816-fd56fced7e4f.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -825,17 +847,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "GLP-1 and women, the AI office boom, and RTO: CEO ego?",
-      "link": "https://www.npr.org/2026/06/26/nx-s1-5871378/glp-1-and-women-the-ai-office-boom-and-rto-ceo-ego",
-      "pubDate": "2026-06-26T07:00:00.000Z",
-      "duration": "523",
-      "summary": "It’s Indicators of the Week (now on YouTube !). On today’s episode: The effect of GLP-1s on women and the workplace ; NYC’s once flailing office space is BACK; your boss asking you to come back to the",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F24%2F99%2F6c3eb3284483bf18911b3521379c%2F353ddcd4-890d-44f7-a939-758f185068a4.png"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -1351,17 +1362,6 @@
       "duration": "01:53:11",
       "summary": "What are the conditions that enable a country to become great — or great again? The Trump administration — and other right-wing movements in other countries — offers a vision of greatness based on pow",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "午后偏见045｜拉美是一种命运：被遮蔽的思想、抗争与另一种现代性",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a1547aa13abca418579b4b2?utm_source=rss",
-      "pubDate": "2026-05-26T07:47:22.000Z",
-      "duration": "01:16:41",
-      "summary": "- 导语 - 拉美有思想吗？对很多人来说，这个问题的答案或许是否定的。思想、思想家，似乎总是与法国、德国，乃至更广义上的“西方”联系在一起；而拉美这片大陆，则更多让人想到足球、魔幻现实主义，或者“中等收入陷阱”这样的标签。但两位长期深耕拉美思想研究的学者，滕威与魏然，却给出了截然不同的回答：拉美当然有思想，只是长期处在遮蔽之中。从马克思主义与原住民传统的结合，到女性主义与去殖民运动的实践，许多拉美",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
       "showId": "etw",
