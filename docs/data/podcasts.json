@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-20T21:02:07.393Z",
+    "updatedAt": "2026-07-21T10:02:51.581Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Best Of: A Breath of Fresh Air With Brian Eno",
+      "link": "https://www.nytimes.com/2025/10/03/opinion/ezra-klein-podcast-brian-eno.html",
+      "pubDate": "2026-07-21T09:00:00.000Z",
+      "duration": "01:30:44",
+      "summary": "How Brian Eno expanded the possibilities of what music and sound can be. Eno is a trailblazing musician and producer who’s worked on seminal records by U2, David Bowie, the Talking Heads and Coldplay,",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Tale of Two Cities",
+      "link": "https://www.npr.org/2026/07/21/nx-s1-5900993/two-cities-two-chip-plants-one-affordability-crisis",
+      "pubDate": "2026-07-21T07:00:00.000Z",
+      "duration": "519",
+      "summary": "The formerly sleepy economies of suburban Austin, Texas and Syracuse, NY are getting two new semiconductor chip plants. They’re bringing thousands of jobs and dollars to the area but while Austin’s ho",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1463x1463+569+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F7a%2F31dac9994ea9b4b6bdfe6372a78d%2F89a71c68-73d2-415b-bf53-040b894b4fa8.jpg"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -757,17 +779,6 @@
       "duration": "1399",
       "summary": "The Navy SEAL Foundation serves as a critical pillar of support for the SEAL community, providing comprehensive resources for active-duty operators, veterans, and their families. Goldman Sachs’ Vanya ",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why Trump wants to rip up his own trade deal",
-      "link": "https://www.npr.org/2026/07/01/nx-s1-5876506/why-trump-wants-to-rip-up-his-own-trade-deal",
-      "pubDate": "2026-07-01T07:00:02.000Z",
-      "duration": "570",
-      "summary": "During President Donald Trump’s first term, he touted the USMCA as the largest and most fair trade deal ever achieved. So why is he now talking about ‘terminating’ it? Fact checking by Sierra Juarez .",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fed%2F9c%2Fa5139243400e87251da602df88fe%2F74de43ce-b3e0-48ad-b34b-a58d19aa0282.jpg"
     },
     {
       "showId": "lexfridman",
@@ -1461,17 +1472,6 @@
       "duration": "1369",
       "summary": "McLaren Racing returned to the forefront of Formula 1 through a culture of collaboration. Lando Norris, the 2025 Formula 1 World Drivers’ Champion, and Zak Brown, CEO of McLaren Racing, joined Anthony",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "I Have Some Questions for the Democrats Who Want to Run California",
-      "link": "https://www.nytimes.com/2026/05/08/opinion/ezra-klein-podcast-housing-forum.html",
-      "pubDate": "2026-05-12T09:00:00.000Z",
-      "duration": "01:32:28",
-      "summary": "On Friday, I moderated a forum with the top Democratic candidates for California governor, focusing on the state’s housing crisis. California’s current governor, Gavin Newsom, came into office in 2019",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "lexfridman",
