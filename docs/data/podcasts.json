@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-22T15:45:20.036Z",
+    "updatedAt": "2026-07-22T20:55:44.810Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2529 - Zach Bush",
+      "link": "https://traffic.megaphone.fm/GLT6631073592.mp3",
+      "pubDate": "2026-07-22T17:00:00.000Z",
+      "duration": "10621",
+      "summary": "Zach Bush, MD, is a physician specializing in internal medicine, endocrinology, and hospice care. He is the founder of Seraphic Group and Farmer’s Footprint, a nonprofit dedicated to regenerative agri",
+      "art": "https://megaphone.imgix.net/podcasts/266c6a86-8559-11f1-a679-ebb68a31490a/image/d95197b23403f3ff0a7684b05e7f5c13.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1098,17 +1109,6 @@
       "duration": "01:18:20",
       "summary": "A hypervisual, looks-obsessed, wellness-crazed, postliterate society where we’re constantly staring at screens and evaluating one another based on metrics, as the country around us feels like it’s fal",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2516 - Rowan Jacobsen",
-      "link": "https://traffic.megaphone.fm/GLT3995715859.mp3",
-      "pubDate": "2026-06-18T17:00:00.000Z",
-      "duration": "7576",
-      "summary": "Rowan Jacobsen is an award-winning science and nature writer. His new book, “In Defense of Sunlight: The Surprising Science of Sun Exposure,” is available now.www.simonandschuster.com/books/In-Defense",
-      "art": "https://megaphone.imgix.net/podcasts/04cb4c58-6aab-11f1-908a-ab69dccb621b/image/af988ac23c611415132d37439ec0c7d8.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
