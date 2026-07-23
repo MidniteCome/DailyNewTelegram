@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-23T15:56:52.494Z",
+    "updatedAt": "2026-07-23T20:51:41.589Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2530 - Timothy Alberino",
+      "link": "https://traffic.megaphone.fm/GLT8709484594.mp3",
+      "pubDate": "2026-07-23T17:00:00.000Z",
+      "duration": "9939",
+      "summary": "Timothy Alberino is an author, lecturer, and explorer. His latest release is a new edition of the ancient text “The Book of Enoch,” for which he wrote the introduction and commentary. www.youtube.com/",
+      "art": "https://megaphone.imgix.net/podcasts/b569ee94-856c-11f1-bb2f-cf7ff131c798/image/9eb56f60d746efad14ad7d23506fd043.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -1065,17 +1076,6 @@
       "duration": "16289",
       "summary": "The Walt Disney Company is the most successful enterprise ever created for monetizing human nostalgia. Today it’s the king of global entertainment, holding the intellectual property rights to the chil",
       "art": "https://img.transistorcdn.com/kCB3B2iISM-bCdDu6pysFaFa0p3IYktCnNb8Q5VFycc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS85MmI3/Mjg0MDI2MWU4ZDc4/M2YyOGZjMzllNjll/ODBlYi5qcGc.jpg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "JRE MMA Show #181 with Justin Gaethje & Trevor Wittman",
-      "link": "https://traffic.megaphone.fm/GLT1314948676.mp3",
-      "pubDate": "2026-06-20T17:00:00.000Z",
-      "duration": "8589",
-      "summary": "Joe is joined by UFC Lightweight Champion Justin Gaethje & boxing and MMA trainer Trevor Wittman. https://www.youtube.com/@justin_gaethje https://onxsports.com/ Perplexity: Download the app or ask Per",
-      "art": "https://megaphone.imgix.net/podcasts/c02c1d02-6c3a-11f1-9abf-470c52089759/image/ede67c34735f33ef01819adae0265eca.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
