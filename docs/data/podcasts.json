@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-22T20:55:44.810Z",
+    "updatedAt": "2026-07-23T09:59:13.980Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-openai-and-anthropic-threatened-by-kimi-should-the-us-ban-chinese-open-source-models-should-openrouter-sell-value-in-the-routing-layer-stripe-buying-paypal-what-you-need-to-know",
+      "pubDate": "2026-07-23T07:07:00.000Z",
+      "duration": "01:23:12",
+      "summary": "AGENDA: 00:04 China's Kimi and Qwen Put Frontier AI on Notice 00:08 Washington Debates Whether Chinese AI Models Should Be Banned 00:17 Can America Build a Profitable Open-Weight AI Champion? 00:21 Op",
+      "art": "https://static.libsyn.com/p/assets/3/2/f/7/32f7fa3d560aec3716c3140a3186d450/WhatsApp_Image_2026-07-22_at_20.01.22.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Can Paramount \"gift\" its way past the FCC?",
+      "link": "https://www.npr.org/2026/07/23/nx-s1-5903825/can-paramount-gift-its-way-past-the-fcc",
+      "pubDate": "2026-07-23T07:00:00.000Z",
+      "duration": "584",
+      "summary": "Paramount’s $111 billion merger with Warner Bros. Discovery has a few hurdles ahead of it. One of them is an FCC approval. But a recent investigation shows that Paramount and the FCC have a dubious re",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb1%2Fc0%2F4b20c2534235a93396e9c1b858d2%2Fa9aa2330-a5b4-4db4-a64b-b3c11cbe2787.jpg"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -737,17 +759,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Obama's new Presidential Center and his tricky relationship with the South Side",
-      "link": "https://www.npr.org/2026/07/03/nx-s1-5877728/obamas-new-presidential-center-and-his-tricky-relationship-with-the-south-side",
-      "pubDate": "2026-07-03T07:00:00.000Z",
-      "duration": "2071",
-      "summary": "How do residents of the South Side of Chicago feel about their new neighbor: the Obama Presidential Center? A mixture of pride and excitement, tempered with some concerns about what it could do to hou",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F10%2F6c%2F7c071cef4bf89ca2fe91ec8c0a06%2F25577df2-f249-4eea-ae3c-bb1442fc8bad.jpg"
-    },
-    {
       "showId": "weirdo",
       "showName": "不合时宜",
       "category": "zh",
@@ -1109,17 +1120,6 @@
       "duration": "01:18:20",
       "summary": "A hypervisual, looks-obsessed, wellness-crazed, postliterate society where we’re constantly staring at screens and evaluating one another based on metrics, as the country around us feels like it’s fal",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: SpaceX Soars to $2.7TRN | Anthropic's Fable Banned by US Government | Wix and Adobe Hit All-Time Lows | Mistral Raising at $20BN and The Case for Sovereign Models | Fin Acquired by Salesforce for $3.6BN",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-spacex-soars-to-27trn-anthropics-fable-banned-by-us-government-wix-and-adobe-hit-all-time-lows-mistral-raising-at-20bn-and-the-case-for-sovereign-models-fin-acquired-by-salesforce-for-36bn",
-      "pubDate": "2026-06-18T07:07:00.000Z",
-      "duration": "01:25:04",
-      "summary": "AGENDA: 00:00 — SpaceX Completes the Largest IPO in History 03:45 — Elon Musk Adds a Warren Buffett Fortune in 24 Hours 20:45 — Anthropic's Claude Fable Launches Monday, Gets Banned by Thursday 25:00 ",
-      "art": "https://static.libsyn.com/p/assets/a/c/d/6/acd65f142e61da0116c3140a3186d450/WhatsApp_Image_2026-06-17_at_15.08.44.jpeg"
     },
     {
       "showId": "etw",
