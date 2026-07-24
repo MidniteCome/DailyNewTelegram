@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-23T20:51:41.589Z",
+    "updatedAt": "2026-07-24T09:55:28.014Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,50 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Platner’s Top Campaign Strategist on What Went Wrong",
+      "link": "https://www.nytimes.com/2026/07/24/opinion/ezra-klein-podcast-morris-katz.html",
+      "pubDate": "2026-07-24T09:00:00.000Z",
+      "duration": "01:18:27",
+      "summary": "Morris Katz helped orchestrate Zohran Mamdani’s historic victory and Graham Platner’s ultimately disastrous run for Senate. It’s quite a résumé for a political consultant who is still in his 20s. Plat",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "486 沙青青谈台北与莫斯科的冷战秘密交往",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a632389a3fec224d5a2b4b8?utm_source=rss",
+      "pubDate": "2026-07-24T08:54:35.000Z",
+      "duration": "01:33:10",
+      "summary": "- 导语 - 冷战中叶，原本在意识形态上势不两立的台北与莫斯科，却通过记者和驻外人员建立起一条秘密联络线。1968年，持苏联护照、以《伦敦晚报》记者身份访台的维克多·路易斯抵达台北，与魏景蒙、蒋经国等人展开试探；此后，双方又在维也纳、罗马等地继续接触。面对美国政策转向，蒋介石为何在晚年屡屡设想借助莫斯科的力量？被视为克格勃线人的路易斯究竟替谁传话，他又是否真正代表了苏联官方态度？这场被双方各取所需",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Three beefs: U.S. and Brazil, Taco Bell and liability, Waymo and trial lawyers",
+      "link": "https://www.npr.org/2026/07/24/nx-s1-5905782/three-beefs-u-s-and-brazil-taco-bell-and-liability-waymo-and-trial-lawyers",
+      "pubDate": "2026-07-24T07:00:00.000Z",
+      "duration": "562",
+      "summary": "It’s Indicators of the Week! Today on the show: Brazil’s fast payments system that’s got the Trump administration huffy, why Taco Bell might be liable for their role in cyclospora infections and why s",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F07%2Fa4%2Fe6db51c44c308ebfc6d866fe682b%2Fd5642619-8738-4162-aef4-e901d3a0feac.png"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "亲密革命：当婚姻退场、AI降临，我们该如何相爱？",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a62df56a3fec224d5a28b05?utm_source=rss",
+      "pubDate": "2026-07-24T04:05:10.000Z",
+      "duration": "01:07:34",
+      "summary": "【主播的话】 十几年前，还在读研究生的於嘉向一本知名社会科学期刊投了一篇自己刚写完的论文——关于中国人结婚影响因素的研究。但很快，她收到了拒信。期刊的专家当时认为，选题意义不大，因为中国并不存在所谓的“结婚率下降”的问题。 十几年过去，这个曾被认为“并不存在”的问题变成了全民的焦虑，牵动了全国甚至是全球的神经。於嘉也从学校里毕业，成为了北京大学光华管理学院的一名老师，专事与婚姻、家庭、人口结构有关",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -713,17 +757,6 @@
       "duration": "01:09:24",
       "summary": "Mike Mignano is a General Partner at Union Square Ventures, one of the most iconic venture firms in the world, whose investments include Coinbase, Stripe, Etsy, Twilio, Cloudflare. Before joining USV,",
       "art": "https://static.libsyn.com/p/assets/a/3/8/8/a388f6dab95e6b60d959afa2a1bf1c87/WhatsApp_Image_2026-07-03_at_15.22.48.jpeg"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why the US is losing the drone war",
-      "link": "https://www.npr.org/2026/07/06/nx-s1-5883604/why-the-us-is-losing-the-drone-war",
-      "pubDate": "2026-07-06T07:00:00.000Z",
-      "duration": "540",
-      "summary": "The US defense industry is struggling to keep up with the revolution in cheap drones vs. expensive reusable military equipment. Today on the show, we talk with Stacie Pettyjohn, the director of the De",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F61%2F29%2F9984d6be4d79aded75d6f7432c1f%2F8d6e62cb-8aaa-4f31-9ac5-9dc44eb1c22d.png"
     },
     {
       "showId": "20vc",
@@ -1331,17 +1364,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "475 湘西的民风、巫鬼与文学创作：从平江不肖生到沈从文",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a1e952fb30e1571ae9f61fc?utm_source=rss",
-      "pubDate": "2026-06-02T08:47:53.000Z",
-      "duration": "01:05:35",
-      "summary": "- 导语 - 湘西在文学中有多种面向：平江不肖生笔下「飞剑斩人头」的奇幻乡土，沈从文笔下兵匪与牧歌并存的边城世界，丁玲心中远去鼓角争鸣的革命舞台。赶尸、下蛊、辫子功等传说中的湘西民俗如何影响了平江不肖生和沈从文的文学创作？书写门派之争、制造反差人物设定，《江湖奇侠传》怎样开近代武侠小说的风格先河？沈从文的军旅生涯如何塑造了他对生命的书写？霍元甲的文学形象又曾经历过怎样的变迁？请听本期嘉宾赵咏冰老师",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -1439,17 +1461,6 @@
       "duration": "13685",
       "summary": "Vanguard is the most effective vehicle ever created for participating in the fruits of American capitalism. Today it’s the single largest equity owner of the majority of corporations in the S&P 500, o",
       "art": "https://img.transistorcdn.com/G48S8ousdgdlTFU686aTV1C24y-DL5ua-Ih2SyRvqb0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83Nzk4/Y2M5MDcyN2EzZTM3/NjQzYjI1YTBhOTIz/ZjM0NS5qcGc.jpg"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "This Is Why I Find Pema Chödrön So Essential",
-      "link": "https://www.nytimes.com/2026/05/15/opinion/ezra-klein-podcast-pema-chodron.html",
-      "pubDate": "2026-05-15T09:00:00.000Z",
-      "duration": "01:13:51",
-      "summary": "What do you do when you feel anxious or insecure? Many of us try to push the feeling away, or we ruminate on it, or try to solve it, or avoid the thought altogether. But what would happen if we did th",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "etw",
@@ -1813,17 +1824,6 @@
       "duration": "15438",
       "summary": "The NFL is nearly synonymous with America today. Practically nothing is more quintessentially and universally American than tuning in every Sunday (and Monday, and Thursday… and sometimes Saturdays an",
       "art": "https://img.transistorcdn.com/t9HAUiDj-XVUljR4EVNkTfDbMjUwo3P5Uc4FodEDNMs/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9kYzZj/YzcyNDg2MjM3Yjdk/NzRlNjFhMGY1ZDk1/NWY0Ni5qcGc.jpg"
-    },
-    {
-      "showId": "weirdo",
-      "showName": "不合时宜",
-      "category": "zh",
-      "title": "风暴中心的伊朗：大巴扎、女性与年轻人的未来",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69733a54109824f9e123e093?utm_source=rss",
-      "pubDate": "2026-01-23T09:25:57.000Z",
-      "duration": "00:51:28",
-      "summary": "【主播的话】 2025年12月以来，一场由德黑兰大巴扎商贩发起的抗议，很快席卷了伊朗全境。经济急剧恶化，里亚尔对美元暴跌、通胀飙升、食品与燃料价格激增，普通人维生艰难。很快，经济抗议转向了政治诉求，示威者要求改变政治体制，对伊斯兰共和国统治合法性提出了质疑，甚至出现了“回到巴列维”的口号。伊朗政府于 1 月 8 日开始实施全面的互联网封锁，试图切断国内外信息流通。国家安全力量进行了大规模镇压，根据",
-      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
       "showId": "lexfridman",
