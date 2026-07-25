@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updatedAt": "2026-07-24T20:55:30.328Z",
-    "totalEpisodes": 165,
+    "updatedAt": "2026-07-25T09:18:25.748Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
         "name": "20VC",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "ezraklein",
@@ -82,8 +82,8 @@
       "id": "20vc",
       "name": "20VC",
       "category": "vc",
-      "art": null,
-      "link": "https://thetwentyminutevc.libsyn.com/rss"
+      "art": "https://static.libsyn.com/p/assets/d/2/b/a/d2ba673c1d134c2be55e3c100dce7605/WhatsApp_Image_2024-10-28_at_11.39.21.jpeg",
+      "link": "http://www.thetwentyminutevc.com/"
     },
     {
       "id": "ezraklein",
@@ -165,6 +165,28 @@
   ],
   "episodes": [
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Mercor CPO on Revenue Concentration from Frontier Labs | Why Large Enterprise is Scared to Partner with Frontier Labs | Why Small Specialised Models is the Future with Osvald Nitski",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-mercor-cpo-on-revenue-concentration-from-frontier-labs-why-large-enterprise-is-scared-to-partner-with-frontier-labs-why-small-specialised-models-is-the-future-with-osvald-nitski",
+      "pubDate": "2026-07-25T07:07:00.000Z",
+      "duration": "01:00:37",
+      "summary": "Osvald Nitski is the Chief Product Officer at Mercor, the AI-training and expert-data marketplace powering frontier-model development. Mercor last raised a $350 million Series C at a $10 billion valua",
+      "art": "https://static.libsyn.com/p/assets/4/0/c/a/40ca70c100a9243a16c3140a3186d450/WhatsApp_Image_2026-07-22_at_14.14.46.jpeg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "The Fight Over Open Source AI, Anthropic's $1.5B Payout, NYC Socialists: Evictions = Violence?",
+      "link": "https://allinchamathjason.libsyn.com/the-fight-over-open-source-ai-anthropics-15b-payout-nyc-socialists-evictions-violence",
+      "pubDate": "2026-07-24T20:46:00.000Z",
+      "duration": "01:33:44",
+      "summary": "(0:00) Bestie intros! (0:18) The fight to save open source AI: Kimi K3 panic, Anthropic/OpenAI regulatory capture (27:38) Anthropic/OpenAI historic growth rates, China's long game (48:29) Anthropic's ",
+      "art": "https://static.libsyn.com/p/assets/2/f/d/f/2fdf321765cc17a9d959afa2a1bf1c87/1_E282.png"
+    },
+    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -218,6 +240,17 @@
       "duration": "9939",
       "summary": "Timothy Alberino is an author, lecturer, and explorer. His latest release is a new edition of the ancient text “The Book of Enoch,” for which he wrote the introduction and commentary. www.youtube.com/",
       "art": "https://megaphone.imgix.net/podcasts/b569ee94-856c-11f1-bb2f-cf7ff131c798/image/9eb56f60d746efad14ad7d23506fd043.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-openai-and-anthropic-threatened-by-kimi-should-the-us-ban-chinese-open-source-models-should-openrouter-sell-value-in-the-routing-layer-stripe-buying-paypal-what-you-need-to-know",
+      "pubDate": "2026-07-23T07:07:00.000Z",
+      "duration": "01:23:12",
+      "summary": "AGENDA: 00:04 China's Kimi and Qwen Put Frontier AI on Notice 00:08 Washington Debates Whether Chinese AI Models Should Be Banned 00:17 Can America Build a Profitable Open-Weight AI Champion? 00:21 Op",
+      "art": "https://static.libsyn.com/p/assets/3/2/f/7/32f7fa3d560aec3716c3140a3186d450/WhatsApp_Image_2026-07-22_at_20.01.22.jpeg"
     },
     {
       "showId": "indicator",
@@ -308,6 +341,17 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Are OpenAI and Anthropic Overvalued? The Open-Source AI Reality | How Token Costs Will Fall 10x And Usage Will Explode 100x | The Future Is Not One AGI; It's Millions of Specialised Models with Lin Qiao, Founder and CEO @ Fireworks",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-are-openai-and-anthropic-overvalued-the-open-source-ai-reality-how-token-costs-will-fall-10x-and-usage-will-explode-100x-the-future-is-not-one-agi-its-millions-of-specialised-models-with-lin-qiao-founder-and-ceo-fireworks",
+      "pubDate": "2026-07-20T07:07:00.000Z",
+      "duration": "01:17:07",
+      "summary": "Lin Qiao is the Co-Founder and CEO of Fireworks AI, the leading specialized intelligence and AI inference platform that last week raised $1.5BN at a whopping $17BN valuation. With just 200 people, the",
+      "art": "https://static.libsyn.com/p/assets/f/9/0/e/f90eeba56c87b1f716c3140a3186d450/WhatsApp_Image_2026-07-17_at_18.27.00.jpeg"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -328,6 +372,17 @@
       "duration": "203",
       "summary": "In the summer of 2020, sixteen-year-old Antonio Mays Jr. traveled a thousand miles to join the racial justice movement of his generation in the wake of George Floyd's killing. Antonio arrived in Seatt",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9c%2F31%2F13995dd74ea08aa5fec153b0af8d%2F04cf1097-310a-4f0c-8e44-954fbf6c7706.jpg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: $5BN in Revenue, 7 to 7,000 Employees in 9 Months, 206,000 Tests in a Single Day: The Craziest Story in Startups: Curative with Fred Turner",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-5bn-in-revenue-7-to-7000-employees-in-9-months-206000-tests-in-a-single-day-the-craziest-story-in-startups-curative-with-fred-turner",
+      "pubDate": "2026-07-18T07:07:00.000Z",
+      "duration": "01:27:34",
+      "summary": "Fred Turner is the Founder and CEO @ Curative, one of the wildest stories in tech. Fred scaled a COVID testing business from $0 to $5BN in revenue and took the team from 7 to 7,000 employees in just 9",
+      "art": "https://static.libsyn.com/p/assets/2/6/5/2/2652bf92937cbe10d959afa2a1bf1c87/WhatsApp_Image_2026-07-17_at_18.17.13.jpeg"
     },
     {
       "showId": "allin",
@@ -394,6 +449,17 @@
       "duration": "52:06",
       "summary": "特朗普政府收紧移民政策、暂停难民接收后，南非白人却成了少数例外：一些人以「难民」身份进入美国，另一些人拿着农业签证，来到密西西比的农场工作。为什么偏偏是他们？ 今年 4 月，刘骁骞前往密西西比州中部的农业地区。在黄昏的加油站和餐馆里，穿着卡其色短裤的南非白人劳工陆续出现，聚在吧台旁喝酒；有人从早上 6 点工作到晚上 8 点，握手时指甲缝里还沾满泥土。更高的收入之外，围绕本地就业、工资差异和种族问题",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Apple Sues OpenAI | Zuckerberg Back on X and Challenging Codex and Claude Code | SK Hynix's $26BN IPO | Is Seed Investing Dead: Jason Calacanis Departs Seed for Growth | Greylock Raises New $1.5BN Fund",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-apple-sues-openai-zuckerberg-back-on-x-and-challenging-codex-and-claude-code-sk-hynixs-26bn-ipo-is-seed-investing-dead-jason-calacanis-departs-seed-for-growth-greylock-raises-new-15bn-fund",
+      "pubDate": "2026-07-16T07:07:00.000Z",
+      "duration": "01:22:51",
+      "summary": "AGENDA: 00:00 – Apple SUES OpenAI: Did They Steal Apple's Biggest Secrets? 05:10 – Is OpenAI's $6BN Hardware Bet Already Dead? 12:50 – Zuckerberg Is Back: Meta Finally Takes On OpenAI 18:05 – The AI S",
+      "art": "https://static.libsyn.com/p/assets/7/7/5/7/77574f71c9c00b0816c3140a3186d450/WhatsApp_Image_2026-07-15_at_16.40.20.jpeg"
     },
     {
       "showId": "indicator",
@@ -506,6 +572,17 @@
       "art": "https://static.libsyn.com/p/assets/f/e/0/e/fe0e7bc7041988a5d959afa2a1bf1c87/1_Pod_France.png"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Wix's Founder on What Wall St Gets Wrong About AI and Wix | Will Base44 Win the Vibe Coding Wars | The Truth About the Economics of Vibe-Coding | The Buyback Disaster: Lessons Learned with Avishai Abrahami",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-wixs-founder-on-what-wall-st-gets-wrong-about-ai-and-wix-will-base44-win-the-vibe-coding-wars-the-truth-about-the-economics-of-vibe-coding-the-buyback-disaster-lessons-learned-with-avishai-abrahami",
+      "pubDate": "2026-07-13T07:07:00.000Z",
+      "duration": "57:20",
+      "summary": "Avishai Abrahami is the Co-Founder and CEO of Wix, the NASDAQ-listed website creation platform serving millions of businesses worldwide. Today, Wix generates more than $2BN in ARR and has a market cap",
+      "art": "https://static.libsyn.com/p/assets/0/1/5/1/0151f98d6bf5e1ac16c3140a3186d450/WhatsApp_Image_2026-07-10_at_14.41.49.jpeg"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -515,6 +592,17 @@
       "duration": "553",
       "summary": "About one in 20 car loans made to young people are in serious delinquency. That’s the highest rate since the global financial crisis. Today on the show, former FDIC chair Sheila Bair answers young lis",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc7%2F36%2Fb12b1be642389d5b7f06d87559c9%2Fc6f6f843-239f-4129-b14b-7ae6f7aa8ceb.png"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Why OpenAI and Anthropic Won't Win the App Layer | Why Teams Will Get Bigger Not Smaller in a World of AI | Why AI Removes Incumbents Advantage of Bundling | China vs America: Who Wins the AI War with Arvind Jain, Co-Founder @ Glean",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-why-openai-and-anthropic-wont-win-the-app-layer-why-teams-will-get-bigger-not-smaller-in-a-world-of-ai-why-ai-removes-incumbents-advantage-of-bundling-china-vs-america-who-wins-the-ai-war-with-arvind-jain-co-founder-glean",
+      "pubDate": "2026-07-11T07:07:00.000Z",
+      "duration": "54:46",
+      "summary": "Arvind Jain is the Founder & CEO of Glean, the enterprise AI leader valued at $7.2 billion after raising more than $770 million from investors including Kleiner Perkins, DST Global, and more. Before G",
+      "art": "https://static.libsyn.com/p/assets/6/1/8/d/618dcaee7e77b04416c3140a3186d450/WhatsApp_Image_2026-07-10_at_14.27.55.jpeg"
     },
     {
       "showId": "allin",
@@ -594,6 +682,17 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Sam Altman Offers Trump 5% of OpenAI: Fool or Genius? | Alex Karp Sounds the Alarm: Enterprises Fear Frontier Models & Questionable ROI of AI | The Rise of Chinese Open Source: Deepseek Building Own Chips",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-sam-altman-offers-trump-5-of-openai-fool-or-genius-alex-karp-sounds-the-alarm-enterprises-fear-frontier-models-questionable-roi-of-ai-the-rise-of-chinese-open-source-deepseek-building-own-chips",
+      "pubDate": "2026-07-09T07:07:00.000Z",
+      "duration": "01:23:32",
+      "summary": "AGENDA: 05:00 Washington Just Put Frontier AI on a Leash 06:30 Sam Altman's Wild 5% Government Stake Idea 19:00 The AI Funding Bubble: Why Founders No Longer Fear Dilution 28:00 Alex Karp's Brutal War",
+      "art": "https://static.libsyn.com/p/assets/3/d/d/4/3dd475bc8de360c716c3140a3186d450/WhatsApp_Image_2026-07-08_at_13.10.54.jpeg"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -671,6 +770,28 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F02%2F69%2Fe426493b486e83447171b91f0b5e%2Fd7e4a187-ee97-4a03-b5b2-edd6cd1c9370.jpg"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Why Now is the Time for the Application Layer | Why OpenAI & Anthropic Won't Win the App Layer | Why Startups Should be TokenMaxxing | Why VCs Should Reduce Weighting on Price & Ownership in an Age of AI with Mike Mignano, USV",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-why-now-is-the-time-for-the-application-layer-why-openai-anthropic-wont-win-the-app-layer-why-startups-should-be-tokenmaxxing-why-vcs-should-reduce-weighting-on-price-ownership-in-an-age-of-ai-with-mike-mignano-usv",
+      "pubDate": "2026-07-06T07:07:00.000Z",
+      "duration": "01:09:24",
+      "summary": "Mike Mignano is a General Partner at Union Square Ventures, one of the most iconic venture firms in the world, whose investments include Coinbase, Stripe, Etsy, Twilio, Cloudflare. Before joining USV,",
+      "art": "https://static.libsyn.com/p/assets/a/3/8/8/a388f6dab95e6b60d959afa2a1bf1c87/WhatsApp_Image_2026-07-03_at_15.22.48.jpeg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Open Models vs Frontier Models: Who Actually Wins? | The $100,000 Token Budget Every Engineer Will Need | Why Forward-Deployed Engineers Are the Future of Enterprise AI with Clay Bavor, Co-Founder of Sierra",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-open-models-vs-frontier-models-who-actually-wins-the-100000-token-budget-every-engineer-will-need-why-forward-deployed-engineers-are-the-future-of-enterprise-ai-with-clay-bavor-co-founder-of-sierra",
+      "pubDate": "2026-07-04T07:07:00.000Z",
+      "duration": "01:08:48",
+      "summary": "Clay Bavor is the Co-Founder of Sierra, one of the world's fastest-growing enterprise AI companies. Sierra is valued at approximately $15.8 billion, has raised more than $1.5BN from leading investors ",
+      "art": "https://static.libsyn.com/p/assets/7/3/9/5/7395da7b1a2742d516c3140a3186d450/WhatsApp_Image_2026-07-02_at_15.03.48.jpeg"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -735,6 +856,17 @@
       "duration": "1:02:31",
       "summary": "以色列的多面战线正越扩越大。在刚刚过去的 6 月 30 日，以色列总理内塔尼亚胡在采访中赞扬以色列「近年来取得的军事成就」，坦言这场战斗「永无止境」。而仅仅一周前，联合国人权理事会发布的最新报告显示，自 2023 年 10 月以来，因为以色列的行动，加沙已有近 7.5 万人非正常死亡，其中儿童约 2 万人。 如果仔细盘点，以色列同时深陷加沙、黎巴嫩、叙利亚、也门、伊朗、约旦河西岸等多条战线。战争之",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Dario and Anthropic Declare War on Open-Source | Coinbase Slash AI Spend by 50% | Kalshi's $40BN Valuation and Impending IPO | Bending Spoons: Smartest IPO of 2026 and the Year for SaaS Roll-Ups",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-dario-and-anthropic-declare-war-on-open-source-coinbase-slash-ai-spend-by-50-kalshis-40bn-valuation-and-impending-ipo-bending-spoons-smartest-ipo-of-2026-and-the-year-for-saas-roll-ups",
+      "pubDate": "2026-07-02T07:07:00.000Z",
+      "duration": "01:17:10",
+      "summary": "AGENDA: 00:00 Coinbase Slashes AI Spend 50%—Is the AI Token Bubble Bursting? 12:55 Anthropic Warns Open Source Could Destroy the AI Business Model 18:10 Dario Escalates the AI War with China & Open-So",
+      "art": "https://static.libsyn.com/p/assets/1/e/d/5/1ed5e07edcebeb0cd959afa2a1bf1c87/WhatsApp_Image_2026-07-01_at_16.27.05.jpeg"
     },
     {
       "showId": "jre",
@@ -825,6 +957,28 @@
       "art": "https://static.libsyn.com/p/assets/c/1/7/b/c17b9c46b1ed81c216c3140a3186d450/silver_image_lybson.png"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Leo Aschenbrenner's Largest Holding: Inside the $90BN Bloom Energy | Why Electricity, Not AI Models, Will Decide the Winners of the AI Race | Why We Are Not in an AI Capex Bubble | Energy Sovereignty and The Future of Power with KR Sridhar",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-leo-aschenbrenners-largest-holding-inside-the-90bn-bloom-energy-why-electricity-not-ai-models-will-decide-the-winners-of-the-ai-race-why-we-are-not-in-an-ai-capex-bubble-energy-sovereignty-and-the-future-of-power-with-kr-sridhar",
+      "pubDate": "2026-06-29T07:07:00.000Z",
+      "duration": "01:00:44",
+      "summary": "KR Sridhar is the Founder and CEO of Bloom Energy, the distributed power company powering the AI revolution. Under his leadership, Bloom has grown to a market cap of approximately $93 billion, with re",
+      "art": "https://static.libsyn.com/p/assets/9/3/8/c/938cbb4d26123836d959afa2a1bf1c87/WhatsApp_Image_2026-06-26_at_12.49.43.jpeg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: How We Got Fred Wilson, Benchmark and Index to Invest $94M | Why Robinhood's Strategy is Wrong | Why 1-1s are BS and What Every Founder Gets Wrong About Equity | Why Taste Beats AI But How AI Kills Org Charts with Paul Erlanger, CEO @ fomo",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-how-we-got-fred-wilson-benchmark-and-index-to-invest-94m-why-robinhoods-strategy-is-wrong-why-1-1s-are-bs-and-what-every-founder-gets-wrong-about-equity-why-taste-beats-ai-but-how-ai-kills-org-charts-with-paul-erlanger-ceo-fomo",
+      "pubDate": "2026-06-27T07:08:00.000Z",
+      "duration": "57:12",
+      "summary": "Paul Erlanger is the Co-Founder and CEO of FOMO, the social-first trading platform building the future of on-chain investing. Since founding the company in 2025, Paul has raised approximately $94 mill",
+      "art": "https://static.libsyn.com/p/assets/c/6/a/d/c6ad3a9ed1872baf16c3140a3186d450/WhatsApp_Image_2026-06-26_at_12.12.29.jpeg"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -878,6 +1032,17 @@
       "duration": "1:19:14",
       "summary": "为什么磕 cp 比谈恋爱更快乐？为什么追星让人上头欲罢不能？为什么说这种现象，正展现出我们这个时代「爱」这种最私人的感情也正在发生结构性变化？ 在社交媒体、流量算法与情感商品化的层层作用下，「爱」这个原本属于私人领域的情感，正在被一步步地公共化、量化，乃至商品化 —— 从磕 CP 到情感专制，从乙女游戏到 AI 恋人，爱的形式与爱的能力似乎都在被重新定义。 这一期节目，我们邀请到复旦大学社会学系副",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Deepseek Raises $50BN | Wall St's $725BN AI Question | The Rise of Open Source & How it Threatens OpenAI & Anthropic | OpenAI Builds it's Own Chip: Jalapeno | The Death of Moats & The New AI Software Winners",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-deepseek-raises-50bn-wall-sts-725bn-ai-question-the-rise-of-open-source-how-it-threatens-openai-anthropic-openai-builds-its-own-chip-jalapeno-the-death-of-moats-the-new-ai-software-winners",
+      "pubDate": "2026-06-25T07:07:00.000Z",
+      "duration": "01:24:22",
+      "summary": "AGENDA: 00:00 – Google Loses Two AI Legends as Anthropic Wins the Talent War 14:45 – China's $50B DeepSeek Bet Changes the AI Power Balance 27:15 – AI's Memory Crisis Has Begun — Apple Warns of a '100",
+      "art": "https://static.libsyn.com/p/assets/c/d/6/7/cd67e676f84c3026d959afa2a1bf1c87/WhatsApp_Image_2026-06-24_at_19.19.09.jpeg"
     },
     {
       "showId": "weirdo",
@@ -944,6 +1109,17 @@
       "duration": "1289",
       "summary": "The Studio Museum in Harlem serves as an internationally recognized home for Black art and artists, championing new scholarships and cultural dialogue while anchoring the historic 125th Street corrido",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Nikesh Arora on the Frontier Model Problem: Breadth vs Depth | The Future of Token Costs | Memory Becoming the Moat | Where Value Accrues: Infra, Models, or Apps? | Why Enterprise AI is Not Ready & Systems of Record vs Systems of Intelligence",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-nikesh-arora-on-the-frontier-model-problem-breadth-vs-depth-the-future-of-token-costs-memory-becoming-the-moat-where-value-accrues-infra-models-or-apps-why-enterprise-ai-is-not-ready-systems-of-record-vs-systems-of-intelligence",
+      "pubDate": "2026-06-22T07:07:00.000Z",
+      "duration": "01:14:19",
+      "summary": "Nikesh Arora is the Chairman and CEO of Palo Alto Networks, the global cybersecurity leader. Since taking over in 2018, he has transformed the company from an $18 billion market cap business into one ",
+      "art": "https://static.libsyn.com/p/assets/4/a/1/6/4a16862aec4fcd63d959afa2a1bf1c87/WhatsApp_Image_2026-06-19_at_16.25.14.jpeg"
     },
     {
       "showId": "acquired",
@@ -1098,17 +1274,6 @@
       "duration": "01:27:36",
       "summary": "【主播的话】 今年五月，我去了一趟奥马哈，参加了一年一度的巴菲特股东大会。 作为一个平日里并不算关注投资的人，去参会纯粹是记者的好奇心作祟：我想看看，这个每年让几万人专程飞来朝圣的地方，究竟供着什么“神”？现场的第一印象，像是一个巨大的县城大卖场，人声鼎沸，摩肩接踵，中国投资者组团涌入，对着一个九十多岁的老人的照片虔诚地举起手机。那种氛围也让人深思：他们在这里寻找的，究竟是财富密码，还是某种更难言",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
-      "link": "https://allinchamathjason.libsyn.com/dan-dreyfus-americas-critical-minerals-crisis-is-here",
-      "pubDate": "2026-06-10T03:04:00.000Z",
-      "duration": "24:37",
-      "summary": "(0:00) Dan Dreyfus Presents: The Future of Critical Minerals (0:33) America's \"Capital Light Era\" is over, rapid supply/demand shocks (5:40) Impact of China cutting off the US from critical minerals (",
-      "art": "https://static.libsyn.com/p/assets/b/3/0/0/b300a1698fd66e4516c3140a3186d450/Podcast_Graphic_-_Liquidity-20260610-0jeiy2jpei.png"
     },
     {
       "showId": "left-right",
