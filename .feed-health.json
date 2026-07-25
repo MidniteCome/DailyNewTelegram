@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-07-24",
+  "lastRun": "2026-07-25",
   "feeds": [
     {
       "name": "Stratechery",
@@ -89,10 +89,9 @@
     {
       "name": "Hacker News",
       "url": "https://hnrss.org/frontpage",
-      "ok": false,
-      "itemCount": 0,
-      "consecutiveFails": 1,
-      "error": "fetch failed"
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
     },
     {
       "name": "V2EX 技术",
@@ -211,7 +210,7 @@
       "name": "email",
       "url": "sources/newsletters.json",
       "ok": true,
-      "itemCount": 37,
+      "itemCount": 36,
       "consecutiveFails": 0,
       "skipped": false
     }
