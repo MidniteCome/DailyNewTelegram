@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-26T20:46:52.416Z",
+    "updatedAt": "2026-07-27T10:54:08.260Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -168,6 +168,28 @@
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
+      "title": "20VC: Leading Anthropic's First Ever Round | Will Open Source Threaten Anthropic's Business | Do Margins Matter in a World of AI | Why Triple, Triple, Double, Double is Not Good Enough Today | Why Series A is Hard Today with Matt Murphy @ Menlo",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-leading-anthropics-first-ever-round-will-open-source-threaten-anthropics-business-do-margins-matter-in-a-world-of-ai-why-triple-triple-double-double-is-not-good-enough-today-why-series-a-is-hard-today-with-matt-murphy-menlo",
+      "pubDate": "2026-07-27T07:07:00.000Z",
+      "duration": "01:02:34",
+      "summary": "Matt Murphy is a Partner at Menlo Ventures, who just raised $3 billion in fresh capital, its largest pool ever. Matt's portfolio includes Anthropic, Lovable, Legora, OpenRouter, Chai Discovery, Axiom,",
+      "art": "https://static.libsyn.com/p/assets/d/9/3/7/d937e6b5f9ed765316c3140a3186d450/WhatsApp_Image_2026-07-24_at_12.31.31.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Petty! Econ! Grievances!",
+      "link": "https://www.npr.org/2026/07/27/nx-s1-5907115/petty-econ-grievances",
+      "pubDate": "2026-07-27T07:00:00.000Z",
+      "duration": "504",
+      "summary": "We have some grievances. Economic ones. And we’re airing them out. On today’s show: Redeeming fast food rewards points in airports, not knowing the full price of your meal upfront, and the pen-and-pap",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe8%2F16%2F57b741cf4f82836cbc3cc243d3c7%2F8ff68fc6-faf1-4e35-a7f7-417cd98fda2a.png"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
       "title": "20VC: Mercor CPO on Revenue Concentration from Frontier Labs | Why Large Enterprise is Scared to Partner with Frontier Labs | Why Small Specialised Models is the Future with Osvald Nitski",
       "link": "https://thetwentyminutevc.libsyn.com/20vc-mercor-cpo-on-revenue-concentration-from-frontier-labs-why-large-enterprise-is-scared-to-partner-with-frontier-labs-why-small-specialised-models-is-the-future-with-osvald-nitski",
       "pubDate": "2026-07-25T07:07:00.000Z",
@@ -204,7 +226,7 @@
       "title": "486 沙青青谈台北与莫斯科的冷战秘密交往",
       "link": "https://www.xiaoyuzhoufm.com/episode/6a632389a3fec224d5a2b4b8?utm_source=rss",
       "pubDate": "2026-07-24T08:54:35.000Z",
-      "duration": "01:33:10",
+      "duration": "01:32:11",
       "summary": "- 导语 - 冷战中叶，原本在意识形态上势不两立的台北与莫斯科，却通过记者和驻外人员建立起一条秘密联络线。1968年，持苏联护照、以《伦敦晚报》记者身份访台的维克多·路易斯抵达台北，与魏景蒙、蒋经国等人展开试探；此后，双方又在维也纳、罗马等地继续接触。面对美国政策转向，蒋介石为何在晚年屡屡设想借助莫斯科的力量？被视为克格勃线人的路易斯究竟替谁传话，他又是否真正代表了苏联官方态度？这场被双方各取所需",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
@@ -759,17 +781,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "We're in a renter's market (believe it or not)",
-      "link": "https://www.npr.org/2026/07/07/nx-s1-5884037/were-in-a-renters-market-believe-it-or-not",
-      "pubDate": "2026-07-07T07:00:00.000Z",
-      "duration": "569",
-      "summary": "Depends on where you live, but renters have a lot of power right now in the United States. What’s behind this trend and how might you be able to take advantage of the renters’ market at your next leas",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F02%2F69%2Fe426493b486e83447171b91f0b5e%2Fd7e4a187-ee97-4a03-b5b2-edd6cd1c9370.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1109,17 +1120,6 @@
       "duration": "1289",
       "summary": "The Studio Museum in Harlem serves as an internationally recognized home for Black art and artists, championing new scholarships and cultural dialogue while anchoring the historic 125th Street corrido",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Nikesh Arora on the Frontier Model Problem: Breadth vs Depth | The Future of Token Costs | Memory Becoming the Moat | Where Value Accrues: Infra, Models, or Apps? | Why Enterprise AI is Not Ready & Systems of Record vs Systems of Intelligence",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-nikesh-arora-on-the-frontier-model-problem-breadth-vs-depth-the-future-of-token-costs-memory-becoming-the-moat-where-value-accrues-infra-models-or-apps-why-enterprise-ai-is-not-ready-systems-of-record-vs-systems-of-intelligence",
-      "pubDate": "2026-06-22T07:07:00.000Z",
-      "duration": "01:14:19",
-      "summary": "Nikesh Arora is the Chairman and CEO of Palo Alto Networks, the global cybersecurity leader. Since taking over in 2018, he has transformed the company from an $18 billion market cap business into one ",
-      "art": "https://static.libsyn.com/p/assets/4/a/1/6/4a16862aec4fcd63d959afa2a1bf1c87/WhatsApp_Image_2026-06-19_at_16.25.14.jpeg"
     },
     {
       "showId": "acquired",
