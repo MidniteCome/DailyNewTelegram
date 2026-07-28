@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-28T10:06:24.588Z",
+    "updatedAt": "2026-07-28T16:07:01.391Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "You had housing questions. An economist answered them.",
+      "link": "https://www.npr.org/2026/07/27/nx-s1-5909615/you-had-housing-questions-an-economist-answered-them",
+      "pubDate": "2026-07-28T11:53:55.000Z",
+      "duration": "570",
+      "summary": "The U.S. housing market is pretty weird right now. Whether you’re a buyer, seller or a renter, it leads to all kinds of questions, like: How did we end up with a housing shortage? Is housing still a g",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3b%2F63%2Fc49640fa4ef99b36419c18660516%2F195ace1c-2c50-4878-a933-36537e90f24e.png"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "487 从战象政治到部落民：南亚的帝国生态五百年",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a68817056a3f3491ba6571f?utm_source=rss",
+      "pubDate": "2026-07-28T10:43:23.000Z",
+      "duration": "01:34:09",
+      "summary": "- 导语 - 15至19世纪，南亚次大陆发生了一场从邦国林立向大型军事财政国家的持续转型。在莫卧儿、马拉塔、英印三大帝国看似精密的统治下，大象、森林与水稻等生态要素正和国家治理产生着双向影响。从权力的视角解释，南亚何以至今留存大量野生亚洲象，而中国中原地区的大象却持续消退？殖民时代，鸦片、茶叶、柚木产业链如何塑造了南亚的土地景观？南亚大陆的山林地带何以成为民众躲避帝国管控的特殊空间？请听本期嘉宾张",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
     {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
@@ -759,17 +781,6 @@
       "art": "https://megaphone.imgix.net/podcasts/91f58b9e-7a68-11f1-b64d-b7a9d3eaf022/image/71afd8c144033650bec3ce8d5039a8ce.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Cracking down on egg prices",
-      "link": "https://www.npr.org/2026/07/08/nx-s1-5884996/cracking-down-on-egg-prices",
-      "pubDate": "2026-07-08T07:00:00.000Z",
-      "duration": "593",
-      "summary": "Too much news, there’s just too much news. Today on the show, we tackle three big stories we’re following: Venezuela’s ever-increasing debt problem, the real story behind high egg prices, and how gami",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F10%2F7f%2F803ceb174a20b4d8f06f93bd1187%2F0c20d3ea-03eb-4543-b414-5f10b9c8bd40.jpg"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1340,17 +1351,6 @@
       "duration": "01:43:16",
       "summary": "A new masculinist movement has gone mainstream on the right. The prominent voices in this movement yearn for an earlier time, when men were men and women were women. Sometimes that time seems to be th",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "日本谍报物语05｜冷战前线的「间谍乐园」：战后对内公安情报如何重生？",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a2284447444b5722233dedb?utm_source=rss",
-      "pubDate": "2026-06-05T08:36:18.000Z",
-      "duration": "00:03:00",
-      "summary": "- 导语 - 特高警察前脚废止，公安警察后脚成立，冷战与对内治安两条主线重新组织起日本战后情报体系。驻日盟军总司令部（GHQ）内部两大路线冲突在何处？帝银事件、「国铁三大案」接连爆发，日本公安警察如何借此持续扩权？岸信介脱罪从政，美方暗中政治运作是否发挥作用？六七十年代左右翼极端事件此起彼伏，韩、朝、美、苏多方势力又在日本境内展开怎样的情报博弈？请听本期节目沙青青带来的精彩分享！ 《谍海轶闻｜日本",
-      "art": "https://image.xyzcdn.net/FvZfckFcavT1CgwW_gSQp3JEC9Xz.png"
     },
     {
       "showId": "etw",
