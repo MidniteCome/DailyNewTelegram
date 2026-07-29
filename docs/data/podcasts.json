@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-29T15:52:03.404Z",
+    "updatedAt": "2026-07-29T20:43:23.333Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2532 - Tim Robbins",
+      "link": "https://traffic.megaphone.fm/GLT8191324941.mp3",
+      "pubDate": "2026-07-29T17:00:00.000Z",
+      "duration": "9375",
+      "summary": "Tim Robbins is an Academy Award-winning actor, director, writer, and producer known for such films as \"The Shawshank Redemption,\" \"Mystic River,\" and \"The Hudsucker Proxy.\" He currently stars in the A",
+      "art": "https://megaphone.imgix.net/podcasts/c63dd774-8afa-11f1-813f-4bb63349f062/image/93a87a9f39427ac496d95e97d79f6b67.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "talksat",
       "showName": "Talks at GS",
@@ -1142,17 +1153,6 @@
       "duration": "01:36:30",
       "summary": "【主播的话】 本期节目是不合时宜的系列节目——跨世代女性对话。这是不合时宜策划的一档栏目，我们收集了来自不同世代女性所面对的困惑和思考，通过与嘉宾深入对谈的方式展开回应这些困惑。 本期节目中时隔两年，我们又和闾丘露薇在播客中重聚了。这次她还带来了大学同学以及播客伙伴 Helen。我们这期节目里聊了聊对于工作、友谊和创作的理解与困惑，不同阶段的女性与自己身体的关系。想起一个好玩的插曲，在准备这期节目",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2518 - Tim Dillon",
-      "link": "https://traffic.megaphone.fm/GLT2211636736.mp3",
-      "pubDate": "2026-06-24T17:00:00.000Z",
-      "duration": "9872",
-      "summary": "Tim Dillon is a stand-up comic, actor, and host of “The Tim Dillon Show” podcast. His latest comedy special, “Tim Dillon: I’m Your Mother,” is available on Netflix.www.youtube.com/@TimDillonShowwww.pa",
-      "art": "https://megaphone.imgix.net/podcasts/231bd648-6f6d-11f1-a048-3b077aa29ad3/image/3b17cdbc50e914c56886cd487f79c693.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "allin",
