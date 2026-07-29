@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-28T20:59:27.141Z",
+    "updatedAt": "2026-07-29T10:08:12.531Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Even Moore’s law can't save affordable tech",
+      "link": "https://www.npr.org/2026/07/29/nx-s1-5910826/even-moores-law-cant-save-affordable-tech",
+      "pubDate": "2026-07-29T07:00:00.000Z",
+      "duration": "519",
+      "summary": "For decades, consumer tech like laptops and gaming systems got better AND cheaper. Memory shortages caused by the AI boom are making those lower prices a thing of the past. Fact checking by Sierra Jua",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F44%2F22%2F39b089bb49e5b24f4bce7b0cf500%2Fa31bb57a-3d8d-4dee-8c27-833b9b0e1316.jpg"
+    },
     {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
@@ -779,17 +790,6 @@
       "duration": "01:23:32",
       "summary": "AGENDA: 05:00 Washington Just Put Frontier AI on a Leash 06:30 Sam Altman's Wild 5% Government Stake Idea 19:00 The AI Funding Bubble: Why Founders No Longer Fear Dilution 28:00 Alex Karp's Brutal War",
       "art": "https://static.libsyn.com/p/assets/3/d/d/4/3dd475bc8de360c716c3140a3186d450/WhatsApp_Image_2026-07-08_at_13.10.54.jpeg"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why Google fell behind in the AI race",
-      "link": "https://www.npr.org/2026/07/09/nx-s1-5885026/why-google-fell-behind-in-the-ai-race",
-      "pubDate": "2026-07-09T07:00:00.000Z",
-      "duration": "567",
-      "summary": "When it comes to AI, Google’s Gemini does not have the same household recognition that Claude and ChatGPT do. One big explanation: the innovator’s dilemma. We explain how Google DeepMind CEO Demis Has",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F46%2F47%2Fdcfaac7945fb8f3ad23eb63bc047%2Fa1e49d02-33c0-447b-9f54-ee5301e45703.jpg"
     },
     {
       "showId": "jre",
