@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-30T15:53:24.233Z",
+    "updatedAt": "2026-07-30T20:57:32.626Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,6 +165,17 @@
   ],
   "episodes": [
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2533 - Diana Pasulka",
+      "link": "https://traffic.megaphone.fm/GLT1888945098.mp3",
+      "pubDate": "2026-07-30T17:00:00.000Z",
+      "duration": "9836",
+      "summary": "Diana Pasulka is a professor of religious studies at the University of North Carolina Wilmington and the author of several books. Her most recent, \"The Others: UFOs, AI, and the Secret Forces Guiding ",
+      "art": "https://megaphone.imgix.net/podcasts/3e41b214-8ba4-11f1-9b3e-6700767b4af0/image/3b34418dc009c084df68d2d39c7be423.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -179,11 +190,11 @@
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
-      "title": "Trump’s new Truth Social plan: pay me $100K",
+      "title": "Trump’s new Truth Social plan: pay $100K",
       "link": "https://www.npr.org/2026/07/30/nx-s1-5911852/trumps-new-truth-social-plan-pay-100k",
       "pubDate": "2026-07-30T07:00:00.000Z",
       "duration": "535",
-      "summary": "President Trump’s social media company, Truth Social, wants to sell investors early access to its posts., When Trump announces tariffs or new strikes on Iran, those milliseconds matter in the market. ",
+      "summary": "President Trump’s social media company, Truth Social, wants to sell investors early access to its posts. When Trump announces tariffs or new strikes on Iran, those milliseconds matter in the market. I",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+739+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2d%2Ff0%2F68280cd144278d555c92f8f236fe%2Fce98fc97-0080-479c-88bb-01a1d6783e21.jpg"
     },
     {
@@ -1098,17 +1109,6 @@
       "duration": "01:41:43",
       "summary": "(0:00) Gavin Baker and Travis Kalanick join the show! (1:05) Mamdani-endorsed socialists sweep congressional primaries in NYC (22:51) Future of the Democratic Party, the Israel issue, social media ban",
       "art": "https://static.libsyn.com/p/assets/c/b/e/9/cbe9070445114b7416c3140a3186d450/1_Pod_E278.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2519 - Scott Eastwood",
-      "link": "https://traffic.megaphone.fm/GLT2167530910.mp3",
-      "pubDate": "2026-06-26T17:00:00.000Z",
-      "duration": "9225",
-      "summary": "Scott Eastwood is an actor and producer known for his roles in films including “Fury,” “The Fate of the Furious,” and “Outpost.” His new film, “Lucky Strike,” will be released June 26.https://youtu.be",
-      "art": "https://megaphone.imgix.net/podcasts/f613449c-70e8-11f1-8b42-c7b7016e25ae/image/ec4642142ad707175f7baf49a7febd34.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
