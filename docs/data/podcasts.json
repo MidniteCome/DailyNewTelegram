@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-31T20:54:10.615Z",
+    "updatedAt": "2026-08-01T09:32:01.362Z",
     "totalEpisodes": 165,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: The Best AI Companies Have Unique Data Acquisition Strategies | Will Simile Kill Kalshi, Polymarkets and NASDAQ | How to Sign Fortune 500 Companies As Customers in Weeks with Joon Sung Park, Simile",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-best-ai-companies-have-unique-data-acquisition-strategies-will-simile-kill-kalshi-polymarkets-and-nasdaq-how-to-sign-fortune-500-companies-as-customers-in-weeks-with-joon-sung-park-simile",
+      "pubDate": "2026-08-01T07:07:00.000Z",
+      "duration": "01:03:41",
+      "summary": "Joon Sung Park is the Founder and CEO of Simile, the AI simulation company building foundation models of human behaviour; allowing companies to test how real people may think, decide and act before ma",
+      "art": "https://static.libsyn.com/p/assets/8/c/a/6/8ca6739fec2c275f16c3140a3186d450/WhatsApp_Image_2026-07-30_at_17.13.21.jpeg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
+      "link": "https://allinchamathjason.libsyn.com/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow-down-ai-mamdanis-grocery-stores",
+      "pubDate": "2026-07-31T22:23:00.000Z",
+      "duration": "01:36:34",
+      "summary": "(0:00) Bestie intros (1:19) Chip stocks crash, Leopold Aschenbrenner's $20B fund gets margin called (20:20) China's advantage and green shoots for the US economy (34:12) Frontier Labs say \"SLOW DOWN A",
+      "art": "https://static.libsyn.com/p/assets/9/3/d/1/93d127ba8f063c6c16c3140a3186d450/1_E283.png"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -946,17 +968,6 @@
       "art": "https://static.libsyn.com/p/assets/9/3/8/c/938cbb4d26123836d959afa2a1bf1c87/WhatsApp_Image_2026-06-26_at_12.49.43.jpeg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: How We Got Fred Wilson, Benchmark and Index to Invest $94M | Why Robinhood's Strategy is Wrong | Why 1-1s are BS and What Every Founder Gets Wrong About Equity | Why Taste Beats AI But How AI Kills Org Charts with Paul Erlanger, CEO @ fomo",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-how-we-got-fred-wilson-benchmark-and-index-to-invest-94m-why-robinhoods-strategy-is-wrong-why-1-1s-are-bs-and-what-every-founder-gets-wrong-about-equity-why-taste-beats-ai-but-how-ai-kills-org-charts-with-paul-erlanger-ceo-fomo",
-      "pubDate": "2026-06-27T07:08:00.000Z",
-      "duration": "57:12",
-      "summary": "Paul Erlanger is the Co-Founder and CEO of FOMO, the social-first trading platform building the future of on-chain investing. Since founding the company in 2025, Paul has raised approximately $94 mill",
-      "art": "https://static.libsyn.com/p/assets/c/6/a/d/c6ad3a9ed1872baf16c3140a3186d450/WhatsApp_Image_2026-06-26_at_12.12.29.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1142,17 +1153,6 @@
       "duration": "00:03:00",
       "summary": "- 导语 - 从战败国家到冷战前哨，二十世纪后半叶的日本情报体系在延续与阉割间徘徊，最终将视线转向经济战场。军事侦查权被剥夺，通产省与综合商社如何通过刺探经济情报重塑国家竞争力？冷战末期，经济与技术争端频发如何影响了美日关系？大韩航空007空难事件，自卫队情报为何能越过本国政府优先送给美方？日版CIA呼之欲出，日本情报变革将走向何方？请听本期嘉宾沙青青带来的精彩分享！ 《谍海轶闻｜日本谍报物语》讲",
       "art": "https://image.xyzcdn.net/FvZfckFcavT1CgwW_gSQp3JEC9Xz.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "All-In's Best Ideas Pitch Competition: 4 Investors Present Their Top Trades Live",
-      "link": "https://allinchamathjason.libsyn.com/all-ins-best-ideas-pitch-competition-4-investors-present-their-top-trades-live",
-      "pubDate": "2026-06-12T01:25:00.000Z",
-      "duration": "01:07:57",
-      "summary": "(0:00) Chamath explains the Best Ideas format (2:31) Suvretta Capital Management's Aaron Cowen pitches MGM Resorts (13:07) Bornite Capital's Dan Dreyfus pitches Talen Energy (27:19) EcoR1 Capital's Ol",
-      "art": "https://static.libsyn.com/p/assets/4/d/4/8/4d480dba951b0323d959afa2a1bf1c87/Podcast_Graphic_-_Liquidity-20260612-fgddv4d5ru.png"
     },
     {
       "showId": "bg2pod",
