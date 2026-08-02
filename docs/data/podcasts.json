@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-02T09:33:07.982Z",
+    "updatedAt": "2026-08-02T15:06:57.724Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Christopher Nolan Stared Into Elon Musk’s Soul",
+      "link": "https://www.nytimes.com/2026/08/02/opinion/ezra-klein-odyssey.html",
+      "pubDate": "2026-08-02T11:00:00.000Z",
+      "duration": "00:16:04",
+      "summary": "'The Odyssey' is the political movie of the decade. Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com . You can find the transcript and more episodes of “The Ezra Klein Show” at nytim",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -1428,17 +1439,6 @@
       "duration": "3:01:52",
       "summary": "Don Lincoln is a particle physicist at Fermilab who has spent decades working at the frontiers of high energy physics. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Does Trump Want to Lose the Midterms?",
-      "link": "https://www.nytimes.com/2026/05/29/opinion/ezra-klein-podcast-liam-donovan.html",
-      "pubDate": "2026-05-29T09:00:00.000Z",
-      "duration": "01:14:55",
-      "summary": "President Trump doesn’t seem to care that much about winning the midterms. He’s more unpopular at this point in his second term than basically any of his modern predecessors. Democrats seem poised to ",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "weirdo",
