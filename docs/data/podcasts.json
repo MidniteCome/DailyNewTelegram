@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updatedAt": "2026-08-03T16:30:25.747Z",
+    "updatedAt": "2026-08-03T20:55:50.095Z",
     "totalEpisodes": 165,
     "health": [
       {
         "id": "20vc",
         "name": "20VC",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "ezraklein",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       },
       {
         "id": "indicator",
@@ -82,8 +82,8 @@
       "id": "20vc",
       "name": "20VC",
       "category": "vc",
-      "art": null,
-      "link": "https://thetwentyminutevc.libsyn.com/rss"
+      "art": "https://static.libsyn.com/p/assets/d/2/b/a/d2ba673c1d134c2be55e3c100dce7605/WhatsApp_Image_2024-10-28_at_11.39.21.jpeg",
+      "link": "http://www.thetwentyminutevc.com/"
     },
     {
       "id": "ezraklein",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/11f568857987283428d892402e623b21.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "art": null,
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -165,6 +165,17 @@
   ],
   "episodes": [
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: 70% of Neolabs Will Die | There Will be a $100BN US Open-Source Model | Data is a Trillion $ Market | Governments Cannot Regulate Models: It is Too Late | The Cyber Attacks to Come Will be Insane with Anastasios Angelopoulos @ Arena",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-70-of-neolabs-will-die-there-will-be-a-100bn-us-open-source-model-data-is-a-trillion-market-governments-cannot-regulate-models-it-is-too-late-the-cyber-attacks-to-come-will-be-insane-with-anastasios-angelopoulos-arena",
+      "pubDate": "2026-08-03T07:07:00.000Z",
+      "duration": "01:04:20",
+      "summary": "Anastasios Angelopoulos is the co-founder and CEO of Arena, the real-world evaluation platform that has become a leading referee of the global AI model race. Arena has raised $250 million, with the la",
+      "art": "https://static.libsyn.com/p/assets/7/a/8/5/7a8558bc8ec73444d959afa2a1bf1c87/WhatsApp_Image_2026-07-31_at_10.09.12.jpeg"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -179,12 +190,23 @@
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
-      "title": "Christopher Nolan Stared Into Elon Musk’s Soul",
+      "title": "Christopher Nolan’s Trojan Horse",
       "link": "https://www.nytimes.com/2026/08/02/opinion/ezra-klein-odyssey.html",
       "pubDate": "2026-08-02T11:00:00.000Z",
       "duration": "00:16:04",
       "summary": "'The Odyssey' is the political movie of the decade. Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com . You can find the transcript and more episodes of “The Ezra Klein Show” at nytim",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: The Best AI Companies Have Unique Data Acquisition Strategies | Will Simile Kill Kalshi, Polymarkets and NASDAQ | How to Sign Fortune 500 Companies As Customers in Weeks with Joon Sung Park, Simile",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-best-ai-companies-have-unique-data-acquisition-strategies-will-simile-kill-kalshi-polymarkets-and-nasdaq-how-to-sign-fortune-500-companies-as-customers-in-weeks-with-joon-sung-park-simile",
+      "pubDate": "2026-08-01T07:07:00.000Z",
+      "duration": "01:03:41",
+      "summary": "Joon Sung Park is the Founder and CEO of Simile, the AI simulation company building foundation models of human behaviour; allowing companies to test how real people may think, decide and act before ma",
+      "art": "https://static.libsyn.com/p/assets/8/c/a/6/8ca6739fec2c275f16c3140a3186d450/WhatsApp_Image_2026-07-30_at_17.13.21.jpeg"
     },
     {
       "showId": "allin",
@@ -196,17 +218,6 @@
       "duration": "01:36:34",
       "summary": "(0:00) Bestie intros (1:19) Chip stocks crash, Leopold Aschenbrenner's $20B fund gets margin called (20:20) China's advantage and green shoots for the US economy (34:12) Frontier Labs say \"SLOW DOWN A",
       "art": "https://static.libsyn.com/p/assets/9/3/d/1/93d127ba8f063c6c16c3140a3186d450/1_E283.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2534 - Annie Jacobsen",
-      "link": "https://traffic.megaphone.fm/GLT8411695309.mp3",
-      "pubDate": "2026-07-31T17:00:00.000Z",
-      "duration": "8434",
-      "summary": "Annie Jacobsen is a Pulitzer Prize finalist, investigative journalist, and bestselling author. Her latest book, \"Biological War: A Scenario,\" is out now.www.penguinrandomhouse.com/books/783250/biologi",
-      "art": "https://megaphone.imgix.net/podcasts/0eb8a8e6-8c70-11f1-9c27-1f2ea3655d79/image/1a134f9547d1035107ef9dbb0d94ff32.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -242,15 +253,15 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F35%2F76%2F30f7bd3148af9ac30932a1fc7882%2F6afdd68f-2f99-4d93-a9b4-78a548ea7af8.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2533 - Diana Pasulka",
-      "link": "https://traffic.megaphone.fm/GLT1888945098.mp3",
-      "pubDate": "2026-07-30T17:00:00.000Z",
-      "duration": "9836",
-      "summary": "Diana Pasulka is a professor of religious studies at the University of North Carolina Wilmington and the author of several books. Her most recent, \"The Others: UFOs, AI, and the Secret Forces Guiding ",
-      "art": "https://megaphone.imgix.net/podcasts/3e41b214-8ba4-11f1-9b3e-6700767b4af0/image/3b34418dc009c084df68d2d39c7be423.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Jensen's Open-Weights Letter | Travis Kalanick Raises $1.7B for Atoms | Google Cloud Grows 82% But The Market Tanks | Francisco Partners Raises $21BN | Etched Raises $300M to Take on Nvidia",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-jensens-open-weights-letter-travis-kalanick-raises-17b-for-atoms-google-cloud-grows-82-but-the-market-tanks-francisco-partners-raises-21bn-etched-raises-300m-to-take-on-nvidia",
+      "pubDate": "2026-07-30T07:07:00.000Z",
+      "duration": "01:17:30",
+      "summary": "AGENDA: 05:00 Jensen's Open-Weights Letter Puts Anthropic on an Island 10:00 OpenAI's Model Targets Hugging Face in a Cyber-Security Scare 18:00 America's Open-Model Push Accelerates as China Looms La",
+      "art": "https://static.libsyn.com/p/assets/3/3/5/0/3350bc4ff9fea72816c3140a3186d450/WhatsApp_Image_2026-07-29_at_16.44.46.jpeg"
     },
     {
       "showId": "indicator",
@@ -262,17 +273,6 @@
       "duration": "535",
       "summary": "President Trump’s social media company, Truth Social, wants to sell investors early access to its posts. When Trump announces tariffs or new strikes on Iran, those milliseconds matter in the market. I",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+739+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2d%2Ff0%2F68280cd144278d555c92f8f236fe%2Fce98fc97-0080-479c-88bb-01a1d6783e21.jpg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2532 - Tim Robbins",
-      "link": "https://traffic.megaphone.fm/GLT8191324941.mp3",
-      "pubDate": "2026-07-29T17:00:00.000Z",
-      "duration": "9375",
-      "summary": "Tim Robbins is an Academy Award-winning actor, director, writer, and producer known for such films as \"The Shawshank Redemption,\" \"Mystic River,\" and \"The Hudsucker Proxy.\" He currently stars in the A",
-      "art": "https://megaphone.imgix.net/podcasts/c63dd774-8afa-11f1-813f-4bb63349f062/image/93a87a9f39427ac496d95e97d79f6b67.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
@@ -319,17 +319,6 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2531 - Forrest Galante",
-      "link": "https://traffic.megaphone.fm/GLT8330959199.mp3",
-      "pubDate": "2026-07-28T17:00:00.000Z",
-      "duration": "10871",
-      "summary": "Forrest Galante is an international wildlife adventurer, conservationist, and author. His new special, \"Alien Sharks: Untamed America,\" premieres July 29 as part of Discovery Channel's annual \"Shark W",
-      "art": "https://megaphone.imgix.net/podcasts/bfe7ec64-8a20-11f1-b3c0-37f3fff0fd04/image/89f632b87728755986c0ffebbacbe21d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -374,6 +363,17 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Leading Anthropic's First Ever Round | Will Open Source Threaten Anthropic's Business | Do Margins Matter in a World of AI | Why Triple, Triple, Double, Double is Not Good Enough Today | Why Series A is Hard Today with Matt Murphy @ Menlo",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-leading-anthropics-first-ever-round-will-open-source-threaten-anthropics-business-do-margins-matter-in-a-world-of-ai-why-triple-triple-double-double-is-not-good-enough-today-why-series-a-is-hard-today-with-matt-murphy-menlo",
+      "pubDate": "2026-07-27T07:07:00.000Z",
+      "duration": "01:02:34",
+      "summary": "Matt Murphy is a Partner at Menlo Ventures, who just raised $3 billion in fresh capital, its largest pool ever. Matt's portfolio includes Anthropic, Lovable, Legora, OpenRouter, Chai Discovery, Axiom,",
+      "art": "https://static.libsyn.com/p/assets/d/9/3/7/d937e6b5f9ed765316c3140a3186d450/WhatsApp_Image_2026-07-24_at_12.31.31.jpeg"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -383,6 +383,17 @@
       "duration": "504",
       "summary": "We have some grievances. Economic ones. And we’re airing them out. On today’s show: Redeeming fast food rewards points in airports, not knowing the full price of your meal upfront, and the pen-and-pap",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe8%2F16%2F57b741cf4f82836cbc3cc243d3c7%2F8ff68fc6-faf1-4e35-a7f7-417cd98fda2a.png"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Mercor CPO on Revenue Concentration from Frontier Labs | Why Large Enterprise is Scared to Partner with Frontier Labs | Why Small Specialised Models is the Future with Osvald Nitski",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-mercor-cpo-on-revenue-concentration-from-frontier-labs-why-large-enterprise-is-scared-to-partner-with-frontier-labs-why-small-specialised-models-is-the-future-with-osvald-nitski",
+      "pubDate": "2026-07-25T07:07:00.000Z",
+      "duration": "01:00:37",
+      "summary": "Osvald Nitski is the Chief Product Officer at Mercor, the AI-training and expert-data marketplace powering frontier-model development. Mercor last raised a $350 million Series C at a $10 billion valua",
+      "art": "https://static.libsyn.com/p/assets/4/0/c/a/40ca70c100a9243a16c3140a3186d450/WhatsApp_Image_2026-07-22_at_14.14.46.jpeg"
     },
     {
       "showId": "allin",
@@ -440,15 +451,15 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2530 - Timothy Alberino",
-      "link": "https://traffic.megaphone.fm/GLT8709484594.mp3",
-      "pubDate": "2026-07-23T17:00:00.000Z",
-      "duration": "9939",
-      "summary": "Timothy Alberino is an author, lecturer, and explorer. His latest release is a new edition of the ancient text “The Book of Enoch,” for which he wrote the introduction and commentary. www.youtube.com/",
-      "art": "https://megaphone.imgix.net/podcasts/b569ee94-856c-11f1-bb2f-cf7ff131c798/image/9eb56f60d746efad14ad7d23506fd043.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-openai-and-anthropic-threatened-by-kimi-should-the-us-ban-chinese-open-source-models-should-openrouter-sell-value-in-the-routing-layer-stripe-buying-paypal-what-you-need-to-know",
+      "pubDate": "2026-07-23T07:07:00.000Z",
+      "duration": "01:23:12",
+      "summary": "AGENDA: 00:04 China's Kimi and Qwen Put Frontier AI on Notice 00:08 Washington Debates Whether Chinese AI Models Should Be Banned 00:17 Can America Build a Profitable Open-Weight AI Champion? 00:21 Op",
+      "art": "https://static.libsyn.com/p/assets/3/2/f/7/32f7fa3d560aec3716c3140a3186d450/WhatsApp_Image_2026-07-22_at_20.01.22.jpeg"
     },
     {
       "showId": "indicator",
@@ -462,17 +473,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb1%2Fc0%2F4b20c2534235a93396e9c1b858d2%2Fa9aa2330-a5b4-4db4-a64b-b3c11cbe2787.jpg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2529 - Zach Bush",
-      "link": "https://traffic.megaphone.fm/GLT6631073592.mp3",
-      "pubDate": "2026-07-22T17:00:00.000Z",
-      "duration": "10621",
-      "summary": "Zach Bush, MD, is a physician specializing in internal medicine, endocrinology, and hospice care. He is the founder of Seraphic Group and Farmer’s Footprint, a nonprofit dedicated to regenerative agri",
-      "art": "https://megaphone.imgix.net/podcasts/266c6a86-8559-11f1-a679-ebb68a31490a/image/d95197b23403f3ff0a7684b05e7f5c13.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -482,17 +482,6 @@
       "duration": "501",
       "summary": "Biz-friendly Texas is opening a stock exchange, built and based in the state. Can it become—or best—Wall Street? And how has politics influenced the birth of Y’all Street? Fact checking by Sierra Juar",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa5%2F92%2Fcd1144aa45f98187819fc9d9ce9b%2F116c06c2-3aa5-4a84-9ebc-f287ede73e85.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2528 - Cassie Coppersmith",
-      "link": "https://traffic.megaphone.fm/GLT3078553075.mp3",
-      "pubDate": "2026-07-21T17:00:00.000Z",
-      "duration": "9573",
-      "summary": "Cassie Coppersmith is an independent researcher studying ancient civilizations and archaeological mysteries, and host of the “Secrets in Stone” podcast.www.youtube.com/@CassieCoppersmith Perplexity: D",
-      "art": "https://megaphone.imgix.net/podcasts/8aaa3e0c-8495-11f1-8af9-63001aaad13a/image/5c2ee211add2fe66eb5240dbb1f79a0d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -539,6 +528,17 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Are OpenAI and Anthropic Overvalued? The Open-Source AI Reality | How Token Costs Will Fall 10x And Usage Will Explode 100x | The Future Is Not One AGI; It's Millions of Specialised Models with Lin Qiao, Founder and CEO @ Fireworks",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-are-openai-and-anthropic-overvalued-the-open-source-ai-reality-how-token-costs-will-fall-10x-and-usage-will-explode-100x-the-future-is-not-one-agi-its-millions-of-specialised-models-with-lin-qiao-founder-and-ceo-fireworks",
+      "pubDate": "2026-07-20T07:07:00.000Z",
+      "duration": "01:17:07",
+      "summary": "Lin Qiao is the Co-Founder and CEO of Fireworks AI, the leading specialized intelligence and AI inference platform that last week raised $1.5BN at a whopping $17BN valuation. With just 200 people, the",
+      "art": "https://static.libsyn.com/p/assets/f/9/0/e/f90eeba56c87b1f716c3140a3186d450/WhatsApp_Image_2026-07-17_at_18.27.00.jpeg"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -559,6 +559,17 @@
       "duration": "203",
       "summary": "In the summer of 2020, sixteen-year-old Antonio Mays Jr. traveled a thousand miles to join the racial justice movement of his generation in the wake of George Floyd's killing. Antonio arrived in Seatt",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9c%2F31%2F13995dd74ea08aa5fec153b0af8d%2F04cf1097-310a-4f0c-8e44-954fbf6c7706.jpg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: $5BN in Revenue, 7 to 7,000 Employees in 9 Months, 206,000 Tests in a Single Day: The Craziest Story in Startups: Curative with Fred Turner",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-5bn-in-revenue-7-to-7000-employees-in-9-months-206000-tests-in-a-single-day-the-craziest-story-in-startups-curative-with-fred-turner",
+      "pubDate": "2026-07-18T07:07:00.000Z",
+      "duration": "01:27:34",
+      "summary": "Fred Turner is the Founder and CEO @ Curative, one of the wildest stories in tech. Fred scaled a COVID testing business from $0 to $5BN in revenue and took the team from 7 to 7,000 employees in just 9",
+      "art": "https://static.libsyn.com/p/assets/2/6/5/2/2652bf92937cbe10d959afa2a1bf1c87/WhatsApp_Image_2026-07-17_at_18.17.13.jpeg"
     },
     {
       "showId": "allin",
@@ -605,17 +616,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcd%2F31%2F2d6fa3594a23a1293417883f3539%2F34b1be3e-3e45-4a55-b7e8-6059420f1dd6.jpg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2527 - MrBeast",
-      "link": "https://traffic.megaphone.fm/GLT2845814639.mp3",
-      "pubDate": "2026-07-16T17:00:00.000Z",
-      "duration": "10453",
-      "summary": "Jimmy Donaldson, better known as MrBeast, is a YouTuber, entrepreneur, and philanthropist. He is the founder of Beast Industries and Beast Philanthropy, and the creator and host of the Prime Video com",
-      "art": "https://megaphone.imgix.net/podcasts/72615f9a-80aa-11f1-adca-2f13d8da1330/image/53839f1b444f8595e6939a13fbd9f354.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -625,6 +625,17 @@
       "duration": "52:06",
       "summary": "特朗普政府收紧移民政策、暂停难民接收后，南非白人却成了少数例外：一些人以「难民」身份进入美国，另一些人拿着农业签证，来到密西西比的农场工作。为什么偏偏是他们？ 今年 4 月，刘骁骞前往密西西比州中部的农业地区。在黄昏的加油站和餐馆里，穿着卡其色短裤的南非白人劳工陆续出现，聚在吧台旁喝酒；有人从早上 6 点工作到晚上 8 点，握手时指甲缝里还沾满泥土。更高的收入之外，围绕本地就业、工资差异和种族问题",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Apple Sues OpenAI | Zuckerberg Back on X and Challenging Codex and Claude Code | SK Hynix's $26BN IPO | Is Seed Investing Dead: Jason Calacanis Departs Seed for Growth | Greylock Raises New $1.5BN Fund",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-apple-sues-openai-zuckerberg-back-on-x-and-challenging-codex-and-claude-code-sk-hynixs-26bn-ipo-is-seed-investing-dead-jason-calacanis-departs-seed-for-growth-greylock-raises-new-15bn-fund",
+      "pubDate": "2026-07-16T07:07:00.000Z",
+      "duration": "01:22:51",
+      "summary": "AGENDA: 00:00 – Apple SUES OpenAI: Did They Steal Apple's Biggest Secrets? 05:10 – Is OpenAI's $6BN Hardware Bet Already Dead? 12:50 – Zuckerberg Is Back: Meta Finally Takes On OpenAI 18:05 – The AI S",
+      "art": "https://static.libsyn.com/p/assets/7/7/5/7/77574f71c9c00b0816c3140a3186d450/WhatsApp_Image_2026-07-15_at_16.40.20.jpeg"
     },
     {
       "showId": "indicator",
@@ -649,17 +660,6 @@
       "art": "https://static.libsyn.com/p/assets/c/a/6/d/ca6d45b31e10bd7516c3140a3186d450/1_Pod_Paris_2.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2526 - JD Vance",
-      "link": "https://traffic.megaphone.fm/GLT1308255264.mp3",
-      "pubDate": "2026-07-15T17:00:00.000Z",
-      "duration": "10744",
-      "summary": "JD Vance is the Vice President of the United States, a Marine Corps veteran, former U.S. Senator from Ohio, and author. His latest book, “Communion: Finding My Way Back to Faith,” is available now.www",
-      "art": "https://megaphone.imgix.net/podcasts/03cad5ca-7ffb-11f1-a84e-db74b0b2b17c/image/e455871b997b5c9d1d184dafad5fa25e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -669,17 +669,6 @@
       "duration": "537",
       "summary": "Many Gulf states like the United Arab Emirates are diversifying away from oil, but how do you actually measure that? After China resumed buying American soybeans, what are farmers doing now? And is yo",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd5%2Fc6%2Fb12afeb74afcae1ef344419af6a9%2Fafc7ba24-8ab4-4a73-9955-f535422d659f.jpg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2525 - Nick Bostrom",
-      "link": "https://traffic.megaphone.fm/GLT1555016650.mp3",
-      "pubDate": "2026-07-14T17:00:00.000Z",
-      "duration": "8411",
-      "summary": "Nick Bostrom is a philosopher whose work focuses on artificial intelligence, existential risk, and the future of humanity. He is Principal Researcher at the Macrostrategy Research Initiative and the a",
-      "art": "https://megaphone.imgix.net/podcasts/709f4dec-7f16-11f1-ae05-dbca289f806f/image/d2a48ed6017333a6b91a9c56be513ebb.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -726,6 +715,28 @@
       "art": "https://static.libsyn.com/p/assets/f/e/0/e/fe0e7bc7041988a5d959afa2a1bf1c87/1_Pod_France.png"
     },
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Wix's Founder on What Wall St Gets Wrong About AI and Wix | Will Base44 Win the Vibe Coding Wars | The Truth About the Economics of Vibe-Coding | The Buyback Disaster: Lessons Learned with Avishai Abrahami",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-wixs-founder-on-what-wall-st-gets-wrong-about-ai-and-wix-will-base44-win-the-vibe-coding-wars-the-truth-about-the-economics-of-vibe-coding-the-buyback-disaster-lessons-learned-with-avishai-abrahami",
+      "pubDate": "2026-07-13T07:07:00.000Z",
+      "duration": "57:20",
+      "summary": "Avishai Abrahami is the Co-Founder and CEO of Wix, the NASDAQ-listed website creation platform serving millions of businesses worldwide. Today, Wix generates more than $2BN in ARR and has a market cap",
+      "art": "https://static.libsyn.com/p/assets/0/1/5/1/0151f98d6bf5e1ac16c3140a3186d450/WhatsApp_Image_2026-07-10_at_14.41.49.jpeg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Why OpenAI and Anthropic Won't Win the App Layer | Why Teams Will Get Bigger Not Smaller in a World of AI | Why AI Removes Incumbents Advantage of Bundling | China vs America: Who Wins the AI War with Arvind Jain, Co-Founder @ Glean",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-why-openai-and-anthropic-wont-win-the-app-layer-why-teams-will-get-bigger-not-smaller-in-a-world-of-ai-why-ai-removes-incumbents-advantage-of-bundling-china-vs-america-who-wins-the-ai-war-with-arvind-jain-co-founder-glean",
+      "pubDate": "2026-07-11T07:07:00.000Z",
+      "duration": "54:46",
+      "summary": "Arvind Jain is the Founder & CEO of Glean, the enterprise AI leader valued at $7.2 billion after raising more than $770 million from investors including Kleiner Perkins, DST Global, and more. Before G",
+      "art": "https://static.libsyn.com/p/assets/6/1/8/d/618dcaee7e77b04416c3140a3186d450/WhatsApp_Image_2026-07-10_at_14.27.55.jpeg"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -770,17 +781,6 @@
       "art": "https://static.libsyn.com/p/assets/d/1/d/d/d1dd2623c0e3ae6a16c3140a3186d450/1_Pod_Versailles-20260710-0sxlqfsd3j.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "JRE MMA Show #182 - Protect Ya Neck",
-      "link": "https://traffic.megaphone.fm/GLT1118485865.mp3",
-      "pubDate": "2026-07-09T17:00:00.000Z",
-      "duration": "9873",
-      "summary": "Joe is joined by mixed martial artists John Rallo, Matt Serra, and Din Thomas. John Rallo owns Shogun Fights and is the owner and head coach of Ground Control Mixed Martial Arts Academy.www.groundcont",
-      "art": "https://megaphone.imgix.net/podcasts/34453dce-7b20-11f1-92f8-4f32c8ca28d7/image/1c87b5e21277836f5982efcd7d18609c.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -792,26 +792,15 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2524 - Rupert Lowe",
-      "link": "https://traffic.megaphone.fm/GLT2768068918.mp3",
-      "pubDate": "2026-07-08T17:00:00.000Z",
-      "duration": "7715",
-      "summary": "Rupert Lowe is a British politician who has served as the member of Parliament for Great Yarmouth since 2024 and the leader of Restore Britain. Perplexity: Download the app or ask Perplexity anything ",
-      "art": "https://megaphone.imgix.net/podcasts/91f58b9e-7a68-11f1-b64d-b7a9d3eaf022/image/71afd8c144033650bec3ce8d5039a8ce.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2523 - Ali Siddiq",
-      "link": "https://traffic.megaphone.fm/GLT2738913736.mp3",
-      "pubDate": "2026-07-07T17:00:00.000Z",
-      "duration": "10000",
-      "summary": "Ali Siddiq is a comedian, author, and public speaker. His new special, \"My Father,\" is now streaming on YouTube. See him live on the \"Custom Fit\" Tour.https://youtu.be/XiSewRUOVygwww.youtube.com/@AliS",
-      "art": "https://megaphone.imgix.net/podcasts/20c24484-7992-11f1-a40e-3f6b34f7c121/image/8d291f84318b393b58150b567becafaf.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Sam Altman Offers Trump 5% of OpenAI: Fool or Genius? | Alex Karp Sounds the Alarm: Enterprises Fear Frontier Models & Questionable ROI of AI | The Rise of Chinese Open Source: Deepseek Building Own Chips",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-sam-altman-offers-trump-5-of-openai-fool-or-genius-alex-karp-sounds-the-alarm-enterprises-fear-frontier-models-questionable-roi-of-ai-the-rise-of-chinese-open-source-deepseek-building-own-chips",
+      "pubDate": "2026-07-09T07:07:00.000Z",
+      "duration": "01:23:32",
+      "summary": "AGENDA: 05:00 Washington Just Put Frontier AI on a Leash 06:30 Sam Altman's Wild 5% Government Stake Idea 19:00 The AI Funding Bubble: Why Founders No Longer Fear Dilution 28:00 Alex Karp's Brutal War",
+      "art": "https://static.libsyn.com/p/assets/3/d/d/4/3dd475bc8de360c716c3140a3186d450/WhatsApp_Image_2026-07-08_at_13.10.54.jpeg"
     },
     {
       "showId": "left-right",
@@ -834,6 +823,28 @@
       "duration": "01:25:38",
       "summary": "The old solutions to the Israeli-Palestinian conflict don’t seem to fit the present reality. A two-state solution feels increasingly impossible, given the scale of Israeli settlements in the West Bank",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Why Now is the Time for the Application Layer | Why OpenAI & Anthropic Won't Win the App Layer | Why Startups Should be TokenMaxxing | Why VCs Should Reduce Weighting on Price & Ownership in an Age of AI with Mike Mignano, USV",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-why-now-is-the-time-for-the-application-layer-why-openai-anthropic-wont-win-the-app-layer-why-startups-should-be-tokenmaxxing-why-vcs-should-reduce-weighting-on-price-ownership-in-an-age-of-ai-with-mike-mignano-usv",
+      "pubDate": "2026-07-06T07:07:00.000Z",
+      "duration": "01:09:24",
+      "summary": "Mike Mignano is a General Partner at Union Square Ventures, one of the most iconic venture firms in the world, whose investments include Coinbase, Stripe, Etsy, Twilio, Cloudflare. Before joining USV,",
+      "art": "https://static.libsyn.com/p/assets/a/3/8/8/a388f6dab95e6b60d959afa2a1bf1c87/WhatsApp_Image_2026-07-03_at_15.22.48.jpeg"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Open Models vs Frontier Models: Who Actually Wins? | The $100,000 Token Budget Every Engineer Will Need | Why Forward-Deployed Engineers Are the Future of Enterprise AI with Clay Bavor, Co-Founder of Sierra",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-open-models-vs-frontier-models-who-actually-wins-the-100000-token-budget-every-engineer-will-need-why-forward-deployed-engineers-are-the-future-of-enterprise-ai-with-clay-bavor-co-founder-of-sierra",
+      "pubDate": "2026-07-04T07:07:00.000Z",
+      "duration": "01:08:41",
+      "summary": "Clay Bavor is the Co-Founder of Sierra, one of the world's fastest-growing enterprise AI companies. Sierra is valued at approximately $15.8 billion, has raised more than $1.5BN from leading investors ",
+      "art": "https://static.libsyn.com/p/assets/7/3/9/5/7395da7b1a2742d516c3140a3186d450/WhatsApp_Image_2026-07-02_at_15.03.48.jpeg"
     },
     {
       "showId": "allin",
@@ -880,17 +891,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2522 - Tony Hinchcliffe",
-      "link": "https://traffic.megaphone.fm/GLT9450539163.mp3",
-      "pubDate": "2026-07-02T17:00:00.000Z",
-      "duration": "10448",
-      "summary": "Tony Hinchcliffe is a comedian, writer, actor, and host of the podcast and live show “Kill Tony.” His new special, \"Man of the People,\" is now streaming on Netflix.www.youtube.com/@killtonyhttps://ton",
-      "art": "https://megaphone.imgix.net/podcasts/254816ac-75d0-11f1-bc38-8bc518292219/image/742fc54b89a0240534c8e0eef21dcca6.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -902,15 +902,15 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2521 - Aravind Srinivas",
-      "link": "https://traffic.megaphone.fm/GLT7312775809.mp3",
-      "pubDate": "2026-07-01T17:00:00.000Z",
-      "duration": "9399",
-      "summary": "Aravind Srinivas, PhD, is the co-founder and CEO of Perplexity AI, creator of the AI-powered search and answer engine Perplexity.www.perplexity.ai Perplexity: Download the app or ask Perplexity anythi",
-      "art": "https://megaphone.imgix.net/podcasts/cff13406-751e-11f1-8cb0-d7b1301ef48c/image/03740dc0c8a9a2775f8650e080c0061c.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Dario and Anthropic Declare War on Open-Source | Coinbase Slash AI Spend by 50% | Kalshi's $40BN Valuation and Impending IPO | Bending Spoons: Smartest IPO of 2026 and the Year for SaaS Roll-Ups",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-dario-and-anthropic-declare-war-on-open-source-coinbase-slash-ai-spend-by-50-kalshis-40bn-valuation-and-impending-ipo-bending-spoons-smartest-ipo-of-2026-and-the-year-for-saas-roll-ups",
+      "pubDate": "2026-07-02T07:07:00.000Z",
+      "duration": "01:17:10",
+      "summary": "AGENDA: 00:00 Coinbase Slashes AI Spend 50%—Is the AI Token Bubble Bursting? 12:55 Anthropic Warns Open Source Could Destroy the AI Business Model 18:10 Dario Escalates the AI War with China & Open-So",
+      "art": "https://static.libsyn.com/p/assets/1/e/d/5/1ed5e07edcebeb0cd959afa2a1bf1c87/WhatsApp_Image_2026-07-01_at_16.27.05.jpeg"
     },
     {
       "showId": "talksat",
