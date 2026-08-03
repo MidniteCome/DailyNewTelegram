@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-02T20:43:28.167Z",
+    "updatedAt": "2026-08-03T10:55:26.362Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: 70% of Neolabs Will Die | There Will be a $100BN US Open-Source Model | Data is a Trillion $ Market | Governments Cannot Regulate Models: It is Too Late | The Cyber Attacks to Come Will be Insane with Anastasios Angelopoulos @ Arena",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-70-of-neolabs-will-die-there-will-be-a-100bn-us-open-source-model-data-is-a-trillion-market-governments-cannot-regulate-models-it-is-too-late-the-cyber-attacks-to-come-will-be-insane-with-anastasios-angelopoulos-arena",
+      "pubDate": "2026-08-03T07:07:00.000Z",
+      "duration": "01:04:20",
+      "summary": "Anastasios Angelopoulos is the co-founder and CEO of Arena, the real-world evaluation platform that has become a leading referee of the global AI model race. Arena has raised $250 million, with the la",
+      "art": "https://static.libsyn.com/p/assets/7/a/8/5/7a8558bc8ec73444d959afa2a1bf1c87/WhatsApp_Image_2026-07-31_at_10.09.12.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Who is a music industry plant? And does it matter?",
+      "link": "https://www.npr.org/2026/08/03/nx-s1-5915748/who-is-a-music-industry-plant-and-does-it-matter",
+      "pubDate": "2026-08-03T07:00:00.000Z",
+      "duration": "547",
+      "summary": "Musicians from the Rolling Stones to up-and-coming pop star Bella Kay have one thing in common: Influencers are being paid to promote their songs . On today's show: Who is an industry plant and why do",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F62%2F5c%2F0a78ad534f87a5d75dca0625738f%2Fb0cf6900-f32f-4220-85b3-245ec68ed244.png"
+    },
     {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
@@ -781,17 +803,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Can the internet survive AI summaries?",
-      "link": "https://www.npr.org/2026/07/14/nx-s1-5891958/can-the-internet-survive-ai-summaries",
-      "pubDate": "2026-07-14T07:00:00.000Z",
-      "duration": "597",
-      "summary": "AI summaries are gaining traction and making the potential for a “zero click web” increasingly real. What does that mean for the internet as we know it today? Fact checking by Sierra Juarez . Your Nex",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb5%2Fd6%2Fb1b982cf48d7879f10a9a8452362%2F7946d04a-b045-4ef2-a4af-4679dd9df80d.jpg"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -1131,17 +1142,6 @@
       "duration": "01:00:42",
       "summary": "(0:00) Nate Silver joins the pod! (10:02) California's ballot counting problem: Raman's late-mail surge, ballot harvesting claims, and why the US counts slower than India (25:18) Democrats' three-way ",
       "art": "https://static.libsyn.com/p/assets/c/1/7/b/c17b9c46b1ed81c216c3140a3186d450/silver_image_lybson.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Leo Aschenbrenner's Largest Holding: Inside the $90BN Bloom Energy | Why Electricity, Not AI Models, Will Decide the Winners of the AI Race | Why We Are Not in an AI Capex Bubble | Energy Sovereignty and The Future of Power with KR Sridhar",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-leo-aschenbrenners-largest-holding-inside-the-90bn-bloom-energy-why-electricity-not-ai-models-will-decide-the-winners-of-the-ai-race-why-we-are-not-in-an-ai-capex-bubble-energy-sovereignty-and-the-future-of-power-with-kr-sridhar",
-      "pubDate": "2026-06-29T07:07:00.000Z",
-      "duration": "01:00:44",
-      "summary": "KR Sridhar is the Founder and CEO of Bloom Energy, the distributed power company powering the AI revolution. Under his leadership, Bloom has grown to a market cap of approximately $93 billion, with re",
-      "art": "https://static.libsyn.com/p/assets/9/3/8/c/938cbb4d26123836d959afa2a1bf1c87/WhatsApp_Image_2026-06-26_at_12.49.43.jpeg"
     },
     {
       "showId": "allin",
