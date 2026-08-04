@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-04T16:14:45.975Z",
+    "updatedAt": "2026-08-04T21:02:24.128Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #183 with Rico Verhoeven",
+      "link": "https://traffic.megaphone.fm/GLT4292309587.mp3",
+      "pubDate": "2026-08-04T17:00:00.000Z",
+      "duration": "8562",
+      "summary": "Joe sits down with professional boxer, kickboxer, and mixed martial artist Rico Verhoeven.www.youtube.com/@RicoVerhoeven https://ricoverhoeven.com Learn more about your ad choices. Visit podcastchoice",
+      "art": "https://megaphone.imgix.net/podcasts/a7d26330-8f8d-11f1-b08c-239fa033ae8f/image/68ee083ec390d4185de0bf505046b148.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
@@ -1087,17 +1098,6 @@
       "duration": "01:17:10",
       "summary": "AGENDA: 00:00 Coinbase Slashes AI Spend 50%—Is the AI Token Bubble Bursting? 12:55 Anthropic Warns Open Source Could Destroy the AI Business Model 18:10 Dario Escalates the AI War with China & Open-So",
       "art": "https://static.libsyn.com/p/assets/1/e/d/5/1ed5e07edcebeb0cd959afa2a1bf1c87/WhatsApp_Image_2026-07-01_at_16.27.05.jpeg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2521 - Aravind Srinivas",
-      "link": "https://traffic.megaphone.fm/GLT7312775809.mp3",
-      "pubDate": "2026-07-01T17:00:00.000Z",
-      "duration": "9399",
-      "summary": "Aravind Srinivas, PhD, is the co-founder and CEO of Perplexity AI, creator of the AI-powered search and answer engine Perplexity.www.perplexity.ai Perplexity: Download the app or ask Perplexity anythi",
-      "art": "https://megaphone.imgix.net/podcasts/cff13406-751e-11f1-8cb0-d7b1301ef48c/image/03740dc0c8a9a2775f8650e080c0061c.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
