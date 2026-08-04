@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-03T20:55:50.095Z",
+    "updatedAt": "2026-08-04T10:10:06.793Z",
     "totalEpisodes": 165,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "The A.I. Revolt Is Here",
+      "link": "https://www.nytimes.com/2026/08/04/opinion/ezra-klein-podcast-jasmine-sun.html",
+      "pubDate": "2026-08-04T09:00:00.000Z",
+      "duration": "01:18:15",
+      "summary": "What’s big and ugly and has united Republicans and Democrats? A.I. data centers. An overwhelming majority of Americans say they’d oppose a data center being built near where they live. In New York, Go",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "489 失意者与淘金客：陈婉婧谈当代老挝华商的迁徙与陷阱",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a719e7aab3a91c24a0f98a0?utm_source=rss",
+      "pubDate": "2026-08-04T08:25:52.000Z",
+      "duration": "01:12:11",
+      "summary": "- 导语 - 地处中南半岛内陆的老挝，在不少中国人的认知中，常由冷战记忆、金三角传闻与中老基建项目拼成一幅模糊图景。2016年，陈婉婧第一次前往万象，随后在长期田野调查中，曾以华人中介助理的身份进入当地社群。她发现了当地华人中介、商会、不同移民群体之间的联系与区隔。自20世纪80年代末起，不同境遇的中国人陆续迁徙至此，形成来源多样、处境复杂的移民群体。邵东、邵阳游商如何依托云南亲人的边境通道在当地",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Why we're short on blood, water and helium",
+      "link": "https://www.npr.org/2026/08/04/nx-s1-5918636/why-were-short-on-blood-water-and-helium",
+      "pubDate": "2026-08-04T07:00:00.000Z",
+      "duration": "559",
+      "summary": "Shortages are in the news again! Here’s why the supply of blood, water and helium are at concerningly low levels. Fact checking by Sierra Juarez . Your Next Listen — How Colorado towns are trying to g",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3e%2F5f%2Febf830e347e0b492781788581499%2F5342a63b-f01b-4726-b4a3-60b6c27331d5.jpg"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -660,17 +693,6 @@
       "art": "https://static.libsyn.com/p/assets/c/a/6/d/ca6d45b31e10bd7516c3140a3186d450/1_Pod_Paris_2.png"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why your neighbor might be paying less for their car",
-      "link": "https://www.npr.org/2026/07/15/nx-s1-5893745/less-oil-more-soybeans-and-car-junk-fees",
-      "pubDate": "2026-07-15T07:00:02.000Z",
-      "duration": "537",
-      "summary": "Many Gulf states like the United Arab Emirates are diversifying away from oil, but how do you actually measure that? After China resumed buying American soybeans, what are farmers doing now? And is yo",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd5%2Fc6%2Fb12afeb74afcae1ef344419af6a9%2Fafc7ba24-8ab4-4a73-9955-f535422d659f.jpg"
-    },
-    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -1155,17 +1177,6 @@
       "art": "https://static.libsyn.com/p/assets/6/7/e/c/67ec7acb0cac9bead959afa2a1bf1c87/1_Pod_E276.png"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "日本谍报物语06｜通产省奇迹、昭和经济情报战与美日同盟下的阴影",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a2bcacc43a22a6955829e05?utm_source=rss",
-      "pubDate": "2026-06-12T09:26:11.000Z",
-      "duration": "00:03:00",
-      "summary": "- 导语 - 从战败国家到冷战前哨，二十世纪后半叶的日本情报体系在延续与阉割间徘徊，最终将视线转向经济战场。军事侦查权被剥夺，通产省与综合商社如何通过刺探经济情报重塑国家竞争力？冷战末期，经济与技术争端频发如何影响了美日关系？大韩航空007空难事件，自卫队情报为何能越过本国政府优先送给美方？日版CIA呼之欲出，日本情报变革将走向何方？请听本期嘉宾沙青青带来的精彩分享！ 《谍海轶闻｜日本谍报物语》讲",
-      "art": "https://image.xyzcdn.net/FvZfckFcavT1CgwW_gSQp3JEC9Xz.png"
-    },
-    {
       "showId": "bg2pod",
       "showName": "BG2Pod",
       "category": "vc",
@@ -1252,17 +1263,6 @@
       "duration": "00:41:02",
       "summary": "【主播的话】 1993年，刚刚从医学院毕业的姜涛决定成为一名精神科医生。他加入了安定医院——这是中国在精神卫生领域最权威的机构之一。 那时候，中国刚刚经历了市场转型最初的阶段，整个社会正在加速变化。而他走进的，是一个几乎与社会完全隔绝的地方。 安定医院一度是“疯人院”的代名词。那时候的精神病院，是一个“飞地”般的存在。病人被进去，外面的人不太知道里面发生了什么，里面的人也几乎看不见外面的世界。\"神",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Ian Bremmer on the Risks America Poses to the World",
-      "link": "https://www.nytimes.com/2026/06/02/opinion/ezra-klein-podcast-ian-bremmer.html",
-      "pubDate": "2026-06-02T09:00:00.000Z",
-      "duration": "01:31:58",
-      "summary": "Over the past month, there have been two dominant stories in American foreign policy. One, of course, is the war with Iran. The other is the much-anticipated summit between President Trump and Xi Jinp",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "lexfridman",
