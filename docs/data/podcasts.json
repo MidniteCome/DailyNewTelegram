@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-04T21:02:24.128Z",
+    "updatedAt": "2026-08-05T10:07:46.081Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "How ending TPS is squeezing workers, businesses and (soon) consumers",
+      "link": "https://www.npr.org/2026/08/05/nx-s1-5920336/how-ending-tps-is-squeezing-workers-businesses-and-soon-consumers",
+      "pubDate": "2026-08-05T07:00:00.000Z",
+      "duration": "546",
+      "summary": "What happens when roughly a million people working legally in the U.S. suddenly lose that right to stay here? We’re starting to find out in places like Miami, Florida, home to one of the largest Haiti",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fac%2F1c%2F7a28f2a441d8806a62b526579a88%2Fa12efafe-9ad5-4355-a611-59c7bad8ba5c.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -768,17 +779,6 @@
       "duration": "01:22:51",
       "summary": "AGENDA: 00:00 – Apple SUES OpenAI: Did They Steal Apple's Biggest Secrets? 05:10 – Is OpenAI's $6BN Hardware Bet Already Dead? 12:50 – Zuckerberg Is Back: Meta Finally Takes On OpenAI 18:05 – The AI S",
       "art": "https://static.libsyn.com/p/assets/7/7/5/7/77574f71c9c00b0816c3140a3186d450/WhatsApp_Image_2026-07-15_at_16.40.20.jpeg"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why the Pope wants to disarm AI",
-      "link": "https://www.npr.org/2026/07/16/nx-s1-5895130/why-the-pope-wants-to-disarm-ai",
-      "pubDate": "2026-07-16T07:00:00.000Z",
-      "duration": "488",
-      "summary": "Over 100 years ago, Pope Leo XIII wrote a seminal letter encouraging workers to unionize in the face of industrialization. The current Pope Leo XIV in his seminal letter warned of an economic disrupti",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2c%2F03%2F1ab8547a499587c41df147afaa2d%2F3200f246-ca38-403f-a781-8df0d6ba6122.jpg"
     },
     {
       "showId": "allin",
