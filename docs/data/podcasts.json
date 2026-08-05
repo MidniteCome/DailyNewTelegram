@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-05T16:02:46.506Z",
+    "updatedAt": "2026-08-05T20:58:06.339Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2535 - Andrew Wilson",
+      "link": "https://traffic.megaphone.fm/GLT7134764800.mp3",
+      "pubDate": "2026-08-05T17:00:00.000Z",
+      "duration": "10432",
+      "summary": "Andrew Wilson has participated in thousands of debates on political, cultural, and religious topics. He hosts \"The Crucible\" and owns its associated online training program, Debate University.www.yout",
+      "art": "https://megaphone.imgix.net/podcasts/9bd82c7c-905f-11f1-9581-0712930da240/image/d663fee54d682b46d061d469b4ef0ba0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1065,17 +1076,6 @@
       "duration": "01:22:50",
       "summary": "【主播的话】 2026年6-7月，美墨加三国首次联合举办世界杯。这场足球盛事的意义也早已溢出球场之外。本期节目，我们连线正在墨西哥前线报道的资深足球记者王勤伯，与身处美国西岸的政治学者林垚，从拉美足球的“酒神精神”聊起，谈到梅罗之争如何成为年轻一代进步派与保守派的价值符号之争，谈到运动科学如何为球星续命、也谈到巴西足球史上关于人种与临门一脚的“杂种狗”心结。 视野拉回国内，我们讨论董路的青训实验能",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2522 - Tony Hinchcliffe",
-      "link": "https://traffic.megaphone.fm/GLT9450539163.mp3",
-      "pubDate": "2026-07-02T17:00:00.000Z",
-      "duration": "10448",
-      "summary": "Tony Hinchcliffe is a comedian, writer, actor, and host of the podcast and live show “Kill Tony.” His new special, \"Man of the People,\" is now streaming on Netflix.www.youtube.com/@killtonyhttps://ton",
-      "art": "https://megaphone.imgix.net/podcasts/254816ac-75d0-11f1-bc38-8bc518292219/image/742fc54b89a0240534c8e0eef21dcca6.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
