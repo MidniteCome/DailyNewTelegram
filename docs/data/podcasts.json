@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-05T20:58:06.339Z",
+    "updatedAt": "2026-08-06T10:09:21.984Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,6 +165,39 @@
   ],
   "episodes": [
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Airtable Sold for $1.285BN | Leo Achenbrenner's Situational Awareness Blows Up | Moonshot AI Raises $3.5B at $35B | Anthropic Model Breaches Three Companies' Security | Big Tech Earnings: Why Palantir Beat The Rest",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-airtable-sold-for-1285bn-leo-achenbrenners-situational-awareness-blows-up-moonshot-ai-raises-35b-at-35b-anthropic-model-breaches-three-companies-security-big-tech-earnings-why-palantir-beat-the-rest",
+      "pubDate": "2026-08-06T07:07:00.000Z",
+      "duration": "01:15:36",
+      "summary": "Special Guest: Nikesh Arora, CEO @ Palo Alto Networks. AGENDA: 04:50 Airtable Sold to Bending Spoons for $1.285B 17:00 Leo Aschenbrenner's Situational Awareness Blows Up as Citadel Buys His $16BN Book",
+      "art": "https://static.libsyn.com/p/assets/4/4/0/f/440f94d203a9389c16c3140a3186d450/WhatsApp_Image_2026-08-05_at_16.18.19.jpeg"
+    },
+    {
+      "showId": "talksat",
+      "showName": "Talks at GS",
+      "category": "finance",
+      "title": "Demond Martin on Purpose, Community, and Giving What You Have",
+      "link": "https://traffic.megaphone.fm/GLD3930590252.mp3",
+      "pubDate": "2026-08-05T21:40:00.000Z",
+      "duration": "1454",
+      "summary": "WellWithAll is a purpose-led health and wellness company built on an inclusive capitalism model that reinvests 20% of its profits into health equity initiatives to help close the wellness gap across g",
+      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Saronic Founders: Autonomous Warships, China's 230X Advantage & Swarms of Robot Ships",
+      "link": "https://allinchamathjason.libsyn.com/saronic-founders-autonomous-warships-chinas-230x-advantage-swarms-of-robot-ships",
+      "pubDate": "2026-08-05T20:19:00.000Z",
+      "duration": "48:19",
+      "summary": "(0:00) Saronic founders join the show! (4:56) The Navy's first autonomous rescue in the Strait of Hormuz, and how China out builds America 230-to-1 (13:04) $3B destroyers vs. Marauder (21:25) Killing ",
+      "art": "https://static.libsyn.com/p/assets/5/4/d/4/54d4595000168b8616c3140a3186d450/1_Pod_Saronic.png"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -193,7 +226,7 @@
       "title": "JRE MMA Show #183 with Rico Verhoeven",
       "link": "https://traffic.megaphone.fm/GLT4292309587.mp3",
       "pubDate": "2026-08-04T17:00:00.000Z",
-      "duration": "8562",
+      "duration": "8592",
       "summary": "Joe sits down with professional boxer, kickboxer, and mixed martial artist Rico Verhoeven.www.youtube.com/@RicoVerhoeven https://ricoverhoeven.com Learn more about your ad choices. Visit podcastchoice",
       "art": "https://megaphone.imgix.net/podcasts/a7d26330-8f8d-11f1-b08c-239fa033ae8f/image/68ee083ec390d4185de0bf505046b148.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -1089,17 +1122,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Dario and Anthropic Declare War on Open-Source | Coinbase Slash AI Spend by 50% | Kalshi's $40BN Valuation and Impending IPO | Bending Spoons: Smartest IPO of 2026 and the Year for SaaS Roll-Ups",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-dario-and-anthropic-declare-war-on-open-source-coinbase-slash-ai-spend-by-50-kalshis-40bn-valuation-and-impending-ipo-bending-spoons-smartest-ipo-of-2026-and-the-year-for-saas-roll-ups",
-      "pubDate": "2026-07-02T07:07:00.000Z",
-      "duration": "01:17:10",
-      "summary": "AGENDA: 00:00 Coinbase Slashes AI Spend 50%—Is the AI Token Bubble Bursting? 12:55 Anthropic Warns Open Source Could Destroy the AI Business Model 18:10 Dario Escalates the AI War with China & Open-So",
-      "art": "https://static.libsyn.com/p/assets/1/e/d/5/1ed5e07edcebeb0cd959afa2a1bf1c87/WhatsApp_Image_2026-07-01_at_16.27.05.jpeg"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1329,17 +1351,6 @@
       "duration": "01:18:22",
       "summary": "Attention is working in really unusual ways this election cycle. Graham Platner, a political unknown a year ago, ended up dominating his Senate primary against Maine’s sitting governor – even as his c",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
-      "link": "https://allinchamathjason.libsyn.com/anthropics-fable-backlash-nationalizing-ai-inflation-heats-up-californias-broken-elections",
-      "pubDate": "2026-06-13T04:51:00.000Z",
-      "duration": "01:42:00",
-      "summary": "(0:00) Besties are back! (0:19) Anthropic gets massive backlash over secret Fable nerfing and privacy concerns (29:16) The AI regulatory capture trap, pragmatic safety solutions (37:59) Nationalizing ",
-      "art": "https://static.libsyn.com/p/assets/6/7/e/c/67ec7acb0cac9bead959afa2a1bf1c87/1_Pod_E276.png"
     },
     {
       "showId": "bg2pod",
@@ -1703,17 +1714,6 @@
       "duration": "01:15:42",
       "summary": "【主播的话】 你或许听过“心流“的概念——在越来越快的当下，我们常常会有这样的体验：注意力被日常信息反复打断，很难获得哪怕十分钟的内心安宁。技术在发展、社会在进步，但我们的内心却常常漂浮着难以解释的空虚。有研究指出，人类最稳定、最持久的幸福体验，并不来自休息或享乐，而是一种高度专注的状态，那就是“心流”。 1970年代，心理学家米哈里·契克森米哈赖对运动员、艺术家、音乐家进行了大量深度的访谈，提出",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "talksat",
-      "showName": "Talks at GS",
-      "category": "finance",
-      "title": "Steven Mnuchin: Navigating Credit Cycles, AI Investment, and Fiscal Policy",
-      "link": "https://traffic.megaphone.fm/GLD9439553440.mp3",
-      "pubDate": "2026-03-20T14:52:00.000Z",
-      "duration": "1270",
-      "summary": "Steven Mnuchin, former U.S. Treasury Secretary and Goldman Sachs partner alum, brings decades of experience navigating financial markets, public policy, and economic crises. In this conversation with ",
-      "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "bg2pod",
