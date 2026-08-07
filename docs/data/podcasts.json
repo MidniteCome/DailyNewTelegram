@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-07T14:57:53.032Z",
+    "updatedAt": "2026-08-07T20:30:27.399Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2537 - David Sinclair",
+      "link": "https://traffic.megaphone.fm/GLT1521681560.mp3",
+      "pubDate": "2026-08-07T17:00:00.000Z",
+      "duration": "9037",
+      "summary": "David Sinclair, AO, PhD, is a longevity scientist, Professor of Genetics at Harvard Medical School, author of the book \"Lifespan: Why We Age—and Why We Don't Have To,\" and host of the \"Lifespan\" podca",
+      "art": "https://megaphone.imgix.net/podcasts/16d5d7dc-91ee-11f1-bdcf-df9a64476d59/image/33b2538a59583328a79e1576b99e251e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1043,17 +1054,6 @@
       "duration": "01:23:32",
       "summary": "AGENDA: 05:00 Washington Just Put Frontier AI on a Leash 06:30 Sam Altman's Wild 5% Government Stake Idea 19:00 The AI Funding Bubble: Why Founders No Longer Fear Dilution 28:00 Alex Karp's Brutal War",
       "art": "https://static.libsyn.com/p/assets/3/d/d/4/3dd475bc8de360c716c3140a3186d450/WhatsApp_Image_2026-07-08_at_13.10.54.jpeg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2524 - Rupert Lowe",
-      "link": "https://traffic.megaphone.fm/GLT2768068918.mp3",
-      "pubDate": "2026-07-08T17:00:00.000Z",
-      "duration": "7715",
-      "summary": "Rupert Lowe is a British politician who has served as the member of Parliament for Great Yarmouth since 2024 and the leader of Restore Britain. Perplexity: Download the app or ask Perplexity anything ",
-      "art": "https://megaphone.imgix.net/podcasts/91f58b9e-7a68-11f1-b64d-b7a9d3eaf022/image/71afd8c144033650bec3ce8d5039a8ce.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
