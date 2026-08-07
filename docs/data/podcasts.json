@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-07T08:34:47.963Z",
+    "updatedAt": "2026-08-07T14:57:53.032Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "I'm just here for the health benefits",
+      "link": "https://www.npr.org/2026/08/07/nx-s1-5923414/im-just-here-for-the-health-benefits",
+      "pubDate": "2026-08-07T14:31:41.000Z",
+      "duration": "508",
+      "summary": "Dependable health insurance is keeping more people in their jobs. Rising health costs don't help. Today we look at the repercussions this kind of job lock has on the wider economy. Fact checking by Si",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3c%2F8e%2F4af390f443bfaf36e4435ef8f72f%2F1917a2bd-439c-4bb9-b002-b77abd727c36.png"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "AMA: Peter Thiel, Chris Rufo and the D.S.A.",
+      "link": "https://www.nytimes.com/2026/08/07/opinion/ezra-klein-podcast-ask-me-anything-aug-2026.html",
+      "pubDate": "2026-08-07T09:00:00.000Z",
+      "duration": "00:57:09",
+      "summary": "The show’s executive producer, Claire Gordon, joins me in the studio to ask me your questions. Topics include: whether my views on “woke” issues have changed; the feedback we got on our episode with C",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "490 上海滩早期电影娱乐史：外侨、罪案与审查制度的出台",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a759678c4079d62c57ed4c6?utm_source=rss",
+      "pubDate": "2026-08-07T08:47:08.000Z",
+      "duration": "01:23:52",
+      "summary": "- 导语 - 二十世纪初至三十年代，上海的电影业从早期放映逐渐走向繁荣。一群来自中南欧的「边缘外国人」率先在虹口经营影院，上海虹口的广东移民也成为最早一批中国电影观众；1921年的阎瑞生案，则意外推动了国产故事长片的真正起步。而在银幕之外，电影也在改变市民的娱乐生活，并不断进入城市的消防、治安与政治管理。租界社会的「边缘外国人」为何率先在虹口投资影院？最早一批中国电影观众为何多来自广东移民？192",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -759,17 +792,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F42%2Fbd%2Fb6c121344ce38ea2e2ce2c355779%2F6950f60e-c457-49ac-bff5-835b916f69b9.jpg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "New NPR Series: \"We Keep Us Safe\" from the Embedded podcast",
-      "link": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510325/npr.simplecastaudio.com/0a4e8d3b-fe23-4948-9e39-20fcf16f9331/episodes/6ccc1564-7473-4f6b-8abd-9329ff23b843/audio/128/default.mp3?awCollectionId=0a4e8d3b-fe23-4948-9e39-20fcf16f9331&amp;awEpisodeId=6ccc1564-7473-4f6b-8abd-9329ff23b843&amp;feed=IFy3imsg&amp;t=podcast&amp;e=nx-s1-5898423&amp;p=510325&amp;d=203&amp;size=3258078",
-      "pubDate": "2026-07-19T07:00:00.000Z",
-      "duration": "203",
-      "summary": "In the summer of 2020, sixteen-year-old Antonio Mays Jr. traveled a thousand miles to join the racial justice movement of his generation in the wake of George Floyd's killing. Antonio arrived in Seatt",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9c%2F31%2F13995dd74ea08aa5fec153b0af8d%2F04cf1097-310a-4f0c-8e44-954fbf6c7706.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1342,17 +1364,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "线下录音｜对谈朱宁、黄子函：从行为经济学看金融危机与股民投资偏好",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a3112e043a22a695584bb18?utm_source=rss",
-      "pubDate": "2026-06-16T09:39:35.000Z",
-      "duration": "01:24:01",
-      "summary": "- 导语 - 从千禧年的互联网泡沫，到2008年金融危机，再到当下的AI热潮，贪婪与恐惧总是在市场中反复上演。金融危机频发如何催生了行为经济学的诞生？在雷曼兄弟亲历2008金融危机，流动性为何对金融体系如此重要？中美之间的股票市场差异何在？面对复杂环境，年轻一代是否还有积累财富的时代机遇？本期节目来自《忽左忽右》与天弘基金 《人间钱话》 特别企划的一场线下播客录音，欢迎收听嘉宾著名经济学家朱宁教授",
-      "art": "https://image.xyzcdn.net/FmWBNgtJJTN7KDh0ga-CKdbpHU7K.png"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1417,17 +1428,6 @@
       "duration": "1251",
       "summary": "EY operates as one of the world’s largest and most globally connected professional services firms, employing 400,000 people across more than 150 countries. EY Global Chair and CEO Janet Truncale joins",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "The New Right’s Very Old Vision of Men",
-      "link": "https://www.nytimes.com/2026/06/05/opinion/ezra-klein-podcast-helen-lewis.html",
-      "pubDate": "2026-06-05T09:00:00.000Z",
-      "duration": "01:43:16",
-      "summary": "A new masculinist movement has gone mainstream on the right. The prominent voices in this movement yearn for an earlier time, when men were men and women were women. Sometimes that time seems to be th",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "etw",
