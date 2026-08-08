@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-07T20:30:27.399Z",
+    "updatedAt": "2026-08-08T08:06:56.371Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
+      "link": "https://allinchamathjason.libsyn.com/googles-ai-brain-drain-spacexs-huge-quarter-airtables-90-collapse-us-data-fuels-china-ai",
+      "pubDate": "2026-08-08T00:32:00.000Z",
+      "duration": "01:15:18",
+      "summary": "(0:00) Bestie intros! Brad Gerstner fills in for Chamath (2:16) Major shakeups at Google: AI brain drain or better strategy? (20:39) SpaceX's big quarter: Terafab, AI Capex, $1T revenue projection? (4",
+      "art": "https://static.libsyn.com/p/assets/9/e/9/6/9e9643601e425587d959afa2a1bf1c87/1_Pod_E284.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -1318,17 +1329,6 @@
       "duration": "16289",
       "summary": "The Walt Disney Company is the most successful enterprise ever created for monetizing human nostalgia. Today it’s the king of global entertainment, holding the intellectual property rights to the chil",
       "art": "https://img.transistorcdn.com/kCB3B2iISM-bCdDu6pysFaFa0p3IYktCnNb8Q5VFycc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS85MmI3/Mjg0MDI2MWU4ZDc4/M2YyOGZjMzllNjll/ODBlYi5qcGc.jpg"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
-      "link": "https://allinchamathjason.libsyn.com/worlds-first-trillionaire-anthropic-fable-banned-the-new-oligarchs-iran-peace-deal",
-      "pubDate": "2026-06-19T22:07:00.000Z",
-      "duration": "01:24:30",
-      "summary": "(0:00) Bestie intros! (2:41) The New Oligarchs, America's incoming politburo, and learned helplessness (14:18) SpaceX's record breaking IPO, $60B Cursor acquisition, and trillionaire reactions (33:34)",
-      "art": "https://static.libsyn.com/p/assets/a/e/7/7/ae77634339737189d959afa2a1bf1c87/1_Pod_E277.png"
     },
     {
       "showId": "left-right",
