@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-08T08:06:56.371Z",
+    "updatedAt": "2026-08-08T14:36:44.931Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: The AI Boom Will Create Enormous Roadkill: Who Wins & Loses | Why Founders Should Never Take Multi-Stage Money at Seed | Why Triple, Triple, Double, Double is Good Enough",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-ai-boom-will-create-enormous-roadkill-who-wins-loses-why-founders-should-never-take-multi-stage-money-at-seed-why-triple-triple-double-double-is-good-enough",
+      "pubDate": "2026-08-08T12:56:00.000Z",
+      "duration": "01:25:12",
+      "summary": "David Frankel is one of the great seed investors of our time. As the Co-Founder of Founder Collective he has backed the likes of Uber, Coupang, Suno, PillPack, Airtable, Whoop, Shield AI and many more",
+      "art": "https://static.libsyn.com/p/assets/a/f/9/f/af9f01e7bbcf7f6a16c3140a3186d450/WhatsApp_Image_2026-08-07_at_16.34.49.jpeg"
+    },
     {
       "showId": "allin",
       "showName": "All-In",
@@ -1098,17 +1109,6 @@
       "duration": "01:09:24",
       "summary": "Mike Mignano is a General Partner at Union Square Ventures, one of the most iconic venture firms in the world, whose investments include Coinbase, Stripe, Etsy, Twilio, Cloudflare. Before joining USV,",
       "art": "https://static.libsyn.com/p/assets/a/3/8/8/a388f6dab95e6b60d959afa2a1bf1c87/WhatsApp_Image_2026-07-03_at_15.22.48.jpeg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Open Models vs Frontier Models: Who Actually Wins? | The $100,000 Token Budget Every Engineer Will Need | Why Forward-Deployed Engineers Are the Future of Enterprise AI with Clay Bavor, Co-Founder of Sierra",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-open-models-vs-frontier-models-who-actually-wins-the-100000-token-budget-every-engineer-will-need-why-forward-deployed-engineers-are-the-future-of-enterprise-ai-with-clay-bavor-co-founder-of-sierra",
-      "pubDate": "2026-07-04T07:07:00.000Z",
-      "duration": "01:08:41",
-      "summary": "Clay Bavor is the Co-Founder of Sierra, one of the world's fastest-growing enterprise AI companies. Sierra is valued at approximately $15.8 billion, has raised more than $1.5BN from leading investors ",
-      "art": "https://static.libsyn.com/p/assets/7/3/9/5/7395da7b1a2742d516c3140a3186d450/WhatsApp_Image_2026-07-02_at_15.03.48.jpeg"
     },
     {
       "showId": "allin",
