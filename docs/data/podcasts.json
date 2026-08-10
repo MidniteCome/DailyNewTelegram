@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-09T20:21:16.467Z",
+    "updatedAt": "2026-08-10T08:57:52.798Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Will OpenRouter Sell for $10BN to Stripe? | Why Chinese Open Models Are Beating America—and What Happens Next | Why Enterprises Are More Fearful of Anthropic and OpenAI Than China | Is the Routing Layer Becoming a Commodity with Alex Atallah",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-will-openrouter-sell-for-10bn-to-stripe-why-chinese-open-models-are-beating-americaand-what-happens-next-why-enterprises-are-more-fearful-of-anthropic-and-openai-than-china-is-the-routing-layer-becoming-a-commodity-with-alex-atallah",
+      "pubDate": "2026-08-10T07:07:00.000Z",
+      "duration": "59:59",
+      "summary": "Alex Atallah is the Founder and CEO @ OpenRouter, the unified interface for LLMs. The company has raised over $153M in funding, with the latest valuation pricing the company at $1.3BN. OpenRouter is r",
+      "art": "https://static.libsyn.com/p/assets/2/4/2/e/242e8ccd765af490d959afa2a1bf1c87/WhatsApp_Image_2026-08-07_at_16.42.00.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Why is Trump paying to stop wind farms?",
+      "link": "https://www.npr.org/2026/08/10/nx-s1-5925289/why-is-trump-paying-to-stop-wind-farms",
+      "pubDate": "2026-08-10T07:00:00.000Z",
+      "duration": "559",
+      "summary": "President Trump is no fan of wind farms. And his administration is putting taxpayer money where his mouth is, paying companies billions of dollars to NOT build them. On today’s show, Trump’s plan to s",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcf%2F4c%2F396ef9614e9f9f8a4becfb188ca4%2Fca7c043d-c051-4602-92ba-32420b54d204.png"
+    },
+    {
+      "showId": "acquired",
+      "showName": "Acquired",
+      "category": "tech",
+      "title": "Disney: The Renaissance and the Empire",
+      "link": "https://www.acquired.fm/episodes/disney-the-renaissance-and-the-empire",
+      "pubDate": "2026-08-10T04:41:43.000Z",
+      "duration": "16376",
+      "summary": "In 1984, the Walt Disney Company was worth more dead than alive. Disney Animation — the heart of Walt's famous flywheel — had stagnated for years, bleeding away talent while corporate raiders circled,",
+      "art": "https://img.transistorcdn.com/GwI1v26-YH_dXUXm6cxbMAU8_kLZ0TucnptVEAbOElY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS80ZmU3/ZGE4MTQ3NjAzZGZj/MWU5YzVjYzViNTAw/OTIwYS5qcGc.jpg"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -814,17 +847,6 @@
       "art": "https://static.libsyn.com/p/assets/f/9/0/e/f90eeba56c87b1f716c3140a3186d450/WhatsApp_Image_2026-07-17_at_18.27.00.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why doesn't the US have better sunscreen?",
-      "link": "https://www.npr.org/2026/07/20/nx-s1-5897535/why-doesnt-the-us-have-better-sunscreen",
-      "pubDate": "2026-07-20T07:00:00.000Z",
-      "duration": "580",
-      "summary": "Why has the Food and Drug Administration taken so long to approve new sunscreens? Unlike the rest of the world, the FDA only just approved its first new ingredient in nearly three decades. We learn ab",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F42%2Fbd%2Fb6c121344ce38ea2e2ce2c355779%2F6950f60e-c457-49ac-bff5-835b916f69b9.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1098,17 +1120,6 @@
       "duration": "01:25:38",
       "summary": "The old solutions to the Israeli-Palestinian conflict don’t seem to fit the present reality. A two-state solution feels increasingly impossible, given the scale of Israeli settlements in the West Bank",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Why Now is the Time for the Application Layer | Why OpenAI & Anthropic Won't Win the App Layer | Why Startups Should be TokenMaxxing | Why VCs Should Reduce Weighting on Price & Ownership in an Age of AI with Mike Mignano, USV",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-why-now-is-the-time-for-the-application-layer-why-openai-anthropic-wont-win-the-app-layer-why-startups-should-be-tokenmaxxing-why-vcs-should-reduce-weighting-on-price-ownership-in-an-age-of-ai-with-mike-mignano-usv",
-      "pubDate": "2026-07-06T07:07:00.000Z",
-      "duration": "01:09:24",
-      "summary": "Mike Mignano is a General Partner at Union Square Ventures, one of the most iconic venture firms in the world, whose investments include Coinbase, Stripe, Etsy, Twilio, Cloudflare. Before joining USV,",
-      "art": "https://static.libsyn.com/p/assets/a/3/8/8/a388f6dab95e6b60d959afa2a1bf1c87/WhatsApp_Image_2026-07-03_at_15.22.48.jpeg"
     },
     {
       "showId": "allin",
@@ -2077,17 +2088,6 @@
       "duration": "01:18:35",
       "summary": "Open Source bi-weekly convo w/ Bill Gurley and Brad Gerstner on all things tech, markets, investing & capitalism. This week, they welcome Michael Dell to discuss the Invest America Act, lessons learne",
       "art": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40236188/40236188-1706073929930-da002b9be1355.jpg"
-    },
-    {
-      "showId": "acquired",
-      "showName": "Acquired",
-      "category": "tech",
-      "title": "Google Part I: Origins of Search",
-      "link": "https://www.acquired.fm/episodes/google",
-      "pubDate": "2025-06-30T03:11:14.000Z",
-      "duration": "12560",
-      "summary": "We tell the story of the single greatest business ever created: Google search. From its origins as a Stanford research project called BackRub, Google became the front door to the internet. Today it’s ",
-      "art": "https://img.transistorcdn.com/AIk_95Gy1RKYk2QVkS2VQVKpZd30JmUJb3cV4VmNY0s/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zNDE4/MGJjZWJjMDgzMjBh/YjY1MzZmOTk3Yjk5/N2M3OC5qcGc.jpg"
     },
     {
       "showId": "bg2pod",
