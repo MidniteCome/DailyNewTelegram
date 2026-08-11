@@ -1,13 +1,13 @@
 {
   "meta": {
-    "updatedAt": "2026-08-11T08:30:52.789Z",
-    "totalEpisodes": 180,
+    "updatedAt": "2026-08-11T15:03:16.502Z",
+    "totalEpisodes": 165,
     "health": [
       {
         "id": "20vc",
         "name": "20VC",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       },
       {
         "id": "ezraklein",
@@ -82,8 +82,8 @@
       "id": "20vc",
       "name": "20VC",
       "category": "vc",
-      "art": "https://static.libsyn.com/p/assets/d/2/b/a/d2ba673c1d134c2be55e3c100dce7605/WhatsApp_Image_2024-10-28_at_11.39.21.jpeg",
-      "link": "http://www.thetwentyminutevc.com/"
+      "art": null,
+      "link": "https://thetwentyminutevc.libsyn.com/rss"
     },
     {
       "id": "ezraklein",
@@ -165,6 +165,28 @@
   ],
   "episodes": [
     {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Ross Douthat: The Exit Interview",
+      "link": "https://www.nytimes.com/2026/08/11/opinion/ezra-klein-podcast-ross-douthat.html",
+      "pubDate": "2026-08-11T09:00:00.000Z",
+      "duration": "01:13:57",
+      "summary": "My colleague Ross Douthat is leaving The Times after 17 years to become a correspondent on “60 Minutes.” Before he goes, I’m asking him a few questions. Douthat has had a unique vantage point on the n",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "491 埃德蒙·伯克的保守主义与渐进改革思想：从北美、法国到英属印度",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a7adf9c36641f136d8687c5?utm_source=rss",
+      "pubDate": "2026-08-11T08:49:00.000Z",
+      "duration": "01:23:59",
+      "summary": "- 导语 - 被后世视为保守主义思想奠基人的伯克，身上有一组看似矛盾的政治立场：他主张议员不应成为选区利益的传声筒，反对扩大普选权和法国大革命式的激进变革，却又力主与北美殖民地和解，并以「数百万印度人」的名义弹劾黑斯廷斯。作为一名爱尔兰出身、长期活跃于英国下院的政治家，伯克如何理解党派、代表权与帝国统治？职业生涯的后半段，伯克为何对东印度公司的统治发起猛烈批判？伯克的写作方式与精英主义态度又为何使",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -174,17 +196,6 @@
       "duration": "543",
       "summary": "The total amount of investors using margin aka borrowing money to help pay for a trade is at an all time high of over $1.5 trillion. Is this something we should worry about? We spoke to Jurrien Tinner",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F51%2F75%2F7f2ff0004bd7af5845d02cab5486%2Fb67cb80b-f5b8-439d-8308-9564014f5f3d.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Will OpenRouter Sell for $10BN to Stripe? | Why Chinese Open Models Are Beating America—and What Happens Next | Why Enterprises Are More Fearful of Anthropic and OpenAI Than China | Is the Routing Layer Becoming a Commodity with Alex Atallah",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-will-openrouter-sell-for-10bn-to-stripe-why-chinese-open-models-are-beating-americaand-what-happens-next-why-enterprises-are-more-fearful-of-anthropic-and-openai-than-china-is-the-routing-layer-becoming-a-commodity-with-alex-atallah",
-      "pubDate": "2026-08-10T07:07:00.000Z",
-      "duration": "59:59",
-      "summary": "Alex Atallah is the Founder and CEO @ OpenRouter, the unified interface for LLMs. The company has raised over $153M in funding, with the latest valuation pricing the company at $1.3BN. OpenRouter is r",
-      "art": "https://static.libsyn.com/p/assets/2/4/2/e/242e8ccd765af490d959afa2a1bf1c87/WhatsApp_Image_2026-08-07_at_16.42.00.jpeg"
     },
     {
       "showId": "indicator",
@@ -207,17 +218,6 @@
       "duration": "16376",
       "summary": "In 1984, the Walt Disney Company was worth more dead than alive. Disney Animation — the heart of Walt's famous flywheel — had stagnated for years, bleeding away talent while corporate raiders circled,",
       "art": "https://img.transistorcdn.com/GwI1v26-YH_dXUXm6cxbMAU8_kLZ0TucnptVEAbOElY/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS80ZmU3/ZGE4MTQ3NjAzZGZj/MWU5YzVjYzViNTAw/OTIwYS5qcGc.jpg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: The AI Boom Will Create Enormous Roadkill: Who Wins & Loses | Why Founders Should Never Take Multi-Stage Money at Seed | Why Triple, Triple, Double, Double is Good Enough",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-ai-boom-will-create-enormous-roadkill-who-wins-loses-why-founders-should-never-take-multi-stage-money-at-seed-why-triple-triple-double-double-is-good-enough",
-      "pubDate": "2026-08-08T12:56:00.000Z",
-      "duration": "01:25:12",
-      "summary": "David Frankel is one of the great seed investors of our time. As the Co-Founder of Founder Collective he has backed the likes of Uber, Coupang, Suno, PillPack, Airtable, Whoop, Shield AI and many more",
-      "art": "https://static.libsyn.com/p/assets/a/f/9/f/af9f01e7bbcf7f6a16c3140a3186d450/WhatsApp_Image_2026-08-07_at_16.34.49.jpeg"
     },
     {
       "showId": "allin",
@@ -308,17 +308,6 @@
       "art": "https://assets.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/episodes/b/b8cd9085-c37e-4dd3-92d7-5d7be257f078/cover.jpg?v=1"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Airtable Sold for $1.285BN | Leo Achenbrenner's Situational Awareness Blows Up | Moonshot AI Raises $3.5B at $35B | Anthropic Model Breaches Three Companies' Security | Big Tech Earnings: Why Palantir Beat The Rest",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-airtable-sold-for-1285bn-leo-achenbrenners-situational-awareness-blows-up-moonshot-ai-raises-35b-at-35b-anthropic-model-breaches-three-companies-security-big-tech-earnings-why-palantir-beat-the-rest",
-      "pubDate": "2026-08-06T07:07:00.000Z",
-      "duration": "01:15:36",
-      "summary": "Special Guest: Nikesh Arora, CEO @ Palo Alto Networks. AGENDA: 04:50 Airtable Sold to Bending Spoons for $1.285B 17:00 Leo Aschenbrenner's Situational Awareness Blows Up as Citadel Buys His $16BN Book",
-      "art": "https://static.libsyn.com/p/assets/4/4/0/f/440f94d203a9389c16c3140a3186d450/WhatsApp_Image_2026-08-05_at_16.18.19.jpeg"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -407,17 +396,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3e%2F5f%2Febf830e347e0b492781788581499%2F5342a63b-f01b-4726-b4a3-60b6c27331d5.jpg"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: 70% of Neolabs Will Die | There Will be a $100BN US Open-Source Model | Data is a Trillion $ Market | Governments Cannot Regulate Models: It is Too Late | The Cyber Attacks to Come Will be Insane with Anastasios Angelopoulos @ Arena",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-70-of-neolabs-will-die-there-will-be-a-100bn-us-open-source-model-data-is-a-trillion-market-governments-cannot-regulate-models-it-is-too-late-the-cyber-attacks-to-come-will-be-insane-with-anastasios-angelopoulos-arena",
-      "pubDate": "2026-08-03T07:07:00.000Z",
-      "duration": "01:04:20",
-      "summary": "Anastasios Angelopoulos is the co-founder and CEO of Arena, the real-world evaluation platform that has become a leading referee of the global AI model race. Arena has raised $250 million, with the la",
-      "art": "https://static.libsyn.com/p/assets/7/a/8/5/7a8558bc8ec73444d959afa2a1bf1c87/WhatsApp_Image_2026-07-31_at_10.09.12.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -438,17 +416,6 @@
       "duration": "00:16:04",
       "summary": "'The Odyssey' is the political movie of the decade. Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com . You can find the transcript and more episodes of “The Ezra Klein Show” at nytim",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: The Best AI Companies Have Unique Data Acquisition Strategies | Will Simile Kill Kalshi, Polymarkets and NASDAQ | How to Sign Fortune 500 Companies As Customers in Weeks with Joon Sung Park, Simile",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-best-ai-companies-have-unique-data-acquisition-strategies-will-simile-kill-kalshi-polymarkets-and-nasdaq-how-to-sign-fortune-500-companies-as-customers-in-weeks-with-joon-sung-park-simile",
-      "pubDate": "2026-08-01T07:07:00.000Z",
-      "duration": "01:03:41",
-      "summary": "Joon Sung Park is the Founder and CEO of Simile, the AI simulation company building foundation models of human behaviour; allowing companies to test how real people may think, decide and act before ma",
-      "art": "https://static.libsyn.com/p/assets/8/c/a/6/8ca6739fec2c275f16c3140a3186d450/WhatsApp_Image_2026-07-30_at_17.13.21.jpeg"
     },
     {
       "showId": "allin",
@@ -515,17 +482,6 @@
       "duration": "9836",
       "summary": "Diana Pasulka is a professor of religious studies at the University of North Carolina Wilmington and the author of several books. Her most recent, \"The Others: UFOs, AI, and the Secret Forces Guiding ",
       "art": "https://megaphone.imgix.net/podcasts/3e41b214-8ba4-11f1-9b3e-6700767b4af0/image/3b34418dc009c084df68d2d39c7be423.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Jensen's Open-Weights Letter | Travis Kalanick Raises $1.7B for Atoms | Google Cloud Grows 82% But The Market Tanks | Francisco Partners Raises $21BN | Etched Raises $300M to Take on Nvidia",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-jensens-open-weights-letter-travis-kalanick-raises-17b-for-atoms-google-cloud-grows-82-but-the-market-tanks-francisco-partners-raises-21bn-etched-raises-300m-to-take-on-nvidia",
-      "pubDate": "2026-07-30T07:07:00.000Z",
-      "duration": "01:17:30",
-      "summary": "AGENDA: 05:00 Jensen's Open-Weights Letter Puts Anthropic on an Island 10:00 OpenAI's Model Targets Hugging Face in a Cyber-Security Scare 18:00 America's Open-Model Push Accelerates as China Looms La",
-      "art": "https://static.libsyn.com/p/assets/3/3/5/0/3350bc4ff9fea72816c3140a3186d450/WhatsApp_Image_2026-07-29_at_16.44.46.jpeg"
     },
     {
       "showId": "indicator",
@@ -649,17 +605,6 @@
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Leading Anthropic's First Ever Round | Will Open Source Threaten Anthropic's Business | Do Margins Matter in a World of AI | Why Triple, Triple, Double, Double is Not Good Enough Today | Why Series A is Hard Today with Matt Murphy @ Menlo",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-leading-anthropics-first-ever-round-will-open-source-threaten-anthropics-business-do-margins-matter-in-a-world-of-ai-why-triple-triple-double-double-is-not-good-enough-today-why-series-a-is-hard-today-with-matt-murphy-menlo",
-      "pubDate": "2026-07-27T07:07:00.000Z",
-      "duration": "01:02:34",
-      "summary": "Matt Murphy is a Partner at Menlo Ventures, who just raised $3 billion in fresh capital, its largest pool ever. Matt's portfolio includes Anthropic, Lovable, Legora, OpenRouter, Chai Discovery, Axiom,",
-      "art": "https://static.libsyn.com/p/assets/d/9/3/7/d937e6b5f9ed765316c3140a3186d450/WhatsApp_Image_2026-07-24_at_12.31.31.jpeg"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -669,17 +614,6 @@
       "duration": "504",
       "summary": "We have some grievances. Economic ones. And we’re airing them out. On today’s show: Redeeming fast food rewards points in airports, not knowing the full price of your meal upfront, and the pen-and-pap",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe8%2F16%2F57b741cf4f82836cbc3cc243d3c7%2F8ff68fc6-faf1-4e35-a7f7-417cd98fda2a.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Mercor CPO on Revenue Concentration from Frontier Labs | Why Large Enterprise is Scared to Partner with Frontier Labs | Why Small Specialised Models is the Future with Osvald Nitski",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-mercor-cpo-on-revenue-concentration-from-frontier-labs-why-large-enterprise-is-scared-to-partner-with-frontier-labs-why-small-specialised-models-is-the-future-with-osvald-nitski",
-      "pubDate": "2026-07-25T07:07:00.000Z",
-      "duration": "01:00:37",
-      "summary": "Osvald Nitski is the Chief Product Officer at Mercor, the AI-training and expert-data marketplace powering frontier-model development. Mercor last raised a $350 million Series C at a $10 billion valua",
-      "art": "https://static.libsyn.com/p/assets/4/0/c/a/40ca70c100a9243a16c3140a3186d450/WhatsApp_Image_2026-07-22_at_14.14.46.jpeg"
     },
     {
       "showId": "allin",
@@ -746,17 +680,6 @@
       "duration": "9939",
       "summary": "Timothy Alberino is an author, lecturer, and explorer. His latest release is a new edition of the ancient text “The Book of Enoch,” for which he wrote the introduction and commentary. www.youtube.com/",
       "art": "https://megaphone.imgix.net/podcasts/b569ee94-856c-11f1-bb2f-cf7ff131c798/image/9eb56f60d746efad14ad7d23506fd043.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-openai-and-anthropic-threatened-by-kimi-should-the-us-ban-chinese-open-source-models-should-openrouter-sell-value-in-the-routing-layer-stripe-buying-paypal-what-you-need-to-know",
-      "pubDate": "2026-07-23T07:07:00.000Z",
-      "duration": "01:23:12",
-      "summary": "AGENDA: 00:04 China's Kimi and Qwen Put Frontier AI on Notice 00:08 Washington Debates Whether Chinese AI Models Should Be Banned 00:17 Can America Build a Profitable Open-Weight AI Champion? 00:21 Op",
-      "art": "https://static.libsyn.com/p/assets/3/2/f/7/32f7fa3d560aec3716c3140a3186d450/WhatsApp_Image_2026-07-22_at_20.01.22.jpeg"
     },
     {
       "showId": "indicator",
@@ -836,28 +759,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Are OpenAI and Anthropic Overvalued? The Open-Source AI Reality | How Token Costs Will Fall 10x And Usage Will Explode 100x | The Future Is Not One AGI; It's Millions of Specialised Models with Lin Qiao, Founder and CEO @ Fireworks",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-are-openai-and-anthropic-overvalued-the-open-source-ai-reality-how-token-costs-will-fall-10x-and-usage-will-explode-100x-the-future-is-not-one-agi-its-millions-of-specialised-models-with-lin-qiao-founder-and-ceo-fireworks",
-      "pubDate": "2026-07-20T07:07:00.000Z",
-      "duration": "01:17:07",
-      "summary": "Lin Qiao is the Co-Founder and CEO of Fireworks AI, the leading specialized intelligence and AI inference platform that last week raised $1.5BN at a whopping $17BN valuation. With just 200 people, the",
-      "art": "https://static.libsyn.com/p/assets/f/9/0/e/f90eeba56c87b1f716c3140a3186d450/WhatsApp_Image_2026-07-17_at_18.27.00.jpeg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: $5BN in Revenue, 7 to 7,000 Employees in 9 Months, 206,000 Tests in a Single Day: The Craziest Story in Startups: Curative with Fred Turner",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-5bn-in-revenue-7-to-7000-employees-in-9-months-206000-tests-in-a-single-day-the-craziest-story-in-startups-curative-with-fred-turner",
-      "pubDate": "2026-07-18T07:07:00.000Z",
-      "duration": "01:27:34",
-      "summary": "Fred Turner is the Founder and CEO @ Curative, one of the wildest stories in tech. Fred scaled a COVID testing business from $0 to $5BN in revenue and took the team from 7 to 7,000 employees in just 9",
-      "art": "https://static.libsyn.com/p/assets/2/6/5/2/2652bf92937cbe10d959afa2a1bf1c87/WhatsApp_Image_2026-07-17_at_18.17.13.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -911,17 +812,6 @@
       "duration": "52:06",
       "summary": "特朗普政府收紧移民政策、暂停难民接收后，南非白人却成了少数例外：一些人以「难民」身份进入美国，另一些人拿着农业签证，来到密西西比的农场工作。为什么偏偏是他们？ 今年 4 月，刘骁骞前往密西西比州中部的农业地区。在黄昏的加油站和餐馆里，穿着卡其色短裤的南非白人劳工陆续出现，聚在吧台旁喝酒；有人从早上 6 点工作到晚上 8 点，握手时指甲缝里还沾满泥土。更高的收入之外，围绕本地就业、工资差异和种族问题",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Apple Sues OpenAI | Zuckerberg Back on X and Challenging Codex and Claude Code | SK Hynix's $26BN IPO | Is Seed Investing Dead: Jason Calacanis Departs Seed for Growth | Greylock Raises New $1.5BN Fund",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-apple-sues-openai-zuckerberg-back-on-x-and-challenging-codex-and-claude-code-sk-hynixs-26bn-ipo-is-seed-investing-dead-jason-calacanis-departs-seed-for-growth-greylock-raises-new-15bn-fund",
-      "pubDate": "2026-07-16T07:07:00.000Z",
-      "duration": "01:22:51",
-      "summary": "AGENDA: 00:00 – Apple SUES OpenAI: Did They Steal Apple's Biggest Secrets? 05:10 – Is OpenAI's $6BN Hardware Bet Already Dead? 12:50 – Zuckerberg Is Back: Meta Finally Takes On OpenAI 18:05 – The AI S",
-      "art": "https://static.libsyn.com/p/assets/7/7/5/7/77574f71c9c00b0816c3140a3186d450/WhatsApp_Image_2026-07-15_at_16.40.20.jpeg"
     },
     {
       "showId": "allin",
@@ -1001,28 +891,6 @@
       "art": "https://static.libsyn.com/p/assets/f/e/0/e/fe0e7bc7041988a5d959afa2a1bf1c87/1_Pod_France.png"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Wix's Founder on What Wall St Gets Wrong About AI and Wix | Will Base44 Win the Vibe Coding Wars | The Truth About the Economics of Vibe-Coding | The Buyback Disaster: Lessons Learned with Avishai Abrahami",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-wixs-founder-on-what-wall-st-gets-wrong-about-ai-and-wix-will-base44-win-the-vibe-coding-wars-the-truth-about-the-economics-of-vibe-coding-the-buyback-disaster-lessons-learned-with-avishai-abrahami",
-      "pubDate": "2026-07-13T07:07:00.000Z",
-      "duration": "57:20",
-      "summary": "Avishai Abrahami is the Co-Founder and CEO of Wix, the NASDAQ-listed website creation platform serving millions of businesses worldwide. Today, Wix generates more than $2BN in ARR and has a market cap",
-      "art": "https://static.libsyn.com/p/assets/0/1/5/1/0151f98d6bf5e1ac16c3140a3186d450/WhatsApp_Image_2026-07-10_at_14.41.49.jpeg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Why OpenAI and Anthropic Won't Win the App Layer | Why Teams Will Get Bigger Not Smaller in a World of AI | Why AI Removes Incumbents Advantage of Bundling | China vs America: Who Wins the AI War with Arvind Jain, Co-Founder @ Glean",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-why-openai-and-anthropic-wont-win-the-app-layer-why-teams-will-get-bigger-not-smaller-in-a-world-of-ai-why-ai-removes-incumbents-advantage-of-bundling-china-vs-america-who-wins-the-ai-war-with-arvind-jain-co-founder-glean",
-      "pubDate": "2026-07-11T07:07:00.000Z",
-      "duration": "54:46",
-      "summary": "Arvind Jain is the Founder & CEO of Glean, the enterprise AI leader valued at $7.2 billion after raising more than $770 million from investors including Kleiner Perkins, DST Global, and more. Before G",
-      "art": "https://static.libsyn.com/p/assets/6/1/8/d/618dcaee7e77b04416c3140a3186d450/WhatsApp_Image_2026-07-10_at_14.27.55.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1087,17 +955,6 @@
       "duration": "59:18",
       "summary": "十年前的 6 月 23 日，英国以 51.9% 对 48.1% 的公投结果决定退出欧盟，十年后的当下，这个国家却似乎比任何时候都要显得迷茫。 来自工党的基尔·斯塔默宣布辞去首相职务，英国将在 10 年间迎来第 7 位首相。从穿衣的仪式感、王室的余晖，到「拿回控制权」的脱欧口号，英国一直在用各种方式证明自己“与众不同”——可当经济基础再也撑不起这套身份叙事，这个曾经的日不落帝国，究竟还能靠什么找到自",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Sam Altman Offers Trump 5% of OpenAI: Fool or Genius? | Alex Karp Sounds the Alarm: Enterprises Fear Frontier Models & Questionable ROI of AI | The Rise of Chinese Open Source: Deepseek Building Own Chips",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-sam-altman-offers-trump-5-of-openai-fool-or-genius-alex-karp-sounds-the-alarm-enterprises-fear-frontier-models-questionable-roi-of-ai-the-rise-of-chinese-open-source-deepseek-building-own-chips",
-      "pubDate": "2026-07-09T07:07:00.000Z",
-      "duration": "01:23:32",
-      "summary": "AGENDA: 05:00 Washington Just Put Frontier AI on a Leash 06:30 Sam Altman's Wild 5% Government Stake Idea 19:00 The AI Funding Bubble: Why Founders No Longer Fear Dilution 28:00 Alex Karp's Brutal War",
-      "art": "https://static.libsyn.com/p/assets/3/d/d/4/3dd475bc8de360c716c3140a3186d450/WhatsApp_Image_2026-07-08_at_13.10.54.jpeg"
     },
     {
       "showId": "left-right",
@@ -1342,17 +1199,6 @@
       "art": "https://img.transistorcdn.com/kCB3B2iISM-bCdDu6pysFaFa0p3IYktCnNb8Q5VFycc/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS85MmI3/Mjg0MDI2MWU4ZDc4/M2YyOGZjMzllNjll/ODBlYi5qcGc.jpg"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "477 「广州湾」风云：从雷州半岛和湛江历史看近代中法越的跨境变迁",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a35055a43a22a6955864b9d?utm_source=rss",
-      "pubDate": "2026-06-19T09:18:32.000Z",
-      "duration": "01:26:56",
-      "summary": "- 导语 - 「广州湾」的名字会让人下意识误以为它在广州而非湛江，从乾隆年间潮州海商来此建立季风贸易基地，到近代法国殖民扩张强行租借广州湾，雷州半岛和粤西南从此闯入中法近代外交史。地理概念上的「广州湾租借地」究竟涵盖哪些区域？华南海盗猖獗，雷州半岛为何与越南北部联系紧密？法国殖民者为何选择地理位置偏僻的广州湾？抗战胜利后，法国为何会选择提前归还广州湾给中国？请听本期嘉宾吴子祺带来的精彩分享！ - ",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1417,17 +1263,6 @@
       "duration": "01:27:36",
       "summary": "【主播的话】 今年五月，我去了一趟奥马哈，参加了一年一度的巴菲特股东大会。 作为一个平日里并不算关注投资的人，去参会纯粹是记者的好奇心作祟：我想看看，这个每年让几万人专程飞来朝圣的地方，究竟供着什么“神”？现场的第一印象，像是一个巨大的县城大卖场，人声鼎沸，摩肩接踵，中国投资者组团涌入，对着一个九十多岁的老人的照片虔诚地举起手机。那种氛围也让人深思：他们在这里寻找的，究竟是财富密码，还是某种更难言",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "What’s the Left’s Vision for Foreign Policy After Trump?",
-      "link": "https://www.nytimes.com/2026/06/09/opinion/ezra-klein-podcast-matt-duss.html",
-      "pubDate": "2026-06-09T09:00:00.000Z",
-      "duration": "01:33:49",
-      "summary": "The Democratic Party is in the middle of a rupture over foreign policy – with Israel and Palestine at the center. In recent weeks, the Democratic senators Brian Schatz and Chris Van Hollen both called",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "talksat",
