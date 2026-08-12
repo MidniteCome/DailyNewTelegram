@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-12T08:48:08.992Z",
+    "updatedAt": "2026-08-12T15:02:41.509Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#500 – Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor Football",
+      "link": "https://lexfridman.com/khabib-nurmagomedov/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=khabib-nurmagomedov",
+      "pubDate": "2026-08-12T13:11:45.000Z",
+      "duration": null,
+      "summary": "Khabib Nurmagomedov is one of the greatest fighters of all time, who retired from the UFC undefeated with a perfect 29-0 record. We did this conversation entirely in Russian. Its translated and dubbed",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1945,17 +1956,6 @@
       "duration": "14015",
       "summary": "Coca-Cola is… sugar water. And somehow it’s also America, Christmas, summertime, friendship and happiness. Today we tell the story of how The Coca-Cola Company amazingly transmogrified a beverage into",
       "art": "https://img.transistorcdn.com/39-V6NdO6ZaVaMH9TAU7sm7gqZF16IvTl0NGCOQ5nDo/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8zM2Q5/OTdkNDY1NWU1YTZk/N2FmNDVkNzk5M2Jl/NjYzZC5qcGc.jpg"
-    },
-    {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#485 – David Kirtley: Nuclear Fusion, Plasma Physics, and the Future of Energy",
-      "link": "https://lexfridman.com/david-kirtley/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=david-kirtley",
-      "pubDate": "2025-11-17T18:55:13.000Z",
-      "duration": null,
-      "summary": "David Kirtley is a nuclear fusion engineer and CEO of Helion Energy, a company working on building the worlds first commercial fusion power plant by 2028. Thank you for listening ❤ Check out our spons",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
       "showId": "bg2pod",
