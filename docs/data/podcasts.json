@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-11T20:34:59.756Z",
+    "updatedAt": "2026-08-12T08:48:08.992Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Consumers are mad as hell and aren't gonna take it anymore",
+      "link": "https://www.npr.org/2026/08/12/nx-s1-5928512/consumers-are-mad-as-hell-and-arent-gonna-take-it-anymore",
+      "pubDate": "2026-08-12T07:00:00.000Z",
+      "duration": "569",
+      "summary": "Rage. That’s what consumers are feeling right now. A new survey found consumer complaints hit a record high this year. Another from last year found a huge share of consumers felt ‘rage’ with a product",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe5%2F5f%2F66d4dd584fa68e39d96d2b4b83ae%2F3a125a70-761e-4031-94b0-f340848a7542.png"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "华人家庭这个巨兽，爱与剥削为何总是同时存在",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a7bf7ef17676351c5709fa1?utm_source=rss",
+      "pubDate": "2026-08-12T04:55:46.000Z",
+      "duration": "00:59:06",
+      "summary": "【主播的话】 2025 年，一位以公共报道著称的华人记者，突然把笔调转向了自己的家。 记者谭蕙芸，曾在新闻业里追问外部世界的真相，教学生如何采访弱势社群。可她自己的家中，一直藏着一个不能言说的秘密。她的哥哥，那位被寄予最高期望的长子长孙，青少年时期被情绪问题困扰。全家从香港移民到加拿大后，在\"家丑不可外扬\"的家风影响下，未能持续就医，就这样被隐去了三十年，失去机会建立成年人的独立生活和自理能力。 ",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -812,17 +834,6 @@
       "duration": "10621",
       "summary": "Zach Bush, MD, is a physician specializing in internal medicine, endocrinology, and hospice care. He is the founder of Seraphic Group and Farmer’s Footprint, a nonprofit dedicated to regenerative agri",
       "art": "https://megaphone.imgix.net/podcasts/266c6a86-8559-11f1-a679-ebb68a31490a/image/d95197b23403f3ff0a7684b05e7f5c13.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Can Y’all Street outflank Wall Street?",
-      "link": "https://www.npr.org/2026/07/22/nx-s1-5902341/can-yall-street-outflank-wall-street",
-      "pubDate": "2026-07-22T07:00:00.000Z",
-      "duration": "501",
-      "summary": "Biz-friendly Texas is opening a stock exchange, built and based in the state. Can it become—or best—Wall Street? And how has politics influenced the birth of Y’all Street? Fact checking by Sierra Juar",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa5%2F92%2Fcd1144aa45f98187819fc9d9ce9b%2F116c06c2-3aa5-4a84-9ebc-f287ede73e85.png"
     },
     {
       "showId": "jre",
@@ -1813,17 +1824,6 @@
       "duration": null,
       "summary": "Peter Steinberger is the creator of OpenClaw, an open-source AI agent framework thats the fastest-growing project in GitHub history. Thank you for listening ❤ Check out our sponsors: https://lexfridma",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "weirdo",
-      "showName": "不合时宜",
-      "category": "zh",
-      "title": "对话张旭东：鲁迅逝世90年了，他为何仍然塑造着我们的精神世界？",
-      "link": "https://www.xiaoyuzhoufm.com/episode/698952a966e2c303778c06b7?utm_source=rss",
-      "pubDate": "2026-02-09T03:33:39.000Z",
-      "duration": "01:18:27",
-      "summary": "【主播的话】 1936年，在风雨飘摇的上海，鲁迅因病去世，享年55岁。 2026年，是鲁迅逝世九十周年。差不多整整一个世纪过去了，鲁迅却并未远去——他依然深深存在于当代中国人的精神生活之中，存在于我们的语言、记忆与时代观念里。 在中国出生长大的人，对鲁迅几乎都不会陌生。他的作品是小学课本里的重点篇目，直到今天，我们也许仍然能够熟练背出其中许多段落：从《从百草园到三味书屋》到《阿Q正传》，从《狂人日",
-      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
       "showId": "lexfridman",
