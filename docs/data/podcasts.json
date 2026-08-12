@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-12T15:02:41.509Z",
+    "updatedAt": "2026-08-12T20:34:15.219Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2538 - Joe DeRosa",
+      "link": "https://traffic.megaphone.fm/GLT1242550719.mp3",
+      "pubDate": "2026-08-12T17:00:00.000Z",
+      "duration": "9777",
+      "summary": "Joe DeRosa is a comedian, actor, musician, restaurateur, and host of the \"Vile and Horrendous\" podcast. His latest special, \"I Never Promised You a Rose Garden,\" is now streaming on YouTube. www.youtu",
+      "art": "https://megaphone.imgix.net/podcasts/22233586-966b-11f1-8f2f-03112136bec0/image/46c5a7c092e94e1f6f989ff752de3211.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
@@ -999,17 +1010,6 @@
       "duration": "10744",
       "summary": "JD Vance is the Vice President of the United States, a Marine Corps veteran, former U.S. Senator from Ohio, and author. His latest book, “Communion: Finding My Way Back to Faith,” is available now.www",
       "art": "https://megaphone.imgix.net/podcasts/03cad5ca-7ffb-11f1-a84e-db74b0b2b17c/image/e455871b997b5c9d1d184dafad5fa25e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2525 - Nick Bostrom",
-      "link": "https://traffic.megaphone.fm/GLT1555016650.mp3",
-      "pubDate": "2026-07-14T17:00:00.000Z",
-      "duration": "8411",
-      "summary": "Nick Bostrom is a philosopher whose work focuses on artificial intelligence, existential risk, and the future of humanity. He is Principal Researcher at the Macrostrategy Research Initiative and the a",
-      "art": "https://megaphone.imgix.net/podcasts/709f4dec-7f16-11f1-ae05-dbca289f806f/image/d2a48ed6017333a6b91a9c56be513ebb.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
