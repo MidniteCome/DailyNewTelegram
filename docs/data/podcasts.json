@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-12T20:34:15.219Z",
+    "updatedAt": "2026-08-13T08:51:18.763Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,6 +165,50 @@
   ],
   "episodes": [
     {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#400 社交媒体的「大烟草时刻」：谁该为青少年的成瘾负责？",
+      "link": "https://etw.fm/2220",
+      "pubDate": "2026-08-13T08:15:00.000Z",
+      "duration": "1:00:36",
+      "summary": "去年12月，澳大利亚实施全球首个针对16岁以下未成年人的社交媒体禁令，此后不久，法国、英国、西班牙等更多国家便相继跟进。但反对者的声音也随之而来。他们认为禁令本身难以执行、年龄划分过于一刀切，更关键的是，科学尚未证明社交媒体与青少年心理问题之间存在明确的因果关系。然而，这些反对的理由真的成立吗？ 今年3月，社交媒体迎来「大烟草时刻」。被视为风向标的 K.G.M. v. Meta et al. 一案",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Canva Slashes Growth: How Much is it Really Worth | Demis Hassabis and Jeff Dean: Talent Exodus at Google | Revolut's $50BN CEO Pay Package | Elon Musk's $55BN Terrafab",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-canva-slashes-growth-how-much-is-it-really-worth-demis-hassabis-and-jeff-dean-talent-exodus-at-google-revoluts-50bn-ceo-pay-package-elon-musks-55bn-terrafab",
+      "pubDate": "2026-08-13T07:07:00.000Z",
+      "duration": "01:26:39",
+      "summary": "AGENDA: 05:00 Canva's Growth Gets Slashed as AI Costs Explode 20:00 The Great Software Reset: Why 2026 Will Punish AI Hesitancy 29:00 Canva's Valuation Reality Check—and the LP Liquidity Trap 35:00 Go",
+      "art": "https://static.libsyn.com/p/assets/e/f/8/3/ef8306225966b3dbd959afa2a1bf1c87/WhatsApp_Image_2026-08-12_at_15.56.51.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "C is for C-shaped economy",
+      "link": "https://www.npr.org/2026/08/13/nx-s1-5929491/c-is-for-c-shaped-economy",
+      "pubDate": "2026-08-13T07:00:00.000Z",
+      "duration": "515",
+      "summary": "Which letter best describes how the U.S. economy is shaped: C or K? We examine the arguments for both and why there’s so much disagreement over who’s faring best in today’s economy. Fact checking by S",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1c%2Ff7%2Fffa74c0148bb9f924b165f8137a3%2Fc7217b7c-a928-482d-a12c-11988527c95d.jpg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
+      "link": "https://allinchamathjason.libsyn.com/rahm-emanuel-trumps-foreign-policy-china-europes-decline-immigration-dsa-vs-democrats",
+      "pubDate": "2026-08-13T02:10:00.000Z",
+      "duration": "01:11:36",
+      "summary": "(0:00) Jason and Friedberg welcome Rahm Emanuel (1:16) Lessons from working with Clinton and Obama (7:45) China: How to approach conflict, new economic bloc, isolation, and Taiwan (28:49) Europe: Reas",
+      "art": "https://static.libsyn.com/p/assets/c/7/8/3/c783805001ad85e616c3140a3186d450/1_Pod_Rahm.png"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -172,7 +216,7 @@
       "link": "https://traffic.megaphone.fm/GLT1242550719.mp3",
       "pubDate": "2026-08-12T17:00:00.000Z",
       "duration": "9777",
-      "summary": "Joe DeRosa is a comedian, actor, musician, restaurateur, and host of the \"Vile and Horrendous\" podcast. His latest special, \"I Never Promised You a Rose Garden,\" is now streaming on YouTube. www.youtu",
+      "summary": "Joe DeRosa is a comedian, actor, musician, restaurateur, and host of the \"Vile and Horrendous\" podcast. His latest special, \"I Never Promised You a Rose Garden,\" is now streaming on Netflix. www.youtu",
       "art": "https://megaphone.imgix.net/podcasts/22233586-966b-11f1-8f2f-03112136bec0/image/46c5a7c092e94e1f6f989ff752de3211.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
@@ -836,17 +880,6 @@
       "art": "https://static.libsyn.com/p/assets/3/2/f/7/32f7fa3d560aec3716c3140a3186d450/WhatsApp_Image_2026-07-22_at_20.01.22.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Can Paramount \"gift\" its way past the FCC?",
-      "link": "https://www.npr.org/2026/07/23/nx-s1-5903825/can-paramount-gift-its-way-past-the-fcc",
-      "pubDate": "2026-07-23T07:00:00.000Z",
-      "duration": "584",
-      "summary": "Paramount’s $111 billion merger with Warner Bros. Discovery has a few hurdles ahead of it. One of them is an FCC approval. But a recent investigation shows that Paramount and the FCC have a dubious re",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb1%2Fc0%2F4b20c2534235a93396e9c1b858d2%2Fa9aa2330-a5b4-4db4-a64b-b3c11cbe2787.jpg"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1133,17 +1166,6 @@
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Sam Altman Offers Trump 5% of OpenAI: Fool or Genius? | Alex Karp Sounds the Alarm: Enterprises Fear Frontier Models & Questionable ROI of AI | The Rise of Chinese Open Source: Deepseek Building Own Chips",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-sam-altman-offers-trump-5-of-openai-fool-or-genius-alex-karp-sounds-the-alarm-enterprises-fear-frontier-models-questionable-roi-of-ai-the-rise-of-chinese-open-source-deepseek-building-own-chips",
-      "pubDate": "2026-07-09T07:07:00.000Z",
-      "duration": "01:23:32",
-      "summary": "AGENDA: 05:00 Washington Just Put Frontier AI on a Leash 06:30 Sam Altman's Wild 5% Government Stake Idea 19:00 The AI Funding Bubble: Why Founders No Longer Fear Dilution 28:00 Alex Karp's Brutal War",
-      "art": "https://static.libsyn.com/p/assets/3/d/d/4/3dd475bc8de360c716c3140a3186d450/WhatsApp_Image_2026-07-08_at_13.10.54.jpeg"
-    },
-    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -1340,17 +1362,6 @@
       "duration": "01:36:30",
       "summary": "【主播的话】 本期节目是不合时宜的系列节目——跨世代女性对话。这是不合时宜策划的一档栏目，我们收集了来自不同世代女性所面对的困惑和思考，通过与嘉宾深入对谈的方式展开回应这些困惑。 本期节目中时隔两年，我们又和闾丘露薇在播客中重聚了。这次她还带来了大学同学以及播客伙伴 Helen。我们这期节目里聊了聊对于工作、友谊和创作的理解与困惑，不同阶段的女性与自己身体的关系。想起一个好玩的插曲，在准备这期节目",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "GameStop CEO Ryan Cohen's $56B Plan to Take Over eBay",
-      "link": "https://allinchamathjason.libsyn.com/gamestop-ceo-ryan-cohens-56b-plan-to-take-over-ebay",
-      "pubDate": "2026-06-23T20:52:00.000Z",
-      "duration": "01:03:03",
-      "summary": "(0:00) David Friedberg intros GameStop CEO Ryan Cohen! (1:56) Building and selling Chewy for $3.35B, how to compete with Amazon in e-commerce (11:58) Post-Chewy life, activist investing, the road to G",
-      "art": "https://static.libsyn.com/p/assets/9/3/1/3/93138d0f7fcef9b816c3140a3186d450/1_Pod_Cohen.png"
     },
     {
       "showId": "left-right",
@@ -1625,17 +1636,6 @@
       "pubDate": "2026-04-23T09:30:00.000Z",
       "duration": "39:57",
       "summary": "两周前的那场美伊谈判 —— 也是两国自 1979 年以来级别最高的直接接触 —— 地点选在了巴基斯坦的首都伊斯兰堡。于是我们就产生了一个好奇：为什么是巴基斯坦？ 在大多数人的印象里，巴基斯坦「经济脆弱、内政动荡」，在国际舞台上的存在感似乎并不高。但就是这样一个国家，为什么能获得美伊双方的信任？巴基斯坦又是出于什么样的动机在积极地做斡旋？在传统国际秩序已经逐步失效的当下，这又意味着一个怎样的转变？ ",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#385 半个世纪后，人类重返月球的艰难、野心和新逻辑",
-      "link": "https://etw.fm/2206",
-      "pubDate": "2026-04-16T11:00:00.000Z",
-      "duration": "1:11:07",
-      "summary": "1969 年，人类第一次踏上月球。半个多世纪过去了，为什么人类想要「重返月球」依然如此费力？现在的登月和 50 年前的登月是同一回事吗？ 2026 年 4 月，阿尔忒弥斯 2 号（Artemis II）搭载四名宇航员完成绕月之旅，顺利返航。这是人类时隔 50 余年再次将宇航员送往月球轨道。但这次任务背后，是一个全新的工程逻辑：不是尝试去复刻阿波罗的政治短跑，而是在商业航天、新材料、新技术的基础上，",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
