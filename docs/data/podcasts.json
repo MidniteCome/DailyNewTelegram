@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-14T08:45:15.809Z",
+    "updatedAt": "2026-08-14T14:56:05.896Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "492 刘怡、于杰谈保罗·沃尔克与现代美联储制度的形成",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a7ee43b17676351c571e363?utm_source=rss",
+      "pubDate": "2026-08-14T10:08:52.000Z",
+      "duration": "01:17:43",
+      "summary": "- 导语 - 今天的美联储常被视作一架精密运转的机器，但直到1970年代，美联储主席该做什么、货币政策该怎么用，仍没有今天这样清晰。作为美联储历史上的标志性人物，保罗·沃尔克经历了布雷顿森林体系的崩塌、广场协议的签订，并亲手带来了「沃尔克冲击」，他也成为经济史上影响最大的一任美联储主席。美联储主席职责如何在国内政策需要和组织博弈中明确起来？从拉美债务危机到卢浮宫协议，这些重大事件为今天的全球经济留",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "What if America Followed the Rules?",
+      "link": "https://www.nytimes.com/2026/08/14/opinion/ezra-klein-podcast-linda-kinstler.html",
+      "pubDate": "2026-08-14T09:00:00.000Z",
+      "duration": "00:54:15",
+      "summary": "We’re in a really strange moment in the foreign policy politics of the Democratic Party. People are looking for an alternative vision — an approach to American power in the world that would feel more ",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1364,17 +1386,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "478 北洋漫游记：军阀、考古与瑞典王储的中国之旅",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a3a57bc2e335a35a808135e?utm_source=rss",
-      "pubDate": "2026-06-23T10:07:15.000Z",
-      "duration": "01:26:00",
-      "summary": "- 导语 - 1926年，瑞典王储、未来的古斯塔夫六世国王跨越重洋到访中国，在北洋混战的动荡时局里开启了一场横跨北京、山西、上海的考察之行。这段经历被随行人员收录在三本相册中，留下500多张照片和大量珍贵实物，并在百年后被收藏家邹德怀购得并整理，许多鲜为人知的历史细节得以重现。百年前的瑞典王室为何热衷中国文化与考古事业？在东方的军阀、学者与退位皇帝之间，瑞典王储见证了哪些插曲？从田黄印章、北京城墙",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
       "showId": "talksat",
       "showName": "Talks at GS",
       "category": "finance",
@@ -1417,17 +1428,6 @@
       "duration": "1:02:39",
       "summary": "当屏幕、AI 甚至算法越来越多地进入孩子们的生活，现在的「玩」和我们儿时的「玩」还是一个概念吗？ 《玩具总动员》系列从 1995 年走到今天，30 年间，它讨论过友谊、成长、告别……这一次，它把目光投向了一个非常当下的问题 —— 数字时代的童年，「玩」这件事正在发生怎样的改变，今天的我们又应该如何看待「玩」在人类成长过程中扮演的角色？ 这期节目，我们想借《玩具总动员 5》的上映来认真聊一聊：从儿童",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "Graham Platner, Jon Ossoff and the New Rules of Political Attention",
-      "link": "https://www.nytimes.com/2026/06/13/opinion/ezra-klein-podcast-chris-hayes-2026.html",
-      "pubDate": "2026-06-16T09:00:00.000Z",
-      "duration": "01:18:22",
-      "summary": "Attention is working in really unusual ways this election cycle. Graham Platner, a political unknown a year ago, ended up dominating his Senate primary against Maine’s sitting governor – even as his c",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "bg2pod",
