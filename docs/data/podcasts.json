@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-13T20:31:43.929Z",
+    "updatedAt": "2026-08-14T08:45:15.809Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Retiree benefits bump, credit repayment slump, and a dating app in the dumps",
+      "link": "https://www.npr.org/2026/08/14/nx-s1-5930683/retiree-benefits-bump-credit-repayment-slump-and-a-dating-app-in-the-dumps",
+      "pubDate": "2026-08-14T07:00:00.000Z",
+      "duration": "553",
+      "summary": "It’s Indicators of the Week! On today’s episode: Retirees get a bump in benefits; credit card debt delinquency at a historically high level; and the dating app Bumble on a serious decline — Men first!",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd0%2F18%2Fb66ed776475bb9d3ed091ec8aa6f%2F3351c905-aa74-480c-b72f-01536bfb3f17.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -845,17 +856,6 @@
       "duration": "01:32:11",
       "summary": "- 导语 - 冷战中叶，原本在意识形态上势不两立的台北与莫斯科，却通过记者和驻外人员建立起一条秘密联络线。1968年，持苏联护照、以《伦敦晚报》记者身份访台的维克多·路易斯抵达台北，与魏景蒙、蒋经国等人展开试探；此后，双方又在维也纳、罗马等地继续接触。面对美国政策转向，蒋介石为何在晚年屡屡设想借助莫斯科的力量？被视为克格勃线人的路易斯究竟替谁传话，他又是否真正代表了苏联官方态度？这场被双方各取所需",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Three beefs: U.S. and Brazil, Taco Bell and liability, Waymo and trial lawyers",
-      "link": "https://www.npr.org/2026/07/24/nx-s1-5905782/three-beefs-u-s-and-brazil-taco-bell-and-liability-waymo-and-trial-lawyers",
-      "pubDate": "2026-07-24T07:00:00.000Z",
-      "duration": "562",
-      "summary": "It’s Indicators of the Week! Today on the show: Brazil’s fast payments system that’s got the Trump administration huffy, why Taco Bell might be liable for their role in cyclospora infections and why s",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F07%2Fa4%2Fe6db51c44c308ebfc6d866fe682b%2Fd5642619-8738-4162-aef4-e901d3a0feac.png"
     },
     {
       "showId": "weirdo",
