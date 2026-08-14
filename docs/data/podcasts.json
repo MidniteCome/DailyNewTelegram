@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-14T14:56:05.896Z",
+    "updatedAt": "2026-08-14T20:21:58.089Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2540 - Travis Barker",
+      "link": "https://traffic.megaphone.fm/GLT5593509812.mp3",
+      "pubDate": "2026-08-14T17:00:00.000Z",
+      "duration": "9351",
+      "summary": "Travis Barker is a musician, songwriter, producer, entrepreneur, and drummer for Blink-182. He is the subject of the documentary \"Travis Barker: Louder Than Fear,\" which premieres August 13 on Hulu an",
+      "art": "https://megaphone.imgix.net/podcasts/b5568610-9764-11f1-8761-4370c8a2da8b/image/8e8868a3d2a847122f1f4b341c224283.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -1021,17 +1032,6 @@
       "duration": "00:49:31",
       "summary": "- 导语 - 美加墨世界杯决赛在即，而围绕着这届世界杯热议的票价暴涨与规则变化等争议，又不断反映着美式资本主义对这项运动的重塑。为什么美国人对足球始终提不起兴趣？一张山顶座位票价格涨到近万美元，这背后是纯粹的生意还是全新的文化心态？世界杯如何成为中国人开眼看世界的窗口，又怎样折射出殖民主义的后遗症与民族国家的戏剧化竞争？请听本期嘉宾许子东和郑诗亮带来的精彩分享！ - 本期话题成员 - 程衍樑（微博",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2527 - MrBeast",
-      "link": "https://traffic.megaphone.fm/GLT2845814639.mp3",
-      "pubDate": "2026-07-16T17:00:00.000Z",
-      "duration": "10453",
-      "summary": "Jimmy Donaldson, better known as MrBeast, is a YouTuber, entrepreneur, and philanthropist. He is the founder of Beast Industries and Beast Philanthropy, and the creator and host of the Prime Video com",
-      "art": "https://megaphone.imgix.net/podcasts/72615f9a-80aa-11f1-adca-2f13d8da1330/image/53839f1b444f8595e6939a13fbd9f354.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
