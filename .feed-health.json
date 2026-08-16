@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-15",
+  "lastRun": "2026-08-16",
   "feeds": [
     {
       "name": "Stratechery",
@@ -32,26 +32,23 @@
     {
       "name": "Reuters M&A (Google News)",
       "url": "https://news.google.com/rss/search?q=site:reuters.com+(acquisition+OR+merger+OR+takeover)+when:3d&hl=en-GB&gl=GB&ceid=GB:en",
-      "ok": false,
-      "itemCount": 0,
-      "consecutiveFails": 1,
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=site:reuters.com+(acquisition+OR+merger+OR+takeover)+when:3d&hl=en-GB&gl=GB&ceid=GB:en"
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
     },
     {
       "name": "Reuters IPO (Google News)",
       "url": "https://news.google.com/rss/search?q=site:reuters.com+(IPO+OR+listing+OR+%22files+for+IPO%22)+when:3d&hl=en-GB&gl=GB&ceid=GB:en",
-      "ok": false,
-      "itemCount": 0,
-      "consecutiveFails": 1,
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=site:reuters.com+(IPO+OR+listing+OR+%22files+for+IPO%22)+when:3d&hl=en-GB&gl=GB&ceid=GB:en"
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
     },
     {
       "name": "Reuters Funding (Google News)",
       "url": "https://news.google.com/rss/search?q=site:reuters.com+(funding+OR+valuation+OR+%22Series+A%22+OR+%22Series+B%22)+when:3d&hl=en-GB&gl=GB&ceid=GB:en",
-      "ok": false,
-      "itemCount": 0,
-      "consecutiveFails": 1,
-      "error": "HTTP 503 for https://news.google.com/rss/search?q=site:reuters.com+(funding+OR+valuation+OR+%22Series+A%22+OR+%22Series+B%22)+when:3d&hl=en-GB&gl=GB&ceid=GB:en"
+      "ok": true,
+      "itemCount": 20,
+      "consecutiveFails": 0
     },
     {
       "name": "Crunchbase News",
