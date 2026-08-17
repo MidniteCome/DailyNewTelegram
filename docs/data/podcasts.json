@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-16T20:11:26.646Z",
+    "updatedAt": "2026-08-17T08:07:21.434Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Uber President on Budgeting AI at Uber: How AI Helps and Hurts Uber | Why Autonomy Is Existential | How to Beat DoorDash to #1 in Food | The Untold Stories of Travis Kalanick, Dara Khosrowshahi and China with Andrew MacDonald",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-uber-president-on-budgeting-ai-at-uber-how-ai-helps-and-hurts-uber-why-autonomy-is-existential-how-to-beat-doordash-to-1-in-food-the-untold-stories-of-travis-kalanick-dara-khosrowshahi-and-china-with-andrew-macdonald",
+      "pubDate": "2026-08-17T07:07:00.000Z",
+      "duration": "01:06:36",
+      "summary": "Andrew MacDonald (Mac) is the longest-serving employee at Uber. Today, he is the President and COO. No one on the planet has spent more time mastering ride-sharing than Mac. Uber now does 300M rides p",
+      "art": "https://static.libsyn.com/p/assets/c/3/7/6/c37636f2a3db6cdfd959afa2a1bf1c87/WhatsApp_Image_2026-08-14_at_09.50.11.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Did you know companies can vote in Delaware?",
+      "link": "https://www.npr.org/2026/08/17/nx-s1-5931545/did-you-know-companies-can-vote-in-delaware",
+      "pubDate": "2026-08-17T07:00:00.000Z",
+      "duration": "557",
+      "summary": "Fenwick Island, Del. has only around 900 people on its voting rolls, but some of those registered voters are not human. Many are family trusts and a few are companies. The town says its system works f",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F49%2Fe1%2Fa6879cd448ba98b912eee533d878%2Fe3f3a7e9-2821-42d7-9e4a-e9f183a78821.jpg"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -858,17 +880,6 @@
       "art": "https://static.libsyn.com/p/assets/d/9/3/7/d937e6b5f9ed765316c3140a3186d450/WhatsApp_Image_2026-07-24_at_12.31.31.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Petty! Econ! Grievances!",
-      "link": "https://www.npr.org/2026/07/27/nx-s1-5907115/petty-econ-grievances",
-      "pubDate": "2026-07-27T07:00:00.000Z",
-      "duration": "504",
-      "summary": "We have some grievances. Economic ones. And we’re airing them out. On today’s show: Redeeming fast food rewards points in airports, not knowing the full price of your meal upfront, and the pen-and-pap",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe8%2F16%2F57b741cf4f82836cbc3cc243d3c7%2F8ff68fc6-faf1-4e35-a7f7-417cd98fda2a.png"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1131,17 +1142,6 @@
       "duration": "51:33",
       "summary": "(0:00) ElevenLabs' $600M ARR Ramp, 600 Employees & Life Without PMs (15:34) Celebrity Voice Deals, Deepfake Impersonation & Racing OpenAI and Anthropic (31:42) Legora's Hypergrowth, Disrupting Law Fir",
       "art": "https://static.libsyn.com/p/assets/f/e/0/e/fe0e7bc7041988a5d959afa2a1bf1c87/1_Pod_France.png"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Wix's Founder on What Wall St Gets Wrong About AI and Wix | Will Base44 Win the Vibe Coding Wars | The Truth About the Economics of Vibe-Coding | The Buyback Disaster: Lessons Learned with Avishai Abrahami",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-wixs-founder-on-what-wall-st-gets-wrong-about-ai-and-wix-will-base44-win-the-vibe-coding-wars-the-truth-about-the-economics-of-vibe-coding-the-buyback-disaster-lessons-learned-with-avishai-abrahami",
-      "pubDate": "2026-07-13T07:07:00.000Z",
-      "duration": "57:20",
-      "summary": "Avishai Abrahami is the Co-Founder and CEO of Wix, the NASDAQ-listed website creation platform serving millions of businesses worldwide. Today, Wix generates more than $2BN in ARR and has a market cap",
-      "art": "https://static.libsyn.com/p/assets/0/1/5/1/0151f98d6bf5e1ac16c3140a3186d450/WhatsApp_Image_2026-07-10_at_14.41.49.jpeg"
     },
     {
       "showId": "allin",
