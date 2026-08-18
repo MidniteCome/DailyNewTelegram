@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-18T14:38:05.579Z",
+    "updatedAt": "2026-08-18T20:13:00.425Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2541 - Thomas Campbell",
+      "link": "https://traffic.megaphone.fm/GLT7603949559.mp3",
+      "pubDate": "2026-08-18T17:00:00.000Z",
+      "duration": "10112",
+      "summary": "Thomas Campbell is a physicist, consciousness researcher, and author of the \"My Big TOE\" trilogy. www.youtube.com/@twcjr44 www.my-big-toe.com Perplexity: Download the app or ask Perplexity anything at",
+      "art": "https://megaphone.imgix.net/podcasts/792ba37c-9a99-11f1-802d-6faff96a5ef8/image/28569fa50040498b8dc3ec71e0962139.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
@@ -999,17 +1010,6 @@
       "duration": "10621",
       "summary": "Zach Bush, MD, is a physician specializing in internal medicine, endocrinology, and hospice care. He is the founder of Seraphic Group and Farmer’s Footprint, a nonprofit dedicated to regenerative agri",
       "art": "https://megaphone.imgix.net/podcasts/266c6a86-8559-11f1-a679-ebb68a31490a/image/d95197b23403f3ff0a7684b05e7f5c13.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2528 - Cassie Coppersmith",
-      "link": "https://traffic.megaphone.fm/GLT3078553075.mp3",
-      "pubDate": "2026-07-21T17:00:00.000Z",
-      "duration": "9573",
-      "summary": "Cassie Coppersmith is an independent researcher studying ancient civilizations and archaeological mysteries, and host of the “Secrets in Stone” podcast.www.youtube.com/@CassieCoppersmith Perplexity: D",
-      "art": "https://megaphone.imgix.net/podcasts/8aaa3e0c-8495-11f1-8af9-63001aaad13a/image/5c2ee211add2fe66eb5240dbb1f79a0d.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
