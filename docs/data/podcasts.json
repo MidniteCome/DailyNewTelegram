@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-18T20:13:00.425Z",
+    "updatedAt": "2026-08-19T08:03:17.717Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Have a bad manager? Science explains why.",
+      "link": "https://www.npr.org/2026/08/19/nx-s1-5936602/have-a-bad-manager-science-explains-why",
+      "pubDate": "2026-08-19T07:00:01.000Z",
+      "duration": "569",
+      "summary": "The best manager isn’t necessarily the best employee. Turns out it isn't so easy to predict what DOES make a good manager. Today on the show, we turn to science to help answer that very question. Fact",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2F2f%2Fb6cd3a124775bacbeab679a0dd9c%2F65ba21d0-43e6-4259-8d51-00de355efec5.jpg"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -834,17 +845,6 @@
       "duration": "1547",
       "summary": "The NobleReach Foundation taps into leaders across sectors – technology, science, government, academia – who have a penchant for national service and a desire to bridge the gap between a flourishing p",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Even Moore’s law can't save affordable tech",
-      "link": "https://www.npr.org/2026/07/29/nx-s1-5910826/even-moores-law-cant-save-affordable-tech",
-      "pubDate": "2026-07-29T07:00:00.000Z",
-      "duration": "519",
-      "summary": "For decades, consumer tech like laptops and gaming systems got better AND cheaper. Memory shortages caused by the AI boom are making those lower prices a thing of the past. Fact checking by Sierra Jua",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F44%2F22%2F39b089bb49e5b24f4bce7b0cf500%2Fa31bb57a-3d8d-4dee-8c27-833b9b0e1316.jpg"
     },
     {
       "showId": "allin",
