@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-19T14:38:31.428Z",
+    "updatedAt": "2026-08-19T20:16:28.266Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2542 - Steve Hilton",
+      "link": "https://traffic.megaphone.fm/GLT6487899018.mp3",
+      "pubDate": "2026-08-19T17:00:00.000Z",
+      "duration": "10862",
+      "summary": "Steve Hilton is a businessman, political commentator, author, and Republican candidate for governor of California. www.youtube.com/@stevehiltonxwww.stevehiltonforgovernor.com Perplexity: Download the ",
+      "art": "https://megaphone.imgix.net/podcasts/d0eed536-9b6e-11f1-91e1-87ba07d621a5/image/fdd7aa7699d5f97339dd75917ef489f0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -999,17 +1010,6 @@
       "duration": "01:23:12",
       "summary": "AGENDA: 00:04 China's Kimi and Qwen Put Frontier AI on Notice 00:08 Washington Debates Whether Chinese AI Models Should Be Banned 00:17 Can America Build a Profitable Open-Weight AI Champion? 00:21 Op",
       "art": "https://static.libsyn.com/p/assets/3/2/f/7/32f7fa3d560aec3716c3140a3186d450/WhatsApp_Image_2026-07-22_at_20.01.22.jpeg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2529 - Zach Bush",
-      "link": "https://traffic.megaphone.fm/GLT6631073592.mp3",
-      "pubDate": "2026-07-22T17:00:00.000Z",
-      "duration": "10621",
-      "summary": "Zach Bush, MD, is a physician specializing in internal medicine, endocrinology, and hospice care. He is the founder of Seraphic Group and Farmer’s Footprint, a nonprofit dedicated to regenerative agri",
-      "art": "https://megaphone.imgix.net/podcasts/266c6a86-8559-11f1-a679-ebb68a31490a/image/d95197b23403f3ff0a7684b05e7f5c13.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
