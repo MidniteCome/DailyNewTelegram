@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-19T20:16:28.266Z",
+    "updatedAt": "2026-08-20T08:05:19.544Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,13 +165,35 @@
   ],
   "episodes": [
     {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: SpaceX Buys Cursor for $60BN | Stripe's $8BN OpenRouter Bet | Anthropic's First Profit & The Math Behind Reaching $600BN in Revenue? | Lovable and Higgsfield Raise Mega Rounds",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-spacex-buys-cursor-for-60bn-stripes-8bn-openrouter-bet-anthropics-first-profit-the-math-behind-reaching-600bn-in-revenue-lovable-and-higgsfield-raise-mega-rounds",
+      "pubDate": "2026-08-20T07:07:00.000Z",
+      "duration": "01:13:12",
+      "summary": "AGENDA: 04:20 Elon's Deal of the Decade: SpaceX Buys Cursor for $60BN 06:10 Why Cursor Was Surprisingly Cheap at $60BN 07:00 Why Zuckerberg Failed to Buy the AI Prize Elon Secured 12:00 Elon vs Zuck: ",
+      "art": "https://static.libsyn.com/p/assets/a/5/b/1/a5b196eaaff09f4516c3140a3186d450/WhatsApp_Image_2026-08-19_at_16.35.48.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Is bankruptcy really all that bad?",
+      "link": "https://www.npr.org/2026/08/20/nx-s1-5938807/is-bankruptcy-really-all-that-bad",
+      "pubDate": "2026-08-20T07:00:00.000Z",
+      "duration": "540",
+      "summary": "Bankruptcy has a negative stigma surrounding it. But what if we told you it’s not as bad as you may think? In fact, economists think we should actually see more of it! Based on the radio story: More A",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff8%2Fe0%2F951860b54fca98c0f967d267e11b%2F2329bd70-d67f-4936-8369-e752aafa65c3.jpg"
+    },
+    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
       "title": "#2542 - Steve Hilton",
       "link": "https://traffic.megaphone.fm/GLT6487899018.mp3",
       "pubDate": "2026-08-19T17:00:00.000Z",
-      "duration": "10862",
+      "duration": "11102",
       "summary": "Steve Hilton is a businessman, political commentator, author, and Republican candidate for governor of California. www.youtube.com/@stevehiltonxwww.stevehiltonforgovernor.com Perplexity: Download the ",
       "art": "https://megaphone.imgix.net/podcasts/d0eed536-9b6e-11f1-91e1-87ba07d621a5/image/fdd7aa7699d5f97339dd75917ef489f0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -193,7 +215,7 @@
       "title": "#2541 - Thomas Campbell",
       "link": "https://traffic.megaphone.fm/GLT7603949559.mp3",
       "pubDate": "2026-08-18T17:00:00.000Z",
-      "duration": "10112",
+      "duration": "10352",
       "summary": "Thomas Campbell is a physicist, consciousness researcher, and author of the \"My Big TOE\" trilogy. www.youtube.com/@twcjr44 www.my-big-toe.com Perplexity: Download the app or ask Perplexity anything at",
       "art": "https://megaphone.imgix.net/podcasts/792ba37c-9a99-11f1-802d-6faff96a5ef8/image/28569fa50040498b8dc3ec71e0962139.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -825,17 +847,6 @@
       "art": "https://static.libsyn.com/p/assets/3/3/5/0/3350bc4ff9fea72816c3140a3186d450/WhatsApp_Image_2026-07-29_at_16.44.46.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Trump’s new Truth Social plan: pay $100K",
-      "link": "https://www.npr.org/2026/07/30/nx-s1-5911852/trumps-new-truth-social-plan-pay-100k",
-      "pubDate": "2026-07-30T07:00:00.000Z",
-      "duration": "535",
-      "summary": "President Trump’s social media company, Truth Social, wants to sell investors early access to its posts. When Trump announces tariffs or new strikes on Iran, those milliseconds matter in the market. I",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+739+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F2d%2Ff0%2F68280cd144278d555c92f8f236fe%2Fce98fc97-0080-479c-88bb-01a1d6783e21.jpg"
-    },
-    {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
       "category": "general",
@@ -1109,17 +1120,6 @@
       "duration": "52:06",
       "summary": "特朗普政府收紧移民政策、暂停难民接收后，南非白人却成了少数例外：一些人以「难民」身份进入美国，另一些人拿着农业签证，来到密西西比的农场工作。为什么偏偏是他们？ 今年 4 月，刘骁骞前往密西西比州中部的农业地区。在黄昏的加油站和餐馆里，穿着卡其色短裤的南非白人劳工陆续出现，聚在吧台旁喝酒；有人从早上 6 点工作到晚上 8 点，握手时指甲缝里还沾满泥土。更高的收入之外，围绕本地就业、工资差异和种族问题",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Apple Sues OpenAI | Zuckerberg Back on X and Challenging Codex and Claude Code | SK Hynix's $26BN IPO | Is Seed Investing Dead: Jason Calacanis Departs Seed for Growth | Greylock Raises New $1.5BN Fund",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-apple-sues-openai-zuckerberg-back-on-x-and-challenging-codex-and-claude-code-sk-hynixs-26bn-ipo-is-seed-investing-dead-jason-calacanis-departs-seed-for-growth-greylock-raises-new-15bn-fund",
-      "pubDate": "2026-07-16T07:07:00.000Z",
-      "duration": "01:22:51",
-      "summary": "AGENDA: 00:00 – Apple SUES OpenAI: Did They Steal Apple's Biggest Secrets? 05:10 – Is OpenAI's $6BN Hardware Bet Already Dead? 12:50 – Zuckerberg Is Back: Meta Finally Takes On OpenAI 18:05 – The AI S",
-      "art": "https://static.libsyn.com/p/assets/7/7/5/7/77574f71c9c00b0816c3140a3186d450/WhatsApp_Image_2026-07-15_at_16.40.20.jpeg"
     },
     {
       "showId": "allin",
