@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-20T14:40:58.415Z",
+    "updatedAt": "2026-08-20T20:18:04.239Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2543 - MrBallen",
+      "link": "https://traffic.megaphone.fm/GLT9789891628.mp3",
+      "pubDate": "2026-08-20T17:00:00.000Z",
+      "duration": "10907",
+      "summary": "John B. Allen (\"MrBallen\") is a former U.S. Navy SEAL, founder of Ballen Studios, and creator and host of the popular podcast \"MrBallen Podcast: Strange, Dark & Mysterious Stories.\" His latest graphic",
+      "art": "https://megaphone.imgix.net/podcasts/bd78a8a0-9c28-11f1-b11e-ef9789715e8e/image/d49830348c14609fff882d168231df27.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "etw",
       "showName": "声东击西",
@@ -1010,17 +1021,6 @@
       "duration": "01:07:34",
       "summary": "【主播的话】 十几年前，还在读研究生的於嘉向一本知名社会科学期刊投了一篇自己刚写完的论文——关于中国人结婚影响因素的研究。但很快，她收到了拒信。期刊的专家当时认为，选题意义不大，因为中国并不存在所谓的“结婚率下降”的问题。 十几年过去，这个曾被认为“并不存在”的问题变成了全民的焦虑，牵动了全国甚至是全球的神经。於嘉也从学校里毕业，成为了北京大学光华管理学院的一名老师，专事与婚姻、家庭、人口结构有关",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2530 - Timothy Alberino",
-      "link": "https://traffic.megaphone.fm/GLT8709484594.mp3",
-      "pubDate": "2026-07-23T17:00:00.000Z",
-      "duration": "9939",
-      "summary": "Timothy Alberino is an author, lecturer, and explorer. His latest release is a new edition of the ancient text “The Book of Enoch,” for which he wrote the introduction and commentary. www.youtube.com/",
-      "art": "https://megaphone.imgix.net/podcasts/b569ee94-856c-11f1-bb2f-cf7ff131c798/image/9eb56f60d746efad14ad7d23506fd043.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
