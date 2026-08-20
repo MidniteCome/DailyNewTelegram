@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-20T08:05:19.544Z",
+    "updatedAt": "2026-08-20T14:40:58.415Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#401 边域、「慢聚漫奏」：我们还能迎来另外一个达特茅斯的夏天吗？",
+      "link": "https://etw.fm/2221",
+      "pubDate": "2026-08-20T11:15:00.000Z",
+      "duration": "1:16:46",
+      "summary": "1956 年夏天，一群年轻研究者聚在美国东北部的达特茅斯学院，他们原本想用几周时间，解决「如何创造一台思考机器」的问题，但聚会很快丢掉了日程表：有人只来几天，教室里最多的时候只有八个人，最后也没有形成明确共识。这样一场看似松散、甚至没有明确成果的聚会，为什么后来被公认为为「人工智能」（ Artificial Intelligence ）的起点？ 在持续约八周的讨论中，符号主义、神经网络与概率推理等",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -1626,17 +1637,6 @@
       "duration": "1130",
       "summary": "Harry Stebbings has transformed a bedroom podcast into a media and investment conglomerate, leveraging that platform to back ten unicorns. In conversation with Bobby Molavi, head of EMEA execution ser",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#386 为什么是巴基斯坦：美伊谈判背后那个意料之外的调停者",
-      "link": "https://etw.fm/2207",
-      "pubDate": "2026-04-23T09:30:00.000Z",
-      "duration": "39:57",
-      "summary": "两周前的那场美伊谈判 —— 也是两国自 1979 年以来级别最高的直接接触 —— 地点选在了巴基斯坦的首都伊斯兰堡。于是我们就产生了一个好奇：为什么是巴基斯坦？ 在大多数人的印象里，巴基斯坦「经济脆弱、内政动荡」，在国际舞台上的存在感似乎并不高。但就是这样一个国家，为什么能获得美伊双方的信任？巴基斯坦又是出于什么样的动机在积极地做斡旋？在传统国际秩序已经逐步失效的当下，这又意味着一个怎样的转变？ ",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "weirdo",
