@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-08-22T14:26:34.359Z",
-    "totalEpisodes": 180,
+    "updatedAt": "2026-08-22T20:12:29.698Z",
+    "totalEpisodes": 165,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": true,
-        "count": 15
+        "ok": false,
+        "error": "所有源均失败"
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/3596a0e67422520589ee9202dee6c93f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "art": null,
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -176,17 +176,6 @@
       "art": "https://static.libsyn.com/p/assets/6/e/0/3/6e031e2ebd85a12216c3140a3186d450/WhatsApp_Image_2026-08-21_at_14.10.03.jpeg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2544 - Chris Williamson",
-      "link": "https://traffic.megaphone.fm/GLT2614437585.mp3",
-      "pubDate": "2026-08-21T17:00:00.000Z",
-      "duration": "10805",
-      "summary": "Chris Williamson is the host of the \"Modern Wisdom\" podcast. See him live on select dates throughout the United Kingdom. https://chriswillx.com/modernwisdom https://www.youtube.com/@ChrisWillx Perplex",
-      "art": "https://megaphone.imgix.net/podcasts/53c84ccc-9d0d-11f1-8f63-4b10cab2daaa/image/c84377bc4aec898aee2c14d018330288.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -231,17 +220,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbf%2Fff%2Fb31217684f329543b52051ddf992%2Ffcaa24a3-0187-493e-9495-2fa22df110e7.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2543 - MrBallen",
-      "link": "https://traffic.megaphone.fm/GLT9789891628.mp3",
-      "pubDate": "2026-08-20T17:00:00.000Z",
-      "duration": "10907",
-      "summary": "John B. Allen (\"MrBallen\") is a former U.S. Navy SEAL, founder of Ballen Studios, and creator and host of the popular podcast \"MrBallen Podcast: Strange, Dark & Mysterious Stories.\" His latest graphic",
-      "art": "https://megaphone.imgix.net/podcasts/bd78a8a0-9c28-11f1-b11e-ef9789715e8e/image/d49830348c14609fff882d168231df27.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -275,17 +253,6 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff8%2Fe0%2F951860b54fca98c0f967d267e11b%2F2329bd70-d67f-4936-8369-e752aafa65c3.jpg"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2542 - Steve Hilton",
-      "link": "https://traffic.megaphone.fm/GLT6487899018.mp3",
-      "pubDate": "2026-08-19T17:00:00.000Z",
-      "duration": "11102",
-      "summary": "Steve Hilton is a businessman, political commentator, author, and Republican candidate for governor of California. www.youtube.com/@stevehiltonxwww.stevehiltonforgovernor.com Perplexity: Download the ",
-      "art": "https://megaphone.imgix.net/podcasts/d0eed536-9b6e-11f1-91e1-87ba07d621a5/image/fdd7aa7699d5f97339dd75917ef489f0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -295,17 +262,6 @@
       "duration": "569",
       "summary": "The best manager isn’t necessarily the best employee. Turns out it isn't so easy to predict what DOES make a good manager. Today on the show, we turn to science to help answer that very question. Fact",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2F2f%2Fb6cd3a124775bacbeab679a0dd9c%2F65ba21d0-43e6-4259-8d51-00de355efec5.jpg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2541 - Thomas Campbell",
-      "link": "https://traffic.megaphone.fm/GLT7603949559.mp3",
-      "pubDate": "2026-08-18T17:00:00.000Z",
-      "duration": "10352",
-      "summary": "Thomas Campbell is a physicist, consciousness researcher, and author of the \"My Big TOE\" trilogy. www.youtube.com/@twcjr44 www.my-big-toe.com Perplexity: Download the app or ask Perplexity anything at",
-      "art": "https://megaphone.imgix.net/podcasts/792ba37c-9a99-11f1-802d-6faff96a5ef8/image/28569fa50040498b8dc3ec71e0962139.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -396,17 +352,6 @@
       "art": "https://static.libsyn.com/p/assets/d/0/5/8/d05879b603142d78d959afa2a1bf1c87/1_Pod_E285.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2540 - Travis Barker",
-      "link": "https://traffic.megaphone.fm/GLT5593509812.mp3",
-      "pubDate": "2026-08-14T17:00:00.000Z",
-      "duration": "9351",
-      "summary": "Travis Barker is a musician, songwriter, producer, entrepreneur, and drummer for Blink-182. He is the subject of the documentary \"Travis Barker: Louder Than Fear,\" which premieres August 13 on Hulu an",
-      "art": "https://megaphone.imgix.net/podcasts/b5568610-9764-11f1-8761-4370c8a2da8b/image/8e8868a3d2a847122f1f4b341c224283.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -438,17 +383,6 @@
       "duration": "553",
       "summary": "It’s Indicators of the Week! On today’s episode: Retirees get a bump in benefits; credit card debt delinquency at a historically high level; and the dating app Bumble on a serious decline — Men first!",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd0%2F18%2Fb66ed776475bb9d3ed091ec8aa6f%2F3351c905-aa74-480c-b72f-01536bfb3f17.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2539 - Protect Our Parks 17",
-      "link": "https://traffic.megaphone.fm/GLT2831972716.mp3",
-      "pubDate": "2026-08-13T17:00:00.000Z",
-      "duration": "16440",
-      "summary": "Shane Gillis, Mark Normand, and Ari Shaffir are comedians, writers, and podcasters.Shane Gillis is the co-host of \"Matt and Shane's Secret Podcast,\" creator and star of Netflix's comedy series \"Tires,",
-      "art": "https://megaphone.imgix.net/podcasts/a3aee712-96bb-11f1-807f-c72272cb9884/image/0bc2fc36526436e42d74dee9a06ad1e3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -495,17 +429,6 @@
       "art": "https://static.libsyn.com/p/assets/c/7/8/3/c783805001ad85e616c3140a3186d450/1_Pod_Rahm.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2538 - Joe DeRosa",
-      "link": "https://traffic.megaphone.fm/GLT1242550719.mp3",
-      "pubDate": "2026-08-12T17:00:00.000Z",
-      "duration": "10017",
-      "summary": "Joe DeRosa is a comedian, actor, musician, restaurateur, and host of the \"Vile and Horrendous\" podcast. His latest special, \"I Never Promised You a Rose Garden,\" is now streaming on Netflix. www.youtu",
-      "art": "https://megaphone.imgix.net/podcasts/22233586-966b-11f1-8f2f-03112136bec0/image/46c5a7c092e94e1f6f989ff752de3211.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -537,17 +460,6 @@
       "duration": "00:59:06",
       "summary": "【主播的话】 2025 年，一位以公共报道著称的华人记者，突然把笔调转向了自己的家。 记者谭蕙芸，曾在新闻业里追问外部世界的真相，教学生如何采访弱势社群。可她自己的家中，一直藏着一个不能言说的秘密。她的哥哥，那位被寄予最高期望的长子长孙，青少年时期被情绪问题困扰。全家从香港移民到加拿大后，在\"家丑不可外扬\"的家风影响下，未能持续就医，就这样被隐去了三十年，失去机会建立成年人的独立生活和自理能力。 ",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "JRE MMA Show #184 with Aljamain Sterling",
-      "link": "https://traffic.megaphone.fm/GLT9611837612.mp3",
-      "pubDate": "2026-08-11T17:00:00.000Z",
-      "duration": "10507",
-      "summary": "Joe sits down with professional mixed martial artist Aljamain Sterling, who currently competes in the Ultimate Fighting Championship's Featherweight division. He is the host of the \"Weekly Scraps\" pod",
-      "art": "https://megaphone.imgix.net/podcasts/99c85bdc-9523-11f1-8cce-6b6deb9f7357/image/2ae94d7b584e123b8a465fcc5a1f881c.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -638,17 +550,6 @@
       "art": "https://static.libsyn.com/p/assets/9/e/9/6/9e9643601e425587d959afa2a1bf1c87/1_Pod_E284.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2537 - David Sinclair",
-      "link": "https://traffic.megaphone.fm/GLT1521681560.mp3",
-      "pubDate": "2026-08-07T17:00:00.000Z",
-      "duration": "9037",
-      "summary": "David Sinclair, AO, PhD, is a longevity scientist, Professor of Genetics at Harvard Medical School, author of the book \"Lifespan: Why We Age—and Why We Don't Have To,\" and host of the \"Lifespan\" podca",
-      "art": "https://megaphone.imgix.net/podcasts/16d5d7dc-91ee-11f1-bdcf-df9a64476d59/image/33b2538a59583328a79e1576b99e251e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -680,17 +581,6 @@
       "duration": "01:23:52",
       "summary": "- 导语 - 二十世纪初至三十年代，上海的电影业从早期放映逐渐走向繁荣。一群来自中南欧的「边缘外国人」率先在虹口经营影院，上海虹口的广东移民也成为最早一批中国电影观众；1921年的阎瑞生案，则意外推动了国产故事长片的真正起步。而在银幕之外，电影也在改变市民的娱乐生活，并不断进入城市的消防、治安与政治管理。租界社会的「边缘外国人」为何率先在虹口投资影院？最早一批中国电影观众为何多来自广东移民？192",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2536 - Eric Goode & Jeremy McBride",
-      "link": "https://traffic.megaphone.fm/GLT1902969569.mp3",
-      "pubDate": "2026-08-06T17:00:00.000Z",
-      "duration": "8503",
-      "summary": "Eric Goode and Jeremy McBride are filmmakers whose work includes \"Tiger King,\" \"Chimp Crazy,\" and \"Monsters of God,\" now available on HBO and HBO Max.https://www.hbomax.com/shows/monsters-of-god/d779b",
-      "art": "https://megaphone.imgix.net/podcasts/0d4cb1e8-9123-11f1-be7f-477c38b7e87e/image/26e80912c71ad40dbd609eefcd958855.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "indicator",
@@ -748,17 +638,6 @@
       "art": "https://static.libsyn.com/p/assets/5/4/d/4/54d4595000168b8616c3140a3186d450/1_Pod_Saronic.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2535 - Andrew Wilson",
-      "link": "https://traffic.megaphone.fm/GLT7134764800.mp3",
-      "pubDate": "2026-08-05T17:00:00.000Z",
-      "duration": "10432",
-      "summary": "Andrew Wilson has participated in thousands of debates on political, cultural, and religious topics. He hosts \"The Crucible\" and owns its associated online training program, Debate University.www.yout",
-      "art": "https://megaphone.imgix.net/podcasts/9bd82c7c-905f-11f1-9581-0712930da240/image/d663fee54d682b46d061d469b4ef0ba0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -768,17 +647,6 @@
       "duration": "546",
       "summary": "What happens when roughly a million people working legally in the U.S. suddenly lose that right to stay here? We’re starting to find out in places like Miami, Florida, home to one of the largest Haiti",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fac%2F1c%2F7a28f2a441d8806a62b526579a88%2Fa12efafe-9ad5-4355-a611-59c7bad8ba5c.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "JRE MMA Show #183 with Rico Verhoeven",
-      "link": "https://traffic.megaphone.fm/GLT4292309587.mp3",
-      "pubDate": "2026-08-04T17:00:00.000Z",
-      "duration": "8592",
-      "summary": "Joe sits down with professional boxer, kickboxer, and mixed martial artist Rico Verhoeven.www.youtube.com/@RicoVerhoeven https://ricoverhoeven.com Learn more about your ad choices. Visit podcastchoice",
-      "art": "https://megaphone.imgix.net/podcasts/a7d26330-8f8d-11f1-b08c-239fa033ae8f/image/68ee083ec390d4185de0bf505046b148.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -869,17 +737,6 @@
       "art": "https://static.libsyn.com/p/assets/9/3/d/1/93d127ba8f063c6c16c3140a3186d450/1_E283.png"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2534 - Annie Jacobsen",
-      "link": "https://traffic.megaphone.fm/GLT8411695309.mp3",
-      "pubDate": "2026-07-31T17:00:00.000Z",
-      "duration": "8434",
-      "summary": "Annie Jacobsen is a Pulitzer Prize finalist, investigative journalist, and bestselling author. Her latest book, \"Biological War: A Scenario,\" is out now.www.penguinrandomhouse.com/books/783250/biologi",
-      "art": "https://megaphone.imgix.net/podcasts/0eb8a8e6-8c70-11f1-9c27-1f2ea3655d79/image/1a134f9547d1035107ef9dbb0d94ff32.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -902,17 +759,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2533 - Diana Pasulka",
-      "link": "https://traffic.megaphone.fm/GLT1888945098.mp3",
-      "pubDate": "2026-07-30T17:00:00.000Z",
-      "duration": "9836",
-      "summary": "Diana Pasulka is a professor of religious studies at the University of North Carolina Wilmington and the author of several books. Her most recent, \"The Others: UFOs, AI, and the Secret Forces Guiding ",
-      "art": "https://megaphone.imgix.net/podcasts/3e41b214-8ba4-11f1-9b3e-6700767b4af0/image/3b34418dc009c084df68d2d39c7be423.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -922,17 +768,6 @@
       "duration": "01:17:30",
       "summary": "AGENDA: 05:00 Jensen's Open-Weights Letter Puts Anthropic on an Island 10:00 OpenAI's Model Targets Hugging Face in a Cyber-Security Scare 18:00 America's Open-Model Push Accelerates as China Looms La",
       "art": "https://static.libsyn.com/p/assets/3/3/5/0/3350bc4ff9fea72816c3140a3186d450/WhatsApp_Image_2026-07-29_at_16.44.46.jpeg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2532 - Tim Robbins",
-      "link": "https://traffic.megaphone.fm/GLT8191324941.mp3",
-      "pubDate": "2026-07-29T17:00:00.000Z",
-      "duration": "9375",
-      "summary": "Tim Robbins is an Academy Award-winning actor, director, writer, and producer known for such films as \"The Shawshank Redemption,\" \"Mystic River,\" and \"The Hudsucker Proxy.\" He currently stars in the A",
-      "art": "https://megaphone.imgix.net/podcasts/c63dd774-8afa-11f1-813f-4bb63349f062/image/93a87a9f39427ac496d95e97d79f6b67.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
