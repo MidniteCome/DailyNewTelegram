@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-25T08:07:29.060Z",
+    "updatedAt": "2026-08-25T14:51:23.943Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "This Is Why People Hate the Government",
+      "link": "https://www.nytimes.com/2026/08/25/opinion/ezra-klein-podcast-annie-lowrey.html",
+      "pubDate": "2026-08-25T09:00:00.000Z",
+      "duration": "01:17:28",
+      "summary": "In 2024, Americans spent an average of six full workdays a year filling out government forms, according to the government’s own estimates. That’s a total of 12 billion hours, or $430 billion of uncomp",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "495 陆大鹏谈莎士比亚戏剧与英国历史的互相影响",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a8d2078ef65145dfcc4f6d5?utm_source=rss",
+      "pubDate": "2026-08-25T09:00:00.000Z",
+      "duration": "01:16:41",
+      "summary": "- 导语 - 莎士比亚，一个世界文学绕不开的名字。其魅力不仅在于传世的经典文本，更植根于他所处的时代语境与剧场生态。为什么莎剧会充满市井趣味的反差感？在一个尚无今天这套原创观念的时代，如何理解莎士比亚的原创性？他为现代英语贡献了哪些至今仍在使用的日常表达？覆盖中世纪英格兰历史的大转折，莎翁的历史剧如何改编史实，又如何回应都铎王朝的政治需要？请听本期嘉宾陆大鹏带来的精彩分享！ 本期节目与「戏不戏 ·",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -1295,28 +1317,6 @@
       "pubDate": "2026-07-07T09:00:00.000Z",
       "duration": "01:25:38",
       "summary": "The old solutions to the Israeli-Palestinian conflict don’t seem to fit the present reality. A two-state solution feels increasingly impossible, given the scale of Israeli settlements in the West Bank",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "480 从「西印度毁灭述略」到冷战核危机：漫谈古巴与加勒比海五百年",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a4779e19d2f57436841fe89?utm_source=rss",
-      "pubDate": "2026-07-03T09:15:19.000Z",
-      "duration": "01:36:59",
-      "summary": "- 导语 - 北望佛罗里达，南接加勒比海。西班牙人驱使黑奴种植甘蔗和烟草。美国人实行经济殖民。从美西战争到冷战争霸，古巴的命运总是勾连着大国棋局。西班牙殖民时期，古巴原住民经历了怎样的消亡，种植园奴隶制又如何塑造当地社会分层？咫尺之遥，数百年来为何古巴始终被美国虎视眈眈？巴蒂斯塔时期，看似亮眼的经济数据背后藏着怎样深重的贫富割裂？卡斯特罗推翻巴蒂斯塔独裁政权，古巴怎样一步步与苏联走近，并激发猪湾事",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "The America That’s Still Possible",
-      "link": "https://www.nytimes.com/2026/07/03/opinion/ezra-klein-podcast-bryan-stevenson.html",
-      "pubDate": "2026-07-03T09:00:00.000Z",
-      "duration": "01:45:37",
-      "summary": "What does it mean to celebrate America on its 250th anniversary? The Trump administration’s festivities — from the U.F.C. fight on the White House lawn to the Great American State Fair — have centered",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
