@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-25T14:51:23.943Z",
+    "updatedAt": "2026-08-25T20:18:05.014Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2545 - Jesse Michels",
+      "link": "https://traffic.megaphone.fm/GLT5434878204.mp3",
+      "pubDate": "2026-08-25T17:00:00.000Z",
+      "duration": "11319",
+      "summary": "Jesse Michels is the creator and host of \"American Alchemy,\" a YouTube series exploring controversial topics in science and culture through longform interviews.www.youtube.com/@JesseMichelswww.patreon",
+      "art": "https://megaphone.imgix.net/podcasts/fc78372e-a00f-11f1-b4a6-67ef23d80453/image/e29f688a4586d2fb4d868993a074e1fe.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
     {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
@@ -966,17 +977,6 @@
       "duration": "01:17:30",
       "summary": "AGENDA: 05:00 Jensen's Open-Weights Letter Puts Anthropic on an Island 10:00 OpenAI's Model Targets Hugging Face in a Cyber-Security Scare 18:00 America's Open-Model Push Accelerates as China Looms La",
       "art": "https://static.libsyn.com/p/assets/3/3/5/0/3350bc4ff9fea72816c3140a3186d450/WhatsApp_Image_2026-07-29_at_16.44.46.jpeg"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2532 - Tim Robbins",
-      "link": "https://traffic.megaphone.fm/GLT8191324941.mp3",
-      "pubDate": "2026-07-29T17:00:00.000Z",
-      "duration": "9375",
-      "summary": "Tim Robbins is an Academy Award-winning actor, director, writer, and producer known for such films as \"The Shawshank Redemption,\" \"Mystic River,\" and \"The Hudsucker Proxy.\" He currently stars in the A",
-      "art": "https://megaphone.imgix.net/podcasts/c63dd774-8afa-11f1-813f-4bb63349f062/image/93a87a9f39427ac496d95e97d79f6b67.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "talksat",
