@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-24T20:19:00.287Z",
+    "updatedAt": "2026-08-25T08:07:29.060Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Medicare for All is not Medicare for All",
+      "link": "https://www.npr.org/2026/08/25/nx-s1-5943069/medicare-for-all-is-not-medicare-for-all",
+      "pubDate": "2026-08-25T07:00:03.000Z",
+      "duration": "550",
+      "summary": "As midterms near, Medicare for All is back in the spotlight and Michigan U.S. Senate candidate Abdul El-Sayed has become the newest face for it. Today, we dig into what Medicare for All would actually",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F18%2F90%2Ffca7739b44aca52869c7ef312a69%2F070a20d1-4fc7-4c2d-a459-557f3f8177f6.jpg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+      "link": "https://allinchamathjason.libsyn.com/michael-kratsios-trumps-science-agenda-anti-science-claims-faucis-damage-dei-china",
+      "pubDate": "2026-08-24T23:19:00.000Z",
+      "duration": "55:59",
+      "summary": "(0:00) Michael Kratsios joins the show! (01:56) Is this administration anti-science? The Nature poll, DEI grants, and $8B down the drain (8:16) Climate science cuts: RCP 8.5 gets pulled and the \"clima",
+      "art": "https://static.libsyn.com/p/assets/4/1/d/1/41d1959f3cb1ee5416c3140a3186d450/signal-2026-08-24-18-31-43-853.jpg"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -825,17 +847,6 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why we're short on blood, water and helium",
-      "link": "https://www.npr.org/2026/08/04/nx-s1-5918636/why-were-short-on-blood-water-and-helium",
-      "pubDate": "2026-08-04T07:00:00.000Z",
-      "duration": "559",
-      "summary": "Shortages are in the news again! Here’s why the supply of blood, water and helium are at concerningly low levels. Fact checking by Sierra Juarez . Your Next Listen — How Colorado towns are trying to g",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3e%2F5f%2Febf830e347e0b492781788581499%2F5342a63b-f01b-4726-b4a3-60b6c27331d5.jpg"
-    },
-    {
       "showId": "20vc",
       "showName": "20VC",
       "category": "vc",
@@ -1252,17 +1263,6 @@
       "duration": "01:25:22",
       "summary": "Already this summer, there have been huge wildfires in the Southwest and Great Plains and an extraordinary heat wave in Europe, as the world stares down the barrel of a powerful El Niño. Climate chang",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
-      "link": "https://allinchamathjason.libsyn.com/open-source-wins-agi-is-here-and-scorseses-ai-toolkit-with-ceos-of-cerebras-black-forest-labs",
-      "pubDate": "2026-07-10T01:26:00.000Z",
-      "duration": "01:03:57",
-      "summary": "(0:00) The AI Buildout: Datacenters Bigger Than Cities (Andrew Feldman) (1:50) Reasoning, Inference, and Breaking Moore's Law (16:28) Open Source, AI Sovereignty, and the Road to AGI (40:54) The Innov",
-      "art": "https://static.libsyn.com/p/assets/d/1/d/d/d1dd2623c0e3ae6a16c3140a3186d450/1_Pod_Versailles-20260710-0sxlqfsd3j.png"
     },
     {
       "showId": "etw",
