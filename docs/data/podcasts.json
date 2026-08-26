@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-26T14:49:23.743Z",
+    "updatedAt": "2026-08-26T22:36:20.828Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,13 +165,35 @@
   ],
   "episodes": [
     {
+      "showId": "lexfridman",
+      "showName": "Lex Fridman Podcast",
+      "category": "tech",
+      "title": "#501 – DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding Linux",
+      "link": "https://lexfridman.com/dhh-2/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dhh-2",
+      "pubDate": "2026-08-26T21:47:04.000Z",
+      "duration": "5:21:57",
+      "summary": "DHH is the creator of Ruby on Rails, Omarchy Linux, CTO of 37signals, and a racecar driver. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep501-sc See below for tim",
+      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2546 - Michael Button",
+      "link": "https://traffic.megaphone.fm/GLT5185167681.mp3",
+      "pubDate": "2026-08-26T17:00:00.000Z",
+      "duration": "9438",
+      "summary": "Michael Button is a YouTuber who explores ancient mysteries, lost history, and societal collapse.https://michaelbutton.substack.comhttps://www.youtube.com/@MichaelButton1 Perplexity: Download the app ",
+      "art": "https://megaphone.imgix.net/podcasts/7c0a5244-a0db-11f1-bbe3-13e22537d5bb/image/ef3a034ce674226f82feecd9b537aa83.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
       "title": "What Mark Cuban REALLY thinks of Medicare for All",
       "link": "https://www.npr.org/2026/08/26/nx-s1-5943276/what-mark-cuban-really-thinks-of-medicare-for-all",
       "pubDate": "2026-08-26T07:00:00.000Z",
-      "duration": "553",
+      "duration": "556",
       "summary": "Medicare for All could save the U.S. trillions… or maybe way less than that? In our second episode on Medicare for All, we look at the convoluted figures behind the hot political topic. We hear direct",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcb%2F69%2Ff7a47345454cb8a611950cf9b04d%2Fefc1e629-3da5-42b6-8a49-7a2869ff74c6.jpg"
     },
@@ -955,17 +977,6 @@
       "duration": "00:58:57",
       "summary": "The first year of President Trump’s second term was a whirlwind of action: on immigration, on trade, on political retribution. But things seem to me to be slowing down quite a bit. Trump is incredibly",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2533 - Diana Pasulka",
-      "link": "https://traffic.megaphone.fm/GLT1888945098.mp3",
-      "pubDate": "2026-07-30T17:00:00.000Z",
-      "duration": "9836",
-      "summary": "Diana Pasulka is a professor of religious studies at the University of North Carolina Wilmington and the author of several books. Her most recent, \"The Others: UFOs, AI, and the Secret Forces Guiding ",
-      "art": "https://megaphone.imgix.net/podcasts/3e41b214-8ba4-11f1-9b3e-6700767b4af0/image/3b34418dc009c084df68d2d39c7be423.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "20vc",
@@ -1933,17 +1944,6 @@
       "pubDate": "2025-12-12T20:04:16.000Z",
       "duration": null,
       "summary": "Irving Finkel is a scholar of ancient languages and a longtime curator at the British Museum, renowned for his expertise in Mesopotamian history and cuneiform writing. He specializes in reading and in",
-      "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "lexfridman",
-      "showName": "Lex Fridman Podcast",
-      "category": "tech",
-      "title": "#486 – Michael Levin: Hidden Reality of Alien Intelligence Biological Life",
-      "link": "https://lexfridman.com/michael-levin-2/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=michael-levin-2",
-      "pubDate": "2025-11-30T19:40:53.000Z",
-      "duration": null,
-      "summary": "Michael Levin is a biologist at Tufts University working on novel ways to understand and control complex pattern formation in biological systems. Thank you for listening ❤ Check out our sponsors: http",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
