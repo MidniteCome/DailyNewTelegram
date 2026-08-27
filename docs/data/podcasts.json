@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-26T22:36:20.828Z",
+    "updatedAt": "2026-08-27T18:22:45.216Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/3596a0e67422520589ee9202dee6c93f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/44a67bcc8eafc1e9e5a834234176f4c4.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -165,6 +165,61 @@
   ],
   "episodes": [
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2547 - Daniel Everett",
+      "link": "https://traffic.megaphone.fm/GLT8609844651.mp3",
+      "pubDate": "2026-08-27T17:00:00.000Z",
+      "duration": "9828",
+      "summary": "Daniel Everett, PhD, is a linguist and college professor. He is the author of several books, including “Don’t Sleep, There Are Snakes: Life and Language in the Amazonian Jungle” and “How Language Bega",
+      "art": "https://megaphone.imgix.net/podcasts/9e1fb742-a1b8-11f1-9e55-d7d5779b3db3/image/e3460a17d2b2421865c0453441ab5b1f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#402 即将中断的粮食援助：一个中国人在南苏丹看到的饥饿",
+      "link": "https://etw.fm/2222",
+      "pubDate": "2026-08-27T10:45:00.000Z",
+      "duration": "41:21",
+      "summary": "当最基本的粮食援助可能在几周后停止，生活在南苏丹难民营里的人们，接下来要靠什么活下去？ 2026 年 8 月，联合国世界粮食计划署与联合国难民署发出警告：由于人道主义援助资金严重不足，南苏丹超过 24 万名难民和寻求庇护者可能在数周内失去粮食援助，其中绝大多数是妇女和儿童。 本期节目，我们采访了正在世界粮食计划署（WFP）南苏丹国家办公室工作的王宏锐。不久前，他第一次前往位于南苏丹西北部阿维尔的难",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: NVIDIA Bonanza: Buys Poolside & Invests in Mercor and Perplexity | Anthropic's $30TRN Revenue Assumption & OpenAI Confirms IPO | Why Customer Service, Defence and Robotics are Overinflated",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-bonanza-buys-poolside-invests-in-mercor-and-perplexity-anthropics-30trn-revenue-assumption-openai-confirms-ipo-why-customer-service-defence-and-robotics-are-overinflated",
+      "pubDate": "2026-08-27T07:07:00.000Z",
+      "duration": "01:22:40",
+      "summary": "AGENDA: 00:00 NVIDIA Launches a Three-Deal Blitz Across the AI Stack 04:31 NVIDIA's $12BN Poolside Deal Exposes Frontier AI's Capital Wall 15:39 NVIDIA Moves to Back Mercor at $20BN and Perplexity at ",
+      "art": "https://static.libsyn.com/p/assets/3/6/6/6/3666124b8904e936d959afa2a1bf1c87/WhatsApp_Image_2026-08-26_at_16.53.24.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Coyote vs. Acme finally gets its big break",
+      "link": "https://www.npr.org/2026/08/27/nx-s1-5945588/coyote-vs-acme-finally-gets-its-big-break",
+      "pubDate": "2026-08-27T07:00:00.000Z",
+      "duration": "569",
+      "summary": "Coyote vs. Acme will finally get its theatrical release on Friday after a years-long saga involving supposed tax write-downs, negotiations and multibillion-dollar studio deals. It's a drama almost str",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3a%2F8f%2F4e36885941afbd71a3e62aebb93c%2F6a1cd462-5c57-4275-857d-1861265e3794.jpg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
+      "link": "https://allinchamathjason.libsyn.com/eric-weinstein-the-scientific-precariat-chinas-brain-drain-physics-stagnation-string-theorys-collapse-uaps",
+      "pubDate": "2026-08-26T23:00:00.000Z",
+      "duration": "01:30:20",
+      "summary": "(0:00) Eric Weinstein joins the show! (03:09) Has American science stalled? Cowboy science, Fauci, and the scientific precariat (21:31) Weinstein's fix: Blow a hole in the Civil Rights Act, kill peer ",
+      "art": "https://static.libsyn.com/p/assets/9/8/0/b/980bb274c7d1a71ed959afa2a1bf1c87/signal-2026-08-26-16-28-33-642.jpg"
+    },
+    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -182,7 +237,7 @@
       "title": "#2546 - Michael Button",
       "link": "https://traffic.megaphone.fm/GLT5185167681.mp3",
       "pubDate": "2026-08-26T17:00:00.000Z",
-      "duration": "9438",
+      "duration": "9468",
       "summary": "Michael Button is a YouTuber who explores ancient mysteries, lost history, and societal collapse.https://michaelbutton.substack.comhttps://www.youtube.com/@MichaelButton1 Perplexity: Download the app ",
       "art": "https://megaphone.imgix.net/podcasts/7c0a5244-a0db-11f1-bbe3-13e22537d5bb/image/ef3a034ce674226f82feecd9b537aa83.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -204,7 +259,7 @@
       "title": "#2545 - Jesse Michels",
       "link": "https://traffic.megaphone.fm/GLT5434878204.mp3",
       "pubDate": "2026-08-25T17:00:00.000Z",
-      "duration": "11319",
+      "duration": "11349",
       "summary": "Jesse Michels is the creator and host of \"American Alchemy,\" a YouTube series exploring controversial topics in science and culture through longform interviews.www.youtube.com/@JesseMichelswww.patreon",
       "art": "https://megaphone.imgix.net/podcasts/fc78372e-a00f-11f1-b4a6-67ef23d80453/image/e29f688a4586d2fb4d868993a074e1fe.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -292,7 +347,7 @@
       "title": "#2544 - Chris Williamson",
       "link": "https://traffic.megaphone.fm/GLT2614437585.mp3",
       "pubDate": "2026-08-21T17:00:00.000Z",
-      "duration": "10805",
+      "duration": "10835",
       "summary": "Chris Williamson is the host of the \"Modern Wisdom\" podcast. See him live on select dates throughout the United Kingdom. https://chriswillx.com/modernwisdom https://www.youtube.com/@ChrisWillx Perplex",
       "art": "https://megaphone.imgix.net/podcasts/53c84ccc-9d0d-11f1-8f63-4b10cab2daaa/image/c84377bc4aec898aee2c14d018330288.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -347,7 +402,7 @@
       "title": "#2543 - MrBallen",
       "link": "https://traffic.megaphone.fm/GLT9789891628.mp3",
       "pubDate": "2026-08-20T17:00:00.000Z",
-      "duration": "10907",
+      "duration": "10937",
       "summary": "John B. Allen (\"MrBallen\") is a former U.S. Navy SEAL, founder of Ballen Studios, and creator and host of the popular podcast \"MrBallen Podcast: Strange, Dark & Mysterious Stories.\" His latest graphic",
       "art": "https://megaphone.imgix.net/podcasts/bd78a8a0-9c28-11f1-b11e-ef9789715e8e/image/d49830348c14609fff882d168231df27.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -391,7 +446,7 @@
       "title": "#2542 - Steve Hilton",
       "link": "https://traffic.megaphone.fm/GLT6487899018.mp3",
       "pubDate": "2026-08-19T17:00:00.000Z",
-      "duration": "11102",
+      "duration": "11132",
       "summary": "Steve Hilton is a businessman, political commentator, author, and Republican candidate for governor of California. www.youtube.com/@stevehiltonxwww.stevehiltonforgovernor.com Perplexity: Download the ",
       "art": "https://megaphone.imgix.net/podcasts/d0eed536-9b6e-11f1-91e1-87ba07d621a5/image/fdd7aa7699d5f97339dd75917ef489f0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -413,7 +468,7 @@
       "title": "#2541 - Thomas Campbell",
       "link": "https://traffic.megaphone.fm/GLT7603949559.mp3",
       "pubDate": "2026-08-18T17:00:00.000Z",
-      "duration": "10352",
+      "duration": "10382",
       "summary": "Thomas Campbell is a physicist, consciousness researcher, and author of the \"My Big TOE\" trilogy. www.youtube.com/@twcjr44 www.my-big-toe.com Perplexity: Download the app or ask Perplexity anything at",
       "art": "https://megaphone.imgix.net/podcasts/792ba37c-9a99-11f1-802d-6faff96a5ef8/image/28569fa50040498b8dc3ec71e0962139.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -512,7 +567,7 @@
       "title": "#2540 - Travis Barker",
       "link": "https://traffic.megaphone.fm/GLT5593509812.mp3",
       "pubDate": "2026-08-14T17:00:00.000Z",
-      "duration": "9351",
+      "duration": "9381",
       "summary": "Travis Barker is a musician, songwriter, producer, entrepreneur, and drummer for Blink-182. He is the subject of the documentary \"Travis Barker: Louder Than Fear,\" which premieres August 13 on Hulu an",
       "art": "https://megaphone.imgix.net/podcasts/b5568610-9764-11f1-8761-4370c8a2da8b/image/8e8868a3d2a847122f1f4b341c224283.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -556,7 +611,7 @@
       "title": "#2539 - Protect Our Parks 17",
       "link": "https://traffic.megaphone.fm/GLT2831972716.mp3",
       "pubDate": "2026-08-13T17:00:00.000Z",
-      "duration": "16440",
+      "duration": "16470",
       "summary": "Shane Gillis, Mark Normand, and Ari Shaffir are comedians, writers, and podcasters.Shane Gillis is the co-host of \"Matt and Shane's Secret Podcast,\" creator and star of Netflix's comedy series \"Tires,",
       "art": "https://megaphone.imgix.net/podcasts/a3aee712-96bb-11f1-807f-c72272cb9884/image/0bc2fc36526436e42d74dee9a06ad1e3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -611,7 +666,7 @@
       "title": "#2538 - Joe DeRosa",
       "link": "https://traffic.megaphone.fm/GLT1242550719.mp3",
       "pubDate": "2026-08-12T17:00:00.000Z",
-      "duration": "10017",
+      "duration": "10047",
       "summary": "Joe DeRosa is a comedian, actor, musician, restaurateur, and host of the \"Vile and Horrendous\" podcast. His latest special, \"I Never Promised You a Rose Garden,\" is now streaming on Netflix. www.youtu",
       "art": "https://megaphone.imgix.net/podcasts/22233586-966b-11f1-8f2f-03112136bec0/image/46c5a7c092e94e1f6f989ff752de3211.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
@@ -803,17 +858,6 @@
       "art": "https://megaphone.imgix.net/podcasts/0d4cb1e8-9123-11f1-be7f-477c38b7e87e/image/26e80912c71ad40dbd609eefcd958855.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Following the Chipotle playbook for the cyclospora crisis",
-      "link": "https://www.npr.org/2026/08/06/nx-s1-5922733/following-the-chipotle-playbook-for-the-cyclospora-crisis",
-      "pubDate": "2026-08-06T12:37:15.000Z",
-      "duration": "569",
-      "summary": "Taco Bell and Taylor Farms are taking hits to their reputation due to the cyclosporiasis outbreak across the country. They could learn a thing or two from Chipotle, which went through its own public r",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3a%2F86%2Fad0016874d8d9cd5c62260c4d202%2F8abd7d3e-39e6-4fa1-bc59-56473cfc19ce.jpg"
-    },
-    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -944,17 +988,6 @@
       "duration": "01:36:34",
       "summary": "(0:00) Bestie intros (1:19) Chip stocks crash, Leopold Aschenbrenner's $20B fund gets margin called (20:20) China's advantage and green shoots for the US economy (34:12) Frontier Labs say \"SLOW DOWN A",
       "art": "https://static.libsyn.com/p/assets/9/3/d/1/93d127ba8f063c6c16c3140a3186d450/1_E283.png"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2534 - Annie Jacobsen",
-      "link": "https://traffic.megaphone.fm/GLT8411695309.mp3",
-      "pubDate": "2026-07-31T17:00:00.000Z",
-      "duration": "8434",
-      "summary": "Annie Jacobsen is a Pulitzer Prize finalist, investigative journalist, and bestselling author. Her latest book, \"Biological War: A Scenario,\" is out now.www.penguinrandomhouse.com/books/783250/biologi",
-      "art": "https://megaphone.imgix.net/podcasts/0eb8a8e6-8c70-11f1-9c27-1f2ea3655d79/image/1a134f9547d1035107ef9dbb0d94ff32.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -1122,17 +1155,6 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-openai-and-anthropic-threatened-by-kimi-should-the-us-ban-chinese-open-source-models-should-openrouter-sell-value-in-the-routing-layer-stripe-buying-paypal-what-you-need-to-know",
-      "pubDate": "2026-07-23T07:07:00.000Z",
-      "duration": "01:23:12",
-      "summary": "AGENDA: 00:04 China's Kimi and Qwen Put Frontier AI on Notice 00:08 Washington Debates Whether Chinese AI Models Should Be Banned 00:17 Can America Build a Profitable Open-Weight AI Champion? 00:21 Op",
-      "art": "https://static.libsyn.com/p/assets/3/2/f/7/32f7fa3d560aec3716c3140a3186d450/WhatsApp_Image_2026-07-22_at_20.01.22.jpeg"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1263,17 +1285,6 @@
       "duration": "51:33",
       "summary": "(0:00) ElevenLabs' $600M ARR Ramp, 600 Employees & Life Without PMs (15:34) Celebrity Voice Deals, Deepfake Impersonation & Racing OpenAI and Anthropic (31:42) Legora's Hypergrowth, Disrupting Law Fir",
       "art": "https://static.libsyn.com/p/assets/f/e/0/e/fe0e7bc7041988a5d959afa2a1bf1c87/1_Pod_France.png"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
-      "link": "https://allinchamathjason.libsyn.com/more-trillion-dollar-ipos-anthropic-3t-zucks-price-war-china-ends-open-source-trump-accounts",
-      "pubDate": "2026-07-11T02:12:00.000Z",
-      "duration": "01:42:05",
-      "summary": "(0:00) Bestie intros: Brad Gerstner fills in for Friedberg! (2:58) OpenAI vs Anthropic IPOs: Why it matters who goes first, what they learned from the SpaceX IPO, the unlimited TAM of intelligence (27",
-      "art": "https://static.libsyn.com/p/assets/a/e/6/f/ae6f7f47771b6c86d959afa2a1bf1c87/1_Pod_E280.png"
     },
     {
       "showId": "left-right",
@@ -1626,17 +1637,6 @@
       "duration": "01:03:52",
       "summary": "【主播的话】 去年一个偶然的机会，我在纽约认识了高琴教授，还发现我们是邻居。 在那之前，我已经对高琴教授的有所耳闻。她是著作丰硕的社会政策学者，在哥伦比亚大学社会工作学院任教，是讲席教授，同时担任博士项目主管副院长，以研究中国贫困问题见长。她常年组织大规模的社会调查，用数据来研究贫困的根源、影响与政策应对。她同时还是哥大“亚裔美国人”项目主任。在哥大——一个竞争激烈、精英云集、以全球化和多元化闻名",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#387 一场影响了一众 AI 大佬的「思想实验」：从道德哲学开始的思辨、落地、演变和影响",
-      "link": "https://etw.fm/2208-effectivealtruism-impact",
-      "pubDate": "2026-04-30T10:00:00.000Z",
-      "duration": "1:14:37",
-      "summary": "每次看到天灾人祸相关的新闻，你是否也会陷入同样的困境：捐多少？捐给谁？捐出去的钱真的有用吗？ 1972 年，哲学家彼得·辛格（Peter Singer）提出了一个思想实验：如果你路过一个浅水池，看到一个孩子溺水，你会不会下去救他？几乎所有人的答案是会。那么远方正在挨饿的那些孩子与眼前这个落水的孩子，有什么本质区别？这个追问，似乎让「公益捐赠」从一件可做可不做的好事，变成了一种道德义务。由此出发，一",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "talksat",
