@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-28T03:55:52.224Z",
+    "updatedAt": "2026-08-28T23:29:22.191Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,50 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "496 移民潮背后的休达：从古典时代蛮族渡海、伊比利亚「收复失地运动」到葡萄牙大航海",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a914f40f03e74ee6b013d4a?utm_source=rss",
+      "pubDate": "2026-08-28T09:25:55.000Z",
+      "duration": "01:19:49",
+      "summary": "- 导语 - 休达扼守直布罗陀海峡南岸，是西班牙在北非的飞地，自古便是战略要地。1415年，葡萄牙跨海攻占休达，通常被视为大航海时代的开端。葡萄牙人为什么选择远征休达而不是伊比利亚半岛的穆斯林政权格拉纳达？这座北非商港后来又为何从葡萄牙领地转归西班牙？近年的移民问题，又与西班牙和摩洛哥围绕休达的领土争议有何关联？请听本期嘉宾陆大鹏带来的精彩分享！ 特别感谢科沃斯对本期节目的大力支持！ 这一期，我们",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Trump vs. the Bond Market",
+      "link": "https://www.nytimes.com/2026/08/28/opinion/ezra-klein-podcast-robin-wigglesworth.html",
+      "pubDate": "2026-08-28T09:00:00.000Z",
+      "duration": "00:59:34",
+      "summary": "A lot of things are on track to get more expensive. The U.S. Treasury market is the bedrock of the global economy. When yields on those Treasuries go up, mortgages, car loans and credit cards get more",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "The teacher pay penalty, Meta's major settlement, and a footwear flop",
+      "link": "https://www.npr.org/2026/08/28/nx-s1-5947262/the-teacher-pay-penalty-metas-major-settlement-and-a-footwear-flop",
+      "pubDate": "2026-08-28T07:00:00.000Z",
+      "duration": "559",
+      "summary": "This week’s indicators: The teacher pay penalty; Meta’s massive settlement; Nike and Dick’s Sporting Goods are struggling. Fact checking by Sierra Juarez . Your Next Listen — Why infinite scroll's inv",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fff%2Fad%2Fc11995ec4d019659c4f60b7ac6af%2F9981e3de-f605-41aa-b96a-a54435c4628e.png"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "从基因编辑女童之死说起：自闭症不是需要被修复的错误",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a912d76f03e74ee6b0123d1?utm_source=rss",
+      "pubDate": "2026-08-28T06:50:15.000Z",
+      "duration": "00:49:29",
+      "summary": "【主播的话】 一年多前的春天，一个穿着粉色外套、行李箱里装满毛绒玩具的6岁女孩小美，被父母带进了上海一间医院。他们筹集了数百万人民币，只为修复女儿DNA里一个碱基的“错误”——这个“错误”让她语言发育迟缓，让她的成长轨迹偏离了所谓“正常”的标准。但悲剧发生了，七天后，小美因为治疗过程中出现的排异反应，不幸离世。 一年多之后，这起事件被《科学》杂志的调查曝光，随即引发了全球科学界和公众的强烈震动。小",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -814,17 +858,6 @@
       "art": "https://megaphone.imgix.net/podcasts/16d5d7dc-91ee-11f1-bdcf-df9a64476d59/image/33b2538a59583328a79e1576b99e251e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "I'm just here for the health benefits",
-      "link": "https://www.npr.org/2026/08/07/nx-s1-5923414/im-just-here-for-the-health-benefits",
-      "pubDate": "2026-08-07T14:31:41.000Z",
-      "duration": "508",
-      "summary": "Dependable health insurance is keeping more people in their jobs. Rising health costs don't help. Today we look at the repercussions this kind of job lock has on the wider economy. Fact checking by Si",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3c%2F8e%2F4af390f443bfaf36e4435ef8f72f%2F1917a2bd-439c-4bb9-b002-b77abd727c36.png"
-    },
-    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -1318,28 +1351,6 @@
       "duration": "59:18",
       "summary": "十年前的 6 月 23 日，英国以 51.9% 对 48.1% 的公投结果决定退出欧盟，十年后的当下，这个国家却似乎比任何时候都要显得迷茫。 来自工党的基尔·斯塔默宣布辞去首相职务，英国将在 10 年间迎来第 7 位首相。从穿衣的仪式感、王室的余晖，到「拿回控制权」的脱欧口号，英国一直在用各种方式证明自己“与众不同”——可当经济基础再也撑不起这套身份叙事，这个曾经的日不落帝国，究竟还能靠什么找到自",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "481 与柏琳漫谈巴尔干千年史：从古南斯拉夫诸国到近代科索沃危机",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a4cc0a72e335a35a80f79c8?utm_source=rss",
-      "pubDate": "2026-07-07T09:22:11.000Z",
-      "duration": "01:38:04",
-      "summary": "- 导语 - 论及巴尔干，「火药桶」和分裂通常会成为第一印象。塞尔维亚、克罗地亚、波黑、斯洛文尼亚、黑山、科索沃……同一片半岛上的多个民族与共和国，在历史中却轮回着聚合与分散。作家柏琳从2018年起多次深入巴尔干，在《废墟是一座桥》中，她把目光从当下的见闻转向更久远的历史纵深，从公元6世纪斯拉夫人南迁写起，一直延续到2024年。巴尔干半岛的地理形态如何影响了政治命运？奥斯曼与奥匈两大帝国的防御性统",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "A Radical Vision for Israelis and Palestinians",
-      "link": "https://www.nytimes.com/2026/07/07/opinion/ezra-klein-podcast-may-pundak-rula-hardal.html",
-      "pubDate": "2026-07-07T09:00:00.000Z",
-      "duration": "01:25:38",
-      "summary": "The old solutions to the Israeli-Palestinian conflict don’t seem to fit the present reality. A two-state solution feels increasingly impossible, given the scale of Israeli settlements in the West Bank",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "weirdo",
@@ -1845,17 +1856,6 @@
       "pubDate": "2026-02-27T03:19:59.000Z",
       "duration": "01:20:02",
       "summary": "【主播的话】 俄乌战争刚刚迎来了四周年纪念日，迈入第五年。 本期节目延续我们自2022年以来的“周年传统”，邀请了老朋友路尘、公爵，从战场、外交、社会心态与舆论环境等多个层面，系统梳理这一年的关键变化。 与前三年相比，第四年的变化首先体现在外部政治环境。特朗普重返白宫后，美国对乌政策出现明显调整，停火谈判成为高频词。但，从阿布扎比到日内瓦，几轮会谈释放出不同信号，却尚未形成实质性成果。与此同时，前",
-      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
-    },
-    {
-      "showId": "weirdo",
-      "showName": "不合时宜",
-      "category": "zh",
-      "title": "那些想重看的剧，以及无法重过一次的生活｜不时夜谈春节版",
-      "link": "https://www.xiaoyuzhoufm.com/episode/698e95eda22480add6fd33b5?utm_source=rss",
-      "pubDate": "2026-02-13T03:22:17.000Z",
-      "duration": "01:18:11",
-      "summary": "【主播的话】 不合时宜的听友们，祝大家春节快乐。 这是一期新春特辑节目，我们与相识多年的好友小堡畅聊了那些过去看过，想要再度重温的影视剧和电影，以及我们如何在看这些片子中感受过去一年自己身上所发生的变化。它是一期以影视剧作为载体的年终总结，虽然无法保证充足的信息量，以及专业影评水准。但保证轻松、愉快！希望能给你在春节的闲暇时间里带去一点欢乐。 【本期主播】 若含 ：小红书@若含 王磬： 微博@王磬",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
