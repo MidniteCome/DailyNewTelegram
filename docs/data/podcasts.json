@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-29T02:37:09.611Z",
+    "updatedAt": "2026-08-29T13:18:33.134Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: Is Anthropic's Coding Business Worth $2 Trillion? | Should American Enterprises Work With Open-Source Chinese Models? | Why 80–90% of Neo-Labs Die in the Next 18 Months? with Eno Reyes, Co-Founder @ Factory",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-is-anthropics-coding-business-worth-2-trillion-should-american-enterprises-work-with-open-source-chinese-models-why-8090-of-neo-labs-die-in-the-next-18-months-with-eno-reyes-co-founder-factory",
+      "pubDate": "2026-08-29T07:07:00.000Z",
+      "duration": "01:29:19",
+      "summary": "Eno Reyes is the co-founder and CTO of Factory, the agent-native software development platform building autonomous \"Droids\" for enterprise engineering teams. Factory has raised $220 million, most rece",
+      "art": "https://static.libsyn.com/p/assets/3/d/5/9/3d59f0ba4c72b496d959afa2a1bf1c87/WhatsApp_Image_2026-08-27_at_16.52.15.jpeg"
+    },
     {
       "showId": "allin",
       "showName": "All-In",
@@ -1142,17 +1153,6 @@
       "duration": "01:02:34",
       "summary": "Matt Murphy is a Partner at Menlo Ventures, who just raised $3 billion in fresh capital, its largest pool ever. Matt's portfolio includes Anthropic, Lovable, Legora, OpenRouter, Chai Discovery, Axiom,",
       "art": "https://static.libsyn.com/p/assets/d/9/3/7/d937e6b5f9ed765316c3140a3186d450/WhatsApp_Image_2026-07-24_at_12.31.31.jpeg"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Mercor CPO on Revenue Concentration from Frontier Labs | Why Large Enterprise is Scared to Partner with Frontier Labs | Why Small Specialised Models is the Future with Osvald Nitski",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-mercor-cpo-on-revenue-concentration-from-frontier-labs-why-large-enterprise-is-scared-to-partner-with-frontier-labs-why-small-specialised-models-is-the-future-with-osvald-nitski",
-      "pubDate": "2026-07-25T07:07:00.000Z",
-      "duration": "01:00:37",
-      "summary": "Osvald Nitski is the Chief Product Officer at Mercor, the AI-training and expert-data marketplace powering frontier-model development. Mercor last raised a $350 million Series C at a $10 billion valua",
-      "art": "https://static.libsyn.com/p/assets/4/0/c/a/40ca70c100a9243a16c3140a3186d450/WhatsApp_Image_2026-07-22_at_14.14.46.jpeg"
     },
     {
       "showId": "allin",
