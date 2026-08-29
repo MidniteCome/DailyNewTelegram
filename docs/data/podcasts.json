@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-28T23:29:22.191Z",
+    "updatedAt": "2026-08-29T02:37:09.611Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "Nvidia's Historic Quarter, SaaS Comeback, Bessent vs Druck, America's Debt Crisis, Cancer Vaccine",
+      "link": "https://allinchamathjason.libsyn.com/nvidias-historic-quarter-saas-comeback-bessent-vs-druck-americas-debt-crisis-cancer-vaccine",
+      "pubDate": "2026-08-29T01:19:00.000Z",
+      "duration": "01:36:41",
+      "summary": "(0:00) Bestie intros: Recapping recent interviews and the state of American science (3:31) China's Robot Olympics, Optimus update, Grok Bot (9:05) Nvidia and Salesforce rip after big earnings: AI Cape",
+      "art": "https://static.libsyn.com/p/assets/b/e/5/b/be5bed7d61845f3116c3140a3186d450/1_Pod_E287.png"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -1307,17 +1318,6 @@
       "duration": "53:20",
       "summary": "7 月 7 日至 8 日，北约峰会在土耳其安卡拉举行。美国总统特朗普在会议开场就因为军费问题向盟友施压，威胁切断与西班牙的贸易，甚至再次提起格陵兰岛的主权归属。随着「美国优先」与「欧洲自主」理念的碰撞，本次会议成了我们观察「北约是否已经脑死亡？」争论的关键窗口。 从会议内容上看，理念的碰撞似乎并不意味着联盟走向瓦解。从人工智能与军事能力的进一步结合，到美欧围绕防务支出、军工产业和全球责任展开新的博",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
-      "link": "https://allinchamathjason.libsyn.com/the-trillion-dollar-industries-ai-is-disrupting-voice-law-the-end-of-the-billable-hour",
-      "pubDate": "2026-07-13T22:07:00.000Z",
-      "duration": "51:33",
-      "summary": "(0:00) ElevenLabs' $600M ARR Ramp, 600 Employees & Life Without PMs (15:34) Celebrity Voice Deals, Deepfake Impersonation & Racing OpenAI and Anthropic (31:42) Legora's Hypergrowth, Disrupting Law Fir",
-      "art": "https://static.libsyn.com/p/assets/f/e/0/e/fe0e7bc7041988a5d959afa2a1bf1c87/1_Pod_France.png"
     },
     {
       "showId": "left-right",
