@@ -1,15 +1,6 @@
 {
-  "generatedAt": "2026-08-30T13:08:32.240Z",
+  "generatedAt": "2026-08-31T15:17:32.612Z",
   "items": [
-    {
-      "title": "Robots can outrun humans, but can they plug in a cable?",
-      "link": "https://newslink.reuters.com/click/47163256.59790/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA4MjMyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OCZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158B8639044c",
-      "author": "Reuters Technology Roundup",
-      "source": "newsletter:Reuters Technology Roundup",
-      "pubDate": "2026-08-23T15:00:12.000Z",
-      "summary": "96 Beating Usain Bolt's world-record 9.58-second 100-meter sprint is impressive, braking problems aside. More revealing tests will include handling the small imperfections of the physical world. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to Reuters.co",
-      "llmComment": null
-    },
     {
       "title": "Mixing economic wars, trade wars and actual wars",
       "link": "https://newslink.reuters.com/click/47165638.19116/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTA4MjQyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OCZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158B90579a86",
@@ -332,6 +323,42 @@
       "source": "newsletter:Reuters Technology Roundup",
       "pubDate": "2026-08-29T15:00:19.000Z",
       "summary": "96 OpenAI said on Friday ‌that it plans to stop providing AI models to Cursor, the coding-tool company now owned by Elon Musk's SpaceX, marking a further escalation in the bitter rivalry between OpenAI CEO Sam Altman and Musk. --> From breakthrough startups to Big Tech moves, stay ahead of industry ",
+      "llmComment": null
+    },
+    {
+      "title": "OpenAI to cut off AI models for SpaceX-owned Cursor, escalating feud with Musk",
+      "link": "https://newslink.reuters.com/click/47262758.62634/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA4MzAyNiZ1dG1fY29udGVudD0wODMwMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTgmdXNlcl9lbWFpbD0yZmI3NjFhNGQwNTgzYjM4MmZmNTMyMmFiMWIwMjYzNDAxNzYxMjNhMmViYzc5NjE0MWJmMWUyZTdlMDk3YTRi/699d8f6975a57008a503f158B30a61a23",
+      "author": "Reuters Technology Roundup",
+      "source": "newsletter:Reuters Technology Roundup",
+      "pubDate": "2026-08-30T15:00:08.000Z",
+      "summary": "96 OpenAI said on Friday ‌that it plans to stop providing AI models to Cursor, the coding-tool company now owned by Elon Musk's SpaceX, marking a further escalation in the bitter rivalry between OpenAI CEO Sam Altman and Musk. --> From breakthrough startups to Big Tech moves, stay ahead of industry ",
+      "llmComment": null
+    },
+    {
+      "title": "Oil climbs as missiles fly in the Gulf",
+      "link": "https://newslink.reuters.com/click/47265264.7466/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249TW9ybmluZy1CaWQtRXVyb3BlJnV0bV90ZXJtPTA4MzEyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OA/699d8f6975a57008a503f158B8c20e0cc",
+      "author": "Reuters Morning Bid Europe",
+      "source": "newsletter:Reuters Morning Bid Europe",
+      "pubDate": "2026-08-31T05:05:29.000Z",
+      "summary": "96 A look at the day ahead in European and global markets Get ahead of the European trading day with Reuters. Subscribe for $1/week. Morning Bid Europe Morning Bid Europe A look at the day ahead in European and global markets By Wayne Cole, Chief Correspondent, Treasury Data refreshes every time you",
+      "llmComment": null
+    },
+    {
+      "title": "US-Iran exchange first strikes in weeks",
+      "link": "https://newslink.reuters.com/click/47266816.434609/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249RGFpbHktQnJpZWZpbmcmdXRtX3Rlcm09MDgzMTI2JnV0bV9jb250ZW50PTA4MzEyNiZsY3RnPTY5OWQ4ZjY5NzVhNTcwMDhhNTAzZjE1OCZ1c2VyX2VtYWlsPTJmYjc2MWE0ZDA1ODNiMzgyZmY1MzIyYWIxYjAyNjM0MDE3NjEyM2EyZWJjNzk2MTQxYmYxZTJlN2UwOTdhNGI/699d8f6975a57008a503f158Bc7f462bd",
+      "author": "Reuters Daily Briefing",
+      "source": "newsletter:Reuters Daily Briefing",
+      "pubDate": "2026-08-31T10:59:06.000Z",
+      "summary": "96 Plus, US carrier visit to Thailand's Pattaya lifts hope and sex-tourism risk. Go beyond the headlines with Reuters on the stories shaping the day. Subscribe for $1/week. Daily Briefing Daily Briefing By Claire Beers Hello. The US and Iran exchanged strikes for the first time since July, Nepal sea",
+      "llmComment": null
+    },
+    {
+      "title": "OpenAI's ad business hits $1 billion annualized revenue run rate",
+      "link": "https://newslink.reuters.com/click/47269942.65191/aHR0cHM6Ly9yZXV0ZXJzLmNvbT91dG1fc291cmNlPVNhaWx0aHJ1JnV0bV9tZWRpdW09TmV3c2xldHRlciZ1dG1fY2FtcGFpZ249VGVjaG5vbG9neS1Sb3VuZHVwJnV0bV90ZXJtPTA4MzEyNiZ1dG1fY29udGVudD0wODMxMjYmbGN0Zz02OTlkOGY2OTc1YTU3MDA4YTUwM2YxNTgmdXNlcl9lbWFpbD0yZmI3NjFhNGQwNTgzYjM4MmZmNTMyMmFiMWIwMjYzNDAxNzYxMjNhMmViYzc5NjE0MWJmMWUyZTdlMDk3YTRi/699d8f6975a57008a503f158B1b5b3a40",
+      "author": "Reuters Technology Roundup",
+      "source": "newsletter:Reuters Technology Roundup",
+      "pubDate": "2026-08-31T15:00:23.000Z",
+      "summary": "96 OpenAI on Monday said ChatGPT Ads, the company's advertising business, has reached $1 billion in annualized revenue run rate, ​as adoption picks up and global expansion rolls ‌out. --> From breakthrough startups to Big Tech moves, stay ahead of industry changes. Subscribe to Reuters.com for $1/we",
       "llmComment": null
     }
   ]
