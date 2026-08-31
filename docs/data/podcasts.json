@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-30T22:14:38.586Z",
+    "updatedAt": "2026-08-31T15:17:49.827Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: The AI Bubble Is Wrong | AI Margins Need to Improve | Revenue Concentration Should be a Concern | Why People Over-Estimate Open Models But Enterprises Still Fear Frontier Models with Aaron Katz, ClickHouse",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-ai-bubble-is-wrong-ai-margins-need-to-improve-revenue-concentration-should-be-a-concern-why-people-over-estimate-open-models-but-enterprises-still-fear-frontier-models-with-aaron-katz-clickhouse",
+      "pubDate": "2026-08-31T07:07:00.000Z",
+      "duration": "01:03:37",
+      "summary": "Aaron Katz is the Co-Founder and CEO of ClickHouse, the real-time analytics database powering companies including OpenAI, Anthropic, Tesla and Microsoft. ClickHouse just surpassed $350M in ARR and rai",
+      "art": "https://static.libsyn.com/p/assets/f/0/7/e/f07e812153f6593ad959afa2a1bf1c87/WhatsApp_Image_2026-08-28_at_15.53.10.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "How ICE arrests are creating 'economies of fear'",
+      "link": "https://www.npr.org/2026/08/31/nx-s1-5948081/how-ice-arrests-are-creating-economies-of-fear",
+      "pubDate": "2026-08-31T07:00:00.000Z",
+      "duration": "463",
+      "summary": "Immigration and Customs Enforcement (ICE) arrested nearly 50,000 people in July , marking the biggest month for ICE arrests of President Trump’s second term. We talk to a researcher who thinks this in",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcf%2F6f%2Fe29f14844a2497ca352fa638d78f%2F3a7ed536-d5b9-4efa-9858-a1f4013c0d6c.jpg"
+    },
+    {
+      "showId": "weirdo",
+      "showName": "不合时宜",
+      "category": "zh",
+      "title": "漫长的告别：失智症、照护者与终将老去的我们",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a93e755a0210c197dca6ffc?utm_source=rss",
+      "pubDate": "2026-08-31T00:00:00.000Z",
+      "duration": "01:04:00",
+      "summary": "【主播的话】 我们常以为，失智是一种“消失”——一个人渐渐忘记名字、忘记至亲、忘记自己是谁。但社会学者唐咏通过研究告诉我们，事情没那么简单：有人忘记了今天发生的一切，却能完整唱出几十年前的老歌；有人认不出朝夕相处的儿女，却依然保有情感和尊严感。失智老人丧失的和保留的部分，从来都不是我们以为的那样。 唐咏是深圳大学政府管理学院社会学系教授。她的研究兴趣始于一次意外——母亲的一场车祸，让她的学术兴趣转",
+      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -825,17 +858,6 @@
       "art": "https://static.libsyn.com/p/assets/2/4/2/e/242e8ccd765af490d959afa2a1bf1c87/WhatsApp_Image_2026-08-07_at_16.42.00.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Why is Trump paying to stop wind farms?",
-      "link": "https://www.npr.org/2026/08/10/nx-s1-5925289/why-is-trump-paying-to-stop-wind-farms",
-      "pubDate": "2026-08-10T07:00:00.000Z",
-      "duration": "559",
-      "summary": "President Trump is no fan of wind farms. And his administration is putting taxpayer money where his mouth is, paying companies billions of dollars to NOT build them. On today’s show, Trump’s plan to s",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcf%2F4c%2F396ef9614e9f9f8a4becfb188ca4%2Fca7c043d-c051-4602-92ba-32420b54d204.png"
-    },
-    {
       "showId": "acquired",
       "showName": "Acquired",
       "category": "tech",
@@ -1142,17 +1164,6 @@
       "duration": "1059",
       "summary": "TPG has evolved into one of the world's leading alternative asset management firms, with over $300 billion in assets under management. Jon Winkelried, CEO of TPG and a Goldman Sachs alum, joins Matt M",
       "art": "https://megaphone.imgix.net/podcasts/d7dd0072-23bb-11e8-a138-ebc0493f0300/image/f42c08e86983fb85b23803bf9d271384.png?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Leading Anthropic's First Ever Round | Will Open Source Threaten Anthropic's Business | Do Margins Matter in a World of AI | Why Triple, Triple, Double, Double is Not Good Enough Today | Why Series A is Hard Today with Matt Murphy @ Menlo",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-leading-anthropics-first-ever-round-will-open-source-threaten-anthropics-business-do-margins-matter-in-a-world-of-ai-why-triple-triple-double-double-is-not-good-enough-today-why-series-a-is-hard-today-with-matt-murphy-menlo",
-      "pubDate": "2026-07-27T07:07:00.000Z",
-      "duration": "01:02:34",
-      "summary": "Matt Murphy is a Partner at Menlo Ventures, who just raised $3 billion in fresh capital, its largest pool ever. Matt's portfolio includes Anthropic, Lovable, Legora, OpenRouter, Chai Discovery, Axiom,",
-      "art": "https://static.libsyn.com/p/assets/d/9/3/7/d937e6b5f9ed765316c3140a3186d450/WhatsApp_Image_2026-07-24_at_12.31.31.jpeg"
     },
     {
       "showId": "allin",
@@ -1846,17 +1857,6 @@
       "duration": null,
       "summary": "Rick Beato is a music educator, interviewer, producer, songwriter, and a true multi-instrument musician, playing guitar, bass, cello piano. His incredible YouTube channel celebrates great musicians mu",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "weirdo",
-      "showName": "不合时宜",
-      "category": "zh",
-      "title": "俄乌战争四周年：当战场被遗忘，当荒诞成常态",
-      "link": "https://www.xiaoyuzhoufm.com/episode/69a10925a22480add64236e8?utm_source=rss",
-      "pubDate": "2026-02-27T03:19:59.000Z",
-      "duration": "01:20:02",
-      "summary": "【主播的话】 俄乌战争刚刚迎来了四周年纪念日，迈入第五年。 本期节目延续我们自2022年以来的“周年传统”，邀请了老朋友路尘、公爵，从战场、外交、社会心态与舆论环境等多个层面，系统梳理这一年的关键变化。 与前三年相比，第四年的变化首先体现在外部政治环境。特朗普重返白宫后，美国对乌政策出现明显调整，停火谈判成为高频词。但，从阿布扎比到日内瓦，几轮会谈释放出不同信号，却尚未形成实质性成果。与此同时，前",
-      "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
       "showId": "lexfridman",
