@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-08-31T23:30:30.634Z",
-    "totalEpisodes": 165,
+    "updatedAt": "2026-09-01T12:40:55.665Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": null,
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/44a67bcc8eafc1e9e5a834234176f4c4.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "left-right",
+      "showName": "忽左忽右",
+      "category": "zh",
+      "title": "497 信天翁档案：解密1965年新加坡独立与「新马分家」的台前幕后",
+      "link": "https://www.xiaoyuzhoufm.com/episode/6a96a621a0210c197dcbb58d?utm_source=rss",
+      "pubDate": "2026-09-01T11:22:56.000Z",
+      "duration": "01:41:26",
+      "summary": "- 导语 - 随着新加坡「信天翁档案」的解密，新加坡与马来西亚的合并与分离中交织的种族政治、冷战格局与不同政治盘算愈发明晰。新加坡真的是被马来西亚单方面踢出联邦吗？李光耀与东姑在新马合并初期的君子协定如何走向破裂？在新加坡与马来西亚之间的谈判中，吴庆瑞如何先斩后奏地推动了最终的分家？请听本期嘉宾许振华带来的精彩分享！ - 本期话题成员 - 程衍樑（微博@GrenadierGuard2） 许振华，关",
+      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "ezraklein",
+      "showName": "The Ezra Klein Show",
+      "category": "politics",
+      "title": "Best Of: The Tao of Rick Rubin",
+      "link": "https://www.nytimes.com/2023/02/10/opinion/ezra-klein-podcast-rick-rubin.html",
+      "pubDate": "2026-09-01T09:00:00.000Z",
+      "duration": "01:29:56",
+      "summary": "Whatever type of music you love, Rick Rubin has probably left his mark on it. Rubin, a founder of Def Jam Recordings and a former co-chairman of Columbia Records, might be the most influential music p",
+      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "A Treasury showdown with the bond market",
+      "link": "https://www.npr.org/2026/09/01/nx-s1-5950593/a-treasury-showdown-with-the-bond-market",
+      "pubDate": "2026-09-01T07:00:00.000Z",
+      "duration": "569",
+      "summary": "Why is the U.S. Treasury planning to buyback at least double the number of long-dated government bonds it usually does? And will Treasury Secretary Scott Bessent’s buyback plan pit him against both th",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4c%2F46%2Fcb9592c749e48f50867df44bf694%2F9f257182-3fd2-47d7-af9c-4aa704e717f8.png"
+    },
     {
       "showId": "20vc",
       "showName": "20VC",
@@ -264,6 +297,17 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2547 - Daniel Everett",
+      "link": "https://traffic.megaphone.fm/GLT8609844651.mp3",
+      "pubDate": "2026-08-27T17:00:00.000Z",
+      "duration": "9828",
+      "summary": "Daniel Everett, PhD, is a linguist and college professor. He is the author of several books, including “Don’t Sleep, There Are Snakes: Life and Language in the Amazonian Jungle” and “How Language Bega",
+      "art": "https://megaphone.imgix.net/podcasts/9e1fb742-a1b8-11f1-9e55-d7d5779b3db3/image/e3460a17d2b2421865c0453441ab5b1f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -319,6 +363,17 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2546 - Michael Button",
+      "link": "https://traffic.megaphone.fm/GLT5185167681.mp3",
+      "pubDate": "2026-08-26T17:00:00.000Z",
+      "duration": "9468",
+      "summary": "Michael Button is a YouTuber who explores ancient mysteries, lost history, and societal collapse.https://michaelbutton.substack.comhttps://www.youtube.com/@MichaelButton1 Perplexity: Download the app ",
+      "art": "https://megaphone.imgix.net/podcasts/7c0a5244-a0db-11f1-bbe3-13e22537d5bb/image/ef3a034ce674226f82feecd9b537aa83.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -328,6 +383,17 @@
       "duration": "556",
       "summary": "Medicare for All could save the U.S. trillions… or maybe way less than that? In our second episode on Medicare for All, we look at the convoluted figures behind the hot political topic. We hear direct",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcb%2F69%2Ff7a47345454cb8a611950cf9b04d%2Fefc1e629-3da5-42b6-8a49-7a2869ff74c6.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2545 - Jesse Michels",
+      "link": "https://traffic.megaphone.fm/GLT5434878204.mp3",
+      "pubDate": "2026-08-25T17:00:00.000Z",
+      "duration": "11349",
+      "summary": "Jesse Michels is the creator and host of \"American Alchemy,\" a YouTube series exploring controversial topics in science and culture through longform interviews.www.youtube.com/@JesseMichelswww.patreon",
+      "art": "https://megaphone.imgix.net/podcasts/fc78372e-a00f-11f1-b4a6-67ef23d80453/image/e29f688a4586d2fb4d868993a074e1fe.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -407,6 +473,17 @@
       "art": "https://static.libsyn.com/p/assets/6/e/0/3/6e031e2ebd85a12216c3140a3186d450/WhatsApp_Image_2026-08-21_at_14.10.03.jpeg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2544 - Chris Williamson",
+      "link": "https://traffic.megaphone.fm/GLT2614437585.mp3",
+      "pubDate": "2026-08-21T17:00:00.000Z",
+      "duration": "10835",
+      "summary": "Chris Williamson is the host of the \"Modern Wisdom\" podcast. See him live on select dates throughout the United Kingdom. https://chriswillx.com/modernwisdom https://www.youtube.com/@ChrisWillx Perplex",
+      "art": "https://megaphone.imgix.net/podcasts/53c84ccc-9d0d-11f1-8f63-4b10cab2daaa/image/c84377bc4aec898aee2c14d018330288.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -451,6 +528,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbf%2Fff%2Fb31217684f329543b52051ddf992%2Ffcaa24a3-0187-493e-9495-2fa22df110e7.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2543 - MrBallen",
+      "link": "https://traffic.megaphone.fm/GLT9789891628.mp3",
+      "pubDate": "2026-08-20T17:00:00.000Z",
+      "duration": "10937",
+      "summary": "John B. Allen (\"MrBallen\") is a former U.S. Navy SEAL, founder of Ballen Studios, and creator and host of the popular podcast \"MrBallen Podcast: Strange, Dark & Mysterious Stories.\" His latest graphic",
+      "art": "https://megaphone.imgix.net/podcasts/bd78a8a0-9c28-11f1-b11e-ef9789715e8e/image/d49830348c14609fff882d168231df27.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -484,6 +572,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff8%2Fe0%2F951860b54fca98c0f967d267e11b%2F2329bd70-d67f-4936-8369-e752aafa65c3.jpg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2542 - Steve Hilton",
+      "link": "https://traffic.megaphone.fm/GLT6487899018.mp3",
+      "pubDate": "2026-08-19T17:00:00.000Z",
+      "duration": "11132",
+      "summary": "Steve Hilton is a businessman, political commentator, author, and Republican candidate for governor of California. www.youtube.com/@stevehiltonxwww.stevehiltonforgovernor.com Perplexity: Download the ",
+      "art": "https://megaphone.imgix.net/podcasts/d0eed536-9b6e-11f1-91e1-87ba07d621a5/image/fdd7aa7699d5f97339dd75917ef489f0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -493,6 +592,17 @@
       "duration": "569",
       "summary": "The best manager isn’t necessarily the best employee. Turns out it isn't so easy to predict what DOES make a good manager. Today on the show, we turn to science to help answer that very question. Fact",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2F2f%2Fb6cd3a124775bacbeab679a0dd9c%2F65ba21d0-43e6-4259-8d51-00de355efec5.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2541 - Thomas Campbell",
+      "link": "https://traffic.megaphone.fm/GLT7603949559.mp3",
+      "pubDate": "2026-08-18T17:00:00.000Z",
+      "duration": "10382",
+      "summary": "Thomas Campbell is a physicist, consciousness researcher, and author of the \"My Big TOE\" trilogy. www.youtube.com/@twcjr44 www.my-big-toe.com Perplexity: Download the app or ask Perplexity anything at",
+      "art": "https://megaphone.imgix.net/podcasts/792ba37c-9a99-11f1-802d-6faff96a5ef8/image/28569fa50040498b8dc3ec71e0962139.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -583,6 +693,17 @@
       "art": "https://static.libsyn.com/p/assets/d/0/5/8/d05879b603142d78d959afa2a1bf1c87/1_Pod_E285.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2540 - Travis Barker",
+      "link": "https://traffic.megaphone.fm/GLT5593509812.mp3",
+      "pubDate": "2026-08-14T17:00:00.000Z",
+      "duration": "9381",
+      "summary": "Travis Barker is a musician, songwriter, producer, entrepreneur, and drummer for Blink-182. He is the subject of the documentary \"Travis Barker: Louder Than Fear,\" which premieres August 13 on Hulu an",
+      "art": "https://megaphone.imgix.net/podcasts/b5568610-9764-11f1-8761-4370c8a2da8b/image/8e8868a3d2a847122f1f4b341c224283.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -614,6 +735,17 @@
       "duration": "553",
       "summary": "It’s Indicators of the Week! On today’s episode: Retirees get a bump in benefits; credit card debt delinquency at a historically high level; and the dating app Bumble on a serious decline — Men first!",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd0%2F18%2Fb66ed776475bb9d3ed091ec8aa6f%2F3351c905-aa74-480c-b72f-01536bfb3f17.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2539 - Protect Our Parks 17",
+      "link": "https://traffic.megaphone.fm/GLT2831972716.mp3",
+      "pubDate": "2026-08-13T17:00:00.000Z",
+      "duration": "16470",
+      "summary": "Shane Gillis, Mark Normand, and Ari Shaffir are comedians, writers, and podcasters.Shane Gillis is the co-host of \"Matt and Shane's Secret Podcast,\" creator and star of Netflix's comedy series \"Tires,",
+      "art": "https://megaphone.imgix.net/podcasts/a3aee712-96bb-11f1-807f-c72272cb9884/image/0bc2fc36526436e42d74dee9a06ad1e3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -660,6 +792,17 @@
       "art": "https://static.libsyn.com/p/assets/c/7/8/3/c783805001ad85e616c3140a3186d450/1_Pod_Rahm.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2538 - Joe DeRosa",
+      "link": "https://traffic.megaphone.fm/GLT1242550719.mp3",
+      "pubDate": "2026-08-12T17:00:00.000Z",
+      "duration": "10047",
+      "summary": "Joe DeRosa is a comedian, actor, musician, restaurateur, and host of the \"Vile and Horrendous\" podcast. His latest special, \"I Never Promised You a Rose Garden,\" is now streaming on Netflix. www.youtu",
+      "art": "https://megaphone.imgix.net/podcasts/22233586-966b-11f1-8f2f-03112136bec0/image/46c5a7c092e94e1f6f989ff752de3211.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -693,6 +836,17 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #184 with Aljamain Sterling",
+      "link": "https://traffic.megaphone.fm/GLT9611837612.mp3",
+      "pubDate": "2026-08-11T17:00:00.000Z",
+      "duration": "10507",
+      "summary": "Joe sits down with professional mixed martial artist Aljamain Sterling, who currently competes in the Ultimate Fighting Championship's Featherweight division. He is the host of the \"Weekly Scraps\" pod",
+      "art": "https://megaphone.imgix.net/podcasts/99c85bdc-9523-11f1-8cce-6b6deb9f7357/image/2ae94d7b584e123b8a465fcc5a1f881c.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -713,17 +867,6 @@
       "duration": "01:23:59",
       "summary": "- 导语 - 被后世视为保守主义思想奠基人的伯克，身上有一组看似矛盾的政治立场：他主张议员不应成为选区利益的传声筒，反对扩大普选权和法国大革命式的激进变革，却又力主与北美殖民地和解，并以「数百万印度人」的名义弹劾黑斯廷斯。作为一名爱尔兰出身、长期活跃于英国下院的政治家，伯克如何理解党派、代表权与帝国统治？职业生涯的后半段，伯克为何对东印度公司的统治发起猛烈批判？伯克的写作方式与精英主义态度又为何使",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Borrowing money to invest! What could go wrong?",
-      "link": "https://www.npr.org/2026/08/11/nx-s1-5927440/borrowing-money-to-invest-what-could-go-wrong",
-      "pubDate": "2026-08-11T07:00:00.000Z",
-      "duration": "543",
-      "summary": "The total amount of investors using margin aka borrowing money to help pay for a trade is at an all time high of over $1.5 trillion. Is this something we should worry about? We spoke to Jurrien Tinner",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F51%2F75%2F7f2ff0004bd7af5845d02cab5486%2Fb67cb80b-f5b8-439d-8308-9564014f5f3d.png"
     },
     {
       "showId": "20vc",
@@ -770,6 +913,17 @@
       "art": "https://static.libsyn.com/p/assets/9/e/9/6/9e9643601e425587d959afa2a1bf1c87/1_Pod_E284.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2537 - David Sinclair",
+      "link": "https://traffic.megaphone.fm/GLT1521681560.mp3",
+      "pubDate": "2026-08-07T17:00:00.000Z",
+      "duration": "9037",
+      "summary": "David Sinclair, AO, PhD, is a longevity scientist, Professor of Genetics at Harvard Medical School, author of the book \"Lifespan: Why We Age—and Why We Don't Have To,\" and host of the \"Lifespan\" podca",
+      "art": "https://megaphone.imgix.net/podcasts/16d5d7dc-91ee-11f1-bdcf-df9a64476d59/image/33b2538a59583328a79e1576b99e251e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "ezraklein",
       "showName": "The Ezra Klein Show",
       "category": "politics",
@@ -790,6 +944,17 @@
       "duration": "01:23:52",
       "summary": "- 导语 - 二十世纪初至三十年代，上海的电影业从早期放映逐渐走向繁荣。一群来自中南欧的「边缘外国人」率先在虹口经营影院，上海虹口的广东移民也成为最早一批中国电影观众；1921年的阎瑞生案，则意外推动了国产故事长片的真正起步。而在银幕之外，电影也在改变市民的娱乐生活，并不断进入城市的消防、治安与政治管理。租界社会的「边缘外国人」为何率先在虹口投资影院？最早一批中国电影观众为何多来自广东移民？192",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2536 - Eric Goode & Jeremy McBride",
+      "link": "https://traffic.megaphone.fm/GLT1902969569.mp3",
+      "pubDate": "2026-08-06T17:00:00.000Z",
+      "duration": "8503",
+      "summary": "Eric Goode and Jeremy McBride are filmmakers whose work includes \"Tiger King,\" \"Chimp Crazy,\" and \"Monsters of God,\" now available on HBO and HBO Max.https://www.hbomax.com/shows/monsters-of-god/d779b",
+      "art": "https://megaphone.imgix.net/podcasts/0d4cb1e8-9123-11f1-be7f-477c38b7e87e/image/26e80912c71ad40dbd609eefcd958855.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -834,6 +999,28 @@
       "duration": "48:19",
       "summary": "(0:00) Saronic founders join the show! (4:56) The Navy's first autonomous rescue in the Strait of Hormuz, and how China out builds America 230-to-1 (13:04) $3B destroyers vs. Marauder (21:25) Killing ",
       "art": "https://static.libsyn.com/p/assets/5/4/d/4/54d4595000168b8616c3140a3186d450/1_Pod_Saronic.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2535 - Andrew Wilson",
+      "link": "https://traffic.megaphone.fm/GLT7134764800.mp3",
+      "pubDate": "2026-08-05T17:00:00.000Z",
+      "duration": "10432",
+      "summary": "Andrew Wilson has participated in thousands of debates on political, cultural, and religious topics. He hosts \"The Crucible\" and owns its associated online training program, Debate University.www.yout",
+      "art": "https://megaphone.imgix.net/podcasts/9bd82c7c-905f-11f1-9581-0712930da240/image/d663fee54d682b46d061d469b4ef0ba0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #183 with Rico Verhoeven",
+      "link": "https://traffic.megaphone.fm/GLT4292309587.mp3",
+      "pubDate": "2026-08-04T17:00:00.000Z",
+      "duration": "8592",
+      "summary": "Joe sits down with professional boxer, kickboxer, and mixed martial artist Rico Verhoeven.www.youtube.com/@RicoVerhoeven https://ricoverhoeven.com Learn more about your ad choices. Visit podcastchoice",
+      "art": "https://megaphone.imgix.net/podcasts/a7d26330-8f8d-11f1-b08c-239fa033ae8f/image/68ee083ec390d4185de0bf505046b148.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -1164,28 +1351,6 @@
       "duration": "53:20",
       "summary": "7 月 7 日至 8 日，北约峰会在土耳其安卡拉举行。美国总统特朗普在会议开场就因为军费问题向盟友施压，威胁切断与西班牙的贸易，甚至再次提起格陵兰岛的主权归属。随着「美国优先」与「欧洲自主」理念的碰撞，本次会议成了我们观察「北约是否已经脑死亡？」争论的关键窗口。 从会议内容上看，理念的碰撞似乎并不意味着联盟走向瓦解。从人工智能与军事能力的进一步结合，到美欧围绕防务支出、军工产业和全球责任展开新的博",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "left-right",
-      "showName": "忽左忽右",
-      "category": "zh",
-      "title": "482 「推广国音」与「收听敌台」：王雨谈20世纪中国的广播技术政治史",
-      "link": "https://www.xiaoyuzhoufm.com/episode/6a50b52d4adef2b36561d95e?utm_source=rss",
-      "pubDate": "2026-07-10T09:26:10.000Z",
-      "duration": "01:11:50",
-      "summary": "- 导语 - 在20世纪的中国，广播不只是一种技术媒介。从1923年首家电台在上海诞生，到延安窑洞里女播音员的声音穿越战火，再到大喇叭成为一代人的集体记忆，广播的发展始终与政治、技术与日常生活紧密交织。外资林立，国民政府如何在30年代治理城市公共广播电台？为何延安的早期广播偏好女播音员？生产收音机、培养收音员下乡，新中国是怎样改造和搭建全国广播体系的？方言播音又如何在地方平衡统一与多元的需求？欢迎",
-      "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "ezraklein",
-      "showName": "The Ezra Klein Show",
-      "category": "politics",
-      "title": "The Very Good and Very Bad News on Climate",
-      "link": "https://www.nytimes.com/2026/07/10/opinion/ezra-klein-podcast-bill-mckibben.html",
-      "pubDate": "2026-07-10T09:00:00.000Z",
-      "duration": "01:25:22",
-      "summary": "Already this summer, there have been huge wildfires in the Southwest and Great Plains and an extraordinary heat wave in Europe, as the world stares down the barrel of a powerful El Niño. Climate chang",
-      "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
       "showId": "etw",
@@ -1678,7 +1843,7 @@
       "title": "Formula 1",
       "link": "https://www.acquired.fm/episodes/formula-1",
       "pubDate": "2026-03-02T22:18:59.000Z",
-      "duration": "16171",
+      "duration": "15525",
       "summary": "Formula 1 is three competitions in one: a 200mph battle of the world's best race car drivers, the world cup of engineering where thousand-person teams spend hundreds of millions designing cars from sc",
       "art": "https://img.transistorcdn.com/ORaQ7w0zdqAScJ9YPCf3I4RKe_muT-If0IMRT5rIuE8/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS84MzRh/NWY0NDJlNzAzNDY1/OGY2NThlZDBkYmU1/NzdjMC5wbmc.jpg"
     },
