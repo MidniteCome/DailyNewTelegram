@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-09-01T22:12:39.981Z",
+    "updatedAt": "2026-09-02T12:14:14.089Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "For a lot of Gen Z, gambling is investing",
+      "link": "https://www.npr.org/2026/09/02/nx-s1-5953047/for-a-lot-of-gen-z-gambling-is-investing",
+      "pubDate": "2026-09-02T07:00:01.000Z",
+      "duration": "515",
+      "summary": "Why are more than half of Gen Zers using investment dollars for sports gambling? It’s been eight years since sports betting became widely legal. Today we look at its impact on a new generation of spor",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9d%2Fdf%2F90be1839454db0a1d8b5b7bda45b%2F3f8c2b87-bb7d-47f5-91bd-8a06860ddc2f.jpg"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -823,17 +834,6 @@
       "duration": null,
       "summary": "Khabib Nurmagomedov is one of the greatest fighters of all time, who retired from the UFC undefeated with a perfect 29-0 record. We did this conversation entirely in Russian. Its translated and dubbed",
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Consumers are mad as hell and aren't gonna take it anymore",
-      "link": "https://www.npr.org/2026/08/12/nx-s1-5928512/consumers-are-mad-as-hell-and-arent-gonna-take-it-anymore",
-      "pubDate": "2026-08-12T07:00:00.000Z",
-      "duration": "569",
-      "summary": "Rage. That’s what consumers are feeling right now. A new survey found consumer complaints hit a record high this year. Another from last year found a huge share of consumers felt ‘rage’ with a product",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe5%2F5f%2F66d4dd584fa68e39d96d2b4b83ae%2F3a125a70-761e-4031-94b0-f340848a7542.png"
     },
     {
       "showId": "weirdo",
