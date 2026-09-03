@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-09-02T22:10:46.635Z",
+    "updatedAt": "2026-09-03T12:12:34.295Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,39 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "etw",
+      "showName": "声东击西",
+      "category": "zh",
+      "title": "#403 从八十年飞行史，看城市、社会和我们自己的改变丨国泰航空 x 声东击西",
+      "link": "https://etw.fm/2223",
+      "pubDate": "2026-09-03T10:00:00.000Z",
+      "duration": "45:16",
+      "summary": "80 年前，国泰航空第一架飞机 Betsy 降落上海龙华机场；80 年后，一场关于飞行的对谈，在这片曾经的机场旧址展开：从最初连接几座城市的货运与客运航线，到今天遍布世界的航空网络，一架飞机、一座机场，一条航线如何改变人们抵达远方的方式，又如何深刻影响一座城市的发展，乃至一个国家与世界之间的关系？ 8月末，在「国泰航空八十周年庆典」现场，国泰航空联合「声东击西」进行了一场线下圆桌。我们邀请到了北京",
+      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
+    },
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: NVIDIA Crushes Quarter and Buys Hugging Face | OpenAI Cuts Off Cursor | Instinct Hits $2.5BN Valuation and The Race for AI Assistants | Cognition Raises at $46BN, Linear $2.5BN and Clay $7BN",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-crushes-quarter-and-buys-hugging-face-openai-cuts-off-cursor-instinct-hits-25bn-valuation-and-the-race-for-ai-assistants-cognition-raises-at-46bn-linear-25bn-and-clay-7bn",
+      "pubDate": "2026-09-03T07:07:00.000Z",
+      "duration": "01:17:40",
+      "summary": "AGENDA: 00:00 Nvidia crushes $96.2B quarter and nears $12.9B Hugging Face deal 13:52 OpenAI cuts off Cursor as the Altman–Musk feud escalates 17:40 OpenAI's 1,000-agent cyberattack triggers an industr",
+      "art": "https://static.libsyn.com/p/assets/e/e/a/c/eeac971b2d91bcb6d959afa2a1bf1c87/WhatsApp_Image_2026-09-02_at_17.45.52.jpeg"
+    },
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Does Planet Money’s game pass the shelf test? We go undercover to find out",
+      "link": "https://www.npr.org/2026/09/03/nx-s1-5954516/does-planet-moneys-game-pass-the-shelf-test-we-go-undercover-to-find-out",
+      "pubDate": "2026-09-03T07:00:00.000Z",
+      "duration": "592",
+      "summary": "We go undercover at a big box store for an inside look at the secret shelf tes the makers of Exploding Kittens use for their hit games. Fact checking by Sierra Juarez . Your Next Listen — Who decides ",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F59%2Fa8cdf28342a6917af70905110d8b%2F1e64dc6c-0d54-4845-94d3-6aa5677afb0d.jpg"
+    },
     {
       "showId": "jre",
       "showName": "Joe Rogan Experience",
@@ -803,17 +836,6 @@
       "art": "https://static.libsyn.com/p/assets/e/f/8/3/ef8306225966b3dbd959afa2a1bf1c87/WhatsApp_Image_2026-08-12_at_15.56.51.jpeg"
     },
     {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "C is for C-shaped economy",
-      "link": "https://www.npr.org/2026/08/13/nx-s1-5929491/c-is-for-c-shaped-economy",
-      "pubDate": "2026-08-13T07:00:00.000Z",
-      "duration": "515",
-      "summary": "Which letter best describes how the U.S. economy is shaped: C or K? We examine the arguments for both and why there’s so much disagreement over who’s faring best in today’s economy. Fact checking by S",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F1c%2Ff7%2Fffa74c0148bb9f924b165f8137a3%2Fc7217b7c-a928-482d-a12c-11988527c95d.jpg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1109,17 +1131,6 @@
       "duration": "00:58:57",
       "summary": "The first year of President Trump’s second term was a whirlwind of action: on immigration, on trade, on political retribution. But things seem to me to be slowing down quite a bit. Trump is incredibly",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: Jensen's Open-Weights Letter | Travis Kalanick Raises $1.7B for Atoms | Google Cloud Grows 82% But The Market Tanks | Francisco Partners Raises $21BN | Etched Raises $300M to Take on Nvidia",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-jensens-open-weights-letter-travis-kalanick-raises-17b-for-atoms-google-cloud-grows-82-but-the-market-tanks-francisco-partners-raises-21bn-etched-raises-300m-to-take-on-nvidia",
-      "pubDate": "2026-07-30T07:07:00.000Z",
-      "duration": "01:17:30",
-      "summary": "AGENDA: 05:00 Jensen's Open-Weights Letter Puts Anthropic on an Island 10:00 OpenAI's Model Targets Hugging Face in a Cyber-Security Scare 18:00 America's Open-Model Push Accelerates as China Looms La",
-      "art": "https://static.libsyn.com/p/assets/3/3/5/0/3350bc4ff9fea72816c3140a3186d450/WhatsApp_Image_2026-07-29_at_16.44.46.jpeg"
     },
     {
       "showId": "talksat",
@@ -1615,17 +1626,6 @@
       "duration": "13685",
       "summary": "Vanguard is the most effective vehicle ever created for participating in the fruits of American capitalism. Today it’s the single largest equity owner of the majority of corporations in the S&P 500, o",
       "art": "https://img.transistorcdn.com/G48S8ousdgdlTFU686aTV1C24y-DL5ua-Ih2SyRvqb0/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS83Nzk4/Y2M5MDcyN2EzZTM3/NjQzYjI1YTBhOTIz/ZjM0NS5qcGc.jpg"
-    },
-    {
-      "showId": "etw",
-      "showName": "声东击西",
-      "category": "zh",
-      "title": "#388 从铁路大亨到科技巨头：镀金时代的喧嚣与困境，正在重演吗？",
-      "link": "https://etw.fm/2209",
-      "pubDate": "2026-05-14T08:00:00.000Z",
-      "duration": "1:03:14",
-      "summary": "铁路、钢铁、石油 —— 150年前，一批工业大亨用这些东西重塑了美国。今天，换成了算法、平台和 AI，历史的剧情，是否真的在重演？ 19 世纪末，跨大陆铁路的出现彻底改变了美国：统一的市场、标准时区、现代公司制度、金融市场的崛起，还有财富向少数人的剧烈集中。那是一个被称为「镀金时代」的年代 —— 表面金光闪闪，内里却也有赤裸裸的政商勾连、劳工剥削，以及一场迟来的社会反弹。它最终推动了反垄断立法、参",
-      "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
     },
     {
       "showId": "talksat",
