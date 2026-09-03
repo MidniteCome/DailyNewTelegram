@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-09-03T12:12:34.295Z",
+    "updatedAt": "2026-09-03T17:43:23.496Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -165,6 +165,17 @@
   ],
   "episodes": [
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2549 - Jared Diamond",
+      "link": "https://traffic.megaphone.fm/GLT3310404935.mp3",
+      "pubDate": "2026-09-03T17:00:00.000Z",
+      "duration": "9254",
+      "summary": "Jared Diamond, PhD, is a professor, scientist, historian, and author of several books, including “Guns, Germs, and Steel,” “Collapse,” and “Why Is Sex Fun?” His latest book, “Profits, Prophets, Coache",
+      "art": "https://megaphone.imgix.net/podcasts/97b946a8-a725-11f1-b1c6-fb57637e3c16/image/8e1807c0317248abb2a18138102353db.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -194,7 +205,7 @@
       "link": "https://www.npr.org/2026/09/03/nx-s1-5954516/does-planet-moneys-game-pass-the-shelf-test-we-go-undercover-to-find-out",
       "pubDate": "2026-09-03T07:00:00.000Z",
       "duration": "592",
-      "summary": "We go undercover at a big box store for an inside look at the secret shelf tes the makers of Exploding Kittens use for their hit games. Fact checking by Sierra Juarez . Your Next Listen — Who decides ",
+      "summary": "We go undercover at a big box store for an inside look at the secret shelf test the makers of Exploding Kittens use for their hit games. Fact checking by Sierra Juarez . Your Next Listen — Who decides",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F59%2Fa8cdf28342a6917af70905110d8b%2F1e64dc6c-0d54-4845-94d3-6aa5677afb0d.jpg"
     },
     {
@@ -988,17 +999,6 @@
       "duration": "01:23:52",
       "summary": "- 导语 - 二十世纪初至三十年代，上海的电影业从早期放映逐渐走向繁荣。一群来自中南欧的「边缘外国人」率先在虹口经营影院，上海虹口的广东移民也成为最早一批中国电影观众；1921年的阎瑞生案，则意外推动了国产故事长片的真正起步。而在银幕之外，电影也在改变市民的娱乐生活，并不断进入城市的消防、治安与政治管理。租界社会的「边缘外国人」为何率先在虹口投资影院？最早一批中国电影观众为何多来自广东移民？192",
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
-    },
-    {
-      "showId": "jre",
-      "showName": "Joe Rogan Experience",
-      "category": "general",
-      "title": "#2536 - Eric Goode & Jeremy McBride",
-      "link": "https://traffic.megaphone.fm/GLT1902969569.mp3",
-      "pubDate": "2026-08-06T17:00:00.000Z",
-      "duration": "8503",
-      "summary": "Eric Goode and Jeremy McBride are filmmakers whose work includes \"Tiger King,\" \"Chimp Crazy,\" and \"Monsters of God,\" now available on HBO and HBO Max.https://www.hbomax.com/shows/monsters-of-god/d779b",
-      "art": "https://megaphone.imgix.net/podcasts/0d4cb1e8-9123-11f1-be7f-477c38b7e87e/image/26e80912c71ad40dbd609eefcd958855.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
