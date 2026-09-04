@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-09-04T12:13:29.918Z",
+    "updatedAt": "2026-09-04T17:30:31.049Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,17 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "indicator",
+      "showName": "The Indicator",
+      "category": "macro",
+      "title": "Are job hoppers better at their jobs?",
+      "link": "https://www.npr.org/2026/09/04/nx-s1-5957370/are-job-hoppers-better-at-their-jobs",
+      "pubDate": "2026-09-04T14:30:29.000Z",
+      "duration": "568",
+      "summary": "People with jobs are not always eager to leave them … but there are exceptions. Call them job hoppers. While many employers look down on this sort of professional promiscuity, new research suggests th",
+      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3f%2Fa8%2F6ac9e2054b4fa3b2c572cccddf7b%2Fbf494e24-c68c-463a-b70a-442d7ba0396d.png"
+    },
     {
       "showId": "left-right",
       "showName": "忽左忽右",
@@ -812,17 +823,6 @@
       "duration": "00:54:15",
       "summary": "We’re in a really strange moment in the foreign policy politics of the Democratic Party. People are looking for an alternative vision — an approach to American power in the world that would feel more ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
-    },
-    {
-      "showId": "indicator",
-      "showName": "The Indicator",
-      "category": "macro",
-      "title": "Retiree benefits bump, credit repayment slump, and a dating app in the dumps",
-      "link": "https://www.npr.org/2026/08/14/nx-s1-5930683/retiree-benefits-bump-credit-repayment-slump-and-a-dating-app-in-the-dumps",
-      "pubDate": "2026-08-14T07:00:00.000Z",
-      "duration": "553",
-      "summary": "It’s Indicators of the Week! On today’s episode: Retirees get a bump in benefits; credit card debt delinquency at a historically high level; and the dating app Bumble on a serious decline — Men first!",
-      "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd0%2F18%2Fb66ed776475bb9d3ed091ec8aa6f%2F3351c905-aa74-480c-b72f-01536bfb3f17.png"
     },
     {
       "showId": "jre",
