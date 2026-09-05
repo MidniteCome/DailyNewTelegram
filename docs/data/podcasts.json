@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-09-04T21:57:56.794Z",
+    "updatedAt": "2026-09-05T11:21:33.315Z",
     "totalEpisodes": 180,
     "health": [
       {
@@ -164,6 +164,28 @@
     }
   ],
   "episodes": [
+    {
+      "showId": "20vc",
+      "showName": "20VC",
+      "category": "vc",
+      "title": "20VC: How to Build Your Own Data Center & Why Every Startup Should Do It | How ElevenLabs Leapfrogged Us: What I Learned | The AI Talent War: How Your Hiring Process Needs to Change with Cliff Weitzman, Speechify",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-how-to-build-your-own-data-center-why-every-startup-should-do-it-how-elevenlabs-leapfrogged-us-what-i-learned-the-ai-talent-war-how-your-hiring-process-needs-to-change-with-cliff-weitzman-speechify",
+      "pubDate": "2026-09-05T07:07:00.000Z",
+      "duration": "01:05:13",
+      "summary": "Cliff Weitzman is the co-founder and CEO of Speechify, the world's leading AI voice and text-to-speech platform, used by more than 60 million people globally. Diagnosed with dyslexia as a child, Cliff",
+      "art": "https://static.libsyn.com/p/assets/b/a/2/4/ba245dc05ba2c537d959afa2a1bf1c87/WhatsApp_Image_2026-09-04_at_18.59.30.jpeg"
+    },
+    {
+      "showId": "allin",
+      "showName": "All-In",
+      "category": "tech",
+      "title": "GPT-6 Hits AGI? Tech Euphoria 2.0, SF Mansion Shortage, NYC Bans AI in Schools & Venezuela Oil Deal",
+      "link": "https://allinchamathjason.libsyn.com/gpt-6-hits-agi-tech-euphoria-20-sf-mansion-shortage-nyc-bans-ai-in-schools-venezuela-oil-deal",
+      "pubDate": "2026-09-04T23:10:00.000Z",
+      "duration": "01:31:56",
+      "summary": "(0:00) Bestie intros: Happy 50th Chamath! (1:17) OpenAI releases GPT-6 Astra: Have they reached AGI? (19:01) All-In Summit: Scholarships available! (19:56) Dwarkesh's Hugging Face hack article sparks ",
+      "art": "https://static.libsyn.com/p/assets/4/7/3/6/4736eed890afc15ed959afa2a1bf1c87/1_Pod_E288.png"
+    },
     {
       "showId": "indicator",
       "showName": "The Indicator",
@@ -611,7 +633,7 @@
       "title": "The China Shock 2.0",
       "link": "https://www.nytimes.com/2026/08/21/opinion/ezra-klein-podcast-brad-setser.html",
       "pubDate": "2026-08-21T09:00:00.000Z",
-      "duration": "01:05:30",
+      "duration": "01:05:33",
       "summary": "Brad Setser follows Chinese trade closer than just about anyone else on earth, and he thinks we’re in the early days of a China Shock 2.0. The first China Shock was when China came to dominate low-end",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
@@ -1100,17 +1122,6 @@
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
     },
     {
-      "showId": "20vc",
-      "showName": "20VC",
-      "category": "vc",
-      "title": "20VC: The Best AI Companies Have Unique Data Acquisition Strategies | Will Simile Kill Kalshi, Polymarkets and NASDAQ | How to Sign Fortune 500 Companies As Customers in Weeks with Joon Sung Park, Simile",
-      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-best-ai-companies-have-unique-data-acquisition-strategies-will-simile-kill-kalshi-polymarkets-and-nasdaq-how-to-sign-fortune-500-companies-as-customers-in-weeks-with-joon-sung-park-simile",
-      "pubDate": "2026-08-01T07:07:00.000Z",
-      "duration": "01:03:41",
-      "summary": "Joon Sung Park is the Founder and CEO of Simile, the AI simulation company building foundation models of human behaviour; allowing companies to test how real people may think, decide and act before ma",
-      "art": "https://static.libsyn.com/p/assets/8/c/a/6/8ca6739fec2c275f16c3140a3186d450/WhatsApp_Image_2026-07-30_at_17.13.21.jpeg"
-    },
-    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -1329,17 +1340,6 @@
       "duration": "52:06",
       "summary": "特朗普政府收紧移民政策、暂停难民接收后，南非白人却成了少数例外：一些人以「难民」身份进入美国，另一些人拿着农业签证，来到密西西比的农场工作。为什么偏偏是他们？ 今年 4 月，刘骁骞前往密西西比州中部的农业地区。在黄昏的加油站和餐馆里，穿着卡其色短裤的南非白人劳工陆续出现，聚在吧台旁喝酒；有人从早上 6 点工作到晚上 8 点，握手时指甲缝里还沾满泥土。更高的收入之外，围绕本地就业、工资差异和种族问题",
       "art": "https://media24.fireside.fm/file/fireside-images-2024/podcasts/images/8/8dd8a56f-9636-415a-8c00-f9ca6778e511/cover.jpg?v=4"
-    },
-    {
-      "showId": "allin",
-      "showName": "All-In",
-      "category": "tech",
-      "title": "Former Intel CEO on What Went Wrong, What's Next + Lovable CEO on the Real Promise of Vibe Coding",
-      "link": "https://allinchamathjason.libsyn.com/former-intel-ceo-on-what-went-wrong-whats-next-lovable-ceo-on-the-real-promise-of-vibe-coding",
-      "pubDate": "2026-07-15T20:55:00.000Z",
-      "duration": "49:44",
-      "summary": "(0:00) Former Intel CEO Pat Gelsinger joins Jason! (1:41) What Went Wrong at Intel (15:19) Why a Taiwan Blockade Would Cripple the US Economy (25:00) Lovable's Anton Osika: One Million New Apps a Week",
-      "art": "https://static.libsyn.com/p/assets/c/a/6/d/ca6d45b31e10bd7516c3140a3186d450/1_Pod_Paris_2.png"
     },
     {
       "showId": "ezraklein",
