@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-09-05T21:48:31.157Z",
-    "totalEpisodes": 165,
+    "updatedAt": "2026-09-06T11:43:36.516Z",
+    "totalEpisodes": 180,
     "health": [
       {
         "id": "20vc",
@@ -18,8 +18,8 @@
       {
         "id": "jre",
         "name": "Joe Rogan Experience",
-        "ok": false,
-        "error": "所有源均失败"
+        "ok": true,
+        "count": 15
       },
       {
         "id": "indicator",
@@ -96,7 +96,7 @@
       "id": "jre",
       "name": "Joe Rogan Experience",
       "category": "general",
-      "art": null,
+      "art": "https://megaphone.imgix.net/podcasts/8e5bcebc-ca16-11ee-89f0-0fa0b9bdfc7c/image/44a67bcc8eafc1e9e5a834234176f4c4.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
       "link": "https://feeds.megaphone.fm/GLT1412515089"
     },
     {
@@ -209,6 +209,17 @@
       "art": "https://image.xyzcdn.net/FrYMqb37Wg_LA8aenDJJ8SFGsjea"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2549 - Jared Diamond",
+      "link": "https://traffic.megaphone.fm/GLT3310404935.mp3",
+      "pubDate": "2026-09-03T17:00:00.000Z",
+      "duration": "9254",
+      "summary": "Jared Diamond, PhD, is a professor, scientist, historian, and author of several books, including “Guns, Germs, and Steel,” “Collapse,” and “Why Is Sex Fun?” His latest book, “Profits, Prophets, Coache",
+      "art": "https://megaphone.imgix.net/podcasts/97b946a8-a725-11f1-b1c6-fb57637e3c16/image/8e1807c0317248abb2a18138102353db.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -242,6 +253,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fc3%2F59%2Fa8cdf28342a6917af70905110d8b%2F1e64dc6c-0d54-4845-94d3-6aa5677afb0d.jpg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #185 with Ethyn Ewing",
+      "link": "https://traffic.megaphone.fm/GLT6785965754.mp3",
+      "pubDate": "2026-09-02T17:00:00.000Z",
+      "duration": "9756",
+      "summary": "Joe sits down with Ethyn Ewing, a professional mixed martial artist competing in the UFC’s bantamweight division.www.professorfinessermma.com Learn more about your ad choices. Visit podcastchoices.com",
+      "art": "https://megaphone.imgix.net/podcasts/2f848f20-a658-11f1-ae00-9f0126f17601/image/5ed2ccde32aea065fcc54c64955c9954.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -251,6 +273,17 @@
       "duration": "515",
       "summary": "Why are more than half of Gen Zers using investment dollars for sports gambling? It’s been eight years since sports betting became widely legal. Today we look at its impact on a new generation of spor",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F9d%2Fdf%2F90be1839454db0a1d8b5b7bda45b%2F3f8c2b87-bb7d-47f5-91bd-8a06860ddc2f.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2548 - Brian Simpson",
+      "link": "https://traffic.megaphone.fm/GLT1161328740.mp3",
+      "pubDate": "2026-09-01T17:00:00.000Z",
+      "duration": "10196",
+      "summary": "Brian Simpson is a comedian, writer, host of the “Bottom of the Barrel” comedy show at the Comedy Mothership, and host of the podcast “BS with Brian Simpson.” His special “Live from the Mothership” is",
+      "art": "https://megaphone.imgix.net/podcasts/b401b5a8-a594-11f1-a46b-ebbce54c9d78/image/5931d8637c86c925004075567f58460a.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "left-right",
@@ -385,6 +418,17 @@
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2547 - Daniel Everett",
+      "link": "https://traffic.megaphone.fm/GLT8609844651.mp3",
+      "pubDate": "2026-08-27T17:00:00.000Z",
+      "duration": "9828",
+      "summary": "Daniel Everett, PhD, is a linguist and college professor. He is the author of several books, including “Don’t Sleep, There Are Snakes: Life and Language in the Amazonian Jungle” and “How Language Bega",
+      "art": "https://megaphone.imgix.net/podcasts/9e1fb742-a1b8-11f1-9e55-d7d5779b3db3/image/e3460a17d2b2421865c0453441ab5b1f.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -440,6 +484,17 @@
       "art": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2546 - Michael Button",
+      "link": "https://traffic.megaphone.fm/GLT5185167681.mp3",
+      "pubDate": "2026-08-26T17:00:00.000Z",
+      "duration": "9468",
+      "summary": "Michael Button is a YouTuber who explores ancient mysteries, lost history, and societal collapse.https://michaelbutton.substack.comhttps://www.youtube.com/@MichaelButton1 Perplexity: Download the app ",
+      "art": "https://megaphone.imgix.net/podcasts/7c0a5244-a0db-11f1-bbe3-13e22537d5bb/image/ef3a034ce674226f82feecd9b537aa83.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -449,6 +504,17 @@
       "duration": "556",
       "summary": "Medicare for All could save the U.S. trillions… or maybe way less than that? In our second episode on Medicare for All, we look at the convoluted figures behind the hot political topic. We hear direct",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fcb%2F69%2Ff7a47345454cb8a611950cf9b04d%2Fefc1e629-3da5-42b6-8a49-7a2869ff74c6.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2545 - Jesse Michels",
+      "link": "https://traffic.megaphone.fm/GLT5434878204.mp3",
+      "pubDate": "2026-08-25T17:00:00.000Z",
+      "duration": "11349",
+      "summary": "Jesse Michels is the creator and host of \"American Alchemy,\" a YouTube series exploring controversial topics in science and culture through longform interviews.www.youtube.com/@JesseMichelswww.patreon",
+      "art": "https://megaphone.imgix.net/podcasts/fc78372e-a00f-11f1-b4a6-67ef23d80453/image/e29f688a4586d2fb4d868993a074e1fe.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -528,6 +594,17 @@
       "art": "https://static.libsyn.com/p/assets/6/e/0/3/6e031e2ebd85a12216c3140a3186d450/WhatsApp_Image_2026-08-21_at_14.10.03.jpeg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2544 - Chris Williamson",
+      "link": "https://traffic.megaphone.fm/GLT2614437585.mp3",
+      "pubDate": "2026-08-21T17:00:00.000Z",
+      "duration": "10835",
+      "summary": "Chris Williamson is the host of the \"Modern Wisdom\" podcast. See him live on select dates throughout the United Kingdom. https://chriswillx.com/modernwisdom https://www.youtube.com/@ChrisWillx Perplex",
+      "art": "https://megaphone.imgix.net/podcasts/53c84ccc-9d0d-11f1-8f63-4b10cab2daaa/image/c84377bc4aec898aee2c14d018330288.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "allin",
       "showName": "All-In",
       "category": "tech",
@@ -572,6 +649,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fbf%2Fff%2Fb31217684f329543b52051ddf992%2Ffcaa24a3-0187-493e-9495-2fa22df110e7.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2543 - MrBallen",
+      "link": "https://traffic.megaphone.fm/GLT9789891628.mp3",
+      "pubDate": "2026-08-20T17:00:00.000Z",
+      "duration": "10937",
+      "summary": "John B. Allen (\"MrBallen\") is a former U.S. Navy SEAL, founder of Ballen Studios, and creator and host of the popular podcast \"MrBallen Podcast: Strange, Dark & Mysterious Stories.\" His latest graphic",
+      "art": "https://megaphone.imgix.net/podcasts/bd78a8a0-9c28-11f1-b11e-ef9789715e8e/image/d49830348c14609fff882d168231df27.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "etw",
       "showName": "声东击西",
       "category": "zh",
@@ -605,6 +693,17 @@
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3000x3000+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Ff8%2Fe0%2F951860b54fca98c0f967d267e11b%2F2329bd70-d67f-4936-8369-e752aafa65c3.jpg"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2542 - Steve Hilton",
+      "link": "https://traffic.megaphone.fm/GLT6487899018.mp3",
+      "pubDate": "2026-08-19T17:00:00.000Z",
+      "duration": "11132",
+      "summary": "Steve Hilton is a businessman, political commentator, author, and Republican candidate for governor of California. www.youtube.com/@stevehiltonxwww.stevehiltonforgovernor.com Perplexity: Download the ",
+      "art": "https://megaphone.imgix.net/podcasts/d0eed536-9b6e-11f1-91e1-87ba07d621a5/image/fdd7aa7699d5f97339dd75917ef489f0.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "indicator",
       "showName": "The Indicator",
       "category": "macro",
@@ -614,6 +713,17 @@
       "duration": "569",
       "summary": "The best manager isn’t necessarily the best employee. Turns out it isn't so easy to predict what DOES make a good manager. Today on the show, we turn to science to help answer that very question. Fact",
       "art": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/1900x1900+0+0/resize/3000/quality/66/format/jpg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F82%2F2f%2Fb6cd3a124775bacbeab679a0dd9c%2F65ba21d0-43e6-4259-8d51-00de355efec5.jpg"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2541 - Thomas Campbell",
+      "link": "https://traffic.megaphone.fm/GLT7603949559.mp3",
+      "pubDate": "2026-08-18T17:00:00.000Z",
+      "duration": "10382",
+      "summary": "Thomas Campbell is a physicist, consciousness researcher, and author of the \"My Big TOE\" trilogy. www.youtube.com/@twcjr44 www.my-big-toe.com Perplexity: Download the app or ask Perplexity anything at",
+      "art": "https://megaphone.imgix.net/podcasts/792ba37c-9a99-11f1-802d-6faff96a5ef8/image/28569fa50040498b8dc3ec71e0962139.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -704,6 +814,17 @@
       "art": "https://static.libsyn.com/p/assets/d/0/5/8/d05879b603142d78d959afa2a1bf1c87/1_Pod_E285.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2540 - Travis Barker",
+      "link": "https://traffic.megaphone.fm/GLT5593509812.mp3",
+      "pubDate": "2026-08-14T17:00:00.000Z",
+      "duration": "9381",
+      "summary": "Travis Barker is a musician, songwriter, producer, entrepreneur, and drummer for Blink-182. He is the subject of the documentary \"Travis Barker: Louder Than Fear,\" which premieres August 13 on Hulu an",
+      "art": "https://megaphone.imgix.net/podcasts/b5568610-9764-11f1-8761-4370c8a2da8b/image/8e8868a3d2a847122f1f4b341c224283.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "left-right",
       "showName": "忽左忽右",
       "category": "zh",
@@ -724,6 +845,17 @@
       "duration": "00:54:15",
       "summary": "We’re in a really strange moment in the foreign policy politics of the Democratic Party. People are looking for an alternative vision — an approach to American power in the world that would feel more ",
       "art": "https://image.simplecastcdn.com/images/47913775-afcf-4643-935f-31f1dcc86cfb/6a0e5e15-04a3-47c8-9c50-2f2fe8e84437/3000x3000/teks-album-20art-3000px.jpg?aid=rss_feed"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2539 - Protect Our Parks 17",
+      "link": "https://traffic.megaphone.fm/GLT2831972716.mp3",
+      "pubDate": "2026-08-13T17:00:00.000Z",
+      "duration": "16470",
+      "summary": "Shane Gillis, Mark Normand, and Ari Shaffir are comedians, writers, and podcasters.Shane Gillis is the co-host of \"Matt and Shane's Secret Podcast,\" creator and star of Netflix's comedy series \"Tires,",
+      "art": "https://megaphone.imgix.net/podcasts/a3aee712-96bb-11f1-807f-c72272cb9884/image/0bc2fc36526436e42d74dee9a06ad1e3.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "etw",
@@ -759,6 +891,17 @@
       "art": "https://static.libsyn.com/p/assets/c/7/8/3/c783805001ad85e616c3140a3186d450/1_Pod_Rahm.png"
     },
     {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2538 - Joe DeRosa",
+      "link": "https://traffic.megaphone.fm/GLT1242550719.mp3",
+      "pubDate": "2026-08-12T17:00:00.000Z",
+      "duration": "10047",
+      "summary": "Joe DeRosa is a comedian, actor, musician, restaurateur, and host of the \"Vile and Horrendous\" podcast. His latest special, \"I Never Promised You a Rose Garden,\" is now streaming on Netflix. www.youtu",
+      "art": "https://megaphone.imgix.net/podcasts/22233586-966b-11f1-8f2f-03112136bec0/image/46c5a7c092e94e1f6f989ff752de3211.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
+    },
+    {
       "showId": "lexfridman",
       "showName": "Lex Fridman Podcast",
       "category": "tech",
@@ -779,6 +922,17 @@
       "duration": "00:59:06",
       "summary": "【主播的话】 2025 年，一位以公共报道著称的华人记者，突然把笔调转向了自己的家。 记者谭蕙芸，曾在新闻业里追问外部世界的真相，教学生如何采访弱势社群。可她自己的家中，一直藏着一个不能言说的秘密。她的哥哥，那位被寄予最高期望的长子长孙，青少年时期被情绪问题困扰。全家从香港移民到加拿大后，在\"家丑不可外扬\"的家风影响下，未能持续就医，就这样被隐去了三十年，失去机会建立成年人的独立生活和自理能力。 ",
       "art": "https://image.xyzcdn.net/Fq-ccfNzhgTqQNzlG-1qA_jOow7l.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "JRE MMA Show #184 with Aljamain Sterling",
+      "link": "https://traffic.megaphone.fm/GLT9611837612.mp3",
+      "pubDate": "2026-08-11T17:00:00.000Z",
+      "duration": "10507",
+      "summary": "Joe sits down with professional mixed martial artist Aljamain Sterling, who currently competes in the Ultimate Fighting Championship's Featherweight division. He is the host of the \"Weekly Scraps\" pod",
+      "art": "https://megaphone.imgix.net/podcasts/99c85bdc-9523-11f1-8cce-6b6deb9f7357/image/2ae94d7b584e123b8a465fcc5a1f881c.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
@@ -845,6 +999,17 @@
       "duration": "01:15:18",
       "summary": "(0:00) Bestie intros! Brad Gerstner fills in for Chamath (2:16) Major shakeups at Google: AI brain drain or better strategy? (20:39) SpaceX's big quarter: Terafab, AI Capex, $1T revenue projection? (4",
       "art": "https://static.libsyn.com/p/assets/9/e/9/6/9e9643601e425587d959afa2a1bf1c87/1_Pod_E284.png"
+    },
+    {
+      "showId": "jre",
+      "showName": "Joe Rogan Experience",
+      "category": "general",
+      "title": "#2537 - David Sinclair",
+      "link": "https://traffic.megaphone.fm/GLT1521681560.mp3",
+      "pubDate": "2026-08-07T17:00:00.000Z",
+      "duration": "9037",
+      "summary": "David Sinclair, AO, PhD, is a longevity scientist, Professor of Genetics at Harvard Medical School, author of the book \"Lifespan: Why We Age—and Why We Don't Have To,\" and host of the \"Lifespan\" podca",
+      "art": "https://megaphone.imgix.net/podcasts/16d5d7dc-91ee-11f1-bdcf-df9a64476d59/image/33b2538a59583328a79e1576b99e251e.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress"
     },
     {
       "showId": "ezraklein",
